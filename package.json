@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "inspect": "npx tsc src/inspect.ts && node src/inspect.js"
+    "inspect": "npx tsc && node out/inspect.js"
   },
   "devDependencies": {
+    "@types/node": "^18.15.5",
     "typescript": "^5.0.2"
   }
 }
