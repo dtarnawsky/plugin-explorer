@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "inspect": "npx tsc src/inspect.ts && node src/inspect.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
