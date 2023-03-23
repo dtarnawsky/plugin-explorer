@@ -1,0 +1,9 @@
+{
+  "name": "@capacitor/text-zoom",
+  "version": "4.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}
