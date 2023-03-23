@@ -1,0 +1,3 @@
+@capacitor/action-sheet
+@capacitor/app-launcher
+@capacitor/browser

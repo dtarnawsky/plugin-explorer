@@ -1,4 +1,4 @@
-import { writeFileSync } from 'fs';
+import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { Inspection, Test } from './inspection';
 
@@ -14,5 +14,17 @@ export function writeErrorLog(name: string, version: string, test: Test, error: 
     console.log(error);
     const filename = join('data', `${encodeURIComponent(name)}-${test}.txt`);
     writeFileSync(filename, error);
+}
 
+export function writePluginList(name: string) {
+    const filename = join('data', `plugins.txt`);
+    let lines: string[] = [];
+    if (existsSync(filename)) {
+        lines = readFileSync(filename, 'utf-8').split('\n');
+    }
+    if (!lines.includes(name)) {
+       lines.push(name);
+    }
+    lines.sort();
+    writeFileSync(filename, lines.join('\n'));
 }
