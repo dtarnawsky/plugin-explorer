@@ -25,8 +25,9 @@ async function prepareProject(dep: string, folder: string, result: Inspection): 
         result.version = v.replace('\n', '');
         await runAll([
             'npm i',
-            `npm i ${dep}@${result.version}`,
+            `npm i ${dep}@${result.version} --save-dev`,
             'npx ionic build --prod',
+            'npx cap sync',
         ], folder);
     } catch (e) {
         console.error(`Failed preparation of ${folder} for ${dep}`);
