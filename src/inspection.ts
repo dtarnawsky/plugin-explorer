@@ -1,10 +1,11 @@
 export interface Inspection {
     name: string,
     version: string,
-    platforms: Platform[]
+    success: Test[],
+    fails: Test[]
 }
 
-export enum Platform {
+export enum Test {
     capacitorIos4 = 'capacitor-ios-4',
     capacitorAndroid4 = 'capacitor-android-4'
 }

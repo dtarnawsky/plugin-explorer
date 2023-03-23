@@ -1,0 +1,4 @@
+✔ Running Gradle build in 1.46s
+✖ Signing Release - failed!
+[error] jarsigner error: java.lang.RuntimeException: keystore load: /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/keys/Untitled (No such file or directory)
+        

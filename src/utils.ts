@@ -9,8 +9,7 @@ export async function runAll(commands: string[], folder: string): Promise<string
       step++;
     } catch (error) {
       console.error(`Failed to run ${command}`, error);
-      throw new Error(
-        JSON.stringify({ step, message: `Failed to run ${command}` }));
+      throw error;
     }
   }
   return result;
@@ -32,8 +31,7 @@ export async function run(command: string, folder: string): Promise<string> {
           console.error(stdError);
           reject(stdError);
         } else {
-          // This is to fix a bug in npm outdated where it returns an exit code when it succeeds
-          resolve(out);
+          reject(out);
         }
       }
     });
