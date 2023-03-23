@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-ionic-keyboard",
+  "version": "2.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

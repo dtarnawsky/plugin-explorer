@@ -79,3 +79,9 @@ npm run inspect-all
 It will test again a sample project for:
 - [Capacitor 4](https://github.com/dtarnawsky/plugin-test-capacitor-4)
 - TBA
+
+# Roadmap
+- Combine into index.json files
+- Have a known list of exceptions: eg cordova-plugin-ionic-webview should not be used with Capacitor
+- Known list of tags to add to a plugin
+- 
