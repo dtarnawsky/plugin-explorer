@@ -1,0 +1,260 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-community-sqlite:preBuild UP-TO-DATE
+        > Task :capacitor-community-sqlite:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-community-sqlite:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues UP-TO-DATE
+        > Task :app:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-android:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-android:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-app:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-app:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-community-sqlite:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-community-sqlite:generateReleaseResValues
+        > Task :capacitor-community-sqlite:generateReleaseResources
+        > Task :capacitor-community-sqlite:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
+        > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+        > Task :app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-android:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-android:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-app:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-community-sqlite:extractDeepLinksRelease
+        > Task :capacitor-community-sqlite:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-haptics:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-keyboard:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-keyboard:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-status-bar:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-community-sqlite:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-android:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-android:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-app:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-app:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-app:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-app:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-haptics:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-haptics:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-keyboard:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-keyboard:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-status-bar:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-status-bar:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-community-sqlite:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-community-sqlite:generateReleaseBuildConfig
+        > Task :capacitor-community-sqlite:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-community-sqlite:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-community-sqlite:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-community-sqlite:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-community-sqlite:bundleLibRuntimeToJarRelease
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig UP-TO-DATE
+        > Task :app:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-community-sqlite:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-status-bar:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-app:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        > Task :capacitor-community-sqlite:bundleLibCompileToJarRelease
+        > Task :app:desugarReleaseFileDependencies
+        > Task :app:checkReleaseAarMetadata FAILED
+        > Task :app:processReleaseManifestForPackage
+        > Task :app:mergeExtDexRelease
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:checkReleaseAarMetadata'.
+        > A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+        > 4 issues were found when checking AAR metadata:
+        
+        1.  Dependency 'androidx.room:room-runtime:2.5.0' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        2.  Dependency 'androidx.sqlite:sqlite-framework:2.3.0' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        3.  Dependency 'androidx.sqlite:sqlite:2.3.0' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        4.  Dependency 'androidx.security:security-crypto:1.1.0-alpha05' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 11s
+        107 actionable tasks: 37 executed, 70 up-to-date
+        

@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-splashscreen",
+  "version": "6.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

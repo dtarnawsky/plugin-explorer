@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-inappbrowser",
+  "version": "5.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}
