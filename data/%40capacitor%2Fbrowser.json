@@ -1,0 +1,7 @@
+{
+  "name": "@capacitor/browser",
+  "version": "4.1.1",
+  "platforms": [
+    "capacitor-ios-4"
+  ]
+}

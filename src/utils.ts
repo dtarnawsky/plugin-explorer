@@ -5,7 +5,7 @@ export async function runAll(commands: string[], folder: string): Promise<string
   let step = 0;
   for (const command of commands) {
     try {
-      result += await getRunOutput(command, folder);
+      result += await run(command, folder);
       step++;
     } catch (error) {
       console.error(`Failed to run ${command}`, error);
@@ -16,7 +16,7 @@ export async function runAll(commands: string[], folder: string): Promise<string
   return result;
 }
 
-export async function getRunOutput(command: string, folder: string): Promise<string> {
+export async function run(command: string, folder: string): Promise<string> {
   return new Promise((resolve, reject) => {
     let out = '';
     console.log(`${folder}> ${command}`);

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "inspect": "npx tsc && node out/inspect.js"
+    "inspect": "npx tsc && node out/index.js @capacitor/browser"
   },
   "devDependencies": {
     "@types/node": "^18.15.5",
