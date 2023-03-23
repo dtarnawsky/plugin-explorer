@@ -67,3 +67,15 @@ A separate project can provide a web app to search and use the index:
 - You can choose if your project is Capacitor or Cordova
 - Should a count of plugins compatible with Cordova/Capacitor
 
+# Progress
+
+This will now test plugins for iOS and Android.
+
+To run the test on all plugins listed in `data/plugins.txt`:
+```shell
+npm run inspect-all
+```
+
+It will test again a sample project for:
+- [Capacitor 4](https://github.com/dtarnawsky/plugin-test-capacitor-4)
+- TBA
