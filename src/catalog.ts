@@ -28,3 +28,12 @@ export function writePluginList(name: string) {
     lines.sort();
     writeFileSync(filename, lines.join('\n'));
 }
+
+export function readPluginList(): string[] {
+    const filename = join('data', `plugins.txt`);
+    let lines: string[] = [];
+    if (existsSync(filename)) {
+        lines = readFileSync(filename, 'utf-8').split('\n');
+    }
+    return lines;
+}

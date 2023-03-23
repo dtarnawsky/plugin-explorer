@@ -1,11 +1,17 @@
 import { inspect } from './inspect';
-import { catalog, writePluginList } from './catalog';
+import { catalog, readPluginList, writePluginList } from './catalog';
 
 const dep = process.argv[2];
-go();
+if (dep == 'all') {
+    go(readPluginList());
+} else {
+    go([dep]);
+}
 
-async function go() {
-    const inspection = await inspect(dep);
-    catalog(inspection);
-    writePluginList(inspection.name);
+async function go(deps: string[]) {
+    for (const dep of deps) {
+        const inspection = await inspect(dep);
+        catalog(inspection);
+        writePluginList(inspection.name);
+    }
 }
