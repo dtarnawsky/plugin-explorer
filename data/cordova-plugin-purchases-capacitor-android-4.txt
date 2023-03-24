@@ -1,0 +1,655 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues UP-TO-DATE
+        > Task :app:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-android:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-android:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-app:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-app:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
+        > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+        > Task :app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-android:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-android:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-app:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-haptics:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-keyboard:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-keyboard:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-status-bar:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-android:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-android:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-app:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-app:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-app:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-app:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-haptics:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-haptics:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-keyboard:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-keyboard:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-status-bar:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-status-bar:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig UP-TO-DATE
+        > Task :app:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-keyboard:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-app:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :app:checkReleaseAarMetadata
+        > Task :app:desugarReleaseFileDependencies
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:7: error: package com.appfeel.cordova.annotated.android.plugin does not exist
+        import com.appfeel.cordova.annotated.android.plugin.AnnotatedCordovaPlugin;
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:8: error: package com.appfeel.cordova.annotated.android.plugin does not exist
+        import com.appfeel.cordova.annotated.android.plugin.ExecutionThread;
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:9: error: package com.appfeel.cordova.annotated.android.plugin does not exist
+        import com.appfeel.cordova.annotated.android.plugin.PluginAction;
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:33: error: cannot find symbol
+        public class PurchasesPlugin extends AnnotatedCordovaPlugin {
+        ^
+        symbol: class AnnotatedCordovaPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:42: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.MAIN, actionName = "configure", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:42: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.MAIN, actionName = "configure", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:55: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.MAIN, actionName = "setupDelegateCallback", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:55: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.MAIN, actionName = "setupDelegateCallback", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:70: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "getOfferings", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:70: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "getOfferings", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:75: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "getProducts", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:75: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "getProducts", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:103: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "purchaseProduct", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:103: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "purchaseProduct", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:116: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "purchasePackage", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:116: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "purchasePackage", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:131: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "syncPurchases")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:131: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "syncPurchases")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:137: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "syncObserverModeAmazonPurchase")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:137: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "syncObserverModeAmazonPurchase")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:153: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "getAppUserID", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:153: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "getAppUserID", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:158: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "restorePurchases", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:158: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "restorePurchases", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:163: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "logIn", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:163: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "logIn", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:168: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "logOut", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:168: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "logOut", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:173: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "getCustomerInfo", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:173: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "getCustomerInfo", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:179: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setDebugLogsEnabled")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:179: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setDebugLogsEnabled")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:185: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setLogLevel")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:185: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setLogLevel")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:191: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setLogHandler", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:191: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setLogHandler", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:205: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setSimulatesAskToBuyInSandbox")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:205: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setSimulatesAskToBuyInSandbox")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:210: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAutomaticAppleSearchAdsAttributionCollection")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:210: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAutomaticAppleSearchAdsAttributionCollection")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:215: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "enableAdServicesAttributionTokenCollection")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:215: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "enableAdServicesAttributionTokenCollection")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:220: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setupShouldPurchasePromoProductCallback")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:220: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setupShouldPurchasePromoProductCallback")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:225: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "isAnonymous")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:225: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "isAnonymous")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:230: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "checkTrialOrIntroductoryPriceEligibility", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:230: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "checkTrialOrIntroductoryPriceEligibility", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:244: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "invalidateCustomerInfoCache")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:244: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "invalidateCustomerInfoCache")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:250: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "setProxyURLString")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:250: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "setProxyURLString")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:256: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "canMakePayments", isAutofinish = false)
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:256: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.UI, actionName = "canMakePayments", isAutofinish = false)
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:287: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAttributes")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:287: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAttributes")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:293: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setEmail")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:293: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setEmail")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:299: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setPhoneNumber")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:299: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setPhoneNumber")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:305: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setDisplayName")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:305: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setDisplayName")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:311: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setPushToken")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:311: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setPushToken")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:317: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAdjustID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:317: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAdjustID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:323: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAppsflyerID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:323: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAppsflyerID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:329: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setFBAnonymousID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:329: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setFBAnonymousID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:335: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setMparticleID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:335: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setMparticleID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:341: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setOnesignalID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:341: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setOnesignalID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:347: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAirshipChannelID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:347: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAirshipChannelID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:353: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setMediaSource")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:353: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setMediaSource")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:359: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setFirebaseAppInstanceID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:359: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setFirebaseAppInstanceID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:365: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setMixpanelDistinctID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:365: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setMixpanelDistinctID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:371: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setCleverTapID")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:371: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setCleverTapID")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:377: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setCampaign")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:377: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setCampaign")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:383: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAdGroup")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:383: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAdGroup")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:389: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAd")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:389: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setAd")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:395: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setKeyword")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:395: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setKeyword")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:401: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setCreative")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:401: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "setCreative")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:407: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "collectDeviceIdentifiers")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:407: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "collectDeviceIdentifiers")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:413: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "presentCodeRedemptionSheet")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:413: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "presentCodeRedemptionSheet")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:419: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "beginRefundRequestForActiveEntitlement")
+        ^
+        symbol:   class PluginAction
+        location: class PurchasesPlugin
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:419: error: cannot find symbol
+        @PluginAction(thread = ExecutionThread.WORKER, actionName = "beginRefundRequestForActiveEntitlement")
+        ^
+        symbol:   variable ExecutionThread
+        location: class PurchasesPlugin
+        Note: /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java uses unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        100 errors
+        
+        > Task :app:processReleaseManifestForPackage
+        > Task :app:bundleReleaseResources
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 3s
+        91 actionable tasks: 21 executed, 70 up-to-date
+        

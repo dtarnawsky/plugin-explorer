@@ -1,0 +1,9 @@
+{
+  "name": "cordova-annotated-plugin-android",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}
