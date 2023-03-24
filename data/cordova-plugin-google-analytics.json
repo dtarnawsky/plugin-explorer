@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-google-analytics",
+  "version": "1.9.2",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

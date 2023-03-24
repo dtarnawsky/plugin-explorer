@@ -1,0 +1,9 @@
+{
+  "name": "@capgo/capacitor-updater",
+  "version": "4.17.47",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

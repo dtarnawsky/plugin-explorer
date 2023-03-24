@@ -1,0 +1,33 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        strippedNativeLibsDir is deprecated and no longer used. Please remove it from your build configuration.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-firebasex/src/android/build.gradle' line: 21
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > No signature of method: build_43u64kpe9m3fvosadnet7ohqn.android() is applicable for argument types: (build_43u64kpe9m3fvosadnet7ohqn$_run_closure2) values: [build_43u64kpe9m3fvosadnet7ohqn$_run_closure2@7aed730e]
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        
+        You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+        
+        See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 6s
+        

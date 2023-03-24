@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-local-notification",
+  "version": "0.9.0-beta.2",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

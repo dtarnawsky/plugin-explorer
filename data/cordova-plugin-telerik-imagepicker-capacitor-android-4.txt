@@ -1,0 +1,443 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues UP-TO-DATE
+        > Task :app:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-android:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-android:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-app:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-app:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
+        > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+        > Task :app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-android:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-android:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-app:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-haptics:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-keyboard:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-keyboard:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-status-bar:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-android:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-android:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-app:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-app:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-app:javaPreCompileRelease UP-TO-DATE
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-haptics:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-haptics:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-keyboard:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-keyboard:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-status-bar:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-status-bar:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac UP-TO-DATE
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig UP-TO-DATE
+        > Task :app:javaPreCompileRelease UP-TO-DATE
+        > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-keyboard:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-status-bar:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-app:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :app:desugarReleaseFileDependencies
+        > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:mergeReleaseShaders UP-TO-DATE
+        > Task :app:compileReleaseShaders NO-SOURCE
+        > Task :app:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-android:mergeReleaseShaders UP-TO-DATE
+        > Task :capacitor-android:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-android:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-android:packageReleaseAssets UP-TO-DATE
+        > Task :capacitor-app:mergeReleaseShaders UP-TO-DATE
+        > Task :capacitor-app:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-app:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-app:packageReleaseAssets UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:mergeReleaseShaders
+        > Task :capacitor-cordova-android-plugins:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseAssets
+        > Task :capacitor-haptics:mergeReleaseShaders UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseAssets UP-TO-DATE
+        > Task :capacitor-keyboard:mergeReleaseShaders UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseAssets UP-TO-DATE
+        > Task :capacitor-status-bar:mergeReleaseShaders UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseAssets UP-TO-DATE
+        > Task :app:bundleReleaseResources
+        > Task :app:mergeExtDexRelease
+        > Task :app:mergeReleaseAssets
+        > Task :app:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-android:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-android:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-app:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-app:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-haptics:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-haptics:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-keyboard:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-keyboard:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-status-bar:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-status-bar:bundleLibResRelease NO-SOURCE
+        > Task :app:processReleaseManifestForPackage
+        > Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-android:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-android:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :capacitor-app:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-app:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-app:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:mergeReleaseJniLibFolders
+        > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-haptics:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-haptics:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-haptics:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :capacitor-keyboard:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-keyboard:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-keyboard:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :capacitor-status-bar:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-status-bar:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-status-bar:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :app:writeReleaseAppMetadata UP-TO-DATE
+        > Task :capacitor-android:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-app:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-haptics:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-keyboard:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-status-bar:prepareReleaseArtProfile UP-TO-DATE
+        > Task :app:mergeReleaseJavaResource
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/ImagePicker.java:23: error: cannot find symbol
+        import android.support.v4.app.ActivityCompat;
+        ^
+        symbol:   class ActivityCompat
+        location: package android.support.v4.app
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/ImagePicker.java:24: error: package android.support.v4.content does not exist
+        import android.support.v4.content.ContextCompat;
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:65: error: package android.support.v7.app does not exist
+        import android.support.v7.app.ActionBar;
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:66: error: package android.support.v7.app does not exist
+        import android.support.v7.app.AppCompatActivity;
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:81: error: cannot find symbol
+        public class MultiImageChooserActivity extends AppCompatActivity implements
+        ^
+        symbol: class AppCompatActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/ImagePicker.java:108: error: cannot find symbol
+        PackageManager.PERMISSION_GRANTED == ContextCompat.checkSelfPermission(this.cordova.getActivity(), Manifest.permission.READ_EXTERNAL_STORAGE);
+        ^
+        symbol:   variable ContextCompat
+        location: class ImagePicker
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/ImagePicker.java:114: error: cannot find symbol
+        ActivityCompat.requestPermissions(
+        ^
+        symbol:   variable ActivityCompat
+        location: class ImagePicker
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:126: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:128: error: cannot find symbol
+        super.onCreate(savedInstanceState);
+        ^
+        symbol:   variable super
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:129: error: no suitable constructor found for FakeR(MultiImageChooserActivity)
+        fakeR = new FakeR(this);
+        ^
+        constructor FakeR.FakeR(Activity) is not applicable
+        (argument mismatch; MultiImageChooserActivity cannot be converted to Activity)
+        constructor FakeR.FakeR(Context) is not applicable
+        (argument mismatch; MultiImageChooserActivity cannot be converted to Context)
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:130: error: cannot find symbol
+        setContentView(fakeR.getId("layout", "multiselectorgrid"));
+        ^
+        symbol:   method setContentView(int)
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:133: error: cannot find symbol
+        maxImages = getIntent().getIntExtra(MAX_IMAGES_KEY, NOLIMIT);
+        ^
+        symbol:   method getIntent()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:134: error: cannot find symbol
+        desiredWidth = getIntent().getIntExtra(WIDTH_KEY, 0);
+        ^
+        symbol:   method getIntent()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:135: error: cannot find symbol
+        desiredHeight = getIntent().getIntExtra(HEIGHT_KEY, 0);
+        ^
+        symbol:   method getIntent()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:136: error: cannot find symbol
+        quality = getIntent().getIntExtra(QUALITY_KEY, 0);
+        ^
+        symbol:   method getIntent()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:138: error: cannot find symbol
+        outputType = OutputType.fromValue(getIntent().getIntExtra(OUTPUT_TYPE_KEY, 0));
+        ^
+        symbol:   method getIntent()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:140: error: cannot find symbol
+        Display display = getWindowManager().getDefaultDisplay();
+        ^
+        symbol:   method getWindowManager()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:145: error: cannot find symbol
+        GridView gridView = (GridView) findViewById(fakeR.getId("id", "gridview"));
+        ^
+        symbol:   method findViewById(int)
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:177: error: cannot find symbol
+        getLoaderManager().initLoader(CURSORLOADER_THUMBS, null, this);
+        ^
+        symbol:   method getLoaderManager()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:178: error: cannot find symbol
+        getLoaderManager().initLoader(CURSORLOADER_REAL, null, this);
+        ^
+        symbol:   method getLoaderManager()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:181: error: incompatible types: MultiImageChooserActivity cannot be converted to Context
+        progress = new ProgressDialog(this);
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:182: error: cannot find symbol
+        progress.setTitle(getString(fakeR.getId("string", "multi_image_picker_processing_images_title")));
+        ^
+        symbol:   method getString(int)
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:183: error: cannot find symbol
+        progress.setMessage(getString(fakeR.getId("string", "multi_image_picker_processing_images_message")));
+        ^
+        symbol:   method getString(int)
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:199: error: incompatible types: MultiImageChooserActivity cannot be converted to Context
+        new AlertDialog.Builder(this)
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:200: error: cannot find symbol
+        .setTitle(String.format(getString(fakeR.getId("string", "max_count_photos_title")), maxImageCount))
+        ^
+        symbol:   method getString(int)
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:201: error: cannot find symbol
+        .setMessage(String.format(getString(fakeR.getId("string", "max_count_photos_message")), maxImageCount))
+        ^
+        symbol:   method getString(int)
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:262: error: incompatible types: MultiImageChooserActivity cannot be converted to Context
+        this,
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:308: error: cannot find symbol
+        setResult(RESULT_CANCELED);
+        ^
+        symbol:   variable RESULT_CANCELED
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:309: error: cannot find symbol
+        finish();
+        ^
+        symbol:   method finish()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:318: error: cannot find symbol
+        setResult(RESULT_CANCELED);
+        ^
+        symbol:   variable RESULT_CANCELED
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:320: error: cannot find symbol
+        finish();
+        ^
+        symbol:   method finish()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:322: error: cannot find symbol
+        setRequestedOrientation(getResources().getConfiguration().orientation); //prevent orientation changes during processing
+        ^
+        symbol:   method getResources()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:356: error: cannot find symbol
+        LayoutInflater inflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+        ^
+        symbol:   variable LAYOUT_INFLATER_SERVICE
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:380: error: cannot find symbol
+        ActionBar actionBar = getSupportActionBar();
+        ^
+        symbol:   class ActionBar
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:380: error: cannot find symbol
+        ActionBar actionBar = getSupportActionBar();
+        ^
+        symbol:   method getSupportActionBar()
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:383: error: cannot find symbol
+        ActionBar.DISPLAY_SHOW_CUSTOM,
+        ^
+        symbol:   variable ActionBar
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:384: error: cannot find symbol
+        ActionBar.DISPLAY_SHOW_CUSTOM
+        ^
+        symbol:   variable ActionBar
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:385: error: cannot find symbol
+        | ActionBar.DISPLAY_SHOW_HOME
+        ^
+        symbol:   variable ActionBar
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:386: error: cannot find symbol
+        | ActionBar.DISPLAY_SHOW_TITLE
+        ^
+        symbol:   variable ActionBar
+        location: class MultiImageChooserActivity
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:388: error: package ActionBar does not exist
+        actionBar.setCustomView(customActionBarView, new ActionBar.LayoutParams(
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:463: error: incompatible types: MultiImageChooserActivity cannot be converted to Context
+        ImageView temp = new SquareImageView(MultiImageChooserActivity.this);
+        ^
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:601: error: cannot find symbol
+        setResult(RESULT_CANCELED, data);
+        ^
+        symbol:   variable RESULT_CANCELED
+        location: class MultiImageChooserActivity.ResizeImagesTask
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:613: error: cannot find symbol
+        setResult(RESULT_OK, data);
+        ^
+        symbol:   variable RESULT_OK
+        location: class MultiImageChooserActivity.ResizeImagesTask
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:616: error: cannot find symbol
+        setResult(RESULT_CANCELED, data);
+        ^
+        symbol:   variable RESULT_CANCELED
+        location: class MultiImageChooserActivity.ResizeImagesTask
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java:620: error: cannot find symbol
+        finish();
+        ^
+        symbol:   method finish()
+        location: class MultiImageChooserActivity.ResizeImagesTask
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/synconset/MultiImageChooserActivity.java uses unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+        45 errors
+        
+        > Task :app:mergeReleaseArtProfile
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 2s
+        128 actionable tasks: 29 executed, 99 up-to-date
+        

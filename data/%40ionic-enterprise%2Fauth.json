@@ -1,0 +1,10 @@
+{
+  "name": "@ionic-enterprise/auth",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

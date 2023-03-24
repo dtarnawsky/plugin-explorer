@@ -1,0 +1,9 @@
+{
+  "name": "@ionic-enterprise/identity-vault",
+  "version": "5.9.6",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

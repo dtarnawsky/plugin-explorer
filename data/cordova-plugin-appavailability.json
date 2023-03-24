@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-appavailability",
+  "version": "0.4.2",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "fails": [
+    "capacitor-ios-4"
+  ]
+}

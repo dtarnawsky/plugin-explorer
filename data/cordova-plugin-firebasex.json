@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-firebasex",
+  "version": "16.0.0",
+  "success": [],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ]
+}

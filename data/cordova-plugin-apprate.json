@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-apprate",
+  "version": "1.7.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

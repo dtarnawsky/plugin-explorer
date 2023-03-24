@@ -1,0 +1,115 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :ionic-enterprise-auth:preBuild UP-TO-DATE
+        > Task :ionic-enterprise-auth:preReleaseBuild UP-TO-DATE
+        > Task :ionic-enterprise-auth:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues UP-TO-DATE
+        > Task :app:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-android:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-android:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-app:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-app:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
+        > Task :ionic-enterprise-auth:compileReleaseRenderscript NO-SOURCE
+        > Task :ionic-enterprise-auth:generateReleaseResValues
+        > Task :ionic-enterprise-auth:generateReleaseResources
+        > Task :ionic-enterprise-auth:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+        > Task :app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-android:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-android:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-app:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-haptics:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-keyboard:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-keyboard:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-status-bar:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
+        > Task :ionic-enterprise-auth:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
+        > Task :ionic-enterprise-auth:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
+        > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
+        > Task :ionic-enterprise-auth:processReleaseManifest
+        > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
+        
+        > Task :app:processReleaseMainManifest FAILED
+        
+        See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
+        
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
+        Attribute data@scheme at AndroidManifest.xml requires a placeholder substitution but no value for <AUTH_URL_SCHEME> is provided.
+        
+        > Task :app:mergeReleaseResources
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:processReleaseMainManifest'.
+        > Manifest merger failed : Attribute data@scheme at AndroidManifest.xml requires a placeholder substitution but no value for <AUTH_URL_SCHEME> is provided.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 1s
+        43 actionable tasks: 12 executed, 31 up-to-date
+        

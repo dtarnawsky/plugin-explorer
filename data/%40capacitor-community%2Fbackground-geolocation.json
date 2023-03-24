@@ -1,0 +1,9 @@
+{
+  "name": "@capacitor-community/background-geolocation",
+  "version": "1.2.12",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

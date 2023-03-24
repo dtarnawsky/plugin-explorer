@@ -1,0 +1,10 @@
+{
+  "name": "@byteowls/capacitor-oauth2",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}
