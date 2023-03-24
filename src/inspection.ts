@@ -1,3 +1,5 @@
+import { Test } from './test.js';
+
 export interface Inspection {
     name: string,
     author: string,
@@ -16,8 +18,3 @@ export interface Inspection {
     updated?: string // Github date last updated 
 }
 
-export enum Test {
-    capacitorIos4 = 'capacitor-ios-4',
-    capacitorAndroid4 = 'capacitor-android-4',
-    failedInNPM = 'failed-in-npm'
-}

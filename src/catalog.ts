@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, rmSync, unlinkSync, writeFileSync } from 'fs';
 import { join } from 'path';
-import { Inspection, Test } from './inspection.js';
+import { Inspection } from './inspection.js';
+import { Test } from './test.js';
 
 export function catalog(inspection: Inspection) {
     if (inspection.fails.includes(Test.failedInNPM)) {

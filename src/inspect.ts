@@ -1,20 +1,22 @@
 import { runAll, run } from './utils.js';
-import { Inspection, Test } from './inspection.js';
+import { Inspection } from './inspection.js';
+import { Test, TestInfo } from './test.js';
 import { NPMView } from './npm-view.js';
 import { writeErrorLog, readPlugin, removeErrorLog } from './catalog.js';
 import { inspectGitHubAPI } from './github.js';
+import { join } from 'path';
 
-export async function inspect(dep: string): Promise<Inspection> {
-    const result: Inspection = readPlugin(dep);
-    const folder = 'apps/capacitor-4';
-    const foundPlugin = await prepareProject(dep, folder, result);
+export async function inspect(plugin: string, info: TestInfo): Promise<Inspection> {
+    const result: Inspection = readPlugin(plugin);
+    const folder = join('apps', info.folder);
+    const foundPlugin = await prepareProject(plugin, folder, result);
     if (!foundPlugin) {
         result.fails = [Test.failedInNPM];
         return result;
     }
-    await testProject(dep, folder, result, 'android', Test.capacitorAndroid4);
-    await testProject(dep, folder, result, 'ios', Test.capacitorIos4);
-    await cleanupProject(dep, folder);
+    await testProject(plugin, folder, result, 'android', info.android);
+    await testProject(plugin, folder, result, 'ios', info.ios);
+    await cleanupProject(plugin, folder);
     return result;
 }
 

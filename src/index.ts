@@ -3,7 +3,7 @@ import { catalog, readPluginList, removeFromPluginList, writePluginList } from '
 import { clone } from './clone.js';
 import { hasArg } from './utils.js';
 import { filter, FilterType } from './filter.js';
-import { Test } from './inspection.js';
+import { Test, TestInfo } from './test.js';
 
 const args = process.argv;
 const dep = args[2];
@@ -23,16 +23,34 @@ if (hasArg('all', args)) {
     go([dep]);
 }
 
-async function go(deps: string[]) {
-    for (const dep of deps) {
-        await clone('https://github.com/dtarnawsky/plugin-test-capacitor-4.git', 'capacitor-4');
-        const inspection = await inspect(dep);
-        catalog(inspection);
-        const removePlugin = inspection.fails.includes(Test.failedInNPM);
-        if (removePlugin) {
-            removeFromPluginList(inspection.name);
-        } else {
-            writePluginList(inspection.name);
+async function go(plugins: string[]) {
+    for (const plugin of plugins) {
+        // Capacitor 4 test
+        const capacitor4: TestInfo = {
+            ios: Test.capacitorAndroid4,
+            android: Test.capacitorAndroid4,
+            folder: 'capacitor-4',
+            git: 'https://github.com/dtarnawsky/plugin-test-capacitor-4.git'
+        }
+
+        // Capacitor 3 test
+        const capacitor3: TestInfo = {
+            ios: Test.capacitorAndroid3,
+            android: Test.capacitorAndroid3,
+            folder: 'capacitor-3',
+            git: 'https://github.com/dtarnawsky/plugin-test-capacitor-3.git'
+        }
+
+        for (const test of [capacitor4, capacitor3]) {
+            await clone(test);
+            const inspection = await inspect(plugin, test);
+            catalog(inspection);
+            const removePlugin = inspection.fails.includes(Test.failedInNPM);
+            if (removePlugin) {
+                removeFromPluginList(inspection.name);
+            } else {
+                writePluginList(inspection.name);
+            }
         }
     }
 }

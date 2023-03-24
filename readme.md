@@ -78,6 +78,7 @@ npm run inspect-all
 
 It will test again a sample project for:
 - [Capacitor 4](https://github.com/dtarnawsky/plugin-test-capacitor-4)
+- [Capacitor 3](https://github.com/dtarnawsky/plugin-test-capacitor-3)
 - TBA
 
 # Roadmap
