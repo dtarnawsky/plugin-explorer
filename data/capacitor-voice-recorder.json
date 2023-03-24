@@ -2,9 +2,8 @@
   "name": "capacitor-voice-recorder",
   "version": "4.0.2",
   "success": [
-    "capacitor-android-4"
-  ],
-  "fails": [
+    "capacitor-android-4",
     "capacitor-ios-4"
-  ]
+  ],
+  "fails": []
 }

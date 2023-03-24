@@ -11,10 +11,10 @@
         * What went wrong:
         Could not determine the dependencies of task ':app:mergeReleaseNativeLibs'.
         > Could not resolve all task dependencies for configuration ':app:releaseRuntimeClasspath'.
-        > Could not resolve project :capacitor-community-speech-recognition.
+        > Could not resolve project :capacitor-community-media.
         Required by:
         project :app
-        > No matching configuration of project :capacitor-community-speech-recognition was found. The consumer was configured to find a runtime of a component, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.BuildTypeAttr' with value 'release', attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '7.2.1' but:
+        > No matching configuration of project :capacitor-community-media was found. The consumer was configured to find a runtime of a component, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.BuildTypeAttr' with value 'release', attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '7.2.1' but:
         - None of the consumable configurations have attributes.
         
         * Try:
@@ -24,5 +24,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 610ms
+        BUILD FAILED in 829ms
         

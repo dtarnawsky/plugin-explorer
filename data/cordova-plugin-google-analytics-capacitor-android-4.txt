@@ -60,30 +60,14 @@
         > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
         > Task :capacitor-app:processReleaseManifest UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-haptics:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-haptics:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-keyboard:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-keyboard:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-status-bar:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
-        > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         
         > Task :capacitor-cordova-android-plugins:processReleaseManifest FAILED
-        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-10:12 Error:
-        android:exported needs to be explicitly specified for element <receiver#com.google.android.gms.analytics.AnalyticsReceiver>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
         
         See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
         
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-10:12 Error:
+        android:exported needs to be explicitly specified for element <receiver#com.google.android.gms.analytics.AnalyticsReceiver>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
         
-        > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
         > Task :app:mergeReleaseResources
         
         FAILURE: Build failed with an exception.
@@ -100,6 +84,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 2s
-        37 actionable tasks: 6 executed, 31 up-to-date
+        BUILD FAILED in 1s
+        22 actionable tasks: 5 executed, 17 up-to-date
         

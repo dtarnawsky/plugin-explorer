@@ -11,12 +11,12 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: 3b95a97fc620fe57ac8c3bd5a0f37b54
-        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-hjjjaxsxwbdavgbvfevmcdarvnty/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/3b95a97fc620fe57ac8c3bd5a0f37b54-desc.xcbuild
+        Build description signature: 50fe3f3d4f156b7158f20a7cce65e2d2
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-hjjjaxsxwbdavgbvfevmcdarvnty/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/50fe3f3d4f156b7158f20a7cce65e2d2-desc.xcbuild
         
         note: Building targets in dependency order
-        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "FBSDKCoreKit-FacebookSDKStrings" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'FBSDKCoreKit-FacebookSDKStrings' from project 'Pods')
         warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "FBSDKCoreKit-FacebookSDKStrings" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'FBSDKCoreKit-FacebookSDKStrings' from project 'Pods')
         ** ARCHIVE FAILED **
         
         

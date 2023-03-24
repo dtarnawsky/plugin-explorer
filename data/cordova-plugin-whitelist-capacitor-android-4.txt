@@ -68,6 +68,7 @@
         > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
         > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
@@ -75,9 +76,10 @@
         > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
         > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
+        > Task :app:mergeReleaseResources
         > Task :app:processReleaseMainManifest
+        > Task :app:mapReleaseSourceSetPaths
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
         > Task :capacitor-android:javaPreCompileRelease UP-TO-DATE
@@ -115,31 +117,31 @@
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses UP-TO-DATE
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig UP-TO-DATE
         > Task :app:javaPreCompileRelease UP-TO-DATE
         > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-keyboard:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-status-bar:writeReleaseAarMetadata UP-TO-DATE
+        > Task :app:checkReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-app:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-haptics:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :app:desugarReleaseFileDependencies
-        > Task :app:mergeReleaseResources
-        > Task :app:mapReleaseSourceSetPaths
+        > Task :app:desugarReleaseFileDependencies UP-TO-DATE
+        > Task :app:mergeExtDexRelease UP-TO-DATE
         > Task :app:mergeReleaseShaders UP-TO-DATE
         > Task :app:compileReleaseShaders NO-SOURCE
         > Task :app:generateReleaseAssets UP-TO-DATE
         > Task :capacitor-android:mergeReleaseShaders UP-TO-DATE
         > Task :capacitor-android:compileReleaseShaders NO-SOURCE
         > Task :capacitor-android:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-android:packageReleaseAssets UP-TO-DATE
         > Task :capacitor-app:mergeReleaseShaders UP-TO-DATE
         > Task :capacitor-app:compileReleaseShaders NO-SOURCE
@@ -160,6 +162,56 @@
         > Task :capacitor-status-bar:mergeReleaseShaders UP-TO-DATE
         > Task :capacitor-status-bar:compileReleaseShaders NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseAssets UP-TO-DATE
+        > Task :app:bundleReleaseResources
+        > Task :app:mergeReleaseAssets
+        > Task :app:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-android:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-android:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-app:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-app:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-haptics:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-haptics:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-keyboard:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-keyboard:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-status-bar:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-status-bar:bundleLibResRelease NO-SOURCE
+        > Task :app:mergeReleaseJavaResource UP-TO-DATE
+        > Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-android:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-android:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-android:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :capacitor-app:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-app:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-app:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:mergeReleaseJniLibFolders
+        > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-haptics:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-haptics:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-haptics:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :capacitor-keyboard:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-keyboard:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-keyboard:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :capacitor-status-bar:mergeReleaseJniLibFolders UP-TO-DATE
+        > Task :capacitor-status-bar:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-status-bar:copyReleaseJniLibsProjectOnly UP-TO-DATE
+        > Task :app:writeReleaseAppMetadata UP-TO-DATE
+        > Task :capacitor-android:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-app:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-haptics:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-keyboard:prepareReleaseArtProfile UP-TO-DATE
+        > Task :capacitor-status-bar:prepareReleaseArtProfile UP-TO-DATE
+        > Task :app:mergeReleaseArtProfile UP-TO-DATE
+        > Task :app:collectReleaseDependencies UP-TO-DATE
+        > Task :app:configureReleaseDependencies UP-TO-DATE
+        > Task :app:parseReleaseIntegrityConfig UP-TO-DATE
+        > Task :app:mergeReleaseNativeLibs NO-SOURCE
+        > Task :app:stripReleaseDebugSymbols NO-SOURCE
+        > Task :app:extractReleaseNativeSymbolTables NO-SOURCE
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
         /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/whitelist/WhitelistPlugin.java:25: error: cannot find symbol
@@ -270,8 +322,6 @@
         21 errors
         
         > Task :app:processReleaseManifestForPackage
-        > Task :app:bundleReleaseResources
-        > Task :app:mergeExtDexRelease
         
         FAILURE: Build failed with an exception.
         
@@ -286,6 +336,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 1s
-        103 actionable tasks: 23 executed, 80 up-to-date
+        BUILD FAILED in 2s
+        131 actionable tasks: 23 executed, 108 up-to-date
         

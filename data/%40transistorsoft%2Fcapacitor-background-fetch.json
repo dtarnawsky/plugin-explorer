@@ -1,9 +1,10 @@
 {
   "name": "@transistorsoft/capacitor-background-fetch",
   "version": "1.0.3",
-  "success": [],
-  "fails": [
-    "capacitor-android-4",
+  "success": [
     "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
   ]
 }

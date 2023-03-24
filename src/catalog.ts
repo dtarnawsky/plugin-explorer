@@ -1,4 +1,4 @@
-import { existsSync, readFileSync, writeFileSync } from 'fs';
+import { existsSync, readFileSync, rmSync, unlinkSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import { Inspection, Test } from './inspection';
 
@@ -10,10 +10,21 @@ export function catalog(inspection: Inspection) {
     console.log(inspection);
 }
 
-export function writeErrorLog(name: string, version: string, test: Test, error: string) {
+export function writeErrorLog(plugin: string, test: Test, error: string) {
     console.log(error);
-    const filename = join('data', `${encodeURIComponent(name)}-${test}.txt`);
+    const filename = errorLogFilename(plugin, test);
     writeFileSync(filename, error);
+}
+
+export function removeErrorLog(plugin: string, test: Test) {
+    const filename = errorLogFilename(plugin, test);
+    if (existsSync(filename)) {
+        unlinkSync(filename);
+    }
+}
+
+function errorLogFilename(plugin: string, test: Test) {
+    return join('data', `${encodeURIComponent(plugin)}-${test}.txt`);
 }
 
 export function writePluginList(name: string) {

@@ -74,12 +74,7 @@
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
         > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
-        > Task :app:processReleaseMainManifest
-        > Task :app:processReleaseManifest
-        > Task :app:processApplicationManifestReleaseForBundle
         > Task :capacitor-android:javaPreCompileRelease UP-TO-DATE
         > Task :capacitor-android:compileReleaseJavaWithJavac UP-TO-DATE
         > Task :capacitor-android:bundleLibRuntimeToJarRelease UP-TO-DATE
@@ -94,7 +89,12 @@
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseBuildConfig UP-TO-DATE
         > Task :capacitor-haptics:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
         > Task :capacitor-haptics:javaPreCompileRelease UP-TO-DATE
         > Task :capacitor-haptics:compileReleaseJavaWithJavac UP-TO-DATE
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease UP-TO-DATE
@@ -114,12 +114,12 @@
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig UP-TO-DATE
         > Task :app:javaPreCompileRelease UP-TO-DATE
+        > Task :app:checkReleaseDuplicateClasses
         > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
@@ -130,10 +130,10 @@
         > Task :capacitor-haptics:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:mergeReleaseResources
         > Task :app:desugarReleaseFileDependencies
-        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseAarMetadata UP-TO-DATE
+        > Task :app:mergeReleaseResources
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
         /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAnalyticsPlugin.java:7: error: package by.chemerisuk.cordova.support does not exist
@@ -191,7 +191,6 @@
         12 errors
         
         > Task :app:processReleaseManifestForPackage
-        > Task :app:bundleReleaseResources
         
         FAILURE: Build failed with an exception.
         
@@ -206,6 +205,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 2s
-        90 actionable tasks: 20 executed, 70 up-to-date
+        BUILD FAILED in 1s
+        89 actionable tasks: 18 executed, 71 up-to-date
         

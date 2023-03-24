@@ -2,9 +2,8 @@
   "name": "capacitor-video-player",
   "version": "4.6.2-3",
   "success": [
-    "capacitor-android-4"
-  ],
-  "fails": [
+    "capacitor-android-4",
     "capacitor-ios-4"
-  ]
+  ],
+  "fails": []
 }

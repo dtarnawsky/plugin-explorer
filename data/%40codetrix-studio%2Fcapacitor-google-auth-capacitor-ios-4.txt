@@ -11,8 +11,8 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: 434e4e6195127d4bbb3fba0ef4e21c61
-        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-hjjjaxsxwbdavgbvfevmcdarvnty/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/434e4e6195127d4bbb3fba0ef4e21c61-desc.xcbuild
+        Build description signature: 5e385bf2416541d22519f14e41bc876d
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-hjjjaxsxwbdavgbvfevmcdarvnty/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/5e385bf2416541d22519f14e41bc876d-desc.xcbuild
         
         note: Building targets in dependency order
         /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "GoogleSignIn-GoogleSignIn" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'GoogleSignIn-GoogleSignIn' from project 'Pods')

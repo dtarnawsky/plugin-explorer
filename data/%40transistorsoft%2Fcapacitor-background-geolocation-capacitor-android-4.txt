@@ -26,9 +26,9 @@
         > Task :capacitor-status-bar:preBuild UP-TO-DATE
         > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
         > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
-        > Task :ionic-enterprise-auth:preBuild UP-TO-DATE
-        > Task :ionic-enterprise-auth:preReleaseBuild UP-TO-DATE
-        > Task :ionic-enterprise-auth:packageReleaseRenderscript NO-SOURCE
+        > Task :transistorsoft-capacitor-background-geolocation:preBuild UP-TO-DATE
+        > Task :transistorsoft-capacitor-background-geolocation:preReleaseBuild UP-TO-DATE
+        > Task :transistorsoft-capacitor-background-geolocation:packageReleaseRenderscript NO-SOURCE
         > Task :app:compileReleaseRenderscript NO-SOURCE
         > Task :app:generateReleaseResValues UP-TO-DATE
         > Task :app:generateReleaseResources UP-TO-DATE
@@ -56,63 +56,25 @@
         > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
         > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
         > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
-        > Task :ionic-enterprise-auth:compileReleaseRenderscript NO-SOURCE
-        > Task :ionic-enterprise-auth:generateReleaseResValues
-        > Task :ionic-enterprise-auth:generateReleaseResources
-        > Task :ionic-enterprise-auth:packageReleaseResources
-        > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
-        > Task :app:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-android:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-android:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-app:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-haptics:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-haptics:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-keyboard:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-keyboard:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-status-bar:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
-        > Task :ionic-enterprise-auth:extractDeepLinksRelease
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
-        > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
-        > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
-        > Task :capacitor-android:javaPreCompileRelease UP-TO-DATE
-        > Task :capacitor-android:compileReleaseJavaWithJavac UP-TO-DATE
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease UP-TO-DATE
-        > Task :capacitor-android:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :ionic-enterprise-auth:processReleaseManifest
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig UP-TO-DATE
-        > Task :capacitor-app:parseReleaseLocalResources UP-TO-DATE
-        > Task :capacitor-app:generateReleaseRFile UP-TO-DATE
-        > Task :capacitor-app:javaPreCompileRelease UP-TO-DATE
-        > Task :capacitor-app:compileReleaseJavaWithJavac UP-TO-DATE
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease UP-TO-DATE
-        > Task :ionic-enterprise-auth:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        
-        > Task :app:processReleaseMainManifest FAILED
-        
-        See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
-        
-        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
-        Attribute data@scheme at AndroidManifest.xml requires a placeholder substitution but no value for <AUTH_URL_SCHEME> is provided.
-        
-        > Task :app:mergeReleaseResources
+        > Task :transistorsoft-capacitor-background-geolocation:compileReleaseRenderscript NO-SOURCE
+        > Task :transistorsoft-capacitor-background-geolocation:generateReleaseResValues
+        > Task :transistorsoft-capacitor-background-geolocation:generateReleaseResources
+        > Task :transistorsoft-capacitor-background-geolocation:packageReleaseResources
+        > Task :app:mergeReleaseResources FAILED
         
         FAILURE: Build failed with an exception.
         
         * What went wrong:
-        Execution failed for task ':app:processReleaseMainManifest'.
-        > Manifest merger failed : Attribute data@scheme at AndroidManifest.xml requires a placeholder substitution but no value for <AUTH_URL_SCHEME> is provided.
+        Execution failed for task ':app:mergeReleaseResources'.
+        > Could not resolve all files for configuration ':app:releaseRuntimeClasspath'.
+        > Could not find any matches for com.transistorsoft:tslocationmanager:+ as no versions of com.transistorsoft:tslocationmanager are available.
+        Searched in the following locations:
+        - https://dl.google.com/dl/android/maven2/com/transistorsoft/tslocationmanager/maven-metadata.xml
+        - https://repo.maven.apache.org/maven2/com/transistorsoft/tslocationmanager/maven-metadata.xml
+        - file:/Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/
+        - file:/Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/app/libs/
+        Required by:
+        project :app > project :transistorsoft-capacitor-background-geolocation
         
         * Try:
         > Run with --stacktrace option to get the stack trace.
@@ -122,5 +84,5 @@
         * Get more help at https://help.gradle.org
         
         BUILD FAILED in 1s
-        53 actionable tasks: 12 executed, 41 up-to-date
+        16 actionable tasks: 5 executed, 11 up-to-date
         

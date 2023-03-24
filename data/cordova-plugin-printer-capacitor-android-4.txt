@@ -68,6 +68,7 @@
         > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
         > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
@@ -75,11 +76,10 @@
         > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
         > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
         > Task :app:processReleaseMainManifest
-        > Task :app:processReleaseManifest
-        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :app:processReleaseManifest UP-TO-DATE
+        > Task :app:processApplicationManifestReleaseForBundle UP-TO-DATE
         > Task :capacitor-android:javaPreCompileRelease UP-TO-DATE
         > Task :capacitor-android:compileReleaseJavaWithJavac UP-TO-DATE
         > Task :capacitor-android:bundleLibRuntimeToJarRelease UP-TO-DATE
@@ -114,25 +114,10 @@
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig UP-TO-DATE
-        > Task :app:javaPreCompileRelease UP-TO-DATE
-        > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-keyboard:writeReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-status-bar:writeReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-app:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :capacitor-haptics:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
-        > Task :app:desugarReleaseFileDependencies
         > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:checkReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :app:checkReleaseDuplicateClasses
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
@@ -587,8 +572,6 @@
         Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
         100 errors
         
-        > Task :app:processReleaseManifestForPackage
-        
         FAILURE: Build failed with an exception.
         
         * What went wrong:
@@ -603,5 +586,5 @@
         * Get more help at https://help.gradle.org
         
         BUILD FAILED in 1s
-        89 actionable tasks: 18 executed, 71 up-to-date
+        74 actionable tasks: 13 executed, 61 up-to-date
         

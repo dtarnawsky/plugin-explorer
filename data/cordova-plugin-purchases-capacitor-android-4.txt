@@ -73,8 +73,8 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
         > Task :app:processReleaseMainManifest
@@ -114,11 +114,8 @@
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :app:mapReleaseSourceSetPaths
-        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig UP-TO-DATE
         > Task :app:javaPreCompileRelease UP-TO-DATE
@@ -126,15 +123,16 @@
         > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-keyboard:writeReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-haptics:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
-        > Task :app:checkReleaseAarMetadata
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:desugarReleaseFileDependencies
+        > Task :app:mergeReleaseResources
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
         /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/revenuecat/purchases/PurchasesPlugin.java:7: error: package com.appfeel.cordova.annotated.android.plugin does not exist
@@ -635,7 +633,6 @@
         100 errors
         
         > Task :app:processReleaseManifestForPackage
-        > Task :app:bundleReleaseResources
         
         FAILURE: Build failed with an exception.
         
@@ -650,6 +647,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
-        91 actionable tasks: 21 executed, 70 up-to-date
+        BUILD FAILED in 1s
+        88 actionable tasks: 18 executed, 70 up-to-date
         

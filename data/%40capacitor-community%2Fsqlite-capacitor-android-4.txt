@@ -67,7 +67,6 @@
         > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
         > Task :capacitor-app:processReleaseManifest UP-TO-DATE
         > Task :capacitor-community-sqlite:extractDeepLinksRelease
-        > Task :capacitor-community-sqlite:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease UP-TO-DATE
         > Task :capacitor-haptics:processReleaseManifest UP-TO-DATE
@@ -77,14 +76,15 @@
         > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
         > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-community-sqlite:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
         > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-community-sqlite:processReleaseManifest
+        > Task :capacitor-community-sqlite:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
         > Task :app:processReleaseMainManifest
@@ -125,45 +125,44 @@
         > Task :capacitor-community-sqlite:compileReleaseAidl NO-SOURCE
         > Task :capacitor-community-sqlite:generateReleaseBuildConfig
         > Task :capacitor-community-sqlite:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :app:mapReleaseSourceSetPaths
-        > Task :capacitor-community-sqlite:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-community-sqlite:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-community-sqlite:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig UP-TO-DATE
+        > Task :app:javaPreCompileRelease UP-TO-DATE
         > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-community-sqlite:writeReleaseAarMetadata
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:bundleReleaseResources
         
         > Task :capacitor-community-sqlite:compileReleaseJavaWithJavac
         
-        > Task :capacitor-community-sqlite:bundleLibRuntimeToJarRelease
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-community-sqlite:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig UP-TO-DATE
-        > Task :app:javaPreCompileRelease UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-community-sqlite:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-status-bar:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :capacitor-app:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-haptics:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
+        > Task :capacitor-community-sqlite:bundleLibCompileToJarRelease
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
-        > Task :capacitor-community-sqlite:bundleLibCompileToJarRelease
-        > Task :app:desugarReleaseFileDependencies
         > Task :app:checkReleaseAarMetadata FAILED
-        > Task :app:processReleaseManifestForPackage
-        > Task :app:mergeExtDexRelease
+        > Task :app:desugarReleaseFileDependencies
         
         FAILURE: Build failed with an exception.
         
@@ -255,6 +254,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 11s
-        107 actionable tasks: 37 executed, 70 up-to-date
+        BUILD FAILED in 2s
+        106 actionable tasks: 36 executed, 70 up-to-date
         

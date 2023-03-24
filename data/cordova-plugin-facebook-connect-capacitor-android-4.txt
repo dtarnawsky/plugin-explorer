@@ -122,6 +122,9 @@
         > Task :app:javaPreCompileRelease UP-TO-DATE
         > Task :capacitor-android:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-app:writeReleaseAarMetadata UP-TO-DATE
+        > Task :app:mergeReleaseResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-haptics:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-keyboard:writeReleaseAarMetadata UP-TO-DATE
         > Task :capacitor-status-bar:writeReleaseAarMetadata UP-TO-DATE
@@ -131,19 +134,17 @@
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease UP-TO-DATE
         > Task :app:desugarReleaseFileDependencies
-        > Task :app:checkReleaseAarMetadata UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:mergeReleaseResources
-        > Task :app:mapReleaseSourceSetPaths
-        > Task :app:bundleReleaseResources FAILED
-        > Task :app:mergeExtDexRelease
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
         
-        > Task :app:processReleaseManifestForPackage
-        92 actionable tasks: 21 executed, 71 up-to-date
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :app:checkReleaseAarMetadata UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         Note: /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/facebook/ConnectPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:bundleReleaseResources FAILED
+        > Task :app:processReleaseManifestForPackage
+        > Task :app:mergeExtDexRelease
         
         FAILURE: Build failed with an exception.
         
@@ -166,5 +167,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
+        BUILD FAILED in 2s
+        94 actionable tasks: 23 executed, 71 up-to-date
         

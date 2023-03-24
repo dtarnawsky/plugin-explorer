@@ -4,8 +4,8 @@
         WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
         
         > Configure project :capacitor-community-photoviewer
-        Kotlin plugin is applied to the project :capacitor-community-photoviewer but we cannot find the KaptTask. Make sure you apply the kotlin-kapt plugin because it is necessary to use kotlin with data binding.
         
+        Kotlin plugin is applied to the project :capacitor-community-photoviewer but we cannot find the KaptTask. Make sure you apply the kotlin-kapt plugin because it is necessary to use kotlin with data binding.
         > Configure project :capacitor-cordova-android-plugins
         WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
         
@@ -88,6 +88,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 6s
+        BUILD FAILED in 2s
         16 actionable tasks: 5 executed, 11 up-to-date
         

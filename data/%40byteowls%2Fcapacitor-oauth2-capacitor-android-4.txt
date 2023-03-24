@@ -30,63 +30,81 @@
         > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
         > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
         > Task :app:compileReleaseRenderscript NO-SOURCE
-        > Task :app:generateReleaseResValues UP-TO-DATE
-        > Task :app:generateReleaseResources UP-TO-DATE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
         > Task :byteowls-capacitor-oauth2:compileReleaseRenderscript NO-SOURCE
         > Task :byteowls-capacitor-oauth2:generateReleaseResValues
         > Task :byteowls-capacitor-oauth2:generateReleaseResources
         > Task :byteowls-capacitor-oauth2:packageReleaseResources
         > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-android:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-android:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-android:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
         > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-app:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-app:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-app:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
         > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseResValues
         > Task :capacitor-cordova-android-plugins:generateReleaseResources
         > Task :capacitor-cordova-android-plugins:packageReleaseResources
         > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-haptics:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-haptics:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
         > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-keyboard:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-keyboard:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
         > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
-        > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
-        > Task :app:extractDeepLinksRelease UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
         > Task :byteowls-capacitor-oauth2:extractDeepLinksRelease
-        > Task :capacitor-android:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-android:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-app:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-haptics:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-haptics:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-keyboard:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-keyboard:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-status-bar:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-status-bar:processReleaseManifest UP-TO-DATE
-        > Task :byteowls-capacitor-oauth2:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-app:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-keyboard:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-status-bar:compileReleaseLibraryResources UP-TO-DATE
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:generateReleaseBuildConfig UP-TO-DATE
-        > Task :capacitor-android:parseReleaseLocalResources UP-TO-DATE
         > Task :byteowls-capacitor-oauth2:processReleaseManifest
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :byteowls-capacitor-oauth2:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-android:generateReleaseRFile UP-TO-DATE
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :byteowls-capacitor-oauth2:compileReleaseAidl NO-SOURCE
+        > Task :byteowls-capacitor-oauth2:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :byteowls-capacitor-oauth2:javaPreCompileRelease
+        > Task :byteowls-capacitor-oauth2:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
         
         > Task :app:processReleaseMainManifest FAILED
         /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
@@ -95,6 +113,8 @@
         See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
         
         
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :app:mergeReleaseResources
         
         FAILURE: Build failed with an exception.
@@ -110,6 +130,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
-        43 actionable tasks: 12 executed, 31 up-to-date
+        BUILD FAILED in 2s
+        58 actionable tasks: 58 executed
         
