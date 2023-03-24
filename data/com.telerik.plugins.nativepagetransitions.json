@@ -1,9 +1,0 @@
-{
-  "name": "com.telerik.plugins.nativepagetransitions",
-  "version": "0.7.0",
-  "success": [
-    "capacitor-android-4",
-    "capacitor-ios-4"
-  ],
-  "fails": []
-}

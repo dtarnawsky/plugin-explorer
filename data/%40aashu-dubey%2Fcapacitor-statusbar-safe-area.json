@@ -5,5 +5,37 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "fails": []
+  "repo": "https://github.com/Aashu-Dubey/capacitor-statusbar-safe-area.git",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "ionic",
+    "status bar",
+    "safe area",
+    "android",
+    "capacitor-plugin",
+    "cross-platform",
+    "ios",
+    "library",
+    "npm-package",
+    "package",
+    "safearea",
+    "statusbar",
+    "typescript"
+  ],
+  "fails": [],
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/46301285?v=4",
+  "description": "Get Status bar height and Safe area insets on Android & iOS.",
+  "quality": 115,
+  "updated": "2023-03-23T02:36:39Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0"
+  ],
+  "author": "Ashutosh",
+  "bugs": "https://github.com/Aashu-Dubey/capacitor-statusbar-safe-area/issues",
+  "published": "2022-11-02T17:48:28.262Z"
 }

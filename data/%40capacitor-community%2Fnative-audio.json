@@ -1,9 +1,0 @@
-{
-  "name": "@capacitor-community/native-audio",
-  "version": "3.0.4",
-  "success": [],
-  "fails": [
-    "capacitor-android-4",
-    "capacitor-ios-4"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "name": "cordova-plugin-x-toast",
-  "version": "2.7.3",
-  "success": [
-    "capacitor-android-4",
-    "capacitor-ios-4"
-  ],
-  "fails": []
-}

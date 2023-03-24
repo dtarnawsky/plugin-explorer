@@ -145,13 +145,17 @@ export async function inspectGitHubAPI(item: Inspection) {
         const response = await fetch(`https://api.github.com/repos/${part}`);
         const gh: GitHubInfo = await response.json() as GitHubInfo;
         item.stars = gh.stargazers_count;
-        item.image = gh.owner.avatar_url;
-        for (const topic of gh.topics) {
-            if (!item.keywords.includes(topic)) {
-                item.keywords.push(topic);
+        item.image = gh.owner?.avatar_url;
+        if (gh.topics) {
+            for (const topic of gh.topics) {
+                if (!item.keywords.includes(topic)) {
+                    item.keywords.push(topic);
+                }
             }
         }
-        item.description = gh.description;
+        if (!item.description) {
+            item.description = gh.description;
+        }
         item.quality = 0;
         item.updated = gh.updated_at;
         item.quality += gh.open_issues_count;

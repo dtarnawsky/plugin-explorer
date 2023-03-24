@@ -2,8 +2,39 @@
   "name": "@aparajita/capacitor-splash-screen",
   "version": "2.0.2",
   "success": [],
+  "repo": "https://github.com/aparajita/capacitor-splash-screen.git",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "splash",
+    "splashscreen",
+    "splash screen",
+    "android",
+    "capacitor-android",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "capacitor-plugins",
+    "capacitorjs",
+    "ios",
+    "splash-screens"
+  ],
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-4"
-  ]
+  ],
+  "stars": 52,
+  "image": "https://avatars.githubusercontent.com/u/22218?v=4",
+  "description": "A Capacitor plugin that provides full native splash screen functionality",
+  "quality": 157,
+  "updated": "2023-03-05T03:58:20Z",
+  "versions": [
+    "1.0.1",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2"
+  ],
+  "author": "Aparajita Fishman",
+  "bugs": "https://github.com/aparajita/capacitor-splash-screen/issues",
+  "published": "2023-01-18T21:26:13.085Z"
 }

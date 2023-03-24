@@ -22,8 +22,13 @@ export async function inspect(dep: string): Promise<Inspection> {
 async function prepareProject(plugin: string, folder: string, result: Inspection): Promise<boolean> {
     try {
         // Get Latest Plugin version number
-        const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder));
+        const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder, true));
         result.version = v.version;
+        result.versions = v.versions;
+        result.author = v.author;
+        result.description = v.description;
+        result.bugs = v.bugs?.url;
+        result.published = v.time?.modified;
         result.repo = cleanUrl(v.repository?.url);
         result.keywords = v.keywords;
     } catch (error) {

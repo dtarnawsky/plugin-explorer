@@ -1,9 +1,0 @@
-{
-  "name": "ionic-plugin-deeplinks",
-  "version": "1.0.24",
-  "success": [
-    "capacitor-android-4",
-    "capacitor-ios-4"
-  ],
-  "fails": []
-}

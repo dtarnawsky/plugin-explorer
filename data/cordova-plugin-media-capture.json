@@ -1,9 +1,0 @@
-{
-  "name": "cordova-plugin-media-capture",
-  "version": "4.0.0",
-  "success": [],
-  "fails": [
-    "capacitor-android-4",
-    "capacitor-ios-4"
-  ]
-}

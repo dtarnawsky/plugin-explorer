@@ -1,9 +1,0 @@
-{
-  "name": "cordova-pdf-generator",
-  "version": "2.1.1",
-  "success": [
-    "capacitor-android-4",
-    "capacitor-ios-4"
-  ],
-  "fails": []
-}

@@ -5,5 +5,25 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "fails": []
+  "repo": "https://github.com/arahovakimyan/cordova-plugin-wkwebviewxhrfix.git",
+  "keywords": [
+    "cordova",
+    "wkwebview",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [],
+  "stars": 35,
+  "image": "https://avatars.githubusercontent.com/u/70112075?v=4",
+  "description": "Cordova plugin to fix local file XHR access inside WKWebView for Cordova iOS 6+",
+  "quality": 165,
+  "updated": "2023-01-05T20:45:36Z",
+  "versions": [
+    "0.1.0",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "author": "Ara Hovakimyan",
+  "bugs": "https://github.com/arahovakimyan/cordova-plugin-wkwebviewxhrfix/issues",
+  "published": "2022-07-11T13:54:37.259Z"
 }

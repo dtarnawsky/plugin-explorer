@@ -2,8 +2,25 @@
   "name": "@adriaano/multi-contact-picker-plugin",
   "version": "0.0.6",
   "success": [],
+  "repo": "resp",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-4"
-  ]
+  ],
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "author": "Adriaan Odendaal",
+  "description": "Select Multiple Contacts",
+  "published": "2022-04-04T11:37:05.181Z"
 }

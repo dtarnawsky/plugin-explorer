@@ -5,5 +5,27 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "fails": []
+  "repo": "https://github.com/adobe/cordova-acpcore",
+  "keywords": [
+    "cordova",
+    "adobe",
+    "core",
+    "acpcore",
+    "marketing",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [],
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/476009?v=4",
+  "description": "Adobe Experience Platform - Core plugin for Cordova apps.",
+  "quality": 114,
+  "updated": "2022-11-06T21:19:48Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0"
+  ],
+  "author": "Adobe",
+  "published": "2022-04-04T11:34:29.930Z"
 }

@@ -72,7 +72,6 @@
 @capacitor-mobi/cordova-plugin-camera
 @capacitor-mobi/cordova-plugin-inappbrowser
 @capacitor-mobi/cordova-plugin-preview-any-file
-@capacitor-plugin-asi/signandgo
 @capacitor/action-sheet
 @capacitor/app-launcher
 @capacitor/browser
@@ -81,8 +80,6 @@
 @capacitor/device
 @capacitor/dialog
 @capacitor/filesystem
-@capacitor/fits-jpush
-@capacitor/flame
 @capacitor/geolocation
 @capacitor/google-maps
 @capacitor/haptics
@@ -92,8 +89,6 @@
 @capacitor/local-notifications
 @capacitor/motion
 @capacitor/network
-@capacitor/opentok
-@capacitor/origo
 @capacitor/preferences
 @capacitor/push-notifications
 @capacitor/screen-orientation
@@ -104,9 +99,6 @@
 @capacitor/storage
 @capacitor/text-zoom
 @capacitor/toast
-@capawesome-team/capacitor-android-battery-optimization
-@capawesome-team/capacitor-android-foreground-service
-@capawesome-team/capacitor-nfc
 @capawesome/capacitor-app-update
 @capawesome/capacitor-background-task
 @capawesome/capacitor-badge

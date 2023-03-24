@@ -34,7 +34,7 @@ function removePlugin(plugin: string) {
 }
 
 function errorLogFilename(plugin: string, test: Test) {
-    return join('data', `${encodeURIComponent(plugin)}-${test}.txt`);
+    return join('data', 'errors', `${encodeURIComponent(plugin)}-${test}.txt`);
 }
 
 export function writePluginList(name: string) {
@@ -88,6 +88,9 @@ export function readPlugin(plugin: string): Inspection {
             version: '',
             success: [],
             repo: '',
+            author: '',
+            published: '',
+            versions: [],
             keywords: [],
             fails: []
         }

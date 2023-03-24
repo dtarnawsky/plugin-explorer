@@ -1,9 +1,0 @@
-{
-  "name": "cordova-plugin-purchase",
-  "version": "13.3.10",
-  "success": [
-    "capacitor-android-4",
-    "capacitor-ios-4"
-  ],
-  "fails": []
-}

@@ -15,13 +15,15 @@ export async function runAll(commands: string[], folder: string): Promise<string
   return result;
 }
 
-export async function run(command: string, folder: string): Promise<string> {
+export async function run(command: string, folder: string, quiet?: boolean): Promise<string> {
   return new Promise((resolve, reject) => {
     let out = '';
     console.log(`${folder}> ${command}`);
     exec(command, runOptions(command, folder), (error: ExecException, stdout: string, stdError: string) => {
       if (stdout) {
-        console.log(stdout);
+        if (!quiet) {
+          console.log(stdout);
+        }
         out += stdout;
       }
       if (!error) {
@@ -57,12 +59,12 @@ function runOptions(command: string, folder: string) {
 }
 
 export function hasArg(arg: string, args: string[]): boolean {
-  
-  for(const a of args) {
-    const clean = a.replace('--','').toLowerCase();
-   if (arg == clean) {    
-       return true;
-   }
+
+  for (const a of args) {
+    const clean = a.replace('--', '').toLowerCase();
+    if (arg == clean) {
+      return true;
+    }
   }
   return false;
 }
