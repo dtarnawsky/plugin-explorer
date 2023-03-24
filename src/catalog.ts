@@ -4,7 +4,7 @@ import { Inspection, Test } from './inspection';
 
 export function catalog(inspection: Inspection) {
     // Save to data folder
-    const filename = join('data', `${encodeURIComponent(inspection.name)}.json`);
+    const filename = pluginFilename(inspection.name);
     writeFileSync(filename, JSON.stringify(inspection, null, 2));
     console.log(`Write to ${filename}`);
     console.log(inspection);
@@ -23,7 +23,7 @@ export function writePluginList(name: string) {
         lines = readFileSync(filename, 'utf-8').split('\n');
     }
     if (!lines.includes(name)) {
-       lines.push(name);
+        lines.push(name);
     }
     lines.sort();
     writeFileSync(filename, lines.join('\n'));
@@ -36,4 +36,23 @@ export function readPluginList(): string[] {
         lines = readFileSync(filename, 'utf-8').split('\n');
     }
     return lines;
+}
+
+export function pluginFilename(plugin: string): string {
+    return join('data', `${encodeURIComponent(plugin)}.json`);
+}
+
+export function readPlugin(plugin: string): Inspection {
+    const filename = pluginFilename(plugin);
+    if (existsSync(filename)) {
+        const json = readFileSync(filename, 'utf-8');
+        return JSON.parse(json);
+    } else {
+        return {
+            name: plugin,
+            version: '',
+            success: [],
+            fails: []
+        }
+    }
 }

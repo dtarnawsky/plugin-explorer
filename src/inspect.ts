@@ -1,15 +1,9 @@
 import { runAll, run } from './utils';
 import { Inspection, Test } from './inspection';
-import { writeErrorLog } from './catalog';
+import { writeErrorLog, readPlugin } from './catalog';
 
 export async function inspect(dep: string): Promise<Inspection> {
-    const result: Inspection =
-    {
-        name: dep,
-        version: '',
-        success: [],
-        fails: []
-    }
+    const result: Inspection = readPlugin(dep);
     const folder = 'apps/capacitor-4';
     await prepareProject(dep, folder, result);
     await testProject(dep, folder, result, 'android', Test.capacitorAndroid4);
