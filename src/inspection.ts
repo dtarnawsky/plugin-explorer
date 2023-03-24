@@ -1,6 +1,8 @@
 export interface Inspection {
     name: string,
     version: string,
+    keywords: string[],
+    repo: string,
     success: Test[],
     fails: Test[]
 }

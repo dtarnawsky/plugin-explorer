@@ -87,6 +87,8 @@ export function readPlugin(plugin: string): Inspection {
             name: plugin,
             version: '',
             success: [],
+            repo: '',
+            keywords: [],
             fails: []
         }
     }

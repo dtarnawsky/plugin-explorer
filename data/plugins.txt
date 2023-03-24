@@ -21,8 +21,6 @@
 @byteowls/capacitor-oauth2
 @byteowls/capacitor-sms
 @calvinckho/capacitor-contact-picker
-@camkelly/regattaone-native
-@camkelly/sign-in-with
 @capacitor-community/admob
 @capacitor-community/advertising-id
 @capacitor-community/app-icon

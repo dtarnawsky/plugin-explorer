@@ -1,5 +1,6 @@
 import { runAll, run } from './utils';
 import { Inspection, Test } from './inspection';
+import { NPMView } from './npm-view';
 import { writeErrorLog, readPlugin, removeErrorLog } from './catalog';
 
 export async function inspect(dep: string): Promise<Inspection> {
@@ -20,8 +21,10 @@ export async function inspect(dep: string): Promise<Inspection> {
 async function prepareProject(plugin: string, folder: string, result: Inspection): Promise<boolean> {
     try {
         // Get Latest Plugin version number
-        const v = await run(`npm view ${plugin} version`, folder);
-        result.version = v.replace('\n', '');
+        const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder));
+        result.version = v.version;
+        result.repo = cleanUrl(v.repository?.url);
+        result.keywords = v.keywords;
     } catch (error) {
         console.error(`Failed preparation of ${folder} for ${plugin}`, error);
         return false;
@@ -38,6 +41,13 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         console.error(`Failed preparation of ${folder} for ${plugin}`);        
     }
     return true;
+}
+
+function cleanUrl(url: string) : string {
+    if (url) {
+        return url.replace('git+','');
+    }
+    return url;
 }
 
 async function cleanupProject(plugin: string, folder: string): Promise<void> {
