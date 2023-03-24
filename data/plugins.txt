@@ -13,16 +13,6 @@
 @aparajita/capacitor-secure-storage
 @aparajita/capacitor-splash-screen
 @approov/cordova-plugin-advanced-http
-@appx/cordova-plugin-app-launcher
-@appx/cordova-plugin-splunkmint
-@appx/ionic-plugin-deeplinks
-@aptic/capacitor-network-tools
-@aptic/elzab-fiscal-printer
-@aptic/hp-pos-devices
-@areo/capacitor-codepush
-@asensei/capacitor-plugin-computer-vision
-@atlasrfidsolutions/avancir-capacitor
-@axonvibe/vibe-capacitorjs-sdk
 @basecom-gmbh/capacitor-jailbreak-root-detection
 @bcpros/cordova-plugin-qrscanner
 @blue-performance/capacitor-barcode-scanner

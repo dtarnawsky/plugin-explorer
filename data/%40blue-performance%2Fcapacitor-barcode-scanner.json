@@ -1,0 +1,9 @@
+{
+  "name": "@blue-performance/capacitor-barcode-scanner",
+  "version": "3.0.10",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}
