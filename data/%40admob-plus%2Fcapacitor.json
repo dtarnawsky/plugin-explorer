@@ -1,0 +1,9 @@
+{
+  "name": "@admob-plus/capacitor",
+  "version": "1.24.0",
+  "success": [],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ]
+}
