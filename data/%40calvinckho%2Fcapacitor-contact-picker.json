@@ -1,0 +1,30 @@
+{
+  "name": "@calvinckho/capacitor-contact-picker",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-ios-3",
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/calvinckho/capacitor-contact-picker.git",
+  "author": "Calvin Ho",
+  "published": "2022-04-12T19:48:22.130Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Allows users to select a single contact from their device.",
+  "bugs": "https://github.com/calvinckho/capacitor-contact-picker/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/23274587?v=4",
+  "quality": 1,
+  "updated": "2022-03-24T06:02:05Z"
+}

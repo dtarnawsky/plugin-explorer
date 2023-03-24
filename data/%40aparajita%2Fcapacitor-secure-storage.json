@@ -20,7 +20,10 @@
     "ios",
     "keychain"
   ],
-  "fails": [],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
   "stars": 34,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
   "description": "Capacitor 4+ plugin that provides secure storage for the web, iOS and Android",

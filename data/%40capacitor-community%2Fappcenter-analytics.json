@@ -1,0 +1,41 @@
+{
+  "name": "@capacitor-community/appcenter-analytics",
+  "version": "3.0.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/capacitor-community/appcenter-sdk-capacitor.git#master",
+  "author": "johnborges",
+  "published": "2023-01-23T16:45:48.282Z",
+  "versions": [
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "1.0.0",
+    "1.1.0",
+    "3.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "appcenter",
+    "analytics",
+    "azure",
+    "microsoft",
+    "capacitor-plugin",
+    "visual-studio-app-center"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for AppCenter Analytics",
+  "bugs": "https://github.com/capacitor-community/appcenter-sdk-capacitor/tree/master/appcenter-analytics/issues",
+  "stars": 25,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 131,
+  "updated": "2022-12-23T06:45:28Z"
+}

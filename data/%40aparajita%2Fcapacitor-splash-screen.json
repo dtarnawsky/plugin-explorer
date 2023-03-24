@@ -21,7 +21,9 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
   ],
   "stars": 52,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",

@@ -1,0 +1,42 @@
+{
+  "name": "@capacitor-community/appcenter",
+  "version": "3.0.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/capacitor-community/appcenter-sdk-capacitor.git",
+  "author": "johnborges",
+  "published": "2023-01-23T16:45:41.969Z",
+  "versions": [
+    "0.3.4",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.7.1",
+    "0.7.2",
+    "1.0.0",
+    "2.0.0",
+    "3.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "appcenter",
+    "azure",
+    "microsoft",
+    "capacitor-plugin",
+    "visual-studio-app-center"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor Plugin for Microsoft's App Center SDK.",
+  "bugs": "https://github.com/capacitor-community/appcenter-sdk-capacitor/issues",
+  "stars": 25,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 131,
+  "updated": "2022-12-23T06:45:28Z"
+}

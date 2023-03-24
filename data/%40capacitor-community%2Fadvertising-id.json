@@ -1,0 +1,31 @@
+{
+  "name": "@capacitor-community/advertising-id",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/capacitor-community/advertising-id.git",
+  "author": "Thomas Vidas <hello@thomasvidas>",
+  "published": "2023-02-03T14:46:02.774Z",
+  "versions": [
+    "1.0.0",
+    "2.0.0-0",
+    "4.0.0-0",
+    "4.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Allows access to the IDFA (iOS) and AAID (Android)",
+  "bugs": "https://github.com/capacitor-community/advertising-id/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 102,
+  "updated": "2022-04-28T04:08:54Z"
+}

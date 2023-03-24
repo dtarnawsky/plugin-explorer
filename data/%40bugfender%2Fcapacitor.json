@@ -1,0 +1,30 @@
+{
+  "name": "@bugfender/capacitor",
+  "version": "1.1.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/bugfender/bugfender-capacitor.git",
+  "author": "",
+  "published": "2023-01-16T09:20:57.199Z",
+  "versions": [
+    "1.0.0-rc.0",
+    "1.0.0-rc.1",
+    "1.0.0-rc.2",
+    "1.0.0-rc.3",
+    "1.0.0",
+    "1.1.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Remote logging with Bugfender",
+  "bugs": "https://github.com/bugfender/bugfender-capacitor/issues",
+  "quality": null
+}

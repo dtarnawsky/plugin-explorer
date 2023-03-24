@@ -27,7 +27,7 @@ async function go(plugins: string[]) {
     for (const plugin of plugins) {
         // Capacitor 4 test
         const capacitor4: TestInfo = {
-            ios: Test.capacitorAndroid4,
+            ios: Test.capacitorIos4,
             android: Test.capacitorAndroid4,
             folder: 'capacitor-4',
             git: 'https://github.com/dtarnawsky/plugin-test-capacitor-4.git'

@@ -1,7 +1,9 @@
 {
   "name": "@agorapulse/capacitor-mediastore",
   "version": "0.0.3",
-  "success": [],
+  "success": [
+    "capacitor-ios-3"
+  ],
   "repo": "https://github.com/agorapulse/capacitor-mediastore.git",
   "keywords": [
     "capacitor",
@@ -11,10 +13,7 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-android-3",
-    "capacitor-ios-3",
-    "capacitor-android-4",
-    "capacitor-android-4"
+    "capacitor-android-3"
   ],
   "stars": 8,
   "image": "https://avatars.githubusercontent.com/u/3104895?v=4",
