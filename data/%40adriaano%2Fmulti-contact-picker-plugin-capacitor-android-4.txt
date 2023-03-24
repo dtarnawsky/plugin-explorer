@@ -1,0 +1,23 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/app/capacitor.build.gradle' line: 10
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > Could not read script '/Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/cordova.variables.gradle' as it does not exist.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 609ms
+        

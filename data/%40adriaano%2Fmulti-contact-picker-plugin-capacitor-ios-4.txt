@@ -1,0 +1,24 @@
+✖ Building xArchive - failed!
+[error] Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace App.xcworkspace -scheme App -destination generic/platform=iOS -archivePath App.xcarchive archive
+        
+        User defaults from command line:
+        IDEArchivePathOverride = /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/ios/App/App.xcarchive
+        IDEPackageSupportUseBuiltinSCM = YES
+        
+        Prepare packages
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: e5cc6d5a3b40fb9f4a98a5359a55b019
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-hjjjaxsxwbdavgbvfevmcdarvnty/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/e5cc6d5a3b40fb9f4a98a5359a55b019-desc.xcbuild
+        
+        note: Building targets in dependency order
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig:1:1: error: unable to open configuration settings file
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig:1:1: error: unable to open configuration settings file
+        /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Target Support Files/Pods-App/Pods-App.release.xcconfig:1:1: error: unable to open configuration settings file
+        warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
+        ** ARCHIVE FAILED **
+        
+        

@@ -1,0 +1,9 @@
+{
+  "name": "@adriaano/multi-contact-picker-plugin",
+  "version": "0.0.6",
+  "success": [],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ]
+}

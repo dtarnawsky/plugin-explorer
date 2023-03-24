@@ -4,12 +4,6 @@
 @adobe/cordova-acpanalytics
 @adobe/cordova-acpcore
 @adriaano/multi-contact-picker-plugin
-@aeins/capacitor-android-theme-switcher
-@aeins/capacitor-firebase-auth
-@aeins/capacitor-google-pay
-@aeins/capacitor-http-wifi-binded
-@aeins/capacitor-location-state
-@aeins/capacitor-start-maps
 @agorapulse/capacitor-mediastore
 @agriverse/ionic-angular-balance-manager
 @agriverse/ionic-angular-bluetooth-location
