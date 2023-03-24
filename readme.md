@@ -84,4 +84,8 @@ It will test again a sample project for:
 - Combine into index.json files
 - Have a known list of exceptions: eg cordova-plugin-ionic-webview should not be used with Capacitor
 - Known list of tags to add to a plugin
-- 
+- Grab github url
+- Grab github stars
+- Grab readme.md
+- Test with Capacitor 5
+- Test with Cordova

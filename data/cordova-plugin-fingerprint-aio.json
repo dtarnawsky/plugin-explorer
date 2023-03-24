@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-fingerprint-aio",
+  "version": "5.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

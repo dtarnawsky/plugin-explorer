@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-actionsheet",
+  "version": "2.3.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}
