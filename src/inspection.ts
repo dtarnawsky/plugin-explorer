@@ -4,7 +4,12 @@ export interface Inspection {
     keywords: string[],
     repo: string,
     success: Test[],
-    fails: Test[]
+    fails: Test[],
+    stars?: number, // Github stars
+    image?: string, // Github author url
+    description?: string, // Github description
+    quality?: number, // Calculation
+    updated?: string // Github date last updated 
 }
 
 export enum Test {

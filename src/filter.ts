@@ -1,4 +1,4 @@
-import { hasData, readPlugin } from "./catalog";
+import { hasData, readPlugin } from "./catalog.js";
 
 export enum FilterType {
     failed,
@@ -19,6 +19,5 @@ export function filter(plugins: string[], filterType: FilterType): string[] {
             result.push(plugin);
         }
     }
-    console.log('Failed plugins', result);
     return result;
 }

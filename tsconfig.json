@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
+      "module": "NodeNext",
       "target": "es2019",
       "lib": ["ES2019", "DOM"],
       "outDir": "out",

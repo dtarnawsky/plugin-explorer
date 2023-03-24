@@ -1,9 +1,9 @@
-import { inspect } from './inspect';
-import { catalog, readPluginList, removeFromPluginList, writePluginList } from './catalog';
-import { clone } from './clone';
-import { hasArg } from './utils';
-import { filter, FilterType } from './filter';
-import { Test } from './inspection';
+import { inspect } from './inspect.js';
+import { catalog, readPluginList, removeFromPluginList, writePluginList } from './catalog.js';
+import { clone } from './clone.js';
+import { hasArg } from './utils.js';
+import { filter, FilterType } from './filter.js';
+import { Test } from './inspection.js';
 
 const args = process.argv;
 const dep = args[2];

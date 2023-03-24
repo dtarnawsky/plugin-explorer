@@ -1,7 +1,8 @@
-import { runAll, run } from './utils';
-import { Inspection, Test } from './inspection';
-import { NPMView } from './npm-view';
-import { writeErrorLog, readPlugin, removeErrorLog } from './catalog';
+import { runAll, run } from './utils.js';
+import { Inspection, Test } from './inspection.js';
+import { NPMView } from './npm-view.js';
+import { writeErrorLog, readPlugin, removeErrorLog } from './catalog.js';
+import { inspectGitHubAPI } from './github.js';
 
 export async function inspect(dep: string): Promise<Inspection> {
     const result: Inspection = readPlugin(dep);
@@ -30,7 +31,9 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         return false;
     }
     try {
-
+        if (result.repo?.includes('github.com')) {
+            await inspectGitHubAPI(result);
+        }
         await runAll([
             'npm i',
             `npm i ${plugin}@${result.version} --save-dev`,
@@ -38,14 +41,14 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
             'npx cap sync',
         ], folder);
     } catch (e) {
-        console.error(`Failed preparation of ${folder} for ${plugin}`);        
+        console.error(`Failed preparation of ${folder} for ${plugin}`);
     }
     return true;
 }
 
-function cleanUrl(url: string) : string {
+function cleanUrl(url: string): string {
     if (url) {
-        return url.replace('git+','');
+        return url.replace('git+', '');
     }
     return url;
 }

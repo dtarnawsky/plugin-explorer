@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "scripts": {
     "inspect": "npx tsc && node out/index.js @capacitor/browser",
     "inspect-all": "npx tsc && node out/index.js all",
@@ -8,5 +9,8 @@
   "devDependencies": {
     "@types/node": "^18.15.5",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1"
   }
 }
