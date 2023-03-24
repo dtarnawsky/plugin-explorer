@@ -15,7 +15,10 @@
     "cordova-android",
     "cordova-ios"
   ],
-  "fails": [],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/476009?v=4",
   "description": "Adobe Experience Platform - Analytics plugin for Cordova apps.",

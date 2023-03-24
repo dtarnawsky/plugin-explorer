@@ -28,7 +28,10 @@
     "cordova-android",
     "alan-sdk"
   ],
-  "fails": [],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
   "versions": [
     "0.0.1",
     "0.0.2",

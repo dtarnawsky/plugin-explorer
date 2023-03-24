@@ -24,7 +24,10 @@
     "statusbar",
     "typescript"
   ],
-  "fails": [],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
   "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/46301285?v=4",
   "description": "Get Status bar height and Safe area insets on Android & iOS.",

@@ -12,7 +12,10 @@
     "ecosystem:cordova",
     "cordova-ios"
   ],
-  "fails": [],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
   "stars": 35,
   "image": "https://avatars.githubusercontent.com/u/70112075?v=4",
   "description": "Cordova plugin to fix local file XHR access inside WKWebView for Cordova iOS 6+",

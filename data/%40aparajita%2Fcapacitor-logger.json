@@ -13,7 +13,10 @@
     "log",
     "logging"
   ],
-  "fails": [],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
   "stars": 11,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
   "description": "Enhanced, universal logging for Capacitor apps and plugins",

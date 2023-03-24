@@ -8,6 +8,11 @@ export function catalog(inspection: Inspection) {
         removePlugin(inspection.name);
         return;
     }
+
+    // De-duplicate tests
+    inspection.fails = [...new Set(inspection.fails)];
+    inspection.success = [...new Set(inspection.success)];
+
     // Save to data folder
     const filename = pluginFilename(inspection.name);
     writeFileSync(filename, JSON.stringify(inspection, null, 2));

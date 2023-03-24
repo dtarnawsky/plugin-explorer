@@ -13,7 +13,10 @@
     "dark",
     "dark-mode"
   ],
-  "fails": [],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
   "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
   "description": "Universal dark mode support for Ionic web and native apps",
