@@ -1,0 +1,9 @@
+{
+  "name": "@capacitor-community/facebook-login",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

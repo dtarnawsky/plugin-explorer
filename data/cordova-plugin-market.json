@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-market",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "fails": [
+    "capacitor-ios-4"
+  ]
+}
