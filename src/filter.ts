@@ -1,7 +1,8 @@
-import { readPlugin } from "./catalog";
+import { hasData, readPlugin } from "./catalog";
 
 export enum FilterType {
-    failed
+    failed,
+    new
 }
 
 export function filter(plugins: string[], filterType: FilterType): string[] {
@@ -11,11 +12,12 @@ export function filter(plugins: string[], filterType: FilterType): string[] {
         let include = false;
         switch (filterType) {
             case FilterType.failed: include = info.fails.length > 0; break;
+            case FilterType.new: include = !hasData(plugin); break;
             default: throw new Error(`Unknown Filter Type ${filterType}`);
         }
         if (include) {
             result.push(plugin);
-        }        
+        }
     }
     console.log('Failed plugins', result);
     return result;

@@ -53,6 +53,10 @@ export function pluginFilename(plugin: string): string {
     return join('data', `${encodeURIComponent(plugin)}.json`);
 }
 
+export function hasData(plugin: string): boolean {
+    return existsSync(pluginFilename(plugin));
+}
+
 export function readPlugin(plugin: string): Inspection {
     const filename = pluginFilename(plugin);
     if (existsSync(filename)) {

@@ -14,6 +14,9 @@ if (hasArg('all', args)) {
 } else if (hasArg('failed', args)) {
     console.log('Inspecting failed plugins...');
     go(filter(readPluginList(), FilterType.failed));
+} else if (hasArg('new', args)) {
+    console.log('Inspecting new plugins...');
+    go(filter(readPluginList(), FilterType.new));    
 } else {
     console.log(`Inspecting ${dep}...`);
     go([dep]);
