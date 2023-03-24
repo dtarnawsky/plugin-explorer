@@ -5,23 +5,29 @@ import { NPMView } from './npm-view.js';
 import { writeErrorLog, readPlugin, removeErrorLog } from './catalog.js';
 import { inspectGitHubAPI } from './github.js';
 import { join } from 'path';
+import { Failure } from './failures.js';
 
 export async function inspect(plugin: string, info: TestInfo): Promise<Inspection> {
     const result: Inspection = readPlugin(plugin);
     const folder = join('apps', info.folder);
-    const foundPlugin = await prepareProject(plugin, folder, result);
-    if (!foundPlugin) {
+    const failure: Failure = await prepareProject(plugin, folder, result);
+    if (failure == Failure.npmMissing) {
         result.fails = [Test.failedInNPM];
         return result;
     }
-    await testProject(plugin, folder, result, 'android', info.android);
-    await testProject(plugin, folder, result, 'ios', info.ios);
-    await cleanupProject(plugin, folder);
+    if (!failure) {
+        await testProject(plugin, folder, result, 'android', info.android);
+        await testProject(plugin, folder, result, 'ios', info.ios);
+        await cleanupProject(plugin, folder);
+    } else {
+        result.fails.push(info.ios);
+        result.fails.push(info.android);
+    }
     return result;
 }
 
 // This returns false only if the plugin could not be found
-async function prepareProject(plugin: string, folder: string, result: Inspection): Promise<boolean> {
+async function prepareProject(plugin: string, folder: string, result: Inspection): Promise<Failure | undefined> {
     try {
         // Get Latest Plugin version number
         const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder, true));
@@ -35,22 +41,34 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         result.keywords = v.keywords;
     } catch (error) {
         console.error(`Failed preparation of ${folder} for ${plugin}`, error);
-        return false;
+        return Failure.npmMissing;
     }
+
     try {
         if (result.repo?.includes('github.com')) {
             await inspectGitHubAPI(result);
         }
-        await runAll([
-            'npm i',
-            `npm i ${plugin}@${result.version} --save-dev`,
-            'npx ionic build --prod',
-            'npx cap sync',
-        ], folder);
     } catch (e) {
         console.error(`Failed preparation of ${folder} for ${plugin}`);
     }
-    return true;
+    let failure = await tryRun(['npm i'], Failure.npmInstall, folder);
+    if (!failure) {
+        failure = await tryRun([`npm i ${plugin}@${result.version} --save-dev`], Failure.peer, folder);
+    }
+    if (!failure) {
+        failure = await tryRun(['npx ionic build --prod', 'npx cap sync'], Failure.sync, folder);
+    }
+    return failure;
+}
+
+async function tryRun(commands: string[], failure: Failure, folder: string): Promise<Failure | undefined> {
+    try {
+        await runAll(commands, folder);
+        return undefined
+    } catch (e) {
+        console.error(`${failure}: Failed preparation of ${folder}`);
+        return failure;
+    }
 }
 
 function cleanUrl(url: string): string {

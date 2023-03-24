@@ -35,13 +35,13 @@ async function go(plugins: string[]) {
 
         // Capacitor 3 test
         const capacitor3: TestInfo = {
-            ios: Test.capacitorAndroid3,
+            ios: Test.capacitorIos3,
             android: Test.capacitorAndroid3,
             folder: 'capacitor-3',
             git: 'https://github.com/dtarnawsky/plugin-test-capacitor-3.git'
         }
 
-        for (const test of [capacitor4, capacitor3]) {
+        for (const test of [capacitor3, capacitor4]) {
             await clone(test);
             const inspection = await inspect(plugin, test);
             catalog(inspection);
