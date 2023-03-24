@@ -3,6 +3,10 @@ import { join } from 'path';
 import { Inspection, Test } from './inspection';
 
 export function catalog(inspection: Inspection) {
+    if (inspection.fails.includes(Test.failedInNPM)) {
+        removePlugin(inspection.name);
+        return;
+    }
     // Save to data folder
     const filename = pluginFilename(inspection.name);
     writeFileSync(filename, JSON.stringify(inspection, null, 2));
@@ -23,30 +27,45 @@ export function removeErrorLog(plugin: string, test: Test) {
     }
 }
 
+function removePlugin(plugin: string) {
+    if (hasData(plugin)) {
+        unlinkSync(pluginFilename(plugin));
+    }
+}
+
 function errorLogFilename(plugin: string, test: Test) {
     return join('data', `${encodeURIComponent(plugin)}-${test}.txt`);
 }
 
 export function writePluginList(name: string) {
-    const filename = join('data', `plugins.txt`);
-    let lines: string[] = [];
-    if (existsSync(filename)) {
-        lines = readFileSync(filename, 'utf-8').split('\n');
-    }
+    const lines = readPluginList();
     if (!lines.includes(name)) {
         lines.push(name);
     }
     lines.sort();
-    writeFileSync(filename, lines.join('\n'));
+    writeFileSync(pluginListFilename(), lines.join('\n'));
+}
+
+export function removeFromPluginList(name: string) {
+    const lines = readPluginList();
+    if (lines.includes(name)) {
+        lines.splice(lines.indexOf(name), 1);
+    }
+    lines.sort();
+    writeFileSync(pluginListFilename(), lines.join('\n'));
 }
 
 export function readPluginList(): string[] {
-    const filename = join('data', `plugins.txt`);
+    const filename = pluginListFilename();
     let lines: string[] = [];
     if (existsSync(filename)) {
         lines = readFileSync(filename, 'utf-8').split('\n');
     }
     return lines;
+}
+
+function pluginListFilename() {
+    return join('data', `plugins.txt`);
 }
 
 export function pluginFilename(plugin: string): string {

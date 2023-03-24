@@ -7,5 +7,6 @@ export interface Inspection {
 
 export enum Test {
     capacitorIos4 = 'capacitor-ios-4',
-    capacitorAndroid4 = 'capacitor-android-4'
+    capacitorAndroid4 = 'capacitor-android-4',
+    failedInNPM = 'failed-in-npm'
 }

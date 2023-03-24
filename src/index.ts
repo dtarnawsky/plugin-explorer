@@ -1,8 +1,9 @@
 import { inspect } from './inspect';
-import { catalog, readPluginList, writePluginList } from './catalog';
+import { catalog, readPluginList, removeFromPluginList, writePluginList } from './catalog';
 import { clone } from './clone';
 import { hasArg } from './utils';
 import { filter, FilterType } from './filter';
+import { Test } from './inspection';
 
 const args = process.argv;
 const dep = args[2];
@@ -16,7 +17,7 @@ if (hasArg('all', args)) {
     go(filter(readPluginList(), FilterType.failed));
 } else if (hasArg('new', args)) {
     console.log('Inspecting new plugins...');
-    go(filter(readPluginList(), FilterType.new));    
+    go(filter(readPluginList(), FilterType.new));
 } else {
     console.log(`Inspecting ${dep}...`);
     go([dep]);
@@ -27,6 +28,11 @@ async function go(deps: string[]) {
         await clone('https://github.com/dtarnawsky/plugin-test-capacitor-4.git', 'capacitor-4');
         const inspection = await inspect(dep);
         catalog(inspection);
-        writePluginList(inspection.name);
+        const removePlugin = inspection.fails.includes(Test.failedInNPM);
+        if (removePlugin) {
+            removeFromPluginList(inspection.name);
+        } else {
+            writePluginList(inspection.name);
+        }
     }
 }
