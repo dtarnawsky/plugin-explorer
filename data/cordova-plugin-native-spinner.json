@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-native-spinner",
+  "version": "1.1.4",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "fails": [
+    "capacitor-ios-4"
+  ]
+}

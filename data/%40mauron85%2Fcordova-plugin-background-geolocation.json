@@ -1,0 +1,10 @@
+{
+  "name": "@mauron85/cordova-plugin-background-geolocation",
+  "version": "3.1.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

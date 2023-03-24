@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-firebase-authentication",
+  "version": "7.0.1",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

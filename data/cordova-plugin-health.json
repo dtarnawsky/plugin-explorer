@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-health",
+  "version": "2.1.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "fails": [
+    "capacitor-ios-4"
+  ]
+}

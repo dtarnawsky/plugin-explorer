@@ -1,0 +1,9 @@
+{
+  "name": "branch-cordova-sdk",
+  "version": "5.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

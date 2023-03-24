@@ -1,0 +1,9 @@
+{
+  "name": "phonegap-plugin-mobile-accessibility",
+  "version": "1.0.5",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

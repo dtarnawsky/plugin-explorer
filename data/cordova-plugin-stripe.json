@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-stripe",
+  "version": "1.5.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

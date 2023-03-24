@@ -1,0 +1,10 @@
+{
+  "name": "phonegap-plugin-multidex",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "fails": [
+    "capacitor-ios-4"
+  ]
+}

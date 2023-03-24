@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-qrscanner",
+  "version": "3.0.1",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

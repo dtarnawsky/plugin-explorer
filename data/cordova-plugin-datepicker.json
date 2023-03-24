@@ -1,0 +1,9 @@
+{
+  "name": "cordova-plugin-datepicker",
+  "version": "0.9.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}
