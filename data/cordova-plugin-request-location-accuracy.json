@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-request-location-accuracy",
+  "version": "2.3.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "fails": [
+    "capacitor-ios-4"
+  ]
+}

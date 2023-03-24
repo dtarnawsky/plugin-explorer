@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-whitelist",
+  "version": "1.3.5",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

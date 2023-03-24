@@ -1,0 +1,10 @@
+{
+  "name": "phonegap-plugin-barcodescanner",
+  "version": "8.1.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

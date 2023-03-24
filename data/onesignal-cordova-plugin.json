@@ -1,0 +1,10 @@
+{
+  "name": "onesignal-cordova-plugin",
+  "version": "3.3.1",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "fails": [
+    "capacitor-ios-4"
+  ]
+}

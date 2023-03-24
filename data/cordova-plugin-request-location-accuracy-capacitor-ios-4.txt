@@ -1,0 +1,10 @@
+✔ Building xArchive in 16.85s
+✖ Building IPA - failed!
+[error] 2023-03-23 17:02:37.738 xcodebuild[48185:1105402] [MT] IDEDistribution: -[IDEDistributionLogging _createLoggingBundleAtPath:]: Created bundle at path "/var/folders/j5/3tm1zw2n22xfpr519dj2460c0000gn/T/App_2023-03-23_17-02-37.737.xcdistributionlogs".
+        error: exportArchive: The network connection was lost.
+        
+        Error Domain=NSURLErrorDomain Code=-1005 "The network connection was lost." UserInfo={NSUnderlyingError=0x121a0de40 {Error Domain=kCFErrorDomainCFNetwork Code=-1005 "The network connection was lost." UserInfo={NSErrorFailingURLStringKey=https://developerservices2.apple.com/services/QH65B2/listTeams.action?clientId=XABBG36SBA, _kCFStreamErrorDomainKey=4, NSErrorPeerAddressKey=<CFData 0x1212ac060 [0x1ea930690]>{length = 16, capacity = 16, bytes = 0x100201bb1120d68a0000000000000000}, _kCFStreamErrorCodeKey=-4, NSErrorFailingURLKey=https://developerservices2.apple.com/services/QH65B2/listTeams.action?clientId=XABBG36SBA, NSLocalizedDescription=The network connection was lost.}}, NSErrorFailingURLStringKey=https://developerservices2.apple.com/services/QH65B2/listTeams.action?clientId=XABBG36SBA, NSErrorFailingURLKey=https://developerservices2.apple.com/services/QH65B2/listTeams.action?clientId=XABBG36SBA, _kCFStreamErrorDomainKey=4, _kCFStreamErrorCodeKey=-4, NSLocalizedDescription=The network connection was lost.}
+        
+        ** EXPORT FAILED **
+        
+        
