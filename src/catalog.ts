@@ -38,11 +38,12 @@ function errorLogFilename(plugin: string, test: Test) {
 }
 
 export function writePluginList(name: string) {
-    const lines = readPluginList();
+    let lines = readPluginList();
     if (!lines.includes(name)) {
         lines.push(name);
     }
     lines.sort();
+    lines = [...new Set(lines)]; // De-dup
     writeFileSync(pluginListFilename(), lines.join('\n'));
 }
 
