@@ -4,8 +4,8 @@
         WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
         
         > Configure project :capacitor-community-photoviewer
-        
         Kotlin plugin is applied to the project :capacitor-community-photoviewer but we cannot find the KaptTask. Make sure you apply the kotlin-kapt plugin because it is necessary to use kotlin with data binding.
+        
         > Configure project :capacitor-cordova-android-plugins
         WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
         
@@ -33,16 +33,16 @@
         > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
         > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
         > Task :app:compileReleaseRenderscript NO-SOURCE
-        > Task :app:generateReleaseResValues UP-TO-DATE
-        > Task :app:generateReleaseResources UP-TO-DATE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
         > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-android:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-android:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-android:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
         > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-app:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-app:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-app:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
         > Task :capacitor-community-photoviewer:compileReleaseRenderscript NO-SOURCE
         > Task :capacitor-community-photoviewer:generateReleaseResValues
         > Task :capacitor-community-photoviewer:generateReleaseResources
@@ -52,17 +52,17 @@
         > Task :capacitor-cordova-android-plugins:generateReleaseResources
         > Task :capacitor-cordova-android-plugins:packageReleaseResources
         > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-haptics:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-haptics:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
         > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-keyboard:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-keyboard:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
         > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
         > Task :app:mergeReleaseResources FAILED
         
         FAILURE: Build failed with an exception.
@@ -89,5 +89,5 @@
         * Get more help at https://help.gradle.org
         
         BUILD FAILED in 2s
-        16 actionable tasks: 5 executed, 11 up-to-date
+        16 actionable tasks: 16 executed
         

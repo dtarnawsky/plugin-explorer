@@ -30,32 +30,32 @@
         > Task :transistorsoft-capacitor-background-geolocation:preReleaseBuild UP-TO-DATE
         > Task :transistorsoft-capacitor-background-geolocation:packageReleaseRenderscript NO-SOURCE
         > Task :app:compileReleaseRenderscript NO-SOURCE
-        > Task :app:generateReleaseResValues UP-TO-DATE
-        > Task :app:generateReleaseResources UP-TO-DATE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
         > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-android:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-android:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-android:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
         > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-app:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-app:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-app:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
         > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseResValues
         > Task :capacitor-cordova-android-plugins:generateReleaseResources
         > Task :capacitor-cordova-android-plugins:packageReleaseResources
         > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-haptics:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-haptics:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
         > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-keyboard:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-keyboard:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
         > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
         > Task :transistorsoft-capacitor-background-geolocation:compileReleaseRenderscript NO-SOURCE
         > Task :transistorsoft-capacitor-background-geolocation:generateReleaseResValues
         > Task :transistorsoft-capacitor-background-geolocation:generateReleaseResources
@@ -84,5 +84,5 @@
         * Get more help at https://help.gradle.org
         
         BUILD FAILED in 1s
-        16 actionable tasks: 5 executed, 11 up-to-date
+        16 actionable tasks: 16 executed
         

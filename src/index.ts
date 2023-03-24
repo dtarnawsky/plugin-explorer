@@ -20,8 +20,8 @@ if (hasArg('all', args)) {
 }
 
 async function go(deps: string[]) {
-    await clone('https://github.com/dtarnawsky/plugin-test-capacitor-4.git', 'capacitor-4');
     for (const dep of deps) {
+        await clone('https://github.com/dtarnawsky/plugin-test-capacitor-4.git', 'capacitor-4');
         const inspection = await inspect(dep);
         catalog(inspection);
         writePluginList(inspection.name);
