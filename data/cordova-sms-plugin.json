@@ -1,0 +1,9 @@
+{
+  "name": "cordova-sms-plugin",
+  "version": "1.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

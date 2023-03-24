@@ -1,0 +1,9 @@
+{
+  "name": "capacitor-blob-writer",
+  "version": "1.1.9",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "fails": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "cordova-plugin-printer",
+  "version": "0.8.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}
