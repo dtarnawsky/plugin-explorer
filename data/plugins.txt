@@ -5,10 +5,6 @@
 @adobe/cordova-acpcore
 @adriaano/multi-contact-picker-plugin
 @agorapulse/capacitor-mediastore
-@agriverse/ionic-angular-balance-manager
-@agriverse/ionic-angular-bluetooth-location
-@agriverse/ionic-angular-tsc
-@agriverse/processing-line-manager
 @ahovakimyan/cordova-plugin-wkwebviewxhrfix
 @alan-ai/cordova-plugin-alan-voice
 @aparajita/capacitor-biometric-auth
