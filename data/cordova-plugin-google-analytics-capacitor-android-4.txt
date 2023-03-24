@@ -27,47 +27,66 @@
         > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
         > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
         > Task :app:compileReleaseRenderscript NO-SOURCE
-        > Task :app:generateReleaseResValues UP-TO-DATE
-        > Task :app:generateReleaseResources UP-TO-DATE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
         > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-android:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-android:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-android:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
         > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-app:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-app:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-app:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
         > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseResValues
         > Task :capacitor-cordova-android-plugins:generateReleaseResources
         > Task :capacitor-cordova-android-plugins:packageReleaseResources
         > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-haptics:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-haptics:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
         > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-keyboard:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-keyboard:packageReleaseResources UP-TO-DATE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
         > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseResValues UP-TO-DATE
-        > Task :capacitor-status-bar:generateReleaseResources UP-TO-DATE
-        > Task :capacitor-status-bar:packageReleaseResources UP-TO-DATE
-        > Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
-        > Task :app:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-android:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-android:processReleaseManifest UP-TO-DATE
-        > Task :capacitor-app:extractDeepLinksRelease UP-TO-DATE
-        > Task :capacitor-app:processReleaseManifest UP-TO-DATE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
         
         > Task :capacitor-cordova-android-plugins:processReleaseManifest FAILED
         
         See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
         
+        
+        > Task :capacitor-app:parseReleaseLocalResources
         /Volumes/CodeDrive/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-10:12 Error:
         android:exported needs to be explicitly specified for element <receiver#com.google.android.gms.analytics.AnalyticsReceiver>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
-        
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :app:mergeReleaseResources
         
         FAILURE: Build failed with an exception.
@@ -84,6 +103,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 1s
-        22 actionable tasks: 5 executed, 17 up-to-date
+        BUILD FAILED in 2s
+        39 actionable tasks: 39 executed
         

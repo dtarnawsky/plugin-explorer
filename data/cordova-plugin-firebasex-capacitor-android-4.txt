@@ -14,7 +14,7 @@
         
         * What went wrong:
         A problem occurred evaluating script.
-        > No signature of method: build_43u64kpe9m3fvosadnet7ohqn.android() is applicable for argument types: (build_43u64kpe9m3fvosadnet7ohqn$_run_closure2) values: [build_43u64kpe9m3fvosadnet7ohqn$_run_closure2@274afa18]
+        > No signature of method: build_43u64kpe9m3fvosadnet7ohqn.android() is applicable for argument types: (build_43u64kpe9m3fvosadnet7ohqn$_run_closure2) values: [build_43u64kpe9m3fvosadnet7ohqn$_run_closure2@419fc4d6]
         
         * Try:
         > Run with --stacktrace option to get the stack trace.
@@ -23,11 +23,11 @@
         
         * Get more help at https://help.gradle.org
         
+        
+        BUILD FAILED in 851ms
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
-        
-        BUILD FAILED in 804ms
         
