@@ -1,7 +1,9 @@
 {
   "name": "@admob-plus/capacitor",
   "version": "1.24.0",
-  "success": [],
+  "success": [
+    "capacitor-ios-3"
+  ],
   "repo": "https://github.com/admob-plus/admob-plus.git",
   "keywords": [
     "capacitor",
@@ -24,8 +26,7 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-android-3"
   ],
   "stars": 327,
   "image": "https://avatars.githubusercontent.com/u/39599641?v=4",
