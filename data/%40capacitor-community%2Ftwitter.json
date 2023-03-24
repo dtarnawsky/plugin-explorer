@@ -1,0 +1,20 @@
+{
+  "name": "@capacitor-community/twitter",
+  "version": "3.0.2",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/twitter.git",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "twitter",
+    "twitter kit",
+    "twitter ios",
+    "twitter android"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

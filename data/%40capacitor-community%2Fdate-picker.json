@@ -1,0 +1,15 @@
+{
+  "name": "@capacitor-community/date-picker",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/date-picker.git",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": []
+}

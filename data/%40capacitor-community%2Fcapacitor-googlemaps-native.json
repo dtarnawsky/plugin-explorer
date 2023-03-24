@@ -1,0 +1,16 @@
+{
+  "name": "@capacitor-community/capacitor-googlemaps-native",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/capacitor-googlemaps-native.git",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4"
+  ]
+}

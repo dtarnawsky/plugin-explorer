@@ -45,7 +45,6 @@
 @capacitor-community/image-to-text
 @capacitor-community/intercom
 @capacitor-community/keep-awake
-@capacitor-community/mdm-app-config
 @capacitor-community/mdm-appconfig
 @capacitor-community/media
 @capacitor-community/native-audio
@@ -54,15 +53,12 @@
 @capacitor-community/privacy-screen
 @capacitor-community/realm
 @capacitor-community/screen-brightness
-@capacitor-community/screenshots
-@capacitor-community/shazam
 @capacitor-community/speech-recognition
 @capacitor-community/sqlite
 @capacitor-community/stripe
 @capacitor-community/text-to-speech
 @capacitor-community/twitter
 @capacitor-community/uxcam
-@capacitor-community/wifi
 @capacitor-firebase/analytics
 @capacitor-firebase/app
 @capacitor-firebase/app-check

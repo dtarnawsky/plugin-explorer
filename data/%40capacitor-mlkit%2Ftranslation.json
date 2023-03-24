@@ -1,0 +1,16 @@
+{
+  "name": "@capacitor-mlkit/translation",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/capawesome-team/capacitor-mlkit.git",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4"
+  ]
+}

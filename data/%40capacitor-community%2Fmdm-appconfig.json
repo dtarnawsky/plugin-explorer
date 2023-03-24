@@ -1,0 +1,15 @@
+{
+  "name": "@capacitor-community/mdm-appconfig",
+  "version": "4.0.5",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/mdm-appconfig.git",
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": []
+}
