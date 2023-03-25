@@ -1,0 +1,33 @@
+{
+  "name": "@capacitor-community/file-opener",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/file-opener.git",
+  "author": "Alex Ryltsov <ryltsov.alex@gmail.com>",
+  "published": "2023-01-23T16:45:57.766Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor File Opener. The plugin is able to open a file given the mimeType and the file uri.",
+  "bugs": "https://github.com/capacitor-community/file-opener/issues",
+  "stars": 36,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 143,
+  "updated": "2023-03-15T03:50:26Z"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@capacitor-community/barcode-scanner",
+  "version": "3.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/barcode-scanner.git",
+  "author": "tafelnl",
+  "published": "2023-03-12T12:18:13.299Z",
+  "versions": [
+    "1.2.0-alpha.2",
+    "1.2.1",
+    "2.0.0-alpha.0",
+    "2.0.0-alpha.1",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0-alpha.0",
+    "2.1.0",
+    "2.1.1",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2",
+    "3.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A fast and efficient (QR) barcode scanner for Capacitor",
+  "bugs": "https://github.com/capacitor-community/barcode-scanner/issues",
+  "stars": 340,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 581,
+  "updated": "2023-03-24T04:44:54Z"
+}

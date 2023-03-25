@@ -1,0 +1,34 @@
+{
+  "name": "@capacitor-community/mdm-appconfig",
+  "version": "4.0.5",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/mdm-appconfig.git",
+  "author": "",
+  "published": "2023-01-23T22:56:12.245Z",
+  "versions": [
+    "4.0.0",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3",
+    "4.0.4",
+    "4.0.5"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "read app config values written by a MDM",
+  "bugs": "https://github.com/capacitor-community/mdm-appconfig/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 103,
+  "updated": "2023-02-22T16:32:17Z"
+}

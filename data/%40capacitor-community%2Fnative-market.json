@@ -1,0 +1,29 @@
+{
+  "name": "@capacitor-community/native-market",
+  "version": "0.1.4",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/native-market.git",
+  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
+  "published": "2023-01-23T16:46:05.269Z",
+  "versions": [
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3",
+    "capacitor-android-4"
+  ],
+  "description": "A native market plugin for linking to google play or app store.",
+  "bugs": "https://github.com/capacitor-community/native-market/issues",
+  "quality": null
+}

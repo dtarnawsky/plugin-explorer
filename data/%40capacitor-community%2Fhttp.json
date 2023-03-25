@@ -1,0 +1,54 @@
+{
+  "name": "@capacitor-community/http",
+  "version": "1.4.1",
+  "success": [
+    "capacitor-ios-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/http.git",
+  "author": "Max Lynch <max@ionic.io>",
+  "published": "2023-01-23T16:46:01.636Z",
+  "versions": [
+    "0.0.3-1",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.2.0",
+    "0.2.1",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "1.0.0-alpha.0",
+    "1.0.0-alpha.1",
+    "1.0.0-alpha.2",
+    "1.0.0-alpha.3",
+    "1.0.0-alpha.4",
+    "1.0.0-alpha.5",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1",
+    "2.0.0-0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "http"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A native HTTP plugin for CORS-free requests and file transfers",
+  "bugs": "https://github.com/capacitor-community/http/issues",
+  "stars": 208,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 526,
+  "updated": "2023-03-21T20:51:46Z"
+}

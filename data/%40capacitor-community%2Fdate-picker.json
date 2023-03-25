@@ -1,0 +1,39 @@
+{
+  "name": "@capacitor-community/date-picker",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/date-picker.git",
+  "author": "Stewan Silva",
+  "published": "2023-03-16T16:29:58.382Z",
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "0.3.0",
+    "3.0.0",
+    "4.0.0-0",
+    "4.0.0-1",
+    "4.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Native DateTime Picker Plugin for Capacitor Apps",
+  "bugs": "https://github.com/capacitor-community/date-picker/issues",
+  "stars": 64,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 204,
+  "updated": "2023-03-14T06:52:47Z"
+}

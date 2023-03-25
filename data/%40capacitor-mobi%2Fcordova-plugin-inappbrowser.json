@@ -1,0 +1,36 @@
+{
+  "name": "@capacitor-mobi/cordova-plugin-inappbrowser",
+  "version": "5.0.3",
+  "success": [],
+  "repo": "https://github.com/mobiliarmad/cordova-plugin-inappbrowser.git",
+  "author": "Apache Software Foundation",
+  "published": "2023-02-15T02:08:06.892Z",
+  "versions": [
+    "5.0.1",
+    "5.0.2",
+    "5.0.3"
+  ],
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "browser",
+    "inappbrowser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova InAppBrowser Plugin",
+  "bugs": "https://github.com/mobiliarmad/cordova-plugin-inappbrowser/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/31008236?v=4",
+  "quality": 0,
+  "updated": "2021-05-26T09:22:45Z"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@capacitor-community/image-to-text",
+  "version": "4.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "ssh://git@github.com/capacitor-community/image-to-text.git",
+  "author": "Originally Vennela Kodali and now Capacitor Community",
+  "published": "2023-02-24T14:53:24.400Z",
+  "versions": [
+    "4.0.0",
+    "4.0.1",
+    "4.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "ocr",
+    "image",
+    "text"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Image to Text (OCR) Plugin for Capacitor",
+  "quality": null
+}

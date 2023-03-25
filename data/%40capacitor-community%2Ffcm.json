@@ -1,0 +1,53 @@
+{
+  "name": "@capacitor-community/fcm",
+  "version": "3.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/fcm.git",
+  "author": "Stewan Silva",
+  "published": "2023-01-23T16:45:56.839Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "fcm",
+    "firebase cloud messaging",
+    "android",
+    "angular",
+    "firebase",
+    "ionic",
+    "ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Enable Firebase Cloud Messaging features for Capacitor apps",
+  "bugs": "https://github.com/capacitor-community/fcm/issues",
+  "stars": 213,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 401,
+  "updated": "2023-03-09T13:54:58Z"
+}

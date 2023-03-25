@@ -1,0 +1,797 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-community-stripe:preBuild UP-TO-DATE
+        > Task :capacitor-community-stripe:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-community-stripe:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-community-stripe:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-community-stripe:generateReleaseResValues
+        > Task :capacitor-community-stripe:generateReleaseResources
+        > Task :capacitor-community-stripe:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-community-stripe:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-community-stripe:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-community-stripe:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        
+        > Task :app:processReleaseMainManifest
+        [org.tensorflow:tensorflow-lite:2.11.0] /Users/damian/.gradle/caches/transforms-3/c8752d1b562cb2b21d52bab9f058cf92/transformed/jetified-tensorflow-lite-2.11.0/AndroidManifest.xml Warning:
+        Namespace 'org.tensorflow.lite' used in: org.tensorflow:tensorflow-lite:2.11.0, org.tensorflow:tensorflow-lite-api:2.11.0.
+        [org.tensorflow:tensorflow-lite-support:0.4.3] /Users/damian/.gradle/caches/transforms-3/1e413efac158cad7de5184ddf3eb03df/transformed/jetified-tensorflow-lite-support-0.4.3/AndroidManifest.xml Warning:
+        Namespace 'org.tensorflow.lite.support' used in: org.tensorflow:tensorflow-lite-support:0.4.3, org.tensorflow:tensorflow-lite-support-api:0.4.3.
+        
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-community-stripe:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-community-stripe:generateReleaseBuildConfig
+        > Task :capacitor-community-stripe:javaPreCompileRelease
+        > Task :capacitor-community-stripe:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :app:mapReleaseSourceSetPaths
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-community-stripe:generateReleaseRFile
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-community-stripe:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        > Task :app:processReleaseManifestForPackage
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :capacitor-keyboard:bundleLibCompileToJarRelease
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
+        > Task :app:checkReleaseAarMetadata FAILED
+        > Task :app:desugarReleaseFileDependencies
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-community-stripe:compileReleaseKotlin
+        'compileReleaseJavaWithJavac' task (current target is 11) and 'compileReleaseKotlin' task (current target is 1.8) jvm target compatibility should be set to the same Java version.
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:checkReleaseAarMetadata'.
+        > A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+        > 32 issues were found when checking AAR metadata:
+        
+        1.  Dependency 'androidx.appcompat:appcompat-resources:1.6.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        2.  Dependency 'androidx.camera:camera-view:1.2.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        3.  Dependency 'androidx.appcompat:appcompat:1.6.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        4.  Dependency 'androidx.compose.ui:ui-viewbinding:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        5.  Dependency 'androidx.activity:activity-compose:1.6.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        6.  Dependency 'androidx.compose.runtime:runtime-livedata:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        7.  Dependency 'androidx.compose.material:material:1.3.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        8.  Dependency 'androidx.compose.material:material-ripple:1.3.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        9.  Dependency 'androidx.compose.foundation:foundation:1.3.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        10.  Dependency 'androidx.compose.material:material-icons-core:1.3.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        11.  Dependency 'androidx.compose.animation:animation:1.3.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        12.  Dependency 'androidx.compose.foundation:foundation-layout:1.3.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        13.  Dependency 'androidx.compose.animation:animation-core:1.3.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        14.  Dependency 'androidx.compose.ui:ui:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        15.  Dependency 'androidx.compose.ui:ui-tooling-preview:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        16.  Dependency 'androidx.compose.ui:ui-text:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        17.  Dependency 'androidx.compose.runtime:runtime-saveable:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        18.  Dependency 'androidx.compose.ui:ui-graphics:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        19.  Dependency 'androidx.compose.ui:ui-unit:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        20.  Dependency 'androidx.compose.ui:ui-geometry:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        21.  Dependency 'androidx.compose.runtime:runtime:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        22.  Dependency 'androidx.activity:activity:1.6.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        23.  Dependency 'androidx.activity:activity-ktx:1.6.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        24.  Dependency 'androidx.browser:browser:1.5.0' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        25.  Dependency 'androidx.camera:camera-camera2:1.2.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        26.  Dependency 'androidx.camera:camera-lifecycle:1.2.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        27.  Dependency 'androidx.camera:camera-core:1.2.1' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        28.  Dependency 'androidx.core:core:1.9.0' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        29.  Dependency 'androidx.core:core-ktx:1.9.0' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        30.  Dependency 'androidx.security:security-crypto:1.1.0-alpha05' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        31.  Dependency 'androidx.compose.ui:ui-util:1.3.3' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        32.  Dependency 'androidx.annotation:annotation-experimental:1.3.0' requires libraries and applications that
+        depend on it to compile against version 33 or later of the
+        Android APIs.
+        
+        :app is currently compiled against android-32.
+        
+        Also, the maximum recommended compile SDK version for Android Gradle
+        plugin 7.2.1 is 32.
+        
+        Recommended action: Update this project's version of the Android Gradle
+        plugin to one that supports 33, then update this project to use
+        compileSdkVerion of at least 33.
+        
+        Note that updating a library or application's compileSdkVersion (which
+        allows newer APIs to be used) can be done separately from updating
+        targetSdkVersion (which opts the app in to new runtime behavior) and
+        minSdkVersion (which determines which devices the app can be installed
+        on).
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 7s
+        104 actionable tasks: 104 executed
+        

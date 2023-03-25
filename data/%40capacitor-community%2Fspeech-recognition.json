@@ -1,0 +1,35 @@
+{
+  "name": "@capacitor-community/speech-recognition",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/speech-recognition.git",
+  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
+  "published": "2023-02-03T18:22:13.886Z",
+  "versions": [
+    "0.0.3",
+    "0.0.4",
+    "1.0.0",
+    "2.0.0",
+    "2.1.0",
+    "3.0.0-0",
+    "4.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A native plugin for speech recognition",
+  "bugs": "https://github.com/capacitor-community/speech-recognition/issues",
+  "stars": 41,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 183,
+  "updated": "2023-03-14T03:06:52Z"
+}

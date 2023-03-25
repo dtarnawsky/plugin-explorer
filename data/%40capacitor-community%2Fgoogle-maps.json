@@ -1,0 +1,41 @@
+{
+  "name": "@capacitor-community/google-maps",
+  "version": "2.0.0-beta.1",
+  "success": [
+    "capacitor-ios-3",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/google-maps.git",
+  "author": "@capacitor-community",
+  "published": "2023-01-23T16:45:57.702Z",
+  "versions": [
+    "2.0.0-beta.1",
+    "2.0.0-beta.2",
+    "2.0.0-beta.3",
+    "2.0.0-beta.4",
+    "2.0.0-beta.5",
+    "2.0.0-beta.6"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-community",
+    "capacitor-plugin",
+    "google-maps-api",
+    "ios",
+    "java",
+    "swift"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-android-4"
+  ],
+  "description": "Plugin using native Maps API for Android and iOS.",
+  "bugs": "https://github.com/capacitor-community/google-maps/issues",
+  "stars": 136,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 316,
+  "updated": "2023-03-10T15:04:30Z"
+}

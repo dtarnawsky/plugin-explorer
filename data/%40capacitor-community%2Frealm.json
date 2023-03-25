@@ -1,0 +1,25 @@
+{
+  "name": "@capacitor-community/realm",
+  "version": "0.0.3",
+  "success": [],
+  "repo": "ssh://git@github.com/capacitor-community/realm.git",
+  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
+  "published": "2023-01-23T16:46:03.173Z",
+  "versions": [
+    "0.0.2",
+    "0.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "description": "A native plugin for MongoDB Realm",
+  "quality": null
+}
