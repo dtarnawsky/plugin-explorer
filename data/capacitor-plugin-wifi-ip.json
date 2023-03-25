@@ -1,0 +1,36 @@
+{
+  "name": "capacitor-plugin-wifi-ip",
+  "version": "0.0.7",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/DeniKucevic/capacitor-plugin-wifi-ip.git",
+  "author": "Brixi",
+  "published": "2023-03-13T10:29:19.123Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Get devices wifi IP address",
+  "bugs": "https://github.com/DeniKucevic/capacitor-plugin-wifi-ip/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/60389039?v=4",
+  "quality": 100,
+  "updated": "2023-02-28T21:27:36Z",
+  "downloads": 431
+}

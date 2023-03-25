@@ -1,0 +1,39 @@
+{
+  "name": "capacitor-open-app-settings",
+  "version": "2.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/swernimo/capacitor-open-app-settings.git",
+  "author": "Sean Wernimont",
+  "published": "2022-09-23T21:00:07.758Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "2.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A simple plugin that opens the app's settings page (if it exists)",
+  "bugs": "https://github.com/swernimo/capacitor-open-app-settings/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/11137058?v=4",
+  "quality": 101,
+  "updated": "2022-08-10T06:28:51Z",
+  "downloads": 841
+}

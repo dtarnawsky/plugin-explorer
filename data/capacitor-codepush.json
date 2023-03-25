@@ -1,0 +1,35 @@
+{
+  "name": "capacitor-codepush",
+  "version": "1.0.3",
+  "success": [],
+  "repo": "https://github.com/laituanmanh32/capacitor-codepush.git",
+  "author": "Microsoft Corporation",
+  "published": "2022-04-12T05:15:03.717Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "code",
+    "push",
+    "ecosystem:capacitor",
+    "capacitor-android",
+    "capacitor-ios"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "CodePush Plugin for Capacitor",
+  "bugs": "https://github.com/laituanmanh32/capacitor-codepush/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/11975819?v=4",
+  "quality": 0,
+  "updated": "2020-01-16T07:14:52Z",
+  "downloads": 10
+}

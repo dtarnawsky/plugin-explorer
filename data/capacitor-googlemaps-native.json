@@ -1,0 +1,41 @@
+{
+  "name": "capacitor-googlemaps-native",
+  "version": "0.0.6",
+  "success": [],
+  "repo": "https://github.com/hemangsk/capacitor-googlemaps-native.git",
+  "author": "Hemang Kumar",
+  "published": "2022-04-12T05:15:22.422Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-community",
+    "capacitor-plugin",
+    "google-maps-api",
+    "ios",
+    "java",
+    "swift"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "Plugin using native Maps API for Android and iOS.",
+  "bugs": "https://github.com/hemangsk/capacitor-googlemaps-native/issues",
+  "stars": 136,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 316,
+  "updated": "2023-03-10T15:04:30Z",
+  "downloads": 21
+}

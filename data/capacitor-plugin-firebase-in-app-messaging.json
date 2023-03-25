@@ -1,0 +1,34 @@
+{
+  "name": "capacitor-plugin-firebase-in-app-messaging",
+  "version": "0.0.6",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/dbrookesSPC/capacitor-plugin-firebase-inappmessaging.git",
+  "author": "David Brookes - Sure Petcare",
+  "published": "2022-10-20T10:57:15.431Z",
+  "versions": [
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Add In-App Messaging to Ionic Apps",
+  "bugs": "https://github.com/dbrookesSPC/capacitor-plugin-firebase-inappmessaging/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/65164730?v=4",
+  "quality": 100,
+  "updated": "2022-04-28T08:27:38Z",
+  "downloads": 66
+}

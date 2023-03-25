@@ -1,0 +1,33 @@
+{
+  "name": "capacitor-file-selector",
+  "version": "0.0.5",
+  "success": [],
+  "repo": "https://github.com/hinddeep/capacitor-file-selector.git",
+  "author": "Hinddeep Shailesh Purohit",
+  "published": "2022-04-12T05:15:14.868Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "Select File from the Native Filesystem",
+  "bugs": "https://github.com/hinddeep/capacitor-file-selector/issues",
+  "stars": 13,
+  "image": "https://avatars.githubusercontent.com/u/22722365?v=4",
+  "quality": 133,
+  "updated": "2022-02-24T09:03:26Z",
+  "downloads": 220
+}

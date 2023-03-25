@@ -1,0 +1,28 @@
+{
+  "name": "capacitor-oklok-v2",
+  "version": "0.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/own2mesh/capacitor-oklok-v2-plugin.git.git",
+  "author": "",
+  "published": "2022-09-18T08:43:10.170Z",
+  "versions": [
+    "0.0.1",
+    "0.1.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A native plugin used for bluetooth low-energy communication with locks from OKLOK",
+  "bugs": "https://github.com/own2mesh/capacitor-oklok-v2-plugin.git/issues",
+  "quality": null,
+  "downloads": 13
+}

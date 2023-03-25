@@ -1,0 +1,46 @@
+{
+  "name": "capacitor-background-geolocation",
+  "version": "0.1.8",
+  "success": [],
+  "repo": "https://github.com/seididieci/capacitor-backround-geolocation.git",
+  "author": "seididieci",
+  "published": "2022-04-12T05:14:53.961Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "geolocation",
+    "background"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A native plugin to get geolocation updates also when app is in background",
+  "bugs": "https://github.com/seididieci/capacitor-backround-geolocation.git/issues",
+  "stars": 12,
+  "image": "https://avatars.githubusercontent.com/u/69154422?v=4",
+  "quality": 114,
+  "updated": "2023-02-22T02:47:11Z",
+  "downloads": 30
+}

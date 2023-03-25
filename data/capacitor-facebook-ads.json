@@ -1,0 +1,29 @@
+{
+  "name": "capacitor-facebook-ads",
+  "version": "0.0.1",
+  "success": [],
+  "repo": "https://github.com/SpellChucker/capacitor-facebook-ads.git",
+  "author": "Todd Vrba",
+  "published": "2022-04-12T05:15:13.320Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Implement facebook ads as well as audience network",
+  "bugs": "https://github.com/SpellChucker/capacitor-facebook-ads/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/6580569?v=4",
+  "quality": 100,
+  "updated": "2020-05-13T11:46:11Z",
+  "downloads": 6
+}

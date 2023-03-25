@@ -1,0 +1,30 @@
+{
+  "name": "capacitor-firebase",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/eikooc/capacitor-firebase.git",
+  "author": "Jamie Neubert Pedersen",
+  "published": "2022-04-12T05:15:15.575Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "[Not functioning] Integrating the offerings of Firebase in a Capacitor plugin",
+  "bugs": "https://github.com/eikooc/capacitor-firebase/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/1305015?v=4",
+  "quality": 100,
+  "updated": "2018-05-22T18:42:33Z",
+  "downloads": 5
+}

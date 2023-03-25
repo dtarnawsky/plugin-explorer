@@ -1,0 +1,32 @@
+{
+  "name": "capacitor-paytm-allinone",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "to be added",
+  "author": "",
+  "published": "2023-01-02T06:53:20.693Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This is ionic capacitor plugin for paytm all in one sdk",
+  "downloads": 96
+}

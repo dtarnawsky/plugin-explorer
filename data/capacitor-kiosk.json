@@ -1,0 +1,32 @@
+{
+  "name": "capacitor-kiosk",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/10goC/capacitor-plugin-kiosk.git",
+  "author": "Diego Curyk",
+  "published": "2022-08-16T17:43:13.107Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Android kiosk mode for capacitor",
+  "bugs": "https://github.com/10goC/capacitor-plugin-kiosk/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/2756703?v=4",
+  "quality": 103,
+  "updated": "2022-07-19T13:57:57Z",
+  "downloads": 18
+}

@@ -1,0 +1,31 @@
+{
+  "name": "capacitor-facebook-ad",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/preetamjakhmola/capacitor-facebook-ad-plugin.git",
+  "author": "Preetam Jakhmola",
+  "published": "2022-04-12T05:15:13.107Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for facecbook ads",
+  "bugs": "https://github.com/preetamjakhmola/capacitor-facebook-ad-plugin/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/35592214?v=4",
+  "quality": 103,
+  "updated": "2022-03-13T20:19:15Z",
+  "downloads": 7
+}

@@ -1,0 +1,31 @@
+{
+  "name": "capacitor-ble-printer",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/Limbertfenixio/capacitor-ble-printer.git",
+  "author": "Lim CT",
+  "published": "2022-04-12T05:14:57.019Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "ble printer",
+  "bugs": "https://github.com/Limbertfenixio/capacitor-ble-printer/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/44102427?v=4",
+  "quality": 100,
+  "updated": "2021-08-31T19:36:20Z",
+  "downloads": 44
+}

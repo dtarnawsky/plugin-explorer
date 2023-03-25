@@ -1,0 +1,32 @@
+{
+  "name": "capacitor-doze-optimize",
+  "version": "0.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/asephermann/capacitor-doze-optimize.git",
+  "author": "Asep Herman Nursalam",
+  "published": "2022-09-13T03:26:15.959Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "White listing an Android application programmatically from battery optimize settings",
+  "bugs": "https://github.com/asephermann/capacitor-doze-optimize/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
+  "quality": 3,
+  "updated": "2022-12-23T12:12:23Z",
+  "downloads": 58
+}

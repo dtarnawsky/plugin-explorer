@@ -1,0 +1,32 @@
+{
+  "name": "capacitor-plugin-cookies",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/johnborges/capacitor-plugin-cookies.git",
+  "author": "johnborges",
+  "published": "2022-04-12T05:16:03.422Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "capacitor-plugin"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for managing cookies 🍪",
+  "bugs": "https://github.com/johnborges/capacitor-plugin-cookies/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/1888122?v=4",
+  "quality": 100,
+  "updated": "2022-03-21T14:53:42Z",
+  "downloads": 147
+}

@@ -1,0 +1,34 @@
+{
+  "name": "capacitor-get-latest-photo",
+  "version": "0.0.6",
+  "success": [],
+  "repo": "https://github.com/joshuamorony/capacitor-get-latest-photo.git",
+  "author": "Joshua Morony",
+  "published": "2022-04-12T05:15:20.601Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Grabs the latest photo from the camera roll",
+  "bugs": "https://github.com/joshuamorony/capacitor-get-latest-photo/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/2578009?v=4",
+  "quality": 102,
+  "updated": "2018-05-22T23:54:44Z",
+  "downloads": 10
+}

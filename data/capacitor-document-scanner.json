@@ -1,0 +1,36 @@
+{
+  "name": "capacitor-document-scanner",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/WebsiteBeaver/capacitor-document-scanner.git",
+  "author": "David Marcus",
+  "published": "2022-11-05T17:30:37.670Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A Capacitor plugin that lets you scan documents using Android and iOS",
+  "bugs": "https://github.com/WebsiteBeaver/capacitor-document-scanner/issues",
+  "stars": 25,
+  "image": "https://avatars.githubusercontent.com/u/30008020?v=4",
+  "quality": 140,
+  "updated": "2023-03-24T07:37:15Z",
+  "downloads": 655
+}

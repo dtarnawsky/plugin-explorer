@@ -1,0 +1,31 @@
+{
+  "name": "capacitor-plugin-filedownload",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/AlwaysLoveme/capacitor-plugin-filedownload.git.git",
+  "author": "zhuxian",
+  "published": "2023-01-31T06:47:10.424Z",
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "download"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "a file download plugin for capacitor3.0+",
+  "bugs": "https://github.com/AlwaysLoveme/capacitor-plugin-filedownload.git/issues",
+  "quality": null,
+  "downloads": 801
+}

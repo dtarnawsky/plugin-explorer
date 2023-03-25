@@ -1,0 +1,33 @@
+{
+  "name": "capacitor-bluetooth-serial",
+  "version": "0.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/agro1desenvolvimento/capacitor-bluetooth-serial.git",
+  "author": "Gerson Groth",
+  "published": "2022-04-12T05:14:58.282Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "Capacitor Bluetooth Serial Plugin",
+  "bugs": "https://github.com/agro1desenvolvimento/capacitor-bluetooth-serial/issues",
+  "stars": 6,
+  "image": "https://avatars.githubusercontent.com/u/49657220?v=4",
+  "quality": 120,
+  "updated": "2023-01-28T08:40:00Z",
+  "downloads": 47
+}

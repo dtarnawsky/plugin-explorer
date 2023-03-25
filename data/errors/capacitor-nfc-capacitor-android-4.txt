@@ -1,0 +1,310 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-nfc:preBuild UP-TO-DATE
+        > Task :capacitor-nfc:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-nfc:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-nfc:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-nfc:generateReleaseResValues
+        > Task :capacitor-nfc:generateReleaseResources
+        > Task :capacitor-nfc:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-nfc:extractDeepLinksRelease
+        > Task :capacitor-nfc:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-nfc:compileReleaseLibraryResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-nfc:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-nfc:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-nfc:parseReleaseLocalResources
+        > Task :capacitor-nfc:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :app:mapReleaseSourceSetPaths
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-nfc:generateReleaseRFile
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        
+        > Task :capacitor-nfc:compileReleaseKotlin FAILED
+        w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+        /Users/damiantarnawsky/.gradle/caches/transforms-3/939c0bdb4e45bb39d63d9e98147f5f1c/transformed/jetified-kotlin-stdlib-jdk7-1.3.50.jar (version 1.3)
+        /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar (version 1.5)
+        /Users/damiantarnawsky/.gradle/caches/transforms-3/aefa233612ac4a90f27da0f6668f513b/transformed/jetified-kotlin-stdlib-common-1.5.31.jar (version 1.5)
+        w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+        e: Incompatible classes were found in dependencies. Remove them from the classpath or use '-Xskip-metadata-version-check' to suppress errors
+        e: /Users/damiantarnawsky/.gradle/caches/transforms-3/aefa233612ac4a90f27da0f6668f513b/transformed/jetified-kotlin-stdlib-common-1.5.31.jar!/META-INF/kotlin-stdlib-common.kotlin_module: Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        e: /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/META-INF/kotlin-stdlib.kotlin_module: Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (30, 34): Unresolved reference: java
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (48, 33): Unresolved reference: ArrayList
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (51, 29): Unresolved reference: ArrayList
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (78, 59): Unresolved reference: HashMap
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (81, 15): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (83, 14): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (83, 66): Unresolved reference: let
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (83, 72): Unresolved reference: it
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (87, 15): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (88, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (92, 9): Class 'kotlin.coroutines.CoroutineContext' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/coroutines/CoroutineContext.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (93, 13): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (96, 15): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (100, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (101, 15): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (105, 15): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (111, 22): Unresolved reference: forEach
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (112, 17): Unresolved reference: it
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (113, 27): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (114, 17): 'return' is not allowed here
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (118, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (118, 46): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (119, 13): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (121, 23): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (122, 23): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (127, 15): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (129, 43): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (132, 13): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (132, 29): Unresolved reference: intent
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (133, 13): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (138, 27): Unresolved reference: isNullOrBlank
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (145, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (183, 13): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (184, 13): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (188, 30): Unresolved reference: apply
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (189, 13): Unresolved reference: put
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (192, 21): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (200, 14): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (218, 18): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (222, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (223, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (250, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (251, 14): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (256, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (257, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (264, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (265, 14): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (274, 43): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (275, 9): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (275, 25): Unresolved reference: startActivity
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (277, 14): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (294, 43): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (296, 13): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (296, 29): No method 'equals(Any?): Boolean' available
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (296, 29): Unresolved reference: ==
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (296, 40): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (296, 56): Unresolved reference: isFinishing
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (301, 38): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (301, 54): Unresolved reference: javaClass
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (301, 65): Unresolved reference: apply
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (302, 13): Unresolved reference: addFlags
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (309, 68): Unresolved reference: apply
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (312, 17): Unresolved reference: addDataType
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (324, 45): Unresolved reference: java
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (327, 52): Unresolved reference: isNotEmpty
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (328, 25): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (328, 50): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (328, 50): Type mismatch: inferred type is AppCompatActivity! but Activity! was expected
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (338, 43): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (341, 25): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (341, 51): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (341, 51): Type mismatch: inferred type is AppCompatActivity! but Activity! was expected
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (358, 43): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (360, 9): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (360, 25): Unresolved reference: runOnUiThread
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (362, 29): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (362, 55): Cannot access class 'androidx.appcompat.app.AppCompatActivity'. Check your module classpath for missing or conflicting dependencies
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (362, 55): Type mismatch: inferred type is AppCompatActivity! but Activity! was expected
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (363, 17): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (380, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (381, 22): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (381, 36): Type mismatch: inferred type is Boolean? but Boolean was expected
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (382, 22): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (382, 36): Type mismatch: inferred type is Boolean? but Boolean was expected
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (383, 22): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (383, 40): Type mismatch: inferred type is Boolean? but Boolean was expected
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (385, 22): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (386, 22): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (387, 22): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (393, 17): Unresolved reference: it
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (394, 38): Unresolved reference: it
+        e: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-nfc/android/src/main/java/com/adrynov/capacitor/nfc/NFC.kt: (413, 9): Class 'kotlin.Unit' was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.5.1, expected version is 1.1.15.
+        The class is loaded from /Users/damiantarnawsky/.gradle/caches/transforms-3/d3910504439ede75c5ae71636a609341/transformed/jetified-kotlin-stdlib-1.5.31.jar!/kotlin/Unit.class
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-nfc:compileReleaseKotlin'.
+        > Compilation error. See log for more details
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        
+        You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+        
+        See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 16s
+        83 actionable tasks: 83 executed
+        

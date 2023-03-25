@@ -1,0 +1,34 @@
+{
+  "name": "capacitor-google-play-services-checker",
+  "version": "0.0.5",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/asephermann/capacitor-google-play-services-checker.git",
+  "author": "Asep Herman Nursalam",
+  "published": "2022-09-13T03:30:04.065Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor Plugin Google Play Services Checker",
+  "bugs": "https://github.com/asephermann/capacitor-google-play-services-checker/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
+  "quality": 101,
+  "updated": "2022-07-27T04:17:51Z",
+  "downloads": 1886
+}

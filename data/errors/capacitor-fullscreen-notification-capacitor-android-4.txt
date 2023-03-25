@@ -1,0 +1,26 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Build file '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-fullscreen-notification/android/build.gradle' line: 56
+        
+        * What went wrong:
+        A problem occurred evaluating project ':capacitor-fullscreen-notification'.
+        > Project with path ':capacitor-push-notifications' could not be found in project ':capacitor-fullscreen-notification'.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 1s
+        

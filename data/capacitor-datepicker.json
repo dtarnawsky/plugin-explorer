@@ -1,0 +1,30 @@
+{
+  "name": "capacitor-datepicker",
+  "version": "0.0.2",
+  "success": [],
+  "repo": "https://github.com/triniwiz/capacitor-datepicker.git",
+  "author": "Osei Fortune",
+  "published": "2022-04-12T05:15:08.125Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "Datepicker for capacitor",
+  "bugs": "https://github.com/triniwiz/capacitor-datepicker/issues",
+  "stars": 8,
+  "image": "https://avatars.githubusercontent.com/u/6695919?v=4",
+  "quality": 154,
+  "updated": "2020-06-30T22:22:16Z",
+  "downloads": 124
+}

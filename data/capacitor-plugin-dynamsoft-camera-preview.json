@@ -1,0 +1,36 @@
+{
+  "name": "capacitor-plugin-dynamsoft-camera-preview",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/tony-xlh/capacitor-plugin-camera-preview.git",
+  "author": "Xu Lihang",
+  "published": "2022-11-16T02:38:31.523Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.1.0",
+    "1.2.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A Capacitor plugin for camera preview",
+  "bugs": "https://github.com/tony-xlh/capacitor-plugin-camera-preview/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/112376616?v=4",
+  "quality": 104,
+  "updated": "2023-01-12T09:32:15Z",
+  "downloads": 27
+}

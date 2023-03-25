@@ -1,0 +1,35 @@
+{
+  "name": "capacitor-nfc-launch",
+  "version": "4.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/NePheus/capacitor-nfc-launch.git",
+  "author": "Jan Gessinger",
+  "published": "2022-09-11T18:43:08.538Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "4.0.0",
+    "4.0.1",
+    "4.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Launch the app by a NFC tag and read the data",
+  "bugs": "https://github.com/NePheus/capacitor-nfc-launch/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
+  "quality": 101,
+  "updated": "2022-06-02T05:01:53Z",
+  "downloads": 45
+}

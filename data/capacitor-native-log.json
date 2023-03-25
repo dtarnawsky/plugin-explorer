@@ -1,0 +1,36 @@
+{
+  "name": "capacitor-native-log",
+  "version": "0.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/Mote-OU/capacitor-native-log.git",
+  "author": "Michael Lawlor",
+  "published": "2022-04-12T05:15:41.974Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.1.0",
+    "0.1.1",
+    "0.2.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "Alternative to Capacitor‘s Console plugin for logging to the native device log console",
+  "bugs": "https://github.com/Mote-OU/capacitor-native-log/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/60335857?v=4",
+  "quality": 104,
+  "updated": "2020-04-04T07:12:50Z",
+  "downloads": 49
+}

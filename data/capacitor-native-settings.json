@@ -1,0 +1,40 @@
+{
+  "name": "capacitor-native-settings",
+  "version": "4.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/RaphaelWoude/capacitor-native-settings.git",
+  "author": "Raphael vd Woude",
+  "published": "2022-11-14T16:40:02.126Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "4.0.0",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin to open native settings screens for android and iOS",
+  "bugs": "https://github.com/RaphaelWoude/capacitor-native-settings/issues",
+  "stars": 35,
+  "image": "https://avatars.githubusercontent.com/u/47354694?v=4",
+  "quality": 152,
+  "updated": "2023-03-25T15:37:46Z",
+  "downloads": 77846
+}

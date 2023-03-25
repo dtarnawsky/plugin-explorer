@@ -1,0 +1,30 @@
+{
+  "name": "capacitor-intent",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/Fir3st/capacitor-intent.git",
+  "author": "Vladimir Fojtik <vladimir@fojtik.dev>",
+  "published": "2022-04-12T05:15:27.759Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Plugin for executing android intents from Capacitor app",
+  "bugs": "https://github.com/Fir3st/capacitor-intent/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/24609278?v=4",
+  "quality": 101,
+  "updated": "2022-01-19T06:24:40Z",
+  "downloads": 77
+}

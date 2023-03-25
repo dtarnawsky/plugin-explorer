@@ -1,0 +1,33 @@
+{
+  "name": "capacitor-call-number",
+  "version": "1.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/mantosh59/call-number.git",
+  "author": "Devmantosh",
+  "published": "2022-04-12T05:15:00.367Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Plugin to pick files/images/videos from android or ios.",
+  "bugs": "https://github.com/mantosh59/call-number/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/11851742?v=4",
+  "quality": 101,
+  "updated": "2021-07-15T05:33:33Z",
+  "downloads": 4292
+}

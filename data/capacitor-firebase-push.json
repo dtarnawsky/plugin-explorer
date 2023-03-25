@@ -1,0 +1,45 @@
+{
+  "name": "capacitor-firebase-push",
+  "version": "1.2.7",
+  "success": [],
+  "repo": "https://github.com/EinfachHans/capacitor-firebase-push.git",
+  "author": "EinfachHans",
+  "published": "2022-04-12T05:15:17.761Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4",
+    "1.2.5",
+    "1.2.6",
+    "1.2.7"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "firebase",
+    "push",
+    "fcm",
+    "data",
+    "silent"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor Plugin for Firebase Push",
+  "bugs": "https://github.com/EinfachHans/capacitor-firebase-push.git/issues",
+  "stars": 26,
+  "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
+  "quality": 140,
+  "updated": "2022-08-23T20:18:14Z",
+  "downloads": 673
+}

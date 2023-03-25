@@ -1,0 +1,33 @@
+{
+  "name": "capacitor-plugin-bluetooth-print",
+  "version": "0.2.1",
+  "success": [],
+  "repo": "https://github.com/raulsalitrero/BTPrinter.git",
+  "author": "Raul Salitrero",
+  "published": "2022-04-12T05:16:00.212Z",
+  "versions": [
+    "0.2.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "printer",
+    "bluetooth",
+    "barcode",
+    "QR"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Fork de BluetoothPrinter intentado adaptar a capacitor",
+  "bugs": "https://github.com/raulsalitrero/BTPrinter/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/155507?v=4",
+  "quality": 108,
+  "updated": "2023-03-23T19:29:31Z",
+  "downloads": 14
+}

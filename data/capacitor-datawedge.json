@@ -1,0 +1,42 @@
+{
+  "name": "capacitor-datawedge",
+  "version": "0.2.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/jkbz64/capacitor-datawedge.git",
+  "author": "jkbz64",
+  "published": "2023-03-16T12:28:25.890Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.2.0",
+    "0.2.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-plugin",
+    "datawedge",
+    "typescript",
+    "zebra"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "DataWedge plugin for capacitor",
+  "bugs": "https://github.com/jkbz64/capacitor-datawedge/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/13223538?v=4",
+  "quality": 109,
+  "updated": "2023-02-21T10:56:53Z",
+  "downloads": 578
+}

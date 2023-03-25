@@ -1,0 +1,28 @@
+{
+  "name": "capacitor-callkit-voip",
+  "version": "0.0.3",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://gitlab.com/yleso/capacitor-callkit-voip.git.git",
+  "author": "Yurii Leso",
+  "published": "2022-04-12T05:15:00.525Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Provide PushKit functionality to ionic capacitor",
+  "bugs": "https://gitlab.com/yleso/capacitor-callkit-voip.git/issues",
+  "downloads": 73
+}

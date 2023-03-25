@@ -1,0 +1,42 @@
+{
+  "name": "capacitor-file-picker",
+  "version": "1.0.10",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/epicshaggy/capaitor-file-picker.git",
+  "author": "Jose Martinez",
+  "published": "2022-04-12T05:15:14.422Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This plugin presents the native UI for picking a file.",
+  "bugs": "https://github.com/epicshaggy/capaitor-file-picker/issues",
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/50883345?v=4",
+  "quality": 127,
+  "updated": "2023-03-13T09:39:52Z",
+  "downloads": 603
+}

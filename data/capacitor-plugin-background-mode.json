@@ -1,0 +1,28 @@
+{
+  "name": "capacitor-plugin-background-mode",
+  "version": "1.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/angeloraso/capacitor-plugin-background-mode.git.git",
+  "author": "Angelo Raso",
+  "published": "2022-09-03T23:29:35.525Z",
+  "versions": [
+    "1.0.13",
+    "1.1.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin to perform infinite background execution",
+  "bugs": "https://github.com/angeloraso/capacitor-plugin-background-mode.git/issues",
+  "quality": null,
+  "downloads": 177
+}
