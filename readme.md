@@ -19,6 +19,7 @@ When running tests it will use a starter project in a GitHub repo for particular
 - Combine all plugin json files into one index.json
 - Load each json and re-run if test not run or version number is new
 - Grab readme.md from github
+- Check git repo url and make sure it doesnt 404. eg https://github.com/htorbov/capacitor-apple-login.git (capacitor-apple-login). Remove url and downrank if this is the case
 - Test with Capacitor 5
 - Test with Cordova
 - Look to combine added metadata (see below)

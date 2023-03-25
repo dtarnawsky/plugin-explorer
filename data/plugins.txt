@@ -308,10 +308,6 @@ capacitor-app-tracking-transparency
 capacitor-apple-login
 capacitor-apple-pay
 capacitor-appmetrica
-capacitor-appstore
-capacitor-appstore-launcher
-capacitor-appsupport
-capacitor-ar-webview
 capacitor-areas
 capacitor-audio-permission
 capacitor-auth-plugin

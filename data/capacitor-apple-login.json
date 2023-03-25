@@ -1,0 +1,27 @@
+{
+  "name": "capacitor-apple-login",
+  "version": "0.0.7",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/htorbov/capacitor-apple-login.git",
+  "author": "Hristo Torbov",
+  "published": "2022-04-12T05:14:50.774Z",
+  "versions": [
+    "0.0.7"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "Capacitor Apple Login",
+  "bugs": "https://github.com/htorbov/capacitor-apple-login/issues",
+  "quality": null,
+  "downloads": 11
+}

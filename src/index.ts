@@ -41,7 +41,7 @@ async function go(plugins: string[]) {
             git: 'https://github.com/dtarnawsky/plugin-test-capacitor-3.git'
         }
 
-        for (const test of [capacitor3, capacitor4]) {
+        for (const test of [capacitor4, capacitor3]) {
             await clone(test);
             const inspection = await inspect(plugin, test);
             catalog(inspection);

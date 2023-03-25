@@ -1,0 +1,33 @@
+{
+  "name": "capacitor-app-actions",
+  "version": "1.0.3",
+  "success": [],
+  "repo": "https://github.com/uioporqwerty/capacitor-app-actions.git",
+  "author": "Nitish Sachar",
+  "published": "2022-12-08T02:20:20.854Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "iOS and Android Capacitor plugin for App Actions",
+  "bugs": "https://github.com/uioporqwerty/capacitor-app-actions/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/4053751?v=4",
+  "quality": 110,
+  "updated": "2022-12-20T04:31:38Z",
+  "downloads": 44
+}

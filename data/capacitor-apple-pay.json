@@ -1,0 +1,31 @@
+{
+  "name": "capacitor-apple-pay",
+  "version": "0.2.1",
+  "success": [],
+  "repo": "https://github.com/virusv/capacitor-apple-pay.git",
+  "author": "Nalivayko Ivan",
+  "published": "2022-04-12T05:14:50.916Z",
+  "versions": [
+    "0.1.1",
+    "0.1.2",
+    "0.2.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin to implement payment function via Apple Pay",
+  "bugs": "https://github.com/virusv/capacitor-apple-pay/issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/12464258?v=4",
+  "quality": 109,
+  "updated": "2022-02-26T07:49:25Z",
+  "downloads": 12
+}
