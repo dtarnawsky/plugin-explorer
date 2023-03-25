@@ -1,0 +1,30 @@
+{
+  "name": "@nadavhalfon/firebase-remote-config",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-ios-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/nadavhalfon/firebase-remote-config.git",
+  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
+  "published": "2022-06-11T22:33:43.973Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A native plugin for firebase remote config",
+  "bugs": "https://github.com/nadavhalfon/firebase-remote-config/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/32557985?v=4",
+  "quality": 1,
+  "updated": "2022-10-21T02:04:27Z",
+  "downloads": 7
+}

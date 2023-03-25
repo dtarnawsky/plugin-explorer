@@ -1,0 +1,40 @@
+{
+  "name": "@moodlehq/cordova-plugin-inappbrowser",
+  "version": "5.0.0-moodle.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/moodlemobile/cordova-plugin-inappbrowser.git",
+  "author": "Apache Software Foundation",
+  "published": "2022-09-05T10:34:27.963Z",
+  "versions": [
+    "5.0.0-moodle.1",
+    "5.0.0-moodle.2",
+    "5.0.0-moodle.3"
+  ],
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "browser",
+    "inappbrowser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Moodle's fork of Cordova InAppBrowser Plugin",
+  "bugs": "https://github.com/moodlemobile/cordova-plugin-inappbrowser/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
+  "quality": 3,
+  "updated": "2021-11-22T09:30:38Z",
+  "downloads": 1997
+}

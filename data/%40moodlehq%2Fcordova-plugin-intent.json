@@ -1,0 +1,30 @@
+{
+  "name": "@moodlehq/cordova-plugin-intent",
+  "version": "2.2.0-moodle.1",
+  "success": [
+    "capacitor-ios-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/moodlemobile/cordova-plugin-intent.git",
+  "author": "Darryn Campbell",
+  "published": "2022-10-26T11:13:15.057Z",
+  "versions": [
+    "2.2.0-moodle.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "Intent"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Moodle's fork of a general purpose intent shim layer for cordova appliations on Android. Handles various techniques for sending and receiving intents.",
+  "bugs": "https://github.com/moodlemobile/cordova-plugin-intent/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
+  "quality": 0,
+  "updated": "2022-10-26T11:10:49Z",
+  "downloads": 1733
+}

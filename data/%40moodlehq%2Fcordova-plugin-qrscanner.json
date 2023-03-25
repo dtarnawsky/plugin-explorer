@@ -1,0 +1,43 @@
+{
+  "name": "@moodlehq/cordova-plugin-qrscanner",
+  "version": "3.0.1-moodle.5",
+  "success": [],
+  "repo": "https://github.com/moodlemobile/cordova-plugin-qrscanner.git",
+  "author": "Jason Dreyzehner",
+  "published": "2023-02-20T10:49:53.490Z",
+  "versions": [
+    "3.0.1-moodle.1",
+    "3.0.1-moodle.2",
+    "3.0.1-moodle.3",
+    "3.0.1-moodle.4",
+    "3.0.1-moodle.5"
+  ],
+  "keywords": [
+    "cordova",
+    "qr",
+    "qr code",
+    "scanner",
+    "reader",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser",
+    "UMD",
+    "library",
+    "electron",
+    "NW.js"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "description": "Moodle's fork of Cordova QRScanner Plugin.",
+  "bugs": "https://github.com/moodlemobile/cordova-plugin-qrscanner/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
+  "quality": 5,
+  "updated": "2022-09-05T09:10:35Z",
+  "downloads": 2062
+}

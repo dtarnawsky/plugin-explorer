@@ -1,0 +1,33 @@
+{
+  "name": "@newrelic/newrelic-capacitor-plugin",
+  "version": "1.1.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/newrelic/newrelic-capacitor-plugin.git",
+  "author": "Newrelic",
+  "published": "2023-03-24T17:59:44.530Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "NewRelic Plugin for ionic Capacitor",
+  "bugs": "https://github.com/newrelic/newrelic-capacitor-plugin/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/31739?v=4",
+  "quality": 107,
+  "updated": "2023-01-13T20:04:55Z",
+  "downloads": 504
+}
