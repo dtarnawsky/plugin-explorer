@@ -1,0 +1,40 @@
+{
+  "name": "@mfbhatt/azure-push-notifications",
+  "version": "1.0.12",
+  "success": [],
+  "repo": "https://github.com/mfbhatt/capacitor-azure-push-notification.git",
+  "author": "mfbhatt@gmail.com",
+  "published": "2022-09-15T07:32:23.882Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10",
+    "1.0.11",
+    "1.0.12"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "The Push Notifications API provides access to native Azure push notifications for Capacitor.",
+  "bugs": "https://github.com/mfbhatt/capacitor-azure-push-notification/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/26182552?v=4",
+  "quality": 107,
+  "updated": "2022-12-14T23:42:11Z"
+}

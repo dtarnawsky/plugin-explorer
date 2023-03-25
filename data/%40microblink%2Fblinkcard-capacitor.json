@@ -1,0 +1,44 @@
+{
+  "name": "@microblink/blinkcard-capacitor",
+  "version": "2.6.0",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/blinkcard/blinkcard-capacitor.git",
+  "author": "Microblink",
+  "published": "2022-12-21T16:15:16.763Z",
+  "versions": [
+    "2.3.0",
+    "2.4.0",
+    "2.4.1",
+    "2.6.0"
+  ],
+  "keywords": [
+    "credit-card",
+    "scanning",
+    "card",
+    "scanner",
+    "sdk",
+    "capacitor",
+    "ionic",
+    "plugin",
+    "machine-learning",
+    "cross-platform",
+    "android",
+    "ios",
+    "add-card",
+    "new-payment-method",
+    "mechine-learning"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "AI-driven credit card scanning for cross-platform apps built with Capacitor.",
+  "bugs": "https://github.com/blinkcard/blinkcard-capacitor/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/49157187?v=4",
+  "quality": 102,
+  "updated": "2023-03-20T00:05:16Z"
+}
