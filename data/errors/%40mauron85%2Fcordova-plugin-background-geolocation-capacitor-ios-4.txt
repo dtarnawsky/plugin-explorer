@@ -1,0 +1,502 @@
+✔ Building xArchive in 14.67s
+✖ Building IPA - failed!
+[error] 2023-03-25 06:26:58.144 xcodebuild[24288:96654] [MT] IDEDistribution: -[IDEDistributionLogging _createLoggingBundleAtPath:]: Created bundle at path "/var/folders/j5/3tm1zw2n22xfpr519dj2460c0000gn/T/App_2023-03-25_06-26-58.144.xcdistributionlogs".
+        2023-03-25 06:26:59.650 xcodebuild[24288:96695]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008478c0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:26:59.650 xcodebuild[24288:96695]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:26:59Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "ab484d80-f122-4444-b267-fce06ff7241a";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:26:59.740 xcodebuild[24288:96691]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x60000086bac0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:26:59.740 xcodebuild[24288:96691]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:26:59Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "cb4026ca-4379-4861-8ecf-d869fdd6d208";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:26:59.741 xcodebuild[24288:96691]  IDEDistribution: Failed to log in with account "support@nexusconcepts.com" while checking for an App Store Connect account
+        2023-03-25 06:26:59.886 xcodebuild[24288:96659]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008af800; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:26:59.886 xcodebuild[24288:96659]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:26:59Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "6076cf71-d320-4c65-a659-278168147a79";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:26:59.973 xcodebuild[24288:96692]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008b00c0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:26:59.973 xcodebuild[24288:96692]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:26:59Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "37bfa059-8af8-443c-9a3e-788904b8bcbb";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.178 xcodebuild[24288:96660]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x60000085e900; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.178 xcodebuild[24288:96660]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "e761c5a2-0385-4e59-8e94-39a93bb39dc2";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.273 xcodebuild[24288:96691]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x60000085b3c0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.273 xcodebuild[24288:96691]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "e5b955d6-54cf-4d53-87cf-612addec11d8";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.365 xcodebuild[24288:96694]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x60000085b3c0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.365 xcodebuild[24288:96694]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "b78d0cdf-b8af-4253-b7a8-bcdcea932ba0";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.455 xcodebuild[24288:96693]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x60000085e040; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.456 xcodebuild[24288:96693]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "a2897ec5-0f46-4a74-b0c5-282dce6a2722";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.543 xcodebuild[24288:96688]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008a0880; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.543 xcodebuild[24288:96688]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "f5ee4b69-82ee-492f-b45a-61e41ff5921a";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.634 xcodebuild[24288:96695]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x60000085b880; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.635 xcodebuild[24288:96695]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "61b9ebcf-6e1a-4496-a37e-a33c8a7fb0a5";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.725 xcodebuild[24288:96687]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008a0c00; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.726 xcodebuild[24288:96687]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "a762295b-062c-42af-aabc-0fcc0cdba3c0";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.817 xcodebuild[24288:96659]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x60000085bb40; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.817 xcodebuild[24288:96659]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "bfc58b9f-34df-40fe-afc4-fbccba8725d8";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.905 xcodebuild[24288:96660]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008a1040; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:00.905 xcodebuild[24288:96660]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "e46541c5-bb15-4c72-8acb-d4c0188df140";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:00.999 xcodebuild[24288:96691]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008b02c0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.001 xcodebuild[24288:96691]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:00Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "791285b7-e7db-4825-9ac1-41e19e5fd5d5";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.104 xcodebuild[24288:96694]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008bc780; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.104 xcodebuild[24288:96694]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "c53d82aa-cc04-4390-9fd1-dfae7062e814";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.195 xcodebuild[24288:96693]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x60000085b9c0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.195 xcodebuild[24288:96693]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "a060a3b4-ca61-4328-9584-33bf9d94b4e9";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.284 xcodebuild[24288:96688]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008df680; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.284 xcodebuild[24288:96688]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "321bd030-e95d-4e0b-9b2d-7d981065b30a";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.370 xcodebuild[24288:96695]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x600000862100; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.370 xcodebuild[24288:96695]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "863d7668-3db1-4567-8692-e7085380b094";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.462 xcodebuild[24288:96687]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008e8380; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.462 xcodebuild[24288:96687]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "8e63831a-8832-4a11-8ac4-4caca145bebd";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.554 xcodebuild[24288:96692]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008c4300; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.554 xcodebuild[24288:96692]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "f4643e16-9fa8-4d8b-96ba-b56306456ec7";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.674 xcodebuild[24288:96689]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008c0380; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.675 xcodebuild[24288:96689]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "128267e8-3ae3-464c-bdc5-0d9b52ffb0f7";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.764 xcodebuild[24288:96696]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008c0380; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.764 xcodebuild[24288:96696]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "07b0998c-ad6c-4551-887c-708f862733cd";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.856 xcodebuild[24288:96660]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008c42c0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.856 xcodebuild[24288:96660]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "ecc6be94-f729-42d5-a7e8-1fe0610cfe10";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:01.945 xcodebuild[24288:96659]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008c04c0; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:01.945 xcodebuild[24288:96659]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "7ce5cee0-4ac7-40de-a9ff-54ffe633ffa6";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:02.043 xcodebuild[24288:96689]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008c8480; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:02.043 xcodebuild[24288:96689]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:02Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "daa6ea30-53c0-4b31-b95f-9fd7af96e3d7";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:02.141 xcodebuild[24288:96693]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008c5000; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:02.141 xcodebuild[24288:96693]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:02Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "6d625edc-aaed-418f-8d97-5bc4cb524389";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        2023-03-25 06:27:02.231 xcodebuild[24288:96660]  DVTPortal: Service '<DVTPortalViewDeveloperService: 0x6000008c8a40; action='viewDeveloper'>' encountered an unexpected result code from the portal ('1100')
+        2023-03-25 06:27:02.231 xcodebuild[24288:96660]  DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:02Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "e789255a-3bbe-40ee-8e43-40e7764b55e8";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        error: exportArchive: The operation couldn’t be completed. Unable to log in with account 'support@nexusconcepts.com'.
+        
+        Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'support@nexusconcepts.com'." UserInfo={NSUnderlyingError=0x60000000c840 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:02Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "e789255a-3bbe-40ee-8e43-40e7764b55e8";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}}, IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=The login details for account 'support@nexusconcepts.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000311ebc0; username='support@nexusconcepts.com'>, NSLocalizedFailureReason=Unable to log in with account 'support@nexusconcepts.com'.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x60000143d260; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: The operation couldn’t be completed. Unable to log in with account 'support@nexusconcepts.com'.
+        
+        Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'support@nexusconcepts.com'." UserInfo={NSUnderlyingError=0x600001ff10b0 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:02Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "daa6ea30-53c0-4b31-b95f-9fd7af96e3d7";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}}, IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=The login details for account 'support@nexusconcepts.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000311ebc0; username='support@nexusconcepts.com'>, NSLocalizedFailureReason=Unable to log in with account 'support@nexusconcepts.com'.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x6000014508c0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: The operation couldn’t be completed. Unable to log in with account 'support@nexusconcepts.com'.
+        
+        Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'support@nexusconcepts.com'." UserInfo={NSUnderlyingError=0x600001fd5470 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:02Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "6d625edc-aaed-418f-8d97-5bc4cb524389";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}}, IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=The login details for account 'support@nexusconcepts.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000311ebc0; username='support@nexusconcepts.com'>, NSLocalizedFailureReason=Unable to log in with account 'support@nexusconcepts.com'.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x6000014503a0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: The operation couldn’t be completed. Unable to log in with account 'support@nexusconcepts.com'.
+        
+        Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'support@nexusconcepts.com'." UserInfo={NSUnderlyingError=0x600001ff1500 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "7ce5cee0-4ac7-40de-a9ff-54ffe633ffa6";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}}, IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=The login details for account 'support@nexusconcepts.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000311ebc0; username='support@nexusconcepts.com'>, NSLocalizedFailureReason=Unable to log in with account 'support@nexusconcepts.com'.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600001420640; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: The operation couldn’t be completed. Unable to log in with account 'support@nexusconcepts.com'.
+        
+        Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'support@nexusconcepts.com'." UserInfo={NSUnderlyingError=0x600001ff0f30 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "f4643e16-9fa8-4d8b-96ba-b56306456ec7";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}}, IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=The login details for account 'support@nexusconcepts.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000311ebc0; username='support@nexusconcepts.com'>, NSLocalizedFailureReason=Unable to log in with account 'support@nexusconcepts.com'.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x60000142be60; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: The operation couldn’t be completed. Unable to log in with account 'support@nexusconcepts.com'.
+        
+        Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'support@nexusconcepts.com'." UserInfo={NSUnderlyingError=0x600001ff1140 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "07b0998c-ad6c-4551-887c-708f862733cd";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}}, IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=The login details for account 'support@nexusconcepts.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000311ebc0; username='support@nexusconcepts.com'>, NSLocalizedFailureReason=Unable to log in with account 'support@nexusconcepts.com'.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x60000136f220; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: The operation couldn’t be completed. Unable to log in with account 'support@nexusconcepts.com'.
+        
+        Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'support@nexusconcepts.com'." UserInfo={NSUnderlyingError=0x60000000c2d0 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "128267e8-3ae3-464c-bdc5-0d9b52ffb0f7";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}}, IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=The login details for account 'support@nexusconcepts.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000311ebc0; username='support@nexusconcepts.com'>, NSLocalizedFailureReason=Unable to log in with account 'support@nexusconcepts.com'.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600001420240; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: The operation couldn’t be completed. Unable to log in with account 'support@nexusconcepts.com'.
+        
+        Error Domain=DVTServicesAccountBasedSessionErrorDomain Code=0 "Unable to log in with account 'support@nexusconcepts.com'." UserInfo={NSUnderlyingError=0x600001ff4c60 {Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-03-25T13:27:01Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/viewDeveloper.action";
+        responseId = "ecc6be94-f729-42d5-a7e8-1fe0610cfe10";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}}, IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=The login details for account 'support@nexusconcepts.com' were rejected., DVTDeveloperAccountErrorAccount=<DVTAppleIDBasedDeveloperAccount: 0x60000311ebc0; username='support@nexusconcepts.com'>, NSLocalizedFailureReason=Unable to log in with account 'support@nexusconcepts.com'.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600001401260; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        ** EXPORT FAILED **
+        
+        

@@ -1,0 +1,34 @@
+{
+  "name": "@joinflux/capacitor-intercom",
+  "version": "2.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/joinflux/capacitor-intercom.git",
+  "author": "Gustavo Hoirisch <gus@flux.finance>",
+  "published": "2022-09-20T06:25:17.979Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "2.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "intercom",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Enable Intercom features for Capacitor apps",
+  "bugs": "https://github.com/joinflux/capacitor-intercom/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
+  "quality": 1,
+  "updated": "2022-09-20T06:22:52Z"
+}

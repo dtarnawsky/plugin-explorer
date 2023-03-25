@@ -1,0 +1,40 @@
+{
+  "name": "@joinflux/capacitor-segment",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/joinflux/capacitor-segment.git",
+  "author": "",
+  "published": "2022-11-29T02:26:24.941Z",
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.2.0",
+    "0.2.1",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "capacitor-plugin",
+    "segmentio"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A Capacitor plugin for Segment analytics",
+  "bugs": "https://github.com/joinflux/capacitor-segment/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
+  "quality": 110,
+  "updated": "2022-12-17T02:40:32Z"
+}

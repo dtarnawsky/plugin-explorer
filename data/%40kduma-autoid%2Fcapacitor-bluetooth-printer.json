@@ -1,0 +1,29 @@
+{
+  "name": "@kduma-autoid/capacitor-bluetooth-printer",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/kduma-autoid/capacitor-bluetooth-printer.git",
+  "author": "Krystian Duma",
+  "published": "2023-03-05T23:04:29.453Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Allows printing on SPP BT printers",
+  "bugs": "https://github.com/kduma-autoid/capacitor-bluetooth-printer/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/123112037?v=4",
+  "quality": 101,
+  "updated": "2023-03-09T14:54:26Z"
+}

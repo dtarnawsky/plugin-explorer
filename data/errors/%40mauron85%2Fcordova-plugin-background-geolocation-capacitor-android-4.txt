@@ -1,0 +1,23 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/@mauron85/cordova-plugin-background-geolocation/android/dependencies.gradle' line: 3
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > Could not find method compile() for arguments [com.github.tony19:logback-android:1.1.1-9] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 543ms
+        

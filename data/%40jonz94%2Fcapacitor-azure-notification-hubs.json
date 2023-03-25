@@ -1,0 +1,41 @@
+{
+  "name": "@jonz94/capacitor-azure-notification-hubs",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/jonz94/capacitor-azure-notification-hubs.git",
+  "author": "jonz94 <jody16888@gmail.com>",
+  "published": "2022-11-11T08:57:09.533Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "azure",
+    "push",
+    "notification",
+    "android",
+    "azure-notification-hubs",
+    "capacitor-android",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "ios",
+    "push-notifications"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin to register push notifications via Azure Notification Hub.",
+  "bugs": "https://github.com/jonz94/capacitor-azure-notification-hubs/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/16042676?v=4",
+  "quality": 103,
+  "updated": "2023-01-14T19:17:31Z"
+}
