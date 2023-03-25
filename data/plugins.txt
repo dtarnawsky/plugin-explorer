@@ -310,7 +310,6 @@ capacitor-apple-pay
 capacitor-appmetrica
 capacitor-areas
 capacitor-audio-permission
-capacitor-auth-plugin
 capacitor-autostartmanager
 capacitor-axa-mobile-sdk-plugin
 capacitor-background-fetch

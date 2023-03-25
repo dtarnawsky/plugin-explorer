@@ -1,0 +1,35 @@
+{
+  "name": "capacitor-audio-permission",
+  "version": "0.0.6",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/jmRicardo/capacitor-audio-permission.git",
+  "author": "Juan Manuel Ricardo",
+  "published": "2022-12-18T22:27:55.794Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Plugin sencillo para solicitar permiso de microfono en Android y iOS.",
+  "bugs": "https://github.com/jmRicardo/capacitor-audio-permission/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/51313148?v=4",
+  "quality": 100,
+  "updated": "2022-12-17T12:09:46Z",
+  "downloads": 47
+}
