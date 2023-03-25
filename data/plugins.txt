@@ -178,7 +178,6 @@
 @ionic/portals
 @ironsource-plus/cordova-plugin
 @ironsource-plus/mediation-admob
-@isamyh/stripe
 @ivanyunus_/cordova-plugin-file-opener2
 @jcesarmobile/ssl-skip
 @jofr/capacitor-media-session

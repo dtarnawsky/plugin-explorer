@@ -1,0 +1,31 @@
+{
+  "name": "@jcesarmobile/ssl-skip",
+  "version": "0.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/jcesarmobile/ssl-skip.git",
+  "author": "jcesarmobile",
+  "published": "2022-11-17T00:09:06.152Z",
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.2.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for skipping ssl checks",
+  "bugs": "https://github.com/jcesarmobile/ssl-skip/issues",
+  "stars": 11,
+  "image": "https://avatars.githubusercontent.com/u/1637892?v=4",
+  "quality": 112,
+  "updated": "2023-03-14T07:18:54Z"
+}

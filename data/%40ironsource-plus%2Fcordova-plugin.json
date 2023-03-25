@@ -1,0 +1,27 @@
+{
+  "name": "@ironsource-plus/cordova-plugin",
+  "version": "1.2.1",
+  "success": [],
+  "repo": "https://bitbucket.org/TheBosZ/ironsource-plus.git",
+  "author": "Nathan Kerr",
+  "published": "2022-04-05T21:09:47.954Z",
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "1.2.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Support for ironSource ads in Cordova and Phonegap apps",
+  "bugs": "https://bitbucket.org/TheBosZ/ironsource-plus/issues"
+}
