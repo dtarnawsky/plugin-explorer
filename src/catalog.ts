@@ -20,8 +20,7 @@ export function catalog(inspection: Inspection) {
     console.log(inspection);
 }
 
-export function writeErrorLog(plugin: string, test: Test, error: string) {
-    console.log(error);
+export function writeErrorLog(plugin: string, test: Test, error: string) {    
     const filename = errorLogFilename(plugin, test);
     writeFileSync(filename, error);
 }

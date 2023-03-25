@@ -8,7 +8,7 @@ export async function runAll(commands: string[], folder: string): Promise<string
       result += await run(command, folder);
       step++;
     } catch (error) {
-      console.error(`Failed to run ${command}`, error);
+      console.error(`Failed to run ${command}`);
       throw error;
     }
   }
@@ -33,7 +33,6 @@ export async function run(command: string, folder: string, verbose?: boolean): P
           if (verbose) {
             console.error(stdError);
           }
-          console.error(`[error] ${command}`);
           reject(stdError);
         } else {
           reject(out);

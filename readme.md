@@ -17,6 +17,7 @@ When running tests it will use a starter project in a GitHub repo for particular
 
 # Roadmap
 - Combine all plugin json files into one index.json
+- Load each json and re-run if test not run or version number is new
 - Grab readme.md from github
 - Test with Capacitor 5
 - Test with Cordova
