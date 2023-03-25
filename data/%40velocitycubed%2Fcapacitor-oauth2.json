@@ -1,0 +1,37 @@
+{
+  "name": "@velocitycubed/capacitor-oauth2",
+  "version": "1.1.2",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/VelocityCubed/capacitor-oauth2.git",
+  "author": "Velocity",
+  "published": "2022-08-26T08:58:18.961Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "capacitor-plugin",
+    "oauth2",
+    "oauth2-client",
+    "social-login"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Capacitor OAuth 2 client plugin",
+  "bugs": "https://github.com/VelocityCubed/capacitor-oauth2/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/84908720?v=4",
+  "quality": 0,
+  "updated": "2022-03-29T05:30:23Z",
+  "downloads": 28
+}

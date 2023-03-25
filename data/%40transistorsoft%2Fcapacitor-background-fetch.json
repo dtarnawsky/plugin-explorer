@@ -1,0 +1,41 @@
+{
+  "name": "@transistorsoft/capacitor-background-fetch",
+  "version": "1.0.3",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/transistorsoft/capacitor-background-fetch.git",
+  "author": "Transistor Software <chris@transistorsoft.com>",
+  "published": "2023-02-21T14:40:01.725Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "background",
+    "fetch"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-android-4"
+  ],
+  "description": "Periodic callbacks in the background for both IOS and Android",
+  "bugs": "https://github.com/transistorsoft/capacitor-background-fetch/issues",
+  "stars": 54,
+  "image": "https://avatars.githubusercontent.com/u/2099918?v=4",
+  "quality": 164,
+  "updated": "2023-03-25T15:17:36Z",
+  "downloads": 21486
+}

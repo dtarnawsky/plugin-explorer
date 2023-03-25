@@ -1,0 +1,34 @@
+{
+  "name": "@paystory/capacitor-headwind-mdm",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/paystory-de/capacitor-headwind-mdm.git",
+  "author": "PayStory",
+  "published": "2022-04-06T13:34:56.670Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "headwind mdm"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Capacitor wrapper for Headwind MDM",
+  "bugs": "https://github.com/paystory-de/capacitor-headwind-mdm/issues",
+  "quality": 103,
+  "downloads": 11,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/73749290?v=4",
+  "updated": "2022-01-31T07:42:17Z"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@regulaforensics/cordova-plugin-face-api",
+  "version": "5.1.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/regulaforensics/cordova-plugin-face-api.git",
+  "author": "RegulaForensics",
+  "published": "2023-03-16T15:56:19.920Z",
+  "versions": [
+    "3.0.0",
+    "3.1.0",
+    "3.2.0",
+    "3.2.1",
+    "3.2.2",
+    "3.2.3",
+    "4.1.0",
+    "4.1.1",
+    "4.1.2",
+    "5.1.0",
+    "5.1.1",
+    "5.1.2",
+    "5.1.3"
+  ],
+  "keywords": [
+    "cordova",
+    "face",
+    "reader",
+    "regula"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for compairing faces using phone`s camera",
+  "bugs": "https://github.com/regulaforensics/cordova-plugin-face-api/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
+  "quality": 104,
+  "updated": "2023-03-03T14:19:04Z",
+  "downloads": 389
+}

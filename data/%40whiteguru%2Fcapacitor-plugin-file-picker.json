@@ -1,0 +1,34 @@
+{
+  "name": "@whiteguru/capacitor-plugin-file-picker",
+  "version": "4.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/dragermrb/capacitor-plugin-file-picker.git",
+  "author": "Manuel Rodríguez",
+  "published": "2022-09-06T10:59:39.203Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "3.0.1",
+    "4.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin to pick files",
+  "bugs": "https://github.com/dragermrb/capacitor-plugin-file-picker/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
+  "quality": 102,
+  "updated": "2023-03-16T02:12:44Z",
+  "downloads": 33
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@tapdaq/cordova-ironsource-adapter",
+  "version": "4.5.0",
+  "success": [],
+  "repo": "https://github.com/tapdaq/cordova-plugin.git",
+  "author": "Tapdaq",
+  "published": "2022-04-07T04:10:09.660Z",
+  "versions": [
+    "4.0.0",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3",
+    "4.1.0",
+    "4.1.1",
+    "4.2.0",
+    "4.3.0",
+    "4.3.1",
+    "4.3.2",
+    "4.3.3",
+    "4.3.4",
+    "4.4.0",
+    "4.4.1",
+    "4.4.2",
+    "4.5.0"
+  ],
+  "keywords": [
+    "cordova",
+    "tapdaq",
+    "ironsource",
+    "ads",
+    "advertising",
+    "mobile",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Tapdaq IronSource adapter for Apache Cordova",
+  "bugs": "https://github.com/tapdaq/cordova-plugin/issues",
+  "quality": null,
+  "downloads": 73
+}

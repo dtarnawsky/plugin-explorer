@@ -1,0 +1,41 @@
+{
+  "name": "@whiteguru/capacitor-plugin-media",
+  "version": "4.1.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/dragermrb/capacitor-plugin-media.git",
+  "author": "Manuel Rodríguez",
+  "published": "2023-01-25T18:46:10.298Z",
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "3.0.1",
+    "4.0.1",
+    "4.1.0",
+    "4.1.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin to handle media files",
+  "bugs": "https://github.com/dragermrb/capacitor-plugin-media/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
+  "quality": 104,
+  "updated": "2022-06-09T13:59:58Z",
+  "downloads": 81
+}

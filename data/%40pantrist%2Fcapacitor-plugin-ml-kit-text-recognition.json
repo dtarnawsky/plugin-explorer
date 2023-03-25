@@ -1,0 +1,34 @@
+{
+  "name": "@pantrist/capacitor-plugin-ml-kit-text-recognition",
+  "version": "4.1.1",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/Pantrist-dev/capacitor-plugin-ml-kit-text-recognition.git",
+  "author": "Nico Lueg (nicolueg@gmx.de)",
+  "published": "2023-03-22T05:55:27.008Z",
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "4.0.0",
+    "4.0.1",
+    "4.1.0",
+    "4.1.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "ml-kit",
+    "text-recognition"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4"
+  ],
+  "description": "Capacitor Wrapper for TextRecognition of Gogoles ML-Kit",
+  "bugs": "https://github.com/Pantrist-dev/capacitor-plugin-ml-kit-text-recognition/issues",
+  "quality": null,
+  "downloads": 1398
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@turnoutt/capacitor-firebase-dynamic-links",
+  "version": "0.2.3",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links.git",
+  "author": "Bharani",
+  "published": "2022-04-07T08:02:42.007Z",
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3",
+    "capacitor-android-4"
+  ],
+  "description": "Capacitor Plugin for Firebase Dynamic Links",
+  "bugs": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links.git/issues",
+  "quality": null,
+  "downloads": 44
+}

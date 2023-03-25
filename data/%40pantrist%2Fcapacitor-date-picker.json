@@ -1,0 +1,27 @@
+{
+  "name": "@pantrist/capacitor-date-picker",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/Pantrist-dev/capacitor-date-picker.git",
+  "author": "Stewan Silva",
+  "published": "2022-09-09T12:44:30.013Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Native DateTime Picker Plugin for Capacitor Apps",
+  "bugs": "https://github.com/Pantrist-dev/capacitor-date-picker/issues",
+  "quality": null,
+  "downloads": 1623
+}

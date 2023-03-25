@@ -1,0 +1,32 @@
+{
+  "name": "@regulaforensics/cordova-plugin-face-core",
+  "version": "5.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/regulaforensics/cordova-plugin-face-api.git",
+  "author": "RegulaForensics",
+  "published": "2023-03-03T15:25:24.783Z",
+  "versions": [
+    "0.0.1",
+    "5.1.0"
+  ],
+  "keywords": [
+    "cordova",
+    "face",
+    "scanner",
+    "regula"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for compairing faces using phone`s camera (Core framework)",
+  "bugs": "https://github.com/regulaforensics/cordova-plugin-face-api/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
+  "quality": 104,
+  "updated": "2023-03-03T14:19:04Z",
+  "downloads": 140
+}

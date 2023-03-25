@@ -1,0 +1,36 @@
+{
+  "name": "@rgarciadelongoria/firebase-remote-config",
+  "version": "0.5.7",
+  "success": [
+    "capacitor-ios-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/rgarciadelongoria/firebase-remote-config.git",
+  "author": "Rubén García de Longoria <rgarciadelongoria@gmail.com>",
+  "published": "2022-11-15T09:25:09.221Z",
+  "versions": [
+    "0.5.1",
+    "0.5.2",
+    "0.5.3",
+    "0.5.4",
+    "0.5.5",
+    "0.5.6",
+    "0.5.7"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A native plugin for firebase remote config",
+  "bugs": "https://github.com/rgarciadelongoria/firebase-remote-config/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/84543810?v=4",
+  "quality": 0,
+  "updated": "2022-08-18T07:42:34Z",
+  "downloads": 23
+}

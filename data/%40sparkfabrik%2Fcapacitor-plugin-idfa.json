@@ -1,0 +1,39 @@
+{
+  "name": "@sparkfabrik/capacitor-plugin-idfa",
+  "version": "4.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/sparkfabrik/capacitor-plugin-idfa.git",
+  "author": "Sparkfabrik",
+  "published": "2023-02-23T16:01:20.293Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "3.0.1",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "idfa",
+    "aaid",
+    "advertising",
+    "mobile"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Get native IDFA or Advertising ID from iOS or Android device.",
+  "bugs": "https://github.com/sparkfabrik/capacitor-plugin-idfa/issues",
+  "quality": null,
+  "downloads": 2467
+}

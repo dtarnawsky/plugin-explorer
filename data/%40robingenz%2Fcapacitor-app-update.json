@@ -1,0 +1,49 @@
+{
+  "name": "@robingenz/capacitor-app-update",
+  "version": "1.3.1",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/robingenz/capacitor-app-update.git",
+  "author": "Robin Genz <mail@robingenz.dev>",
+  "published": "2022-08-04T18:21:36.070Z",
+  "versions": [
+    "1.0.0-alpha.0",
+    "1.0.0-alpha.1",
+    "1.0.0-alpha.2",
+    "1.0.0-alpha.3",
+    "1.0.0-alpha.2-dev.4fc495b.1627061312",
+    "1.0.0-dev.e353964.1629473800",
+    "1.0.0",
+    "1.1.0-dev.d6bf10b.1639042525",
+    "1.1.0",
+    "1.2.0-dev.7d88d22.1639562398",
+    "1.2.0",
+    "1.3.0",
+    "1.3.1-dev.aa49eab.1659603574",
+    "1.3.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-community",
+    "capacitor-plugin",
+    "capawesome",
+    "in-app-update",
+    "ios"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Capacitor plugin that assists with app updates.",
+  "bugs": "https://github.com/robingenz/capacitor-app-update/issues",
+  "stars": 110,
+  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
+  "quality": 228,
+  "updated": "2023-03-19T12:04:55Z",
+  "downloads": 3382
+}

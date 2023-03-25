@@ -1,0 +1,36 @@
+{
+  "name": "@rollershop/capacitor-emarsys-sdk",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/EinfachHans/capacitor-emarsys-sdk.git",
+  "author": "SimplifySolutions",
+  "published": "2022-08-03T10:07:53.831Z",
+  "versions": [
+    "1.0.0-beta.1",
+    "1.0.0-beta.2",
+    "1.0.0-beta.3",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "push",
+    "notifications",
+    "emarsys",
+    "sdk"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor Plugin that wraps the Emarsys SDK",
+  "bugs": "https://github.com/EinfachHans/capacitor-emarsys-sdk/issues",
+  "quality": null,
+  "downloads": 26
+}

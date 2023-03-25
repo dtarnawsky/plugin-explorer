@@ -1,0 +1,35 @@
+{
+  "name": "@rdlabo/capacitor-screenshot-event",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/rdlabo-team/capacitor-screenshot-event.git",
+  "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
+  "published": "2023-03-20T08:08:17.977Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "3.0.0-0",
+    "3.0.0",
+    "4.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Notification that user shot screenshot",
+  "bugs": "https://github.com/rdlabo-team/capacitor-screenshot-event/issues",
+  "stars": 10,
+  "image": "https://avatars.githubusercontent.com/u/64881359?v=4",
+  "quality": 115,
+  "updated": "2023-03-21T23:23:27Z",
+  "downloads": 288
+}
