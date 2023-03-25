@@ -30,7 +30,10 @@ export async function run(command: string, folder: string, verbose?: boolean): P
         resolve(out);
       } else {
         if (stdError) {
-          console.error(stdError);
+          if (verbose) {
+            console.error(stdError);
+          }
+          console.error(`[error] ${command}`);
           reject(stdError);
         } else {
           reject(out);

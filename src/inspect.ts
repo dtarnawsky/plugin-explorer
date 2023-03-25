@@ -6,6 +6,7 @@ import { writeErrorLog, readPlugin, removeErrorLog } from './catalog.js';
 import { inspectGitHubAPI } from './github.js';
 import { join } from 'path';
 import { Failure } from './failures.js';
+import { inspectNpmAPI } from './npm-stat.js';
 
 export async function inspect(plugin: string, info: TestInfo): Promise<Inspection> {
     const result: Inspection = readPlugin(plugin);
@@ -48,6 +49,7 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         if (result.repo?.includes('github.com')) {
             await inspectGitHubAPI(result);
         }
+        await inspectNpmAPI(result);
     } catch (e) {
         console.error(`Failed preparation of ${folder} for ${plugin}`);
     }
@@ -56,7 +58,7 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         failure = await tryRun([`npm i ${plugin}@${result.version} --save-dev`], Failure.peer, folder);
     }
     if (!failure) {
-        failure = await tryRun(['npx ionic build --prod', 'npx cap sync'], Failure.sync, folder);
+        failure = await tryRun(['npx ionic build', 'npx cap sync'], Failure.sync, folder);
     }
     return failure;
 }

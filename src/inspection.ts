@@ -15,6 +15,7 @@ export interface Inspection {
     image?: string, // Github author url    
     description?: string, // Github description
     quality?: number, // Calculation
+    downloads?: number, // NPM Downloads in last month
     updated?: string // Github date last updated 
 }
 

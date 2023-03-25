@@ -1,0 +1,35 @@
+{
+  "name": "@moodlehq/cordova-plugin-file-transfer",
+  "version": "1.7.1-moodle.5",
+  "success": [],
+  "repo": "https://github.com/moodlemobile/cordova-plugin-file-transfer.git#main",
+  "author": "Apache Software Foundation",
+  "published": "2022-09-05T10:34:27.955Z",
+  "versions": [
+    "1.7.1-moodle.1",
+    "1.7.1-moodle.2",
+    "1.7.1-moodle.3",
+    "1.7.1-moodle.4",
+    "1.7.1-moodle.5"
+  ],
+  "keywords": [
+    "cordova",
+    "file",
+    "transfer",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-browser"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Moodle's fork of Cordova File Transfer Plugin",
+  "bugs": "https://github.com/moodlemobile/cordova-plugin-file-transfer/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
+  "quality": 2,
+  "updated": "2021-08-02T08:24:24Z"
+}
