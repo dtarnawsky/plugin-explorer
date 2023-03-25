@@ -1,0 +1,17 @@
+{
+  "name": "appboy-cordova-sdk",
+  "version": "2.28.0",
+  "success": [],
+  "published": "2022-04-11T14:49:20.796Z",
+  "versions": [
+    "2.28.0"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "description": "<img src=\"https://github.com/Appboy/appboy-cordova-sdk/blob/master/braze-logo.png\" width=\"300\" title=\"Braze Logo\" />",
+  "downloads": 42
+}

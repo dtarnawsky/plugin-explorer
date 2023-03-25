@@ -1,0 +1,33 @@
+{
+  "name": "cap2-lottie",
+  "version": "1.0.1",
+  "success": [],
+  "repo": "https://github.com/voneddy/cap2-lottie.git",
+  "author": "John Moran",
+  "published": "2023-01-23T16:52:31.184Z",
+  "versions": [
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "lottie",
+  "bugs": "https://github.com/voneddy/cap2-lottie/issues",
+  "quality": null,
+  "downloads": 16
+}

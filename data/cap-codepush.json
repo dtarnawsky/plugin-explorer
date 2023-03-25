@@ -1,0 +1,36 @@
+{
+  "name": "cap-codepush",
+  "version": "1.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/gianluigitrontini/capacitor-codepush.git",
+  "author": "Gianluigi Trontini",
+  "published": "2023-03-06T14:50:07.575Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "code",
+    "push",
+    "ecosystem:capacitor",
+    "capacitor-android",
+    "capacitor-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Updated CodePush Plugin for Capacitor and Angular 14+",
+  "bugs": "https://github.com/gianluigitrontini/capacitor-codepush/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/39003797?v=4",
+  "quality": 2,
+  "updated": "2023-02-04T06:41:43Z",
+  "downloads": 90
+}

@@ -1,0 +1,28 @@
+{
+  "name": "background-geolocation",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com.git",
+  "author": "Shreesh",
+  "published": "2023-02-28T08:17:23.055Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-android-4"
+  ],
+  "description": "This plugin tracks current location when the app is open or is in background",
+  "bugs": "https://github.com/issues",
+  "quality": null,
+  "downloads": 131
+}
