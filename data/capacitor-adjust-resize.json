@@ -1,7 +1,10 @@
 {
   "name": "capacitor-adjust-resize",
   "version": "4.0.4",
-  "success": [],
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
   "repo": "https://github.com/NePheus/capacitor-adjust-resize.git",
   "author": "Jan Gessinger",
   "published": "2023-03-05T09:44:54.524Z",

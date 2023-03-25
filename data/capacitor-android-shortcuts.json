@@ -1,0 +1,34 @@
+{
+  "name": "capacitor-android-shortcuts",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/NePheus/capacitor-android-shortcuts.git",
+  "author": "Jan Gessinger",
+  "published": "2022-08-18T16:21:00.628Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "4.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Add shortcuts in Android",
+  "bugs": "https://github.com/NePheus/capacitor-android-shortcuts/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
+  "quality": 107,
+  "updated": "2022-11-30T23:15:24Z",
+  "downloads": 356
+}

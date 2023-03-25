@@ -304,7 +304,6 @@ capacitor-android-intents
 capacitor-android-shortcuts
 capacitor-antitampering
 capacitor-app-actions
-capacitor-app-launcher
 capacitor-app-tracking-transparency
 capacitor-apple-login
 capacitor-apple-pay
