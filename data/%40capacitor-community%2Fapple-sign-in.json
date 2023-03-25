@@ -1,0 +1,43 @@
+{
+  "name": "@capacitor-community/apple-sign-in",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/apple-sign-in.git",
+  "author": "Max Lynch <max@ionic.io>",
+  "published": "2023-01-23T16:45:49.268Z",
+  "versions": [
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.0.10",
+    "0.0.11",
+    "0.0.12",
+    "0.0.13",
+    "0.0.14",
+    "0.1.1",
+    "0.1.2",
+    "0.2.0",
+    "1.0.0",
+    "1.0.1",
+    "4.0.0-0",
+    "4.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor Sign in with Apple",
+  "bugs": "https://github.com/capacitor-community/apple-sign-in/issues",
+  "stars": 108,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 273,
+  "updated": "2023-03-10T15:04:30Z"
+}

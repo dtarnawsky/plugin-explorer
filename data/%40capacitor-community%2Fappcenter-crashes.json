@@ -1,0 +1,51 @@
+{
+  "name": "@capacitor-community/appcenter-crashes",
+  "version": "3.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capacitor-community/appcenter-sdk-capacitor.git#master",
+  "author": "johnborges",
+  "published": "2023-01-23T16:45:42.742Z",
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.7.0",
+    "0.7.1",
+    "0.7.2",
+    "0.7.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "3.0.0",
+    "3.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "appcenter",
+    "reporting",
+    "crash",
+    "error",
+    "azure",
+    "microsoft",
+    "capacitor-plugin",
+    "visual-studio-app-center"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for Microsoft's App Center Crashes",
+  "bugs": "https://github.com/capacitor-community/appcenter-sdk-capacitor/tree/master/appcenter-crashes/issues",
+  "stars": 25,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "quality": 131,
+  "updated": "2022-12-23T06:45:28Z"
+}
