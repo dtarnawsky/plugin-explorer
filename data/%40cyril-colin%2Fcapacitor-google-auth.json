@@ -1,0 +1,35 @@
+{
+  "name": "@cyril-colin/capacitor-google-auth",
+  "version": "2.1.4",
+  "success": [],
+  "repo": "https://github.com/cyril-colin/CapacitorGoogleAuth.git",
+  "author": "CodetrixStudio",
+  "published": "2022-04-05T02:27:38.977Z",
+  "versions": [
+    "2.1.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "google",
+    "auth",
+    "firebase",
+    "angular",
+    "vue",
+    "react",
+    "ionic"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Google Auth plugin for capacitor.",
+  "bugs": "https://github.com/cyril-colin/CapacitorGoogleAuth.git/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/12231561?v=4",
+  "quality": 0,
+  "updated": "2021-07-26T08:11:04Z"
+}

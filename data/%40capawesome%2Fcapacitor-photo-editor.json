@@ -1,0 +1,35 @@
+{
+  "name": "@capawesome/capacitor-photo-editor",
+  "version": "0.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capawesome-team/capacitor-photo-editor.git",
+  "author": "Robin Genz <mail@robingenz.dev>",
+  "published": "2022-08-04T17:43:36.727Z",
+  "versions": [
+    "0.1.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-android",
+    "capacitor-community",
+    "capawesome",
+    "ios",
+    "photo-editor"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin that allows the user to edit a photo.",
+  "bugs": "https://github.com/capawesome-team/capacitor-photo-editor/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
+  "quality": 109,
+  "updated": "2023-03-10T12:15:54Z"
+}

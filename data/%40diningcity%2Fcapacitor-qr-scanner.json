@@ -1,0 +1,38 @@
+{
+  "name": "@diningcity/capacitor-qr-scanner",
+  "version": "0.0.11",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/diningcity-group/capacitor-qr-scanner.git",
+  "author": "DiningCity Group",
+  "published": "2023-03-10T06:49:58.305Z",
+  "versions": [
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.0.10",
+    "0.0.11"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-android-4"
+  ],
+  "description": "A Capacitor plug in to scan QR Codes",
+  "bugs": "https://github.com/diningcity-group/capacitor-qr-scanner/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/59110384?v=4",
+  "quality": 111,
+  "updated": "2022-11-23T14:26:15Z"
+}

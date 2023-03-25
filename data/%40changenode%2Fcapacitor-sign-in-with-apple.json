@@ -1,0 +1,33 @@
+{
+  "name": "@changenode/capacitor-sign-in-with-apple",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/ChangeNode/capacitor-sign-in-with-apple.git",
+  "author": "Will Iverson",
+  "published": "2022-12-07T23:44:57.899Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "capacitor-plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Native Sign In With Apple CapacitorJS Plugin",
+  "bugs": "https://github.com/ChangeNode/capacitor-sign-in-with-apple/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/77367641?v=4",
+  "quality": 101,
+  "updated": "2022-12-07T20:20:21Z"
+}

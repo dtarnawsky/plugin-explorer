@@ -1,0 +1,37 @@
+{
+  "name": "@capawesome/capacitor-managed-configurations",
+  "version": "0.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capawesome-team/capacitor-managed-configurations.git",
+  "author": "Robin Genz <mail@robingenz.dev>",
+  "published": "2022-08-04T17:43:33.296Z",
+  "versions": [
+    "0.2.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-android",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "capawesome",
+    "ios",
+    "managed-configurations",
+    "mdm"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin to access managed configuration settings.",
+  "bugs": "https://github.com/capawesome-team/capacitor-managed-configurations/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
+  "quality": 105,
+  "updated": "2023-03-10T12:15:00Z"
+}

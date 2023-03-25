@@ -1,0 +1,41 @@
+{
+  "name": "@capawesome/capacitor-badge",
+  "version": "2.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capawesome-team/capacitor-badge.git",
+  "author": "Robin Genz <mail@robingenz.dev>",
+  "published": "2022-10-04T14:22:36.032Z",
+  "versions": [
+    "2.0.0-dev.ea15a38.1664364775",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-android",
+    "capacitor-community",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "capawesome",
+    "ios",
+    "pwa",
+    "web"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin to access and update the badge number of the app icon.",
+  "bugs": "https://github.com/capawesome-team/capacitor-badge/issues",
+  "stars": 67,
+  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
+  "quality": 173,
+  "updated": "2023-03-15T20:31:39Z"
+}

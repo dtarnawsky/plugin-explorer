@@ -1,0 +1,130 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :captureid-capacitor4-cidscan:preBuild UP-TO-DATE
+        > Task :captureid-capacitor4-cidscan:preReleaseBuild UP-TO-DATE
+        > Task :captureid-capacitor4-cidscan:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :captureid-capacitor4-cidscan:compileReleaseRenderscript NO-SOURCE
+        > Task :captureid-capacitor4-cidscan:generateReleaseResValues
+        > Task :captureid-capacitor4-cidscan:generateReleaseResources
+        > Task :captureid-capacitor4-cidscan:packageReleaseResources
+        > Task :app:mergeReleaseResources FAILED
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:mergeReleaseResources'.
+        > Could not resolve all files for configuration ':app:releaseRuntimeClasspath'.
+        > Could not find com.codecorp:cortexdecoderlibrary:1.0.0.
+        Searched in the following locations:
+        - https://dl.google.com/dl/android/maven2/com/codecorp/cortexdecoderlibrary/1.0.0/cortexdecoderlibrary-1.0.0.pom
+        - https://repo.maven.apache.org/maven2/com/codecorp/cortexdecoderlibrary/1.0.0/cortexdecoderlibrary-1.0.0.pom
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/cortexdecoderlibrary-1.0.0.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/cortexdecoderlibrary.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/cortexdecoderlibrary-1.0.0.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/cortexdecoderlibrary.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/@captureid/capacitor4-maven/maven/android/com/codecorp/cortexdecoderlibrary/1.0.0/cortexdecoderlibrary-1.0.0.pom
+        Required by:
+        project :app > project :captureid-capacitor4-cidscan
+        > Could not find app.captureid:cidscannerbase:1.0.1.
+        Searched in the following locations:
+        - https://dl.google.com/dl/android/maven2/app/captureid/cidscannerbase/1.0.1/cidscannerbase-1.0.1.pom
+        - https://repo.maven.apache.org/maven2/app/captureid/cidscannerbase/1.0.1/cidscannerbase-1.0.1.pom
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/cidscannerbase-1.0.1.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/cidscannerbase.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/cidscannerbase-1.0.1.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/cidscannerbase.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/@captureid/capacitor4-maven/maven/android/app/captureid/cidscannerbase/1.0.1/cidscannerbase-1.0.1.pom
+        Required by:
+        project :app > project :captureid-capacitor4-cidscan
+        > Could not find app.captureid:cidscannerlibrary:1.0.1.
+        Searched in the following locations:
+        - https://dl.google.com/dl/android/maven2/app/captureid/cidscannerlibrary/1.0.1/cidscannerlibrary-1.0.1.pom
+        - https://repo.maven.apache.org/maven2/app/captureid/cidscannerlibrary/1.0.1/cidscannerlibrary-1.0.1.pom
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/cidscannerlibrary-1.0.1.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/cidscannerlibrary.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/cidscannerlibrary-1.0.1.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/cidscannerlibrary.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/@captureid/capacitor4-maven/maven/android/app/captureid/cidscannerlibrary/1.0.1/cidscannerlibrary-1.0.1.pom
+        Required by:
+        project :app > project :captureid-capacitor4-cidscan
+        > Could not find app.captureid:components:1.0.0.
+        Searched in the following locations:
+        - https://dl.google.com/dl/android/maven2/app/captureid/components/1.0.0/components-1.0.0.pom
+        - https://repo.maven.apache.org/maven2/app/captureid/components/1.0.0/components-1.0.0.pom
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/components-1.0.0.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/components.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/components-1.0.0.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/components.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/@captureid/capacitor4-maven/maven/android/app/captureid/components/1.0.0/components-1.0.0.pom
+        Required by:
+        project :app > project :captureid-capacitor4-cidscan
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        
+        You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+        
+        See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 1s
+        16 actionable tasks: 16 executed
+        

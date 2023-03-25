@@ -1,0 +1,35 @@
+{
+  "name": "@dolosplus/zebra-capacitor",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/dolosplus/zebralib.git.git",
+  "author": "Jak Ratiwanich",
+  "published": "2023-02-01T21:37:00.950Z",
+  "versions": [
+    "0.0.1",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.0.10",
+    "1.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Zebra printer capacitor plugin library with ZSDK API",
+  "bugs": "https://github.com/dolosplus/zebralib.git/issues",
+  "quality": null
+}

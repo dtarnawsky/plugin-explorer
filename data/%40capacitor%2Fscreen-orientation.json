@@ -1,0 +1,51 @@
+{
+  "name": "@capacitor/screen-orientation",
+  "version": "4.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/ionic-team/capacitor-plugins.git",
+  "author": "Ionic <hi@ionicframework.com>",
+  "published": "2023-03-24T15:13:55.031Z",
+  "versions": [
+    "4.0.1-nightly-20230222T150854.0",
+    "4.1.0",
+    "4.1.1-nightly-20230313T150905.0",
+    "4.1.1-nightly-20230314T150834.0",
+    "4.1.1-nightly-20230315T150853.0",
+    "4.1.1-nightly-20230316T150919.0",
+    "5.0.0-alpha.1",
+    "5.0.0-nightly-20230317T150907.0",
+    "5.0.0-nightly-20230320T150751.0",
+    "5.0.0-nightly-20230321T150946.0",
+    "5.0.0-nightly-20230322T151509.0",
+    "5.0.0-nightly-20230323T150916.0",
+    "5.0.0-nightly-20230324T150846.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-plugin",
+    "cross-platform",
+    "css",
+    "html",
+    "ios",
+    "java",
+    "javascript",
+    "pwa",
+    "swift"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "The Screen Orientation API provides methods to lock and unlock the screen orientation.",
+  "bugs": "https://github.com/ionic-team/capacitor-pluginsissues",
+  "stars": 337,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "quality": 986,
+  "updated": "2023-03-25T02:10:29Z"
+}

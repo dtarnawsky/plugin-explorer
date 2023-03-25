@@ -1,0 +1,62 @@
+{
+  "name": "@capawesome/capacitor-file-picker",
+  "version": "0.6.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/capawesome-team/capacitor-file-picker.git",
+  "author": "Robin Genz <mail@robingenz.dev>",
+  "published": "2023-03-01T16:57:22.521Z",
+  "versions": [
+    "0.4.0",
+    "0.5.0",
+    "0.5.1-dev.1d0b6df.1665431290",
+    "0.5.1",
+    "0.5.2",
+    "0.5.3",
+    "0.5.4",
+    "0.5.5-dev.3413e5c.1673292739",
+    "0.5.5-dev.48b9f62.1673292260",
+    "0.5.5-dev.4face77.1673291348",
+    "0.5.5-dev.d083324.1673291957",
+    "0.5.5",
+    "0.5.6-dev.9c45982.1673297037",
+    "0.5.6-dev.c683906.1673299620",
+    "0.5.6",
+    "0.5.7",
+    "0.5.8",
+    "0.5.9-dev.a974753.1674484205",
+    "0.5.9",
+    "0.5.10",
+    "0.6.0",
+    "0.6.1-dev.b2bb2f5.1677241933",
+    "0.6.1",
+    "0.6.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "android",
+    "capacitor-android",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "capacitor-web",
+    "capawesome",
+    "file-chooser",
+    "file-picker",
+    "ios",
+    "web"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin that allows the user to select a file.",
+  "bugs": "https://github.com/capawesome-team/capacitor-file-picker/issues",
+  "stars": 59,
+  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
+  "quality": 182,
+  "updated": "2023-03-19T20:03:26Z"
+}
