@@ -1,0 +1,41 @@
+{
+  "name": "adobe-mobile-services",
+  "version": "4.19.5",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/Adobe-Marketing-Cloud/mobile-services.git",
+  "author": "Adobe",
+  "published": "2022-06-13T02:27:05.397Z",
+  "versions": [
+    "4.7.0",
+    "4.13.1-cor",
+    "4.16.0-cor",
+    "4.16.1",
+    "4.17.0",
+    "4.19.3",
+    "4.19.4",
+    "4.19.5"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "archived",
+    "deprecated",
+    "no-maintenance-intended"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-android-4"
+  ],
+  "description": "Native Mobile SDKs, dev tools and example apps.",
+  "bugs": "https://github.com/Adobe-Marketing-Cloud/mobile-services/issues",
+  "stars": 176,
+  "image": "https://avatars.githubusercontent.com/u/1440554?v=4",
+  "quality": 464,
+  "updated": "2023-02-17T11:09:35Z",
+  "downloads": 564
+}

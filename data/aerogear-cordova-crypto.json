@@ -1,0 +1,36 @@
+{
+  "name": "aerogear-cordova-crypto",
+  "version": "0.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/aerogear/aerogear-cordova-crypto.git",
+  "author": "edewit",
+  "published": "2022-06-15T15:07:32.387Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4"
+  ],
+  "keywords": [
+    "cordova",
+    "aerogear",
+    "crypto",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin mimics the API of the aerogear-js crypto functions as close as possible, but delegates the work to the native implementations\n  ",
+  "bugs": "https://issues.jboss.org/browse/AGCORDOVA",
+  "stars": 11,
+  "image": "https://avatars.githubusercontent.com/u/34545933?v=4",
+  "quality": 122,
+  "updated": "2023-01-28T16:27:55Z",
+  "downloads": 103
+}

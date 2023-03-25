@@ -1,7 +1,10 @@
 {
   "name": "@whiteguru/capacitor-plugin-media-capture",
   "version": "4.0.1",
-  "success": [],
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
   "repo": "https://github.com/dragermrb/capacitor-plugin-media-capture.git",
   "author": "Manuel Rodríguez",
   "published": "2022-09-08T08:44:58.511Z",

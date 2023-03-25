@@ -1,0 +1,32 @@
+{
+  "name": "@williartsinternet/capacitor-media-session",
+  "version": "1.0.6",
+  "success": [
+    "capacitor-ios-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/williartsinternet/capacitor-media-session.git",
+  "author": "Jonas <jofr@vivaldi.net>",
+  "published": "2022-10-27T02:55:22.135Z",
+  "versions": [
+    "1.0.4",
+    "1.0.5",
+    "1.0.6"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for media notifications and platform media keys as well as background audio playback",
+  "bugs": "https://github.com/williartsinternet/capacitor-media-session/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/116195796?v=4",
+  "quality": 0,
+  "updated": "2022-07-16T13:19:20Z",
+  "downloads": 23
+}

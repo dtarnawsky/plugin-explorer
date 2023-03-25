@@ -1,0 +1,59 @@
+{
+  "name": "airwatch-sdk-plugin",
+  "version": "23.2.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "author": "VMWare Airwatch",
+  "published": "2023-03-16T08:57:40.843Z",
+  "versions": [
+    "0.5.0",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8-beta.0",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "1.2.1-beta.0",
+    "1.2.1-beta.1",
+    "1.2.1-beta.2",
+    "1.3.0",
+    "1.3.1",
+    "1.3.2",
+    "1.3.3-beta.1",
+    "1.4.0",
+    "1.5.0",
+    "1.5.1",
+    "2.0.0",
+    "2.1.0",
+    "2.2.0",
+    "2.3.0",
+    "2.4.0",
+    "2.5.0",
+    "2.6.0",
+    "2.7.0",
+    "22.1.0",
+    "22.3.0",
+    "22.5.0",
+    "22.8.0",
+    "22.12.0",
+    "23.2.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-android-4"
+  ],
+  "description": "Integrate AirWatch SDK capabilities into your Cordova project",
+  "downloads": 1544
+}

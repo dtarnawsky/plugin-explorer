@@ -1,0 +1,433 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses FAILED
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:checkReleaseDuplicateClasses'.
+        > A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
+        > Duplicate class androidx.annotation.AnimRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.AnimatorRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.AnyRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.ArrayRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.AttrRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.BoolRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.ColorRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.DimenRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.DrawableRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.FractionRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.IdRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.IntDef found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.IntegerRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.InterpolatorRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.LayoutRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.MenuRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.NonNull found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.Nullable found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.PluralsRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.RawRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.StringDef found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.StringRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.StyleRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.StyleableRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.annotation.XmlRes found in modules annotation-1.1.0 (androidx.annotation:annotation:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.ArrayMap found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.ArrayMap$1 found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.CircularArray found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.ContainerHelpers found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.LongSparseArray found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.LruCache found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.MapCollections found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.MapCollections$ArrayIterator found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.MapCollections$EntrySet found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.MapCollections$KeySet found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.MapCollections$MapIterator found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.MapCollections$ValuesCollection found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.SimpleArrayMap found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.collection.SparseArrayCompat found in modules collection-1.1.0 (androidx.collection:collection:1.1.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.accessibilityservice.AccessibilityServiceInfoCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.ActivityCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.ActivityCompat$SharedElementCallback21Impl found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.ActivityManagerCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.ActivityOptionsCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NavUtils found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationBuilderWithBuilderAccessor found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$1 found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$Action found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$Action$Builder found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$Action$Extender found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$Action$WearableExtender found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$BigPictureStyle found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$BigTextStyle found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$Builder found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$Extender found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$InboxStyle found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$Style found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompat$WearableExtender found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompatExtras found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompatJellybean found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompatSideChannelService found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationCompatSideChannelService$NotificationSideChannelStub found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationManagerCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationManagerCompat$CancelTask found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationManagerCompat$NotifyTask found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationManagerCompat$ServiceConnectedEvent found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationManagerCompat$SideChannelManager found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationManagerCompat$SideChannelManager$ListenerRecord found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.NotificationManagerCompat$Task found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.RemoteInput found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.RemoteInput$Builder found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.ServiceCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.ShareCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.ShareCompat$IntentBuilder found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.ShareCompat$IntentReader found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.SharedElementCallback found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.TaskStackBuilder found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.app.TaskStackBuilder$SupportParentable found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.content.ContextCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.content.FileProvider found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.content.FileProvider$PathStrategy found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.content.FileProvider$SimplePathStrategy found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.content.IntentCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.content.pm.ActivityInfoCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.content.res.ResourcesCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.database.DatabaseUtilsCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.graphics.BitmapCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.graphics.drawable.DrawableCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.graphics.drawable.RoundedBitmapDrawable found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.graphics.drawable.RoundedBitmapDrawable21 found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.graphics.drawable.RoundedBitmapDrawableFactory found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.graphics.drawable.RoundedBitmapDrawableFactory$DefaultRoundedBitmapDrawable found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.hardware.display.DisplayManagerCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.internal.view.SupportMenu found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.internal.view.SupportMenuItem found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.internal.view.SupportSubMenu found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.net.ConnectivityManagerCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.net.TrafficStatsCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.os.EnvironmentCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.os.ParcelableCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.os.ParcelableCompatCreatorCallbacks found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.BidiFormatter found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.BidiFormatter$Builder found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.BidiFormatter$DirectionalityEstimator found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.ICUCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextDirectionHeuristicCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextDirectionHeuristicsCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextDirectionHeuristicsCompat$AnyStrong found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextDirectionHeuristicsCompat$FirstStrong found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextDirectionHeuristicsCompat$TextDirectionAlgorithm found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextDirectionHeuristicsCompat$TextDirectionHeuristicImpl found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextDirectionHeuristicsCompat$TextDirectionHeuristicInternal found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextDirectionHeuristicsCompat$TextDirectionHeuristicLocale found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.text.TextUtilsCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.AtomicFile found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.DebugUtils found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.LogWriter found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.Pair found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.Pools found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.Pools$Pool found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.Pools$SimplePool found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.Pools$SynchronizedPool found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.util.TimeUtils found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.AccessibilityDelegateCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ActionProvider found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ActionProvider$SubUiVisibilityListener found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ActionProvider$VisibilityListener found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.GestureDetectorCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImpl found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImplBase found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.GestureDetectorCompat$GestureDetectorCompatImplJellybeanMr2 found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.GravityCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.MarginLayoutParamsCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.MenuCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.MenuItemCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.MenuItemCompat$OnActionExpandListener found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.MotionEventCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.OnApplyWindowInsetsListener found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ScaleGestureDetectorCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.VelocityTrackerCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewConfigurationCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewGroupCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewParentCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewPropertyAnimatorCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewPropertyAnimatorCompat$1 found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewPropertyAnimatorListener found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewPropertyAnimatorListenerAdapter found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.ViewPropertyAnimatorUpdateListener found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.WindowCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.WindowInsetsCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityEventCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityManagerCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityNodeInfoCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityActionCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityNodeInfoCompat$RangeInfoCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityNodeProviderCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.view.accessibility.AccessibilityRecordCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.AutoScrollHelper found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.AutoScrollHelper$ClampedScroller found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.AutoScrollHelper$ScrollAnimationRunnable found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.ContentLoadingProgressBar found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.ContentLoadingProgressBar$1 found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.ContentLoadingProgressBar$2 found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.EdgeEffectCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.ListPopupWindowCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.ListViewAutoScrollHelper found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.PopupMenuCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.PopupWindowCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.core.widget.ScrollerCompat found in modules core-1.3.2-runtime (androidx.core:core:1.3.2) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.CursorAdapter found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.CursorAdapter$ChangeObserver found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.CursorAdapter$MyDataSetObserver found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.CursorFilter found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.CursorFilter$CursorFilterClient found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.ResourceCursorAdapter found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.SimpleCursorAdapter found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.SimpleCursorAdapter$CursorToStringConverter found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.cursoradapter.widget.SimpleCursorAdapter$ViewBinder found in modules cursoradapter-1.0.0-runtime (androidx.cursoradapter:cursoradapter:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.customview.widget.ExploreByTouchHelper found in modules customview-1.0.0-runtime (androidx.customview:customview:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.customview.widget.ExploreByTouchHelper$1 found in modules customview-1.0.0-runtime (androidx.customview:customview:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.customview.widget.ViewDragHelper found in modules customview-1.0.0-runtime (androidx.customview:customview:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.customview.widget.ViewDragHelper$1 found in modules customview-1.0.0-runtime (androidx.customview:customview:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.customview.widget.ViewDragHelper$2 found in modules customview-1.0.0-runtime (androidx.customview:customview:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.customview.widget.ViewDragHelper$Callback found in modules customview-1.0.0-runtime (androidx.customview:customview:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$AccessibilityDelegate found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$ChildAccessibilityDelegate found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$DrawerListener found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$LayoutParams found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$SavedState found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$SavedState$1 found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$SimpleDrawerListener found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$ViewDragCallback found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.drawerlayout.widget.DrawerLayout$ViewDragCallback$1 found in modules drawerlayout-1.0.0-runtime (androidx.drawerlayout:drawerlayout:1.0.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.BackStackRecord found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.BackStackState found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.BackStackState$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.DialogFragment found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.Fragment found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.Fragment$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.Fragment$InstantiationException found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.Fragment$SavedState found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.Fragment$SavedState$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentActivity found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentActivity$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentActivity$2 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentContainer found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentManager found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentManager$BackStackEntry found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentManager$OnBackStackChangedListener found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentManagerImpl found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentManagerState found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentManagerState$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentPagerAdapter found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentState found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentState$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentStatePagerAdapter found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTabHost found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTabHost$DummyTabFactory found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTabHost$SavedState found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTabHost$SavedState$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTabHost$TabInfo found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTransaction found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTransitionCompat21 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTransitionCompat21$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTransitionCompat21$2 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTransitionCompat21$3 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.FragmentTransitionCompat21$4 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.ListFragment found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.ListFragment$1 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.ListFragment$2 found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.fragment.app.SuperNotCalledException found in modules fragment-1.3.0-runtime (androidx.fragment:fragment:1.3.0) and jetified-android-support-v4 (android-support-v4.jar)
+        Duplicate class androidx.loader.app.LoaderManager found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.app.LoaderManager$LoaderCallbacks found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.app.LoaderManagerImpl found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.app.LoaderManagerImpl$LoaderInfo found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.AsyncTaskLoader found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.AsyncTaskLoader$LoadTask found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.CursorLoader found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.Loader found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.Loader$ForceLoadContentObserver found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.Loader$OnLoadCompleteListener found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask$1 found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask$2 found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask$3 found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask$4 found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask$AsyncTaskResult found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask$InternalHandler found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask$Status found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.loader.content.ModernAsyncTask$WorkerRunnable found in modules jetified-android-support-v4 (android-support-v4.jar) and loader-1.0.0-runtime (androidx.loader:loader:1.0.0)
+        Duplicate class androidx.viewpager.widget.PagerAdapter found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.PagerTabStrip found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.PagerTabStrip$1 found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.PagerTabStrip$2 found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.PagerTitleStrip found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.PagerTitleStrip$PageListener found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$1 found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$2 found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$3 found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$ItemInfo found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$LayoutParams found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$MyAccessibilityDelegate found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$OnAdapterChangeListener found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$OnPageChangeListener found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$PageTransformer found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$PagerObserver found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$SavedState found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$SavedState$1 found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$SimpleOnPageChangeListener found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        Duplicate class androidx.viewpager.widget.ViewPager$ViewPositionComparator found in modules jetified-android-support-v4 (android-support-v4.jar) and viewpager-1.0.0-runtime (androidx.viewpager:viewpager:1.0.0)
+        
+        Go to the documentation to learn how to <a href="d.android.com/r/tools/classpath-sync-errors">Fix dependency resolution errors</a>.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        
+        BUILD FAILED in 2s
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        72 actionable tasks: 72 executed
+        

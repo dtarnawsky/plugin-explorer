@@ -1,0 +1,18 @@
+{
+  "name": "android.support.v4",
+  "version": "21.0.1",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "author": "vito90 <ziedvito@hotmail.com>",
+  "published": "2022-06-13T02:48:26.539Z",
+  "versions": [
+    "1.0.0",
+    "21.0.1"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This is a Cordova plugin that adds the Android Support v4 client library.\r It is meant to be depended on by other plugins.",
+  "downloads": 49
+}

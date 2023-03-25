@@ -1,0 +1,520 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :app:mergeReleaseResources
+        > Task :app:desugarReleaseFileDependencies
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :app:processReleaseManifestForPackage
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:6: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.Analytics;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:7: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.AudienceManager;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:8: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.Config;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:9: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.MobilePrivacyStatus;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:10: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.Target;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:11: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.TargetLocationRequest;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:12: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.Visitor;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:13: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.Acquisition;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:14: error: package com.adobe.mobile does not exist
+        import com.adobe.mobile.VisitorID;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:56: error: cannot find symbol
+        Config.setContext(cordova.getActivity());
+        ^
+        symbol:   variable Config
+        location: class ADBMobile_PhoneGap
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:210: error: cannot find symbol
+        String version = Config.getVersion();
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:220: error: cannot find symbol
+        switch (Config.getPrivacyStatus()) {
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:221: error: cannot find symbol
+        case MOBILE_PRIVACY_STATUS_OPT_IN:
+        ^
+        symbol: variable MOBILE_PRIVACY_STATUS_OPT_IN
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:224: error: cannot find symbol
+        case MOBILE_PRIVACY_STATUS_OPT_OUT:
+        ^
+        symbol: variable MOBILE_PRIVACY_STATUS_OPT_OUT
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:227: error: cannot find symbol
+        case MOBILE_PRIVACY_STATUS_UNKNOWN:
+        ^
+        symbol: variable MOBILE_PRIVACY_STATUS_UNKNOWN
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:245: error: cannot find symbol
+        Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN);
+        ^
+        symbol: variable MobilePrivacyStatus
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:245: error: cannot find symbol
+        Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN);
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:249: error: cannot find symbol
+        Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_OUT);
+        ^
+        symbol: variable MobilePrivacyStatus
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:249: error: cannot find symbol
+        Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_OUT);
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:253: error: cannot find symbol
+        Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_UNKNOWN);
+        ^
+        symbol: variable MobilePrivacyStatus
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:253: error: cannot find symbol
+        Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_UNKNOWN);
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:267: error: cannot find symbol
+        BigDecimal ltValue = Config.getLifetimeValue();
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:277: error: cannot find symbol
+        String UserIdentifier = Config.getUserIdentifier();
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:289: error: cannot find symbol
+        Config.setUserIdentifier(userIdentifier);
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:301: error: cannot find symbol
+        Config.setPushIdentifier(pushIdentifier);
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:311: error: cannot find symbol
+        boolean debugLogging = Config.getDebugLogging();
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:323: error: cannot find symbol
+        Config.setDebugLogging(status);
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:357: error: cannot find symbol
+        Analytics.trackState(state, cData);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:394: error: cannot find symbol
+        Analytics.trackAction(action, cData);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:427: error: cannot find symbol
+        Analytics.trackLocation(location, cData);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:443: error: package Analytics does not exist
+        Analytics.BEACON_PROXIMITY prox = proxInt >= 0 && proxInt < Analytics.BEACON_PROXIMITY.values().length ?
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:443: error: package Analytics does not exist
+        Analytics.BEACON_PROXIMITY prox = proxInt >= 0 && proxInt < Analytics.BEACON_PROXIMITY.values().length ?
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:444: error: package Analytics does not exist
+        Analytics.BEACON_PROXIMITY.values()[proxInt] : Analytics.BEACON_PROXIMITY.values()[0];
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:444: error: package Analytics does not exist
+        Analytics.BEACON_PROXIMITY.values()[proxInt] : Analytics.BEACON_PROXIMITY.values()[0];
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:454: error: cannot find symbol
+        Analytics.trackBeacon(uuid, major, minor, prox, cData);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:471: error: cannot find symbol
+        Analytics.clearBeacon();
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:503: error: cannot find symbol
+        Analytics.trackLifetimeValueIncrease(amount, cData);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:540: error: cannot find symbol
+        Analytics.trackTimedActionStart(action, cData);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:575: error: cannot find symbol
+        Analytics.trackTimedActionUpdate(action, cData);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:587: error: cannot find symbol
+        boolean exists = Analytics.trackingTimedActionExists(action);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:599: error: cannot find symbol
+        Analytics.trackTimedActionEnd(action, null);
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:609: error: cannot find symbol
+        String trackingIdentifier = Analytics.getTrackingIdentifier();
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:619: error: cannot find symbol
+        Analytics.clearQueue();
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:629: error: cannot find symbol
+        long size = Analytics.getQueueSize();
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:639: error: cannot find symbol
+        Analytics.sendQueuedHits();
+        ^
+        symbol: variable Analytics
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:665: error: cannot find symbol
+        TargetLocationRequest request = Target.createRequest(name, defaultContent, params);
+        ^
+        symbol: class TargetLocationRequest
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:665: error: cannot find symbol
+        TargetLocationRequest request = Target.createRequest(name, defaultContent, params);
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:667: error: package Target does not exist
+        Target.loadRequest(request, new Target.TargetCallback<String>() {
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:668: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:667: error: cannot find symbol
+        Target.loadRequest(request, new Target.TargetCallback<String>() {
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:711: error: cannot find symbol
+        TargetLocationRequest request = Target.createOrderConfirmRequest(name, orderID, orderTotal, productPurchaseID, params);
+        ^
+        symbol: class TargetLocationRequest
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:711: error: cannot find symbol
+        TargetLocationRequest request = Target.createOrderConfirmRequest(name, orderID, orderTotal, productPurchaseID, params);
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:712: error: package Target does not exist
+        Target.loadRequest(request, new Target.TargetCallback<String>() {
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:713: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:712: error: cannot find symbol
+        Target.loadRequest(request, new Target.TargetCallback<String>() {
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:726: error: cannot find symbol
+        Target.clearCookies();
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:758: error: cannot find symbol
+        Acquisition.campaignStartForApp(appId, data);
+        ^
+        symbol: variable Acquisition
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:771: error: cannot find symbol
+        HashMap<String, Object> profile = AudienceManager.getVisitorProfile();
+        ^
+        symbol: variable AudienceManager
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:781: error: cannot find symbol
+        String dpuuid = AudienceManager.getDpuuid();
+        ^
+        symbol: variable AudienceManager
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:791: error: cannot find symbol
+        String dpid = AudienceManager.getDpid();
+        ^
+        symbol: variable AudienceManager
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:804: error: cannot find symbol
+        AudienceManager.setDpidAndDpuuid(dpid, dpuuid);
+        ^
+        symbol: variable AudienceManager
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:825: error: package AudienceManager does not exist
+        AudienceManager.signalWithData(data, new AudienceManager.AudienceManagerCallback<Map<String, Object>>() {
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:826: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:825: error: cannot find symbol
+        AudienceManager.signalWithData(data, new AudienceManager.AudienceManagerCallback<Map<String, Object>>() {
+        ^
+        symbol: variable AudienceManager
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:845: error: cannot find symbol
+        AudienceManager.reset();
+        ^
+        symbol: variable AudienceManager
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:858: error: cannot find symbol
+        String visitorMCID = Visitor.getMarketingCloudId();
+        ^
+        symbol: variable Visitor
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:885: error: cannot find symbol
+        Visitor.syncIdentifiers(ids);
+        ^
+        symbol: variable Visitor
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:911: error: cannot find symbol
+        Config.collectPII(piiData);
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:949: error: package Target does not exist
+        Target.loadRequest(name,defaultContent,profileParameters,orderParameters,mboxParameters,new Target.TargetCallback<String>() {
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:950: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:949: error: cannot find symbol
+        Target.loadRequest(name,defaultContent,profileParameters,orderParameters,mboxParameters,new Target.TargetCallback<String>() {
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1004: error: package Target does not exist
+        Target.loadRequest(name,defaultContent,profileParameters,orderParameters,mboxParameters,requestLocationParameters,new Target.TargetCallback<String>() {
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1005: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1004: error: cannot find symbol
+        Target.loadRequest(name,defaultContent,profileParameters,orderParameters,mboxParameters,requestLocationParameters,new Target.TargetCallback<String>() {
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1027: error: cannot find symbol
+        String sessionId = Target.getSessionID();
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1037: error: cannot find symbol
+        String pcID = Target.getPcID();
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1049: error: cannot find symbol
+        Target.setThirdPartyID(thirdPartyID);
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1065: error: cannot find symbol
+        String thirdPartyID = Target.getThirdPartyID();
+        ^
+        symbol: variable Target
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1082: error: package VisitorID does not exist
+        VisitorID.VisitorIDAuthenticationState authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_UNKNOWN;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1082: error: package VisitorID does not exist
+        VisitorID.VisitorIDAuthenticationState authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_UNKNOWN;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1087: error: package VisitorID does not exist
+        authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_UNKNOWN;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1090: error: package VisitorID does not exist
+        authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_AUTHENTICATED;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1093: error: package VisitorID does not exist
+        authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_LOGGED_OUT;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1097: error: cannot find symbol
+        Visitor.syncIdentifier(identifierType, identifier, authenticationState);
+        ^
+        symbol: variable Visitor
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1118: error: package VisitorID does not exist
+        VisitorID.VisitorIDAuthenticationState authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_UNKNOWN;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1118: error: package VisitorID does not exist
+        VisitorID.VisitorIDAuthenticationState authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_UNKNOWN;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1140: error: package VisitorID does not exist
+        authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_UNKNOWN;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1143: error: package VisitorID does not exist
+        authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_AUTHENTICATED;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1146: error: package VisitorID does not exist
+        authenticationState = VisitorID.VisitorIDAuthenticationState.VISITOR_ID_AUTHENTICATION_STATE_LOGGED_OUT;
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1158: error: cannot find symbol
+        Visitor.syncIdentifiers(identifiers, authenticationState);
+        ^
+        symbol: variable Visitor
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1202: error: cannot find symbol
+        String finalURLString = Visitor.appendToURL(urlToAppend);
+        ^
+        symbol: variable Visitor
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1223: error: cannot find symbol
+        Config.trackAdobeDeepLink(Uri.parse(deepLinkURL));
+        ^
+        symbol: variable Config
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1260: error: cannot find symbol
+        ArrayList<VisitorID> visitorIDs = (ArrayList<VisitorID>) Visitor.getIdentifiers();
+        ^
+        symbol:   class VisitorID
+        location: class ADBMobile_PhoneGap
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1260: error: cannot find symbol
+        ArrayList<VisitorID> visitorIDs = (ArrayList<VisitorID>) Visitor.getIdentifiers();
+        ^
+        symbol:   class VisitorID
+        location: class ADBMobile_PhoneGap
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1260: error: cannot find symbol
+        ArrayList<VisitorID> visitorIDs = (ArrayList<VisitorID>) Visitor.getIdentifiers();
+        ^
+        symbol:   variable Visitor
+        location: class ADBMobile_PhoneGap
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1262: error: cannot find symbol
+        for (VisitorID vID:visitorIDs){
+        ^
+        symbol:   class VisitorID
+        location: class ADBMobile_PhoneGap
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1285: error: package com.adobe.mobile does not exist
+        com.adobe.mobile.Config.setContext(this.cordova.getActivity().getApplicationContext());
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1286: error: package com.adobe.mobile does not exist
+        com.adobe.mobile.Config.collectLifecycleData(this.cordova.getActivity());
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1292: error: package com.adobe.mobile does not exist
+        com.adobe.mobile.Config.pauseCollectingLifecycleData();
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java:1298: error: package com.adobe.mobile does not exist
+        com.adobe.mobile.Config.collectLifecycleData(this.cordova.getActivity());
+        ^
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/adobe/ADBMobile_PhoneGap.java uses unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        100 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 2s
+        78 actionable tasks: 78 executed
+        
