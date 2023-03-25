@@ -1,7 +1,10 @@
 {
   "name": "@capacitor-mobi/cordova-plugin-inappbrowser",
   "version": "5.0.3",
-  "success": [],
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
   "repo": "https://github.com/mobiliarmad/cordova-plugin-inappbrowser.git",
   "author": "Apache Software Foundation",
   "published": "2023-02-15T02:08:06.892Z",
