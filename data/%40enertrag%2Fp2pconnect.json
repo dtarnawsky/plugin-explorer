@@ -1,0 +1,33 @@
+{
+  "name": "@enertrag/p2pconnect",
+  "version": "2.0.4",
+  "success": [],
+  "repo": "https://github.com/enertrag/p2pconnect.git",
+  "author": "Philipp Anné",
+  "published": "2023-03-01T08:02:27.159Z",
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "2.0.0",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Capacitor Peer to Peer connectivity plugin",
+  "bugs": "https://github.com/enertrag/p2pconnect/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/70639783?v=4",
+  "quality": 103,
+  "updated": "2021-10-01T12:09:07Z"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@houseninja/capacitor-intercom",
+  "version": "4.3.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/houseninjadojo/capacitor-intercom.git",
+  "author": "House Ninja Engineering <engineering@houseninja.co>",
+  "published": "2022-11-24T22:42:00.903Z",
+  "versions": [
+    "4.2.0-beta.2",
+    "4.2.0-beta.3",
+    "4.2.0-beta.4",
+    "4.2.0-beta.5",
+    "4.2.1-beta.0",
+    "4.2.1",
+    "4.2.2",
+    "4.2.3",
+    "4.3.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-android-4"
+  ],
+  "description": "Enable Intercom features for Capacitor apps",
+  "bugs": "https://github.com/houseninjadojo/capacitor-intercom/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/88355023?v=4",
+  "quality": 1,
+  "updated": "2022-12-01T16:37:50Z"
+}

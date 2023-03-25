@@ -1,0 +1,33 @@
+{
+  "name": "@frontall/capacitor-udp",
+  "version": "0.3.4",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/brugsel/capacitor-udp.git",
+  "author": "Lieuwe van Brug",
+  "published": "2022-04-05T12:46:05.302Z",
+  "versions": [
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.3.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "UDP Plugin for CapacitorJS inspired by the UDP Plugin of https://github.com/unitree-czk/capacitor-udp",
+  "bugs": "https://github.com/brugsel/capacitor-udp/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/232117?v=4",
+  "quality": 110,
+  "updated": "2022-12-13T15:57:02Z"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@ionic-enterprise/nativestorage",
+  "version": "2.3.4",
+  "success": [],
+  "author": "Gilles Callebaut <callebaut.gilles@gmail.com>",
+  "published": "2023-03-22T13:19:48.364Z",
+  "versions": [
+    "2.3.2",
+    "2.3.3",
+    "2.3.4"
+  ],
+  "keywords": [
+    "cordova",
+    "device",
+    "storage",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "cordova-windows",
+    "LocalStorage",
+    "NSUserDefaults",
+    "SharedPreferences"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Native storage of variables in Android, iOS and Windows",
+  "bugs": "https://github.com/ionic-team/cordova-plugin-nativestorage/issues"
+}

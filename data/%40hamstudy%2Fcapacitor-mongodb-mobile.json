@@ -1,0 +1,35 @@
+{
+  "name": "@hamstudy/capacitor-mongodb-mobile",
+  "version": "1.0.0-beta.7",
+  "success": [],
+  "repo": "https://github.com/hamstudy/capacitor-mongodb-mobile.git",
+  "author": "Richard Bateman <richard@hamstudy.org>",
+  "published": "2022-04-05T16:46:55.747Z",
+  "versions": [
+    "1.0.0-beta.0",
+    "1.0.0-beta.1",
+    "1.0.0-beta.2",
+    "1.0.0-beta.3",
+    "1.0.0-beta.4",
+    "1.0.0-beta.5",
+    "1.0.0-beta.6",
+    "1.0.0-beta.7"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-3",
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "description": "MongoDB Mobile plugin for capacitor",
+  "bugs": "https://github.com/hamstudy/capacitor-mongodb-mobile/issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/45740364?v=4",
+  "quality": 105,
+  "updated": "2022-06-24T03:19:13Z"
+}

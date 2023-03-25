@@ -1,0 +1,36 @@
+{
+  "name": "@ionic-enterprise/statusbar",
+  "version": "3.0.0",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/ionic-team/cordova-plugin-statusbar.git",
+  "author": "Apache Software Foundation",
+  "published": "2023-03-22T13:19:37.362Z",
+  "versions": [
+    "2.4.2",
+    "2.4.3",
+    "2.5.0",
+    "2.5.1",
+    "2.5.2",
+    "2.5.3",
+    "3.0.0-dev.0",
+    "3.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "statusbar",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Cordova StatusBar Plugin",
+  "bugs": "https://github.com/apache/cordova-plugin-statusbar/issues",
+  "quality": null
+}

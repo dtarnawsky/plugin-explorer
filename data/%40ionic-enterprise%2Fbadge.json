@@ -1,0 +1,35 @@
+{
+  "name": "@ionic-enterprise/badge",
+  "version": "0.8.12",
+  "success": [],
+  "repo": "https://github.com/ionic-team/cordova-plugin-badge.git",
+  "author": "Sebastián Katzer",
+  "published": "2023-03-22T13:19:14.306Z",
+  "versions": [
+    "0.8.8",
+    "0.8.9",
+    "0.8.10",
+    "0.8.11",
+    "0.8.12"
+  ],
+  "keywords": [
+    "appplant",
+    "badge",
+    "shortcutbadger",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Shows the count of unread messages as a badge on the app icon.",
+  "bugs": "https://github.com/ionic-team/cordova-plugin-badge/issues",
+  "quality": null
+}

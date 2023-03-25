@@ -1,0 +1,41 @@
+{
+  "name": "@havesource/cordova-plugin-push",
+  "version": "3.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/havesource/cordova-plugin-push.git",
+  "author": "Erisu",
+  "published": "2022-10-25T12:12:29.630Z",
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "3.0.0-dev.0",
+    "3.0.0-dev.1",
+    "3.0.0",
+    "3.0.1",
+    "4.0.0-dev.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser",
+    "android",
+    "firebase-cloud-messaging",
+    "ios",
+    "push-notifications"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Register and receive push notifications.",
+  "bugs": "https://github.com/havesource/cordova-plugin-push/issues",
+  "stars": 124,
+  "image": "https://avatars.githubusercontent.com/u/17874728?v=4",
+  "quality": 431,
+  "updated": "2023-03-25T01:35:08Z"
+}

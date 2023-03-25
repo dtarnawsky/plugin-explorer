@@ -1,0 +1,35 @@
+{
+  "name": "@hiloenergie/capacitor-plugin-safe-area",
+  "version": "0.0.9",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://dev.azure.com/HQCdevops/HQC/_git/capacitor-community-safe-area",
+  "author": "Kevin Pacheco",
+  "published": "2022-08-23T18:34:44.522Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6-alpha.0",
+    "0.0.6",
+    "0.0.7-beta.0",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A plugin to expose the safe area insets from the native iOS/Android device to your web project.",
+  "bugs": "https://dev.azure.com/HQCdevops/HQC/_git/capacitor-community-safe-area"
+}

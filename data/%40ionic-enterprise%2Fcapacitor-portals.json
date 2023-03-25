@@ -1,0 +1,32 @@
+{
+  "name": "@ionic-enterprise/capacitor-portals",
+  "version": "0.0.5",
+  "success": [],
+  "repo": "https://github.com/ionic-team/enterprise-capacitor-portals.git",
+  "author": "",
+  "published": "2023-03-22T13:19:20.294Z",
+  "versions": [
+    "0.0.1-alpha.1",
+    "0.0.1-alpha.2",
+    "0.0.1-alpha.3",
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Enables module federation with Capacitor",
+  "bugs": "https://github.com/ionic-team/enterprise-capacitor-portals/issues",
+  "quality": null
+}

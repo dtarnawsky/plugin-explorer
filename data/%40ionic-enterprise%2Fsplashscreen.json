@@ -1,0 +1,45 @@
+{
+  "name": "@ionic-enterprise/splashscreen",
+  "version": "6.0.0",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/apache/cordova-plugin-splashscreen.git",
+  "author": "Apache Software Foundation",
+  "published": "2023-03-22T13:19:56.275Z",
+  "versions": [
+    "5.0.2",
+    "5.0.3",
+    "5.0.4",
+    "5.0.5",
+    "5.0.6",
+    "6.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "splashscreen",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser",
+    "cplusplus",
+    "csharp",
+    "java",
+    "javascript",
+    "library",
+    "mobile",
+    "nodejs",
+    "objective-c"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-ios-4",
+    "capacitor-android-4"
+  ],
+  "description": "Cordova Splashscreen Plugin",
+  "bugs": "https://github.com/apache/cordova-plugin-splashscreen/issues",
+  "stars": 638,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "quality": 1396,
+  "updated": "2023-03-02T21:02:17Z"
+}

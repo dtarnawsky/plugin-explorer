@@ -1,0 +1,37 @@
+{
+  "name": "@fresha/capacitor-plugin-applepay",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/fresha/capacitor-plugin-applepay.git",
+  "author": "Fresha",
+  "published": "2022-10-10T15:12:15.189Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "4.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "applepay",
+    "capacitor-community",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "capacitorjs"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Apple Pay plugin for Capacitor",
+  "bugs": "https://github.com/fresha/capacitor-plugin-applepay/issues",
+  "stars": 15,
+  "image": "https://avatars.githubusercontent.com/u/108352997?v=4",
+  "quality": 119,
+  "updated": "2023-02-11T14:44:18Z"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@goiarlabs/cordova-base64-to-gallery",
+  "version": "6.0.0-falopa",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/%40goiarlabs/cordova-base64-to-gallery.git",
+  "author": "StefanoMagrassi <stefano.magrassi@gmail.com> (http://thinkwritedone.com)",
+  "published": "2022-04-05T14:53:27.917Z",
+  "versions": [
+    "6.0.0-falopa"
+  ],
+  "keywords": [
+    "image",
+    "base64",
+    "save",
+    "photo library",
+    "gallery",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin to save base64 data as a png image into the device",
+  "bugs": "https://github.com/@goiarlabs/cordova-base64-to-gallery/issues",
+  "quality": null
+}

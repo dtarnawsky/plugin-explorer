@@ -1,0 +1,29 @@
+{
+  "name": "@ionic-enterprise/apple-payment-pass",
+  "version": "1.1.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/ionic-team/apple-wallet-card-provision.git",
+  "author": "Ionic",
+  "published": "2023-03-22T13:19:12.254Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows you to add credit cards to Apple Wallet",
+  "bugs": "https://ionic.zendesk.com/hc/en-us",
+  "quality": null
+}

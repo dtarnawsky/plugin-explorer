@@ -1,0 +1,42 @@
+{
+  "name": "@hmscore/cordova-plugin-hms-location",
+  "version": "6.4.0-300",
+  "success": [
+    "capacitor-ios-3",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/HMS-Core/hms-cordova-plugin.git",
+  "published": "2022-04-29T11:32:08.688Z",
+  "versions": [
+    "4.0.3",
+    "4.0.4-300",
+    "5.0.0-301",
+    "5.1.0-303",
+    "5.1.0-304",
+    "6.3.0-300",
+    "6.4.0-300"
+  ],
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "location",
+    "hms-location",
+    "huawei-location",
+    "hms",
+    "huawei",
+    "cordova-plugin",
+    "push",
+    "push-notifications"
+  ],
+  "fails": [
+    "capacitor-android-3",
+    "capacitor-android-4"
+  ],
+  "description": "Cordova HMS Location Plugin",
+  "bugs": "https://github.com/HMS-Core/hms-cordova-plugin/issues",
+  "stars": 80,
+  "image": "https://avatars.githubusercontent.com/u/64997192?v=4",
+  "quality": 222,
+  "updated": "2023-02-13T20:40:09Z"
+}

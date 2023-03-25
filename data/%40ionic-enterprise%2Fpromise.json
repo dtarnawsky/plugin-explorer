@@ -1,0 +1,24 @@
+{
+  "name": "@ionic-enterprise/promise",
+  "version": "4.2.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/vstirbu/PromisesPlugin.git",
+  "author": "",
+  "published": "2023-03-22T13:19:34.177Z",
+  "versions": [
+    "4.2.2"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "ES6-Promises polyfill for Cordova/PhoneGap",
+  "bugs": "https://github.com/vstirbu/PromisesPlugin/issues",
+  "stars": 24,
+  "image": "https://avatars.githubusercontent.com/u/1288047?v=4",
+  "quality": 143,
+  "updated": "2021-11-16T10:51:12Z"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@houseninja/capacitor-branch",
+  "version": "5.1.0-beta.6",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/houseninjadojo/capacitor-branch.git",
+  "author": "House Ninja Engineering <engineering@houseninja.co>",
+  "published": "2022-11-04T11:20:06.321Z",
+  "versions": [
+    "5.1.0-beta.0",
+    "5.1.0-beta.1",
+    "5.1.0-beta.2",
+    "5.1.0-beta.3",
+    "5.1.0-beta.4",
+    "5.1.0-beta.5",
+    "5.1.0-beta.6"
+  ],
+  "keywords": [
+    "branch.io",
+    "capacitor",
+    "capacitor-plugin",
+    "deep-links",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for Branch.io deep links",
+  "bugs": "https://github.com/houseninjadojo/capacitor-branch/issues",
+  "quality": null
+}
