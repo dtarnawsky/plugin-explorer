@@ -2,7 +2,8 @@
   "name": "@byteowls/capacitor-sms",
   "version": "4.0.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/moberwasserlechner/capacitor-sms.git",
   "author": "Michael Oberwasserlechner",

@@ -2,7 +2,7 @@
   "name": "@byteowls/capacitor-oauth2",
   "version": "4.0.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/moberwasserlechner/capacitor-oauth2.git",
   "author": "Michael Oberwasserlechner",
@@ -52,17 +52,14 @@
     "capacitor-plugin",
     "oauth2",
     "oauth2-client",
-    "social-login",
-    "authentication"
+    "social-login"
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-4"
   ],
   "description": "Capacitor OAuth 2 client plugin",
   "bugs": "https://github.com/moberwasserlechner/capacitor-oauth2/issues",
-  "stars": 173,
-  "image": "https://avatars.githubusercontent.com/u/1049938?v=4",
-  "quality": 406,
-  "updated": "2023-03-07T20:54:24Z"
+  "quality": null
 }

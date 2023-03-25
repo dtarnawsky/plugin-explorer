@@ -30,7 +30,7 @@ export async function inspect(plugin: string, info: TestInfo): Promise<Inspectio
 async function prepareProject(plugin: string, folder: string, result: Inspection): Promise<Failure | undefined> {
     try {
         // Get Latest Plugin version number
-        const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder, true));
+        const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder));
         result.version = v.version;
         result.versions = v.versions;
         result.author = v.author;

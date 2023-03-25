@@ -2,7 +2,8 @@
   "name": "@basecom-gmbh/capacitor-jailbreak-root-detection",
   "version": "1.0.4",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/Phil0xFF/capacitor-jailbreak-root-detection.git",
   "author": "Phil Miletic <p.miletic@basecom.de>",

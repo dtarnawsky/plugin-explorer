@@ -15,13 +15,13 @@ export async function runAll(commands: string[], folder: string): Promise<string
   return result;
 }
 
-export async function run(command: string, folder: string, quiet?: boolean): Promise<string> {
+export async function run(command: string, folder: string, verbose?: boolean): Promise<string> {
   return new Promise((resolve, reject) => {
     let out = '';
     console.log(`${folder}> ${command}`);
     exec(command, runOptions(command, folder), (error: ExecException, stdout: string, stdError: string) => {
       if (stdout) {
-        if (!quiet) {
+        if (verbose) {
           console.log(stdout);
         }
         out += stdout;
