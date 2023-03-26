@@ -9,6 +9,7 @@ The following commands can be run:
 - `npm run inspect-all` - Will run tests against all plugins
 - `npm run inspect-failed` - Will run tests against plugins that have previously failed tests
 - `npm run inspect-new` - Will run test against plugins it has not tested yet
+- `npm run prepare` - Will summarize all plugin json files and prepare a `dist folder to publishing
 
 ## Tests
 When running tests it will use a starter project in a GitHub repo for particular versions of Capacitor or Cordova. These projects are tested:

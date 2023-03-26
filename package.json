@@ -5,7 +5,8 @@
     "inspect": "npx tsc && node out/index.js @admob-plus/capacitor",
     "inspect-all": "npx tsc && node out/index.js all",
     "inspect-failed": "npx tsc && node out/index.js --failed",
-    "inspect-new": "npx tsc && node out/index.js --new"
+    "inspect-new": "npx tsc && node out/index.js --new",
+    "prepare": "npx tsc && node out/index.js --prepare"
   },
   "devDependencies": {
     "@types/node": "^18.15.5",

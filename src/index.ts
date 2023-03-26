@@ -4,6 +4,7 @@ import { clone } from './clone.js';
 import { hasArg } from './utils.js';
 import { filter, FilterType } from './filter.js';
 import { Test, TestInfo } from './test.js';
+import { prepare } from './prepare.js';
 
 const args = process.argv;
 const dep = args[2];
@@ -18,6 +19,8 @@ if (hasArg('all', args)) {
 } else if (hasArg('new', args)) {
     console.log('Inspecting new plugins...');
     go(filter(readPluginList(), FilterType.new));
+} else if (hasArg('prepare', args)) {
+    prepare();
 } else {
     console.log(`Inspecting ${dep}...`);
     go([dep]);
