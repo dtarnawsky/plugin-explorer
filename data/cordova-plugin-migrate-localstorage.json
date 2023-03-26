@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-migrate-localstorage",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/maklesoft/cordova-plugin-migrate-localstorage.git",
+  "author": "Martin Kleinschrodt <martin@maklesoft.com>",
+  "published": "2022-04-27T17:34:41.523Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-ios",
+    "uiwebview",
+    "wkwebview",
+    "localstorage"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Migrate LocalStorage data from UIWebView to WKWebView",
+  "bugs": "https://github.com/maklesoft/cordova-plugin-migrate-localstorage/issues",
+  "stars": 16,
+  "image": "https://avatars.githubusercontent.com/u/1270940?v=4",
+  "quality": 208,
+  "updated": "2020-12-24T14:20:17Z",
+  "downloads": 344
+}

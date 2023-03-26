@@ -1,0 +1,52 @@
+{
+  "name": "cordova-plugin-mediapicker-dmcsdk",
+  "version": "2.4.5",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/DmcSDK/cordova-plugin-mediaPicker.git",
+  "author": "DmcSDK",
+  "published": "2022-04-27T17:34:10.362Z",
+  "versions": [
+    "2.3.7",
+    "2.3.8",
+    "2.3.9",
+    "2.4.0",
+    "2.4.1",
+    "2.4.2",
+    "2.4.3",
+    "2.4.4",
+    "2.4.5"
+  ],
+  "keywords": [
+    "cordova",
+    "imagePicker",
+    "image Picker",
+    "Multiple Image Selection",
+    "video Selection",
+    "gif Selection",
+    "cordova-android",
+    "cordova-ios",
+    "mediaPicker",
+    "videoPicker",
+    "video Picker",
+    "gifPicker",
+    "compress",
+    "fileToBlob",
+    "compress image",
+    "imagepicker",
+    "videopicker"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "android ios mediaPicker support selection of multiple image and video",
+  "bugs": "https://github.com/DmcSDK/cordova-plugin-mediaPicker/issues",
+  "stars": 140,
+  "image": "https://avatars.githubusercontent.com/u/28590359?v=4",
+  "quality": 364,
+  "updated": "2022-04-13T12:24:28Z",
+  "downloads": 164
+}

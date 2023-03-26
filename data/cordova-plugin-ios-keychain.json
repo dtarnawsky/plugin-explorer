@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-ios-keychain",
+  "version": "3.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "author": "",
+  "published": "2022-06-14T00:22:47.877Z",
+  "versions": [
+    "3.0.1"
+  ],
+  "keywords": [
+    "keychain",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows your app access to the iOS KeyChain from Cordova. See: https://developer.apple.com/library/mac/documentation/security/conceptual/keychainServConcepts/iPhoneTasks/iPhoneTasks.html",
+  "downloads": 6494
+}

@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-ios-disableshaketoedit",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/nleclerc/cordova-plugin-ios-disableshaketoedit.git",
+  "author": "Nicolas Leclerc",
+  "published": "2022-06-14T00:22:35.379Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "ios",
+    "input",
+    "gesture",
+    "shaketoedit"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Sets status bar as hidden in ios cordova project.",
+  "bugs": "https://github.com/nleclerc/cordova-plugin-ios-disableshaketoedit/issues",
+  "stars": 21,
+  "image": "https://avatars.githubusercontent.com/u/311197?v=4",
+  "quality": 131,
+  "updated": "2022-12-14T14:58:50Z",
+  "downloads": 2098
+}

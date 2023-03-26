@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-mediascanner",
+  "version": "0.1.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/begrossi/MediaScannerPlugin.git",
+  "author": "Bruno E. Grossi (http://brunogrossi.com.br)",
+  "published": "2022-06-14T00:30:14.724Z",
+  "versions": [
+    "0.1.3"
+  ],
+  "keywords": [
+    "android",
+    "image",
+    "photo library",
+    "gallery",
+    "mediascanner",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "MediaScanner should be called to add a downloaded image to Android Gallery.",
+  "bugs": "https://github.com/begrossi/MediaScannerPlugin/issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/1013498?v=4",
+  "quality": 124,
+  "updated": "2019-06-02T00:00:53Z",
+  "downloads": 279
+}

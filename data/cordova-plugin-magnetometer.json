@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-magnetometer",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/sdesalas/cordova-plugin-magnetometer",
+  "author": "Rameez Raja / Steven de Salas",
+  "published": "2022-06-14T00:28:37.178Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "magnetometer",
+    "ecosystem:cordova",
+    "compass",
+    "device-orientation",
+    "metal-detector",
+    "metal",
+    "detector",
+    "magneto",
+    "meter",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Magnetometer Plugin",
+  "bugs": "https://github.com/sdesalas/cordova-plugin-magnetometer/issues",
+  "quality": null,
+  "downloads": 22
+}

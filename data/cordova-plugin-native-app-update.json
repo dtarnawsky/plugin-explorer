@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-native-app-update",
+  "version": "2.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/kungfu-king-betty/cordova-plugin-native-app-update.git",
+  "author": "Austen Zeh <developerDawg@gmail.com>",
+  "published": "2022-04-27T17:36:22.076Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.4.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "2.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "native",
+    "app update"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A plugin to check the App Store or Google Play Store for iOS and Android respectively.",
+  "bugs": "https://github.com/kungfu-king-betty/cordova-plugin-native-app-update/issues",
+  "quality": null,
+  "downloads": 726
+}

@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-ironsource-sdk",
+  "version": "1.0.8",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "author": "fytoro",
+  "published": "2022-12-16T13:36:30.283Z",
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8"
+  ],
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Iron source sdk for cordova based development",
+  "downloads": 29
+}

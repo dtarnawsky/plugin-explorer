@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-kunder-accountmanager",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/daniel4thsource/cordova-plugin-kunder-accountmanager.git",
+  "author": "Daniel Valenzuela",
+  "published": "2022-06-14T00:26:24.657Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "accountmanager",
+    "android",
+    "plugin",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Account Manager cordova plugin for android and keychain for iOS",
+  "bugs": "https://github.com/daniel4thsource/cordova-plugin-kunder-accountmanager/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/12089333?v=4",
+  "quality": 3,
+  "updated": "2017-09-01T23:22:35Z",
+  "downloads": 5
+}

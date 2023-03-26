@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-ms-adal-is-back-12",
+  "version": "0.10.11",
+  "success": [],
+  "repo": "https://github.com/AndrewIl/azure-activedirectory-library-for-cordova.git",
+  "author": "MSOpenTech",
+  "published": "2022-04-27T17:35:42.245Z",
+  "versions": [
+    "0.10.11"
+  ],
+  "keywords": [
+    "microsoft",
+    "azure",
+    "adal",
+    "activedirectory",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client.",
+  "bugs": "https://github.com/AndrewIl/azure-activedirectory-library-for-cordova/issues",
+  "quality": null,
+  "downloads": 27
+}

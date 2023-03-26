@@ -826,13 +826,10 @@ cordova-plugin-kakao-sdk
 cordova-plugin-keyboard
 cordova-plugin-keyboard-scroll
 cordova-plugin-keychain-touch-id
-cordova-plugin-keychain-touch-id-cat
-cordova-plugin-kofax
 cordova-plugin-kumulos-sdk
 cordova-plugin-kunder-accountmanager
 cordova-plugin-laser-scanner
 cordova-plugin-libvlc
-cordova-plugin-lifecarelock
 cordova-plugin-linsip
 cordova-plugin-listpicker
 cordova-plugin-local-notification
@@ -859,7 +856,6 @@ cordova-plugin-mlkit-barcode-scanner
 cordova-plugin-mobile-ocr
 cordova-plugin-mock-gps-checker
 cordova-plugin-mock-location
-cordova-plugin-mock-location-checker
 cordova-plugin-mparticle
 cordova-plugin-ms-adal
 cordova-plugin-ms-adal-is-back
@@ -869,7 +865,6 @@ cordova-plugin-multidex
 cordova-plugin-multiple-documents-picker
 cordova-plugin-music-controls
 cordova-plugin-music-controls2
-cordova-plugin-myco2barcodescanner
 cordova-plugin-native-app-update
 cordova-plugin-native-keyboard
 cordova-plugin-native-ringtones

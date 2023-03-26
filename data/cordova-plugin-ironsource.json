@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-ironsource",
+  "version": "0.0.5",
+  "success": [],
+  "repo": "https://github.com/Dexus/cordova-plugin-ironSource.git",
+  "author": "Josef \"Dexus\" Fröhle",
+  "published": "2022-06-14T00:23:35.408Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.4",
+    "0.0.5"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Ads support for ironSource ads to Cordova and Phonegap apps",
+  "bugs": "https://github.com/Dexus/cordova-plugin-ironSource/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/87533462?v=4",
+  "quality": 110,
+  "updated": "2021-07-16T14:05:40Z",
+  "downloads": 13
+}

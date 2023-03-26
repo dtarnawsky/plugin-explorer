@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-mock-gps-checker",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "",
+  "author": "Sandata",
+  "published": "2022-04-27T17:35:23.040Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "cordova",
+    "mock",
+    "location",
+    "checker",
+    "mock-location"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Mock Gps Checker Plugin",
+  "downloads": 51
+}

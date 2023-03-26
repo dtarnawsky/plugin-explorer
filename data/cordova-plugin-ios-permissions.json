@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-ios-permissions",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "author": "qin_hc",
+  "published": "2022-04-27T17:29:29.788Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "",
+  "downloads": 99
+}

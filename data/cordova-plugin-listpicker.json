@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-listpicker",
+  "version": "2.2.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/roberthovhannisyan/PhoneGap-Plugin-ListPicker.git",
+  "author": "Robert Hovhannisyan",
+  "published": "2022-06-14T00:27:09.656Z",
+  "versions": [
+    "2.2.1",
+    "2.2.2"
+  ],
+  "keywords": [
+    "phonegap",
+    "android",
+    "ios",
+    "list",
+    "picker",
+    "dialog",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "PhoneGap plugin to display a list picker dialog for Android and iOS.",
+  "bugs": "https://github.com/roberthovhannisyan/PhoneGap-Plugin-ListPicker/issues",
+  "stars": 37,
+  "image": "https://avatars.githubusercontent.com/u/2118842?v=4",
+  "quality": 198,
+  "updated": "2023-03-09T16:51:00Z",
+  "downloads": 217
+}

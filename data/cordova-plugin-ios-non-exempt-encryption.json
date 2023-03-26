@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-ios-non-exempt-encryption",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/pbakondy/cordova-plugin-ios-non-exempt-encryption.git",
+  "author": "Peter Bakondy",
+  "published": "2022-06-14T00:23:05.385Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "ios",
+    "TestFlight",
+    "Export Compliance",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Export Compliance: set ITSAppUsesNonExemptEncryption to false in Info.plist file",
+  "bugs": "https://github.com/pbakondy/cordova-plugin-ios-non-exempt-encryption/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/500697?v=4",
+  "quality": 111,
+  "updated": "2020-02-12T04:59:51Z",
+  "downloads": 923
+}

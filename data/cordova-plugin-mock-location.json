@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-mock-location",
+  "version": "0.0.8",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/ikoshik/cordova-plugin-mock-location.git",
+  "author": "kosh",
+  "published": "2022-06-14T00:31:54.776Z",
+  "versions": [
+    "0.0.8"
+  ],
+  "keywords": [
+    "cordova",
+    "mock",
+    "location",
+    "mock-location"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Mock Location Check Plugin",
+  "bugs": "https://github.com/ikoshik/cordova-plugin-mock-location/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/342033?v=4",
+  "quality": 109,
+  "updated": "2022-12-30T20:44:58Z",
+  "downloads": 13
+}

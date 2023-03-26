@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-linsip",
+  "version": "0.0.1",
+  "success": [],
+  "repo": "https://github.com/nadirhamid/cordova-plugin-linsip.git",
+  "author": "",
+  "published": "2022-04-27T17:31:42.919Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "linsip support using linphone framework",
+  "bugs": "https://github.com/nadirhamid/cordova-plugin-linsip/issues",
+  "quality": null,
+  "downloads": 6
+}

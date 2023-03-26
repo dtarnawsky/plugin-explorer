@@ -1,0 +1,53 @@
+{
+  "name": "cordova-plugin-iroot",
+  "version": "3.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/WuglyakBolgoink/cordova-plugin-iroot.git",
+  "author": "Elderov Ali <info@cyberkatze.de> (https://www.cyberkatze.de)",
+  "published": "2022-06-14T00:24:12.948Z",
+  "versions": [
+    "0.3.0",
+    "0.3.3",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0",
+    "0.6.1",
+    "0.7.0",
+    "0.8.0",
+    "0.8.1",
+    "2.0.1",
+    "2.0.2",
+    "2.1.0",
+    "3.0.0",
+    "3.1.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "jailbreak",
+    "jailbroken",
+    "cydia",
+    "detection",
+    "detector",
+    "root",
+    "rooted",
+    "rootBeer",
+    "android",
+    "ios",
+    "iroot",
+    "plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Jailbreak/Root Detection Plugin for Apache Cordova",
+  "bugs": "https://github.com/WuglyakBolgoink/cordova-plugin-iroot/issues",
+  "quality": null,
+  "downloads": 17181
+}

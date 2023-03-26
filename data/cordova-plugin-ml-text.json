@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-ml-text",
+  "version": "3.1.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/NeutrinosPlatform/cordova-plugin-ml-text.git",
+  "author": "jatahworx",
+  "published": "2022-04-27T17:35:12.840Z",
+  "versions": [
+    "2.0.0",
+    "3.0.0",
+    "3.1.0"
+  ],
+  "keywords": [
+    "cordova",
+    "text",
+    "ocr",
+    "ML Kit",
+    "machine learning",
+    "text recognition",
+    "optical",
+    "character",
+    "recognition",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "mobile ocr"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "cordova plugin for mobile ocr text recognition",
+  "bugs": "https://github.com/NeutrinosPlatform/cordova-plugin-ml-text/issues",
+  "stars": 12,
+  "image": "https://avatars.githubusercontent.com/u/36298190?v=4",
+  "quality": 125,
+  "updated": "2023-02-06T17:24:13Z",
+  "downloads": 465
+}

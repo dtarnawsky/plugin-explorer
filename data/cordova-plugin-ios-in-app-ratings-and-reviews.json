@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-ios-in-app-ratings-and-reviews",
+  "version": "0.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/jay2503/cordova-plugin-ios-in-app-ratings-and-reviews.git",
+  "author": "Jay Mehta <jaym2503@gmail.com>",
+  "published": "2022-06-14T00:22:45.383Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4"
+  ],
+  "keywords": [
+    "cordova",
+    "cordova-ios",
+    "ionic plugin",
+    "ios in app review",
+    "ios reviews and ratings",
+    "ios ratings",
+    "ios reviews plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for iOS In App Ratings And Reviews",
+  "bugs": "https://github.com/jay2503/cordova-plugin-ios-in-app-ratings-and-reviews/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/3516968?v=4",
+  "quality": 112,
+  "updated": "2022-12-08T12:11:19Z",
+  "downloads": 190
+}

@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-keychain-touch-id",
+  "version": "3.2.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git",
+  "author": "S.J.Hoeksma",
+  "published": "2022-06-14T00:25:47.115Z",
+  "versions": [
+    "3.1.0",
+    "3.2.1"
+  ],
+  "keywords": [
+    "TouchID",
+    "Touch ID",
+    "Fingerprint",
+    "Biometric",
+    "Scanner",
+    "KeyChain",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Scan the fingerprint of your user with the TouchID sensor (iPhone 5S, iPhone 6(S), ..) and control a key in the Keychain",
+  "bugs": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id/issues",
+  "stars": 93,
+  "image": "https://avatars.githubusercontent.com/u/5503837?v=4",
+  "quality": 409,
+  "updated": "2022-11-01T02:31:04Z",
+  "downloads": 1757
+}
