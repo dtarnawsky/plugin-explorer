@@ -3,3 +3,5 @@ out
 apps
 .DS_Store
 dist
+# Local Netlify folder
+.netlify

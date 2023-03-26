@@ -6,7 +6,8 @@
     "inspect-all": "npx tsc && node out/index.js all",
     "inspect-failed": "npx tsc && node out/index.js --failed",
     "inspect-new": "npx tsc && node out/index.js --new",
-    "prepare": "npx tsc && node out/index.js --prepare"
+    "prepare": "npx tsc && node out/index.js --prepare",
+    "publish": "npm run prepare && cp data/index.html dist && netlify deploy --dir dist --prod"
   },
   "devDependencies": {
     "@types/node": "^18.15.5",
