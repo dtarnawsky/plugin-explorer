@@ -1,0 +1,31 @@
+{
+  "name": "capacitor-qrscanner",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/enesyalcin/cordova-plugin-qrscanner.git",
+  "author": "Enes Yalcin",
+  "published": "2022-04-12T05:17:17.190Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "QR-Scanner with native camera",
+  "bugs": "https://github.com/enesyalcin/cordova-plugin-qrscanner/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/17004938?v=4",
+  "quality": 3,
+  "updated": "2020-04-22T07:29:46Z",
+  "downloads": 5
+}

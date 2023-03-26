@@ -1,0 +1,31 @@
+{
+  "name": "capacitor-razorpay",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/razorpay/razorpay-cordova.git",
+  "author": "sachin.nautiyal@razorpay.com",
+  "published": "2023-01-27T10:41:23.446Z",
+  "versions": [
+    "1.1.2",
+    "1.2.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin is used for integration related to ionic Capacitor and its latest versions.",
+  "bugs": "https://github.com/razorpay/razorpay-cordova/issues",
+  "stars": 50,
+  "image": "https://avatars.githubusercontent.com/u/7713209?v=4",
+  "quality": 187,
+  "updated": "2022-11-26T07:37:07Z",
+  "downloads": 140
+}

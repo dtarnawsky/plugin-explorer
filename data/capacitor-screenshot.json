@@ -1,0 +1,34 @@
+{
+  "name": "capacitor-screenshot",
+  "version": "4.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/ludufre/capacitor-screenshot.git",
+  "author": "Luan Freitas (ludufre)",
+  "published": "2023-01-08T07:09:37.492Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "4.0.0",
+    "4.1.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "screenshot"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin take screenshot of the app or webpage",
+  "bugs": "https://github.com/ludufre/capacitor-screenshot/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/4112077?v=4",
+  "quality": 110,
+  "updated": "2023-01-22T08:09:02Z",
+  "downloads": 20109
+}

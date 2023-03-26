@@ -1,0 +1,56 @@
+{
+  "name": "capacitor-share-extension",
+  "version": "2.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/calvinckho/capacitor-share-extension.git",
+  "author": "Calvin Ho, Jonathan Date-Chong",
+  "published": "2022-09-22T00:18:07.208Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.0.10",
+    "0.0.11",
+    "0.0.12",
+    "0.0.13",
+    "0.0.14",
+    "0.0.15",
+    "0.0.16",
+    "0.0.17",
+    "0.0.18",
+    "0.0.19",
+    "0.0.20",
+    "0.1.0",
+    "1.0.0",
+    "1.0.1-beta.0",
+    "1.0.1",
+    "1.1.0-beta.0",
+    "1.1.0",
+    "2.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A Capacitor Plugin that provides native capabilities to retrieve media files sent via iOS Share Extension and Android Send Intent events",
+  "bugs": "https://github.com/calvinckho/capacitor-share-extension/issues",
+  "stars": 10,
+  "image": "https://avatars.githubusercontent.com/u/23274587?v=4",
+  "quality": 114,
+  "updated": "2023-03-19T03:34:07Z",
+  "downloads": 504
+}
