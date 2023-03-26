@@ -1,0 +1,28 @@
+{
+  "name": "com.payumoney.sdkui.cordova",
+  "version": "1.2.4",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "author": "PayU Payments Private Limited",
+  "published": "2022-11-07T16:36:46.964Z",
+  "versions": [
+    "1.1.1",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "PayUmoney PNP Plugin",
+  "downloads": 32
+}

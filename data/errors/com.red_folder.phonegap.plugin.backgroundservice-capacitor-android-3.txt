@@ -1,0 +1,552 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarReleaseNote: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:6: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:7: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:8: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:10: error: package android.app does not exist
+        import android.app.ActivityManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:11: error: package android.app.ActivityManager does not exist
+        import android.app.ActivityManager.RunningServiceInfo;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:12: error: package android.content does not exist
+        import android.content.ComponentName;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:13: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:14: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:15: error: package android.os does not exist
+        import android.os.IBinder;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:16: error: package android.os does not exist
+        import android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:17: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:18: error: package android.content does not exist
+        import android.content.ServiceConnection;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:90: error: cannot find symbol
+        private Context mContext;
+        ^
+        symbol:   class Context
+        location: class BackgroundServicePluginLogic
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:102: error: cannot find symbol
+        public BackgroundServicePluginLogic(Context pContext) {
+        ^
+        symbol:   class Context
+        location: class BackgroundServicePluginLogic
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:148: error: cannot find symbol
+        public ExecuteResult execute(String action, JSONArray data) {
+        ^
+        symbol:   class JSONArray
+        location: class BackgroundServicePluginLogic
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:152: error: cannot find symbol
+        public ExecuteResult execute(String action, JSONArray data, IUpdateListener listener, Object[] listenerExtras) {
+        ^
+        symbol:   class JSONArray
+        location: class BackgroundServicePluginLogic
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:830: error: cannot find symbol
+        private JSONObject mData;
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundServicePluginLogic.ExecuteResult
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:841: error: cannot find symbol
+        public JSONObject getData() {
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundServicePluginLogic.ExecuteResult
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:845: error: cannot find symbol
+        public void setData(JSONObject pData) {
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundServicePluginLogic.ExecuteResult
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:866: error: cannot find symbol
+        public ExecuteResult(ExecuteStatus pStatus, JSONObject pData) {
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundServicePluginLogic.ExecuteResult
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:871: error: cannot find symbol
+        public ExecuteResult(ExecuteStatus pStatus, JSONObject pData, boolean pFinished) {
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundServicePluginLogic.ExecuteResult
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:281: error: cannot find symbol
+        private Context mContext;
+        ^
+        symbol:   class Context
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:5: error: package android.os does not exist
+        public interface BackgroundServiceApi extends android.os.IInterface
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:289: error: cannot find symbol
+        private Intent mService = null;
+        ^
+        symbol:   class Intent
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:302: error: cannot find symbol
+        public ServiceDetails(Context context, String serviceName)
+        ^
+        symbol:   class Context
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:378: error: cannot find symbol
+        public ExecuteResult enableTimer(JSONArray data)
+        ^
+        symbol:   class JSONArray
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:441: error: cannot find symbol
+        public ExecuteResult setConfiguration(JSONArray data)
+        ^
+        symbol:   class JSONArray
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:632: error: cannot find symbol
+        private ServiceConnection serviceConnection = new ServiceConnection() {
+        ^
+        symbol:   class ServiceConnection
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:5: error: package android.os does not exist
+        public interface BackgroundServiceListener extends android.os.IInterface
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:23: error: package android.os does not exist
+        public static abstract class Stub extends android.os.Binder implements com.red_folder.phonegap.plugin.backgroundservice.BackgroundServiceListener
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:694: error: cannot find symbol
+        private JSONObject createJSONResult(Boolean success, int errorCode, String errorMessage) {
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:779: error: cannot find symbol
+        private JSONObject getConfiguration()
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePluginLogic.java:793: error: cannot find symbol
+        private JSONObject getLatestResult()
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundServicePluginLogic.ServiceDetails
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:35: error: package android.os does not exist
+        public static com.red_folder.phonegap.plugin.backgroundservice.BackgroundServiceListener asInterface(android.os.IBinder obj)
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:46: error: package android.os does not exist
+        @Override public android.os.IBinder asBinder()
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:50: error: package android.os does not exist
+        @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:50: error: package android.os does not exist
+        @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:50: error: package android.os does not exist
+        @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:155: error: package android.os does not exist
+        public void handleUpdate() throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:156: error: package android.os does not exist
+        public java.lang.String getUniqueID() throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:411: error: package android.os does not exist
+        public java.lang.String getLatestResult() throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:412: error: package android.os does not exist
+        public void addListener(com.red_folder.phonegap.plugin.backgroundservice.BackgroundServiceListener listener) throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:413: error: package android.os does not exist
+        public void removeListener(com.red_folder.phonegap.plugin.backgroundservice.BackgroundServiceListener listener) throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:414: error: package android.os does not exist
+        public boolean isTimerEnabled() throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:415: error: package android.os does not exist
+        public void enableTimer(int milliseconds) throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:416: error: package android.os does not exist
+        public void disableTimer() throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:417: error: package android.os does not exist
+        public java.lang.String getConfiguration() throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:418: error: package android.os does not exist
+        public void setConfiguration(java.lang.String configuration) throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:419: error: package android.os does not exist
+        public int getTimerMilliseconds() throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:420: error: package android.os does not exist
+        public void run() throws android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePlugin.java:5: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePlugin.java:7: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServicePlugin.java:40: error: cannot find symbol
+        public boolean execute(final String action, final JSONArray data, final CallbackContext callback) {
+        ^
+        symbol:   class JSONArray
+        location: class BackgroundServicePlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BootReceiver.java:3: error: package android.content does not exist
+        import android.content.BroadcastReceiver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BootReceiver.java:4: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BootReceiver.java:5: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BootReceiver.java:7: error: cannot find symbol
+        public class BootReceiver extends BroadcastReceiver {
+        ^
+        symbol: class BroadcastReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BootReceiver.java:15: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol:   class Context
+        location: class BootReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BootReceiver.java:15: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol:   class Intent
+        location: class BootReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/ReflectionHelper.java:3: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:11: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:13: error: package android.app does not exist
+        import android.app.Service;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:15: error: package android.content does not exist
+        import android.content.SharedPreferences;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:16: error: package android.os does not exist
+        import android.os.IBinder;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:17: error: package android.os does not exist
+        import android.os.RemoteException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:18: error: package android.preference does not exist
+        import android.preference.PreferenceManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:19: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:23: error: cannot find symbol
+        public abstract class BackgroundService extends Service {
+        ^
+        symbol: class Service
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:41: error: cannot find symbol
+        private JSONObject mLatestResult = null;
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:85: error: cannot find symbol
+        protected JSONObject getLatestResult() {
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:91: error: cannot find symbol
+        protected void setLatestResult(JSONObject value) {
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:116: error: cannot find symbol
+        public IBinder onBind(Intent intent) {
+        ^
+        symbol:   class Intent
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:116: error: cannot find symbol
+        public IBinder onBind(Intent intent) {
+        ^
+        symbol:   class IBinder
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:122: error: cannot find symbol
+        public int onStartCommand(Intent intent, int flags, int startId) {
+        ^
+        symbol:   class Intent
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:50: error: package android.os does not exist
+        public static abstract class Stub extends android.os.Binder implements com.red_folder.phonegap.plugin.backgroundservice.BackgroundServiceApi
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:412: error: cannot find symbol
+        protected abstract JSONObject initialiseLatestResult();
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:413: error: cannot find symbol
+        protected abstract JSONObject doWork();
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:414: error: cannot find symbol
+        protected abstract JSONObject getConfig();
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/BackgroundService.java:415: error: cannot find symbol
+        protected abstract void setConfig(JSONObject config);
+        ^
+        symbol:   class JSONObject
+        location: class BackgroundService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:62: error: package android.os does not exist
+        public static com.red_folder.phonegap.plugin.backgroundservice.BackgroundServiceApi asInterface(android.os.IBinder obj)
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:73: error: package android.os does not exist
+        @Override public android.os.IBinder asBinder()
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:77: error: package android.os does not exist
+        @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:77: error: package android.os does not exist
+        @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceApi.java:77: error: package android.os does not exist
+        @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:3: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:4: error: package android.content does not exist
+        import android.content.SharedPreferences;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:5: error: package android.preference does not exist
+        import android.preference.PreferenceManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:21: error: cannot find symbol
+        protected static String[] getBootServices(Context context) {
+        ^
+        symbol:   class Context
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:30: error: cannot find symbol
+        protected static void addBootService(Context context, String serviceName) {
+        ^
+        symbol:   class Context
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:45: error: cannot find symbol
+        protected static void removeBootService(Context context, String serviceName) {
+        ^
+        symbol:   class Context
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:63: error: cannot find symbol
+        protected static boolean isBootService(Context context, String serviceName) {
+        ^
+        symbol:   class Context
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:82: error: cannot find symbol
+        private static void saveBootServices(Context context, String serviceList) {
+        ^
+        symbol:   class Context
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:88: error: cannot find symbol
+        private static String getBootServicesString(Context context) {
+        ^
+        symbol:   class Context
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:94: error: cannot find symbol
+        private static SharedPreferences getSharedPreferences(Context context) {
+        ^
+        symbol:   class Context
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:94: error: cannot find symbol
+        private static SharedPreferences getSharedPreferences(Context context) {
+        ^
+        symbol:   class SharedPreferences
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:98: error: cannot find symbol
+        private static SharedPreferences.Editor getEditor(Context context) {
+        ^
+        symbol:   class Context
+        location: class PropertyHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/red_folder/phonegap/plugin/backgroundservice/PropertyHelper.java:98: error: package SharedPreferences does not exist
+        private static SharedPreferences.Editor getEditor(Context context) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:10: error: package android.os does not exist
+        @Override public void handleUpdate() throws android.os.RemoteException
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:13: error: package android.os does not exist
+        @Override public java.lang.String getUniqueID() throws android.os.RemoteException
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/red_folder/phonegap/plugin/backgroundservice/BackgroundServiceListener.java:18: error: package android.os does not exist
+        public android.os.IBinder asBinder() {
+        ^
+        100 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 5s
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        83 actionable tasks: 83 executed
+        

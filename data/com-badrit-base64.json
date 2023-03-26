@@ -1,0 +1,30 @@
+{
+  "name": "com-badrit-base64",
+  "version": "0.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/hazemhagrass/phonegap-base64",
+  "published": "2022-06-13T06:32:34.825Z",
+  "versions": [
+    "0.2.0"
+  ],
+  "keywords": [
+    "cordova",
+    "base64",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Base64 Plugin",
+  "bugs": "https://github.com/hazemhagrass/phonegap-base64/issues",
+  "stars": 20,
+  "image": "https://avatars.githubusercontent.com/u/3625423?v=4",
+  "quality": 198,
+  "updated": "2022-08-21T19:04:51Z",
+  "downloads": 6248
+}

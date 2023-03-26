@@ -1,0 +1,48 @@
+{
+  "name": "cordova-apple-wallet",
+  "version": "3.4.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/tomavic/cordova-apple-wallet.git",
+  "author": "TOoma | Designes",
+  "published": "2022-04-27T17:00:40.683Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "3.0.0",
+    "3.0.1",
+    "3.1.0",
+    "3.1.1",
+    "3.1.2",
+    "3.2.0",
+    "3.3.0",
+    "3.4.0",
+    "3.4.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "apple",
+    "apple-wallet",
+    "cordova",
+    "cordova-plugin",
+    "ionic",
+    "ionic3",
+    "ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows you to add passes and credit cards to Apple Wallet",
+  "bugs": "https://github.com/tomavic/cordova-apple-wallet/issues",
+  "stars": 30,
+  "image": "https://avatars.githubusercontent.com/u/17650005?v=4",
+  "quality": 181,
+  "updated": "2023-01-30T00:26:47Z",
+  "downloads": 8262
+}

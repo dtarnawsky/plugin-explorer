@@ -1,0 +1,34 @@
+{
+  "name": "cordova-androidx-build",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/wf9a5m75/cordova-androidx-build.git",
+  "author": "Masashi Katsumata",
+  "published": "2022-04-27T17:00:31.437Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "keywords": [
+    "cordova",
+    "androidx"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This plugin helps to build your app with AndroidX library. ",
+  "bugs": "https://github.com/wf9a5m75/cordova-androidx-build/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/167831?v=4",
+  "quality": 115,
+  "updated": "2021-03-04T19:53:42Z",
+  "downloads": 5676
+}

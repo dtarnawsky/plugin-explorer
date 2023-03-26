@@ -1,0 +1,33 @@
+{
+  "name": "cordova-annotated-plugin-android",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/appfeel/cordova-annotated-plugin-android.git",
+  "author": "Miquel Martin <info@appfeel.com>",
+  "published": "2022-04-27T17:00:32.469Z",
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Enhanced CordovaPlugin class",
+  "bugs": "https://github.com/appfeel/cordova-annotated-plugin-android/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
+  "quality": 100,
+  "updated": "2020-06-29T17:58:23Z",
+  "downloads": 7213
+}

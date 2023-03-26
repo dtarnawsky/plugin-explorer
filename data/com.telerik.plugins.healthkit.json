@@ -1,0 +1,41 @@
+{
+  "name": "com.telerik.plugins.healthkit",
+  "version": "0.7.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "author": "Telerik / Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
+  "published": "2022-06-13T06:33:32.035Z",
+  "versions": [
+    "0.3.8",
+    "0.3.10",
+    "0.4.1",
+    "0.4.2",
+    "0.5.0",
+    "0.5.1",
+    "0.5.3",
+    "0.5.4",
+    "0.5.5",
+    "0.5.6",
+    "0.6.0",
+    "0.7.0"
+  ],
+  "keywords": [
+    "Health",
+    "HealthKit",
+    "Fit",
+    "Fitness",
+    "Birthdate",
+    "Gender",
+    "Height",
+    "Weight",
+    "Workout"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Interact with the iOS HealthKit SDK.",
+  "downloads": 612
+}

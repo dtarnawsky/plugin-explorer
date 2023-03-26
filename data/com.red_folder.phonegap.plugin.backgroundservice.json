@@ -1,0 +1,29 @@
+{
+  "name": "com.red_folder.phonegap.plugin.backgroundservice",
+  "version": "2.0.0",
+  "success": [
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/Red-Folder/bgs-core.git",
+  "author": "Red-Folder",
+  "published": "2022-06-13T06:33:25.312Z",
+  "versions": [
+    "2.0.0"
+  ],
+  "keywords": [
+    "background",
+    "cordova"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Framework code that allows the development and operation of an Android Background Service.",
+  "bugs": "https://github.com/Red-Folder/bgs-core/issues",
+  "stars": 238,
+  "image": "https://avatars.githubusercontent.com/u/2298738?v=4",
+  "quality": 477,
+  "updated": "2023-03-17T23:58:19Z",
+  "downloads": 8
+}
