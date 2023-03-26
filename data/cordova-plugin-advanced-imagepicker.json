@@ -1,0 +1,57 @@
+{
+  "name": "cordova-plugin-advanced-imagepicker",
+  "version": "1.6.2",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/EinfachHans/cordova-plugin-advanced-imagepicker.git",
+  "author": "EinfachHans",
+  "published": "2022-08-16T15:27:53.104Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.2.0",
+    "1.3.0",
+    "1.3.1",
+    "1.3.2",
+    "1.4.0",
+    "1.5.0",
+    "1.5.1",
+    "1.5.2",
+    "1.5.3",
+    "1.5.4",
+    "1.5.5",
+    "1.6.0",
+    "1.6.1",
+    "1.6.2"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "camera",
+    "advanced",
+    "image",
+    "picker",
+    "imagepicker",
+    "multiple",
+    "many",
+    "video",
+    "file",
+    "chooser",
+    "android",
+    "ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Plugin for an advanced (multiple) ImagePicker",
+  "bugs": "https://github.com/EinfachHans/cordova-plugin-advanced-imagepicker/issues",
+  "stars": 23,
+  "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
+  "quality": 158,
+  "updated": "2022-10-28T16:25:16Z",
+  "downloads": 723
+}

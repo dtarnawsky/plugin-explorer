@@ -1,0 +1,470 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-app:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:mergeReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:5: error: package android.support.annotation does not exist
+        import android.support.annotation.NonNull;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:8: error: package com.google.ads.mediation.admob does not exist
+        import com.google.ads.mediation.admob.AdMobAdapter;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:9: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.AdRequest;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:10: error: package com.google.android.gms.common does not exist
+        import com.google.android.gms.common.ConnectionResult;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:11: error: package com.google.android.gms.common does not exist
+        import com.google.android.gms.common.GoogleApiAvailability;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:6: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.AdSize;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerExecutor.java:9: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.AdView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AbstractExecutor.java:3: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.AdRequest;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialExecutor.java:5: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.InterstitialAd;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:6: error: package com.google.ads.mediation.admob does not exist
+        import com.google.ads.mediation.admob.AdMobAdapter;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:7: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.AdRequest;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:8: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.MobileAds;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:9: error: package com.google.android.gms.ads.reward does not exist
+        import com.google.android.gms.ads.reward.RewardedVideoAd;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:151: error: cannot find symbol
+        public AdRequest buildAdRequest() {
+        ^
+        symbol:   class AdRequest
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:23: error: cannot find symbol
+        private RewardedVideoAd rewardedVideoAd;
+        ^
+        symbol:   class RewardedVideoAd
+        location: class RewardVideoExecutor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialExecutor.java:20: error: cannot find symbol
+        private InterstitialAd interstitialAd;
+        ^
+        symbol:   class InterstitialAd
+        location: class InterstitialExecutor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerExecutor.java:26: error: cannot find symbol
+        private AdView adView;
+        ^
+        symbol:   class AdView
+        location: class BannerExecutor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:61: error: cannot find symbol
+        public AdSize adSize = AdSize.SMART_BANNER;
+        ^
+        symbol:   class AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:190: error: cannot find symbol
+        private static AdSize adSizeFromString(String size) {
+        ^
+        symbol:   class AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialListener.java:5: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.AdListener;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialListener.java:12: error: cannot find symbol
+        class InterstitialListener extends AdListener {
+        ^
+        symbol: class AdListener
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:5: error: package com.google.android.gms.ads.reward does not exist
+        import com.google.android.gms.ads.reward.RewardItem;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:6: error: package com.google.android.gms.ads.reward does not exist
+        import com.google.android.gms.ads.reward.RewardedVideoAdListener;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:13: error: cannot find symbol
+        class RewardVideoListener implements RewardedVideoAdListener {
+        ^
+        symbol: class RewardedVideoAdListener
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:78: error: cannot find symbol
+        public void onRewarded(RewardItem reward) {
+        ^
+        symbol:   class RewardItem
+        location: class RewardVideoListener
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerListener.java:5: error: package com.google.android.gms.ads does not exist
+        import com.google.android.gms.ads.AdListener;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerListener.java:12: error: cannot find symbol
+        class BannerListener extends AdListener {
+        ^
+        symbol: class AdListener
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:243: error: cannot find symbol
+        @NonNull
+        ^
+        symbol:   class NonNull
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:53: error: cannot find symbol
+        isGpsAvailable = (GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(cordova.getActivity()) == ConnectionResult.SUCCESS);
+        ^
+        symbol:   variable GoogleApiAvailability
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:53: error: cannot find symbol
+        isGpsAvailable = (GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(cordova.getActivity()) == ConnectionResult.SUCCESS);
+        ^
+        symbol:   variable ConnectionResult
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:152: error: package AdRequest does not exist
+        AdRequest.Builder builder = new AdRequest.Builder();
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:152: error: package AdRequest does not exist
+        AdRequest.Builder builder = new AdRequest.Builder();
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:154: error: cannot find symbol
+        builder = builder.addTestDevice(AdRequest.DEVICE_ID_EMULATOR).addTestDevice(getDeviceId());
+        ^
+        symbol:   variable AdRequest
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:177: error: cannot find symbol
+        builder = builder.addNetworkExtrasBundle(AdMobAdapter.class, bundle);
+        ^
+        symbol:   class AdMobAdapter
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:181: error: cannot find symbol
+        builder.setGender(AdRequest.GENDER_MALE);
+        ^
+        symbol:   variable AdRequest
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:183: error: cannot find symbol
+        builder.setGender(AdRequest.GENDER_FEMALE);
+        ^
+        symbol:   variable AdRequest
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:185: error: cannot find symbol
+        builder.setGender(AdRequest.GENDER_UNKNOWN);
+        ^
+        symbol:   variable AdRequest
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:220: error: cannot find symbol
+        isGpsAvailable = (GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(cordova.getActivity()) == ConnectionResult.SUCCESS);
+        ^
+        symbol:   variable GoogleApiAvailability
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMob.java:220: error: cannot find symbol
+        isGpsAvailable = (GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(cordova.getActivity()) == ConnectionResult.SUCCESS);
+        ^
+        symbol:   variable ConnectionResult
+        location: class AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:61: error: cannot find symbol
+        public AdSize adSize = AdSize.SMART_BANNER;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:192: error: cannot find symbol
+        return AdSize.BANNER;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:194: error: cannot find symbol
+        return AdSize.FULL_BANNER;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:196: error: cannot find symbol
+        return AdSize.LARGE_BANNER;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:198: error: cannot find symbol
+        return AdSize.LEADERBOARD;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:200: error: cannot find symbol
+        return AdSize.MEDIUM_RECTANGLE;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:202: error: cannot find symbol
+        return AdSize.WIDE_SKYSCRAPER;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:204: error: cannot find symbol
+        return AdSize.SMART_BANNER;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:206: error: cannot find symbol
+        return AdSize.FLUID;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:208: error: cannot find symbol
+        return AdSize.SEARCH;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:210: error: cannot find symbol
+        return AdSize.FULL_BANNER;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:212: error: cannot find symbol
+        return AdSize.MEDIUM_RECTANGLE;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AdMobConfig.java:214: error: cannot find symbol
+        return AdSize.LEADERBOARD;
+        ^
+        symbol:   variable AdSize
+        location: class AdMobConfig
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AbstractExecutor.java:30: error: cannot find symbol
+        case AdRequest.ERROR_CODE_INTERNAL_ERROR:
+        ^
+        symbol:   variable AdRequest
+        location: class AbstractExecutor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AbstractExecutor.java:33: error: cannot find symbol
+        case AdRequest.ERROR_CODE_INVALID_REQUEST:
+        ^
+        symbol:   variable AdRequest
+        location: class AbstractExecutor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AbstractExecutor.java:36: error: cannot find symbol
+        case AdRequest.ERROR_CODE_NETWORK_ERROR:
+        ^
+        symbol:   variable AdRequest
+        location: class AbstractExecutor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/AbstractExecutor.java:39: error: cannot find symbol
+        case AdRequest.ERROR_CODE_NO_FILL:
+        ^
+        symbol:   variable AdRequest
+        location: class AbstractExecutor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerExecutor.java:70: error: cannot find symbol
+        adView = new AdView(cordova.getActivity());
+        ^
+        symbol: class AdView
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialExecutor.java:44: error: cannot find symbol
+        interstitialAd = new InterstitialAd(cordova.getActivity());
+        ^
+        symbol: class InterstitialAd
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialExecutor.java:80: error: cannot find symbol
+        interstitialAd = new InterstitialAd(cordova.getActivity());
+        ^
+        symbol: class InterstitialAd
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:47: error: cannot find symbol
+        rewardedVideoAd = MobileAds.getRewardedVideoAdInstance(cordova.getActivity());
+        ^
+        symbol: variable MobileAds
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:56: error: cannot find symbol
+        AdRequest adRequest = new AdRequest.Builder()
+        ^
+        symbol: class AdRequest
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:57: error: cannot find symbol
+        .addNetworkExtrasBundle(AdMobAdapter.class, extras)
+        ^
+        symbol: class AdMobAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:56: error: package AdRequest does not exist
+        AdRequest adRequest = new AdRequest.Builder()
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:86: error: cannot find symbol
+        if (rewardedVideoAd instanceof RewardedVideoAd) {
+        ^
+        symbol: class RewardedVideoAd
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoExecutor.java:87: error: cannot find symbol
+        RewardedVideoAd rvad = rewardedVideoAd;
+        ^
+        symbol: class RewardedVideoAd
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialListener.java:19: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialListener.java:33: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialListener.java:45: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialListener.java:56: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/interstitial/InterstitialListener.java:62: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:20: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:37: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:48: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:61: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:66: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:71: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/rewardvideo/RewardVideoListener.java:77: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerListener.java:20: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerListener.java:34: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerListener.java:46: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerListener.java:56: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/name/ratson/cordova/admob/banner/BannerListener.java:62: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        82 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 4s
+        74 actionable tasks: 74 executed
+        

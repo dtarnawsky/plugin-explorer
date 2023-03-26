@@ -1,0 +1,38 @@
+{
+  "name": "cordova-ios-plugin-userdefaults",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/MattiaMalonni/cordova-ios-plugin-userdefaults.git",
+  "author": "Mattia Malonni <mattia.malonni@gmail.com>",
+  "published": "2022-04-27T17:04:57.138Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "plugin",
+    "cordova-ios",
+    "ios",
+    "userdefaults",
+    "app groups",
+    "app-groups",
+    "cordova-ios-plugin",
+    "cordova-plugin",
+    "nsuserdefaults"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin is used to save and load data to the app groups. It is used to share data between App and Share Extension.",
+  "bugs": "https://github.com/MattiaMalonni/cordova-ios-plugin-userdefaults/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/237847?v=4",
+  "quality": 102,
+  "updated": "2020-12-03T13:04:08Z",
+  "downloads": 15
+}

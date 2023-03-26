@@ -1,0 +1,36 @@
+{
+  "name": "cordova-nb-honeywell-scanner",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/ACaravaca/cordova-nb-honeywell-scanner.git",
+  "author": "angel.netberry@gmail.com",
+  "published": "2022-04-27T17:06:19.569Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "honeywell",
+    "aidc",
+    "scanner",
+    "plugin",
+    "com.honeywell.aidc",
+    "sdk"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Correction of neo9/cordova-honeywell-scanner plugin to use EAN8, EAN13...",
+  "bugs": "https://github.com/ACaravaca/cordova-nb-honeywell-scanner/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/48518829?v=4",
+  "quality": 100,
+  "updated": "2019-12-26T07:28:36Z",
+  "downloads": 321
+}

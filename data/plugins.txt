@@ -512,13 +512,10 @@ cordova-file-transfer
 cordova-honeywell-plugin
 cordova-honeywell-scanner-simplified
 cordova-hot-code-push-plugin
-cordova-imageResize
 cordova-instagram-plugin
 cordova-install-referrer-api
-cordova-ios-biometric-state
 cordova-ios-plugin-no-export-compliance
 cordova-ios-plugin-userdefaults
-cordova-khenshin
 cordova-launch-review
 cordova-libgoogleadmobads
 cordova-moengage-core
@@ -536,8 +533,6 @@ cordova-plugin-actionsheet
 cordova-plugin-add-swift-support
 cordova-plugin-admob-free
 cordova-plugin-admobpro
-cordova-plugin-adobe-cloud-platform
-cordova-plugin-adobe-mobile-services
 cordova-plugin-advanced-background-mode
 cordova-plugin-advanced-geolocation
 cordova-plugin-advanced-http

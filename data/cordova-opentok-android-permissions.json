@@ -1,0 +1,43 @@
+{
+  "name": "cordova-opentok-android-permissions",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/patwaswapnil/cordova-opentok-android-permissions.git",
+  "author": "Swapnil Patwa",
+  "published": "2022-06-13T23:40:23.185Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "Opentok",
+    "permissions",
+    "opentok",
+    "openSSL",
+    "videochat",
+    "android",
+    "Camera",
+    "android",
+    "Audio",
+    "android",
+    "cordova",
+    "media",
+    "android",
+    "camera",
+    "audio"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This cordova plugin invokes permission for all the hardwares which require for a video chat",
+  "bugs": "https://github.com/patwaswapnil/cordova-opentok-android-permissions/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/12543693?v=4",
+  "quality": 100,
+  "updated": "2016-04-23T16:11:25Z",
+  "downloads": 693
+}

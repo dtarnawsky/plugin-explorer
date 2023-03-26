@@ -1,0 +1,44 @@
+{
+  "name": "cordova-plugin-actionsheet",
+  "version": "2.3.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/EddyVerbruggen/cordova-plugin-actionsheet.git",
+  "author": "Eddy Verbruggen - @EddyVerbruggen",
+  "published": "2022-06-13T23:42:04.360Z",
+  "versions": [
+    "2.0.1",
+    "2.2.0",
+    "2.2.1",
+    "2.2.2",
+    "2.3.1",
+    "2.3.3"
+  ],
+  "keywords": [
+    "ActionSheet",
+    "UIActionSheet",
+    "AlertDialog",
+    "Dialog",
+    "List",
+    "Picker",
+    "Popup",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Show a sheet of options the user can choose from.",
+  "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-actionsheet/issues",
+  "stars": 209,
+  "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
+  "quality": 407,
+  "updated": "2023-03-06T22:10:30Z",
+  "downloads": 49392
+}

@@ -1,0 +1,42 @@
+{
+  "name": "cordova-instagram-plugin",
+  "version": "0.6.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/vstirbu/InstagramPlugin.git",
+  "author": "Vlad Stirbu",
+  "published": "2022-06-13T23:36:46.617Z",
+  "versions": [
+    "0.4.1",
+    "0.5.0",
+    "0.5.1",
+    "0.5.2",
+    "0.5.3",
+    "0.5.4",
+    "0.5.5",
+    "0.5.6",
+    "0.5.7",
+    "0.5.8",
+    "0.6.0",
+    "0.6.1",
+    "0.6.2"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Share the content of a canvas element or a dataUrl encoded image using the Instagram application for iOS and Android.",
+  "bugs": "https://github.com/vstirbu/InstagramPlugin/issues",
+  "stars": 119,
+  "image": "https://avatars.githubusercontent.com/u/1288047?v=4",
+  "quality": 312,
+  "updated": "2022-09-01T18:21:16Z",
+  "downloads": 986
+}

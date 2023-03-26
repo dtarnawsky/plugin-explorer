@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-advanced-background-mode",
+  "version": "1.1.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/EinfachHans/cordova-plugin-advanced-background-mode.git",
+  "author": "EinfachHans",
+  "published": "2022-04-27T17:08:26.087Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "keywords": [
+    "appplant",
+    "background",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Prevent apps from going to sleep in background.",
+  "bugs": "https://github.com/EinfachHans/cordova-plugin-advanced-background-mode/issues",
+  "stars": 14,
+  "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
+  "quality": 129,
+  "updated": "2023-03-25T23:19:22Z",
+  "downloads": 160
+}

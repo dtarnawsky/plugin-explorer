@@ -1,0 +1,46 @@
+{
+  "name": "cordova-launch-review",
+  "version": "4.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/dpa99c/cordova-launch-review.git",
+  "author": "Dave Alden",
+  "published": "2022-06-13T23:38:12.067Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "3.0.0",
+    "3.1.0",
+    "3.1.1",
+    "4.0.0",
+    "4.0.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "phonegap",
+    "ios",
+    "android",
+    "review",
+    "rating",
+    "app store"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova/Phonegap plugin for iOS and Android to assist in leaving user reviews/ratings in the App Stores.",
+  "bugs": "https://github.com/dpa99c/cordova-launch-review/issues",
+  "stars": 70,
+  "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
+  "quality": 192,
+  "updated": "2022-12-11T03:56:25Z",
+  "downloads": 15018
+}

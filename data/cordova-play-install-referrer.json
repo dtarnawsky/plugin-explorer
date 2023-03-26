@@ -1,0 +1,24 @@
+{
+  "name": "cordova-play-install-referrer",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "published": "2022-04-27T17:06:58.070Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "play",
+    "install",
+    "referrer"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Play Install Referrer wrapper for Cordova",
+  "downloads": 13
+}
