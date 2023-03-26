@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-epson-epos2",
+  "version": "1.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/towerism/cordova-plugin-epson-epos2.git",
+  "published": "2022-04-27T17:20:05.169Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "cordova",
+    "apache",
+    "ecosystem:cordova",
+    "cordova:platform",
+    "epos2",
+    "epson",
+    "printer"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Plugin integrating the Epson ePOS2 SDK for iOS and Android",
+  "bugs": "https://github.com/towerism/cordova-plugin-epson-epos2/issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/2057426?v=4",
+  "quality": 118,
+  "updated": "2022-04-01T08:23:58Z",
+  "downloads": 20
+}

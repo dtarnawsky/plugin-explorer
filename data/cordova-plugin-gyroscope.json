@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-gyroscope",
+  "version": "0.1.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/NeoLSN/cordova-plugin-gyroscope.git",
+  "author": "Jason Yang",
+  "published": "2022-06-14T00:17:34.322Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Device Gyroscope Plugin",
+  "bugs": "https://github.com/NeoLSN/cordova-plugin-gyroscope/issues",
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/5782106?v=4",
+  "quality": 127,
+  "updated": "2020-06-22T10:10:05Z",
+  "downloads": 158
+}

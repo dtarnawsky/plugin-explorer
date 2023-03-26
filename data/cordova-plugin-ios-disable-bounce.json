@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-ios-disable-bounce",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/clemdesign/cordova-plugin-ios-disable-bounce.git",
+  "author": "Apache Software Foundation",
+  "published": "2022-04-27T17:29:12.263Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "capacitor"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Plugin to disable UIScrollView bounce on ios",
+  "bugs": "https://github.com/clemdesign/cordova-plugin-ios-disable-bounce/issues",
+  "stars": 8,
+  "image": "https://avatars.githubusercontent.com/u/29148935?v=4",
+  "quality": 114,
+  "updated": "2022-10-26T12:00:33Z",
+  "downloads": 1103
+}

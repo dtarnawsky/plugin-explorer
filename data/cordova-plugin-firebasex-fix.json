@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-firebasex-fix",
+  "version": "15.0.0",
+  "success": [],
+  "repo": "https://github.com/dpa99c/cordova-plugin-firebase.git",
+  "author": "Dave Alden",
+  "published": "2022-12-19T17:27:10.800Z",
+  "versions": [
+    "14.0.0",
+    "15.0.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "firebase",
+    "push",
+    "notifications",
+    "phone auth"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for Google Firebase",
+  "bugs": "https://github.com/dpa99c/cordova-plugin-firebase/issues",
+  "stars": 556,
+  "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
+  "quality": 1071,
+  "updated": "2023-03-22T17:01:54Z",
+  "downloads": 23
+}

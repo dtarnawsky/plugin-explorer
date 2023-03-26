@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-file-opener2-withoutapk",
+  "version": "1.0.3",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/mariosteinbacher/cordova-plugin-file-opener2-withoutapk.git",
+  "author": "mario@i-gap.at",
+  "published": "2022-07-21T13:48:41.061Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-electron"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A File Opener Plugin for Cordova without APK (REQUEST_INSTALL_PACKAGES)",
+  "bugs": "https://github.com/mariosteinbacher/cordova-plugin-file-opener2-withoutapk/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/2051491?v=4",
+  "quality": 0,
+  "updated": "2022-07-21T13:08:25Z",
+  "downloads": 764
+}

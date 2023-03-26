@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-ffmpeg",
+  "version": "2.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/MaximBelov/cordova-plugin-ffmpeg.git",
+  "author": "Marin Bivol",
+  "published": "2022-10-21T07:37:48.067Z",
+  "versions": [
+    "1.1.0",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "plugin",
+    "ffmpeg",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova FFMPEG plugin with ffmpeg kit",
+  "bugs": "https://github.com/MaximBelov/cordova-plugin-ffmpeg/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
+  "quality": 0,
+  "updated": "2023-01-31T11:10:17Z",
+  "downloads": 317
+}

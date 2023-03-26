@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-filechooser",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/ihadeed/cordova-filechooser.git",
+  "author": "",
+  "published": "2022-06-14T00:11:26.680Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.2.0"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova FileChooser Plugin",
+  "bugs": "https://github.com/ihadeed/cordova-filechooser/issues",
+  "stars": 14,
+  "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
+  "quality": 74,
+  "updated": "2022-10-14T11:47:29Z",
+  "downloads": 7015
+}

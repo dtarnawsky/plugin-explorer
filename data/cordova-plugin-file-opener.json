@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-file-opener",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/wmjalak/cordova-plugin-file-opener.git",
+  "author": "wmjalak <wmjalak@gmail.com>",
+  "published": "2022-06-14T00:11:04.174Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows you to open files in Android. Plugin is especially made to handle application package (.apk) installation process by providing functionality for opening the application after the installation has finished.",
+  "bugs": "https://github.com/wmjalak/cordova-plugin-file-opener/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/1861972?v=4",
+  "quality": 103,
+  "updated": "2017-10-31T21:15:43Z",
+  "downloads": 352
+}

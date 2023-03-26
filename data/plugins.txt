@@ -706,7 +706,6 @@ cordova-plugin-enable-cleartext-traffic
 cordova-plugin-enable-multidex
 cordova-plugin-epson-epos2
 cordova-plugin-epson-tm
-cordova-plugin-esc-pos-apos
 cordova-plugin-esptouch
 cordova-plugin-eszip
 cordova-plugin-exclude-files
@@ -723,7 +722,6 @@ cordova-plugin-fbsdk
 cordova-plugin-fcm
 cordova-plugin-fcm-with-dependecy-updated
 cordova-plugin-fcm-with-dependecy-updated-12
-cordova-plugin-fetch
 cordova-plugin-ffmpeg
 cordova-plugin-file
 cordova-plugin-file-opener
@@ -763,8 +761,6 @@ cordova-plugin-gephenom-socket-tcp
 cordova-plugin-globalization
 cordova-plugin-google-analytics
 cordova-plugin-googlemaps
-cordova-plugin-googlemaps-sdk
-cordova-plugin-googlepaybt
 cordova-plugin-googleplus
 cordova-plugin-gpsmockchecker
 cordova-plugin-gyroscope
@@ -773,13 +769,11 @@ cordova-plugin-headercolor
 cordova-plugin-health
 cordova-plugin-hms-analytics
 cordova-plugin-honeywell-barcode-scanner
-cordova-plugin-honeywellbarcodescanner
 cordova-plugin-hotspot
 cordova-plugin-http
 cordova-plugin-http2
 cordova-plugin-httpd
 cordova-plugin-ibeacon
-cordova-plugin-ibeacon-scanner
 cordova-plugin-idfa
 cordova-plugin-idfa-ka
 cordova-plugin-ignore-lint-translation
@@ -793,7 +787,6 @@ cordova-plugin-inapppurchase-2
 cordova-plugin-infineasdk
 cordova-plugin-insider
 cordova-plugin-insomnia
-cordova-plugin-instagram-stories
 cordova-plugin-intent
 cordova-plugin-intercom
 cordova-plugin-ionic

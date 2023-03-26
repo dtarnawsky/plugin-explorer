@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-http2",
+  "version": "1.1.1",
+  "success": [],
+  "repo": "https://github.com/sneas/cordova-HTTP2.git",
+  "author": "Dima Snisarenko",
+  "published": "2022-06-14T00:19:15.381Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1"
+  ],
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova / Phonegap plugin for communicating with HTTP servers using SSL pinning",
+  "bugs": "https://github.com/sneas/cordova-HTTP2/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/144651?v=4",
+  "quality": 104,
+  "updated": "2018-02-02T08:37:05Z",
+  "downloads": 16
+}

@@ -1,0 +1,50 @@
+{
+  "name": "cordova-plugin-ftp",
+  "version": "1.2.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/xfally/cordova-plugin-ftp.git",
+  "author": "pax",
+  "published": "2022-06-14T00:14:26.789Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "1.2.1"
+  ],
+  "keywords": [
+    "cordova",
+    "plugin",
+    "ftp",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "android",
+    "ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This cordova plugin is created to use ftp (client) in web/js.",
+  "bugs": "https://github.com/xfally/cordova-plugin-ftp/issues",
+  "stars": 34,
+  "image": "https://avatars.githubusercontent.com/u/5096620?v=4",
+  "quality": 166,
+  "updated": "2022-11-30T13:45:45Z",
+  "downloads": 592
+}

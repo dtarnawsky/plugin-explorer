@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-exit",
+  "version": "1.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/cakuki/cordova-plugin-exit.git",
+  "author": "Rakesh Walisheter",
+  "published": "2022-04-27T17:20:26.663Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "exit",
+    "terminate",
+    "quit"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for exiting the app programmatically for Android, iOS and WP",
+  "bugs": "https://github.com/cakuki/cordova-plugin-exit/issues",
+  "stars": 8,
+  "image": "https://avatars.githubusercontent.com/u/1939259?v=4",
+  "quality": 22,
+  "updated": "2022-10-08T14:40:40Z",
+  "downloads": 3413
+}
