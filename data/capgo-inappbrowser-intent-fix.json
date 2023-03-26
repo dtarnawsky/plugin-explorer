@@ -1,0 +1,36 @@
+{
+  "name": "capgo-inappbrowser-intent-fix",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/Cap-go/capacitor-inappbrowser.git",
+  "author": "Martin Donadieu",
+  "published": "2023-02-22T03:13:32.351Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "browser",
+    "native",
+    "capacitor-plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Fork copy of capgo-inappbrowser with intent handling on android webview",
+  "bugs": "https://github.com/Cap-go/capacitor-inappbrowser/issues",
+  "stars": 11,
+  "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
+  "quality": 122,
+  "updated": "2023-02-24T08:59:26Z",
+  "downloads": 114
+}

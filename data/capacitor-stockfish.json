@@ -1,0 +1,40 @@
+{
+  "name": "capacitor-stockfish",
+  "version": "4.0.0",
+  "success": [],
+  "repo": "https://github.com/veloce/capacitor-stockfish.git",
+  "author": "Vincent Velociter",
+  "published": "2022-12-06T10:17:38.601Z",
+  "versions": [
+    "2.0.0",
+    "2.0.1",
+    "3.0.0",
+    "3.0.1",
+    "3.0.2",
+    "4.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "capacitor-plugin",
+    "chess",
+    "chess-engine",
+    "ionic",
+    "stockfish",
+    "stockfish-engine"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Ionic Capacitor Stockfish interface",
+  "bugs": "https://github.com/veloce/capacitor-stockfish/issues",
+  "stars": 12,
+  "image": "https://avatars.githubusercontent.com/u/423393?v=4",
+  "quality": 121,
+  "updated": "2023-01-30T00:27:42Z",
+  "downloads": 66
+}

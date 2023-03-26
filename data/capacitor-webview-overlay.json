@@ -1,0 +1,34 @@
+{
+  "name": "capacitor-webview-overlay",
+  "version": "3.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/dgolosov/capacitor-webview-overlay.git",
+  "author": "",
+  "published": "2022-09-02T06:57:57.740Z",
+  "versions": [
+    "2.0.4",
+    "2.0.5",
+    "2.0.6",
+    "2.0.7",
+    "3.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor Webview Overlay",
+  "bugs": "https://github.com/dgolosov/capacitor-webview-overlay/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/14894850?v=4",
+  "quality": 0,
+  "updated": "2022-07-06T14:51:05Z",
+  "downloads": 96
+}

@@ -1,0 +1,26 @@
+{
+  "name": "caredfor-cordova-zoom",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "ssh://git@bitbucket.org/caredfor/cordova.plugin.zoom.git",
+  "author": "caredfor",
+  "published": "2022-04-12T05:21:50.503Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "zoom",
+    "cordova",
+    "caredfor"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "caredfor supporting cordova zoom plugin",
+  "bugs": "https://bitbucket.org/caredfor/cordova.plugin.zoom/issues",
+  "downloads": 1
+}

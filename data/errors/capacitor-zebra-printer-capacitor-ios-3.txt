@@ -1,0 +1,23 @@
+✖ Building xArchive - failed!
+[error] Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace App.xcworkspace -scheme App -destination generic/platform=iOS -archivePath App.xcarchive archive
+        
+        User defaults from command line:
+        IDEArchivePathOverride = /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/ios/App/App.xcarchive
+        IDEPackageSupportUseBuiltinSCM = YES
+        
+        Prepare packages
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: af217eace58b119ec00f566f612a2879
+        Build description path: /Users/damiantarnawsky/Library/Developer/Xcode/DerivedData/App-ekobeaxezgdnxbghbaxwqoagcyfc/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/af217eace58b119ec00f566f612a2879-desc.xcbuild
+        
+        note: Building targets in dependency order
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 11.0 to 16.1.99. (in target 'SwiftSocket' from project 'Pods')
+        error: SWIFT_VERSION '3' is unsupported, supported versions are: 4.0, 4.2, 5.0. (in target 'SwiftSocket' from project 'Pods')
+        warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
+        ** ARCHIVE FAILED **
+        
+        

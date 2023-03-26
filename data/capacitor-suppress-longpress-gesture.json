@@ -1,0 +1,35 @@
+{
+  "name": "capacitor-suppress-longpress-gesture",
+  "version": "0.0.6",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/Nikita-schetko/capacitor-suppress-longpress-gesture.git",
+  "author": "Nikita Shchetko",
+  "published": "2022-12-21T07:00:09.787Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows to suppress longpress gesture in iOs system. Designed for capacitor v3",
+  "bugs": "https://github.com/Nikita-schetko/capacitor-suppress-longpress-gesture/issues",
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/8004255?v=4",
+  "quality": 113,
+  "updated": "2023-03-19T03:17:54Z",
+  "downloads": 946
+}

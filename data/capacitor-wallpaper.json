@@ -1,0 +1,37 @@
+{
+  "name": "capacitor-wallpaper",
+  "version": "1.0.6",
+  "success": [],
+  "repo": "https://github.com/insoutt/capacitor-wallpaper.git",
+  "author": "insoutt",
+  "published": "2022-04-12T05:17:32.801Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.6"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "wallpaper",
+    "ionic",
+    "android"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows you to define a wallpaper in Android with Capacitor and IONIC",
+  "bugs": "https://github.com/insoutt/capacitor-wallpaper/issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/9189972?v=4",
+  "quality": 106,
+  "updated": "2023-03-15T19:22:38Z",
+  "downloads": 16
+}

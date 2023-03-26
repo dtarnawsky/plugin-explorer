@@ -1,0 +1,33 @@
+{
+  "name": "card.io.cordova.mobilesdk",
+  "version": "2.1.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "ssh://git@github.com/card-io/card.io-Cordova-Plugin.git",
+  "author": "card.io",
+  "published": "2023-02-15T16:53:14.620Z",
+  "versions": [
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.1.0"
+  ],
+  "keywords": [
+    "card.io",
+    "sdk",
+    "card-scanning",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows to add card.io scanning capabilities to your application using card.io SDK Native library",
+  "bugs": "https://github.com/card-io/card.io-Cordova-Plugin/issues",
+  "quality": null,
+  "downloads": 1601
+}

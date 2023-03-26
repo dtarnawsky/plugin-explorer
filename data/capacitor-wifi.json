@@ -1,0 +1,29 @@
+{
+  "name": "capacitor-wifi",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/digaus/capacitor-wifi.git",
+  "author": "Dirk Gausmann",
+  "published": "2022-04-12T05:17:33.561Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "Capacitor Wifi Plugin",
+  "stars": 6,
+  "image": "https://avatars.githubusercontent.com/u/15358538?v=4",
+  "quality": 116,
+  "updated": "2023-01-30T08:47:30Z",
+  "downloads": 4
+}

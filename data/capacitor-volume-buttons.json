@@ -1,0 +1,30 @@
+{
+  "name": "capacitor-volume-buttons",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/thiagobrez/capacitor-volume-buttons.git",
+  "author": "Thiago Brezinski",
+  "published": "2022-04-20T19:14:23.658Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Hardware volume buttons listener for Capacitor",
+  "bugs": "https://github.com/thiagobrez/capacitor-volume-buttons/issues",
+  "stars": 6,
+  "image": "https://avatars.githubusercontent.com/u/26878038?v=4",
+  "quality": 111,
+  "updated": "2023-03-14T16:14:18Z",
+  "downloads": 633
+}

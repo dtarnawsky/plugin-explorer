@@ -1,0 +1,39 @@
+{
+  "name": "capacitor-zeroconf",
+  "version": "1.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/trik/capacitor-zeroconf.git",
+  "author": "Marco Marche",
+  "published": "2022-10-24T08:34:54.313Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1-alpha.0",
+    "1.0.1-alpha.1",
+    "1.1.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "network",
+    "zeroconf",
+    "bonjour",
+    "mdns",
+    "service",
+    "discovery"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor ZeroConf plugin",
+  "bugs": "https://github.com/trik/capacitor-zeroconf/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/1615301?v=4",
+  "quality": 6,
+  "updated": "2023-02-10T12:50:11Z",
+  "downloads": 24
+}

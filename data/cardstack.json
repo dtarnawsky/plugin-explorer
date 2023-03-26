@@ -1,0 +1,19 @@
+{
+  "name": "cardstack",
+  "version": "0.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "author": "Robert Gonzales",
+  "published": "2022-04-12T05:21:43.283Z",
+  "versions": [
+    "0.1.0"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "React card stack",
+  "downloads": 2
+}

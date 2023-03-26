@@ -1,0 +1,37 @@
+{
+  "name": "capacitor-zip",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/triniwiz/capacitor-zip.git",
+  "author": "Osei Fortune",
+  "published": "2022-04-12T05:17:36.595Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3",
+    "capacitor-ios-3"
+  ],
+  "description": "Zip plugin",
+  "bugs": "https://github.com/triniwiz/capacitor-zip/issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/6695919?v=4",
+  "quality": 119,
+  "updated": "2023-03-15T15:14:34Z",
+  "downloads": 127
+}
