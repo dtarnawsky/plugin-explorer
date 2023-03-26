@@ -1,0 +1,43 @@
+{
+  "name": "zebra-capacitor",
+  "version": "0.2.0",
+  "success": [],
+  "repo": "https://github.com/cleversolutions/zebraCapacitor.git",
+  "author": "Evan Moore",
+  "published": "2022-05-25T11:20:46.207Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.0.11",
+    "0.0.12",
+    "0.0.14",
+    "0.0.15",
+    "0.0.16",
+    "0.2.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for Zebra Printers",
+  "bugs": "https://github.com/cleversolutions/zebraCapacitor//issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/23444011?v=4",
+  "quality": 108,
+  "updated": "2023-02-14T18:39:58Z",
+  "downloads": 44
+}

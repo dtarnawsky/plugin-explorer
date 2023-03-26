@@ -1328,12 +1328,5 @@ wifidirect-capacitor
 wifiwizard2
 wonderpush-cordova-sdk
 wonderpush-cordova-sdk-fcm
-wswselphono
-wswupdate
 wxs-chris-wxsnetwork
-yesoul-bike
-zbtprinterplugin
 zebra-capacitor
-zebra-intents
-zetra-mytherapy
-zhengtong
