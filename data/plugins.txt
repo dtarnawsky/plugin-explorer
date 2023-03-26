@@ -1120,10 +1120,6 @@ cordova.plugin.zoom
 cordova.plugins.diagnostic
 cordovarduino
 cozzbie.plugin.phonecalltrap
-credit-nfc
-cruzrsdk
-cs-background-notifications
-custom-native-biometric2
 cz.blocshop.socketsforcordova
 de.appplant.cordova.plugin.local-notification
 disable-ios-scrolling
