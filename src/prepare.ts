@@ -50,6 +50,7 @@ function keywords() {
             } else {
                 console.warn(`${file} has missing keywords`);
             }
+            writeFileSync(join('dist', encodeURIComponent(plugin.name) + '.json'), JSON.stringify(plugin, undefined, 2), 'utf-8');
         }
     }
     result.sort();
@@ -108,6 +109,6 @@ function review(file: string, filter: SummaryFilter): PluginSummary {
 }
 
 function readPluginFromFile(file: string): Inspection {
-    const name = decodeURI(file.replace('.json', ''));
+    const name = decodeURIComponent(file.replace('.json', ''));
     return readPlugin(name);
 }
