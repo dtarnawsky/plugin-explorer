@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-conekta",
+  "version": "0.3.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/nwrman/cordova-plugin-conekta.git",
+  "author": "Jonathan H. Fernández",
+  "published": "2022-04-27T17:16:48.087Z",
+  "versions": [
+    "0.1.0",
+    "0.2.0",
+    "0.3.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "conekta",
+    "ionic",
+    "phonegap",
+    "cordova-plugin"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin that lets you use Conekta's Native SDKs for Android and iOS",
+  "bugs": "https://github.com/nwrman/cordova-plugin-conekta/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/1259562?v=4",
+  "quality": 105,
+  "updated": "2022-02-28T23:38:50Z",
+  "downloads": 15
+}

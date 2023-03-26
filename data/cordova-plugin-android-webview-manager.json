@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-android-webview-manager",
+  "version": "0.3.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "http://git.scat.su/external/cordova-plugin-android-webview-manager",
+  "author": "SKAT Ltd",
+  "published": "2022-06-17T10:32:42.854Z",
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.2.0",
+    "0.3.0"
+  ],
+  "keywords": [
+    "android",
+    "system",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "webview"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Allows to call some methods of Cordova Android WebView",
+  "downloads": 19
+}

@@ -1,0 +1,41 @@
+{
+  "name": "cordova-plugin-app-version",
+  "version": "0.1.14",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/sampart/cordova-plugin-app-version.git",
+  "author": "whiteoctober",
+  "published": "2022-06-13T23:48:18.674Z",
+  "versions": [
+    "0.1.7",
+    "0.1.8",
+    "0.1.9",
+    "0.1.10",
+    "0.1.11",
+    "0.1.12",
+    "0.1.13",
+    "0.1.14"
+  ],
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "app",
+    "version",
+    "appversion",
+    "plugin",
+    "cordova-plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin to return the version number of the current app",
+  "bugs": "https://github.com/sampart/cordova-plugin-app-version/issues",
+  "stars": 397,
+  "image": "https://avatars.githubusercontent.com/u/1507328?v=4",
+  "quality": 712,
+  "updated": "2023-02-03T03:53:30Z",
+  "downloads": 83019
+}

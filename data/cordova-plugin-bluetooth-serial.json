@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-bluetooth-serial",
+  "version": "0.4.7",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/don/BluetoothSerial.git",
+  "author": "Don Coleman <don.coleman@gmail.com>",
+  "published": "2022-06-13T23:54:51.315Z",
+  "versions": [
+    "0.4.4",
+    "0.4.5",
+    "0.4.6",
+    "0.4.7"
+  ],
+  "keywords": [
+    "cordova",
+    "bluetooth",
+    "serial",
+    "ble",
+    "arduino",
+    "ecosystem:cordova",
+    "bluetooth-low-energy",
+    "cordova-plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Bluetooth Serial Communication Plugin",
+  "bugs": "https://github.com/don/BluetoothSerial/issues",
+  "stars": 1050,
+  "image": "https://avatars.githubusercontent.com/u/3133?v=4",
+  "quality": 1875,
+  "updated": "2023-03-19T22:52:35Z",
+  "downloads": 6747
+}

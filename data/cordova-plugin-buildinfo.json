@@ -1,0 +1,48 @@
+{
+  "name": "cordova-plugin-buildinfo",
+  "version": "4.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/lynrin/cordova-plugin-buildinfo.git",
+  "author": "Mikihiro Hayashi",
+  "published": "2022-06-13T23:56:26.362Z",
+  "versions": [
+    "0.9.0",
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "3.0.0",
+    "3.0.1",
+    "4.0.0"
+  ],
+  "keywords": [
+    "debug",
+    "buildconfig",
+    "buildinfo",
+    "phonegap",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-osx",
+    "cordova-browser",
+    "cordova-electron"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova/PhoneGap Build Information Plugin. Get PackageName, Version, Debug and more...",
+  "bugs": "https://github.com/lynrin/cordova-plugin-buildinfo/issues",
+  "stars": 35,
+  "image": "https://avatars.githubusercontent.com/u/12870525?v=4",
+  "quality": 160,
+  "updated": "2023-01-28T06:03:36Z",
+  "downloads": 21490
+}

@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-bring-to-front",
+  "version": "0.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/innomediahho/cordova-plugin-bring-to-front.git",
+  "author": "Lucas Dupin",
+  "published": "2022-04-27T17:14:11.279Z",
+  "versions": [
+    "0.0.2",
+    "0.0.3"
+  ],
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Bring To Front Android Plugin",
+  "bugs": "https://github.com/innomediahho/cordova-plugin-bring-to-front/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/20920408?v=4",
+  "quality": 6,
+  "updated": "2020-07-09T06:29:24Z",
+  "downloads": 194
+}

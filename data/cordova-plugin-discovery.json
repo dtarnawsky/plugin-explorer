@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-discovery",
+  "version": "0.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/scottdermott/cordova-plugin-discovery.git",
+  "author": "Scott Dermott",
+  "published": "2022-06-14T00:05:56.541Z",
+  "versions": [
+    "0.2.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Simple plugin to get any SSDP / UPnP / DLNA service on a local network",
+  "bugs": "https://github.com/scottdermott/cordova-plugin-discovery/issues",
+  "stars": 31,
+  "image": "https://avatars.githubusercontent.com/u/3798711?v=4",
+  "quality": 169,
+  "updated": "2022-07-01T11:57:41Z",
+  "downloads": 88
+}

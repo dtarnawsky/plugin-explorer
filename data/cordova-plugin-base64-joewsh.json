@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-base64-joewsh",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/Joewsh/cordova-plugin-base64-joewsh.git",
+  "published": "2022-06-13T23:52:26.255Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "base64",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Base64 Plugin",
+  "bugs": "https://github.com/Joewsh/cordova-plugin-base64-joewsh/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/15830790?v=4",
+  "quality": 6,
+  "updated": "2020-02-25T09:01:08Z",
+  "downloads": 16
+}

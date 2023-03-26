@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-app-event",
+  "version": "1.2.2",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/katzer/cordova-plugin-app-event.git",
+  "author": "Sebastián Katzer",
+  "published": "2022-06-13T23:47:53.663Z",
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2"
+  ],
+  "keywords": [
+    "appplant",
+    "UIApplicationDelegate",
+    "didRegisterUserNotificationSettings",
+    "didReceiveLocalNotification",
+    "didFinishLaunchingWithOptions",
+    "cordova",
+    "ecosystem:cordova"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Broadcasts UIApplicationDelegate events",
+  "bugs": "https://github.com/katzer/cordova-plugin-app-event/issues",
+  "stars": 25,
+  "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
+  "quality": 153,
+  "updated": "2022-08-12T14:52:36Z",
+  "downloads": 11375
+}

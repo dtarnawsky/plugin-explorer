@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-clipboard",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/blackberry/WebWorks-Community-APIs.git",
+  "author": "Merrick Zhang",
+  "published": "2022-06-14T00:00:26.437Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "blackberry",
+    "clipboard",
+    "copy",
+    "paste",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-blackberry10"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "BlackBerry 10 Community Contributed API to access the system clipboard",
+  "bugs": "https://github.com/blackberry/WebWorks-Community-APIs/issues",
+  "stars": 143,
+  "image": "https://avatars.githubusercontent.com/u/410445?v=4",
+  "quality": 505,
+  "updated": "2023-03-20T08:42:05Z",
+  "downloads": 149
+}

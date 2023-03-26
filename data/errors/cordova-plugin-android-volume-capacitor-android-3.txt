@@ -1,0 +1,474 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:5: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:6: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:7: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:8: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:9: error: package android.media does not exist
+        import android.media.AudioManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:10: error: package android.widget does not exist
+        import android.widget.Toast;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:3: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:4: error: package android.database does not exist
+        import android.database.ContentObserver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:5: error: package android.media does not exist
+        import android.media.AudioManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:6: error: package android.os does not exist
+        import android.os.Handler;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:7: error: package android.util does not exist
+        import android.util.SparseIntArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:15: error: cannot find symbol
+        public class AndroidVolumeObserver extends ContentObserver {
+        ^
+        symbol: class ContentObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:20: error: cannot find symbol
+        JSONArray args,
+        		^
+        symbol:   class JSONArray
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:22: error: cannot find symbol
+        ) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:38: error: cannot find symbol
+        private AudioManager audioManager;
+        ^
+        symbol:   class AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:39: error: cannot find symbol
+        private SparseIntArray volumes;
+        ^
+        symbol:   class SparseIntArray
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:42: error: cannot find symbol
+        public AndroidVolumeObserver(Context context, CallbackContext callbackContext) {
+        ^
+        symbol:   class Context
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:96: error: cannot find symbol
+        private void sendUpdate(JSONObject obj, boolean keepCallback) {
+        ^
+        symbol:   class JSONObject
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:102: error: cannot find symbol
+        private void initialize(Context context) {
+        ^
+        symbol:   class Context
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:86: error: cannot find symbol
+        final Context context = this.cordova.getActivity();
+        ^
+        symbol:   class Context
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:86: error: cannot access Activity
+        final Context context = this.cordova.getActivity();
+        ^
+        class file for android.app.Activity not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:92: error: cannot find symbol
+        AudioManager manager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+        				^
+        symbol: class AudioManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:92: error: cannot find symbol
+        AudioManager manager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+        ^
+        symbol: class AudioManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:92: error: cannot find symbol
+        AudioManager manager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+        ^
+        symbol: variable Context
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:100: error: cannot find symbol
+        manager.setStreamVolume(streamType, newVolume, AudioManager.FLAG_REMOVE_SOUND_AND_VIBRATE);
+        ^
+        symbol: variable AudioManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:110: error: cannot access Context
+        						webView.getContext(),
+        ^
+        class file for android.content.Context not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:112: error: cannot find symbol
+        						Toast.LENGTH_LONG
+        						^
+        symbol: variable Toast
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:109: error: cannot find symbol
+        					Toast.makeText(
+        					^
+        symbol: variable Toast
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:123: error: cannot find symbol
+        final Context context = this.cordova.getActivity();
+        ^
+        symbol:   class Context
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:129: error: cannot find symbol
+        AudioManager manager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+        				^
+        symbol: class AudioManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:129: error: cannot find symbol
+        AudioManager manager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+        ^
+        symbol: class AudioManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:129: error: cannot find symbol
+        AudioManager manager = (AudioManager)context.getSystemService(Context.AUDIO_SERVICE);
+        ^
+        symbol: variable Context
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:146: error: cannot find symbol
+        setVolume(AudioManager.STREAM_ALARM, "", volume, false, null);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:147: error: cannot find symbol
+        setVolume(AudioManager.STREAM_DTMF, "", volume, false, null);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:148: error: cannot find symbol
+        setVolume(AudioManager.STREAM_MUSIC, "", volume, false, null);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:149: error: cannot find symbol
+        setVolume(AudioManager.STREAM_NOTIFICATION, "", volume, false, null);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:150: error: cannot find symbol
+        setVolume(AudioManager.STREAM_RING, "", volume, false, null);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:151: error: cannot find symbol
+        setVolume(AudioManager.STREAM_SYSTEM, "", volume, false, null);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:152: error: cannot find symbol
+        setVolume(AudioManager.STREAM_VOICE_CALL, "", volume, showToast, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:156: error: cannot find symbol
+        getVolume(AudioManager.STREAM_ALARM, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:164: error: cannot find symbol
+        setVolume(AudioManager.STREAM_ALARM, "Alarm", volume, showToast, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:168: error: cannot find symbol
+        getVolume(AudioManager.STREAM_DTMF, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:176: error: cannot find symbol
+        setVolume(AudioManager.STREAM_DTMF, "DTMF", volume, showToast, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:180: error: cannot find symbol
+        getVolume(AudioManager.STREAM_MUSIC, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:188: error: cannot find symbol
+        setVolume(AudioManager.STREAM_MUSIC, "Music", volume, showToast, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:192: error: cannot find symbol
+        getVolume(AudioManager.STREAM_NOTIFICATION, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:200: error: cannot find symbol
+        setVolume(AudioManager.STREAM_NOTIFICATION, "Notification", volume, showToast, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:204: error: cannot find symbol
+        getVolume(AudioManager.STREAM_RING, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:212: error: cannot find symbol
+        setVolume(AudioManager.STREAM_RING, "Ringer", volume, showToast, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:216: error: cannot find symbol
+        getVolume(AudioManager.STREAM_SYSTEM, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:224: error: cannot find symbol
+        setVolume(AudioManager.STREAM_SYSTEM, "System", volume, showToast, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:228: error: cannot find symbol
+        getVolume(AudioManager.STREAM_VOICE_CALL, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:236: error: cannot find symbol
+        setVolume(AudioManager.STREAM_VOICE_CALL, "Voice Call", volume, showToast, callbackContext);
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:241: error: cannot find symbol
+        final Context context = cordova.getActivity();
+        ^
+        symbol:   class Context
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:245: error: package android.provider.Settings does not exist
+        .registerContentObserver(android.provider.Settings.System.CONTENT_URI, true, volumeObserver);
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolume.java:251: error: cannot find symbol
+        final Context context = cordova.getActivity();
+        ^
+        symbol:   class Context
+        location: class AndroidVolume
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:20: error: cannot find symbol
+        AudioManager.STREAM_ALARM,
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:21: error: cannot find symbol
+        AudioManager.STREAM_DTMF,
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:22: error: cannot find symbol
+        AudioManager.STREAM_MUSIC,
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:23: error: cannot find symbol
+        AudioManager.STREAM_NOTIFICATION,
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:24: error: cannot find symbol
+        AudioManager.STREAM_RING,
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:25: error: cannot find symbol
+        AudioManager.STREAM_SYSTEM,
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:26: error: cannot find symbol
+        AudioManager.STREAM_VOICE_CALL
+        ^
+        symbol:   variable AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:43: error: cannot find symbol
+        super(new Handler());
+        ^
+        symbol:   class Handler
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:45: error: cannot find symbol
+        this.audioManager = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+        ^
+        symbol:   class AudioManager
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:45: error: cannot find symbol
+        this.audioManager = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+        ^
+        symbol:   variable Context
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:47: error: cannot find symbol
+        this.volumes = new SparseIntArray();
+        ^
+        symbol:   class SparseIntArray
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:56: error: cannot find symbol
+        sendUpdate(new JSONObject(), false);
+        ^
+        symbol:   class JSONObject
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:61: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:66: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:86: error: cannot find symbol
+        JSONObject obj = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:86: error: cannot find symbol
+        JSONObject obj = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AndroidVolumeObserver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mcluck/plugin/AndroidVolumeObserver.java:90: error: cannot find symbol
+        } catch (JSONException e) {
+        ^
+        symbol:   class JSONException
+        location: class AndroidVolumeObserver
+        73 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 4s
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        73 actionable tasks: 73 executed
+        

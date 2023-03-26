@@ -1,0 +1,559 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarReleaseNote: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :app:checkReleaseDuplicateClasses
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:8: error: package android does not exist
+        import android.Manifest;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:9: error: package android.annotation does not exist
+        import android.annotation.TargetApi;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:10: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:11: error: package android.app does not exist
+        import android.app.FragmentTransaction;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:12: error: package android.app does not exist
+        import android.app.KeyguardManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:13: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:14: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:15: error: package android.content does not exist
+        import android.content.SharedPreferences;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:16: error: package android.content.pm does not exist
+        import android.content.pm.PackageManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:17: error: package android.content.res does not exist
+        import android.content.res.Configuration;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:18: error: package android.content.res does not exist
+        import android.content.res.Resources;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:19: error: package android.hardware.fingerprint does not exist
+        import android.hardware.fingerprint.FingerprintManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:20: error: package android.os does not exist
+        import android.os.Bundle;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:21: error: package android.security.keystore does not exist
+        import android.security.keystore.KeyGenParameterSpec;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:22: error: package android.security.keystore does not exist
+        import android.security.keystore.KeyProperties;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:23: error: package android.util does not exist
+        import android.util.Base64;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:24: error: package android.util does not exist
+        import android.util.DisplayMetrics;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:25: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:28: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:29: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:30: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:52: error: cannot find symbol
+        @TargetApi(23)
+        ^
+        symbol: class TargetApi
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:64: error: cannot find symbol
+        public static Context mContext;
+        ^
+        symbol:   class Context
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:65: error: cannot find symbol
+        public static Activity mActivity;
+        ^
+        symbol:   class Activity
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:66: error: cannot find symbol
+        public KeyguardManager mKeyguardManager;
+        ^
+        symbol:   class KeyguardManager
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:19: error: package android.app does not exist
+        import android.app.DialogFragment;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:20: error: package android.app does not exist
+        import android.app.KeyguardManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:22: error: package android.content does not exist
+        import android.content.DialogInterface;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:24: error: package android.content does not exist
+        import android.content.SharedPreferences;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:25: error: package android.hardware.fingerprint does not exist
+        import android.hardware.fingerprint.FingerprintManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:27: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:28: error: package android.view does not exist
+        import android.view.LayoutInflater;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:29: error: package android.view does not exist
+        import android.view.View;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:30: error: package android.view does not exist
+        import android.view.ViewGroup;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:31: error: package android.view.inputmethod does not exist
+        import android.view.inputmethod.InputMethodManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:32: error: package android.widget does not exist
+        import android.widget.Button;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:33: error: package android.widget does not exist
+        import android.widget.ImageView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:34: error: package android.widget does not exist
+        import android.widget.TextView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:35: error: package android.widget does not exist
+        import android.widget.Toast;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:41: error: cannot find symbol
+        public class FingerprintAuthenticationDialogFragment extends DialogFragment
+        ^
+        symbol: class DialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:19: error: package android.annotation does not exist
+        import android.annotation.TargetApi;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:21: error: package android.hardware.fingerprint does not exist
+        import android.hardware.fingerprint.FingerprintManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:22: error: package android.os does not exist
+        import android.os.CancellationSignal;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:23: error: package android.widget does not exist
+        import android.widget.ImageView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:24: error: package android.widget does not exist
+        import android.widget.TextView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:31: error: package FingerprintManager does not exist
+        public class FingerprintUiHelper extends FingerprintManager.AuthenticationCallback {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:30: error: cannot find symbol
+        @TargetApi(23)
+        ^
+        symbol: class TargetApi
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:71: error: cannot find symbol
+        private FingerprintManager mFingerPrintManager;
+        ^
+        symbol:   class FingerprintManager
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:192: error: cannot find symbol
+        public boolean execute(final String action, JSONArray args, CallbackContext callbackContext)
+        ^
+        symbol:   class JSONArray
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:193: error: cannot find symbol
+        throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:465: error: cannot find symbol
+        int[] grantResults) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:607: error: package FingerprintManager does not exist
+        FingerprintManager.AuthenticationResult result) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:712: error: cannot find symbol
+        public static String getStringPreference(Context context, String name, String key) {
+        ^
+        symbol:   class Context
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:725: error: cannot find symbol
+        public static void setStringPreference(Context context, String name, String key, String value) {
+        ^
+        symbol:   class Context
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:741: error: cannot find symbol
+        public static boolean deleteStringPreference(Context context, String name, String key) {
+        ^
+        symbol:   class Context
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:769: error: cannot find symbol
+        public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        ^
+        symbol:   class Intent
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:47: error: cannot find symbol
+        private Button mCancelButton;
+        ^
+        symbol:   class Button
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:48: error: cannot find symbol
+        private Button mSecondDialogButton;
+        ^
+        symbol:   class Button
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:49: error: cannot find symbol
+        private View mFingerprintContent;
+        ^
+        symbol:   class View
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:53: error: cannot find symbol
+        private KeyguardManager mKeyguardManager;
+        ^
+        symbol:   class KeyguardManager
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:54: error: package FingerprintManager does not exist
+        private FingerprintManager.CryptoObject mCryptoObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:62: error: cannot find symbol
+        public void onCreate(Bundle savedInstanceState) {
+        ^
+        symbol:   class Bundle
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:76: error: cannot find symbol
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+        ^
+        symbol:   class LayoutInflater
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:76: error: cannot find symbol
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+        ^
+        symbol:   class ViewGroup
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:77: error: cannot find symbol
+        Bundle savedInstanceState) {
+        ^
+        symbol:   class Bundle
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:76: error: cannot find symbol
+        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+        ^
+        symbol:   class View
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:181: error: package FingerprintManager does not exist
+        public void setCryptoObject(FingerprintManager.CryptoObject cryptoObject) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:241: error: cannot find symbol
+        public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        ^
+        symbol:   class Intent
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:256: error: package FingerprintManager does not exist
+        public void onAuthenticated(FingerprintManager.AuthenticationResult result) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuthenticationDialogFragment.java:277: error: cannot find symbol
+        public void onCancel(DialogInterface dialog) {
+        ^
+        symbol:   class DialogInterface
+        location: class FingerprintAuthenticationDialogFragment
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:52: error: cannot find symbol
+        private final FingerprintManager mFingerPrintManager;
+        ^
+        symbol:   class FingerprintManager
+        location: class FingerprintUiHelperBuilder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:53: error: cannot find symbol
+        private final Context mContext;
+        ^
+        symbol:   class Context
+        location: class FingerprintUiHelperBuilder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:55: error: cannot find symbol
+        public FingerprintUiHelperBuilder(Context context, FingerprintManager fingerprintManager) {
+        ^
+        symbol:   class Context
+        location: class FingerprintUiHelperBuilder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:55: error: cannot find symbol
+        public FingerprintUiHelperBuilder(Context context, FingerprintManager fingerprintManager) {
+        ^
+        symbol:   class FingerprintManager
+        location: class FingerprintUiHelperBuilder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:60: error: cannot find symbol
+        public FingerprintUiHelper build(ImageView icon, TextView errorTextView, Callback callback) {
+        ^
+        symbol:   class ImageView
+        location: class FingerprintUiHelperBuilder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:60: error: cannot find symbol
+        public FingerprintUiHelper build(ImageView icon, TextView errorTextView, Callback callback) {
+        ^
+        symbol:   class TextView
+        location: class FingerprintUiHelperBuilder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:36: error: cannot find symbol
+        private final Context mContext;
+        ^
+        symbol:   class Context
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:37: error: cannot find symbol
+        private final FingerprintManager mFingerprintManager;
+        ^
+        symbol:   class FingerprintManager
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:38: error: cannot find symbol
+        private final ImageView mIcon;
+        ^
+        symbol:   class ImageView
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:39: error: cannot find symbol
+        private final TextView mErrorTextView;
+        ^
+        symbol:   class TextView
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:41: error: cannot find symbol
+        private CancellationSignal mCancellationSignal;
+        ^
+        symbol:   class CancellationSignal
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:43: error: package FingerprintManager does not exist
+        private static FingerprintManager.AuthenticationResult fingerprintResult;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:70: error: cannot find symbol
+        private FingerprintUiHelper(Context context, FingerprintManager fingerprintManager,
+        ^
+        symbol:   class Context
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:70: error: cannot find symbol
+        private FingerprintUiHelper(Context context, FingerprintManager fingerprintManager,
+        ^
+        symbol:   class FingerprintManager
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:71: error: cannot find symbol
+        ImageView icon, TextView errorTextView, Callback callback) {
+        ^
+        symbol:   class ImageView
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:71: error: cannot find symbol
+        ImageView icon, TextView errorTextView, Callback callback) {
+        ^
+        symbol:   class TextView
+        location: class FingerprintUiHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:84: error: package FingerprintManager does not exist
+        public void startListening(FingerprintManager.CryptoObject cryptoObject) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:150: error: package FingerprintManager does not exist
+        public void onAuthenticationSucceeded(FingerprintManager.AuthenticationResult result) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintUiHelper.java:204: error: package FingerprintManager does not exist
+        void onAuthenticated(FingerprintManager.AuthenticationResult result);
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:147: error: cannot find symbol
+        Log.v(TAG, "Init FingerprintAuth");
+        ^
+        symbol:   variable Log
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:154: error: package android.os.Build does not exist
+        if (android.os.Build.VERSION.SDK_INT < 23) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:158: error: cannot find symbol
+        mKeyguardManager = cordova.getActivity().getSystemService(KeyguardManager.class);
+        ^
+        symbol:   class KeyguardManager
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:160: error: cannot find symbol
+        .getSystemService(FingerprintManager.class);
+        ^
+        symbol:   class FingerprintManager
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:163: error: cannot find symbol
+        mKeyGenerator = KeyGenerator.getInstance(KeyProperties.KEY_ALGORITHM_AES,
+        ^
+        symbol:   variable KeyProperties
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:175: error: cannot find symbol
+        mCipher = Cipher.getInstance(KeyProperties.KEY_ALGORITHM_AES + "/"
+        ^
+        symbol:   variable KeyProperties
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:176: error: cannot find symbol
+        + KeyProperties.BLOCK_MODE_CBC + "/" + KeyProperties.ENCRYPTION_PADDING_PKCS7);
+        ^
+        symbol:   variable KeyProperties
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:176: error: cannot find symbol
+        + KeyProperties.BLOCK_MODE_CBC + "/" + KeyProperties.ENCRYPTION_PADDING_PKCS7);
+        ^
+        symbol:   variable KeyProperties
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:196: error: package android.os.Build does not exist
+        if (android.os.Build.VERSION.SDK_INT < 23) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:197: error: cannot find symbol
+        Log.e(TAG, "minimum SDK version 23 required");
+        ^
+        symbol:   variable Log
+        location: class FingerprintAuth
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/plugin/android/fingerprintauth/FingerprintAuth.java:204: error: cannot find symbol
+        Log.v(TAG, "FingerprintAuth action: " + action);
+        ^
+        symbol:   variable Log
+        location: class FingerprintAuth
+        100 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 4s
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        77 actionable tasks: 77 executed
+        

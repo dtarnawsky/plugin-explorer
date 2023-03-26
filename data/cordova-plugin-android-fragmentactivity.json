@@ -1,0 +1,44 @@
+{
+  "name": "cordova-plugin-android-fragmentactivity",
+  "version": "2.2.1",
+  "success": [
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/ReallySmallSoftware/cordova-plugin-android-fragmentactivity.git",
+  "author": "Richard Windley",
+  "published": "2022-06-13T23:46:33.632Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "1.0.0",
+    "2.0.0",
+    "2.2.0",
+    "2.2.1"
+  ],
+  "keywords": [
+    "cordova",
+    "fragment",
+    "fragments",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "An android plugin that provides a replacement activity to the default activity to start a cordova application with MainActivity as a Fragment Activity. Useful when you want to add native views on top of cordova webview.",
+  "bugs": "https://github.com/ReallySmallSoftware/cordova-plugin-android-fragmentactivity/issues",
+  "stars": 10,
+  "image": "https://avatars.githubusercontent.com/u/4267359?v=4",
+  "quality": 21,
+  "updated": "2022-05-20T13:45:54Z",
+  "downloads": 268
+}

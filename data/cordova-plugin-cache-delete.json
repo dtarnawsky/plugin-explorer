@@ -1,0 +1,43 @@
+{
+  "name": "cordova-plugin-cache-delete",
+  "version": "1.0.7",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/takuya-nakayasu/cordova-plugin-cache-delete.git",
+  "author": "Takuya Nakayasu <l08084.1989@gmail.com> (https://github.com/takuya-nakayasu)",
+  "published": "2022-04-27T17:14:39.531Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7"
+  ],
+  "keywords": [
+    "cordova",
+    "webview",
+    "cache",
+    "delete",
+    "Code Cache",
+    "android",
+    "HTTP Cache",
+    "cordova-android",
+    "cordova-plugin",
+    "ionic"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This is a WebView cache plugin for Cordova supporting Android. It allows to delete the cordova webview cache.",
+  "bugs": "https://github.com/takuya-nakayasu/cordova-plugin-cache-delete/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/10209574?v=4",
+  "quality": 101,
+  "updated": "2023-02-20T10:44:49Z",
+  "downloads": 31
+}

@@ -1,0 +1,53 @@
+{
+  "name": "cordova-plugin-analytics",
+  "version": "2.0.0",
+  "success": [],
+  "repo": "https://github.com/appfeel/analytics-google.git",
+  "author": "AppFeel",
+  "published": "2022-06-13T23:46:16.147Z",
+  "versions": [
+    "1.3.0",
+    "1.3.1",
+    "1.3.2",
+    "1.3.3",
+    "1.4.0",
+    "1.4.1",
+    "1.4.2",
+    "1.4.3",
+    "1.5.0",
+    "1.5.1",
+    "2.0.0"
+  ],
+  "keywords": [
+    "analytics",
+    "google",
+    "metrics",
+    "event",
+    "screen",
+    "ecommerce",
+    "ua",
+    "universal analytics",
+    "universal",
+    "referral",
+    "download",
+    "install",
+    "track",
+    "tracking",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Phonegap, Cordova, Ionic, Intel XDK Google Analytics Firebase plugin for iOS/Android with full support for views, events, timings, ecommerce and social.",
+  "bugs": "https://github.com/appfeel/analytics-google/issues",
+  "stars": 23,
+  "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
+  "quality": 169,
+  "updated": "2020-10-25T23:22:13Z",
+  "downloads": 127
+}

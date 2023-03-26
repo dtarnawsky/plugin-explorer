@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-background-mode-appstronauts",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "published": "2022-04-27T17:12:28.398Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Prevent app from going to sleep in background.",
+  "downloads": 145
+}

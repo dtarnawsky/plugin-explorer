@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-background-audio",
+  "version": "1.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/danielsogl/cordova-plugin-background-audio.git",
+  "author": "Daniel Sogl",
+  "published": "2022-06-13T23:51:06.223Z",
+  "versions": [
+    "1.0.0",
+    "1.1.0"
+  ],
+  "keywords": [
+    "background-audio",
+    "background",
+    "audio",
+    "media",
+    "ios",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "\n\t\tBackground Audio for iOS\n\n\t\tWhen included within a cordova/phonegap build then the application will support background audio for iOS\n\t\tout of the box. No further action is necessary.\n\n\t\tThis negates having to use location/other solutions that may not b",
+  "bugs": "https://github.com/danielsogl/cordova-plugin-background-audio/issues",
+  "stars": 16,
+  "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
+  "quality": 20,
+  "updated": "2021-11-26T10:48:17Z",
+  "downloads": 280
+}

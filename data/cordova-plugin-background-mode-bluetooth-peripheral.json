@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-background-mode-bluetooth-peripheral",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/randdusing/cordova-plugin-background-mode-bluetooth-peripheral.git",
+  "author": "Rand Dusing",
+  "published": "2022-06-13T23:51:31.238Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "bluetooth",
+    "bluetoothle",
+    "bluetooth le",
+    "background",
+    "peripheral",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Enable Bluetooth Peripheral Background Mode on iOS",
+  "bugs": "https://github.com/randdusing/cordova-plugin-background-mode-bluetooth-peripheral/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/6188656?v=4",
+  "quality": 103,
+  "updated": "2020-05-26T01:58:34Z",
+  "downloads": 16
+}

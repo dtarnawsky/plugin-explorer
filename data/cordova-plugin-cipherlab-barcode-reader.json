@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-cipherlab-barcode-reader",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "author": "CIPHERLAB SW",
+  "published": "2022-04-27T17:16:08.753Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "barcode",
+    "scanner",
+    "reader",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Barcode Reader Cordova Plugin for CipherLab Android Mobile Devices",
+  "downloads": 17
+}

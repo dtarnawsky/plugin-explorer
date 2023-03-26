@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-doze-optimize",
+  "version": "0.5.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/thomas550i/cordova-plugin-doze-Optimize.git",
+  "author": "thomas550i",
+  "published": "2022-04-27T17:19:26.212Z",
+  "versions": [
+    "0.5.0",
+    "0.5.1",
+    "0.5.2",
+    "0.5.3",
+    "0.5.4"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "battery-management-system",
+    "cordova-plugin",
+    "doze",
+    "doze-optimize",
+    "whitelisting"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "If you want to run your application in backround mode and it shoud standby even battery optimization enabled, then this Cordova plugin is used to check the doze or battery optimization status and also it help to request whitlest popup for battery optimiza",
+  "bugs": "https://github.com/thomas550i/cordova-plugin-doze-Optimize/issues",
+  "stars": 19,
+  "image": "https://avatars.githubusercontent.com/u/13743965?v=4",
+  "quality": 142,
+  "updated": "2023-03-26T07:02:29Z",
+  "downloads": 1108
+}

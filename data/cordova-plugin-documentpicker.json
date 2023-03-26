@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-documentpicker",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "author": "Impossible",
+  "published": "2022-04-27T17:19:15.670Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "plugin",
+    "documentpicker"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "iOS plugin for Cordova writting in Swift.",
+  "downloads": 36
+}

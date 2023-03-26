@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-browsertab",
+  "version": "0.2.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "author": "Google, Inc.",
+  "published": "2022-06-13T23:55:51.342Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0"
+  ],
+  "keywords": [
+    "sfsafariviewcontroller",
+    "custom-tabs",
+    "browser-tabs",
+    "browser"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "In-app browser tabs for Android and iOS",
+  "downloads": 4085
+}

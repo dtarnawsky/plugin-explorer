@@ -1,0 +1,57 @@
+{
+  "name": "cordova-plugin-broadcaster",
+  "version": "4.3.1",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/bsorrentino/cordova-broadcaster.git",
+  "author": "bsorrentino",
+  "published": "2022-06-13T23:55:38.890Z",
+  "versions": [
+    "1.0.1",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "2.0.6",
+    "2.0.7",
+    "2.1.0",
+    "2.2.0",
+    "2.2.1",
+    "2.3.0",
+    "3.0.0",
+    "3.0.1",
+    "3.1.0",
+    "3.1.1",
+    "4.0.0",
+    "4.1.0",
+    "4.2.0",
+    "4.3.0",
+    "4.3.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "android",
+    "cordova",
+    "cordova-broadcaster",
+    "cordova-plugin",
+    "ios",
+    "localbroadcastmanager",
+    "notificationcenter"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Allow send message from Javascript to Native",
+  "bugs": "https://github.com/bsorrentino/cordova-broadcaster/issues",
+  "stars": 111,
+  "image": "https://avatars.githubusercontent.com/u/301596?v=4",
+  "quality": 271,
+  "updated": "2022-11-15T12:34:11Z",
+  "downloads": 4255
+}

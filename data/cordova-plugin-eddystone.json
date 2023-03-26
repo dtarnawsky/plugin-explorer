@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-eddystone",
+  "version": "1.3.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/evothings/cordova-eddystone.git",
+  "author": "Evothings",
+  "published": "2022-06-14T00:06:44.066Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.2.0",
+    "1.3.0"
+  ],
+  "keywords": [
+    "Eddystone",
+    "Beacons",
+    "ecosystem:cordova"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova/PhoneGap plugin for Eddystone beacons.",
+  "bugs": "https://github.com/evothings/cordova-eddystone/issues",
+  "stars": 57,
+  "image": "https://avatars.githubusercontent.com/u/5575818?v=4",
+  "quality": 215,
+  "updated": "2022-12-31T06:31:46Z",
+  "downloads": 157
+}

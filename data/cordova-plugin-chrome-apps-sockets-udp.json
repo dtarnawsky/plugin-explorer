@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-chrome-apps-sockets-udp",
+  "version": "1.3.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-sockets-udp.git",
+  "author": "",
+  "published": "2022-06-13T23:59:36.436Z",
+  "versions": [
+    "1.2.2",
+    "1.3.0"
+  ],
+  "keywords": [
+    "chrome",
+    "socket",
+    "sockets",
+    "udp",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin provides UDP sockets for Android and iOS.",
+  "bugs": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-sockets-udp/issues",
+  "stars": 78,
+  "image": "https://avatars.githubusercontent.com/u/2439313?v=4",
+  "quality": 235,
+  "updated": "2022-12-29T22:20:00Z",
+  "downloads": 561
+}

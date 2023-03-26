@@ -1,0 +1,50 @@
+{
+  "name": "cordova-plugin-dfu-update",
+  "version": "1.4.1",
+  "success": [],
+  "repo": "https://github.com/EinfachHans/cordova-plugin-dfu-update.git",
+  "author": "Hans Krywalsky",
+  "published": "2022-04-27T17:18:45.695Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0",
+    "1.4.0",
+    "1.4.1"
+  ],
+  "keywords": [
+    "cordova",
+    "update",
+    "dfu",
+    "nordic",
+    "device",
+    "firmware",
+    "upgrade",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Use Nordic Semiconductor's Device Firmware Update (DFU) service to update a Bluetooth LE device",
+  "bugs": "https://github.com/EinfachHans/cordova-plugin-dfu-update/issues",
+  "stars": 6,
+  "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
+  "quality": 125,
+  "updated": "2022-03-18T22:00:36Z",
+  "downloads": 218
+}

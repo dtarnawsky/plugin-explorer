@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-appsettings",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/mkliu/cordova-plugin-appsettings.git",
+  "author": "mkliu",
+  "published": "2022-06-13T23:49:18.685Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "cordova",
+    "settings",
+    "appsettings",
+    "config.xml",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Config.XML settings access Plugin",
+  "bugs": "https://github.com/mkliu/cordova-plugin-appsettings/issues",
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/1469524?v=4",
+  "quality": 118,
+  "updated": "2017-03-13T10:49:20Z",
+  "downloads": 693
+}

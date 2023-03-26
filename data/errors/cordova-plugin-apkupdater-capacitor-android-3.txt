@@ -1,0 +1,578 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :app:checkReleaseAarMetadata
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/StackExtractor.java:3: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/StackExtractor.java:4: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/StackExtractor.java:11: error: cannot find symbol
+        public static JSONObject format(Exception exception) {
+        ^
+        symbol:   class JSONObject
+        location: class StackExtractor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:3: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:4: error: package android.content.pm does not exist
+        import android.content.pm.PackageInfo;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:5: error: package android.content.pm does not exist
+        import android.content.pm.PackageManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:15: error: cannot find symbol
+        public static AppInfo getPackageInfo(Context context) throws PackageManager.NameNotFoundException, InvalidPackageException, IOException {
+        ^
+        symbol:   class Context
+        location: class AppData
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/AppInfo.java:3: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/AppInfo.java:4: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:15: error: package PackageManager does not exist
+        public static AppInfo getPackageInfo(Context context) throws PackageManager.NameNotFoundException, InvalidPackageException, IOException {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:19: error: cannot find symbol
+        public static AppInfo getPackageInfo(Context context, File apk) throws PackageManager.NameNotFoundException, InvalidPackageException, IOException {
+        ^
+        symbol:   class Context
+        location: class AppData
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:19: error: package PackageManager does not exist
+        public static AppInfo getPackageInfo(Context context, File apk) throws PackageManager.NameNotFoundException, InvalidPackageException, IOException {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/AppInfo.java:26: error: cannot find symbol
+        public JSONObject toJSON() throws JSONException {
+        ^
+        symbol:   class JSONObject
+        location: class AppInfo
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/AppInfo.java:26: error: cannot find symbol
+        public JSONObject toJSON() throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class AppInfo
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:3: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:4: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:5: error: package android.net does not exist
+        import android.net.Uri;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:6: error: package android.os does not exist
+        import android.os.Build;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:7: error: package android.provider does not exist
+        import android.provider.Settings;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:13: error: cannot find symbol
+        public static boolean canRequestPackageInstalls(Context context) {
+        ^
+        symbol:   class Context
+        location: class PermissionManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:21: error: cannot find symbol
+        public static void openInstallSetting(Context context) throws PlatformNotSupportedException {
+        ^
+        symbol:   class Context
+        location: class PermissionManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/DAReceiver.java:3: error: package android.app.admin does not exist
+        public class DAReceiver extends android.app.admin.DeviceAdminReceiver {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:3: error: package android.content does not exist
+        import android.content.BroadcastReceiver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:4: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:5: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:7: error: cannot find symbol
+        public class PackageReplacedReceiver extends BroadcastReceiver {
+        ^
+        symbol: class BroadcastReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:9: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol:   class Context
+        location: class PackageReplacedReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:9: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol:   class Intent
+        location: class PackageReplacedReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/downloader/Progress.java:3: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/downloader/Progress.java:4: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/downloader/Progress.java:42: error: cannot find symbol
+        public JSONObject toJSON() throws JSONException {
+        ^
+        symbol:   class JSONObject
+        location: class Progress
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/downloader/Progress.java:42: error: cannot find symbol
+        public JSONObject toJSON() throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class Progress
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:3: error: package android.app does not exist
+        import android.app.PendingIntent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:4: error: package android.app.admin does not exist
+        import android.app.admin.DevicePolicyManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:5: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:6: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:7: error: package android.content.pm does not exist
+        import android.content.pm.PackageInstaller;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:8: error: package android.content.pm does not exist
+        import android.content.pm.PackageManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:9: error: package android.net does not exist
+        import android.net.Uri;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:10: error: package android.os does not exist
+        import android.os.Build;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:29: error: cannot find symbol
+        private static Uri getUpdate(Context context, File update) throws IOException {
+        ^
+        symbol:   class Context
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:29: error: cannot find symbol
+        private static Uri getUpdate(Context context, File update) throws IOException {
+        ^
+        symbol:   class Uri
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:40: error: cannot find symbol
+        public static void install(Context context, File update) throws IOException {
+        ^
+        symbol:   class Context
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:58: error: cannot find symbol
+        public static boolean isDeviceRooted(Context context) {
+        ^
+        symbol:   class Context
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:82: error: cannot find symbol
+        public static void rootInstall(Context context, File update) throws IOException,
+        ^
+        symbol:   class Context
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:83: error: package PackageManager does not exist
+        PackageManager.NameNotFoundException, InvalidPackageException, RootException {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:128: error: cannot find symbol
+        public static boolean isDeviceOwner(Context context) {
+        ^
+        symbol:   class Context
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:133: error: cannot find symbol
+        public static void ownerInstall(Context context, File update) throws IOException {
+        ^
+        symbol:   class Context
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/FileProvider.java:3: error: cannot access ContentProvider
+        public class FileProvider extends androidx.core.content.FileProvider {
+        ^
+        class file for android.content.ContentProvider not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/WindowStatus.java:3: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/WindowStatus.java:4: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/WindowStatus.java:5: error: package android.view does not exist
+        import android.view.WindowManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/WindowStatus.java:9: error: cannot find symbol
+        public static boolean isWindowed(Context context) {
+        ^
+        symbol:   class Context
+        location: class WindowStatus
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/Update.java:3: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/Update.java:4: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/Update.java:23: error: cannot find symbol
+        public JSONObject toJSON() throws JSONException {
+        ^
+        symbol:   class JSONObject
+        location: class Update
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/Update.java:23: error: cannot find symbol
+        public JSONObject toJSON() throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class Update
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/UpdateManager.java:4: error: package android.content.pm does not exist
+        import android.content.pm.PackageManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/downloader/FileDownloader.java:3: error: package android.util does not exist
+        import android.util.Base64;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/UpdateManager.java:31: error: cannot find symbol
+        private final Context context;
+        ^
+        symbol:   class Context
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/UpdateManager.java:33: error: cannot find symbol
+        public UpdateManager(File downloadDirectory, Context context) {
+        ^
+        symbol:   class Context
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/UpdateManager.java:103: error: package PackageManager does not exist
+        InvalidPackageException, PackageManager.NameNotFoundException {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/UpdateManager.java:122: error: package PackageManager does not exist
+        InvalidPackageException, PackageManager.NameNotFoundException {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/UpdateManager.java:128: error: package PackageManager does not exist
+        InvalidPackageException, PackageManager.NameNotFoundException {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/ApkUpdater.java:6: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/ApkUpdater.java:7: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/ApkUpdater.java:77: error: cannot find symbol
+        private void download(JSONArray data, CallbackContext callbackContext) {
+        ^
+        symbol:   class JSONArray
+        location: class ApkUpdater
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/ApkUpdater.java:220: error: cannot find symbol
+        public boolean execute(String action, JSONArray data, CallbackContext callbackContext) {
+        ^
+        symbol:   class JSONArray
+        location: class ApkUpdater
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/StackExtractor.java:17: error: cannot find symbol
+        JSONObject error = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class StackExtractor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/StackExtractor.java:17: error: cannot find symbol
+        JSONObject error = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class StackExtractor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/StackExtractor.java:26: error: cannot find symbol
+        } catch (JSONException e) {
+        ^
+        symbol:   class JSONException
+        location: class StackExtractor
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:24: error: cannot find symbol
+        PackageManager packageManager = context.getPackageManager();
+        ^
+        symbol:   class PackageManager
+        location: class AppData
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/AppData.java:26: error: cannot find symbol
+        PackageInfo info;
+        ^
+        symbol:   class PackageInfo
+        location: class AppData
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/AppInfo.java:27: error: cannot find symbol
+        JSONObject appInfo = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AppInfo
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/AppInfo.java:27: error: cannot find symbol
+        JSONObject appInfo = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AppInfo
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/AppInfo.java:36: error: cannot find symbol
+        JSONObject version = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AppInfo
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/update/AppInfo.java:36: error: cannot find symbol
+        JSONObject version = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AppInfo
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:14: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:14: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:22: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:22: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:23: error: cannot find symbol
+        Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
+        ^
+        symbol:   class Intent
+        location: class PermissionManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:23: error: cannot find symbol
+        Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
+        ^
+        symbol:   class Intent
+        location: class PermissionManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:23: error: cannot find symbol
+        Intent intent = new Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES);
+        ^
+        symbol:   variable Settings
+        location: class PermissionManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PermissionManager.java:24: error: cannot find symbol
+        intent.setData(Uri.parse(String.format("package:%s", context.getPackageName())));
+        ^
+        symbol:   variable Uri
+        location: class PermissionManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:8: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:10: error: cannot find symbol
+        if (intent.getAction().equals(Intent.ACTION_MY_PACKAGE_REPLACED) && ApkInstaller.isDeviceOwner(context)) {
+        ^
+        symbol:   variable Intent
+        location: class PackageReplacedReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:12: error: cannot find symbol
+        Intent launchIntent = context.getPackageManager().getLaunchIntentForPackage(packageName);
+        ^
+        symbol:   class Intent
+        location: class PackageReplacedReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:13: error: cannot find symbol
+        launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        ^
+        symbol:   variable Intent
+        location: class PackageReplacedReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/PackageReplacedReceiver.java:14: error: cannot find symbol
+        launchIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        ^
+        symbol:   variable Intent
+        location: class PackageReplacedReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/downloader/Progress.java:43: error: cannot find symbol
+        JSONObject json = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class Progress
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/downloader/Progress.java:43: error: cannot find symbol
+        JSONObject json = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class Progress
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:30: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:30: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:36: error: cannot find symbol
+        return Uri.fromFile(externalPath);
+        ^
+        symbol:   variable Uri
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:41: error: cannot find symbol
+        Intent intent;
+        ^
+        symbol:   class Intent
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:42: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:42: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:43: error: cannot find symbol
+        intent = new Intent(Intent.ACTION_INSTALL_PACKAGE);
+        ^
+        symbol:   class Intent
+        location: class ApkInstaller
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/kolbasa/apkupdater/tools/ApkInstaller.java:43: error: cannot find symbol
+        intent = new Intent(Intent.ACTION_INSTALL_PACKAGE);
+        ^
+        symbol:   variable Intent
+        location: class ApkInstaller
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        100 errors
+        
+        > Task :app:processReleaseManifestForPackage
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 5s
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        89 actionable tasks: 89 executed
+        

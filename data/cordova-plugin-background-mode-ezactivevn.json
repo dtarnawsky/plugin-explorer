@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-background-mode-ezactivevn",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/katzer/cordova-plugin-background-mode.git",
+  "author": "Sebastián Katzer",
+  "published": "2022-11-29T08:44:56.134Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "appplant",
+    "background",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser",
+    "android",
+    "cordova",
+    "infinite",
+    "ios",
+    "windows-uwp"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Prevent apps from going to sleep in background.",
+  "bugs": "https://github.com/katzer/cordova-plugin-background-mode/issues",
+  "stars": 1374,
+  "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
+  "quality": 2723,
+  "updated": "2023-03-24T03:04:51Z",
+  "downloads": 23
+}

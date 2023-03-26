@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-android-mediastore",
+  "version": "0.1.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/Heartade/cordova-plugin-android-mediastore.git",
+  "author": "Soohan Park",
+  "published": "2022-04-27T17:09:50.783Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for saving base64 image DataURI to the gallery in Android",
+  "bugs": "https://github.com/Heartade/cordova-plugin-android-mediastore/issues",
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/24813078?v=4",
+  "quality": 117,
+  "updated": "2022-11-27T16:05:31Z",
+  "downloads": 81
+}

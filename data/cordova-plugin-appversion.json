@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-appversion",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/Rareloop/cordova-plugin-app-version.git",
+  "author": "Rareloop (http://rareloop.com)",
+  "published": "2022-06-13T23:49:36.184Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "appversion",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Access the native app version & build number in JavaScript",
+  "bugs": "https://github.com/Rareloop/cordova-plugin-app-version/issues",
+  "stars": 21,
+  "image": "https://avatars.githubusercontent.com/u/1554376?v=4",
+  "quality": 172,
+  "updated": "2023-01-14T03:28:37Z",
+  "downloads": 14201
+}

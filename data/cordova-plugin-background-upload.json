@@ -1,0 +1,59 @@
+{
+  "name": "cordova-plugin-background-upload",
+  "version": "1.1.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/spoonconsulting/cordova-plugin-background-upload.git",
+  "author": "Mevin Dhunnooa",
+  "published": "2022-06-13T23:51:46.350Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.8",
+    "1.0.11",
+    "1.0.12",
+    "1.0.13",
+    "1.0.14",
+    "1.0.15",
+    "1.0.16",
+    "1.1.0"
+  ],
+  "keywords": [
+    "cordova",
+    "background",
+    "file",
+    "upload",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "android",
+    "ios",
+    "plugin",
+    "upload-files",
+    "uploads"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for uploading file in the background",
+  "bugs": "https://github.com/spoonconsulting/cordova-plugin-background-upload/issues",
+  "stars": 47,
+  "image": "https://avatars.githubusercontent.com/u/15421014?v=4",
+  "quality": 224,
+  "updated": "2023-02-03T17:00:54Z",
+  "downloads": 171
+}

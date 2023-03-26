@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-applovin-max",
+  "version": "1.0.9",
+  "success": [],
+  "repo": "https://github.com/AppLovin/AppLovin-MAX-Cordova.git",
+  "author": "AppLovin Corporation",
+  "published": "2022-05-30T03:48:06.098Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9"
+  ],
+  "keywords": [
+    "applovin",
+    "max",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "AppLovin MAX Cordova Plugin for Android and iOS",
+  "bugs": "https://github.com/AppLovin/AppLovin-MAX-Cordova/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/1347429?v=4",
+  "quality": 127,
+  "updated": "2023-01-30T19:42:10Z",
+  "downloads": 228
+}

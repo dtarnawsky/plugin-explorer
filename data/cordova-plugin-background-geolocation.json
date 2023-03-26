@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-background-geolocation",
+  "version": "1.0.6",
+  "success": [],
+  "repo": "https://github.com/ZenCity/cordova-plugin-background-geolocation.git",
+  "author": "",
+  "published": "2022-06-13T23:51:16.225Z",
+  "versions": [
+    "1.0.5",
+    "1.0.6"
+  ],
+  "keywords": [
+    "phonegap",
+    "background geolocation",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Background GeoLocation Plugin",
+  "bugs": "https://github.com/ZenCity/cordova-plugin-background-geolocation/issues",
+  "stars": 14,
+  "image": "https://avatars.githubusercontent.com/u/11248038?v=4",
+  "quality": 22,
+  "updated": "2022-01-05T15:08:57Z",
+  "downloads": 806
+}

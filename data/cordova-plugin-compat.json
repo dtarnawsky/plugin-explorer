@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-compat",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "git://github.com/apache/cordova-plugin-compat.git",
+  "author": "Apache Software Foundation",
+  "published": "2022-06-14T00:01:01.438Z",
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "[DEPRECATED] This repo is for remaining backwards compatible with previous versions of Cordova.",
+  "bugs": "https://github.com/apache/cordova-plugin-compat/issues",
+  "quality": null,
+  "downloads": 22951
+}

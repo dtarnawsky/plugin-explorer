@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-cleartext",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "author": "JiaWei",
+  "published": "2022-04-27T17:16:13.931Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cleartext",
+    "usesCleartextTraffic",
+    "android9",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "",
+  "downloads": 11906
+}

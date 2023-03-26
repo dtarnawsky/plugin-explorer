@@ -1,0 +1,558 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :app:desugarReleaseFileDependencies
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseAarMetadata
+        > Task :app:bundleReleaseResources
+        > Task :app:mergeExtDexRelease
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:3: error: package android.app does not exist
+        import android.app.AlertDialog;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:4: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:5: error: package android.content does not exist
+        import android.content.DialogInterface;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:6: error: package android.content.DialogInterface does not exist
+        import android.content.DialogInterface.OnClickListener;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:7: error: package android.os does not exist
+        import android.os.Handler;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:8: error: package android.widget does not exist
+        import android.widget.ProgressBar;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:12: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:13: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:14: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:37: error: cannot find symbol
+        private JSONObject options;
+        ^
+        symbol:   class JSONObject
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:38: error: cannot find symbol
+        private JSONArray args;
+        ^
+        symbol:   class JSONArray
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:42: error: cannot find symbol
+        private Context mContext;
+        ^
+        symbol:   class Context
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:3: error: package android.app does not exist
+        import android.app.AlertDialog;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:4: error: package android.app.AlertDialog does not exist
+        import android.app.AlertDialog.Builder;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:5: error: package android.app does not exist
+        import android.app.Dialog;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:6: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:7: error: package android.content does not exist
+        import android.content.DialogInterface;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:8: error: package android.content.DialogInterface does not exist
+        import android.content.DialogInterface.OnClickListener;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:9: error: package android.view does not exist
+        import android.view.LayoutInflater;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:10: error: package android.view does not exist
+        import android.view.View;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:11: error: package android.widget does not exist
+        import android.widget.ProgressBar;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:5: error: package android.content.pm.PackageManager does not exist
+        import android.content.pm.PackageManager.NameNotFoundException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:6: error: package android.os does not exist
+        import android.os.Handler;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:7: error: package android.util does not exist
+        import android.util.Base64;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:10: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:4: error: package android.app does not exist
+        import android.app.AlertDialog;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:6: error: package android.os does not exist
+        import android.os.Environment;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:7: error: package android.os does not exist
+        import android.os.Handler;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:8: error: package android.widget does not exist
+        import android.widget.ProgressBar;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:9: error: package android.util does not exist
+        import android.util.Base64;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:11: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:49: error: cannot find symbol
+        public UpdateManager(Context context, CordovaInterface cordova) {
+        ^
+        symbol:   class Context
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:56: error: cannot find symbol
+        public UpdateManager(JSONArray args, CallbackContext callbackContext, Context context, JSONObject options) {
+        ^
+        symbol:   class JSONArray
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:56: error: cannot find symbol
+        public UpdateManager(JSONArray args, CallbackContext callbackContext, Context context, JSONObject options) {
+        ^
+        symbol:   class Context
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:56: error: cannot find symbol
+        public UpdateManager(JSONArray args, CallbackContext callbackContext, Context context, JSONObject options) {
+        ^
+        symbol:   class JSONObject
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:60: error: cannot find symbol
+        public UpdateManager(JSONArray args, CallbackContext callbackContext, Context context, String updateUrl, JSONObject options) {
+        ^
+        symbol:   class JSONArray
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:60: error: cannot find symbol
+        public UpdateManager(JSONArray args, CallbackContext callbackContext, Context context, String updateUrl, JSONObject options) {
+        ^
+        symbol:   class Context
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:60: error: cannot find symbol
+        public UpdateManager(JSONArray args, CallbackContext callbackContext, Context context, String updateUrl, JSONObject options) {
+        ^
+        symbol:   class JSONObject
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:70: error: cannot find symbol
+        public UpdateManager options(JSONArray args, CallbackContext callbackContext)
+        ^
+        symbol:   class JSONArray
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:71: error: cannot find symbol
+        throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:79: error: cannot find symbol
+        private Handler mHandler = new Handler() {
+        ^
+        symbol:   class Handler
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:185: error: cannot find symbol
+        private OnClickListener noticeDialogOnClick = new OnClickListener() {
+        ^
+        symbol:   class OnClickListener
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:216: error: cannot find symbol
+        private OnClickListener downloadDialogOnClickNeu = new OnClickListener() {
+        ^
+        symbol:   class OnClickListener
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:226: error: cannot find symbol
+        private OnClickListener downloadDialogOnClickPos = new OnClickListener() {
+        ^
+        symbol:   class OnClickListener
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:237: error: cannot find symbol
+        private OnClickListener downloadDialogOnClickNeg = new OnClickListener() {
+        ^
+        symbol:   class OnClickListener
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:246: error: cannot find symbol
+        private OnClickListener errorDialogOnClick = new OnClickListener() {
+        ^
+        symbol:   class OnClickListener
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:259: error: cannot find symbol
+        private void downloadApk(AlertDialog mDownloadDialog, ProgressBar mProgress) {
+        ^
+        symbol:   class AlertDialog
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/UpdateManager.java:259: error: cannot find symbol
+        private void downloadApk(AlertDialog mDownloadDialog, ProgressBar mProgress) {
+        ^
+        symbol:   class ProgressBar
+        location: class UpdateManager
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:38: error: cannot find symbol
+        private AlertDialog mDownloadDialog;
+        ^
+        symbol:   class AlertDialog
+        location: class DownloadApkThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:5: error: package android.app does not exist
+        import android.app.AlertDialog;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:6: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:8: error: package android.content does not exist
+        import android.content.DialogInterface;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:9: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:10: error: package android.net does not exist
+        import android.net.Uri;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:11: error: package android.os does not exist
+        import android.os.Build;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:12: error: package android.os does not exist
+        import android.os.Handler;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:13: error: package android.os does not exist
+        import android.os.Message;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:14: error: package android.view does not exist
+        import android.view.View;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:15: error: package android.view.View does not exist
+        import android.view.View.OnClickListener;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:16: error: package android.widget does not exist
+        import android.widget.ProgressBar;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:17: error: package android.support.v4.content does not exist
+        import android.support.v4.content.FileProvider;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:26: error: cannot find symbol
+        public class DownloadHandler extends Handler {
+        ^
+        symbol: class Handler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:40: error: cannot find symbol
+        private Handler mHandler;
+        ^
+        symbol:   class Handler
+        location: class DownloadApkThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/AuthenticationOptions.java:4: error: package android.util does not exist
+        import android.util.Base64;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/AuthenticationOptions.java:6: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:43: error: cannot find symbol
+        public DownloadApkThread(Context mContext, Handler mHandler, ProgressBar mProgress, AlertDialog mDownloadDialog, HashMap<String, String> mHashMap, JSONObject options) {
+        ^
+        symbol:   class Context
+        location: class DownloadApkThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:43: error: cannot find symbol
+        public DownloadApkThread(Context mContext, Handler mHandler, ProgressBar mProgress, AlertDialog mDownloadDialog, HashMap<String, String> mHashMap, JSONObject options) {
+        ^
+        symbol:   class Handler
+        location: class DownloadApkThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:43: error: cannot find symbol
+        public DownloadApkThread(Context mContext, Handler mHandler, ProgressBar mProgress, AlertDialog mDownloadDialog, HashMap<String, String> mHashMap, JSONObject options) {
+        ^
+        symbol:   class ProgressBar
+        location: class DownloadApkThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:43: error: cannot find symbol
+        public DownloadApkThread(Context mContext, Handler mHandler, ProgressBar mProgress, AlertDialog mDownloadDialog, HashMap<String, String> mHashMap, JSONObject options) {
+        ^
+        symbol:   class AlertDialog
+        location: class DownloadApkThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadApkThread.java:43: error: cannot find symbol
+        public DownloadApkThread(Context mContext, Handler mHandler, ProgressBar mProgress, AlertDialog mDownloadDialog, HashMap<String, String> mHashMap, JSONObject options) {
+        ^
+        symbol:   class JSONObject
+        location: class DownloadApkThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/AuthenticationOptions.java:17: error: cannot find symbol
+        public AuthenticationOptions(JSONObject options) {
+        ^
+        symbol:   class JSONObject
+        location: class AuthenticationOptions
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:29: error: cannot find symbol
+        private Context mContext;
+        ^
+        symbol:   class Context
+        location: class DownloadHandler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:31: error: cannot find symbol
+        private ProgressBar mProgress;
+        ^
+        symbol:   class ProgressBar
+        location: class DownloadHandler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgHelper.java:3: error: package android.content.res does not exist
+        import android.content.res.Resources;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:39: error: cannot find symbol
+        private AlertDialog mDownloadDialog;
+        ^
+        symbol:   class AlertDialog
+        location: class DownloadHandler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:41: error: cannot find symbol
+        public DownloadHandler(Context mContext, ProgressBar mProgress, AlertDialog mDownloadDialog, String mSavePath, HashMap<String, String> mHashMap) {
+        ^
+        symbol:   class Context
+        location: class DownloadHandler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:41: error: cannot find symbol
+        public DownloadHandler(Context mContext, ProgressBar mProgress, AlertDialog mDownloadDialog, String mSavePath, HashMap<String, String> mHashMap) {
+        ^
+        symbol:   class ProgressBar
+        location: class DownloadHandler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:41: error: cannot find symbol
+        public DownloadHandler(Context mContext, ProgressBar mProgress, AlertDialog mDownloadDialog, String mSavePath, HashMap<String, String> mHashMap) {
+        ^
+        symbol:   class AlertDialog
+        location: class DownloadHandler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:50: error: cannot find symbol
+        public void handleMessage(Message msg) {
+        ^
+        symbol:   class Message
+        location: class DownloadHandler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/DownloadHandler.java:82: error: cannot find symbol
+        private OnClickListener downloadCompleteOnClick = new OnClickListener() {
+        ^
+        symbol:   class OnClickListener
+        location: class DownloadHandler
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgHelper.java:10: error: cannot find symbol
+        private Resources resources;
+        ^
+        symbol:   class Resources
+        location: class MsgHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgHelper.java:27: error: cannot find symbol
+        MsgHelper(String packageName, Resources resources) {
+        ^
+        symbol:   class Resources
+        location: class MsgHelper
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:30: error: cannot find symbol
+        private Context mContext;
+        ^
+        symbol:   class Context
+        location: class CheckUpdateThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:35: error: cannot find symbol
+        private Handler mHandler;
+        ^
+        symbol:   class Handler
+        location: class CheckUpdateThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:45: error: cannot find symbol
+        public CheckUpdateThread(Context mContext, Handler mHandler, List<Version> queue, String packageName, String updateXmlUrl, JSONObject options) {
+        ^
+        symbol:   class Context
+        location: class CheckUpdateThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:45: error: cannot find symbol
+        public CheckUpdateThread(Context mContext, Handler mHandler, List<Version> queue, String packageName, String updateXmlUrl, JSONObject options) {
+        ^
+        symbol:   class Handler
+        location: class CheckUpdateThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:45: error: cannot find symbol
+        public CheckUpdateThread(Context mContext, Handler mHandler, List<Version> queue, String packageName, String updateXmlUrl, JSONObject options) {
+        ^
+        symbol:   class JSONObject
+        location: class CheckUpdateThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/CheckUpdateThread.java:118: error: cannot find symbol
+        private int getVersionCodeLocal(Context context) {
+        ^
+        symbol:   class Context
+        location: class CheckUpdateThread
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:22: error: cannot find symbol
+        private Context mContext;
+        ^
+        symbol:   class Context
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:25: error: cannot find symbol
+        private Dialog noticeDialog;
+        ^
+        symbol:   class Dialog
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:26: error: cannot find symbol
+        private AlertDialog downloadDialog;
+        ^
+        symbol:   class AlertDialog
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:27: error: cannot find symbol
+        private ProgressBar downloadDialogProgress;
+        ^
+        symbol:   class ProgressBar
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:28: error: cannot find symbol
+        private Dialog errorDialog;
+        ^
+        symbol:   class Dialog
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:30: error: cannot find symbol
+        public MsgBox(Context mContext) {
+        ^
+        symbol:   class Context
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:40: error: cannot find symbol
+        public Dialog showNoticeDialog(OnClickListener onClickListener) {
+        ^
+        symbol:   class OnClickListener
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:40: error: cannot find symbol
+        public Dialog showNoticeDialog(OnClickListener onClickListener) {
+        ^
+        symbol:   class Dialog
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:62: error: cannot find symbol
+        public Map<String, Object> showDownloadDialog(OnClickListener onClickListenerNeg,
+        ^
+        symbol:   class OnClickListener
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:63: error: cannot find symbol
+        OnClickListener onClickListenerPos,
+        ^
+        symbol:   class OnClickListener
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:64: error: cannot find symbol
+        OnClickListener onClickListenerNeu,
+        ^
+        symbol:   class OnClickListener
+        location: class MsgBox
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/vaenow/appupdate/android/MsgBox.java:109: error: cannot find symbol
+        public Dialog showErrorDialog(OnClickListener errorDialogOnClick) {
+        ^
+        symbol:   class OnClickListener
+        location: class MsgBox
+        100 errors
+        
+        > Task :app:processReleaseManifestForPackage
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 4s
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        74 actionable tasks: 74 executed
+        

@@ -1,0 +1,46 @@
+{
+  "name": "cordova-plugin-android-volume",
+  "version": "0.0.14",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/MCluck90/cordova-plugin-android-volume.git",
+  "author": "",
+  "published": "2022-06-13T23:47:28.658Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.0.10",
+    "0.0.11",
+    "0.0.12",
+    "0.0.13",
+    "0.0.14"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "android",
+    "cordova",
+    "cordova-plugin",
+    "volume"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Set the volume on Android devices",
+  "bugs": "https://github.com/MCluck90/cordova-plugin-android-volume/issues",
+  "stars": 10,
+  "image": "https://avatars.githubusercontent.com/u/1753801?v=4",
+  "quality": 125,
+  "updated": "2023-03-06T09:03:59Z",
+  "downloads": 957
+}

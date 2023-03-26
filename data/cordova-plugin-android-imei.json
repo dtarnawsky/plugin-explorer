@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-android-imei",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/kapetan/cordova-plugin-android-imei.git",
+  "author": "Mirza Kapetanovic",
+  "published": "2022-04-27T17:09:45.774Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for retrieving IMEI of the device",
+  "bugs": "https://github.com/kapetan/cordova-plugin-android-imei/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/789564?v=4",
+  "quality": 106,
+  "updated": "2018-07-22T19:29:27Z",
+  "downloads": 174
+}

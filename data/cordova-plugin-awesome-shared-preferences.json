@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-awesome-shared-preferences",
+  "version": "0.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/adriano-di-giovanni/cordova-plugin-shared-preferences.git",
+  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
+  "published": "2022-06-13T23:50:53.719Z",
+  "versions": [
+    "0.1.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "shared",
+    "preferences",
+    "cordova",
+    "cordova-android-plugin",
+    "cordova-ios-plugin",
+    "cordova-plugin",
+    "shared-preferences"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Shared preferences for Cordova. Save and retrieve persistent key-value pairs of any Javascript data type.",
+  "bugs": "https://github.com/adriano-di-giovanni/cordova-plugin-shared-preferences/issues",
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/3408372?v=4",
+  "quality": 118,
+  "updated": "2022-04-21T19:00:00Z",
+  "downloads": 423
+}

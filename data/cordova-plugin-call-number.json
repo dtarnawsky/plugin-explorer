@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-call-number",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/ihadeed/cordova-plugin-call-number.git",
+  "author": "",
+  "published": "2022-06-13T23:57:06.363Z",
+  "versions": [
+    "1.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "call",
+    "dialer",
+    "phonegap",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Call Number from Cordova Application",
+  "bugs": "https://github.com/ihadeed/cordova-plugin-call-number/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
+  "quality": 13,
+  "updated": "2020-06-22T20:28:56Z",
+  "downloads": 1922
+}

@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-chrome-apps-iossocketscommon",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-iosSocketsCommon.git",
+  "author": "",
+  "published": "2022-06-13T23:59:11.412Z",
+  "versions": [
+    "1.0.2"
+  ],
+  "keywords": [
+    "chrome",
+    "ios",
+    "sockets",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin provides common services for chrome.socket and chrome.sockets APIs on iOS.",
+  "bugs": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-iosSocketsCommon/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/2439313?v=4",
+  "quality": 108,
+  "updated": "2023-01-28T08:50:16Z",
+  "downloads": 715
+}

@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-biometric",
+  "version": "0.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "author": "Coder",
+  "published": "2022-04-27T17:13:30.899Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3"
+  ],
+  "keywords": [
+    "TouchID",
+    "Touch ID",
+    "Face ID",
+    "iPhone X",
+    "Fingerprint",
+    "Biometric",
+    "Scanner",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Scan the fingerprint of your user with the TouchID sensor, or the user's Face with Face ID on iPhone X",
+  "downloads": 73
+}

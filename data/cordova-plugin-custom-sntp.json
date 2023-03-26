@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-custom-sntp",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "",
+  "author": "Open",
+  "published": "2022-04-27T17:17:53.274Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "sntp",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova SNTP Plugin",
+  "downloads": 4
+}

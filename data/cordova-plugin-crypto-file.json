@@ -1,0 +1,41 @@
+{
+  "name": "cordova-plugin-crypto-file",
+  "version": "1.4.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/PeterHdd/cordova-plugin-crypto-file.git",
+  "author": "PeterHdd",
+  "published": "2022-04-27T17:17:38.804Z",
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.4.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "ionic",
+    "plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin to encrypt/decrypt the source files.",
+  "bugs": "https://github.com/PeterHdd/cordova-plugin-crypto-file/issues",
+  "stars": 29,
+  "image": "https://avatars.githubusercontent.com/u/29070108?v=4",
+  "quality": 174,
+  "updated": "2023-02-13T19:14:53Z",
+  "downloads": 124
+}

@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-devoptionschecker",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "author": "mmenezes",
+  "published": "2022-04-27T17:18:44.022Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "developer-options",
+    "developer-settings",
+    "checker"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This is a cordova plugin that verifies if developer settings is enabled.",
+  "downloads": 449
+}

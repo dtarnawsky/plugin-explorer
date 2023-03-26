@@ -1,0 +1,43 @@
+{
+  "name": "cordova-plugin-btprinter",
+  "version": "1.0.9",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/kevbarrios/cordova-plugin-btprinter.git",
+  "author": "Kevin Barrios",
+  "published": "2022-04-27T17:14:25.191Z",
+  "versions": [
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9"
+  ],
+  "keywords": [
+    "cordova",
+    "zebra",
+    "printer",
+    "bluetooth",
+    "print",
+    "android",
+    "install",
+    "ecosystem:cordova",
+    "cordova-android",
+    "btprinter",
+    "image",
+    "zpl"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova/Phonegap driver for bluetooth printers",
+  "bugs": "https://github.com/kevbarrios/cordova-plugin-btprinter/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/59294983?v=4",
+  "quality": 103,
+  "updated": "2022-11-22T18:54:34Z",
+  "downloads": 63
+}

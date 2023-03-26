@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-detect-screenshot",
+  "version": "1.0.8",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/restocks/cordova-plugin-detect-screenshot.git",
+  "author": "Restocks",
+  "published": "2022-06-14T00:04:26.505Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8"
+  ],
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Detects screenshots on iOS",
+  "bugs": "https://github.com/restocks/cordova-plugin-detect-screenshot/issues",
+  "stars": 16,
+  "image": "https://avatars.githubusercontent.com/u/18449739?v=4",
+  "quality": 132,
+  "updated": "2023-01-28T17:53:51Z",
+  "downloads": 593
+}

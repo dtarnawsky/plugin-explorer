@@ -1,0 +1,45 @@
+{
+  "name": "cordova-plugin-customurlscheme-ng",
+  "version": "13.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/cmgustavo/Custom-URL-scheme.git",
+  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
+  "published": "2022-04-27T17:17:59.787Z",
+  "versions": [
+    "5.0.0",
+    "5.0.1",
+    "6.0.0",
+    "7.0.0",
+    "8.0.0",
+    "9.0.0",
+    "10.0.0",
+    "11.0.0",
+    "12.0.0",
+    "13.0.0"
+  ],
+  "keywords": [
+    "Custom URL Scheme",
+    "URLscheme",
+    "URL scheme",
+    "Custom URL",
+    "Launch My App",
+    "Launch App",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Launch your app by using this URL:  mycoolapp://, you can add a path and even pass params like this: mycoolerapp://somepath?foo=bar, supports up to 9 scheme.",
+  "bugs": "https://github.com/cmgustavo/Custom-URL-scheme/issues",
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/237435?v=4",
+  "quality": 19,
+  "updated": "2022-10-02T11:53:24Z",
+  "downloads": 188
+}

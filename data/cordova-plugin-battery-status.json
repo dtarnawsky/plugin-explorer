@@ -1,0 +1,63 @@
+{
+  "name": "cordova-plugin-battery-status",
+  "version": "2.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/apache/cordova-plugin-battery-status.git",
+  "author": "Apache Software Foundation",
+  "published": "2022-06-13T23:52:31.339Z",
+  "versions": [
+    "0.2.1",
+    "0.2.3",
+    "0.2.4",
+    "0.2.5",
+    "0.2.6",
+    "0.2.7",
+    "0.2.9",
+    "0.2.10",
+    "0.2.11",
+    "0.2.12",
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4",
+    "1.2.5",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3"
+  ],
+  "keywords": [
+    "cordova",
+    "battery",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cplusplus",
+    "csharp",
+    "java",
+    "javascript",
+    "library",
+    "mobile",
+    "nodejs",
+    "objective-c"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Battery Plugin",
+  "bugs": "https://issues.apache.org/jira/browse/CB",
+  "stars": 95,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "quality": 355,
+  "updated": "2023-03-02T21:33:35Z",
+  "downloads": 4974
+}

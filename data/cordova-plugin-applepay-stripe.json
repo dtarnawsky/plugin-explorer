@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-applepay-stripe",
+  "version": "2.2.6",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/monoku/cordova-plugin-applepay-stripe.git",
+  "author": "David Avellaneda <david@monoku.com> (https://monoku.com/)",
+  "published": "2022-06-13T23:48:56.189Z",
+  "versions": [
+    "2.2.0",
+    "2.2.1",
+    "2.2.2",
+    "2.2.3",
+    "2.2.5",
+    "2.2.6"
+  ],
+  "keywords": [],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "An adapted Cordova plugin to provide Apple Pay functionality with Stripe integration. Based on cordova-plugin-applepay.",
+  "bugs": "https://github.com/monoku/cordova-plugin-applepay-stripe/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/196964?v=4",
+  "quality": 19,
+  "updated": "2020-10-19T06:27:55Z",
+  "downloads": 52
+}

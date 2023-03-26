@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-capacitor-jpush",
+  "version": "4.0.4",
+  "success": [],
+  "repo": "https://github.com/caoguanjie/cordova-plugin-capacitor-jpush.git",
+  "author": "caoguanjie",
+  "published": "2022-09-20T03:55:50.608Z",
+  "versions": [
+    "3.7.3",
+    "3.7.4",
+    "4.0.0",
+    "4.0.1",
+    "4.0.2",
+    "4.0.3",
+    "4.0.4"
+  ],
+  "keywords": [
+    "JPush",
+    "push",
+    "Push",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "JPush for cordova plugin",
+  "bugs": "https://github.com/caoguanjie/cordova-plugin-capacitor-jpush/issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/23491340?v=4",
+  "quality": 111,
+  "updated": "2023-03-02T01:13:46Z",
+  "downloads": 34
+}

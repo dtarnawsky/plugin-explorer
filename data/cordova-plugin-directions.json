@@ -1,0 +1,47 @@
+{
+  "name": "cordova-plugin-directions",
+  "version": "0.4.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/leecrossley/cordova-plugin-directions.git",
+  "author": "",
+  "published": "2022-06-14T00:05:44.058Z",
+  "versions": [
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.4.1",
+    "0.4.2",
+    "0.4.3",
+    "0.4.4"
+  ],
+  "keywords": [
+    "cordova",
+    "direction",
+    "directions",
+    "map",
+    "maps",
+    "latitude",
+    "longitude",
+    "satnav",
+    "address",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Directions Plugin to utilise native maps for satnav style direction purposes (using latitude and longitude or address).",
+  "bugs": "https://github.com/leecrossley/cordova-plugin-directions/issues",
+  "stars": 29,
+  "image": "https://avatars.githubusercontent.com/u/807783?v=4",
+  "quality": 143,
+  "updated": "2020-04-14T21:42:58Z",
+  "downloads": 70
+}

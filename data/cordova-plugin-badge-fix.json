@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-badge-fix",
+  "version": "0.8.10",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/bhandaribhumin/cordova-plugin-badge-fix.git",
+  "author": "Sebastián Katzer",
+  "published": "2022-08-08T10:17:04.846Z",
+  "versions": [
+    "0.8.9",
+    "0.8.10"
+  ],
+  "keywords": [
+    "appplant",
+    "badge",
+    "shortcutbadger",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Shows the count of unread messages as a badge on the app icon.",
+  "bugs": "https://github.com/bhandaribhumin/cordova-plugin-badge-fix/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/3336047?v=4",
+  "quality": 101,
+  "updated": "2022-11-29T11:00:59Z",
+  "downloads": 3460
+}

@@ -1,0 +1,47 @@
+{
+  "name": "cordova-plugin-cors",
+  "version": "1.3.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/Raphcal/cordova-plugin-cors.git",
+  "author": "Raphaël Calabro <ddaeke-npmjs@yahoo.com>",
+  "published": "2022-04-27T17:17:12.795Z",
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0"
+  ],
+  "keywords": [
+    "cordova",
+    "cors",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-ios-plugin",
+    "cordova-plugin",
+    "objective-c",
+    "typescript"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Allow CORS requests on iOS with WKWebView.",
+  "bugs": "https://github.com/Raphcal/cordova-plugin-cors/issues",
+  "stars": 12,
+  "image": "https://avatars.githubusercontent.com/u/7645234?v=4",
+  "quality": 122,
+  "updated": "2022-10-19T10:26:48Z",
+  "downloads": 582
+}

@@ -540,9 +540,7 @@ cordova-plugin-advanced-imagepicker
 cordova-plugin-advanced-websocket
 cordova-plugin-aes256-encryption
 cordova-plugin-amazon-iapv2
-cordova-plugin-amr
 cordova-plugin-analytics
-cordova-plugin-android-background-mode
 cordova-plugin-android-dark-mode-support
 cordova-plugin-android-fingerprint-auth
 cordova-plugin-android-fragmentactivity
@@ -551,7 +549,6 @@ cordova-plugin-android-mediastore
 cordova-plugin-android-notch
 cordova-plugin-android-notification-manager
 cordova-plugin-android-permissions
-cordova-plugin-android-printing
 cordova-plugin-android-rootbeer
 cordova-plugin-android-softinputmode
 cordova-plugin-android-support-v4-jar
@@ -570,7 +567,6 @@ cordova-plugin-app-review
 cordova-plugin-app-update
 cordova-plugin-app-version
 cordova-plugin-appavailability
-cordova-plugin-appboy
 cordova-plugin-appcenter-analytics
 cordova-plugin-appcenter-crashes
 cordova-plugin-appcenter-shared
@@ -579,7 +575,6 @@ cordova-plugin-apple-pay-google-pay-with-environment
 cordova-plugin-apple-watch
 cordova-plugin-applepay
 cordova-plugin-applepay-stripe
-cordova-plugin-applepaybt
 cordova-plugin-applovin-max
 cordova-plugin-appminimize
 cordova-plugin-apprate
@@ -588,11 +583,9 @@ cordova-plugin-appsflyer-sdk
 cordova-plugin-appversion
 cordova-plugin-attestation
 cordova-plugin-audio-recorder
-cordova-plugin-audiofocus
 cordova-plugin-audioinput
 cordova-plugin-auth-dialog
 cordova-plugin-autostart
-cordova-plugin-availosdk
 cordova-plugin-avaudiosession
 cordova-plugin-awesome-shared-preferences
 cordova-plugin-back-as-home
@@ -609,7 +602,6 @@ cordova-plugin-background-task
 cordova-plugin-background-upload
 cordova-plugin-badge
 cordova-plugin-badge-fix
-cordova-plugin-barcode-scanner
 cordova-plugin-barcodescanner
 cordova-plugin-base64-joewsh
 cordova-plugin-battery-status
@@ -621,12 +613,8 @@ cordova-plugin-biometric
 cordova-plugin-ble
 cordova-plugin-ble-central
 cordova-plugin-ble-peripheral
-cordova-plugin-blink-airplay-picker
-cordova-plugin-blink-instagram-story-share
-cordova-plugin-blink-passkit
 cordova-plugin-bluetooth-classic-serial-port
 cordova-plugin-bluetooth-peripheral-usage-description
-cordova-plugin-bluetooth-printer
 cordova-plugin-bluetooth-serial
 cordova-plugin-bluetoothle
 cordova-plugin-brightness
@@ -637,8 +625,6 @@ cordova-plugin-browser
 cordova-plugin-browsersync
 cordova-plugin-browsersync-gen2
 cordova-plugin-browsertab
-cordova-plugin-bt-print
-cordova-plugin-btdevicelist
 cordova-plugin-btprinter
 cordova-plugin-bugfender
 cordova-plugin-buildinfo
@@ -653,7 +639,6 @@ cordova-plugin-camera-preview
 cordova-plugin-camera-stream
 cordova-plugin-camera-with-exif
 cordova-plugin-capacitor-jpush
-cordova-plugin-card-pin-set
 cordova-plugin-cartegraph-cookie-master
 cordova-plugin-certificates
 cordova-plugin-chooser
@@ -664,9 +649,6 @@ cordova-plugin-chrome-apps-sockets-udp
 cordova-plugin-chrome-apps-system-cpu
 cordova-plugin-cipherlab-barcode-reader
 cordova-plugin-cleartext
-cordova-plugin-clickc66
-cordova-plugin-clicknordic
-cordova-plugin-client-zoom
 cordova-plugin-clipboard
 cordova-plugin-cloud-settings
 cordova-plugin-cocoapod-support
@@ -682,7 +664,6 @@ cordova-plugin-contacts-x
 cordova-plugin-cookiemaster
 cordova-plugin-cookies
 cordova-plugin-cors
-cordova-plugin-couchbase-lite-2.0
 cordova-plugin-crop
 cordova-plugin-crosswalk-webview
 cordova-plugin-crypto-file
@@ -691,8 +672,6 @@ cordova-plugin-custom-sntp
 cordova-plugin-customconfigparameters
 cordova-plugin-customurlscheme
 cordova-plugin-customurlscheme-ng
-cordova-plugin-d3
-cordova-plugin-datautils
 cordova-plugin-datecs-printer
 cordova-plugin-datepicker
 cordova-plugin-dbcopy
@@ -706,13 +685,11 @@ cordova-plugin-device
 cordova-plugin-device-motion
 cordova-plugin-device-name
 cordova-plugin-device-orientation
-cordova-plugin-deviceadmin
 cordova-plugin-devoptionschecker
 cordova-plugin-dfu-update
 cordova-plugin-dialogs
 cordova-plugin-directions
 cordova-plugin-disable-ios11-statusbar
-cordova-plugin-discover
 cordova-plugin-discovery
 cordova-plugin-dns
 cordova-plugin-document-scanner
@@ -721,10 +698,6 @@ cordova-plugin-documentpicker
 cordova-plugin-doze-optimize
 cordova-plugin-drawoverapps
 cordova-plugin-dynamsoft-barcode-reader
-cordova-plugin-eaton-app-state
-cordova-plugin-eaton-http
-cordova-plugin-eaton-mdns
-cordova-plugin-eatonwebsocket
 cordova-plugin-eddystone
 cordova-plugin-email
 cordova-plugin-email-composer

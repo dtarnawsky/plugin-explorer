@@ -1,0 +1,28 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+        It will be removed in version 7.0 of the Android Gradle plugin.
+        For more information, see http://d.android.com/r/tools/update-dependency-configurations.html.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/cordova-plugin-drawoverapps/src/android/overApp.gradle' line: 1
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > Failed to apply plugin 'com.android.internal.application'.
+        > org.gradle.api.InvalidUserDataException: Cannot add a configuration with name 'lintClassPath' as a configuration with that name already exists.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 1s
+        

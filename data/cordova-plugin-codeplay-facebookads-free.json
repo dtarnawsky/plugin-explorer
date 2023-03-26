@@ -1,0 +1,55 @@
+{
+  "name": "cordova-plugin-codeplay-facebookads-free",
+  "version": "0.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/merbin2012/cordova-plugin-codeplay-facebookads-free.git",
+  "author": "Merbin Joe",
+  "published": "2022-04-27T17:16:35.750Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8",
+    "0.1.9",
+    "0.2.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-facebook",
+    "cordova-audience-network",
+    "cordova-free-ads",
+    "cordova-free-audience-network",
+    "facebook-ads",
+    "cordova-facebook-ads",
+    "facebook",
+    "audience-network"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Free facebook audience network ads for cordova user. This supports banner ads, Interstitial ads and reward video.",
+  "bugs": "https://github.com/merbin2012/cordova-plugin-codeplay-facebookads-free/issues",
+  "stars": 21,
+  "image": "https://avatars.githubusercontent.com/u/3687184?v=4",
+  "quality": 141,
+  "updated": "2022-02-05T20:53:41Z",
+  "downloads": 39
+}

@@ -1,0 +1,43 @@
+{
+  "name": "cordova-plugin-device-name",
+  "version": "1.3.5",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/becvert/cordova-plugin-device-name.git",
+  "author": "Sylvain Bréjeon (https://github.com/becvert)",
+  "published": "2022-06-14T00:04:51.509Z",
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0",
+    "1.3.1",
+    "1.3.2",
+    "1.3.3",
+    "1.3.4",
+    "1.3.5"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-ios",
+    "cordova",
+    "device",
+    "name"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Device Name Plugin",
+  "bugs": "https://github.com/becvert/cordova-plugin-device-name/issues",
+  "stars": 14,
+  "image": "https://avatars.githubusercontent.com/u/1422417?v=4",
+  "quality": 136,
+  "updated": "2023-03-06T09:04:19Z",
+  "downloads": 2113
+}

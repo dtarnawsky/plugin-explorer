@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-android-softinputmode",
+  "version": "0.2.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://ziihrs@bitbucket.org/sculpto/cordova-plugin-android-softinputmode.git",
+  "author": "Oskar Haarklou Veileborg",
+  "published": "2022-06-13T23:47:03.676Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.2.0",
+    "0.2.1"
+  ],
+  "keywords": [
+    "cordova",
+    "android",
+    "softinputmode",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Plugin for changing SoftInputMode at runtime",
+  "downloads": 314
+}

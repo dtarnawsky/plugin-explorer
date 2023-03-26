@@ -1,0 +1,52 @@
+{
+  "name": "cordova-plugin-dbcopy",
+  "version": "2.1.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/an-rahulpandey/cordova-plugin-dbcopy.git",
+  "author": "Rahul Pandey",
+  "published": "2022-06-14T00:04:11.518Z",
+  "versions": [
+    "1.0.3",
+    "1.1.0",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "2.1.2"
+  ],
+  "keywords": [
+    "sqlite db copy",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "db copy",
+    "cordova sqlite",
+    "database copy",
+    "sqlite database copy",
+    "android",
+    "cordova",
+    "cordova-android-plugin",
+    "cordova-database-copy",
+    "cordova-ios-plugin",
+    "cordova-plugin",
+    "cordova-plugin-dbcopy",
+    "java",
+    "objective-c",
+    "phonegap-plugin",
+    "sqlite-database",
+    "sqliteplugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova/Phonegap plugin to copy SQLite Database from www directory to app database directory",
+  "bugs": "https://github.com/an-rahulpandey/cordova-plugin-dbcopy/issues",
+  "stars": 91,
+  "image": "https://avatars.githubusercontent.com/u/2369752?v=4",
+  "quality": 247,
+  "updated": "2022-12-14T07:50:03Z",
+  "downloads": 850
+}

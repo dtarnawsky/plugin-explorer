@@ -1,0 +1,51 @@
+{
+  "name": "cordova-plugin-app-preferences",
+  "version": "0.99.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/apla/me.apla.cordova.app-preferences.git",
+  "author": "Ivan Baktsheev",
+  "published": "2022-06-13T23:48:06.207Z",
+  "versions": [
+    "0.6.1",
+    "0.6.2",
+    "0.6.3",
+    "0.7.0",
+    "0.7.1",
+    "0.7.2",
+    "0.7.3",
+    "0.7.4",
+    "0.7.6",
+    "0.7.7",
+    "0.99.0",
+    "0.99.1",
+    "0.99.2",
+    "0.99.3"
+  ],
+  "keywords": [
+    "preferences",
+    "settings",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-wp7",
+    "cordova-wp8",
+    "cordova-windows",
+    "cordova-windows8",
+    "cordova-blackberry10"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Application preferences plugin and preference pane generator",
+  "bugs": "https://github.com/apla/me.apla.cordova.app-preferences/issues",
+  "stars": 202,
+  "image": "https://avatars.githubusercontent.com/u/85349?v=4",
+  "quality": 571,
+  "updated": "2023-02-13T16:42:30Z",
+  "downloads": 577
+}

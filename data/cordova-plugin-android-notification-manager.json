@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-android-notification-manager",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "http://git.scat.su/external/cordova-plugin-android-notification-manager",
+  "author": "SKAT Ltd",
+  "published": "2022-04-27T17:09:52.785Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "android",
+    "notification",
+    "manager",
+    "channel",
+    "settings",
+    "system",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Manage android notification channels in cordova application",
+  "downloads": 5
+}
