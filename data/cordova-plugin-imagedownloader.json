@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-imagedownloader",
+  "version": "1.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/Santino-Wu/cordova-plugin-imagedownloader.git",
+  "author": "Santino-Wu",
+  "published": "2022-06-14T00:20:27.835Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3"
+  ],
+  "keywords": [
+    "Cordova",
+    "Image",
+    "Downloader",
+    "Gallery"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "The cordova plugin for downloading image into gallery.",
+  "bugs": "https://github.com/Santino-Wu/cordova-plugin-imagedownloader/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/5975413?v=4",
+  "quality": 107,
+  "updated": "2022-04-12T02:10:57Z",
+  "downloads": 706
+}

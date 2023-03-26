@@ -1,0 +1,216 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:6: error: package com.google.firebase.messaging does not exist
+        import com.google.firebase.messaging.FirebaseMessagingService;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:7: error: package com.google.firebase.messaging does not exist
+        import com.google.firebase.messaging.RemoteMessage;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:8: error: package com.urbanairship.push.fcm does not exist
+        import com.urbanairship.push.fcm.AirshipFirebaseIntegration;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:12: error: package io.intercom.android.sdk.push does not exist
+        import io.intercom.android.sdk.push.IntercomPushClient;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:14: error: cannot find symbol
+        public class FirebaseMessagingExtensionService extends FirebaseMessagingService {
+        ^
+        symbol: class FirebaseMessagingService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:15: error: cannot find symbol
+        private final IntercomPushClient intercomPushClient = new IntercomPushClient();
+        ^
+        symbol:   class IntercomPushClient
+        location: class FirebaseMessagingExtensionService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:34: error: cannot find symbol
+        public void onMessageReceived(RemoteMessage remoteMessage) {
+        ^
+        symbol:   class RemoteMessage
+        location: class FirebaseMessagingExtensionService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:15: error: cannot find symbol
+        private final IntercomPushClient intercomPushClient = new IntercomPushClient();
+        ^
+        symbol:   class IntercomPushClient
+        location: class FirebaseMessagingExtensionService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:19: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:25: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:28: error: cannot find symbol
+        intercomPushClient.sendTokenToIntercom(getApplication(), token);
+        ^
+        symbol:   method getApplication()
+        location: class FirebaseMessagingExtensionService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:29: error: cannot find symbol
+        AirshipFirebaseIntegration.processNewToken(getApplicationContext());
+        ^
+        symbol:   variable AirshipFirebaseIntegration
+        location: class FirebaseMessagingExtensionService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:29: error: cannot find symbol
+        AirshipFirebaseIntegration.processNewToken(getApplicationContext());
+        ^
+        symbol:   method getApplicationContext()
+        location: class FirebaseMessagingExtensionService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:33: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:38: error: cannot find symbol
+        intercomPushClient.handlePush(getApplication(), message);
+        ^
+        symbol:   method getApplication()
+        location: class FirebaseMessagingExtensionService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:40: error: cannot find symbol
+        AirshipFirebaseIntegration.processMessageSync(getApplicationContext(), remoteMessage);
+        ^
+        symbol:   variable AirshipFirebaseIntegration
+        location: class FirebaseMessagingExtensionService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:40: error: cannot find symbol
+        AirshipFirebaseIntegration.processMessageSync(getApplicationContext(), remoteMessage);
+        ^
+        symbol:   method getApplicationContext()
+        location: class FirebaseMessagingExtensionService
+        17 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 4s
+        75 actionable tasks: 75 executed
+        

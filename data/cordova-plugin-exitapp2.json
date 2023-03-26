@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-exitapp2",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/joycorp/cordova-plugin-exitapp.git",
+  "author": "Rakesh Walisheter",
+  "published": "2022-06-14T00:08:09.369Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "keywords": [
+    "cordova",
+    "exit",
+    "terminate",
+    "ecosystem:cordova",
+    "cordova-wp8",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Implements navigator.app.exitApp on WP8, Android",
+  "bugs": "https://github.com/joycorp/cordova-plugin-exitapp/issues",
+  "stars": 13,
+  "image": "https://avatars.githubusercontent.com/u/29520697?v=4",
+  "quality": 145,
+  "updated": "2021-01-26T15:30:46Z",
+  "downloads": 245
+}

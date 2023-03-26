@@ -1,0 +1,48 @@
+{
+  "name": "cordova-plugin-facebook-connect",
+  "version": "3.2.0",
+  "success": [],
+  "repo": "https://github.com/cordova-plugin-facebook-connect/cordova-plugin-facebook-connect.git",
+  "published": "2022-04-27T17:20:47.189Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.1.0",
+    "1.1.1",
+    "1.2.0",
+    "1.2.1",
+    "2.0.0",
+    "2.1.0",
+    "2.2.0",
+    "2.3.0",
+    "3.0.0",
+    "3.1.0",
+    "3.1.1",
+    "3.2.0"
+  ],
+  "keywords": [
+    "cordova",
+    "facebook",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-browser",
+    "facebook-sdk",
+    "social",
+    "sharing"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Facebook SDK Plugin",
+  "bugs": "https://github.com/cordova-plugin-facebook-connect/cordova-plugin-facebook-connect/issues",
+  "stars": 64,
+  "image": "https://avatars.githubusercontent.com/u/76914739?v=4",
+  "quality": 183,
+  "updated": "2023-03-14T18:40:25Z",
+  "downloads": 15084
+}

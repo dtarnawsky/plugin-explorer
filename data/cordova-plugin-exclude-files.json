@@ -1,0 +1,59 @@
+{
+  "name": "cordova-plugin-exclude-files",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/raphinesse/cordova-plugin-exclude-files.git",
+  "author": "Raphael von der Grün",
+  "published": "2022-06-14T00:08:04.388Z",
+  "versions": [
+    "0.2.0",
+    "0.2.1",
+    "0.2.2",
+    "0.2.3",
+    "0.2.4",
+    "0.3.0",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.3.4",
+    "0.3.5",
+    "0.4.0",
+    "0.4.1",
+    "0.4.2",
+    "0.4.3",
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "ignores",
+    "excludes",
+    "folders",
+    "artifacts",
+    "directory",
+    "directories",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-blackberry",
+    "cordova-browser",
+    "cordova-firefoxos",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-ubuntu",
+    "cordova-windows",
+    "cordova-wp8"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A cordova plugin that allows to exclude files from the build",
+  "bugs": "https://github.com/raphinesse/cordova-plugin-exclude-files/issues",
+  "stars": 7,
+  "image": "https://avatars.githubusercontent.com/u/1006620?v=4",
+  "quality": 110,
+  "updated": "2020-08-11T13:08:35Z",
+  "downloads": 185
+}

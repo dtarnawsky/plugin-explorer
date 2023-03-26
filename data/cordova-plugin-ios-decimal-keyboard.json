@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-ios-decimal-keyboard",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/gbrits/cordova-plugin-decimal-keyboard.git",
+  "author": "Grant Brits",
+  "published": "2022-04-27T17:29:10.770Z",
+  "versions": [
+    "1.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "keyboard",
+    "decimal",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Adding Decimal Numeric Keyboard Support for iOS",
+  "bugs": "https://github.com/gbrits/cordova-plugin-decimal-keyboard/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/14840021?v=4",
+  "quality": 4,
+  "updated": "2019-01-17T07:47:11Z",
+  "downloads": 1138
+}

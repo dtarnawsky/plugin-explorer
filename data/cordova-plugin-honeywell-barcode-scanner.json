@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-honeywell-barcode-scanner",
+  "version": "0.0.12",
+  "success": [
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/PalotaCompany/cordova-plugin-honeywell-barcode-scanner.git",
+  "author": "Kholofelo Moyaba",
+  "published": "2022-04-27T17:26:30.511Z",
+  "versions": [
+    "0.0.1",
+    "0.0.11",
+    "0.0.12"
+  ],
+  "keywords": [
+    "cordova",
+    "honeywell",
+    "android",
+    "ionic",
+    "plugin",
+    "barcode",
+    "scanner"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for Android Honeywell barcode scanner.",
+  "bugs": "https://github.com/PalotaCompany/cordova-plugin-honeywell-barcode-scanner/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/41310044?v=4",
+  "quality": 112,
+  "updated": "2022-07-23T17:18:15Z",
+  "downloads": 40
+}

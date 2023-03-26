@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-idfa-ka",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/chemerisuk/cordova-plugin-idfa.git",
+  "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
+  "published": "2022-04-27T17:27:14.093Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "cordova",
+    "idfa",
+    "aaid",
+    "Advertising ID",
+    "analytics",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin to get Advertising ID (IDFA or AAID)",
+  "bugs": "https://github.com/chemerisuk/cordova-plugin-idfa/issues",
+  "stars": 24,
+  "image": "https://avatars.githubusercontent.com/u/274044?v=4",
+  "quality": 173,
+  "updated": "2023-01-18T19:04:48Z",
+  "downloads": 15
+}

@@ -1,0 +1,43 @@
+{
+  "name": "cordova-plugin-flurryanalytics",
+  "version": "1.4.6",
+  "success": [],
+  "repo": "https://github.com/blakgeek/cordova-plugin-flurryanalytics.git",
+  "author": "Carlos \"blakgeek\" Lawton",
+  "published": "2022-12-11T19:33:57.617Z",
+  "versions": [
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.4.0",
+    "1.4.1",
+    "1.4.3",
+    "1.4.4",
+    "1.4.5",
+    "1.4.6"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "cordova-plugin",
+    "flurry-analytics",
+    "ionic",
+    "phonegap",
+    "phonegap-plugin"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Ads support for Flurry Analytics to Cordova and Phonegap apps",
+  "bugs": "https://github.com/blakgeek/cordova-plugin-flurryanalytics/issues",
+  "stars": 23,
+  "image": "https://avatars.githubusercontent.com/u/824542?v=4",
+  "quality": 173,
+  "updated": "2022-01-17T15:13:30Z",
+  "downloads": 99
+}

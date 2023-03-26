@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-headercolor",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/tomloprod/cordova-plugin-headercolor.git",
+  "author": "tomloprod",
+  "published": "2022-06-14T00:17:56.827Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "ionic",
+    "header",
+    "color",
+    "android",
+    "cordova-plugin",
+    "headercolor"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "HeaderColor is a cordova plugin to change color of header in multitask view. Android devices.",
+  "bugs": "https://github.com/tomloprod/cordova-plugin-headercolor/issues",
+  "stars": 68,
+  "image": "https://avatars.githubusercontent.com/u/7898894?v=4",
+  "quality": 176,
+  "updated": "2023-03-06T09:04:03Z",
+  "downloads": 1577
+}

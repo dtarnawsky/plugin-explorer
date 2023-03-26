@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-eszip",
+  "version": "0.0.13",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/eternalsayed/es-zip.git",
+  "author": "Sayed Ahad Abbas",
+  "published": "2022-06-14T00:07:29.085Z",
+  "versions": [
+    "0.0.9",
+    "0.0.10",
+    "0.0.11",
+    "0.0.12",
+    "0.0.13"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "archive",
+    "cordova-plugin",
+    "file",
+    "folders",
+    "hybrid-application",
+    "ionic-framework",
+    "zip"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A cordova plugin to zip files and folders in cordova app. Requies cordova-plugin-file.",
+  "bugs": "https://github.com/eternalsayed/es-zip/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/5494279?v=4",
+  "quality": 101,
+  "updated": "2017-02-15T13:56:48Z",
+  "downloads": 25
+}

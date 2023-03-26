@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-fcm-with-dependecy-updated-12",
+  "version": "7.8.4",
+  "success": [],
+  "repo": "https://github.com/JaimeHere/cordova-plugin-fcm-with-dependecy-updated-12.git",
+  "author": "André Augusto Tissot",
+  "published": "2023-03-06T19:52:05.061Z",
+  "versions": [
+    "7.8.0",
+    "7.8.1",
+    "7.8.2",
+    "7.8.3",
+    "7.8.4"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "notifications",
+    "push",
+    "firebase",
+    "fcm",
+    "ios",
+    "android",
+    "cordova"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Google Firebase Cloud Messaging Cordova Push Plugin fork with dependecy updated",
+  "bugs": "https://github.com/JaimeHere/cordova-plugin-fcm-with-dependecy-updated-12/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/23527079?v=4",
+  "quality": 2,
+  "updated": "2023-02-08T13:05:40Z",
+  "downloads": 193
+}

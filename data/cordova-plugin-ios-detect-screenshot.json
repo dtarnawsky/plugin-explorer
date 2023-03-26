@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-ios-detect-screenshot",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/rossmartin/cordova-plugin-ios-detect-screenshot.git",
+  "author": "Ross Martin",
+  "published": "2022-04-27T17:29:11.263Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "privacy",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "screenshot",
+    "screenshieldkit",
+    "confide"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Simple cordova plugin for iOS that adds ability to detect when a screenshot is taken via a JavaScript event listener.",
+  "bugs": "https://github.com/rossmartin/cordova-plugin-ios-detect-screenshot/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/2498502?v=4",
+  "quality": 104,
+  "updated": "2020-11-13T12:03:01Z",
+  "downloads": 66
+}

@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-ios-cloudkit",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/windycom/cordova-plugin-ios-cloudkit.git",
+  "author": "Windyty, S.E.",
+  "published": "2022-04-27T17:29:08.354Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cloudkit",
+    "icloud"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Plugin iOS to use iCloud via CloudKit framework",
+  "bugs": "https://github.com/windycom/cordova-plugin-ios-cloudkit/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/14926367?v=4",
+  "quality": 102,
+  "updated": "2022-10-14T09:10:14Z",
+  "downloads": 113
+}

@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-ionic-wkwebview-engine",
+  "version": "1.1.4",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/ionic-team/cordova-plugin-wkwebview-engine.git",
+  "author": "Apache Cordova",
+  "published": "2022-04-27T17:29:01.238Z",
+  "versions": [
+    "1.1.4-dev",
+    "1.1.4"
+  ],
+  "keywords": [
+    "cordova",
+    "wkwebview"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "The official Apache Cordova WKWebView Engine Plugin",
+  "bugs": "https://github.com/ionic-team/cordova-plugin-wkwebview-engine/issues",
+  "stars": 295,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "quality": 440,
+  "updated": "2023-01-28T19:43:37Z",
+  "downloads": 53
+}
