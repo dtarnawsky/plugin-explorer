@@ -1,0 +1,30 @@
+{
+  "name": "webview-capacitor-plugin",
+  "version": "0.1.1",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/josprimasihombing/webview-capacitor-plugin.git",
+  "author": "josprimasihombing",
+  "published": "2022-05-24T08:39:54.606Z",
+  "versions": [
+    "0.1.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Webview Plugin for Capacitor",
+  "bugs": "https://github.com/josprimasihombing/webview-capacitor-plugin/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/57883217?v=4",
+  "quality": 100,
+  "updated": "2021-08-10T08:27:41Z",
+  "downloads": 12
+}

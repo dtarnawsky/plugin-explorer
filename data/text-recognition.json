@@ -1,0 +1,23 @@
+{
+  "name": "text-recognition",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "author": "Artelogic",
+  "published": "2022-09-15T16:44:21.209Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This package implements basic OCR logic which recognises and highlights text on image.",
+  "downloads": 31
+}

@@ -2,6 +2,7 @@ import { existsSync, readFileSync, rmSync, unlinkSync, writeFileSync } from 'fs'
 import { join } from 'path';
 import { Inspection } from './inspection.js';
 import { Test } from './test.js';
+import { hasArg } from './utils.js';
 
 export function catalog(inspection: Inspection) {
     if (inspection.fails.includes(Test.failedInNPM)) {
@@ -66,6 +67,9 @@ export function readPluginList(): string[] {
     let lines: string[] = [];
     if (existsSync(filename)) {
         lines = readFileSync(filename, 'utf-8').split('\n');
+    }
+    if (hasArg('reverse', process.argv)) {
+        lines.reverse();
     }
     return lines;
 }

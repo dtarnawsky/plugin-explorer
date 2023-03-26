@@ -1,0 +1,29 @@
+{
+  "name": "disable-ios-scrolling",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/dtrmangesh/plugin-disable-ios-bouncing.git",
+  "author": "Mangesh Datar",
+  "published": "2022-04-28T21:09:39.573Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "camera",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Disable ios boucing",
+  "bugs": "https://github.com/dtrmangesh/plugin-disable-ios-bouncing/issues",
+  "quality": null,
+  "downloads": 728
+}

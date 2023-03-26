@@ -1,0 +1,35 @@
+{
+  "name": "rfid",
+  "version": "1.0.0",
+  "success": [],
+  "repo": "https://github.com/mgesmundo/rfid.git",
+  "author": "Marcello Gesmundo <mgesmundo@yoovant.com> (http://www.yoovant.com)",
+  "published": "2022-06-26T13:05:56.163Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "rfid",
+    "id-12",
+    "gpio",
+    "aria",
+    "fox",
+    "daisy",
+    "acmesystsems",
+    "arm",
+    "linux"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Easy tag manager for RFID reader",
+  "bugs": "https://github.com/mgesmundo/rfid/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/1668543?v=4",
+  "quality": 101,
+  "updated": "2016-02-19T11:54:08Z",
+  "downloads": 41
+}

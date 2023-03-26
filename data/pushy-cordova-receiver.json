@@ -1,0 +1,25 @@
+{
+  "name": "pushy-cordova-receiver",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/pushy-me/pushy-cordova.git",
+  "author": "Pushy <support@pushy.me>",
+  "published": "2022-06-25T02:11:32.234Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A sample push receiver implementation for the Pushy SDK for Cordova.",
+  "bugs": "https://github.com/pushy-me/pushy-cordova/issues",
+  "stars": 8,
+  "image": "https://avatars.githubusercontent.com/u/13287630?v=4",
+  "quality": 123,
+  "updated": "2022-11-15T11:43:52Z",
+  "downloads": 11
+}

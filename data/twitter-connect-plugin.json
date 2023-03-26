@@ -1,0 +1,34 @@
+{
+  "name": "twitter-connect-plugin",
+  "version": "0.6.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/ManifestWebDesign/twitter-connect-plugin.git",
+  "author": "Nathan Kerr",
+  "published": "2022-06-28T00:16:35.225Z",
+  "versions": [
+    "0.3.0",
+    "0.4.0",
+    "0.5.0",
+    "0.6.0"
+  ],
+  "keywords": [
+    "cordova",
+    "twitter",
+    "login",
+    "connect",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Twitter Connect Plugin - Allows single-sign on logins using Twitter",
+  "bugs": "https://github.com/ManifestWebDesign/twitter-connect-plugin/issues",
+  "quality": null,
+  "downloads": 75
+}

@@ -1,0 +1,32 @@
+{
+  "name": "info.protonet.imageresizer",
+  "version": "0.1.1",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://RTeran@github.com/RTeran/cordova-plugin-image-resizer.git",
+  "author": "RTeran",
+  "published": "2022-06-19T01:12:41.798Z",
+  "versions": [
+    "0.1.1"
+  ],
+  "keywords": [
+    "cordova",
+    "device",
+    "resize",
+    "image",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Plugin for resizing images only with the uri of the image.",
+  "bugs": "https://github.com/RTeran/cordova-plugin-image-resizer/issues",
+  "quality": null,
+  "downloads": 1428
+}

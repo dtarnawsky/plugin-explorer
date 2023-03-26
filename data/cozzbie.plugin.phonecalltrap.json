@@ -1,0 +1,34 @@
+{
+  "name": "cozzbie.plugin.phonecalltrap",
+  "version": "0.1.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/cozzbie/cordova-phone-call-trap.git",
+  "author": "Timi Aiyemo",
+  "published": "2022-06-14T02:15:58.130Z",
+  "versions": [
+    "0.1.2"
+  ],
+  "keywords": [
+    "phonegap",
+    "calendar",
+    "phone",
+    "call",
+    "phone-call",
+    "ringing",
+    "phone-state",
+    "call-state",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A phone call trap",
+  "bugs": "https://github.com/cozzbie/cordova-phone-call-trap.git/issues",
+  "quality": null,
+  "downloads": 13
+}

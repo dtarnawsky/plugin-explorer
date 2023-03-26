@@ -1,0 +1,45 @@
+{
+  "name": "iamport-cordova",
+  "version": "0.10.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/iamport/iamport-cordova.git",
+  "author": "Soree Choi <mymusese@gmail.com> (https://github.com/SoleeChoi)",
+  "published": "2022-05-05T13:52:55.019Z",
+  "versions": [
+    "0.9.0",
+    "0.9.1",
+    "0.9.2",
+    "0.9.3",
+    "0.9.4",
+    "0.9.5",
+    "0.9.6",
+    "0.9.7",
+    "0.9.8",
+    "0.9.9",
+    "0.10.0",
+    "0.10.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "iamport-cordova",
+    "iamport",
+    "payment",
+    "certification"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "아임포트 코르도바용 일반, 정기결제 및 휴대폰 본인인증 플러그인입니다.",
+  "bugs": "https://github.com/iamport/iamport-cordova/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/11437969?v=4",
+  "quality": 115,
+  "updated": "2021-11-18T02:10:48Z",
+  "downloads": 70
+}

@@ -1,0 +1,31 @@
+{
+  "name": "getfeedback-capacitor",
+  "version": "1.1.0",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/GetFeedback/getfeedback-g4a-capacitor.git",
+  "author": "TEAM SDK",
+  "published": "2022-07-21T13:25:07.951Z",
+  "versions": [
+    "1.0.0",
+    "1.1.0"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "GetFeedback Capacitor is wrapper for GetFeedback SDK.",
+  "bugs": "https://github.com/GetFeedback/getfeedback-g4a-capacitor/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/8670573?v=4",
+  "quality": 104,
+  "updated": "2022-01-19T16:38:43Z",
+  "downloads": 7
+}

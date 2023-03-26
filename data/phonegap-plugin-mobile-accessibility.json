@@ -1,0 +1,41 @@
+{
+  "name": "phonegap-plugin-mobile-accessibility",
+  "version": "1.0.5",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/phonegap/phonegap-mobile-accessibility.git",
+  "author": "Adobe PhoneGap Team",
+  "published": "2022-06-23T21:30:07.700Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1-dev",
+    "1.0.2",
+    "1.0.3-dev",
+    "1.0.3",
+    "1.0.4-dev",
+    "1.0.4",
+    "1.0.5-dev",
+    "1.0.5"
+  ],
+  "keywords": [
+    "phonegap",
+    "mobile accessibility",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "PhoneGap Mobile Accessibility Plugin",
+  "bugs": "https://github.com/phonegap/phonegap-mobile-accessibility/issues",
+  "stars": 144,
+  "image": "https://avatars.githubusercontent.com/u/60365?v=4",
+  "quality": 364,
+  "updated": "2023-03-20T07:14:14Z",
+  "downloads": 13360
+}

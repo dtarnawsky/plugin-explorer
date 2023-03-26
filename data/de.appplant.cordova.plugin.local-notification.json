@@ -1,0 +1,34 @@
+{
+  "name": "de.appplant.cordova.plugin.local-notification",
+  "version": "0.8.5",
+  "success": [],
+  "repo": "https://github.com/katzer/cordova-plugin-local-notifications.git#ios10",
+  "author": "Sebastián Katzer",
+  "published": "2022-06-14T21:52:54.570Z",
+  "versions": [
+    "0.8.2",
+    "0.8.3",
+    "0.8.4",
+    "0.8.5"
+  ],
+  "keywords": [
+    "appplant",
+    "notification",
+    "local notification",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Schedules and queries for local notifications",
+  "bugs": "https://github.com/katzer/cordova-plugin-local-notifications/issues",
+  "quality": null,
+  "downloads": 434
+}

@@ -1,0 +1,37 @@
+{
+  "name": "iamport-capacitor",
+  "version": "1.0.1-hotfix01",
+  "success": [
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/iamport/iamport-capacitor.git",
+  "author": "Soree Choi <mymusese@gmail.com> (https://github.com/SoleeChoi)",
+  "published": "2022-05-05T13:52:53.492Z",
+  "versions": [
+    "0.9.0",
+    "0.10.0",
+    "0.10.1",
+    "0.11.0",
+    "0.11.1",
+    "1.0.0",
+    "1.0.1-hotfix01",
+    "1.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor plugin for Iamport",
+  "bugs": "https://github.com/iamport/iamport-capacitor/issues",
+  "stars": 10,
+  "image": "https://avatars.githubusercontent.com/u/11437969?v=4",
+  "quality": 155,
+  "updated": "2023-03-09T13:26:20Z",
+  "downloads": 41
+}

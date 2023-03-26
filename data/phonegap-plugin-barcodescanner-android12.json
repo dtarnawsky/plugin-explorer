@@ -1,0 +1,34 @@
+{
+  "name": "phonegap-plugin-barcodescanner-android12",
+  "version": "8.1.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+  "author": "Adobe PhoneGap Team",
+  "published": "2022-07-21T12:56:33.290Z",
+  "versions": [
+    "8.1.2"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser",
+    "cordova:plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
+  "bugs": "https://github.com/phonegap/phonegap-plugin-barcodescanner/issues",
+  "stars": 1277,
+  "image": "https://avatars.githubusercontent.com/u/60365?v=4",
+  "quality": 2775,
+  "updated": "2023-03-24T14:48:05Z",
+  "downloads": 1094
+}
