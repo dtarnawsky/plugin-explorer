@@ -1,0 +1,35 @@
+{
+  "name": "verify-automatic-date-time-zone",
+  "version": "1.0.3-dev",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/edsonhoraciojunior/verify-automatic-date-time-zone.git",
+  "author": "Edson Horácio Junior",
+  "published": "2022-06-28T10:09:39.511Z",
+  "versions": [
+    "1.0.0-dev",
+    "1.0.1-dev",
+    "1.0.2-dev",
+    "1.0.3-dev"
+  ],
+  "keywords": [
+    "automatic",
+    "date",
+    "time",
+    "timezone",
+    "settings"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Verify Automatic Date, Time and Timezone",
+  "bugs": "https://github.com/edsonhoraciojunior/verify-automatic-date-time-zone/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/4573095?v=4",
+  "quality": 111,
+  "updated": "2022-11-24T08:01:24Z",
+  "downloads": 34
+}

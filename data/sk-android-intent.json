@@ -1,0 +1,26 @@
+{
+  "name": "sk-android-intent",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://dev.azure.com/applieddatacorp/Heisenberg/_git/SKit.AndroidIntentPlugin.git",
+  "author": "jonathan grimm",
+  "published": "2023-03-08T21:55:32.576Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Provides access to android intents.",
+  "bugs": "https://dev.azure.com/applieddatacorp/Heisenberg/_git/SKit.AndroidIntentPlugin/issues",
+  "downloads": 67
+}

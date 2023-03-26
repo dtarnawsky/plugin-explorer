@@ -1,0 +1,38 @@
+{
+  "name": "ionic-mediascanner",
+  "version": "1.2.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/ravi9376/ionic-mediascanner.git",
+  "author": "Raviprakash Dhanuka",
+  "published": "2022-05-06T02:35:03.989Z",
+  "versions": [
+    "1.0.1",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3"
+  ],
+  "keywords": [
+    "npm",
+    "media-scanner",
+    "ionic",
+    "image",
+    "refresh",
+    "galllery",
+    "refresh"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Refresh the Media file in Android Device Gallery application instantly after download from the Ionic Application",
+  "bugs": "https://github.com/ravi9376/ionic-mediascanner/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/17459448?v=4",
+  "quality": 101,
+  "updated": "2020-06-27T06:41:42Z",
+  "downloads": 10
+}

@@ -1,0 +1,32 @@
+{
+  "name": "firefly-cordova-plugin-themeablebrowser",
+  "version": "0.3.1",
+  "success": [],
+  "repo": "https://github.com/imloama/cordova-plugin-themeablebrowser.git",
+  "author": "Apache Software Foundation",
+  "published": "2022-05-02T11:34:08.248Z",
+  "versions": [
+    "0.3.0",
+    "0.3.1"
+  ],
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "browser",
+    "themeablebrowser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova ThemeableBrowser Plugin",
+  "bugs": "https://github.com/imloama/cordova-plugin-themeablebrowser/issues",
+  "quality": null,
+  "downloads": 7
+}

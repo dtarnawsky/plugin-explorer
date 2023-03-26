@@ -1,0 +1,24 @@
+{
+  "name": "local-notifications",
+  "version": "0.0.2",
+  "success": [],
+  "author": "Arnaud Deville",
+  "published": "2022-05-08T07:20:13.801Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Manage local notifications",
+  "downloads": 21
+}

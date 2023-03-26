@@ -1,0 +1,22 @@
+{
+  "name": "stocknow",
+  "version": "0.1.5",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "published": "2022-05-18T18:22:59.066Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.4",
+    "0.1.5"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "downloads": 11
+}

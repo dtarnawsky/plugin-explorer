@@ -1,0 +1,675 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :sk-android-intent:preBuild UP-TO-DATE
+        > Task :sk-android-intent:preReleaseBuild UP-TO-DATE
+        > Task :sk-android-intent:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :sk-android-intent:compileReleaseRenderscript NO-SOURCE
+        > Task :sk-android-intent:generateReleaseResValues
+        > Task :sk-android-intent:generateReleaseResources
+        > Task :sk-android-intent:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :sk-android-intent:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-android:processReleaseManifest
+        > Task :sk-android-intent:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :sk-android-intent:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :sk-android-intent:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :sk-android-intent:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :sk-android-intent:javaPreCompileRelease
+        > Task :sk-android-intent:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :sk-android-intent:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :sk-android-intent:writeReleaseAarMetadata
+        > Task :capacitor-app:bundleLibCompileToJarRelease
+        
+        > Task :sk-android-intent:compileReleaseJavaWithJavac FAILED
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:13: error: cannot find symbol
+        private HashMap<String, PluginCall> _subscribedCalls = new HashMap<>();
+        ^
+        symbol:   class HashMap
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:14: error: cannot find symbol
+        private HashMap<String, BroadcastReceiver> _broadcastReceivers = new HashMap<>();
+        ^
+        symbol:   class HashMap
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:14: error: cannot find symbol
+        private HashMap<String, BroadcastReceiver> _broadcastReceivers = new HashMap<>();
+        ^
+        symbol:   class BroadcastReceiver
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:87: error: cannot find symbol
+        private JSONObject getIntentJson(Intent intent) {
+        ^
+        symbol:   class Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:87: error: cannot find symbol
+        private JSONObject getIntentJson(Intent intent) {
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:119: error: cannot find symbol
+        private static JSONObject toJsonObject(Bundle bundle) {
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:119: error: cannot find symbol
+        private static JSONObject toJsonObject(Bundle bundle) {
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:128: error: cannot find symbol
+        private static Object toJsonValue(final Object value) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:166: error: cannot find symbol
+        private IntentFilter getIntentFilterFromJson(PluginCall call) {
+        ^
+        symbol:   class IntentFilter
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:215: error: cannot find symbol
+        private Intent populateIntent(JSONObject obj) throws JSONException
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:215: error: cannot find symbol
+        private Intent populateIntent(JSONObject obj) throws JSONException
+        ^
+        symbol:   class Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:215: error: cannot find symbol
+        private Intent populateIntent(JSONObject obj) throws JSONException
+        ^
+        symbol:   class JSONException
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:338: error: cannot find symbol
+        private Bundle toBundle(final JSONObject obj) {
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:338: error: cannot find symbol
+        private Bundle toBundle(final JSONObject obj) {
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:398: error: cannot find symbol
+        private BroadcastReceiver createBroadcastReceiver(final String callbackId) {
+        ^
+        symbol:   class BroadcastReceiver
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:13: error: cannot find symbol
+        private HashMap<String, PluginCall> _subscribedCalls = new HashMap<>();
+        ^
+        symbol:   class HashMap
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:14: error: cannot find symbol
+        private HashMap<String, BroadcastReceiver> _broadcastReceivers = new HashMap<>();
+        ^
+        symbol:   class HashMap
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:30: error: cannot find symbol
+        IntentFilter filter = getIntentFilterFromJson(call);
+        ^
+        symbol:   class IntentFilter
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:38: error: cannot find symbol
+        BroadcastReceiver myBroadcastReceiver = createBroadcastReceiver(callbackId);
+        ^
+        symbol:   class BroadcastReceiver
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:59: error: cannot find symbol
+        BroadcastReceiver broadcastReceiver = _broadcastReceivers.remove(callbackId);
+        ^
+        symbol:   class BroadcastReceiver
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:69: error: cannot find symbol
+        Intent intent = null;
+        ^
+        symbol:   class Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:88: error: cannot find symbol
+        JSONObject intentJSON = null;
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:89: error: cannot find symbol
+        JSONObject[] items = null;
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:92: error: cannot find symbol
+        intentJSON = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:94: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:94: error: package Build does not exist
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+        ^
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:96: error: cannot find symbol
+        intentJSON.put("clipItems", new JSONArray(items));
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:110: error: cannot find symbol
+        } catch (JSONException e) {
+        ^
+        symbol:   class JSONException
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:111: error: cannot find symbol
+        Log.d(TAG, " Error thrown during intent > JSON conversion");
+        ^
+        symbol:   variable Log
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:112: error: cannot find symbol
+        Log.d(TAG, e.getMessage());
+        ^
+        symbol:   variable Log
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:113: error: cannot find symbol
+        Log.d(TAG, Arrays.toString(e.getStackTrace()));
+        ^
+        symbol:   variable Log
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:113: error: cannot find symbol
+        Log.d(TAG, Arrays.toString(e.getStackTrace()));
+        ^
+        symbol:   variable Arrays
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:122: error: cannot find symbol
+        return (JSONObject) toJsonValue(bundle);
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:123: error: cannot find symbol
+        } catch (JSONException e) {
+        ^
+        symbol:   class JSONException
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:132: error: cannot find symbol
+        } else if (value instanceof Bundle) {
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:133: error: cannot find symbol
+        final Bundle bundle = (Bundle) value;
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:133: error: cannot find symbol
+        final Bundle bundle = (Bundle) value;
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:134: error: cannot find symbol
+        final JSONObject result = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:134: error: cannot find symbol
+        final JSONObject result = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:140: error: cannot find symbol
+        final JSONArray result = new JSONArray();
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:140: error: cannot find symbol
+        final JSONArray result = new JSONArray();
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:141: error: cannot find symbol
+        int length = Array.getLength(value);
+        ^
+        symbol:   variable Array
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:143: error: cannot find symbol
+        result.put(i, toJsonValue(Array.get(value, i)));
+        ^
+        symbol:   variable Array
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:147: error: cannot find symbol
+        else if (value instanceof ArrayList<?>) {
+        ^
+        symbol:   class ArrayList
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:148: error: cannot find symbol
+        final ArrayList arrayList = (ArrayList<?>)value;
+        ^
+        symbol:   class ArrayList
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:148: error: cannot find symbol
+        final ArrayList arrayList = (ArrayList<?>)value;
+        ^
+        symbol:   class ArrayList
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:149: error: cannot find symbol
+        final JSONArray result = new JSONArray();
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:149: error: cannot find symbol
+        final JSONArray result = new JSONArray();
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:170: error: cannot find symbol
+        JSONArray filterActions = null;
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:176: error: cannot find symbol
+        Log.w(TAG, "filterActions argument is not in the expected format");
+        ^
+        symbol:   variable Log
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:181: error: cannot find symbol
+        IntentFilter filter = new IntentFilter();
+        ^
+        symbol:   class IntentFilter
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:181: error: cannot find symbol
+        IntentFilter filter = new IntentFilter();
+        ^
+        symbol:   class IntentFilter
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:183: error: cannot find symbol
+        Log.d(TAG, "Registering broadcast receiver for filter: " + filterActions.getString(i));
+        ^
+        symbol:   variable Log
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:188: error: cannot find symbol
+        JSONArray filterCategories = call.hasOption("filterCategories") ? call.getArray("filterCategories") : null;
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:191: error: cannot find symbol
+        Log.d(TAG, "Registering broadcast receiver for category filter: " + filterCategories.getString(i));
+        ^
+        symbol:   variable Log
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:198: error: cannot find symbol
+        JSONArray filterDataSchemes = call.hasOption("filterDataSchemes") ? call.getArray("filterDataSchemes") : null;
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:203: error: cannot find symbol
+        Log.d(TAG, "Associating data scheme to filter: " + filterDataSchemes.getString(i));
+        ^
+        symbol:   variable Log
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:208: error: cannot find symbol
+        } catch (JSONException e) {
+        ^
+        symbol:   class JSONException
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:223: error: cannot find symbol
+        Uri uri = null;
+        ^
+        symbol:   class Uri
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:225: error: cannot find symbol
+        JSONObject extras = obj.has("extras") ? obj.getJSONObject("extras") : null;
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:226: error: cannot find symbol
+        Map<String, Object> extrasMap = new HashMap<String, Object>();
+        ^
+        symbol:   class Map
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:226: error: cannot find symbol
+        Map<String, Object> extrasMap = new HashMap<String, Object>();
+        ^
+        symbol:   class HashMap
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:227: error: cannot find symbol
+        Bundle bundle = null;
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:230: error: cannot find symbol
+        JSONArray extraNames = extras.names();
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:234: error: cannot find symbol
+        if (extrasObj instanceof JSONObject) {
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:237: error: cannot find symbol
+        bundle = toBundle((JSONObject) extras.get(key));
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:245: error: cannot find symbol
+        Intent i = new Intent();
+        ^
+        symbol:   class Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:245: error: cannot find symbol
+        Intent i = new Intent();
+        ^
+        symbol:   class Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:261: error: cannot find symbol
+        JSONObject component = obj.has("component") ? obj.getJSONObject("component") : null;
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:269: error: cannot find symbol
+        Log.w(TAG, "Component specified but missing corresponding package or class");
+        ^
+        symbol:   variable Log
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:270: error: cannot find symbol
+        throw new JSONException("Component specified but missing corresponding package or class");
+        ^
+        symbol:   class JSONException
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:275: error: cannot find symbol
+        ComponentName componentName = new ComponentName(componentPackage, componentClass);
+        ^
+        symbol:   class ComponentName
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:275: error: cannot find symbol
+        ComponentName componentName = new ComponentName(componentPackage, componentClass);
+        ^
+        symbol:   class ComponentName
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:283: error: cannot find symbol
+        JSONArray flags = obj.has("flags") ? obj.getJSONArray("flags") : null;
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:300: error: cannot find symbol
+        if (key.equals(Intent.EXTRA_TEXT) && type.equals("text/html")) {
+        ^
+        symbol:   variable Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:301: error: cannot find symbol
+        i.putExtra(key, Html.fromHtml(valueStr));
+        ^
+        symbol:   variable Html
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:302: error: cannot find symbol
+        } else if (key.equals(Intent.EXTRA_STREAM)) {
+        ^
+        symbol:   variable Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:304: error: cannot find symbol
+        } else if (key.equals(Intent.EXTRA_EMAIL)) {
+        ^
+        symbol:   variable Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:306: error: cannot find symbol
+        i.putExtra(Intent.EXTRA_EMAIL, new String[] { valueStr });
+        ^
+        symbol:   variable Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:307: error: cannot find symbol
+        } else if (key.equals(Intent.EXTRA_KEY_EVENT)) {
+        ^
+        symbol:   variable Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:309: error: cannot find symbol
+        JSONObject keyEventJson = new JSONObject(valueStr);
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:309: error: cannot find symbol
+        JSONObject keyEventJson = new JSONObject(valueStr);
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:312: error: cannot find symbol
+        KeyEvent keyEvent = new KeyEvent(keyAction, keyCode);
+        ^
+        symbol:   class KeyEvent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:312: error: cannot find symbol
+        KeyEvent keyEvent = new KeyEvent(keyAction, keyCode);
+        ^
+        symbol:   class KeyEvent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:313: error: cannot find symbol
+        i.putExtra(Intent.EXTRA_KEY_EVENT, keyEvent);
+        ^
+        symbol:   variable Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:329: error: cannot find symbol
+        i.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        ^
+        symbol:   variable Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:332: error: cannot find symbol
+        i = Intent.createChooser(i, obj.getString("chooser"));
+        ^
+        symbol:   variable Intent
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:339: error: cannot find symbol
+        Bundle returnBundle = new Bundle();
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:339: error: cannot find symbol
+        Bundle returnBundle = new Bundle();
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:344: error: cannot find symbol
+        Iterator<?> keys = obj.keys();
+        ^
+        symbol:   class Iterator
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:359: error: cannot find symbol
+        else if (obj.get(key).getClass().isArray() || obj.get(key) instanceof JSONArray)
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:361: error: cannot find symbol
+        JSONArray jsonArray = obj.getJSONArray(key);
+        ^
+        symbol:   class JSONArray
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:374: error: cannot find symbol
+        ArrayList<Bundle> bundleArray = new ArrayList<Bundle>();
+        ^
+        symbol:   class ArrayList
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:374: error: cannot find symbol
+        ArrayList<Bundle> bundleArray = new ArrayList<Bundle>();
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:374: error: cannot find symbol
+        ArrayList<Bundle> bundleArray = new ArrayList<Bundle>();
+        ^
+        symbol:   class ArrayList
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:374: error: cannot find symbol
+        ArrayList<Bundle> bundleArray = new ArrayList<Bundle>();
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:380: error: cannot find symbol
+        Bundle[] bundleArray = new Bundle[length];
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:380: error: cannot find symbol
+        Bundle[] bundleArray = new Bundle[length];
+        ^
+        symbol:   class Bundle
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:387: error: cannot find symbol
+        else if (obj.get(key) instanceof JSONObject)
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java:388: error: cannot find symbol
+        returnBundle.putBundle(key, toBundle((JSONObject)obj.get(key)));
+        ^
+        symbol:   class JSONObject
+        location: class AndroidIntentPlugin
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/sk-android-intent/android/src/main/java/com/shopperkit/plugins/skandroidintent/AndroidIntentPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        100 errors
+        
+        > Task :app:processReleaseManifestForPackage
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':sk-android-intent:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 2s
+        98 actionable tasks: 98 executed
+        

@@ -1,0 +1,29 @@
+{
+  "name": "swipe-infinea-barcode-scanner",
+  "version": "0.0.3",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/swipe.git",
+  "author": "swipe gmbh",
+  "published": "2022-11-19T11:06:34.988Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "swipe infinea barcode scanner capacitor plugin",
+  "bugs": "https://github.com/swipe/issues",
+  "quality": null,
+  "downloads": 3
+}

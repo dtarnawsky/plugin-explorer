@@ -1,0 +1,36 @@
+{
+  "name": "presentation-capacitor",
+  "version": "0.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/TheeMachine/presentation-capacitor.git",
+  "author": "",
+  "published": "2022-11-19T07:54:30.221Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native",
+    "presentation",
+    "presentation api",
+    "presentation api android",
+    "second screen presentation"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Capacitor Plugin for presentation api",
+  "bugs": "https://github.com/TheeMachine/presentation-capacitor/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/38347131?v=4",
+  "quality": 102,
+  "updated": "2023-01-22T02:08:07Z",
+  "downloads": 6
+}

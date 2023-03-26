@@ -1,0 +1,34 @@
+{
+  "name": "singular_cordova_sdk",
+  "version": "1.0.6",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/singular-labs/Singular-Cordova-SDK.git",
+  "author": "Singular Labs",
+  "published": "2023-02-22T13:19:19.233Z",
+  "versions": [
+    "1.0.0-beta.2",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Singular Cordova SDK",
+  "bugs": "https://github.com/singular-labs/Singular-Cordova-SDK/issues",
+  "quality": null,
+  "downloads": 151
+}

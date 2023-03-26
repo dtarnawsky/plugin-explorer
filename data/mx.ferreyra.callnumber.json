@@ -1,0 +1,31 @@
+{
+  "name": "mx.ferreyra.callnumber",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/Rohfosho/CordovaCallNumberPlugin.git",
+  "author": "",
+  "published": "2022-05-10T02:21:50.584Z",
+  "versions": [
+    "0.0.2"
+  ],
+  "keywords": [
+    "cordova",
+    "call",
+    "dialer",
+    "phonegap",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Call Number from Cordova Application",
+  "bugs": "https://github.com/Rohfosho/CordovaCallNumberPlugin/issues",
+  "quality": null,
+  "downloads": 10057
+}

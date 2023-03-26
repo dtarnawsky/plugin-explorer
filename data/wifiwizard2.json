@@ -1,0 +1,42 @@
+{
+  "name": "wifiwizard2",
+  "version": "3.1.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/tripflex/wifiwizard2.git",
+  "author": "Myles McNamara",
+  "published": "2022-06-29T01:46:15.800Z",
+  "versions": [
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "3.0.0",
+    "3.1.0",
+    "3.1.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "android",
+    "cordova",
+    "cordova-plugin",
+    "ios",
+    "wifi",
+    "wifiwizard",
+    "wifiwizard2"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova WiFi Manager for Android and iOS",
+  "bugs": "https://github.com/tripflex/wifiwizard2/issues",
+  "stars": 118,
+  "image": "https://avatars.githubusercontent.com/u/553732?v=4",
+  "quality": 398,
+  "updated": "2023-03-25T07:25:47Z",
+  "downloads": 2557
+}

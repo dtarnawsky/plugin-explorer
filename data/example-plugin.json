@@ -1,0 +1,17 @@
+{
+  "name": "example-plugin",
+  "version": "0.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "published": "2022-05-01T20:42:53.104Z",
+  "versions": [
+    "0.0.0"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "downloads": 4
+}
