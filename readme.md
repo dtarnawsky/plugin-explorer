@@ -9,6 +9,8 @@ The following commands can be run:
 - `npm run inspect-all` - Will run tests against all plugins
 - `npm run inspect-failed` - Will run tests against plugins that have previously failed tests
 - `npm run inspect-new` - Will run test against plugins it has not tested yet
+- `npm run prepare` - Will summarize all plugin json files and prepare a `dist folder to publishing
+- `npm run publish` - Will publish to netlify at: [webnative-plugins.netlify.app](https://webnative-plugins.netlify.app)
 
 ## Tests
 When running tests it will use a starter project in a GitHub repo for particular versions of Capacitor or Cordova. These projects are tested:
@@ -16,7 +18,8 @@ When running tests it will use a starter project in a GitHub repo for particular
 - [Capacitor 3](https://github.com/dtarnawsky/plugin-test-capacitor-3)
 
 # Roadmap
-- Combine all plugin json files into one index.json
+- Cleanup git urls - some have ssh in them and will work if stripped
+- Grab whether the plugin is deprecated from github
 - Load each json and re-run if test not run or version number is new
 - Grab readme.md from github
 - Check git repo url and make sure it doesnt 404. eg https://github.com/htorbov/capacitor-apple-login.git (capacitor-apple-login). Remove url and downrank if this is the case
