@@ -1,0 +1,30 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/capacitor.build.gradle' line: 18
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > Could not resolve all files for configuration 'classpath'.
+        > Could not resolve io.fabric.tools:gradle:1.+.
+        Required by:
+        unspecified:unspecified:unspecified
+        > Failed to list versions for io.fabric.tools:gradle.
+        > Unable to load Maven meta-data from https://maven.fabric.io/public/io/fabric/tools/gradle/maven-metadata.xml.
+        > Could not GET 'https://maven.fabric.io/public/io/fabric/tools/gradle/maven-metadata.xml'.
+        > Connect to maven.fabric.io:443 [maven.fabric.io/0.0.0.0, maven.fabric.io/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 4s
+        

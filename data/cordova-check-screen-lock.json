@@ -1,0 +1,31 @@
+{
+  "name": "cordova-check-screen-lock",
+  "version": "0.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/ABarak64/Cordova-Screen-Lock-Enabled.git",
+  "author": "Adam Barak",
+  "published": "2022-04-27T17:01:33.412Z",
+  "versions": [
+    "0.1.0",
+    "0.2.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A Cordova plugin to determine if the device has a screen lock enabled.",
+  "bugs": "https://github.com/ABarak64/Cordova-Screen-Lock-Enabled/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/1270291?v=4",
+  "quality": 111,
+  "updated": "2022-03-24T11:17:07Z",
+  "downloads": 10
+}

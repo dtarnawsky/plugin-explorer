@@ -497,8 +497,6 @@ cordova-background-geolocation-plugin
 cordova-background-location-services
 cordova-barcodescanner
 cordova-base64-to-gallery
-cordova-bring-to-front
-cordova-cameraserver
 cordova-check-screen-lock
 cordova-chrome-sockets-tcp
 cordova-clipboard
@@ -508,7 +506,6 @@ cordova-device-accounts
 cordova-device-accounts-v2
 cordova-disable-nsurl-cache
 cordova-documentpicker
-cordova-entrust-plugin
 cordova-fabric-plugin
 cordova-fbsdk
 cordova-file-transfer

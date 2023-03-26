@@ -1,0 +1,41 @@
+{
+  "name": "cordova-connectivity-monitor",
+  "version": "1.2.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/appfeel/connectivity-monitor-cordova.git",
+  "author": "AppFeel",
+  "published": "2022-06-13T23:31:56.378Z",
+  "versions": [
+    "1.2.0",
+    "1.2.1",
+    "1.2.2"
+  ],
+  "keywords": [
+    "connectivity",
+    "network state",
+    "net state",
+    "net",
+    "monitoring",
+    "monitor",
+    "net status",
+    "reachability",
+    "appfeel",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Connectivity status monitoring. Detects if there is WIFI/3G/EDGE/CDMA available.",
+  "bugs": "https://github.com/appfeel/connectivity-monitor-cordova/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
+  "quality": 111,
+  "updated": "2017-01-23T08:24:36Z",
+  "downloads": 99
+}

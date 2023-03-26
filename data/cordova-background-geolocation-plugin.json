@@ -1,0 +1,51 @@
+{
+  "name": "cordova-background-geolocation-plugin",
+  "version": "2.0.8",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/haylltd/cordova-background-geolocation-plugin.git",
+  "author": "",
+  "published": "2023-01-10T06:17:43.464Z",
+  "versions": [
+    "1.0.0-rc.1",
+    "1.0.0-rc.2",
+    "1.0.0-rc.3",
+    "1.0.0-rc.4",
+    "1.0.0-rc.5",
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "2.0.6",
+    "2.0.7",
+    "2.0.8"
+  ],
+  "keywords": [
+    "gps",
+    "location",
+    "geolocation",
+    "background",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "phonegap"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Background Geolocation Plugin",
+  "bugs": "https://github.com/haylltd/cordova-background-geolocation-plugin/issues",
+  "stars": 42,
+  "image": "https://avatars.githubusercontent.com/u/70174429?v=4",
+  "quality": 88,
+  "updated": "2023-03-24T19:59:17Z",
+  "downloads": 4289
+}

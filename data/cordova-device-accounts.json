@@ -1,0 +1,33 @@
+{
+  "name": "cordova-device-accounts",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/danielsogl/cordova-device-accounts.git",
+  "author": "Daniel Sogl",
+  "published": "2022-04-27T17:02:25.507Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "device",
+    "account",
+    "email",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Device Accounts Plugin",
+  "bugs": "https://github.com/danielsogl/cordova-device-accounts/issues",
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
+  "quality": 9,
+  "updated": "2018-06-01T21:34:44Z",
+  "downloads": 33
+}

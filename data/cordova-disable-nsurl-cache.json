@@ -1,0 +1,26 @@
+{
+  "name": "cordova-disable-nsurl-cache",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/wongatech/cordova-disable-nsurl-cache.git",
+  "author": "Mauro Gadaleta",
+  "published": "2022-06-13T23:33:09.256Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova disable NSURL cache plugin",
+  "bugs": "https://github.com/wongatech/cordova-disable-nsurl-cache/issues",
+  "quality": null,
+  "downloads": 14
+}
