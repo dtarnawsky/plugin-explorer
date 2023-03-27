@@ -1,0 +1,63 @@
+{
+  "name": "cordova-plugin-nativegeocoder",
+  "version": "3.5.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/sebastianbaar/cordova-plugin-nativegeocoder.git",
+  "author": "Sebastian Baar",
+  "published": "2023-03-08T13:41:34.155Z",
+  "versions": [
+    "0.0.1",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.1",
+    "2.0.2",
+    "2.0.3",
+    "2.0.4",
+    "2.0.5",
+    "3.0.0",
+    "3.1.0",
+    "3.1.1",
+    "3.1.2",
+    "3.1.3",
+    "3.2.0",
+    "3.2.1",
+    "3.2.2",
+    "3.3.0",
+    "3.3.1",
+    "3.4.0",
+    "3.4.1",
+    "3.5.0",
+    "3.5.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "geocoder",
+    "geocoding",
+    "location",
+    "android",
+    "cordova-android-plugin",
+    "cordova-ios-plugin",
+    "cordova-plugin",
+    "cordova-plugin-nativegeocoder",
+    "ios",
+    "reversegeocode",
+    "swift"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for native forward and reverse geocoding",
+  "bugs": "https://github.com/sebastianbaar/cordova-plugin-nativegeocoder/issues",
+  "stars": 59,
+  "image": "https://avatars.githubusercontent.com/u/7135276?v=4",
+  "quality": 188,
+  "updated": "2023-01-25T15:04:40Z",
+  "downloads": 13021
+}

@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-rongcloud-im",
+  "version": "2.3.10",
+  "success": [],
+  "repo": "https://github.com/rongcloud/cordova-plugin-rongcloud-im.git",
+  "author": "RongCloud",
+  "published": "2022-06-14T00:44:46.079Z",
+  "versions": [
+    "2.3.0",
+    "2.3.1",
+    "2.3.2",
+    "2.3.3",
+    "2.3.4",
+    "2.3.5",
+    "2.3.6",
+    "2.3.7",
+    "2.3.9",
+    "2.3.10"
+  ],
+  "keywords": [
+    "RongCloud",
+    "IM",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova RongCloud IMLib Plugin",
+  "bugs": "https://github.com/rongcloud/cordova-plugin-rongcloud-im/issues",
+  "stars": 51,
+  "image": "https://avatars.githubusercontent.com/u/65995217?v=4",
+  "quality": 199,
+  "updated": "2023-01-28T17:20:16Z",
+  "downloads": 32
+}

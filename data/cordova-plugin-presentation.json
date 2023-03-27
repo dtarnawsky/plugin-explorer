@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-presentation",
+  "version": "1.0.31",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "author": "jeffdnpm",
+  "published": "2022-04-27T17:39:49.636Z",
+  "versions": [
+    "1.0.0",
+    "1.0.31"
+  ],
+  "keywords": [
+    "cordova",
+    "plugin",
+    "presentaion",
+    "screen"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Throwing screen",
+  "downloads": 307
+}

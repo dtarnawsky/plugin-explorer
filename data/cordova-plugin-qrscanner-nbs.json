@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-qrscanner-nbs",
+  "version": "3.0.5",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/gianluigitrontini/cordova-plugin-qrscanner-nbs.git",
+  "author": "Gianluigi Trontini",
+  "published": "2022-08-31T21:07:33.520Z",
+  "versions": [
+    "3.0.3",
+    "3.0.4",
+    "3.0.5"
+  ],
+  "keywords": [
+    "cordova",
+    "qr",
+    "qr code",
+    "scanner",
+    "reader",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser",
+    "UMD",
+    "library",
+    "electron",
+    "NW.js"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Fast, energy-efficient, highly-configurable QR code scanner.",
+  "bugs": "https://github.com/gianluigitrontini/cordova-plugin-qrscanner-nbs",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/39003797?v=4",
+  "quality": 106,
+  "updated": "2022-08-26T14:35:23Z",
+  "downloads": 13
+}

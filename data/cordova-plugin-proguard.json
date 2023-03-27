@@ -1,0 +1,56 @@
+{
+  "name": "cordova-plugin-proguard",
+  "version": "2.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/greybax/cordova-plugin-proguard.git",
+  "author": "Aleksandr Filatov <greybax@gmail.com> (https://alfilatov.com)",
+  "published": "2022-06-14T00:41:30.009Z",
+  "versions": [
+    "1.0.0",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0",
+    "2.2.0"
+  ],
+  "keywords": [
+    "proguard",
+    "android",
+    "optimize",
+    "shrink",
+    "minify",
+    "obfuscate",
+    "tool",
+    "cordova",
+    "plugin",
+    "android-development",
+    "androidutils",
+    "apk-size",
+    "bytecode",
+    "cordova-android",
+    "cordova-android-plugin",
+    "cordova-plugin",
+    "gradle",
+    "gradle-plugin",
+    "hybrid-apps",
+    "java",
+    "minifier",
+    "obfuscator",
+    "optimization-tools",
+    "optimizer",
+    "proguard-rules"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for ProGuard",
+  "bugs": "https://github.com/greybax/cordova-plugin-proguard/issues",
+  "stars": 49,
+  "image": "https://avatars.githubusercontent.com/u/3235047?v=4",
+  "quality": 395,
+  "updated": "2022-12-04T21:43:48Z",
+  "downloads": 4956
+}

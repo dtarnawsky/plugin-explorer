@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-privacyscreen-storyboard",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/sdirekt-app-developer/PrivacyScreenPlugin-Storyboard.git",
+  "author": "Tommy-Carlos Willaims <tommy@devgeeks.org>",
+  "published": "2022-04-27T17:40:03.771Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "privacy",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "storyboard"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Secures your app from displaying a screenshot in task switchers under Android and iOS. Keeps sensitive information private.",
+  "bugs": "https://github.com/sdirekt-app-developer/PrivacyScreenPlugin-Storyboard/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/57941939?v=4",
+  "quality": 2,
+  "updated": "2022-02-25T11:53:31Z",
+  "downloads": 194
+}

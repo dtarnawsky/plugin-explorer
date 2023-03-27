@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-network",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "author": "fytoro",
+  "published": "2022-04-27T17:36:54.857Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "android",
+    "ios",
+    "phone",
+    "network",
+    "vpn"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova network plugin for Android and iOS",
+  "downloads": 28
+}

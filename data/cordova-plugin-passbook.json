@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-passbook",
+  "version": "0.2.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/passslot/cordova-plugin-passbook.git",
+  "author": "PassSlot",
+  "published": "2022-06-14T00:37:42.434Z",
+  "versions": [
+    "0.2.0",
+    "0.2.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows you to add passes to Passbook",
+  "bugs": "https://github.com/passslot/cordova-plugin-passbook/issues",
+  "stars": 26,
+  "image": "https://avatars.githubusercontent.com/u/1980503?v=4",
+  "quality": 162,
+  "updated": "2022-01-12T19:13:16Z",
+  "downloads": 906
+}

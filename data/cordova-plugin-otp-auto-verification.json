@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-otp-auto-verification",
+  "version": "1.0.2",
+  "success": [
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/sandeepdillerao/cordova-plugin-otp-auto-verification.git",
+  "author": "sandeep dillerao",
+  "published": "2022-06-14T00:37:09.927Z",
+  "versions": [
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "1.0.0",
+    "1.0.1",
+    "1.0.2"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "A plugin for Autoverification of OTP",
+  "bugs": "https://github.com/sandeepdillerao/cordova-plugin-otp-auto-verification/issues",
+  "stars": 12,
+  "image": "https://avatars.githubusercontent.com/u/6266245?v=4",
+  "quality": 138,
+  "updated": "2021-12-15T06:38:16Z",
+  "downloads": 165
+}

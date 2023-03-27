@@ -1,0 +1,18 @@
+{
+  "name": "cordova-plugin-plantilla",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "published": "2022-06-14T00:39:59.983Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Plantilla base para crear un Plugin personalizado",
+  "downloads": 3
+}

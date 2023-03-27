@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-progressindicator",
+  "version": "1.2.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/pbernasconi/cordova-progressIndicator.git",
+  "author": "Paolo Bernasconi",
+  "published": "2022-06-14T00:41:25.017Z",
+  "versions": [
+    "1.0.0",
+    "1.2.0"
+  ],
+  "keywords": [
+    "cordova",
+    "progress",
+    "indicator",
+    "activity",
+    "load",
+    "progress-indicator",
+    "progressindicator",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-amazon-fireos",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "cordova plugin to show a native progress indicator",
+  "bugs": "https://github.com/pbernasconi/cordova-progressIndicator/issues",
+  "stars": 92,
+  "image": "https://avatars.githubusercontent.com/u/1716394?v=4",
+  "quality": 276,
+  "updated": "2023-03-14T23:09:18Z",
+  "downloads": 19
+}

@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-ping",
+  "version": "0.5.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/t1st3/cordova-plugin-ping.git",
+  "author": "t1st3",
+  "published": "2022-06-14T00:39:42.475Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.3.0",
+    "0.3.1",
+    "0.4.0",
+    "0.5.0"
+  ],
+  "keywords": [
+    "cordova",
+    "ping",
+    "ecosystem:cordova",
+    "cordova-android",
+    "android",
+    "cordova-plugin",
+    "javascript"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Ping Plugin",
+  "bugs": "https://github.com/t1st3/cordova-plugin-ping/issues",
+  "stars": 15,
+  "image": "https://avatars.githubusercontent.com/u/1469638?v=4",
+  "quality": 136,
+  "updated": "2023-03-04T06:26:26Z",
+  "downloads": 198
+}

@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-pedometer",
+  "version": "0.4.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/leecrossley/cordova-plugin-pedometer.git",
+  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
+  "published": "2022-06-14T00:38:32.451Z",
+  "versions": [
+    "0.2.0",
+    "0.2.1",
+    "0.3.1",
+    "0.3.2",
+    "0.3.3",
+    "0.4.0",
+    "0.4.1"
+  ],
+  "keywords": [
+    "cordova",
+    "core motion",
+    "pedometer",
+    "steps",
+    "distance",
+    "pedestrian",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova / PhoneGap Plugin for the Core Motion Pedometer to fetch pedestrian-related data, such as step counts and other information about the distance travelled.",
+  "bugs": "https://github.com/leecrossley/cordova-plugin-pedometer/issues",
+  "stars": 61,
+  "image": "https://avatars.githubusercontent.com/u/807783?v=4",
+  "quality": 213,
+  "updated": "2022-12-25T02:14:15Z",
+  "downloads": 395
+}

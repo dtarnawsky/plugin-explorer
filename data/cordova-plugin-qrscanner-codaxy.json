@@ -1,0 +1,52 @@
+{
+  "name": "cordova-plugin-qrscanner-codaxy",
+  "version": "3.0.5",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/codaxy/cordova-plugin-qrscanner.git",
+  "author": "Jason Dreyzehner",
+  "published": "2022-04-28T07:39:01.558Z",
+  "versions": [
+    "2.6.1",
+    "2.6.2",
+    "2.6.3",
+    "2.6.4",
+    "2.6.5",
+    "2.6.6",
+    "2.6.7",
+    "2.6.8",
+    "3.0.1",
+    "3.0.2",
+    "3.0.3",
+    "3.0.4",
+    "3.0.5"
+  ],
+  "keywords": [
+    "cordova",
+    "qr",
+    "qr code",
+    "scanner",
+    "reader",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser",
+    "UMD",
+    "library",
+    "electron",
+    "NW.js"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Fast, energy-efficient, highly-configurable QR code scanner.",
+  "bugs": "https://github.com/bitpay/cordova-plugin-qrscanner/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/488135?v=4",
+  "quality": 16,
+  "updated": "2023-01-28T01:15:02Z",
+  "downloads": 86
+}

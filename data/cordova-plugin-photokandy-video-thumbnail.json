@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-photokandy-video-thumbnail",
+  "version": "2.1.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/photokandyStudios/PKVideoThumbnail.git",
+  "author": "Kerri Shotts",
+  "published": "2022-06-14T00:39:12.466Z",
+  "versions": [
+    "1.0.1",
+    "2.0.0",
+    "2.0.1",
+    "2.1.0"
+  ],
+  "keywords": [
+    "video",
+    "thumbnail",
+    "ios",
+    "android",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Create video thumbnails from video files; iOS 6+, Android API 17+",
+  "bugs": "https://github.com/photokandyStudios/PKVideoThumbnail/issues",
+  "stars": 39,
+  "image": "https://avatars.githubusercontent.com/u/813516?v=4",
+  "quality": 189,
+  "updated": "2021-09-01T19:22:19Z",
+  "downloads": 26
+}

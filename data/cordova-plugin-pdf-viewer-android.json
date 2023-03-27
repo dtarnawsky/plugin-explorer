@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-pdf-viewer-android",
+  "version": "1.1.2",
+  "success": [
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "author": "Flavien",
+  "published": "2022-04-27T17:38:46.377Z",
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "This cordova plugin uses com.github.barteksc:android-pdf-viewer project and show a PDF reader with a callback button(optional)",
+  "downloads": 35
+}

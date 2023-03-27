@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-qr-barcode-scanner",
+  "version": "8.0.3",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/AndreiTelteu/cordova-plugin-qr-barcode-scanner.git",
+  "author": "Adobe PhoneGap Team",
+  "published": "2022-04-27T17:40:56.806Z",
+  "versions": [
+    "8.0.2",
+    "8.0.3"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser",
+    "cordova:plugin"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
+  "bugs": "https://github.com/AndreiTelteu/cordova-plugin-qr-barcode-scanner/issues",
+  "stars": 12,
+  "image": "https://avatars.githubusercontent.com/u/5564199?v=4",
+  "quality": 30,
+  "updated": "2022-09-27T03:34:43Z",
+  "downloads": 820
+}

@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-pch-alipay",
+  "version": "1.0.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/pchliang/cordova-plugin-pch-alipay.git",
+  "author": "pchliang",
+  "published": "2022-04-27T17:38:42.374Z",
+  "versions": [
+    "1.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "alipay",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Plugin Alipay",
+  "bugs": "https://github.com/pchliang/cordova-plugin-pch-alipay/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/75404984?v=4",
+  "quality": 101,
+  "updated": "2021-07-14T10:37:25Z",
+  "downloads": 4
+}

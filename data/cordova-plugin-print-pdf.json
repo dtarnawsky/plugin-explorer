@@ -1,0 +1,44 @@
+{
+  "name": "cordova-plugin-print-pdf",
+  "version": "4.0.2",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/sarahgoldman/cordova-print-pdf-plugin.git",
+  "author": "Sarah Goldman",
+  "published": "2022-06-14T00:40:47.537Z",
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "2.1.2",
+    "3.0.0",
+    "3.1.0",
+    "4.0.0",
+    "4.0.1",
+    "4.0.2"
+  ],
+  "keywords": [
+    "cordova",
+    "print",
+    "cordova-ios",
+    "cordova-android",
+    "pdf"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Print PDF Plugin",
+  "bugs": "https://github.com/sarahgoldman/cordova-print-pdf-plugin/issues",
+  "stars": 26,
+  "image": "https://avatars.githubusercontent.com/u/2464575?v=4",
+  "quality": 166,
+  "updated": "2022-08-24T08:51:43Z",
+  "downloads": 973
+}

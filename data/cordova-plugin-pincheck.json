@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-pincheck",
+  "version": "0.0.6",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/shangyilim/cordova-plugin-pincheck.git",
+  "author": "Lim Shang Yi",
+  "published": "2022-06-14T00:39:34.972Z",
+  "versions": [
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "pin",
+    "pin check",
+    "passcode",
+    "pass code",
+    "keyguard",
+    "key guard"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Checks whether the device has pin passcode setup on device",
+  "bugs": "https://github.com/shangyilim/cordova-plugin-pincheck/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/6754603?v=4",
+  "quality": 117,
+  "updated": "2022-07-06T09:10:49Z",
+  "downloads": 922
+}
