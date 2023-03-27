@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-streaming-media",
+  "version": "2.3.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin.git",
+  "author": "Nicholas Hutchind",
+  "published": "2022-06-14T00:52:16.217Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "2.0.0",
+    "2.1.0",
+    "2.1.1",
+    "2.1.2",
+    "2.1.3",
+    "2.2.0",
+    "2.3.0"
+  ],
+  "keywords": [
+    "media",
+    "streaming",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-fireos"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows you to stream audio and video in a fullscreen, native player on iOS and Android.",
+  "bugs": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin/issues",
+  "stars": 392,
+  "image": "https://avatars.githubusercontent.com/u/1398002?v=4",
+  "quality": 839,
+  "updated": "2023-01-09T16:46:40Z",
+  "downloads": 6821
+}

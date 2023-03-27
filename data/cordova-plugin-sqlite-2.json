@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-sqlite-2",
+  "version": "1.0.7",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/nolanlawson/cordova-plugin-sqlite-2.git",
+  "author": "Nolan Lawson <nolan@nolanlawson.com>",
+  "published": "2022-06-14T00:50:41.197Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7"
+  ],
+  "keywords": [
+    "cordova",
+    "sqlite",
+    "sqlite3",
+    "websql",
+    "database",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova SQLite Plugin 2",
+  "bugs": "https://github.com/nolanlawson/cordova-plugin-sqlite-2/issues",
+  "stars": 168,
+  "image": "https://avatars.githubusercontent.com/u/283842?v=4",
+  "quality": 302,
+  "updated": "2022-09-19T12:05:19Z",
+  "downloads": 2047
+}

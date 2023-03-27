@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-sms",
+  "version": "1.0.5",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/floatinghotpot/cordova-plugin-sms.git",
+  "author": "Raymond Xie <rjfun.mobile@gmail.com>",
+  "published": "2022-06-14T00:48:56.149Z",
+  "versions": [
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5"
+  ],
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "sms",
+    "rjfun"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin to operate SMS, send/list/intercept/delete/restore",
+  "bugs": "https://github.com/floatinghotpot/cordova-plugin-sms/issues",
+  "stars": 167,
+  "image": "https://avatars.githubusercontent.com/u/2339512?v=4",
+  "quality": 473,
+  "updated": "2023-01-07T07:09:39Z",
+  "downloads": 109
+}

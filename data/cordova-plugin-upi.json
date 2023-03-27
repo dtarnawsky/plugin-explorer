@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-upi",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/ArunYogi/cordova-plugin-upi.git",
+  "author": "Arun Yokesh Kumar",
+  "published": "2022-04-27T17:49:36.559Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "keywords": [
+    "upi",
+    "cordova",
+    "mobile",
+    "npci",
+    "phonegap",
+    "plugin",
+    "cordova-android",
+    "cordova-plugin"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "This Plugin allows you receive payment via UPI.",
+  "bugs": "https://github.com/ArunYogi/cordova-plugin-upi/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/23559391?v=4",
+  "quality": 116,
+  "updated": "2023-03-20T09:11:23Z",
+  "downloads": 44
+}

@@ -1,0 +1,613 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarReleaseNote: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:checkReleaseDuplicateClasses
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:3: error: package android.annotation does not exist
+        import android.annotation.SuppressLint;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:4: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:5: error: package android.app does not exist
+        import android.app.PendingIntent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:6: error: package android.content does not exist
+        import android.content.BroadcastReceiver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:7: error: package android.content does not exist
+        import android.content.ContentResolver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:8: error: package android.content does not exist
+        import android.content.ContentValues;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:9: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:10: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:11: error: package android.content does not exist
+        import android.content.IntentFilter;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:12: error: package android.database does not exist
+        import android.database.ContentObserver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:13: error: package android.database does not exist
+        import android.database.Cursor;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:14: error: package android.net does not exist
+        import android.net.Uri;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:15: error: package android.os does not exist
+        import android.os.Bundle;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:16: error: package android.os does not exist
+        import android.os.Handler;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:17: error: package android.telephony does not exist
+        import android.telephony.SmsManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:18: error: package android.telephony does not exist
+        import android.telephony.SmsMessage;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:19: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:27: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:28: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:29: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:84: error: cannot find symbol
+        private ContentObserver mObserver = null;
+        ^
+        symbol:   class ContentObserver
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:85: error: cannot find symbol
+        private BroadcastReceiver mReceiver = null;
+        ^
+        symbol:   class BroadcastReceiver
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:90: error: cannot find symbol
+        public boolean execute(String action, JSONArray inputs, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONArray
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:90: error: cannot find symbol
+        public boolean execute(String action, JSONArray inputs, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:130: error: cannot find symbol
+        public void setOptions(JSONObject options) {
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:200: error: cannot find symbol
+        private PluginResult sendSMS(JSONArray addressList, String text, CallbackContext callbackContext) {
+        ^
+        symbol:   class JSONArray
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:231: error: cannot find symbol
+        private PluginResult listSMS(JSONObject filter, CallbackContext callbackContext) {
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:277: error: cannot find symbol
+        private JSONObject getJsonFromCursor(Cursor cur) {
+        ^
+        symbol:   class Cursor
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:277: error: cannot find symbol
+        private JSONObject getJsonFromCursor(Cursor cur) {
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:310: error: cannot find symbol
+        private void fireEvent(final String event, JSONObject json) {
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:323: error: cannot find symbol
+        private void onSMSArrive(JSONObject json) {
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:413: error: cannot find symbol
+        private PluginResult deleteSMS(JSONObject filter, CallbackContext callbackContext) {
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:446: error: cannot find symbol
+        private JSONObject getJsonFromSmsMessage(SmsMessage sms) {
+        ^
+        symbol:   class SmsMessage
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:446: error: cannot find symbol
+        private JSONObject getJsonFromSmsMessage(SmsMessage sms) {
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:467: error: cannot find symbol
+        private ContentValues getContentValuesFromJson(JSONObject json) {
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:467: error: cannot find symbol
+        private ContentValues getContentValuesFromJson(JSONObject json) {
+        ^
+        symbol:   class ContentValues
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:478: error: cannot find symbol
+        private PluginResult restoreSMS(JSONArray array, CallbackContext callbackContext) {
+        ^
+        symbol:   class JSONArray
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:93: error: cannot find symbol
+        JSONObject options = inputs.optJSONObject(0);
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:104: error: cannot find symbol
+        JSONObject msg = inputs.optJSONObject(0);
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:107: error: cannot find symbol
+        JSONArray smsList = inputs.optJSONArray(0);
+        ^
+        symbol:   class JSONArray
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:110: error: cannot find symbol
+        JSONObject filters = inputs.optJSONObject(0);
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:113: error: cannot find symbol
+        JSONArray addressList = inputs.optJSONArray(0);
+        ^
+        symbol:   class JSONArray
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:117: error: cannot find symbol
+        Log.d(LOGTAG, String.format("Invalid action passed: %s", action));
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:131: error: cannot find symbol
+        Log.d(LOGTAG, ACTION_SET_OPTIONS);
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:159: error: cannot find symbol
+        Log.d(LOGTAG, ACTION_START_WATCH);
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:173: error: cannot find symbol
+        Log.d(LOGTAG, ACTION_STOP_WATCH);
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:174: error: cannot find symbol
+        Activity ctx = this.cordova.getActivity();
+        ^
+        symbol:   class Activity
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:174: error: cannot access Activity
+        Activity ctx = this.cordova.getActivity();
+        ^
+        class file for android.app.Activity not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:178: error: cannot find symbol
+        Log.d(LOGTAG, "broadcast receiver unregistered");
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:183: error: cannot find symbol
+        Log.d(LOGTAG, "sms inbox observer unregistered");
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:192: error: cannot find symbol
+        Log.d(LOGTAG, ACTION_ENABLE_INTERCEPT);
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:201: error: cannot find symbol
+        Log.d(LOGTAG, ACTION_SEND_SMS);
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:205: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getBroadcast((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("SENDING_SMS"), (int)0);
+        ^
+        symbol:   class PendingIntent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:205: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getBroadcast((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("SENDING_SMS"), (int)0);
+        ^
+        symbol:   class Context
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:205: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getBroadcast((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("SENDING_SMS"), (int)0);
+        ^
+        symbol:   class Intent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:205: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getBroadcast((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("SENDING_SMS"), (int)0);
+        ^
+        symbol:   class Intent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:205: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getBroadcast((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("SENDING_SMS"), (int)0);
+        ^
+        symbol:   variable PendingIntent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:206: error: cannot find symbol
+        SmsManager sms = SmsManager.getDefault();
+        ^
+        symbol:   class SmsManager
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:206: error: cannot find symbol
+        SmsManager sms = SmsManager.getDefault();
+        ^
+        symbol:   variable SmsManager
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:210: error: cannot find symbol
+        sms.sendTextMessage(address, null, text, sentIntent, (PendingIntent)null);
+        ^
+        symbol:   class PendingIntent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:213: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getActivity((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("android.intent.action.VIEW"), (int)0);
+        ^
+        symbol:   class PendingIntent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:213: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getActivity((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("android.intent.action.VIEW"), (int)0);
+        ^
+        symbol:   class Context
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:213: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getActivity((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("android.intent.action.VIEW"), (int)0);
+        ^
+        symbol:   class Intent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:213: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getActivity((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("android.intent.action.VIEW"), (int)0);
+        ^
+        symbol:   class Intent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:213: error: cannot find symbol
+        PendingIntent sentIntent = PendingIntent.getActivity((Context)this.cordova.getActivity(), (int)0, (Intent)new Intent("android.intent.action.VIEW"), (int)0);
+        ^
+        symbol:   variable PendingIntent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:214: error: cannot find symbol
+        Intent intent = new Intent("android.intent.action.VIEW");
+        ^
+        symbol:   class Intent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:214: error: cannot find symbol
+        Intent intent = new Intent("android.intent.action.VIEW");
+        ^
+        symbol:   class Intent
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:220: error: package PendingIntent does not exist
+        catch (PendingIntent.CanceledException e) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:232: error: cannot find symbol
+        Log.i(LOGTAG, ACTION_LIST_SMS);
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:240: error: cannot find symbol
+        JSONArray jsons = new JSONArray();
+        ^
+        symbol:   class JSONArray
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:240: error: cannot find symbol
+        JSONArray jsons = new JSONArray();
+        ^
+        symbol:   class JSONArray
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:241: error: cannot find symbol
+        Activity ctx = this.cordova.getActivity();
+        ^
+        symbol:   class Activity
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:242: error: cannot find symbol
+        Uri uri = Uri.parse((SMS_URI_ALL + uri_filter));
+        ^
+        symbol:   class Uri
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:242: error: cannot find symbol
+        Uri uri = Uri.parse((SMS_URI_ALL + uri_filter));
+        ^
+        symbol:   variable Uri
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:243: error: cannot find symbol
+        Cursor cur = ctx.getContentResolver().query(uri, (String[])null, "", (String[])null, null);
+        ^
+        symbol:   class Cursor
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:246: error: cannot find symbol
+        JSONObject json;
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:278: error: cannot find symbol
+        JSONObject json = new JSONObject();
+        		^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:278: error: cannot find symbol
+        JSONObject json = new JSONObject();
+        ^
+        symbol:   class JSONObject
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:286: error: cannot find symbol
+        case Cursor.FIELD_TYPE_NULL:
+        ^
+        symbol:   variable Cursor
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:289: error: cannot find symbol
+        case Cursor.FIELD_TYPE_INTEGER:
+        ^
+        symbol:   variable Cursor
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:292: error: cannot find symbol
+        case Cursor.FIELD_TYPE_FLOAT:
+        ^
+        symbol:   variable Cursor
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:295: error: cannot find symbol
+        case Cursor.FIELD_TYPE_STRING:
+        ^
+        symbol:   variable Cursor
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:298: error: cannot find symbol
+        case Cursor.FIELD_TYPE_BLOB:
+        ^
+        symbol:   variable Cursor
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:312: error: cannot find symbol
+        Log.d(LOGTAG, "Event: " + event + ", " + str);
+        	^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:335: error: cannot find symbol
+        Activity ctx = this.cordova.getActivity();
+        ^
+        symbol:   class Activity
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:336: error: cannot find symbol
+        this.mReceiver = new BroadcastReceiver(){
+        ^
+        symbol:   class BroadcastReceiver
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:338: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol: class Context
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:338: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol: class Intent
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:340: error: cannot find symbol
+        Log.d(LOGTAG, ("onRecieve: " + action));
+        ^
+        symbol: variable Log
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:342: error: cannot find symbol
+        Bundle bundle;
+        ^
+        symbol: class Bundle
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:344: error: cannot find symbol
+        this.abortBroadcast();
+        ^
+        symbol: method abortBroadcast()
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:350: error: cannot find symbol
+        SmsMessage sms = SmsMessage.createFromPdu((byte[])((byte[])pdus[i]));
+        ^
+        symbol: class SmsMessage
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:350: error: cannot find symbol
+        SmsMessage sms = SmsMessage.createFromPdu((byte[])((byte[])pdus[i]));
+        ^
+        symbol: variable SmsMessage
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:351: error: cannot find symbol
+        JSONObject json = SMSPlugin.this.getJsonFromSmsMessage(sms);
+        ^
+        symbol: class JSONObject
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:361: error: cannot find symbol
+        IntentFilter filter = new IntentFilter(filterstr[i]);
+        ^
+        symbol:   class IntentFilter
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:361: error: cannot find symbol
+        IntentFilter filter = new IntentFilter(filterstr[i]);
+        ^
+        symbol:   class IntentFilter
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:364: error: cannot find symbol
+        Log.d(LOGTAG, ("broadcast receiver registered for: " + filterstr[i]));
+        ^
+        symbol:   variable Log
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:369: error: cannot find symbol
+        Activity ctx = this.cordova.getActivity();
+        ^
+        symbol:   class Activity
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:370: error: cannot find symbol
+        this.mObserver = new ContentObserver(new Handler()){
+        ^
+        symbol:   class ContentObserver
+        location: class SMSPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/rjfun/cordova/sms/SMSPlugin.java:370: error: cannot find symbol
+        this.mObserver = new ContentObserver(new Handler()){
+        ^
+        symbol:   class Handler
+        location: class SMSPlugin
+        100 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 3s
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        77 actionable tasks: 77 executed
+        

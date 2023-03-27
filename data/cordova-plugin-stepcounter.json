@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-stepcounter",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/ihadeed/cordova-plugin-stepcounter.git",
+  "author": "",
+  "published": "2022-06-14T00:52:03.743Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Uses the step counter service APIs introduced in Android 4.4 KitKat to, you guessed it, count the number of steps whomever is holding the device running your app takes.",
+  "bugs": "https://github.com/ihadeed/cordova-plugin-stepcounter/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
+  "quality": 13,
+  "updated": "2021-09-27T01:10:09Z",
+  "downloads": 18
+}

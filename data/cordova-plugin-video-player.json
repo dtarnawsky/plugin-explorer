@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-video-player",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/moust/cordova-plugin-videoplayer.git",
+  "author": "Quentin Aupetit",
+  "published": "2022-04-27T17:50:13.037Z",
+  "versions": [
+    "1.0.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova",
+    "video",
+    "player",
+    "fullscreen"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A Codova plugin that simply allows you to immediately play a video in fullscreen mode.",
+  "bugs": "https://github.com/moust/cordova-plugin-videoplayer/issues",
+  "stars": 136,
+  "image": "https://avatars.githubusercontent.com/u/1053102?v=4",
+  "quality": 384,
+  "updated": "2023-03-06T09:04:23Z",
+  "downloads": 199
+}

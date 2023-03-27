@@ -1,0 +1,394 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarReleaseNote: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:3: error: package android does not exist
+        import android.Manifest;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:4: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:5: error: package android.content does not exist
+        import android.content.BroadcastReceiver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:6: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:7: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:8: error: package android.content does not exist
+        import android.content.IntentFilter;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:9: error: package android.content.pm does not exist
+        import android.content.pm.PackageManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:10: error: package android.os does not exist
+        import android.os.Bundle;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:11: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:19: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:20: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:21: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:32: error: package android.content does not exist
+        import android.content.ContextWrapper;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:33: error: package android.content.pm does not exist
+        import android.content.pm.Signature;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:34: error: package android.util does not exist
+        import android.util.Base64;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:35: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:71: error: cannot find symbol
+        public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONArray
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:71: error: cannot find symbol
+        public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:178: error: cannot find symbol
+        private BroadcastReceiver SmsBrReceiver = new BroadcastReceiver() {
+        ^
+        symbol:   class BroadcastReceiver
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:60: error: cannot find symbol
+        Log.i(LOG_TAG, "Constructed");
+        		^
+        symbol:   variable Log
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:68: error: cannot access Activity
+        smsRetrieverClient = SmsRetriever.getClient(cordova.getActivity().getApplicationContext());
+        ^
+        class file for android.app.Activity not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:68: error: cannot access Activity
+        smsRetrieverClient = SmsRetriever.getClient(cordova.getActivity().getApplicationContext());
+        ^
+        class file for android.app.Activity not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:75: error: cannot find symbol
+        Log.i(LOG_TAG, String.format("Executing the %s action started", action));
+        		^
+        symbol:   variable Log
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:81: error: cannot find symbol
+        Log.w(LOG_TAG, String.format("Invalid action passed: %s", action));
+        			^
+        symbol:   variable Log
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:93: error: cannot find symbol
+        Log.i(LOG_TAG, "SMS Retriever unregistered successfully");
+        				^
+        symbol:   variable Log
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:95: error: cannot find symbol
+        Log.e(LOG_TAG, e.getMessage());
+        				^
+        symbol:   variable Log
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:101: error: cannot find symbol
+        Log.i(LOG_TAG, ACTION_START_WATCH);
+        		^
+        symbol:   variable Log
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:119: error: cannot find symbol
+        Log.i(LOG_TAG, "smsRetrieverClient started successfully");
+        						^
+        symbol: variable Log
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:123: error: cannot find symbol
+        IntentFilter intentFilter = new IntentFilter();
+        						^
+        symbol: class IntentFilter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:123: error: cannot find symbol
+        IntentFilter intentFilter = new IntentFilter();
+        ^
+        symbol: class IntentFilter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:132: error: cannot find symbol
+        Log.e(LOG_TAG, e.getMessage());
+        							^
+        symbol: variable Log
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:142: error: cannot find symbol
+        Log.e(LOG_TAG, e.getMessage());
+        						^
+        symbol: variable Log
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:151: error: cannot find symbol
+        Log.e(LOG_TAG, e.getMessage());
+        			^
+        symbol:   variable Log
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:178: error: cannot find symbol
+        private BroadcastReceiver SmsBrReceiver = new BroadcastReceiver() {
+        ^
+        symbol:   class BroadcastReceiver
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:180: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol: class Context
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:180: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol: class Intent
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:179: error: method does not override or implement a method from a supertype
+        		@Override
+        		^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:182: error: cannot find symbol
+        Bundle extras = intent.getExtras();
+        				^
+        symbol: class Bundle
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:184: error: cannot find symbol
+        JSONObject item = new JSONObject();
+        				^
+        symbol: class JSONObject
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:184: error: cannot find symbol
+        JSONObject item = new JSONObject();
+        ^
+        symbol: class JSONObject
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:186: error: cannot access Parcelable
+        switch (status.getStatusCode()) {
+        ^
+        class file for android.os.Parcelable not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:190: error: cannot find symbol
+        Log.i(LOG_TAG, smsMessage);
+        						^
+        symbol: variable Log
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:197: error: cannot find symbol
+        } catch (JSONException e) {
+        ^
+        symbol: class JSONException
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:198: error: cannot find symbol
+        Log.e(LOG_TAG, e.getMessage(), e);
+        							^
+        symbol: variable Log
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:206: error: cannot find symbol
+        Log.w(LOG_TAG, "TIMEOUT");
+        						^
+        symbol: variable Log
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:229: error: cannot find symbol
+        PackageManager packageManager = cordova.getActivity().getApplicationContext().getPackageManager();
+        			^
+        symbol:   class PackageManager
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:230: error: cannot find symbol
+        Signature[] signatures = packageManager.getPackageInfo(packageName, PackageManager.GET_SIGNATURES).signatures;
+        			^
+        symbol:   class Signature
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:230: error: cannot find symbol
+        Signature[] signatures = packageManager.getPackageInfo(packageName, PackageManager.GET_SIGNATURES).signatures;
+        ^
+        symbol:   variable PackageManager
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:233: error: cannot find symbol
+        for (Signature signature : signatures) {
+        ^
+        symbol:   class Signature
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:239: error: package PackageManager does not exist
+        } catch (PackageManager.NameNotFoundException e) {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:240: error: cannot find symbol
+        Log.e(LOG_TAG, e.getMessage());
+        			^
+        symbol:   variable Log
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:255: error: cannot find symbol
+        String base64Hash = Base64.encodeToString(hashSignature, Base64.NO_PADDING | Base64.NO_WRAP);
+        ^
+        symbol:   variable Base64
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:255: error: cannot find symbol
+        String base64Hash = Base64.encodeToString(hashSignature, Base64.NO_PADDING | Base64.NO_WRAP);
+        ^
+        symbol:   variable Base64
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:255: error: cannot find symbol
+        String base64Hash = Base64.encodeToString(hashSignature, Base64.NO_PADDING | Base64.NO_WRAP);
+        ^
+        symbol:   variable Base64
+        location: class SMSRetriever
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/andreszs/smsretriever/SMSRetriever.java:260: error: cannot find symbol
+        Log.e(LOG_TAG, e.getMessage());
+        			^
+        symbol:   variable Log
+        location: class SMSRetriever
+        55 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        84 actionable tasks: 84 executed
+        
+        BUILD FAILED in 4s
+        

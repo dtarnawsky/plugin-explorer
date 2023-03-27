@@ -1,0 +1,43 @@
+{
+  "name": "cordova-plugin-transport-security",
+  "version": "0.1.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/leecrossley/cordova-plugin-transport-security.git",
+  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
+  "published": "2022-06-14T00:55:21.297Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2"
+  ],
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "security",
+    "transport",
+    "http",
+    "https",
+    "ats",
+    "ssl",
+    "tls",
+    "nsapptransportsecurity",
+    "nsallowsarbitraryloads",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova / PhoneGap Plugin to allow 'Arbitrary Loads' by adding a declaration to the Info.plist file to bypass the iOS 9 App Transport Security",
+  "bugs": "https://github.com/leecrossley/cordova-plugin-transport-security/issues",
+  "stars": 74,
+  "image": "https://avatars.githubusercontent.com/u/807783?v=4",
+  "quality": 207,
+  "updated": "2020-12-24T03:54:26Z",
+  "downloads": 1806
+}

@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-video-editor-fixed",
+  "version": "1.1.6",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/alimhan1986/cordova-plugin-video-editor.git",
+  "author": "Josh Bavari",
+  "published": "2022-04-27T17:50:11.110Z",
+  "versions": [
+    "1.1.4",
+    "1.1.5",
+    "1.1.6"
+  ],
+  "keywords": [
+    "cordova",
+    "video",
+    "editing",
+    "editor",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Video Editor Plugin",
+  "bugs": "https://github.com/alimhan1986/cordova-plugin-video-editor",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/53707836?v=4",
+  "quality": 1,
+  "updated": "2021-07-07T08:21:40Z",
+  "downloads": 300
+}

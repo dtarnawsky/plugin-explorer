@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-stetho-android",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/OutSystems/cordova-plugin-stetho-android.git",
+  "author": "OutSystems - Mobility Experts",
+  "published": "2022-06-14T00:52:06.212Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "stetho",
+    "debug bridge",
+    "android",
+    "ecosystem:cordova",
+    "cordova-android",
+    "engineering",
+    "snyk-product"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-android-3"
+  ],
+  "description": "Plugin to integrate with Stetho a debug bridge for Android applications",
+  "bugs": "https://github.com/OutSystems/cordova-plugin-stetho-android/issues",
+  "stars": 14,
+  "image": "https://avatars.githubusercontent.com/u/2916417?v=4",
+  "quality": 127,
+  "updated": "2022-06-14T14:29:56Z",
+  "downloads": 100
+}

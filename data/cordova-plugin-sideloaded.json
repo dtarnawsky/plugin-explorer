@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-sideloaded",
+  "version": "0.0.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://Tomnar@bitbucket.org/creativevikings/cordova-plugin-sideloaded.git",
+  "author": "Creative Vikings ApS",
+  "published": "2022-06-14T00:47:56.132Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A Cordova plugin that checks if an android app was side loaded or downloaded from the play store.",
+  "downloads": 8
+}

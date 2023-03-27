@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-useragent",
+  "version": "1.0.6",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/danielsogl/cordova-plugin-useragent.git",
+  "author": "Daniel Sogl",
+  "published": "2022-04-27T17:49:47.554Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.6"
+  ],
+  "keywords": [
+    "user",
+    "agent",
+    "useragent",
+    "user-agent",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Allows you to change your User-Agent for HTTP requests.",
+  "bugs": "https://github.com/danielsogl/cordova-plugin-useragent/issues",
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
+  "quality": 25,
+  "updated": "2022-08-02T12:37:19Z",
+  "downloads": 580
+}

@@ -1,0 +1,40 @@
+{
+  "name": "cordova-plugin-settings-hook",
+  "version": "0.3.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/mircoc/cordova-plugin-settings-hook.git",
+  "author": "Mirco Cipriani",
+  "published": "2022-06-14T00:47:16.118Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.2.0",
+    "0.2.2",
+    "0.2.3",
+    "0.2.4",
+    "0.2.5",
+    "0.2.6",
+    "0.2.7",
+    "0.3.0",
+    "0.3.1"
+  ],
+  "keywords": [
+    "cordova",
+    "configuration",
+    "ecosystem:cordova"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin helpful to modify Android and iOS settings with config.xml parameters.\n    \tBased on the work of Devin Jett and Diego Netto on generator-ionic",
+  "bugs": "https://github.com/mircoc/cordova-plugin-settings-hook/issues",
+  "stars": 35,
+  "image": "https://avatars.githubusercontent.com/u/3178388?v=4",
+  "quality": 157,
+  "updated": "2023-03-04T05:40:09Z",
+  "downloads": 403
+}

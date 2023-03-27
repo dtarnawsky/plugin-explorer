@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-sslcertificatechecker",
+  "version": "6.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/EddyVerbruggen/SSLCertificateChecker-PhoneGap-Plugin.git",
+  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
+  "published": "2022-06-14T00:51:41.206Z",
+  "versions": [
+    "4.0.0",
+    "5.0.0",
+    "5.1.0",
+    "6.0.0"
+  ],
+  "keywords": [
+    "Certificate",
+    "SSL",
+    "Pinning",
+    "Man in the Middle",
+    "MitM",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin allows allows you to check the SSL Certificate of the server you're connecting to. This can be useful for prevention of Man In The Middle attacks.",
+  "bugs": "https://github.com/EddyVerbruggen/SSLCertificateChecker-PhoneGap-Plugin/issues",
+  "stars": 155,
+  "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
+  "quality": 372,
+  "updated": "2023-03-15T02:58:38Z",
+  "downloads": 2922
+}

@@ -1,0 +1,47 @@
+{
+  "name": "cordova-plugin-screenprivacy-cxm",
+  "version": "2.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/pranavagiligar/cordova-plugin-screenprivacy-cxm.git",
+  "author": "grpranava",
+  "published": "2022-04-27T17:44:04.594Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7",
+    "1.0.8",
+    "1.0.9",
+    "1.0.10",
+    "1.0.11",
+    "1.0.12",
+    "2.0.0"
+  ],
+  "keywords": [
+    "cordova",
+    "screenshot",
+    "app switcher",
+    "screen recording",
+    "screen privacy",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin to handle screenshot",
+  "bugs": "https://github.com/pranavagiligar/cordova-plugin-screenprivacy-cxm/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/31511852?v=4",
+  "quality": 101,
+  "updated": "2021-11-30T05:26:42Z",
+  "downloads": 102
+}

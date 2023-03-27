@@ -1,0 +1,41 @@
+{
+  "name": "cordova-plugin-unique-device-id2",
+  "version": "2.0.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/wizpanda/cordova-plugin-unique-device-id2.git",
+  "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
+  "published": "2022-04-27T17:49:28.032Z",
+  "versions": [
+    "2.0.0"
+  ],
+  "keywords": [
+    "phonegap",
+    "cordova",
+    "android",
+    "ios",
+    "wp",
+    "Windows",
+    "phone",
+    "device",
+    "id",
+    "uuid",
+    "unique",
+    "cordova-plugin",
+    "device-identification",
+    "unique-identifier"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "PhoneGap / Cordova unique device id (UUID) plugin for Android, iOS and Windows Phone 8.",
+  "bugs": "https://github.com/wizpanda/cordova-plugin-unique-device-id2/issues",
+  "stars": 11,
+  "image": "https://avatars.githubusercontent.com/u/19631317?v=4",
+  "quality": 17,
+  "updated": "2022-05-25T12:44:51Z",
+  "downloads": 787
+}

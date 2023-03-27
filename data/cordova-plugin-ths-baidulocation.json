@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-ths-baidulocation",
+  "version": "1.0.7",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/THS-FE/cordova-plugin-ths-baidulocation.git",
+  "author": "liuyx",
+  "published": "2022-08-10T05:37:32.485Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.0.7"
+  ],
+  "keywords": [
+    "cordova",
+    "baidulocation",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "百度定位插件",
+  "bugs": "https://github.com/THS-FE/cordova-plugin-ths-baidulocation/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/44492378?v=4",
+  "quality": 103,
+  "updated": "2021-12-05T08:42:37Z",
+  "downloads": 34
+}

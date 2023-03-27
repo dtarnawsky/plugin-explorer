@@ -1,0 +1,60 @@
+{
+  "name": "cordova-plugin-uptime",
+  "version": "0.1.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/s1lviu/cordova-plugin-uptime.git",
+  "author": "Silviu Stroe",
+  "published": "2022-04-27T17:49:39.060Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.1.0",
+    "0.1.1"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "ionic android uptime",
+    "ionic ios uptime",
+    "android uptime",
+    "ios uptime",
+    "system real uptime",
+    "cordova uptime",
+    "device uptime",
+    "monotonic uptime",
+    "android",
+    "cordova-plugin",
+    "device-uptime",
+    "ionic",
+    "ionic-cordova",
+    "ionic-framework",
+    "ionic-native",
+    "ionic2",
+    "ionic3",
+    "ios",
+    "uptime",
+    "uptime-plugin"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This plugin return the time spent in milliseconds since boot (uptime).",
+  "bugs": "https://github.com/s1lviu/cordova-plugin-uptime/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/9863576?v=4",
+  "quality": 102,
+  "updated": "2021-03-27T17:09:04Z",
+  "downloads": 336
+}

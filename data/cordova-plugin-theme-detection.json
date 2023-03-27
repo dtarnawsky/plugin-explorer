@@ -1,0 +1,44 @@
+{
+  "name": "cordova-plugin-theme-detection",
+  "version": "1.3.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/mariusbackes/cordova-plugin-theme-detection.git",
+  "author": "Marius Backes",
+  "published": "2022-04-27T17:48:20.981Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0"
+  ],
+  "keywords": [
+    "dark-theme",
+    "dark-mode",
+    "light-theme",
+    "light-mode",
+    "design",
+    "theme",
+    "detection"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Plugin to detect whether dark mode or light mode is detected on your device",
+  "bugs": "https://github.com/mariusbackes/cordova-plugin-theme-detection.git/issues",
+  "stars": 22,
+  "image": "https://avatars.githubusercontent.com/u/16880888?v=4",
+  "quality": 137,
+  "updated": "2022-12-25T10:38:27Z",
+  "downloads": 4688
+}

@@ -1,0 +1,588 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFileNote: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:27: error: package android.app does not exist
+        import android.app.AlarmManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:28: error: package android.app does not exist
+        import android.app.PendingIntent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:29: error: package android.app does not exist
+        import android.app.Service;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:30: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:31: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:32: error: package android.content does not exist
+        import android.content.SharedPreferences;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:33: error: package android.hardware does not exist
+        import android.hardware.Sensor;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:34: error: package android.hardware does not exist
+        import android.hardware.SensorEvent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:35: error: package android.hardware does not exist
+        import android.hardware.SensorEventListener;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:36: error: package android.hardware does not exist
+        import android.hardware.SensorManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:37: error: package android.os does not exist
+        import android.os.Binder;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:38: error: package android.os does not exist
+        import android.os.IBinder;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:39: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:40: error: package android.widget does not exist
+        import android.widget.Toast;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:42: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:43: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:50: error: cannot find symbol
+        public class StepCounterService extends Service implements SensorEventListener {
+        ^
+        symbol: class Service
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:50: error: cannot find symbol
+        public class StepCounterService extends Service implements SensorEventListener {
+        ^
+        symbol: class SensorEventListener
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:53: error: cannot find symbol
+        private IBinder mBinder = null;
+        ^
+        symbol:   class IBinder
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:56: error: cannot find symbol
+        private SensorManager mSensorManager;
+        ^
+        symbol:   class SensorManager
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:57: error: cannot find symbol
+        private Sensor        mStepSensor;
+        ^
+        symbol:   class Sensor
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:67: error: cannot find symbol
+        public IBinder onBind(Intent intent) {
+        ^
+        symbol:   class Intent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:67: error: cannot find symbol
+        public IBinder onBind(Intent intent) {
+        ^
+        symbol:   class IBinder
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:88: error: cannot find symbol
+        public int onStartCommand(Intent intent, int flags, int startId) {
+        ^
+        symbol:   class Intent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:132: error: cannot find symbol
+        public boolean stopService(Intent intent) {
+        ^
+        symbol:   class Intent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:158: error: cannot find symbol
+        public void onSensorChanged(SensorEvent sensorEvent) {
+        ^
+        symbol:   class SensorEvent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:237: error: cannot find symbol
+        public void onAccuracyChanged(Sensor sensor, int i) {
+        ^
+        symbol:   class Sensor
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:243: error: cannot find symbol
+        public boolean onUnbind(Intent intent) {
+        ^
+        symbol:   class Intent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:73: error: cannot find symbol
+        public class StepCounterServiceBinder extends Binder {
+        ^
+        symbol:   class Binder
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterBootReceiver.java:3: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterBootReceiver.java:4: error: package android.content does not exist
+        import android.content.BroadcastReceiver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterBootReceiver.java:5: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterBootReceiver.java:6: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterBootReceiver.java:7: error: package android.content does not exist
+        import android.content.SharedPreferences;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterBootReceiver.java:9: error: cannot find symbol
+        public class StepCounterBootReceiver extends BroadcastReceiver{
+        ^
+        symbol: class BroadcastReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterBootReceiver.java:12: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol:   class Context
+        location: class StepCounterBootReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterBootReceiver.java:12: error: cannot find symbol
+        public void onReceive(Context context, Intent intent) {
+        ^
+        symbol:   class Intent
+        location: class StepCounterBootReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:28: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:29: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:30: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:32: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:33: error: package android.content does not exist
+        import android.content.ComponentName;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:34: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:35: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:36: error: package android.content does not exist
+        import android.content.ServiceConnection;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:37: error: package android.content does not exist
+        import android.content.SharedPreferences;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:38: error: package android.content.pm does not exist
+        import android.content.pm.PackageManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:39: error: package android.os does not exist
+        import android.os.Build;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:40: error: package android.os does not exist
+        import android.os.IBinder;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:41: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:65: error: cannot find symbol
+        private Intent  stepCounterIntent;
+        ^
+        symbol:   class Intent
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:71: error: cannot find symbol
+        private ServiceConnection mConnection = new ServiceConnection() {
+        ^
+        symbol:   class ServiceConnection
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:107: error: cannot find symbol
+        public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONArray
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:107: error: cannot find symbol
+        public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:238: error: cannot find symbol
+        public static boolean deviceHasStepCounter(PackageManager pm) {
+        ^
+        symbol:   class PackageManager
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:258: error: cannot find symbol
+        public static boolean getPedometerIsActive(SharedPreferences sharedPref){
+        ^
+        symbol:   class SharedPreferences
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:265: error: cannot find symbol
+        protected static void setPedometerIsActive(SharedPreferences sharedPref, Boolean newValue){
+        ^
+        symbol:   class SharedPreferences
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:272: error: cannot find symbol
+        public static int getTotalCount(SharedPreferences sharedPref){
+        ^
+        symbol:   class SharedPreferences
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/CordovaStepCounter.java:279: error: cannot find symbol
+        protected static void setTotalCount(SharedPreferences sharedPref, Integer newValue){
+        ^
+        symbol:   class SharedPreferences
+        location: class CordovaStepCounter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:66: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:69: error: cannot find symbol
+        Log.i(TAG, "onBind" + intent);
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:80: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:82: error: cannot find symbol
+        super.onCreate();
+        ^
+        symbol:   variable super
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:83: error: cannot find symbol
+        Log.i(TAG, "onCreate");
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:87: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:89: error: cannot find symbol
+        Log.i(TAG, "onStartCommand");
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:91: error: cannot find symbol
+        SharedPreferences sharedPref = getSharedPreferences(CordovaStepCounter.USER_DATA_PREF, Context.MODE_PRIVATE);
+        ^
+        symbol:   class SharedPreferences
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:91: error: cannot find symbol
+        SharedPreferences sharedPref = getSharedPreferences(CordovaStepCounter.USER_DATA_PREF, Context.MODE_PRIVATE);
+        ^
+        symbol:   variable Context
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:96: error: cannot find symbol
+        Log.i(TAG, "/!\\ onStartCommand Ask to stopSelf, should not be launched ! Should not even be here (maybe 4.4.2 specific bug causes a restart here)");
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:97: error: cannot find symbol
+        stopSelf();
+        ^
+        symbol:   method stopSelf()
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:98: error: cannot find symbol
+        return START_NOT_STICKY;
+        ^
+        symbol:   variable START_NOT_STICKY
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:101: error: cannot find symbol
+        Log.i(TAG, "- Relaunch service in 1 hour (4.4.2 start_sticky bug ) : ");
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:102: error: cannot find symbol
+        Intent newServiceIntent = new Intent(this,StepCounterService.class);
+        ^
+        symbol:   class Intent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:102: error: cannot find symbol
+        Intent newServiceIntent = new Intent(this,StepCounterService.class);
+        ^
+        symbol:   class Intent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:103: error: cannot find symbol
+        AlarmManager aManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        ^
+        symbol:   class AlarmManager
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:103: error: cannot find symbol
+        AlarmManager aManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        ^
+        symbol:   class AlarmManager
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:103: error: cannot find symbol
+        AlarmManager aManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        ^
+        symbol:   variable Context
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:104: error: cannot find symbol
+        PendingIntent stepIntent = PendingIntent.getService(getApplicationContext(), 10, newServiceIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        ^
+        symbol:   class PendingIntent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:104: error: cannot find symbol
+        PendingIntent stepIntent = PendingIntent.getService(getApplicationContext(), 10, newServiceIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        ^
+        symbol:   variable PendingIntent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:104: error: cannot find symbol
+        PendingIntent stepIntent = PendingIntent.getService(getApplicationContext(), 10, newServiceIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        ^
+        symbol:   variable PendingIntent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:104: error: cannot find symbol
+        PendingIntent stepIntent = PendingIntent.getService(getApplicationContext(), 10, newServiceIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        ^
+        symbol:   method getApplicationContext()
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:106: error: cannot find symbol
+        aManager.set(AlarmManager.RTC, java.lang.System.currentTimeMillis() + 1000 * 60 * 60, stepIntent);
+        ^
+        symbol:   variable AlarmManager
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:110: error: cannot find symbol
+        Log.i(TAG, "Not initialising sensors");
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:111: error: cannot find symbol
+        return Service.START_STICKY;
+        ^
+        symbol:   variable Service
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:114: error: cannot find symbol
+        Log.i(TAG, "Initialising sensors");
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:118: error: cannot find symbol
+        return Service.START_STICKY;
+        ^
+        symbol:   variable Service
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:123: error: cannot find symbol
+        Log.i(TAG, "Registering STEP_DETECTOR sensor");
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:126: error: cannot find symbol
+        mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        ^
+        symbol:   class SensorManager
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:126: error: cannot find symbol
+        mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        ^
+        symbol:   variable SENSOR_SERVICE
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:127: error: cannot find symbol
+        mStepSensor    = mSensorManager.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
+        ^
+        symbol:   variable Sensor
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:128: error: cannot find symbol
+        mSensorManager.registerListener(this, mStepSensor, SensorManager.SENSOR_DELAY_NORMAL);
+        ^
+        symbol:   variable SensorManager
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:131: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:133: error: cannot find symbol
+        Log.i(TAG, "- Received stop: " + intent);
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:140: error: cannot find symbol
+        SharedPreferences sharedPref = getSharedPreferences(CordovaStepCounter.USER_DATA_PREF, Context.MODE_PRIVATE);
+        ^
+        symbol:   class SharedPreferences
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:140: error: cannot find symbol
+        SharedPreferences sharedPref = getSharedPreferences(CordovaStepCounter.USER_DATA_PREF, Context.MODE_PRIVATE);
+        ^
+        symbol:   variable Context
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:143: error: cannot find symbol
+        Log.i(TAG, "- Relaunch service in 500ms" );
+        ^
+        symbol:   variable Log
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:146: error: cannot find symbol
+        Intent newServiceIntent = new Intent(this,StepCounterService.class);
+        ^
+        symbol:   class Intent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:146: error: cannot find symbol
+        Intent newServiceIntent = new Intent(this,StepCounterService.class);
+        ^
+        symbol:   class Intent
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:147: error: cannot find symbol
+        AlarmManager aManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        ^
+        symbol:   class AlarmManager
+        location: class StepCounterService
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/net/texh/cordovapluginstepcounter/StepCounterService.java:147: error: cannot find symbol
+        AlarmManager aManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        ^
+        symbol:   class AlarmManager
+        location: class StepCounterService
+        100 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        79 actionable tasks: 79 executed
+        
+        BUILD FAILED in 3s
+        

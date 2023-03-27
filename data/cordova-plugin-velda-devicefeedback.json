@@ -1,0 +1,44 @@
+{
+  "name": "cordova-plugin-velda-devicefeedback",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/VVelda/device-feedback.git",
+  "author": "Jan Velecký",
+  "published": "2022-06-14T00:56:58.831Z",
+  "versions": [
+    "0.0.2"
+  ],
+  "keywords": [
+    "feedback",
+    "haptic",
+    "acoustic",
+    "aural",
+    "tactile",
+    "sound",
+    "vibrate",
+    "key",
+    "button",
+    "touch",
+    "tap",
+    "vibration",
+    "vibrating",
+    "ux",
+    "user-experience",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Plugin provides a way for haptic and acoustic feedback (native alike) to the user.",
+  "bugs": "https://github.com/VVelda/device-feedback/issues",
+  "stars": 39,
+  "image": "https://avatars.githubusercontent.com/u/3459338?v=4",
+  "quality": 148,
+  "updated": "2022-06-23T01:30:06Z",
+  "downloads": 1630
+}

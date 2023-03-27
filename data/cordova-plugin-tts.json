@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-tts",
+  "version": "0.2.3",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/vilic/cordova-plugin-tts.git",
+  "author": "VILIC VANE",
+  "published": "2022-06-14T00:55:31.293Z",
+  "versions": [
+    "0.2.2",
+    "0.2.3"
+  ],
+  "keywords": [
+    "cordova",
+    "tts",
+    "text-to-speech",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Text-to-Speech Plugin",
+  "bugs": "https://github.com/vilic/cordova-plugin-tts/issues",
+  "stars": 179,
+  "image": "https://avatars.githubusercontent.com/u/970430?v=4",
+  "quality": 500,
+  "updated": "2023-03-03T12:50:13Z",
+  "downloads": 3120
+}
