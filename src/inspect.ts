@@ -7,15 +7,26 @@ import { inspectGitHubAPI } from './github.js';
 import { join } from 'path';
 import { Failure } from './failures.js';
 import { inspectNpmAPI } from './npm-stat.js';
+import { FilterType } from './filter.js';
 
-export async function inspect(plugin: string, info: TestInfo): Promise<Inspection> {
+export async function inspect(plugin: string, info: TestInfo, filterType: FilterType): Promise<Inspection> {
     const result: Inspection = readPlugin(plugin);
     const folder = join('apps', info.folder);
-    const failure: Failure = await prepareProject(plugin, folder, result);
+    const failure: Failure = await prepareProject(plugin, folder, result, info);
     if (failure == Failure.npmMissing) {
         result.fails = [Test.failedInNPM];
         return result;
     }
+
+    if (filterType == FilterType.failed) {
+        if (result.success.includes(info.android)) {
+            info.android = Test.noOp;
+        }
+        if (result.success.includes(info.ios)) {
+            info.ios = Test.noOp;
+        }
+    }
+
     if (!failure) {
         await testProject(plugin, folder, result, 'android', info.android);
         await testProject(plugin, folder, result, 'ios', info.ios);
@@ -28,7 +39,7 @@ export async function inspect(plugin: string, info: TestInfo): Promise<Inspectio
 }
 
 // This returns false only if the plugin could not be found
-async function prepareProject(plugin: string, folder: string, result: Inspection): Promise<Failure | undefined> {
+async function prepareProject(plugin: string, folder: string, result: Inspection, test: TestInfo): Promise<Failure | undefined> {
     try {
         // Get Latest Plugin version number
         const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder));
@@ -55,10 +66,18 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
     }
     let failure = await tryRun(['npm i'], Failure.npmInstall, folder);
     if (!failure) {
-        failure = await tryRun([`npm i ${plugin}@${result.version} --save-dev`], Failure.peer, folder);
+        let cmd = '';
+        if (testIsCordova(test.ios)) {
+            cmd = `cordova plugin add ${plugin}@${result.version}`;
+        } else {
+            cmd = `npm i ${plugin}@${result.version} --save-dev`;
+        }
+        failure = await tryRun([cmd], Failure.peer, folder);
     }
     if (!failure) {
-        failure = await tryRun(['npx ionic build', 'npx cap sync'], Failure.sync, folder);
+        const commands = ['npx ionic build'];
+        if (!testIsCordova(test.ios)) commands.push('npx cap sync');
+        failure = await tryRun(commands, Failure.sync, folder);
     }
     return failure;
 }
@@ -91,23 +110,28 @@ async function cleanupProject(plugin: string, folder: string): Promise<void> {
 
 async function testProject(plugin: string, folder: string, result: Inspection, platform: string, test: Test): Promise<void> {
     try {
+        if (test == Test.noOp) {
+            return;
+        }
         console.log(`Testing ${test} ${plugin}@${result.version}`);
         let args = '';
         if (platform == 'android') {
             args = ' --keystorepath="keys/Untitled" --keystorepass="password" --keystorealias="key0" --keystorealiaspass="password" --androidreleasetype="AAB"';
         }
-        await runAll(
-            [
-                `npx cap build ${platform}${args}`
-            ],
-            folder);
+        const buildCmd = testIsCordova ?
+            'npx cordova build ${platform}' :
+            `npx cap build ${platform}${args}`;
+        await runAll([buildCmd], folder);
         storeResult(test, result);
 
     } catch (error) {
         console.error(`Failed ${platform} build for ${plugin}`);
         storeResult(test, result, error);
     }
+}
 
+function testIsCordova(test: Test): boolean {
+    return test == Test.cordovaAndroid11 || test == Test.cordovaIos6;
 }
 
 function storeResult(test: Test, result: Inspection, error?: any) {

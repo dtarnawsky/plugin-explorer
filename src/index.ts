@@ -12,21 +12,21 @@ const dep = args[2];
 debugger;
 if (hasArg('all', args)) {
     console.log('Inspecting all plugins...');
-    go(readPluginList());
+    go(readPluginList(), FilterType.all);
 } else if (hasArg('failed', args)) {
     console.log('Inspecting failed plugins...');
-    go(filter(readPluginList(), FilterType.failed));
+    go(filter(readPluginList(), FilterType.failed), FilterType.failed);
 } else if (hasArg('new', args)) {
     console.log('Inspecting new plugins...');
-    go(filter(readPluginList(), FilterType.new));
+    go(filter(readPluginList(), FilterType.new), FilterType.new);
 } else if (hasArg('prepare', args)) {
     prepare();
 } else {
     console.log(`Inspecting ${dep}...`);
-    go([dep]);
+    go([dep], FilterType.all);
 }
 
-async function go(plugins: string[]) {
+async function go(plugins: string[], filterType: FilterType) {
     let count = 0;
     for (const plugin of plugins) {
         count++;
@@ -47,9 +47,16 @@ async function go(plugins: string[]) {
             git: 'https://github.com/dtarnawsky/plugin-test-capacitor-3.git'
         }
 
-        for (const test of [capacitor4, capacitor3]) {
+        const cordova: TestInfo = {
+            ios: Test.cordovaIos6,
+            android: Test.cordovaAndroid11,
+            folder: 'cordova',
+            git: 'https://github.com/dtarnawsky/plugin-test-cordova-6-11.git'
+        }
+
+        for (const test of [cordova, capacitor4, capacitor3]) {
             await clone(test);
-            const inspection = await inspect(plugin, test);
+            const inspection = await inspect(plugin, test, filterType);
             catalog(inspection);
             const removePlugin = inspection.fails.includes(Test.failedInNPM);
             if (removePlugin) {

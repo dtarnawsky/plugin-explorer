@@ -2,7 +2,8 @@ import { hasData, readPlugin } from "./catalog.js";
 
 export enum FilterType {
     failed,
-    new
+    new,
+    all
 }
 
 export function filter(plugins: string[], filterType: FilterType): string[] {

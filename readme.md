@@ -16,6 +16,7 @@ The following commands can be run:
 When running tests it will use a starter project in a GitHub repo for particular versions of Capacitor or Cordova. These projects are tested:
 - [Capacitor 4](https://github.com/dtarnawsky/plugin-test-capacitor-4)
 - [Capacitor 3](https://github.com/dtarnawsky/plugin-test-capacitor-3)
+- [Cordova](https://github.com/dtarnawsky/plugin-test-cordova-6-11.git)
 
 # Roadmap
 - Cleanup git urls - some have ssh in them and will work if stripped
