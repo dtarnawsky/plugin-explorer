@@ -68,7 +68,7 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
     if (!failure) {
         let cmd = '';
         if (testIsCordova(test.ios)) {
-            cmd = `cordova plugin add ${plugin}@${result.version}`;
+            cmd = `npx ionic cordova plugin add ${plugin}@${result.version}`;
         } else {
             cmd = `npm i ${plugin}@${result.version} --save-dev`;
         }
@@ -118,8 +118,8 @@ async function testProject(plugin: string, folder: string, result: Inspection, p
         if (platform == 'android') {
             args = ' --keystorepath="keys/Untitled" --keystorepass="password" --keystorealias="key0" --keystorealiaspass="password" --androidreleasetype="AAB"';
         }
-        const buildCmd = testIsCordova ?
-            'npx cordova build ${platform}' :
+        const buildCmd = testIsCordova(test) ?
+            `npx ionic cordova build ${platform}` :
             `npx cap build ${platform}${args}`;
         await runAll([buildCmd], folder);
         storeResult(test, result);

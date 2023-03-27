@@ -2,9 +2,9 @@
   "type": "module",
   "scripts": {
     "start": "npm run inspect-new",
-    "inspect": "npx tsc && node out/index.js @admob-plus/capacitor",
+    "inspect": "npx tsc && node out/index.js cordova-plugin-web-share",
     "inspect-all": "npx tsc && node out/index.js all",
-    "inspect-failed": "npx tsc && node out/index.js --failed",
+    "inspect-failed": "npx tsc && node out/index.js --failed --reverse",
     "inspect-new": "npx tsc && node out/index.js --new",
     "prepare": "npx tsc && node out/index.js --prepare",
     "publish": "npm run prepare && cp data/index.html dist && netlify deploy --dir dist --prod"
