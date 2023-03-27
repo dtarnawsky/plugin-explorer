@@ -1,0 +1,36 @@
+{
+  "name": "cordova-unique-device-id",
+  "version": "1.3.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/john-doherty/cordova-unique-device-id.git",
+  "author": "John Doherty <contact@johndoherty.info> (http://www.johndoherty.info)",
+  "published": "2022-04-27T17:55:30.792Z",
+  "versions": [
+    "1.3.1",
+    "1.3.2"
+  ],
+  "keywords": [
+    "phonegap",
+    "cordova",
+    "android",
+    "ios",
+    "wp",
+    "Windows",
+    "phone",
+    "device",
+    "id",
+    "uuid",
+    "unique"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova unique device id (UUID) plugin for Android, iOS and Windows Phone 8. Remains the same after app uninstall.",
+  "bugs": "https://github.com/john-doherty/cordova-unique-device-id/issues",
+  "quality": null,
+  "downloads": 694
+}

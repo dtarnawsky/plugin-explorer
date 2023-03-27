@@ -1,0 +1,39 @@
+{
+  "name": "cordova-safe",
+  "version": "2.0.1",
+  "success": [],
+  "repo": "https://github.com/disusered/cordova-safe.git",
+  "author": "Carlos Antonio",
+  "published": "2022-06-14T01:03:11.447Z",
+  "versions": [
+    "1.0.4",
+    "1.0.5",
+    "1.0.6",
+    "1.1.0",
+    "1.1.1",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "file",
+    "encrypt",
+    "decrypt",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Simple file crypto for Cordova.",
+  "bugs": "https://github.com/disusered/cordova-safe/issues",
+  "stars": 35,
+  "image": "https://avatars.githubusercontent.com/u/246254?v=4",
+  "quality": 178,
+  "updated": "2023-01-28T15:17:43Z",
+  "downloads": 41
+}

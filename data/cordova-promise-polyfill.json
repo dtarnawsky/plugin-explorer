@@ -1,0 +1,37 @@
+{
+  "name": "cordova-promise-polyfill",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/rehy/cordova-promise-polyfill.git",
+  "author": "Ratson",
+  "published": "2022-06-14T01:02:26.437Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-wp8",
+    "promise",
+    "polyfill",
+    "es6-promise"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "This is a polyfill of the ES6 Promise for Cordova.",
+  "bugs": "https://github.com/rehy/cordova-promise-polyfill/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/17724578?v=4",
+  "quality": 104,
+  "updated": "2019-06-14T10:55:38Z",
+  "downloads": 779
+}

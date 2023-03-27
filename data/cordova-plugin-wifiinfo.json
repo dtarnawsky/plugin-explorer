@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-wifiinfo",
+  "version": "0.1.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/emcniece/cordova-plugin-wifiinfo.git",
+  "author": "Eric McNiece (https://github.com/emcniece)",
+  "published": "2022-06-14T00:59:28.879Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.1.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "wifi",
+    "info"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for gathering WiFi network information",
+  "bugs": "https://github.com/emcniece/cordova-plugin-wifiinfo/issues",
+  "stars": 8,
+  "image": "https://avatars.githubusercontent.com/u/1182187?v=4",
+  "quality": 121,
+  "updated": "2022-03-26T19:25:14Z",
+  "downloads": 103
+}

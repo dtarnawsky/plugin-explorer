@@ -1,0 +1,31 @@
+{
+  "name": "cordova-plugin-webintent",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/eduardoaw/cordova-webintent.git",
+  "author": "Boris Smus, Eduardo Adams Wohlfahrt <eduardowohlfahrt@gmail.com>",
+  "published": "2022-06-14T00:58:13.855Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "webintent",
+    "boris smus",
+    "cordova"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "WebIntent Android Plugin for Cordova 3.X By Boris Smus",
+  "bugs": "https://github.com/eduardoaw/cordova-webintent/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/11036786?v=4",
+  "quality": 0,
+  "updated": "2017-02-04T11:46:01Z",
+  "downloads": 115
+}

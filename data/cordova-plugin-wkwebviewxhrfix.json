@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-wkwebviewxhrfix",
+  "version": "0.1.0",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/themattray/cordova-plugin-wkwebviewxhrfix.git",
+  "author": "Matt Ray",
+  "published": "2022-05-01T08:55:39.287Z",
+  "versions": [
+    "0.1.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin to fix local file XHR access inside WKWebView",
+  "bugs": "https://github.com/themattray/cordova-plugin-wkwebviewxhrfix/issues",
+  "stars": 88,
+  "image": "https://avatars.githubusercontent.com/u/990262?v=4",
+  "quality": 249,
+  "updated": "2023-03-14T15:37:39Z",
+  "downloads": 2471
+}

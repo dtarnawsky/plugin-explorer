@@ -1,0 +1,37 @@
+{
+  "name": "cordova-twitter3-connect-plugin",
+  "version": "1.0.5",
+  "success": [],
+  "repo": "https://github.com/guylando/twitterkit3-plugin.git",
+  "author": "Guy Lando",
+  "published": "2022-04-27T17:55:28.300Z",
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4",
+    "1.0.5"
+  ],
+  "keywords": [
+    "cordova",
+    "twitter",
+    "login",
+    "connect",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Twitter Connect Plugin - Allows single-sign on logins using Latest Twitter SDK",
+  "bugs": "https://github.com/guylando/twitterkit3-plugin/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/14879163?v=4",
+  "quality": 10,
+  "updated": "2021-03-06T11:46:35Z",
+  "downloads": 11
+}

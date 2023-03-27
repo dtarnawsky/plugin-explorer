@@ -1,0 +1,553 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarReleaseNote: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:checkReleaseDuplicateClasses
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:3: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:4: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:5: error: package android.content.res does not exist
+        import android.content.res.Resources;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:6: error: package android.graphics does not exist
+        import android.graphics.Bitmap;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:7: error: package android.graphics does not exist
+        import android.graphics.BitmapFactory;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:8: error: package android.os does not exist
+        import android.os.AsyncTask;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:9: error: package android.view does not exist
+        import android.view.LayoutInflater;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:10: error: package android.view does not exist
+        import android.view.View;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:11: error: package android.view does not exist
+        import android.view.ViewGroup;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:12: error: package android.widget does not exist
+        import android.widget.ArrayAdapter;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:13: error: package android.widget does not exist
+        import android.widget.ImageView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:14: error: package android.widget does not exist
+        import android.widget.TextView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:28: error: cannot find symbol
+        public class CommentListAdapter extends ArrayAdapter<Comments> {
+        ^
+        symbol: class ArrayAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:30: error: cannot find symbol
+        private Context mContext;
+        ^
+        symbol:   class Context
+        location: class CommentListAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:40: error: cannot find symbol
+        public CommentListAdapter(Activity context, int layout, ArrayList<Comments> items) {
+        ^
+        symbol:   class Activity
+        location: class CommentListAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:48: error: cannot find symbol
+        public View getView(int position, View convertView, ViewGroup parent) {
+        ^
+        symbol:   class View
+        location: class CommentListAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:48: error: cannot find symbol
+        public View getView(int position, View convertView, ViewGroup parent) {
+        ^
+        symbol:   class ViewGroup
+        location: class CommentListAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:48: error: cannot find symbol
+        public View getView(int position, View convertView, ViewGroup parent) {
+        ^
+        symbol:   class View
+        location: class CommentListAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:35: error: cannot find symbol
+        ImageView imgCommentAvatar;
+        ^
+        symbol:   class ImageView
+        location: class ViewHolder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:36: error: cannot find symbol
+        TextView txtCommentUsername;
+        ^
+        symbol:   class TextView
+        location: class ViewHolder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:37: error: cannot find symbol
+        TextView txtCommentContent;
+        ^
+        symbol:   class TextView
+        location: class ViewHolder
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:79: error: cannot find symbol
+        private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
+        ^
+        symbol:   class AsyncTask
+        location: class CommentListAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:79: error: cannot find symbol
+        private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
+        ^
+        symbol:   class Bitmap
+        location: class CommentListAdapter
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:80: error: cannot find symbol
+        ImageView bmImage;
+        ^
+        symbol:   class ImageView
+        location: class CommentListAdapter.DownloadImageTask
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:82: error: cannot find symbol
+        public DownloadImageTask(ImageView bmImage) {
+        ^
+        symbol:   class ImageView
+        location: class CommentListAdapter.DownloadImageTask
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:86: error: cannot find symbol
+        protected Bitmap doInBackground(String... urls) {
+        ^
+        symbol:   class Bitmap
+        location: class CommentListAdapter.DownloadImageTask
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/CommentListAdapter.java:101: error: cannot find symbol
+        protected void onPostExecute(Bitmap result) {
+        ^
+        symbol:   class Bitmap
+        location: class CommentListAdapter.DownloadImageTask
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:3: error: package android.app does not exist
+        import android.app.Activity;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:4: error: package android.app does not exist
+        import android.app.AlertDialog;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:5: error: package android.content does not exist
+        import android.content.BroadcastReceiver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:6: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:7: error: package android.content does not exist
+        import android.content.DialogInterface;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:8: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:9: error: package android.content does not exist
+        import android.content.IntentFilter;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:10: error: package android.content.pm does not exist
+        import android.content.pm.ActivityInfo;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:11: error: package android.content.res does not exist
+        import android.content.res.Resources;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:12: error: package android.graphics does not exist
+        import android.graphics.Color;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:13: error: package android.os does not exist
+        import android.os.Build;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:14: error: package android.os does not exist
+        import android.os.Bundle;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:15: error: package android.os does not exist
+        import android.os.Environment;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:16: error: package android.os does not exist
+        import android.os.PowerManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:17: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:18: error: package android.view does not exist
+        import android.view.SurfaceView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:19: error: package android.view does not exist
+        import android.view.View;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:20: error: package android.view.animation does not exist
+        import android.view.animation.AlphaAnimation;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:21: error: package android.view.animation does not exist
+        import android.view.animation.Animation;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:22: error: package android.view.inputmethod does not exist
+        import android.view.inputmethod.EditorInfo;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:23: error: package android.widget does not exist
+        import android.widget.EditText;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:24: error: package android.widget does not exist
+        import android.widget.ImageButton;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:25: error: package android.widget does not exist
+        import android.widget.LinearLayout;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:26: error: package android.widget does not exist
+        import android.widget.ListView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:27: error: package android.widget does not exist
+        import android.widget.TextView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:28: error: package android.widget does not exist
+        import android.widget.Toast;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:37: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:38: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:39: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:57: error: cannot access Activity
+        public class RTMPActivity extends CordovaActivity implements ConnectCheckerRtmp {
+        ^
+        class file for android.app.Activity not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:60: error: cannot find symbol
+        SurfaceView surfaceView;
+        ^
+        symbol:   class SurfaceView
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:62: error: package PowerManager does not exist
+        PowerManager.WakeLock mWakeLock;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:64: error: cannot find symbol
+        private Activity activity;
+        ^
+        symbol:   class Activity
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:69: error: cannot find symbol
+        private ImageButton ic_torch;
+        ^
+        symbol:   class ImageButton
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:70: error: cannot find symbol
+        private ImageButton ic_resolutions;
+        ^
+        symbol:   class ImageButton
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:71: error: cannot find symbol
+        private ImageButton ic_switch_camera;
+        ^
+        symbol:   class ImageButton
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:72: error: cannot find symbol
+        private ImageButton ic_preview_orientation;
+        ^
+        symbol:   class ImageButton
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:73: error: cannot find symbol
+        private ImageButton ic_broadcast;
+        ^
+        symbol:   class ImageButton
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:74: error: cannot find symbol
+        private ImageButton ic_record;
+        ^
+        symbol:   class ImageButton
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:75: error: cannot find symbol
+        private ImageButton ic_closed;
+        ^
+        symbol:   class ImageButton
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:80: error: cannot find symbol
+        private LinearLayout commentForm;
+        ^
+        symbol:   class LinearLayout
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:83: error: cannot find symbol
+        private ListView list;
+        ^
+        symbol:   class ListView
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:84: error: cannot find symbol
+        private EditText txtComment;
+        ^
+        symbol:   class EditText
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:85: error: cannot find symbol
+        private ImageButton btnComment;
+        ^
+        symbol:   class ImageButton
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:87: error: cannot access Size
+        private java.util.List<android.hardware.Camera.Size> resolutions;
+        ^
+        class file for android.hardware.Camera$Size not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:90: error: cannot find symbol
+        BroadcastReceiver br = new BroadcastReceiver() {
+        ^
+        symbol:   class BroadcastReceiver
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:131: error: cannot find symbol
+        public void onCreate(Bundle savedInstanceState) {
+        ^
+        symbol:   class Bundle
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/RTMPActivity.java:497: error: cannot find symbol
+        private void _sendComment(TextView v) {
+        ^
+        symbol:   class TextView
+        location: class RTMPActivity
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:3: error: package android does not exist
+        import android.Manifest;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:5: error: package android.content does not exist
+        import android.content.BroadcastReceiver;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:6: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:7: error: package android.content does not exist
+        import android.content.Intent;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:8: error: package android.content does not exist
+        import android.content.IntentFilter;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:9: error: package android.content.pm does not exist
+        import android.content.pm.PackageManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:10: error: package android.util does not exist
+        import android.util.Log;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:15: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:16: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:17: error: package org.json does not exist
+        import org.json.JSONObject;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:58: error: cannot find symbol
+        private JSONArray _args = null;
+        ^
+        symbol:   class JSONArray
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:60: error: cannot find symbol
+        BroadcastReceiver br = new BroadcastReceiver() {
+        ^
+        symbol:   class BroadcastReceiver
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:128: error: cannot find symbol
+        private Activity mActivity;
+        ^
+        symbol:   class Activity
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:136: error: cannot find symbol
+        static void sendBroadCast(Activity activity, String methodName) {
+        ^
+        symbol:   class Activity
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:143: error: cannot find symbol
+        public static void sendBroadCast(Activity activity, String methodName, JSONObject object) {
+        ^
+        symbol:   class Activity
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:143: error: cannot find symbol
+        public static void sendBroadCast(Activity activity, String methodName, JSONObject object) {
+        ^
+        symbol:   class JSONObject
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:152: error: cannot find symbol
+        public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONArray
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:152: error: cannot find symbol
+        public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:171: error: cannot find symbol
+        public void onRequestPermissionResult(int requestCode, String[] permissions, int[] grantResults) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:200: error: cannot find symbol
+        private boolean _methods(String action, JSONArray args) throws JSONException {
+        ^
+        symbol:   class JSONArray
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:200: error: cannot find symbol
+        private boolean _methods(String action, JSONArray args) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:288: error: cannot find symbol
+        private void _filters(String methodName, JSONArray objects) {
+        ^
+        symbol:   class JSONArray
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/VideoStream.java:337: error: cannot find symbol
+        public void scanFiles(Context ctx, File file) {
+        ^
+        symbol:   class Context
+        location: class VideoStream
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/SingleMediaScanner.java:5: error: package android.media does not exist
+        import android.media.MediaScannerConnection;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/rtmpandrtspstreamer/SingleMediaScanner.java:6: error: package android.media.MediaScannerConnection does not exist
+        import android.media.MediaScannerConnection.MediaScannerConnectionClient;
+        ^
+        100 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        77 actionable tasks: 77 executed
+        in 5s
+        

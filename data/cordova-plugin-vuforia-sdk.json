@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-vuforia-sdk",
+  "version": "6.0.117",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/mattrayner/cordova-plugin-vuforia-sdk.git",
+  "author": "Matt Rayner",
+  "published": "2022-06-14T00:57:43.850Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "1.0.0",
+    "6.0.117"
+  ],
+  "keywords": [
+    "cordova",
+    "vuforia",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A Cordova wrapper for the Vuforia SDK",
+  "bugs": "https://github.com/mattrayner/cordova-plugin-vuforia-sdk/issues",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/3502902?v=4",
+  "quality": 114,
+  "updated": "2021-07-28T15:58:26Z",
+  "downloads": 24
+}

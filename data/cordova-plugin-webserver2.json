@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-webserver2",
+  "version": "0.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/NguyenThanh1995/cordova-plugin-webserver2",
+  "author": "Nguyen Thanh",
+  "published": "2022-04-27T17:50:58.883Z",
+  "versions": [
+    "0.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "ios",
+    "android",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova:plugin",
+    "webserver",
+    "http",
+    "request",
+    "response"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Plugin Webserver",
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/45375496?v=4",
+  "quality": 7,
+  "updated": "2022-12-31T00:30:00Z",
+  "downloads": 87
+}

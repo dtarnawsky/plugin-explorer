@@ -67,17 +67,17 @@
         > Could not resolve all files for configuration ':app:releaseRuntimeClasspath'.
         > Could not find :commonlib:.
         Searched in the following locations:
-        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/commonlib.aar
-        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/commonlib.aar
-        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/android/commonlib.aar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/commonlib.aar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/commonlib.aar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/android/commonlib.aar
         Required by:
         project :app
         project :app > project :capacitor-cordova-android-plugins
         > Could not find :mobilertc:.
         Searched in the following locations:
-        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/mobilertc.aar
-        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/mobilertc.aar
-        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/android/mobilertc.aar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/mobilertc.aar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/mobilertc.aar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/android/mobilertc.aar
         Required by:
         project :app
         project :app > project :capacitor-cordova-android-plugins
@@ -95,6 +95,6 @@
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
         
-        BUILD FAILED in 1s
+        BUILD FAILED in 2s
         14 actionable tasks: 14 executed
         

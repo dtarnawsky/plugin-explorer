@@ -1,0 +1,33 @@
+{
+  "name": "cordova-watchconnectivity-plugin",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/JoshuaRileyDev/cordova-watchconnectivity-plugin.git",
+  "author": "Joshua Riley",
+  "published": "2022-04-27T17:55:54.282Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "watchos",
+    "apple",
+    "ionic",
+    "watchconnectivity"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "cordova-watchconnectivity-plugin",
+  "bugs": "https://github.com/JoshuaRileyDev/cordova-watchconnectivity-plugin/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/59296334?v=4",
+  "quality": 1,
+  "updated": "2021-02-18T16:10:16Z",
+  "downloads": 9
+}

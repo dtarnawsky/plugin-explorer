@@ -27,7 +27,10 @@ if (hasArg('all', args)) {
 }
 
 async function go(plugins: string[]) {
+    let count = 0;
     for (const plugin of plugins) {
+        count++;
+        console.log(`Inspecting ${count} of ${plugins.length}: ${plugin}`);
         // Capacitor 4 test
         const capacitor4: TestInfo = {
             ios: Test.capacitorIos4,

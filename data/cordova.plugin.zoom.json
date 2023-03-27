@@ -1,0 +1,29 @@
+{
+  "name": "cordova.plugin.zoom",
+  "version": "4.6.2166-6.603",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "author": "Zoom Video Communication, Inc.",
+  "published": "2022-04-27T17:56:58.801Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "4.3.9440-1.325",
+    "4.4.5513-0.712",
+    "4.6.2166-6.512",
+    "4.6.2166-6.603"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "A Cordova Plugin for Zoom Video Conferencing",
+  "downloads": 342
+}

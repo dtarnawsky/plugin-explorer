@@ -1,0 +1,61 @@
+{
+  "name": "cordova-save-image-gallery",
+  "version": "0.0.26",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/agomezmoron/cordova-save-image-gallery.git",
+  "author": "Alejandro Gomez <agommor@gmail.com> (http://github.com/agomezmoron)",
+  "published": "2022-06-14T01:03:14.007Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2",
+    "0.0.3",
+    "0.0.4",
+    "0.0.5",
+    "0.0.6",
+    "0.0.7",
+    "0.0.8",
+    "0.0.9",
+    "0.0.10",
+    "0.0.11",
+    "0.0.12",
+    "0.0.13",
+    "0.0.14",
+    "0.0.16",
+    "0.0.17",
+    "0.0.18",
+    "0.0.19",
+    "0.0.21",
+    "0.0.22",
+    "0.0.23",
+    "0.0.24",
+    "0.0.25",
+    "0.0.26"
+  ],
+  "keywords": [
+    "image",
+    "base64",
+    "save",
+    "png",
+    "jpg",
+    "photo library",
+    "gallery",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin to save base64 data as a png/jpg image into the device and applying compression if needed",
+  "bugs": "https://github.com/agomezmoron/cordova-save-image-gallery/issues",
+  "stars": 30,
+  "image": "https://avatars.githubusercontent.com/u/4848998?v=4",
+  "quality": 64,
+  "updated": "2022-08-24T10:20:20Z",
+  "downloads": 280
+}

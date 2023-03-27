@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-wkuserscript",
+  "version": "1.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/moodlemobile/cordova-plugin-wkuserscript.git#main",
+  "author": "Moodle Pty Ltd",
+  "published": "2022-09-05T10:34:29.405Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "wkuserscript",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova WKUserScript Plugin",
+  "bugs": "https://github.com/moodlemobile/cordova-plugin-wkuserscript/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
+  "quality": 105,
+  "updated": "2020-10-30T07:07:56Z",
+  "downloads": 1944
+}

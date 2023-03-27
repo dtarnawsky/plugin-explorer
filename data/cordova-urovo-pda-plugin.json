@@ -1,0 +1,27 @@
+{
+  "name": "cordova-urovo-pda-plugin",
+  "version": "0.1.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/sgologuzov/cordova-urovo-pda-plugin.git",
+  "author": "s.gologuzov@k-service.com.ru",
+  "published": "2022-04-27T17:55:39.790Z",
+  "versions": [
+    "0.0.1",
+    "0.1.0",
+    "0.1.1"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "Cordova plugin for Urovo PDA barcode scanner",
+  "bugs": "https://github.com/sgologuzov/cordova-urovo-pda-plugin/issues",
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/3179502?v=4",
+  "quality": 105,
+  "updated": "2019-11-08T09:04:16Z",
+  "downloads": 9
+}

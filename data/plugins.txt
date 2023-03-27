@@ -1061,9 +1061,7 @@ cordova-plugin-webview-checker
 cordova-plugin-wechat
 cordova-plugin-wechat-capacitor
 cordova-plugin-whitelist
-cordova-plugin-wifi-information
 cordova-plugin-wifi-manager
-cordova-plugin-wifi-tcp
 cordova-plugin-wifiinfo
 cordova-plugin-wifiwizard2
 cordova-plugin-wkuserscript
@@ -1077,15 +1075,12 @@ cordova-plugin-wputils
 cordova-plugin-x-socialsharing
 cordova-plugin-x-socialsharing-android12
 cordova-plugin-x-toast
-cordova-plugin-yi-video-stream
 cordova-plugin-ymchat
 cordova-plugin-youtube-video-player
 cordova-plugin-zbtprinter
-cordova-plugin-zdefend
 cordova-plugin-zebra-printer
 cordova-plugin-zeroconf
 cordova-plugin-zip
-cordova-plugin-zoom-sdk
 cordova-promise-polyfill
 cordova-rtsp-rtmp-stream
 cordova-safe
@@ -1103,7 +1098,6 @@ cordova-twitter3-connect-plugin
 cordova-unique-device-id
 cordova-universal-links-plugin
 cordova-universal-links-plugin-fix
-cordova-update-security-provider
 cordova-urovo-pda-plugin
 cordova-uxcam
 cordova-watchconnectivity-plugin

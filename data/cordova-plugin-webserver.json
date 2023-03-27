@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-webserver",
+  "version": "1.0.4",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/npm/security-holder.git",
+  "published": "2022-06-14T00:58:28.871Z",
+  "versions": [
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.0.4"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "publish",
+  "bugs": "https://github.com/npm/security-holder/issues",
+  "stars": 140,
+  "image": "https://avatars.githubusercontent.com/u/6078720?v=4",
+  "downloads": 1103
+}

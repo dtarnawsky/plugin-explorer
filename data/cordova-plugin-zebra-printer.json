@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-zebra-printer",
+  "version": "2.0.1",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/diegorquera/zbtprinter.git",
+  "published": "2022-06-14T01:01:23.932Z",
+  "versions": [
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "2.0.0",
+    "2.0.1"
+  ],
+  "keywords": [
+    "cordova",
+    "zebra",
+    "printer",
+    "bluetooth",
+    "print",
+    "android",
+    "install",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A Cordova/Phonegap driver for Zebra bluetooth printers",
+  "bugs": "https://github.com/diegorquera/zbtprinter/issues",
+  "quality": null,
+  "downloads": 277
+}

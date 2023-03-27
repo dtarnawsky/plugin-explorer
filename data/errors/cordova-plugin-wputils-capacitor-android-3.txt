@@ -1,0 +1,318 @@
+✖ Running Gradle build - failed!
+[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+        Currently detected usages:
+        - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
+        WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
+        This repository is deprecated and it will be shut down in the future.
+        See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
+        Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :app:writeReleaseApplicationId
+        > Task :app:analyticsRecordingRelease
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:generateReleaseResources
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarReleaseNote: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:3: error: package android.app does not exist
+        import android.app.WallpaperManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:4: error: package android.content does not exist
+        import android.content.Context;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:5: error: package android.graphics does not exist
+        import android.graphics.Bitmap;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:6: error: package android.graphics does not exist
+        import android.graphics.BitmapFactory;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:7: error: package android.os does not exist
+        import android.os.Build;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:11: error: package org.json does not exist
+        import org.json.JSONArray;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:12: error: package org.json does not exist
+        import org.json.JSONException;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:27: error: cannot find symbol
+        private Context context = null;
+        ^
+        symbol:   class Context
+        location: class WPUtils
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:31: error: cannot find symbol
+        public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONArray
+        location: class WPUtils
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:31: error: cannot find symbol
+        public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        ^
+        symbol:   class JSONException
+        location: class WPUtils
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:69: error: cannot find symbol
+        private class getBitmapFromURLCallable implements Callable<Bitmap> {
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:80: error: cannot find symbol
+        public Bitmap call() {
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils.getBitmapFromURLCallable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:99: error: cannot find symbol
+        private Bitmap bmp;
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils.setBackgroundImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:102: error: cannot find symbol
+        private setBackgroundImageRunnable(Bitmap bmp, CallbackContext callbackContext) {
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils.setBackgroundImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:126: error: cannot find symbol
+        private Bitmap bmp;
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils.setLockScreenImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:129: error: cannot find symbol
+        private setLockScreenImageRunnable(Bitmap bmp, CallbackContext callbackContext) {
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils.setLockScreenImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:153: error: cannot find symbol
+        private Bitmap bmp;
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils.setLockScreenAndWallpaperImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:156: error: cannot find symbol
+        private setLockScreenAndWallpaperImageRunnable(Bitmap bmp, CallbackContext callbackContext) {
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils.setLockScreenAndWallpaperImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:28: error: package Build does not exist
+        private static final boolean IS_NOUGAT_OR_GREATER = Build.VERSION.SDK_INT >= 24;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:33: error: cannot access Activity
+        context = IS_NOUGAT_OR_GREATER ? cordova.getActivity().getWindow().getContext()
+        ^
+        class file for android.app.Activity not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:37: error: cannot find symbol
+        Bitmap bmp = null;
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:40: error: cannot find symbol
+        Future<Bitmap> future = executorService.submit(new getBitmapFromURLCallable(url, callbackContext));
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:81: error: cannot find symbol
+        Bitmap bmp = null;
+        ^
+        symbol:   class Bitmap
+        location: class WPUtils.getBitmapFromURLCallable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:84: error: cannot find symbol
+        bmp = BitmapFactory.decodeStream(imageUrl.openStream());
+        ^
+        symbol:   variable BitmapFactory
+        location: class WPUtils.getBitmapFromURLCallable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:86: error: cannot access JSONObject
+        callbackContext.error(e.getMessage());
+        ^
+        class file for org.json.JSONObject not found
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:109: error: cannot find symbol
+        WallpaperManager wallpaperManager = WallpaperManager.getInstance(context);
+        ^
+        symbol:   class WallpaperManager
+        location: class WPUtils.setBackgroundImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:109: error: cannot find symbol
+        WallpaperManager wallpaperManager = WallpaperManager.getInstance(context);
+        ^
+        symbol:   variable WallpaperManager
+        location: class WPUtils.setBackgroundImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:136: error: cannot find symbol
+        WallpaperManager wallpaperManager = WallpaperManager.getInstance(context);
+        ^
+        symbol:   class WallpaperManager
+        location: class WPUtils.setLockScreenImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:136: error: cannot find symbol
+        WallpaperManager wallpaperManager = WallpaperManager.getInstance(context);
+        ^
+        symbol:   variable WallpaperManager
+        location: class WPUtils.setLockScreenImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:138: error: cannot find symbol
+        wallpaperManager.setBitmap(bmp, null, true, WallpaperManager.FLAG_LOCK);
+        ^
+        symbol:   variable WallpaperManager
+        location: class WPUtils.setLockScreenImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:163: error: cannot find symbol
+        WallpaperManager wallpaperManager = WallpaperManager.getInstance(context);
+        ^
+        symbol:   class WallpaperManager
+        location: class WPUtils.setLockScreenAndWallpaperImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:163: error: cannot find symbol
+        WallpaperManager wallpaperManager = WallpaperManager.getInstance(context);
+        ^
+        symbol:   variable WallpaperManager
+        location: class WPUtils.setLockScreenAndWallpaperImageRunnable
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/varandas/WPUtils.java:166: error: cannot find symbol
+        wallpaperManager.setBitmap(bmp, null, true, WallpaperManager.FLAG_LOCK);
+        ^
+        symbol:   variable WallpaperManager
+        location: class WPUtils.setLockScreenAndWallpaperImageRunnable
+        33 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 4s
+        83 actionable tasks: 83 executed
+        

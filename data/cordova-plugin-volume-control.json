@@ -1,0 +1,41 @@
+{
+  "name": "cordova-plugin-volume-control",
+  "version": "0.1.9",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/jlorente/cordova-plugin-volume-control.git",
+  "author": "José Lorente <jose.lorente.martin@gmail.com>",
+  "published": "2022-04-27T17:50:31.003Z",
+  "versions": [
+    "0.1.0",
+    "0.1.1",
+    "0.1.2",
+    "0.1.3",
+    "0.1.4",
+    "0.1.5",
+    "0.1.6",
+    "0.1.7",
+    "0.1.8",
+    "0.1.9"
+  ],
+  "keywords": [
+    "cordova",
+    "unity",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova Volume Control Plugin",
+  "bugs": "https://github.com/jlorente/cordova-plugin-volume-control/issues",
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/301741?v=4",
+  "quality": 113,
+  "updated": "2020-05-29T10:50:25Z",
+  "downloads": 74
+}

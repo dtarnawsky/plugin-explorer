@@ -1,0 +1,59 @@
+{
+  "name": "cordova-plugin-zeroconf",
+  "version": "1.4.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/becvert/cordova-plugin-zeroconf.git",
+  "author": "Sylvain Bréjeon (https://github.com/becvert)",
+  "published": "2022-06-14T01:01:31.448Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.2.0",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4",
+    "1.2.5",
+    "1.2.6",
+    "1.2.7",
+    "1.2.8",
+    "1.3.0",
+    "1.3.1",
+    "1.3.2",
+    "1.3.3",
+    "1.4.0",
+    "1.4.1",
+    "1.4.2"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "network",
+    "zeroconf",
+    "bonjour",
+    "mdns",
+    "service",
+    "discovery"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova ZeroConf plugin",
+  "bugs": "https://github.com/becvert/cordova-plugin-zeroconf/issues",
+  "stars": 81,
+  "image": "https://avatars.githubusercontent.com/u/1422417?v=4",
+  "quality": 245,
+  "updated": "2022-12-28T16:06:11Z",
+  "downloads": 3540
+}

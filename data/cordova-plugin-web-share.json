@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-web-share",
+  "version": "1.3.0",
+  "success": [
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/chemerisuk/cordova-plugin-web-share.git",
+  "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
+  "published": "2022-08-25T08:44:46.059Z",
+  "versions": [
+    "1.0.0",
+    "1.1.0",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0"
+  ],
+  "keywords": [
+    "cordova",
+    "share",
+    "web share",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "fails": [
+    "capacitor-android-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Web Share API polyfill for Cordova",
+  "bugs": "https://github.com/chemerisuk/cordova-plugin-web-share/issues",
+  "stars": 12,
+  "image": "https://avatars.githubusercontent.com/u/274044?v=4",
+  "quality": 124,
+  "updated": "2022-09-07T07:12:17Z",
+  "downloads": 341
+}

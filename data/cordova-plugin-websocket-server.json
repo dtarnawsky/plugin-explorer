@@ -1,0 +1,61 @@
+{
+  "name": "cordova-plugin-websocket-server",
+  "version": "1.6.0",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4"
+  ],
+  "repo": "https://github.com/becvert/cordova-plugin-websocket-server.git",
+  "author": "Sylvain Bréjeon (https://github.com/becvert)",
+  "published": "2022-06-14T00:58:33.919Z",
+  "versions": [
+    "1.0.0",
+    "1.0.1",
+    "1.0.2",
+    "1.0.3",
+    "1.1.0",
+    "1.1.1",
+    "1.1.2",
+    "1.1.3",
+    "1.1.4",
+    "1.2.0",
+    "1.2.1",
+    "1.3.0",
+    "1.3.1",
+    "1.4.0",
+    "1.4.1",
+    "1.4.2",
+    "1.4.3",
+    "1.4.4",
+    "1.4.5",
+    "1.4.6",
+    "1.4.7",
+    "1.4.8",
+    "1.4.9",
+    "1.4.10",
+    "1.4.11",
+    "1.5.0",
+    "1.6.0"
+  ],
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "plugin",
+    "network",
+    "websocket",
+    "server"
+  ],
+  "fails": [
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "Cordova WebSocket Server Plugin",
+  "bugs": "https://github.com/becvert/cordova-plugin-websocket-server/issues",
+  "stars": 84,
+  "image": "https://avatars.githubusercontent.com/u/1422417?v=4",
+  "quality": 234,
+  "updated": "2023-01-30T10:07:30Z",
+  "downloads": 163
+}

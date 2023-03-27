@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-wputils",
+  "version": "0.0.2",
+  "success": [
+    "capacitor-android-4",
+    "capacitor-ios-4",
+    "capacitor-ios-3"
+  ],
+  "repo": "https://github.com/AndreVarandas/cordova-plugin-wallpaper.git",
+  "author": "André Varandas - andre.m.varandas@gmail.com",
+  "published": "2022-04-27T17:52:07.881Z",
+  "versions": [
+    "0.0.1",
+    "0.0.2"
+  ],
+  "keywords": [
+    "cordova-android"
+  ],
+  "fails": [
+    "capacitor-android-3"
+  ],
+  "description": "A plugin that exposes utils to set wallpaper and lockscreen images",
+  "bugs": "https://github.com/AndreVarandas/cordova-plugin-wallpaper/issues",
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/11405075?v=4",
+  "quality": 102,
+  "updated": "2022-01-07T19:53:18Z",
+  "downloads": 5
+}
