@@ -46,10 +46,12 @@
     "2.1.528"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "NodeJS client for wallet",
   "bugs": "https://github.com/WalletInc/sdk-ts/issues",
   "quality": null,
-  "downloads": 173
+  "downloads": 174
 }

@@ -24,12 +24,14 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Urban Airship Cordova Gimbal plugin",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/360059?v=4",
   "quality": 109,
   "updated": "2023-02-22T08:45:13Z",
-  "downloads": 26
+  "downloads": 27
 }

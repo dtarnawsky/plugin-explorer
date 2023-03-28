@@ -1,0 +1,60 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/isnovthermal/PrinterTelpoCordovaPlugin.java:5: error: package com.telpo.tps550.api.printer does not exist
+import com.telpo.tps550.api.printer.UsbThermalPrinter;
+                                   ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/isnovthermal/PrinterTelpoCordovaPlugin.java:26: error: cannot find symbol
+    UsbThermalPrinter usbThermalPrinter = new UsbThermalPrinter(this.webView.getContext());
+    ^
+  symbol:   class UsbThermalPrinter
+  location: class PrinterTelpoCordovaPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/isnovthermal/PrinterTelpoCordovaPlugin.java:26: error: cannot find symbol
+    UsbThermalPrinter usbThermalPrinter = new UsbThermalPrinter(this.webView.getContext());
+                                              ^
+  symbol:   class UsbThermalPrinter
+  location: class PrinterTelpoCordovaPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/isnovthermal/PrinterTelpoCordovaPlugin.java:31: error: cannot find symbol
+      usbThermalPrinter.setAlgin(UsbThermalPrinter.ALGIN_MIDDLE);
+                                 ^
+  symbol:   variable UsbThermalPrinter
+  location: class PrinterTelpoCordovaPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/isnovthermal/PrinterTelpoCordovaPlugin.java:34: error: cannot find symbol
+      usbThermalPrinter.setAlgin(UsbThermalPrinter.ALGIN_LEFT);
+                                 ^
+  symbol:   variable UsbThermalPrinter
+  location: class PrinterTelpoCordovaPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/isnovthermal/PrinterTelpoCordovaPlugin.java:91: error: cannot find symbol
+            String str = PrinterTelpo.this.StartPrinting(args.getString(0), args.getString(1), args.getString(2));
+                         ^
+  symbol: class PrinterTelpo
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+6 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

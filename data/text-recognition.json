@@ -16,8 +16,10 @@
     "1.0.4"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This package implements basic OCR logic which recognises and highlights text on image.",
-  "downloads": 31
+  "downloads": 32
 }

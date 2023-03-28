@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/paystory-de/thermal-printer-cordova-plugin.git",
   "author": "Patrick Bußmann <patrick.bussmann@paystory.de> (http://paystory.de/)",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/73749290?v=4",
   "quality": 165,
   "updated": "2023-03-21T15:43:52Z",
-  "downloads": 409
+  "downloads": 388
 }

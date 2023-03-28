@@ -111,12 +111,14 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Urban Airship Cordova plugin",
   "stars": 147,
   "image": "https://avatars.githubusercontent.com/u/360059?v=4",
   "quality": 401,
   "updated": "2023-03-10T07:28:58Z",
-  "downloads": 4296
+  "downloads": 4023
 }

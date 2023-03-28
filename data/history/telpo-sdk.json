@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "0.2.2",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.2.2",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
+      "version": "0.2.2",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "0.2.2",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "0.2.2",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "telpo-sdk"
+}

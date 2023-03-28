@@ -96,13 +96,13 @@
         > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-keyboard:javaPreCompileRelease
@@ -113,50 +113,51 @@
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavacNote: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
         > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
-        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        > Task :app:bundleReleaseResources
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
-        > Task :app:desugarReleaseFileDependencies
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
+        > Task :app:desugarReleaseFileDependencies
         > Task :app:mergeReleaseShaders
         > Task :app:compileReleaseShaders NO-SOURCE
         > Task :app:generateReleaseAssets UP-TO-DATE
@@ -180,7 +181,6 @@
         > Task :capacitor-keyboard:compileReleaseShaders NO-SOURCE
         > Task :capacitor-keyboard:generateReleaseAssets UP-TO-DATE
         > Task :capacitor-keyboard:packageReleaseAssets
-        > Task :app:bundleReleaseResources
         > Task :capacitor-status-bar:mergeReleaseShaders
         > Task :capacitor-status-bar:compileReleaseShaders NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseAssets UP-TO-DATE
@@ -213,6 +213,7 @@
         > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
         > Task :capacitor-cordova-android-plugins:stripReleaseDebugSymbols NO-SOURCE
         > Task :capacitor-cordova-android-plugins:copyReleaseJniLibsProjectOnly
+        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-haptics:mergeReleaseJniLibFolders
         > Task :capacitor-haptics:mergeReleaseNativeLibs NO-SOURCE
         > Task :capacitor-haptics:stripReleaseDebugSymbols NO-SOURCE
@@ -225,12 +226,11 @@
         > Task :capacitor-status-bar:mergeReleaseNativeLibs NO-SOURCE
         > Task :capacitor-status-bar:stripReleaseDebugSymbols NO-SOURCE
         > Task :capacitor-status-bar:copyReleaseJniLibsProjectOnly
+        > Task :app:mergeReleaseJavaResource
         > Task :app:collectReleaseDependencies
         > Task :app:configureReleaseDependencies
-        > Task :app:parseReleaseIntegrityConfig
         > Task :app:writeReleaseAppMetadata
-        > Task :app:checkReleaseAarMetadata
-        > Task :app:mergeReleaseJavaResource
+        > Task :app:parseReleaseIntegrityConfig
         > Task :app:mergeReleaseNativeLibs
         > Task :app:stripReleaseDebugSymbols NO-SOURCE
         > Task :app:extractReleaseNativeSymbolTables NO-SOURCE
@@ -252,12 +252,12 @@
         * Try:
         Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
         
-        * Get more help at https://help.gradle.org
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
-        Use '--warning-mode all' to show the individual deprecation warnings.
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILEDUse '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
         130 actionable tasks: 130 executed
-        
-        BUILD FAILED in 3s
+        in 4s
         

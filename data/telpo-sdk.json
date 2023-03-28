@@ -39,7 +39,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Plugin that integrates Telpo SDK",
   "bugs": "https://github.com/nikolalj/telpo-sdk/issues",

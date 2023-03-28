@@ -1,0 +1,70 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+   > Could not resolve com.tealium:kotlin-core:1.5.1.
+     Required by:
+         project :app
+      > Could not resolve com.tealium:kotlin-core:1.5.1.
+         > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-core/1.5.1/kotlin-core-1.5.1.pom'.
+            > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-core/1.5.1/kotlin-core-1.5.1.pom'.
+               > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+   > Could not resolve com.tealium:kotlin-collect-dispatcher:1.1.0.
+     Required by:
+         project :app
+      > Could not resolve com.tealium:kotlin-collect-dispatcher:1.1.0.
+         > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-collect-dispatcher/1.1.0/kotlin-collect-dispatcher-1.1.0.pom'.
+            > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-collect-dispatcher/1.1.0/kotlin-collect-dispatcher-1.1.0.pom'.
+               > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+   > Could not resolve com.tealium:kotlin-tagmanagement-dispatcher:1.2.0.
+     Required by:
+         project :app
+      > Could not resolve com.tealium:kotlin-tagmanagement-dispatcher:1.2.0.
+         > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-tagmanagement-dispatcher/1.2.0/kotlin-tagmanagement-dispatcher-1.2.0.pom'.
+            > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-tagmanagement-dispatcher/1.2.0/kotlin-tagmanagement-dispatcher-1.2.0.pom'.
+               > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+   > Could not resolve com.tealium:kotlin-remotecommand-dispatcher:1.2.1.
+     Required by:
+         project :app
+      > Could not resolve com.tealium:kotlin-remotecommand-dispatcher:1.2.1.
+         > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-remotecommand-dispatcher/1.2.1/kotlin-remotecommand-dispatcher-1.2.1.pom'.
+            > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-remotecommand-dispatcher/1.2.1/kotlin-remotecommand-dispatcher-1.2.1.pom'.
+               > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+   > Could not resolve com.tealium:kotlin-lifecycle:1.1.1.
+     Required by:
+         project :app
+      > Could not resolve com.tealium:kotlin-lifecycle:1.1.1.
+         > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-lifecycle/1.1.1/kotlin-lifecycle-1.1.1.pom'.
+            > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-lifecycle/1.1.1/kotlin-lifecycle-1.1.1.pom'.
+               > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+   > Could not resolve com.tealium:kotlin-visitor-service:1.1.1.
+     Required by:
+         project :app
+      > Could not resolve com.tealium:kotlin-visitor-service:1.1.1.
+         > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-visitor-service/1.1.1/kotlin-visitor-service-1.1.1.pom'.
+            > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-visitor-service/1.1.1/kotlin-visitor-service-1.1.1.pom'.
+               > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

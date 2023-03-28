@@ -3,7 +3,8 @@
   "version": "5.0.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/dpa99c/phonegap-launch-navigator.git",
   "author": "Dave Alden",
@@ -72,7 +73,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova/Phonegap plugin to navigate to a destination using native navigation apps on Android, iOS, and Windows",
   "bugs": "https://github.com/dpa99c/phonegap-launch-navigator/issues",
@@ -80,5 +82,5 @@
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 609,
   "updated": "2022-12-22T15:20:37Z",
-  "downloads": 41650
+  "downloads": 39887
 }

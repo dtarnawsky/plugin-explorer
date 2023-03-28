@@ -3,7 +3,8 @@
   "version": "0.0.2",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "author": "Marius",
   "published": "2022-06-27T05:09:29.936Z",
@@ -16,8 +17,9 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Test plugin",
-  "downloads": 3
+  "downloads": 4
 }

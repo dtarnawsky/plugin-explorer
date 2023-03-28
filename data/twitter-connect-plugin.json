@@ -25,10 +25,12 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Twitter Connect Plugin - Allows single-sign on logins using Twitter",
   "bugs": "https://github.com/ManifestWebDesign/twitter-connect-plugin/issues",
   "quality": null,
-  "downloads": 75
+  "downloads": 76
 }
