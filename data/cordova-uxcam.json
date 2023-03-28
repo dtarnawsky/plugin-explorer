@@ -3,7 +3,9 @@
   "version": "3.5.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/uxcam/cordova-uxcam.git",
   "author": "UXCam Inc.",
@@ -54,9 +56,6 @@
   ],
   "description": "Cordova plugin for UXCam - enables the recording of your applications screen",
   "bugs": "https://github.com/uxcam/cordova-uxcam/issues",
-  "stars": 6,
-  "image": "https://avatars.githubusercontent.com/u/6542788?v=4",
-  "quality": 120,
-  "updated": "2023-02-24T09:54:02Z",
-  "downloads": 388
+  "quality": null,
+  "downloads": 379
 }

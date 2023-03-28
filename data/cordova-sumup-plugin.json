@@ -30,7 +30,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for SumUp SDK integration",
   "bugs": "https://github.com/mariusbackes/cordova-plugin-sumup.git/issues",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/16880888?v=4",
   "quality": 136,
   "updated": "2022-01-02T18:44:17Z",
-  "downloads": 78
+  "downloads": 82
 }

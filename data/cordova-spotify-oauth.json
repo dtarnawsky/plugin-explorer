@@ -36,7 +36,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for authenticating with Spotify",
   "bugs": "https://github.com/Festify/cordova-spotify-oauth/issues",
@@ -44,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/17216512?v=4",
   "quality": 146,
   "updated": "2021-07-08T01:32:26Z",
-  "downloads": 36
+  "downloads": 37
 }

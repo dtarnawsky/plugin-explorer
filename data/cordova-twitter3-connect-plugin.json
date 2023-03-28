@@ -25,7 +25,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Twitter Connect Plugin - Allows single-sign on logins using Latest Twitter SDK",
   "bugs": "https://github.com/guylando/twitterkit3-plugin/issues",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/14879163?v=4",
   "quality": 10,
   "updated": "2021-03-06T11:46:35Z",
-  "downloads": 11
+  "downloads": 12
 }

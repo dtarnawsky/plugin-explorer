@@ -2,26 +2,26 @@
   "tests": [
     {
       "test": "cordova-android-11",
-      "version": "1.1.7",
+      "version": "1.2.1",
       "success": true
     },
     {
       "test": "cordova-ios-6",
-      "version": "1.1.7",
+      "version": "1.2.1",
       "success": true
     },
     {
       "test": "capacitor-ios-3",
-      "version": "1.1.7",
+      "version": "1.2.1",
       "failure": "cap-sync",
       "success": false
     },
     {
       "test": "capacitor-android-3",
-      "version": "1.1.7",
+      "version": "1.2.1",
       "failure": "cap-sync",
       "success": false
     }
   ],
-  "name": "cordova-wheel-selector-plugin"
+  "name": "cordova-universal-links-plugin"
 }

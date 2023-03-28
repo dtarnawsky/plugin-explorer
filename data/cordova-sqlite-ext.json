@@ -3,7 +3,9 @@
   "version": "6.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/litehelpers/cordova-sqlite-ext.git",
   "author": "various",
@@ -56,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/1559888?v=4",
   "quality": 271,
   "updated": "2022-11-14T07:21:35Z",
-  "downloads": 2517
+  "downloads": 2441
 }
