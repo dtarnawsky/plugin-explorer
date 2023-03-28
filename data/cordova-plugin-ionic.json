@@ -134,7 +134,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Ionic Cordova SDK",
   "bugs": "https://github.com/ionic-team/cordova-plugin-ionic/issues",
@@ -142,5 +144,5 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 260,
   "updated": "2023-03-22T18:24:00Z",
-  "downloads": 131650
+  "downloads": 133566
 }

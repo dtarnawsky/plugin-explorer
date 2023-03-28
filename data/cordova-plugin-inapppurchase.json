@@ -3,7 +3,9 @@
   "version": "1.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "git://github.com/AlexDisler/cordova-plugin-inapppurchase.git",
   "author": "Alex Disler <alexdisler@gmail.com> (alexdisler.com)",
@@ -47,5 +49,5 @@
   "description": "A lightweight cordova plugin for in app purchases on iOS and Android with a simple promise based API.",
   "bugs": "https://github.com/AlexDisler/cordova-plugin-inapppurchase/issues",
   "quality": null,
-  "downloads": 895
+  "downloads": 926
 }

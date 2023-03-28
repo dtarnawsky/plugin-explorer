@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/surya/cordova-plugin-ip-mac-address.git",
   "author": "govindharaju.adabala@techvedika.com",
@@ -26,5 +28,5 @@
   "description": "cordova-plugin-ip-mac-address",
   "bugs": "https://github.com/surya/cordova-plugin-ip-mac-address/issues",
   "quality": null,
-  "downloads": 146
+  "downloads": 150
 }

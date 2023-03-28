@@ -59,23 +59,32 @@
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-android:parseReleaseLocalResources
         
         > Task :app:processReleaseMainManifest FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
-        uses-sdk:minSdkVersion 21 cannot be smaller than version 22 declared in library [:capacitor-app] /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml as the library might be using APIs not available in 21
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
+        uses-sdk:minSdkVersion 21 cannot be smaller than version 22 declared in library [:capacitor-app] /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml as the library might be using APIs not available in 21
         Suggestion: use a compatible library with a minSdk of at most 21,
         or increase this project's minSdk version to at least 22,
         or use tools:overrideLibrary="com.capacitorjs.plugins.app" to force usage (may lead to runtime failures)
@@ -87,7 +96,7 @@
         
         * What went wrong:
         Execution failed for task ':app:processReleaseMainManifest'.
-        > Manifest merger failed : uses-sdk:minSdkVersion 21 cannot be smaller than version 22 declared in library [:capacitor-app] /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml as the library might be using APIs not available in 21
+        > Manifest merger failed : uses-sdk:minSdkVersion 21 cannot be smaller than version 22 declared in library [:capacitor-app] /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/@capacitor/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml as the library might be using APIs not available in 21
         Suggestion: use a compatible library with a minSdk of at most 21,
         or increase this project's minSdk version to at least 22,
         or use tools:overrideLibrary="com.capacitorjs.plugins.app" to force usage (may lead to runtime failures)
@@ -99,6 +108,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 1m
-        33 actionable tasks: 33 executed
+        BUILD FAILED in 48s
+        40 actionable tasks: 40 executed
         

@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ionic-team/cordova-plugin-ionic-webview.git",
   "author": "Ionic Team",
@@ -84,7 +86,7 @@
   "bugs": "https://github.com/ionic-team/cordova-plugin-ionic-webview/issues",
   "stars": 468,
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
-  "quality": 1082,
+  "quality": 1083,
   "updated": "2023-03-11T18:17:14Z",
-  "downloads": 151433
+  "downloads": 152697
 }

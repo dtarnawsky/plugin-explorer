@@ -80,23 +80,10 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         Note: Some input files use or override a deprecated API.
@@ -105,122 +92,135 @@
         Note: Recompile with -Xlint:unchecked for details.
         
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseRFile
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
         
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-haptics:bundleLibRuntimeToJarReleaseNote: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :app:checkReleaseDuplicateClasses
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClassesNote: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-status-bar:writeReleaseAarMetadata
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        
-        > Task :app:processReleaseManifestForPackage
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:7: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:7: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:8: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:8: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:9: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:9: error: package android.app does not exist
         import android.app.ActivityManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:10: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:10: error: package android.os does not exist
         import android.os.Build;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:11: error: package android.graphics does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:11: error: package android.graphics does not exist
         import android.graphics.Color;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:12: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:12: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:22: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:22: error: cannot find symbol
         public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HeaderColor
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:22: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:22: error: cannot find symbol
         public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HeaderColor
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:30: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:30: error: cannot find symbol
         int color = Color.parseColor(data);
         ^
         symbol:   variable Color
         location: class HeaderColor
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:31: error: package Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:31: error: package Build does not exist
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:31: error: package Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:31: error: package Build does not exist
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:32: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:32: error: cannot find symbol
         ActivityManager activityManager = (ActivityManager) cordova.getActivity().getSystemService(Context.ACTIVITY_SERVICE);
         			^
         symbol:   class ActivityManager
         location: class HeaderColor
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:32: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:32: error: cannot find symbol
         ActivityManager activityManager = (ActivityManager) cordova.getActivity().getSystemService(Context.ACTIVITY_SERVICE);
         ^
         symbol:   class ActivityManager
         location: class HeaderColor
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:32: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:32: error: cannot find symbol
         ActivityManager activityManager = (ActivityManager) cordova.getActivity().getSystemService(Context.ACTIVITY_SERVICE);
         ^
         symbol:   variable Context
         location: class HeaderColor
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:32: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:32: error: cannot access Activity
         ActivityManager activityManager = (ActivityManager) cordova.getActivity().getSystemService(Context.ACTIVITY_SERVICE);
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:33: error: package ActivityManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:33: error: package ActivityManager does not exist
         for(ActivityManager.AppTask appTask : activityManager.getAppTasks()) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:35: error: package ActivityManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:35: error: package ActivityManager does not exist
         ActivityManager.TaskDescription description = appTask.getTaskInfo().taskDescription;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:36: error: package ActivityManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/tomloprod/headercolor/HeaderColor.java:36: error: package ActivityManager does not exist
         cordova.getActivity().setTaskDescription(new ActivityManager.TaskDescription(description.getLabel(), description.getIcon(), color));
         ^
         18 errors
+        
+        > Task :app:processReleaseManifestForPackage
         
         FAILURE: Build failed with an exception.
         
@@ -236,7 +236,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        
-        BUILD FAILED in 3s
         86 actionable tasks: 86 executed
+        BUILD FAILED in 4s
+        
         

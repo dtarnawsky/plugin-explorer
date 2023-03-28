@@ -11,11 +11,11 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-firebase-crash/src/android/build.gradle' line: 15
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-firebase-crash/src/android/build.gradle' line: 15
         
         * What went wrong:
         A problem occurred evaluating script.
-        > No signature of method: build_1q1s47ir4cgwup26xgbxvmh0t.android() is applicable for argument types: (build_1q1s47ir4cgwup26xgbxvmh0t$_run_closure1) values: [build_1q1s47ir4cgwup26xgbxvmh0t$_run_closure1@6b566b90]
+        > No signature of method: build_f2m5mw4mzm9m4nhwczc6usg1w.android() is applicable for argument types: (build_f2m5mw4mzm9m4nhwczc6usg1w$_run_closure1) values: [build_f2m5mw4mzm9m4nhwczc6usg1w$_run_closure1@338cfe3c]
         
         * Try:
         > Run with --stacktrace option to get the stack trace.
@@ -24,5 +24,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 4s
+        BUILD FAILED in 852ms
         

@@ -19,25 +19,18 @@
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios",
-    "cordova",
-    "cordova-plugin",
-    "flurry-analytics",
-    "ionic",
-    "phonegap",
-    "phonegap-plugin"
+    "cordova-ios"
   ],
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Ads support for Flurry Analytics to Cordova and Phonegap apps",
   "bugs": "https://github.com/blakgeek/cordova-plugin-flurryanalytics/issues",
-  "stars": 23,
-  "image": "https://avatars.githubusercontent.com/u/824542?v=4",
-  "quality": 173,
-  "updated": "2022-01-17T15:13:30Z",
-  "downloads": 99
+  "quality": null,
+  "downloads": 88
 }

@@ -3,7 +3,9 @@
   "version": "5.0.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/dpa99c/cordova-plugin-inappbrowser-popup-bridge.git",
   "author": "Dave Alden",
@@ -76,5 +78,5 @@
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 138,
   "updated": "2022-11-11T12:54:23Z",
-  "downloads": 399
+  "downloads": 382
 }

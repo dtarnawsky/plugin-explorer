@@ -1,7 +1,10 @@
 {
   "name": "cordova-plugin-http",
   "version": "1.2.0",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/wymsee/cordova-HTTP.git",
   "author": "Wymsee",
   "published": "2022-06-14T00:19:10.311Z",
@@ -32,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/3287538?v=4",
   "quality": 875,
   "updated": "2022-11-28T09:56:49Z",
-  "downloads": 544
+  "downloads": 545
 }

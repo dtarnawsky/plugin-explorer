@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/hypery2k/cordova-hotspot-plugin.git",
   "author": "Martin Reinhardt",
@@ -101,5 +103,5 @@
   "image": "https://avatars.githubusercontent.com/u/979121?v=4",
   "quality": 195,
   "updated": "2023-01-19T11:48:50Z",
-  "downloads": 2118
+  "downloads": 1974
 }

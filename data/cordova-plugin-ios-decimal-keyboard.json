@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/gbrits/cordova-plugin-decimal-keyboard.git",
   "author": "Grant Brits",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/14840021?v=4",
   "quality": 4,
   "updated": "2019-01-17T07:47:11Z",
-  "downloads": 1138
+  "downloads": 1172
 }

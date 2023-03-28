@@ -1,0 +1,103 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:6: error: package com.google.firebase.messaging does not exist
+import com.google.firebase.messaging.FirebaseMessagingService;
+                                    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:7: error: package com.google.firebase.messaging does not exist
+import com.google.firebase.messaging.RemoteMessage;
+                                    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:8: error: package com.urbanairship.push.fcm does not exist
+import com.urbanairship.push.fcm.AirshipFirebaseIntegration;
+                                ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:12: error: package io.intercom.android.sdk.push does not exist
+import io.intercom.android.sdk.push.IntercomPushClient;
+                                   ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:14: error: cannot find symbol
+public class FirebaseMessagingExtensionService extends FirebaseMessagingService {
+                                                       ^
+  symbol: class FirebaseMessagingService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:15: error: cannot find symbol
+    private final IntercomPushClient intercomPushClient = new IntercomPushClient();
+                  ^
+  symbol:   class IntercomPushClient
+  location: class FirebaseMessagingExtensionService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:34: error: cannot find symbol
+    public void onMessageReceived(RemoteMessage remoteMessage) {
+                                  ^
+  symbol:   class RemoteMessage
+  location: class FirebaseMessagingExtensionService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:15: error: cannot find symbol
+    private final IntercomPushClient intercomPushClient = new IntercomPushClient();
+                                                              ^
+  symbol:   class IntercomPushClient
+  location: class FirebaseMessagingExtensionService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:19: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:25: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:28: error: cannot find symbol
+        intercomPushClient.sendTokenToIntercom(getApplication(), token);
+                                               ^
+  symbol:   method getApplication()
+  location: class FirebaseMessagingExtensionService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:29: error: cannot find symbol
+        AirshipFirebaseIntegration.processNewToken(getApplicationContext());
+        ^
+  symbol:   variable AirshipFirebaseIntegration
+  location: class FirebaseMessagingExtensionService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:29: error: cannot find symbol
+        AirshipFirebaseIntegration.processNewToken(getApplicationContext());
+                                                   ^
+  symbol:   method getApplicationContext()
+  location: class FirebaseMessagingExtensionService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:38: error: cannot find symbol
+            intercomPushClient.handlePush(getApplication(), message);
+                                          ^
+  symbol:   method getApplication()
+  location: class FirebaseMessagingExtensionService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:40: error: cannot find symbol
+            AirshipFirebaseIntegration.processMessageSync(getApplicationContext(), remoteMessage);
+            ^
+  symbol:   variable AirshipFirebaseIntegration
+  location: class FirebaseMessagingExtensionService
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/ca/koho/cordova/plugin/firebase/messaging/FirebaseMessagingExtensionService.java:40: error: cannot find symbol
+            AirshipFirebaseIntegration.processMessageSync(getApplicationContext(), remoteMessage);
+                                                          ^
+  symbol:   method getApplicationContext()
+  location: class FirebaseMessagingExtensionService
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+17 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

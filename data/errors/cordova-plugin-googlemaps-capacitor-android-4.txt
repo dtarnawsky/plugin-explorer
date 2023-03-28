@@ -17,7 +17,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-googlemaps/src/android/frameworks/pgm-custom.gradle' line: 36
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-googlemaps/src/android/frameworks/pgm-custom.gradle' line: 36
         
         * What went wrong:
         A problem occurred evaluating script.

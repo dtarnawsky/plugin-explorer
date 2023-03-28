@@ -3,7 +3,8 @@
   "version": "1.0.14",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/InfinitePeripherals/InfineaSDKCordova.git",
   "author": "Infinite Peripherals",
@@ -17,7 +18,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "InfineaSDK Cordova plugin",
   "bugs": "https://github.com/InfinitePeripherals/InfineaSDKCordova/issues",

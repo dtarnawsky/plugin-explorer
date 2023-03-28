@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "author": "qin_hc",
   "published": "2022-04-27T17:29:29.788Z",

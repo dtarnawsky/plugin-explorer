@@ -3,7 +3,8 @@
   "version": "8.0.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/cordova-rtc/cordova-plugin-iosrtc.git",
   "author": "Iñaki Baz Castillo (https://inakibaz.me)",
@@ -84,7 +85,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova iOS plugin exposing the full WebRTC W3C JavaScript APIs",
   "bugs": "https://github.com/cordova-rtc/cordova-plugin-iosrtc/issues",
@@ -92,5 +94,5 @@
   "image": "https://avatars.githubusercontent.com/u/54018065?v=4",
   "quality": 1151,
   "updated": "2023-02-26T12:32:38Z",
-  "downloads": 2481
+  "downloads": 2476
 }

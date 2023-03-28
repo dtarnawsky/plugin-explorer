@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/don/cordova-plugin-hce.git",
   "author": "Don Coleman <don.coleman@gmail.com>",
@@ -22,7 +23,8 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Host Card Emulation (HCE) Plugin",
   "bugs": "https://github.com/don/cordova-plugin-hce/issues",
@@ -30,5 +32,5 @@
   "image": "https://avatars.githubusercontent.com/u/3133?v=4",
   "quality": 148,
   "updated": "2022-11-03T07:11:21Z",
-  "downloads": 991
+  "downloads": 1019
 }

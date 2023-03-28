@@ -72,31 +72,18 @@
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
@@ -105,55 +92,67 @@
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
         
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:javaPreCompileRelease
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :app:generateReleaseBuildConfig
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :app:checkReleaseDuplicateClasses
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :capacitor-haptics:bundleLibCompileToJarRelease
         > Task :app:processReleaseManifestForPackage
-        > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
-        > Task :app:desugarReleaseFileDependencies
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
+        > Task :app:desugarReleaseFileDependencies
         > Task :app:mergeReleaseShaders
         > Task :app:compileReleaseShaders NO-SOURCE
         > Task :app:generateReleaseAssets UP-TO-DATE
@@ -177,351 +176,331 @@
         > Task :capacitor-keyboard:compileReleaseShaders NO-SOURCE
         > Task :capacitor-keyboard:generateReleaseAssets UP-TO-DATE
         > Task :capacitor-keyboard:packageReleaseAssets
+        > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl
         > Task :capacitor-status-bar:mergeReleaseShaders
         > Task :capacitor-status-bar:compileReleaseShaders NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseAssets UP-TO-DATE
-        > Task :capacitor-status-bar:packageReleaseAssets
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl
         > Task :app:mergeExtDexRelease
-        > Task :app:processReleaseResources
-        > Task :app:mergeReleaseAssets
-        > Task :app:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-android:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-android:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-app:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-app:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-haptics:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-haptics:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-keyboard:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-keyboard:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-status-bar:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-status-bar:bundleLibResRelease NO-SOURCE
-        > Task :app:mergeReleaseJniLibFolders
-        > Task :capacitor-android:mergeReleaseJniLibFolders
-        > Task :capacitor-android:mergeReleaseNativeLibs NO-SOURCE
-        > Task :capacitor-android:stripReleaseDebugSymbols NO-SOURCE
-        > Task :capacitor-android:copyReleaseJniLibsProjectOnly
-        > Task :capacitor-app:mergeReleaseJniLibFolders
-        > Task :app:mergeReleaseJavaResource
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:3: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:3: error: package android.content does not exist
         import android.content.ComponentName;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:4: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:4: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:5: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:5: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:6: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:6: error: package android.content does not exist
         import android.content.ServiceConnection;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:7: error: package android.graphics does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:7: error: package android.graphics does not exist
         import android.graphics.BitmapFactory;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:8: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:8: error: package android.os does not exist
         import android.os.IBinder;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:17: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:17: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:18: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:18: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:5: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:5: error: package android.os does not exist
         public interface IPosPrinterService extends android.os.IInterface
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:30: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:30: error: cannot find symbol
         public boolean execute(String action, JSONArray args,
         ^
         symbol:   class JSONArray
         location: class IPosPrinterCordovaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:143: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:143: error: cannot find symbol
         private byte[] jsonArrayToByteArray(JSONArray data) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IPosPrinterCordovaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:143: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:143: error: cannot find symbol
         private byte[] jsonArrayToByteArray(JSONArray data) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IPosPrinterCordovaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:151: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:151: error: cannot find symbol
         private String[] jsonArrayToStringArray(JSONArray data) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IPosPrinterCordovaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:151: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:151: error: cannot find symbol
         private String[] jsonArrayToStringArray(JSONArray data) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IPosPrinterCordovaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:159: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:159: error: cannot find symbol
         private int[] jsonArrayToIntArray(JSONArray data) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IPosPrinterCordovaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:159: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/iposprinter/IPosPrinterCordovaPlugin.java:159: error: cannot find symbol
         private int[] jsonArrayToIntArray(JSONArray data) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IPosPrinterCordovaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1090: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1090: error: package android.os does not exist
         public int getPrinterStatus() throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:8: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:8: error: package android.os does not exist
         public interface IPosPrinterCallback extends android.os.IInterface
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1098: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1098: error: package android.os does not exist
         public void printerInit(com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1105: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1105: error: package android.os does not exist
         public void setPrinterPrintDepth(int depth, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1113: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1113: error: package android.os does not exist
         public void setPrinterPrintFontType(java.lang.String typeface, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1123: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1123: error: package android.os does not exist
         public void setPrinterPrintFontSize(int fontsize, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1130: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1130: error: package android.os does not exist
         public void setPrinterPrintAlignment(int alignment, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1137: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1137: error: package android.os does not exist
         public void printerFeedLines(int lines, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1145: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1145: error: package android.os does not exist
         public void printBlankLines(int lines, int height, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1153: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1153: error: package android.os does not exist
         public void printText(java.lang.String text, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1163: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1163: error: package android.os does not exist
         public void printSpecifiedTypeText(java.lang.String text, java.lang.String typeface, int fontsize, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1174: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1174: error: package android.os does not exist
         public void PrintSpecFormatText(java.lang.String text, java.lang.String typeface, int fontsize, int alignment, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1186: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1186: error: package android.os does not exist
         public void printColumnsText(java.lang.String[] colsTextArr, int[] colsWidthArr, int[] colsAlign, int isContinuousPrint, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1195: error: package android.graphics does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1195: error: package android.graphics does not exist
         public void printBitmap(int alignment, int bitmapSize, android.graphics.Bitmap mBitmap, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1195: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1195: error: package android.os does not exist
         public void printBitmap(int alignment, int bitmapSize, android.graphics.Bitmap mBitmap, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1215: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1215: error: package android.os does not exist
         public void printBarCode(java.lang.String data, int symbology, int height, int width, int textposition, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1224: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1224: error: package android.os does not exist
         public void printQRCode(java.lang.String data, int modulesize, int mErrorCorrectionLevel, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1230: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1230: error: package android.os does not exist
         public void printRawData(byte[] rawPrintData, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1236: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1236: error: package android.os does not exist
         public void sendUserCMDData(byte[] data, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1244: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1244: error: package android.os does not exist
         public void printerPerformPrint(int feedlines, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:172: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:172: error: package android.os does not exist
         public void onRunResult(boolean isSuccess) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:177: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:177: error: package android.os does not exist
         public void onReturnString(java.lang.String result) throws android.os.RemoteException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:17: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:17: error: package android.os does not exist
         @Override public void onRunResult(boolean isSuccess) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:24: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:24: error: package android.os does not exist
         @Override public void onReturnString(java.lang.String result) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:28: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:28: error: package android.os does not exist
         public android.os.IBinder asBinder() {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:33: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:33: error: package android.os does not exist
         public static abstract class Stub extends android.os.Binder implements com.iposprinter.iposprinterservice.IPosPrinterCallback
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:45: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:45: error: package android.os does not exist
         public static com.iposprinter.iposprinterservice.IPosPrinterCallback asInterface(android.os.IBinder obj)
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:56: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:56: error: package android.os does not exist
         @Override public android.os.IBinder asBinder()
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:60: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:60: error: package android.os does not exist
         @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:60: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:60: error: package android.os does not exist
         @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:60: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:60: error: package android.os does not exist
         @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:94: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:94: error: package android.os does not exist
         private android.os.IBinder mRemote;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:95: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:95: error: package android.os does not exist
         Proxy(android.os.IBinder remote)
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:99: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:99: error: package android.os does not exist
         @Override public android.os.IBinder asBinder()
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:111: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:111: error: package android.os does not exist
         @Override public void onRunResult(boolean isSuccess) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:131: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterCallback.java:131: error: package android.os does not exist
         @Override public void onReturnString(java.lang.String result) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:22: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:22: error: package android.os does not exist
         @Override public int getPrinterStatus() throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:33: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:33: error: package android.os does not exist
         @Override public void printerInit(com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:42: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:42: error: package android.os does not exist
         @Override public void setPrinterPrintDepth(int depth, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:52: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:52: error: package android.os does not exist
         @Override public void setPrinterPrintFontType(java.lang.String typeface, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:64: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:64: error: package android.os does not exist
         @Override public void setPrinterPrintFontSize(int fontsize, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:73: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:73: error: package android.os does not exist
         @Override public void setPrinterPrintAlignment(int alignment, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:82: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:82: error: package android.os does not exist
         @Override public void printerFeedLines(int lines, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:92: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:92: error: package android.os does not exist
         @Override public void printBlankLines(int lines, int height, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:102: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:102: error: package android.os does not exist
         @Override public void printText(java.lang.String text, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:114: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:114: error: package android.os does not exist
         @Override public void printSpecifiedTypeText(java.lang.String text, java.lang.String typeface, int fontsize, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:127: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:127: error: package android.os does not exist
         @Override public void PrintSpecFormatText(java.lang.String text, java.lang.String typeface, int fontsize, int alignment, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:141: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:141: error: package android.os does not exist
         @Override public void printColumnsText(java.lang.String[] colsTextArr, int[] colsWidthArr, int[] colsAlign, int isContinuousPrint, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:152: error: package android.graphics does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:152: error: package android.graphics does not exist
         @Override public void printBitmap(int alignment, int bitmapSize, android.graphics.Bitmap mBitmap, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:152: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:152: error: package android.os does not exist
         @Override public void printBitmap(int alignment, int bitmapSize, android.graphics.Bitmap mBitmap, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:174: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:174: error: package android.os does not exist
         @Override public void printBarCode(java.lang.String data, int symbology, int height, int width, int textposition, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:185: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:185: error: package android.os does not exist
         @Override public void printQRCode(java.lang.String data, int modulesize, int mErrorCorrectionLevel, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:193: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:193: error: package android.os does not exist
         @Override public void printRawData(byte[] rawPrintData, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:201: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:201: error: package android.os does not exist
         @Override public void sendUserCMDData(byte[] data, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:211: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:211: error: package android.os does not exist
         @Override public void printerPerformPrint(int feedlines, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:215: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:215: error: package android.os does not exist
         public android.os.IBinder asBinder() {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:220: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:220: error: package android.os does not exist
         public static abstract class Stub extends android.os.Binder implements com.iposprinter.iposprinterservice.IPosPrinterService
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:232: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:232: error: package android.os does not exist
         public static com.iposprinter.iposprinterservice.IPosPrinterService asInterface(android.os.IBinder obj)
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:243: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:243: error: package android.os does not exist
         @Override public android.os.IBinder asBinder()
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:247: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:247: error: package android.os does not exist
         @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:247: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:247: error: package android.os does not exist
         @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:247: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:247: error: package android.os does not exist
         @Override public boolean onTransact(int code, android.os.Parcel data, android.os.Parcel reply, int flags) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:497: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:497: error: package android.os does not exist
         private android.os.IBinder mRemote;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:498: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:498: error: package android.os does not exist
         Proxy(android.os.IBinder remote)
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:502: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:502: error: package android.os does not exist
         @Override public android.os.IBinder asBinder()
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:522: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:522: error: package android.os does not exist
         @Override public int getPrinterStatus() throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:549: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:549: error: package android.os does not exist
         @Override public void printerInit(com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:574: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:574: error: package android.os does not exist
         @Override public void setPrinterPrintDepth(int depth, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:601: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:601: error: package android.os does not exist
         @Override public void setPrinterPrintFontType(java.lang.String typeface, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:630: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:630: error: package android.os does not exist
         @Override public void setPrinterPrintFontSize(int fontsize, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:656: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:656: error: package android.os does not exist
         @Override public void setPrinterPrintAlignment(int alignment, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:682: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:682: error: package android.os does not exist
         @Override public void printerFeedLines(int lines, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:709: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:709: error: package android.os does not exist
         @Override public void printBlankLines(int lines, int height, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:737: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:737: error: package android.os does not exist
         @Override public void printText(java.lang.String text, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:766: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:766: error: package android.os does not exist
         @Override public void printSpecifiedTypeText(java.lang.String text, java.lang.String typeface, int fontsize, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:798: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:798: error: package android.os does not exist
         @Override public void PrintSpecFormatText(java.lang.String text, java.lang.String typeface, int fontsize, int alignment, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:832: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:832: error: package android.os does not exist
         @Override public void printColumnsText(java.lang.String[] colsTextArr, int[] colsWidthArr, int[] colsAlign, int isContinuousPrint, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:863: error: package android.graphics does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:863: error: package android.graphics does not exist
         @Override public void printBitmap(int alignment, int bitmapSize, android.graphics.Bitmap mBitmap, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:863: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:863: error: package android.os does not exist
         @Override public void printBitmap(int alignment, int bitmapSize, android.graphics.Bitmap mBitmap, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:910: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:910: error: package android.os does not exist
         @Override public void printBarCode(java.lang.String data, int symbology, int height, int width, int textposition, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:942: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:942: error: package android.os does not exist
         @Override public void printQRCode(java.lang.String data, int modulesize, int mErrorCorrectionLevel, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:969: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:969: error: package android.os does not exist
         @Override public void printRawData(byte[] rawPrintData, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:994: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:994: error: package android.os does not exist
         @Override public void sendUserCMDData(byte[] data, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1021: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/build/generated/aidl_source_output_dir/release/out/com/iposprinter/iposprinterservice/IPosPrinterService.java:1021: error: package android.os does not exist
         @Override public void printerPerformPrint(int feedlines, com.iposprinter.iposprinterservice.IPosPrinterCallback callback) throws android.os.RemoteException
         ^
         100 errors
+        
+        > Task :app:processReleaseResources
         
         FAILURE: Build failed with an exception.
         
@@ -534,10 +513,10 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 5s
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        114 actionable tasks: 114 executed
+        107 actionable tasks: 107 executed
+        BUILD FAILED in 6s
         

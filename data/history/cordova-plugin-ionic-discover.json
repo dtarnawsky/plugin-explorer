@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "1.0.3",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "1.0.3",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "1.0.3",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "1.0.3",
+      "failure": "cap-sync",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-ionic-discover"
+}

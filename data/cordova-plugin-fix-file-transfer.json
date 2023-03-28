@@ -1,7 +1,10 @@
 {
   "name": "cordova-plugin-fix-file-transfer",
   "version": "1.7.2",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/apache/cordova-plugin-fix-file-transfer.git",
   "author": "Apache Software Foundation",
   "published": "2022-04-27T17:23:35.594Z",
@@ -34,5 +37,5 @@
   "description": "Cordova File Transfer Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
   "quality": null,
-  "downloads": 6
+  "downloads": 7
 }

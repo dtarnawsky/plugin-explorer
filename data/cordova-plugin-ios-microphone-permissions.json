@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/pinchnzoom/cordova-plugin-ios-microphone-permissions.git",
   "author": "pinchnzoom",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/24420518?v=4",
   "quality": 105,
   "updated": "2019-02-01T18:28:09Z",
-  "downloads": 30
+  "downloads": 34
 }

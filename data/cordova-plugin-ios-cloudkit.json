@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/windycom/cordova-plugin-ios-cloudkit.git",
   "author": "Windyty, S.E.",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/14926367?v=4",
   "quality": 102,
   "updated": "2022-10-14T09:10:14Z",
-  "downloads": 113
+  "downloads": 120
 }

@@ -3,7 +3,9 @@
   "version": "1.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/cordobo/cordova-plugin-ios-camera-permissions.git",
   "author": "Andreas Jacob <andreas@cordobo.de> (http://cordobo.com/)",
@@ -45,5 +47,5 @@
   "image": "https://avatars.githubusercontent.com/u/1158?v=4",
   "quality": 177,
   "updated": "2023-01-28T14:49:12Z",
-  "downloads": 2817
+  "downloads": 2834
 }

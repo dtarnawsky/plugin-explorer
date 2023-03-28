@@ -59,7 +59,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for Firebase Crashlytics",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-crash/issues",
@@ -67,5 +69,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 162,
   "updated": "2022-09-11T15:14:42Z",
-  "downloads": 2570
+  "downloads": 2537
 }

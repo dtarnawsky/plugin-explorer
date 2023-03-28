@@ -38,7 +38,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for Firebase In-App Messaging",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging/issues",
@@ -46,5 +48,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 139,
   "updated": "2022-12-01T15:46:20Z",
-  "downloads": 620
+  "downloads": 631
 }

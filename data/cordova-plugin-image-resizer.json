@@ -2,7 +2,9 @@
   "name": "cordova-plugin-image-resizer",
   "version": "1.0.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/wymsee/cordova-imageResizer.git",
   "author": "Wymsee",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/3287538?v=4",
   "quality": 58,
   "updated": "2022-12-27T04:50:37Z",
-  "downloads": 219
+  "downloads": 224
 }

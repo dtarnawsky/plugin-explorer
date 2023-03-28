@@ -2,7 +2,9 @@
   "name": "cordova-plugin-google-analytics",
   "version": "1.9.2",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/danwilson/google-analytics-plugin.git",
   "author": "Dan Wilson",
@@ -65,5 +67,5 @@
   "image": "https://avatars.githubusercontent.com/u/889308?v=4",
   "quality": 1373,
   "updated": "2023-03-19T20:44:10Z",
-  "downloads": 6644
+  "downloads": 6716
 }

@@ -7,7 +7,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-ionic4-crosswalk-webview/src/android/xwalk.gradle' line: 64
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-ionic4-crosswalk-webview/src/android/xwalk.gradle' line: 64
         
         * What went wrong:
         A problem occurred evaluating script.
@@ -20,5 +20,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 941ms
+        BUILD FAILED in 2s
         

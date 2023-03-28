@@ -1,7 +1,10 @@
 {
   "name": "cordova-plugin-intercom",
   "version": "12.1.0",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "capacitor-ios-4"
+  ],
   "repo": "https://github.com/intercom/intercom-cordova.git",
   "author": "Intercom",
   "published": "2022-06-14T00:22:13.057Z",
@@ -104,7 +107,6 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
@@ -112,7 +114,7 @@
   "bugs": "https://github.com/intercom/intercom-cordova/issues",
   "stars": 93,
   "image": "https://avatars.githubusercontent.com/u/6585?v=4",
-  "quality": 307,
+  "quality": 306,
   "updated": "2022-11-11T12:31:04Z",
-  "downloads": 7811
+  "downloads": 7913
 }

@@ -57,101 +57,103 @@
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-android:processReleaseManifest
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-android:generateReleaseRFile
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-android:javaPreCompileRelease
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
+        > Task :app:mapReleaseSourceSetPaths
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :app:mapReleaseSourceSetPaths
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-app:compileReleaseJavaWithJavac
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :app:bundleReleaseResources
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :app:checkReleaseDuplicateClasses
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:5: error: package by.chemerisuk.cordova.support does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:5: error: package by.chemerisuk.cordova.support does not exist
         import by.chemerisuk.cordova.support.CordovaMethod;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:6: error: package by.chemerisuk.cordova.support does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:6: error: package by.chemerisuk.cordova.support does not exist
         import by.chemerisuk.cordova.support.ReflectiveCordovaPlugin;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:7: error: package by.chemerisuk.cordova.support does not exist
-        import by.chemerisuk.cordova.support.ExecutionThread;76 actionable tasks: 76 executed
-        
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:7: error: package by.chemerisuk.cordova.support does not exist
+        import by.chemerisuk.cordova.support.ExecutionThread;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:15: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:15: error: cannot find symbol
         public class IdfaPlugin extends ReflectiveCordovaPlugin {
         ^
         symbol: class ReflectiveCordovaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:18: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:18: error: cannot find symbol
         @CordovaMethod(ExecutionThread.WORKER)
         ^
         symbol:   class CordovaMethod
         location: class IdfaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:18: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:18: error: cannot find symbol
         @CordovaMethod(ExecutionThread.WORKER)
         ^
         symbol:   variable ExecutionThread
         location: class IdfaPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:20: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/advertising/IdfaPlugin.java:20: error: cannot find symbol
         Context context = this.cordova.getActivity().getApplicationContext();
         ^
         symbol: variable cordova
@@ -171,4 +173,5 @@
         * Get more help at https://help.gradle.org
         
         BUILD FAILED in 4s
+        78 actionable tasks: 78 executed
         

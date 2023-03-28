@@ -3,7 +3,8 @@
   "version": "1.1.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/wymsee/cordova-imagePicker.git",
   "author": "Wymsee",
@@ -21,13 +22,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This plugin allows selection of multiple images from the camera roll / gallery in a phonegap app",
   "bugs": "https://github.com/wymsee/cordova-imagePicker/issues",
   "stars": 404,
   "image": "https://avatars.githubusercontent.com/u/3287538?v=4",
-  "quality": 1512,
+  "quality": 1513,
   "updated": "2023-02-13T15:39:08Z",
-  "downloads": 801
+  "downloads": 821
 }

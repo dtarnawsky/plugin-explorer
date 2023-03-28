@@ -1,0 +1,71 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+(node:63063) Warning: Accessing non-existent property 'cat' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:63063) Warning: Accessing non-existent property 'cd' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'chmod' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'cp' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'dirs' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'pushd' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'popd' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'echo' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'tempdir' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'pwd' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'exec' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'ls' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'find' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'grep' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'head' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'ln' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'mkdir' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'rm' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'mv' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'sed' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'set' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'sort' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'tail' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'test' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'to' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'toEnd' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'touch' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'uniq' of module exports inside circular dependency
+(node:63063) Warning: Accessing non-existent property 'which' of module exports inside circular dependency
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+   > Could not find any version that matches com.flurry.android:analytics:6+.
+     Versions that do not match:
+       - 14.2.0
+       - 14.1.0
+       - 14.0.0
+       - 13.3.0
+       - 13.2.0
+       - + 16 more
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/com/flurry/android/analytics/maven-metadata.xml
+       - https://repo.maven.apache.org/maven2/com/flurry/android/analytics/maven-metadata.xml
+     Required by:
+         project :app
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

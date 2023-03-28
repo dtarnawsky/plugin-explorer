@@ -7,7 +7,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-honeywell-barcode-scanner/src/android/plugin.gradle' line: 9
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-honeywell-barcode-scanner/src/android/plugin.gradle' line: 9
         
         * What went wrong:
         A problem occurred evaluating script.
@@ -20,7 +20,7 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 829ms
+        BUILD FAILED in 1s
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         

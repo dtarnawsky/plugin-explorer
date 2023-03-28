@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "5.0.0",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "5.0.0",
+      "success": true
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "5.0.0",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-ionic-webview"
+}

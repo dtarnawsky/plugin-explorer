@@ -58,15 +58,15 @@
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-app:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-app:compileReleaseLibraryResources
@@ -74,79 +74,65 @@
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:javaPreCompileRelease
-        > Task :capacitor-android:parseReleaseLocalResources
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
-        Note: Some input files use unchecked or unsafe operations.
-        Note: Recompile with -Xlint:unchecked for details.
         > Task :app:mapReleaseSourceSetPaths
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseRFileNote: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
         > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-android:bundleLibRuntimeToDirRelease
         > Task :capacitor-app:compileReleaseJavaWithJavac
         > Task :capacitor-app:bundleLibRuntimeToDirRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToDirRelease
+        > Task :app:bundleReleaseResources
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         > Task :capacitor-keyboard:bundleLibRuntimeToDirRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToDirRelease
         
         > Transform release (project :capacitor-app) with DexingNoClasspathTransform
         
-        > Transform release (project :capacitor-keyboard) with DexingNoClasspathTransformERROR:D8: Invoke-customs are only supported starting with Android O (--min-api 26)
-        ERROR:D8: Invoke-customs are only supported starting with Android O (--min-api 26)
-        
-        
-        > Task :app:bundleReleaseResources
-        > Task :capacitor-android:bundleLibRuntimeToDirRelease
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:bundleLibRuntimeToDirRelease
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        
         > Transform release (project :capacitor-status-bar) with DexingNoClasspathTransform
         ERROR:D8: Invoke-customs are only supported starting with Android O (--min-api 26)
+        ERROR:D8: Invoke-customs are only supported starting with Android O (--min-api 26)
+        ERROR:D8: Invoke-customs are only supported starting with Android O (--min-api 26)
         
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-app:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
-        > Task :capacitor-haptics:writeReleaseAarMetadata
-        > Task :capacitor-keyboard:writeReleaseAarMetadata
-        > Task :capacitor-status-bar:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :app:checkReleaseAarMetadata
+        > Transform release (project :capacitor-keyboard) with DexingNoClasspathTransform
         
         > Transform release (project :capacitor-android) with DexingNoClasspathTransform
         ERROR:D8: Invoke-customs are only supported starting with Android O (--min-api 26)
@@ -157,13 +143,27 @@
         ERROR:D8: Invoke-customs are only supported starting with Android O (--min-api 26)
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToDirRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
-        > Task :app:processReleaseResources
+        > Task :app:mergeReleaseShaders
+        > Task :app:compileReleaseShaders NO-SOURCE
+        > Task :app:generateReleaseAssets UP-TO-DATE
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-android:mergeReleaseShaders
         
         > Task :app:mergeExtDexRelease
         ERROR:D8: Invoke-customs are only supported starting with Android O (--min-api 26)
@@ -184,7 +184,7 @@
         Execution failed for task ':app:mergeExtDexRelease'.
         > Could not resolve all files for configuration ':app:releaseRuntimeClasspath'.
         > Failed to transform appcompat-1.4.2.aar (androidx.appcompat:appcompat:1.4.2) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/fa65671bf8f9abf9a67de0e67bc39b2d/transformed/appcompat-1.4.2-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/fa65671bf8f9abf9a67de0e67bc39b2d/transformed/appcompat-1.4.2-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -196,7 +196,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
         
         > Failed to transform core-splashscreen-1.0.0-rc01.aar (androidx.core:core-splashscreen:1.0.0-rc01) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/1afa624051e8cd5db34fdf1c95992c4d/transformed/jetified-core-splashscreen-1.0.0-rc01-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/1afa624051e8cd5db34fdf1c95992c4d/transformed/jetified-core-splashscreen-1.0.0-rc01-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -208,7 +208,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
         
         > Failed to transform fragment-1.4.1.aar (androidx.fragment:fragment:1.4.1) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/738a447b08e5a52b7a9f3241eea03910/transformed/fragment-1.4.1-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/738a447b08e5a52b7a9f3241eea03910/transformed/fragment-1.4.1-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -220,7 +220,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
         
         > Failed to transform fragment-1.4.1.aar (androidx.fragment:fragment:1.4.1) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/738a447b08e5a52b7a9f3241eea03910/transformed/fragment-1.4.1-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/738a447b08e5a52b7a9f3241eea03910/transformed/fragment-1.4.1-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -232,7 +232,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
         
         > Failed to transform activity-1.4.0.aar (androidx.activity:activity:1.4.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/cdba399cf7eb922facd9b0e6876ee5a1/transformed/jetified-activity-1.4.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/cdba399cf7eb922facd9b0e6876ee5a1/transformed/jetified-activity-1.4.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -244,7 +244,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
         
         > Failed to transform emoji2-1.0.0.aar (androidx.emoji2:emoji2:1.0.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/8d3764512b7b33d863f4ccfc7895a1df/transformed/jetified-emoji2-1.0.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/8d3764512b7b33d863f4ccfc7895a1df/transformed/jetified-emoji2-1.0.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -256,7 +256,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 26 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -268,7 +268,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -280,7 +280,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -292,7 +292,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -304,7 +304,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -316,7 +316,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -328,7 +328,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -340,7 +340,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -352,7 +352,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -364,7 +364,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -376,7 +376,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -388,7 +388,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -400,7 +400,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -412,7 +412,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform core-1.8.0.aar (androidx.core:core:1.8.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/96a1f73f21ea4a1c57f3919a4da9cef3/transformed/core-1.8.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -424,7 +424,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform lifecycle-runtime-2.4.0.aar (androidx.lifecycle:lifecycle-runtime:2.4.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.libraryelements=aar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/f93ef7e61b93fc9125437087b65a8c53/transformed/lifecycle-runtime-2.4.0-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/f93ef7e61b93fc9125437087b65a8c53/transformed/lifecycle-runtime-2.4.0-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -436,7 +436,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform lifecycle-common-2.4.0.jar (androidx.lifecycle:lifecycle-common:2.4.0) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.jvm.version=8, org.gradle.libraryelements=jar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.4.0.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.4.0.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -448,7 +448,7 @@
         See https://developer.android.com/studio/write/java8-support.html for details. Alternatively, increase the minSdkVersion to 24 or above.
         
         > Failed to transform framework-10.1.1.aar (org.apache.cordova:framework:10.1.1) to match attributes {artifactType=android-dex, asm-transformed-variant=NONE, dexing-enable-desugaring=false, dexing-is-debuggable=false, dexing-min-sdk=22, org.gradle.category=library, org.gradle.libraryelements=jar, org.gradle.status=release, org.gradle.usage=java-runtime}.
-        > Execution failed for DexingNoClasspathTransform: /Users/damiantarnawsky/.gradle/caches/transforms-3/dc16ae737885dd5ea024f122d1bf87a9/transformed/jetified-framework-10.1.1-runtime.jar.
+        > Execution failed for DexingNoClasspathTransform: /Users/damian/.gradle/caches/transforms-3/dc16ae737885dd5ea024f122d1bf87a9/transformed/jetified-framework-10.1.1-runtime.jar.
         > Error while dexing.
         The dependency contains Java 8 bytecode. Please enable desugaring by adding the following to build.gradle
         android {
@@ -467,6 +467,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 13s
+        BUILD FAILED in 10s
         94 actionable tasks: 94 executed
         

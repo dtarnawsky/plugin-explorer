@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/napolitano/cordova-plugin-intent.git",
   "author": "Axel Naolitano, Napolitano Business Solutions",
@@ -27,7 +29,7 @@
   "bugs": "https://github.com/napolitano/cordova-plugin-intent/issues",
   "stars": 83,
   "image": "https://avatars.githubusercontent.com/u/5901595?v=4",
-  "quality": 294,
+  "quality": 295,
   "updated": "2023-02-09T12:12:18Z",
-  "downloads": 435
+  "downloads": 446
 }

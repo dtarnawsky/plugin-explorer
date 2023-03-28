@@ -3,7 +3,9 @@
   "version": "1.0.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-idfa.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 173,
   "updated": "2023-01-18T19:04:48Z",
-  "downloads": 15
+  "downloads": 14
 }

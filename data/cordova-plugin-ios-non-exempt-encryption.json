@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/pbakondy/cordova-plugin-ios-non-exempt-encryption.git",
   "author": "Peter Bakondy",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/500697?v=4",
   "quality": 111,
   "updated": "2020-02-12T04:59:51Z",
-  "downloads": 923
+  "downloads": 927
 }

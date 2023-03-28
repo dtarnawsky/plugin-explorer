@@ -77,521 +77,512 @@
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-app:generateReleaseRFile
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-status-bar:generateReleaseRFile
-        
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
         
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :app:checkReleaseDuplicateClasses
         > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
-        > Task :capacitor-haptics:writeReleaseAarMetadata
-        > Task :capacitor-keyboard:writeReleaseAarMetadata
-        > Task :capacitor-status-bar:writeReleaseAarMetadata
-        > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:checkReleaseAarMetadata
-        > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:3: error: package android.annotation does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:3: error: package android.annotation does not exist
         import android.annotation.SuppressLint;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:4: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:4: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:5: error: package android.text does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:5: error: package android.text does not exist
         import android.text.TextUtils;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:6: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:6: error: package android.os does not exist
         import android.os.AsyncTask;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:7: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:7: error: package android.view does not exist
         import android.view.View;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:8: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:8: error: package android.view does not exist
         import android.view.ViewGroup;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:9: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:9: error: package android.view does not exist
         import android.view.Gravity;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:10: error: package android.view.ViewGroup does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:10: error: package android.view.ViewGroup does not exist
         import android.view.ViewGroup.LayoutParams;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:11: error: package android.widget does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:11: error: package android.widget does not exist
         import android.widget.RelativeLayout;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:12: error: package android.widget does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:12: error: package android.widget does not exist
         import android.widget.FrameLayout;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:13: error: package android.widget does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:13: error: package android.widget does not exist
         import android.widget.LinearLayout;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:20: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:20: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:21: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:21: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:22: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:22: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:75: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:75: error: cannot find symbol
         private RelativeLayout bannerContainerLayout;
         ^
         symbol:   class RelativeLayout
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:79: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:79: error: cannot find symbol
         private ViewGroup parentLayout;
         ^
         symbol:   class ViewGroup
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:84: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:84: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:84: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:84: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:161: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:161: error: cannot find symbol
         private JSONObject createErrorJSON(IronSourceError ironSourceError) {
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:195: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:195: error: cannot find symbol
         private void emitWindowEvent(final String event, final JSONObject data) {
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:222: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:222: error: cannot find symbol
         private void initAction(JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:222: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:222: error: cannot find symbol
         private void initAction(JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:269: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:269: error: cannot find symbol
         private void setDynamicUserIdAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:269: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:269: error: cannot find symbol
         private void setDynamicUserIdAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:282: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:282: error: cannot find symbol
         private void setConsentAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:282: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:282: error: cannot find symbol
         private void setConsentAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:299: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:299: error: cannot find symbol
         private void validateIntegrationAction(JSONArray args, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:313: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:313: error: cannot find symbol
         private void showOfferwallAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:313: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:313: error: cannot find symbol
         private void showOfferwallAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:331: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:331: error: cannot find symbol
         private void hasOfferwallAction(JSONArray args, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:390: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:390: error: cannot find symbol
         private void showRewardedVideoAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:390: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:390: error: cannot find symbol
         private void showRewardedVideoAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:408: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:408: error: cannot find symbol
         private void hasRewardedVideoAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:408: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:408: error: cannot find symbol
         private void hasRewardedVideoAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:417: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:417: error: cannot find symbol
         private void isRewardedVideoCappedForPlacementAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:417: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:417: error: cannot find symbol
         private void isRewardedVideoCappedForPlacementAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:498: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:498: error: cannot find symbol
         private void hasInterstitialAction(JSONArray args, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:507: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:507: error: cannot find symbol
         private void loadInterstitialAction(JSONArray args, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:516: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:516: error: cannot find symbol
         private void showInterstitialAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:516: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:516: error: cannot find symbol
         private void showInterstitialAction(JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:563: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:563: error: cannot find symbol
         private void showBannerAction(JSONArray args, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:609: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:609: error: cannot find symbol
         private void loadBannerAction(JSONArray args, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:708: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:708: error: cannot find symbol
         private void hideBannerAction(JSONArray args, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONArray
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:148: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:148: error: cannot access Activity
         IronSource.onResume(this.cordova.getActivity());
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:148: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:148: error: cannot access Activity
         IronSource.onResume(this.cordova.getActivity());
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:162: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:162: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:162: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:162: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:163: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:163: error: cannot find symbol
         JSONObject errorData = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:163: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:163: error: cannot find symbol
         JSONObject errorData = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:168: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:168: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:181: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:181: error: cannot find symbol
         JSONObject json = new JSONObject();
         ^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:181: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:181: error: cannot find symbol
         JSONObject json = new JSONObject();
         ^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:184: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:184: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol: class JSONException
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:202: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:202: error: cannot find symbol
         JSONObject json = new JSONObject();
         ^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:202: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:202: error: cannot find symbol
         JSONObject json = new JSONObject();
         ^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:206: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:206: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol: class JSONException
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:223: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:223: error: cannot find symbol
         final JSONObject options = args.optJSONObject(0);
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:316: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:316: error: cannot find symbol
         final JSONObject options = args.optJSONObject(0);
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:342: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:342: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:342: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:342: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:345: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:345: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:353: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:353: error: cannot find symbol
         this.emitWindowEvent(EVENT_OFFERWALL_SHOWN, new JSONObject());
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:363: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:363: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:363: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:363: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:368: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:368: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:393: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:393: error: cannot find symbol
         final JSONObject options = args.optJSONObject(0);
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:440: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:440: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:440: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:440: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:443: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:443: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:463: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:463: error: cannot find symbol
         JSONObject placementData = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:463: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:463: error: cannot find symbol
         JSONObject placementData = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:468: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:468: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:472: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:472: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:472: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:472: error: cannot find symbol
         JSONObject data = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:476: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:476: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:537: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:537: error: cannot find symbol
         this.emitWindowEvent(EVENT_INTERSTITIAL_WILL_OPEN, new JSONObject());
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:542: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:542: error: cannot find symbol
         this.emitWindowEvent(EVENT_INTERSTITIAL_CLOSED, new JSONObject());
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:547: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:547: error: cannot find symbol
         this.emitWindowEvent(EVENT_INTERSTITIAL_SHOWN, new JSONObject());
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:557: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:557: error: cannot find symbol
         this.emitWindowEvent(EVENT_INTERSTITIAL_CLICKED, new JSONObject());
         ^
         symbol:   class JSONObject
         location: class IronSourceSdkPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:568: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:568: error: cannot find symbol
         parentLayout = (ViewGroup) cordovaWebView.getView().getParent();
         ^
         symbol: class ViewGroup
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:568: error: cannot access View
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:568: error: cannot access View
         parentLayout = (ViewGroup) cordovaWebView.getView().getParent();
         ^
         class file for android.view.View not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:569: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:569: error: cannot find symbol
         View view = cordovaWebView.getView();
         ^
         symbol: class View
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:570: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:570: error: cannot find symbol
         ViewGroup wvParentView = (ViewGroup) view.getParent();
         ^
         symbol: class ViewGroup
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:570: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:570: error: cannot find symbol
         ViewGroup wvParentView = (ViewGroup) view.getParent();
         ^
         symbol: class ViewGroup
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:571: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:571: error: cannot find symbol
         LinearLayout parentView = new LinearLayout(cordovaWebView.getContext());
         ^
         symbol: class LinearLayout
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:571: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:571: error: cannot find symbol
         LinearLayout parentView = new LinearLayout(cordovaWebView.getContext());
         ^
         symbol: class LinearLayout
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:571: error: cannot access Context
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:571: error: cannot access Context
         LinearLayout parentView = new LinearLayout(cordovaWebView.getContext());
         ^
         class file for android.content.Context not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:573: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:573: error: cannot find symbol
         ViewGroup rootView = (ViewGroup) (view.getParent());
         ^
         symbol: class ViewGroup
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:573: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:573: error: cannot find symbol
         ViewGroup rootView = (ViewGroup) (view.getParent());
         ^
         symbol: class ViewGroup
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:575: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:575: error: cannot find symbol
         ((LinearLayout) parentView).setOrientation(LinearLayout.VERTICAL);
         ^
         symbol: variable LinearLayout
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:575: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:575: error: cannot find symbol
         ((LinearLayout) parentView).setOrientation(LinearLayout.VERTICAL);
         ^
         symbol: class LinearLayout
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:576: error: package LinearLayout does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:576: error: package LinearLayout does not exist
         parentView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:576: error: package ViewGroup does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:576: error: package ViewGroup does not exist
         parentView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:577: error: package ViewGroup does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:577: error: package ViewGroup does not exist
         ViewGroup.LayoutParams.MATCH_PARENT, 0.0F));
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:578: error: package LinearLayout does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:578: error: package LinearLayout does not exist
         view.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:578: error: package ViewGroup does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:578: error: package ViewGroup does not exist
         view.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:579: error: package ViewGroup does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:579: error: package ViewGroup does not exist
         ViewGroup.LayoutParams.MATCH_PARENT, 1.0F));
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:583: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:583: error: cannot find symbol
         bannerContainerLayout = new RelativeLayout(self.cordova.getActivity());
         ^
         symbol: class RelativeLayout
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:584: error: package RelativeLayout does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:584: error: package RelativeLayout does not exist
         RelativeLayout.LayoutParams bannerContainerLayoutParams = new RelativeLayout.LayoutParams(
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:584: error: package RelativeLayout does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/fytoro/ironsource/IronSourceSdkPlugin.java:584: error: package RelativeLayout does not exist
         RelativeLayout.LayoutParams bannerContainerLayoutParams = new RelativeLayout.LayoutParams(
         ^
         100 errors
-        
-        > Task :app:processReleaseManifestForPackage
         
         FAILURE: Build failed with an exception.
         
@@ -604,10 +595,10 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 7s
-        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        89 actionable tasks: 89 executed
+        81 actionable tasks: 81 executed
+        
+        BUILD FAILED in 7s
         

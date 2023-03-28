@@ -3,7 +3,9 @@
   "version": "1.11.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/apache/cordova-plugin-globalization.git",
   "author": "Apache Software Foundation",
@@ -67,5 +69,5 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 350,
   "updated": "2023-03-02T21:37:04Z",
-  "downloads": 43196
+  "downloads": 43344
 }

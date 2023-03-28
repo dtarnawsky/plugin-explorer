@@ -80,483 +80,486 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseRFile
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-haptics:writeReleaseAarMetadata
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:27: error: package android does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:27: error: package android does not exist
         import android.Manifest;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:28: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:28: error: package android.app does not exist
         import android.app.Activity;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:29: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:29: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:30: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:30: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:31: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:31: error: package android.content.pm does not exist
         import android.content.pm.PackageManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:32: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:32: error: package android.net does not exist
         import android.net.Uri;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:33: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:33: error: package android.net.wifi does not exist
         import android.net.wifi.ScanResult;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:34: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:34: error: package android.net.wifi does not exist
         import android.net.wifi.WifiConfiguration;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:35: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:35: error: package android.net.wifi does not exist
         import android.net.wifi.WifiInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:36: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:36: error: package android.os does not exist
         import android.os.Build;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:37: error: package android.provider does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:37: error: package android.provider does not exist
         import android.provider.Settings;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:38: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:38: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:46: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:46: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:47: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:47: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:48: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:48: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:108: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:108: error: cannot find symbol
         CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:144: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:144: error: cannot find symbol
         int[] grantResults) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:514: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:514: error: cannot find symbol
         public void dnsLive(JSONArray args, CallbackContext callback) {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:529: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:529: error: cannot find symbol
         public void portLive(JSONArray args, CallbackContext callback) {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:577: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:577: error: cannot find symbol
         public void pingHost(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:577: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:577: error: cannot find symbol
         public void pingHost(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:594: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:594: error: cannot find symbol
         public void getMacAddressOfHost(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:594: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:594: error: cannot find symbol
         public void getMacAddressOfHost(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:610: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:610: error: cannot find symbol
         public void startWifiPeriodicallyScan(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:610: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:610: error: cannot find symbol
         public void startWifiPeriodicallyScan(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:632: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:632: error: cannot find symbol
         public void configureHotspot(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:632: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:632: error: cannot find symbol
         public void configureHotspot(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:8: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:8: error: package android.content does not exist
         import android.content.BroadcastReceiver;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:9: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:9: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:10: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:10: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:11: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:11: error: package android.net does not exist
         import android.net.ConnectivityManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:12: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:12: error: package android.net does not exist
         import android.net.NetworkInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:13: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:13: error: package android.net.wifi does not exist
         import android.net.wifi.ScanResult;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:14: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:14: error: package android.net.wifi does not exist
         import android.net.wifi.WifiConfiguration;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:15: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:15: error: package android.net.wifi does not exist
         import android.net.wifi.WifiInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:16: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:16: error: package android.net.wifi does not exist
         import android.net.wifi.WifiManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:17: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:17: error: package android.os does not exist
         import android.os.Build;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:18: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:18: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:649: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:649: error: cannot find symbol
         private List<ScanResult> getScanResult(final WifiHotSpots hotspot,
         ^
         symbol:   class ScanResult
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:714: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:714: error: cannot find symbol
         public void removeWifiNetwork(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:714: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:714: error: cannot find symbol
         public void removeWifiNetwork(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:722: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:722: error: cannot find symbol
         public void addWifiNetwork(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:722: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:722: error: cannot find symbol
         public void addWifiNetwork(JSONArray args, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:740: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:740: error: cannot find symbol
         public void createHotspot(JSONArray args, final boolean start, boolean configure, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:740: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:740: error: cannot find symbol
         public void createHotspot(JSONArray args, final boolean start, boolean configure, final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:801: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:801: error: cannot find symbol
         public void stopHotspot(final CallbackContext callback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:838: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:838: error: cannot find symbol
         public boolean connectToWifi(JSONArray args, CallbackContext pCallback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:838: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:838: error: cannot find symbol
         public boolean connectToWifi(JSONArray args, CallbackContext pCallback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:844: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:844: error: cannot find symbol
         public boolean connectToWifiAuthEncrypt(JSONArray args, CallbackContext pCallback) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:844: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:844: error: cannot find symbol
         public boolean connectToWifiAuthEncrypt(JSONArray args, CallbackContext pCallback) throws JSONException {
         ^
         symbol:   class JSONException
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:965: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:965: error: cannot find symbol
         public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         ^
         symbol:   class Intent
         location: class HotSpotPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:77: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java:77: error: cannot find symbol
         void run(JSONArray args, CallbackContext callback) throws Exception;
         ^
         symbol:   class JSONArray
         location: interface HotspotFunction
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:34: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:34: error: cannot find symbol
         WifiManager mWifiManager;
         ^
         symbol:   class WifiManager
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:35: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:35: error: cannot find symbol
         WifiInfo mWifiInfo;
         ^
         symbol:   class WifiInfo
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:36: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:36: error: cannot find symbol
         Context mContext;
         ^
         symbol:   class Context
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:37: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:37: error: cannot find symbol
         List<ScanResult> mResults;
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:8: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:8: error: package android.app does not exist
         import android.app.Activity;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:9: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:9: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:46: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:46: error: cannot find symbol
         public WifiHotSpots(Context c) {
         ^
         symbol:   class Context
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:288: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:288: error: cannot find symbol
         public ScanResult getHotspotMaxLevel() {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:315: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:315: error: cannot find symbol
         public ScanResult getHotspotMaxLevel(List<ScanResult> hotspotList) {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:315: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:315: error: cannot find symbol
         public ScanResult getHotspotMaxLevel(List<ScanResult> hotspotList) {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:343: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:343: error: cannot find symbol
         public List<ScanResult> sortHotspotsByLevel() {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:361: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:361: error: cannot find symbol
         public List<ScanResult> sortHotspotsByLevel(List<ScanResult> hotspotList) {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:361: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:361: error: cannot find symbol
         public List<ScanResult> sortHotspotsByLevel(List<ScanResult> hotspotList) {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:378: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:378: error: cannot find symbol
         public List<ScanResult> getHotspotsList() {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:601: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:601: error: cannot find symbol
         public ArrayList<WifiConfiguration> getProfiles() {
         ^
         symbol:   class WifiConfiguration
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:673: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:673: error: cannot find symbol
         public WifiInfo getConnectionInfo() {
         ^
         symbol:   class WifiInfo
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:868: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:868: error: cannot find symbol
         public String getSecurityMode(ScanResult scanResult) {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:20: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:20: error: cannot find symbol
         Context mContext;
         ^
         symbol:   class Context
         location: class ScanTimer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:28: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:28: error: cannot find symbol
         public ScanTimer(Context c) {
         ^
         symbol:   class Context
         location: class ScanTimer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:34: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/ScanTimer.java:34: error: cannot find symbol
         public ScanTimer(long interval, long duration, Context c) {
         ^
         symbol:   class Context
         location: class ScanTimer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:9: error: package android.annotation does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:9: error: package android.annotation does not exist
         import android.annotation.SuppressLint;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:10: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:10: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:11: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:11: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:26: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:26: error: cannot find symbol
         Context mContext;
         ^
         symbol:   class Context
         location: class WifiSocket
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/SimpleAsynTask.java:4: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/SimpleAsynTask.java:4: error: package android.os does not exist
         import android.os.AsyncTask;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/SimpleAsynTask.java:5: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/SimpleAsynTask.java:5: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:29: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/WifiSocket.java:29: error: cannot find symbol
         public WifiSocket(Context c) {
         ^
         symbol:   class Context
         location: class WifiSocket
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:8: error: package android.annotation does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:8: error: package android.annotation does not exist
         import android.annotation.SuppressLint;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:9: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:9: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:10: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:10: error: package android.content.pm does not exist
         import android.content.pm.ApplicationInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:11: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:11: error: package android.net does not exist
         import android.net.TrafficStats;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:43: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/NetworkStats.java:43: error: cannot find symbol
         public HashMap<Integer, DataUsage> getDataUsageApps(Context c) {
         ^
         symbol:   class Context
         location: class NetworkStats
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/DataUsage.java:9: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/DataUsage.java:9: error: package android.net does not exist
         import android.net.TrafficStats;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/SimpleAsynTask.java:15: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/datatransfer/SimpleAsynTask.java:15: error: cannot find symbol
         static class simpleTask extends AsyncTask<Object, Void, String> {
         ^
         symbol:   class AsyncTask
         location: class SimpleAsynTask
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:8: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:8: error: package android.content does not exist
         import android.content.ContentResolver;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:9: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:9: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:11: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:11: error: package android.net does not exist
         import android.net.DhcpInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:12: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:12: error: package android.net.wifi does not exist
         import android.net.wifi.WifiInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:13: error: package android.net.wifi does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:13: error: package android.net.wifi does not exist
         import android.net.wifi.WifiManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:14: error: package android.provider does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:14: error: package android.provider does not exist
         import android.provider.Settings;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:15: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:15: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:39: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:39: error: cannot find symbol
         Context mContext;
         ^
         symbol:   class Context
         location: class WifiAddresses
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:40: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:40: error: cannot find symbol
         WifiManager mWifiManager;
         ^
         symbol:   class WifiManager
         location: class WifiAddresses
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:41: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:41: error: cannot find symbol
         WifiInfo mWifiInfo;
         ^
         symbol:   class WifiInfo
         location: class WifiAddresses
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:46: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiAddresses.java:46: error: cannot find symbol
         public WifiAddresses(Context c) {
         ^
         symbol:   class Context
         location: class WifiAddresses
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:894: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:894: error: cannot find symbol
         class WifiReceiver extends BroadcastReceiver {
         ^
         symbol:   class BroadcastReceiver
         location: class WifiHotSpots
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:896: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:896: error: cannot find symbol
         public List<ScanResult> getResults() {
         ^
         symbol:   class ScanResult
         location: class WifiHotSpots.WifiReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:900: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/mady/wifi/api/WifiHotSpots.java:900: error: cannot find symbol
         public WifiManager getManager() {
         ^
         symbol:   class WifiManager
         location: class WifiHotSpots.WifiReceiver
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java uses or overrides a deprecated API.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/martinreinhardt/cordova/plugins/hotspot/HotSpotPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         100 errors
         
@@ -576,5 +579,5 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        80 actionable tasks: 80 executed
+        83 actionable tasks: 83 executed
         

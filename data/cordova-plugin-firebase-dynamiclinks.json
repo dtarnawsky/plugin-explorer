@@ -74,7 +74,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin for Firebase Dynamic Links",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks/issues",
@@ -82,5 +84,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 324,
   "updated": "2023-03-13T17:28:22Z",
-  "downloads": 5362
+  "downloads": 5307
 }

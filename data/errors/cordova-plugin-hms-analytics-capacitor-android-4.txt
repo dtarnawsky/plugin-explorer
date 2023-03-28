@@ -6,7 +6,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-hms-analytics/src/android/hms-analytics.gradle' line: 1
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-hms-analytics/src/android/hms-analytics.gradle' line: 1
         
         * What went wrong:
         A problem occurred evaluating script.
@@ -19,5 +19,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 863ms
+        BUILD FAILED in 776ms
         

@@ -84,7 +84,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for Firebase Messaging",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-messaging/issues",
@@ -92,5 +94,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 420,
   "updated": "2023-03-13T17:07:24Z",
-  "downloads": 12995
+  "downloads": 12877
 }

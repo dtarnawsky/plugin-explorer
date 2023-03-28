@@ -1,7 +1,10 @@
 {
   "name": "cordova-plugin-geofence",
   "version": "0.7.0",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/cowbell/cordova-plugin-geofence.git",
   "author": "Cowbell Labs",
   "published": "2022-06-14T00:15:26.783Z",
@@ -42,5 +45,5 @@
   "image": "https://avatars.githubusercontent.com/u/1249335?v=4",
   "quality": 827,
   "updated": "2022-11-10T21:48:51Z",
-  "downloads": 116
+  "downloads": 118
 }
