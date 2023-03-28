@@ -100,456 +100,469 @@
         > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-app:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:bundleReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
         
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseRFile
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        Note: Some input files use unchecked or unsafe operations.
-        Note: Recompile with -Xlint:unchecked for details.
         > Task :capacitor-status-bar:generateReleaseRFile
         
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:3: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:3: error: package android.app does not exist
         import android.app.Activity;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:4: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:4: error: package android.content does not exist
         import android.content.BroadcastReceiver;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:5: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:5: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:6: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:6: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:7: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:7: error: package android.content does not exist
         import android.content.IntentFilter;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:8: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:8: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:15: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:15: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:16: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:16: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:17: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:17: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:31: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:31: error: cannot find symbol
         BroadcastReceiver br = new BroadcastReceiver() {
         ^
         symbol:   class BroadcastReceiver
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:76: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:76: error: cannot find symbol
         private Activity activity;
         ^
         symbol:   class Activity
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:84: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:84: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:84: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:84: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:3: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:3: error: package android.app does not exist
         import android.app.ActionBar;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:4: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:4: error: package android.app does not exist
         import android.app.Activity;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:5: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:5: error: package android.content does not exist
         import android.content.BroadcastReceiver;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:6: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:6: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:7: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:7: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:8: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:8: error: package android.content does not exist
         import android.content.IntentFilter;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:9: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:9: error: package android.content.pm does not exist
         import android.content.pm.ActivityInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:10: error: package android.content.res does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:10: error: package android.content.res does not exist
         import android.content.res.Resources;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:11: error: package android.graphics.drawable does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:11: error: package android.graphics.drawable does not exist
         import android.graphics.drawable.Drawable;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:12: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:12: error: package android.os does not exist
         import android.os.Bundle;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:13: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:13: error: package android.os does not exist
         import android.os.Handler;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:14: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:14: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:15: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:15: error: package android.view does not exist
         import android.view.SurfaceView;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:16: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:16: error: package android.view does not exist
         import android.view.View;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:17: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:17: error: package android.view does not exist
         import android.view.Window;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:18: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:18: error: package android.view does not exist
         import android.view.WindowManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:19: error: package android.widget does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:19: error: package android.widget does not exist
         import android.widget.ImageButton;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:20: error: package android.widget does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:20: error: package android.widget does not exist
         import android.widget.LinearLayout;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:21: error: package android.widget does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:21: error: package android.widget does not exist
         import android.widget.SeekBar;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:22: error: package android.widget does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:22: error: package android.widget does not exist
         import android.widget.TextView;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:41: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:41: error: cannot find symbol
         public class VLCActivity extends Activity implements VlcListener, View.OnClickListener {
         ^
         symbol: class Activity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:41: error: package View does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:41: error: package View does not exist
         public class VLCActivity extends Activity implements VlcListener, View.OnClickListener {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:42: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:42: error: cannot find symbol
         private Activity activity;
         ^
         symbol:   class Activity
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:46: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:46: error: cannot find symbol
         SurfaceView surfaceView;
         ^
         symbol:   class SurfaceView
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:47: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:47: error: cannot find symbol
         LinearLayout mediaPlayerView;
         ^
         symbol:   class LinearLayout
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:48: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:48: error: cannot find symbol
         LinearLayout mediaPlayerControls;
         ^
         symbol:   class LinearLayout
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:49: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:49: error: cannot find symbol
         SeekBar mSeekBar;
         ^
         symbol:   class SeekBar
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:53: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:53: error: cannot find symbol
         private ImageButton bStartStop;
         ^
         symbol:   class ImageButton
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:54: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:54: error: cannot find symbol
         private Handler handlerSeekBar;
         ^
         symbol:   class Handler
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:56: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:56: error: cannot find symbol
         private TextView videoCurrentLoc;
         ^
         symbol:   class TextView
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:57: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:57: error: cannot find symbol
         private TextView videoDuration;
         ^
         symbol:   class TextView
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:59: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:59: error: cannot find symbol
         private Handler handlerOverlay;
         ^
         symbol:   class Handler
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:71: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:71: error: cannot find symbol
         BroadcastReceiver br = new BroadcastReceiver() {
         ^
         symbol:   class BroadcastReceiver
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:135: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:135: error: cannot find symbol
         public void onCreate(Bundle savedInstanceState) {
         ^
         symbol:   class Bundle
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:195: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:195: error: cannot find symbol
         public void onClick(View v) {
         ^
         symbol:   class View
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:403: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:403: error: cannot find symbol
         private void _sendBroadCast(String methodName, JSONObject object) {
         ^
         symbol:   class JSONObject
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:31: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:31: error: cannot find symbol
         BroadcastReceiver br = new BroadcastReceiver() {
         ^
         symbol:   class BroadcastReceiver
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:34: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:34: error: cannot find symbol
         public void onReceive(Context context, Intent intent) {
         ^
         symbol: class Context
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:34: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:34: error: cannot find symbol
         public void onReceive(Context context, Intent intent) {
         ^
         symbol: class Intent
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:33: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:33: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:38: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:38: error: cannot find symbol
         Log.d(TAG, "Method: " + method + " Data: " + data);
         ^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:92: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:92: error: cannot find symbol
         JSONObject object;
         ^
         symbol:   class JSONObject
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:154: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:154: error: cannot find symbol
         Intent intent = new Intent(activity, VLCActivity.class);
         ^
         symbol:   class Intent
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:154: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:154: error: cannot find symbol
         Intent intent = new Intent(activity, VLCActivity.class);
         ^
         symbol:   class Intent
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:162: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:162: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:162: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:162: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:173: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:173: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:173: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:173: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:181: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:181: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:181: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:181: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:188: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:188: error: cannot find symbol
         IntentFilter filter = new IntentFilter(VLCActivity.BROADCAST_LISTENER);
         ^
         symbol:   class IntentFilter
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:188: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:188: error: cannot find symbol
         IntentFilter filter = new IntentFilter(VLCActivity.BROADCAST_LISTENER);
         ^
         symbol:   class IntentFilter
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:193: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:193: error: cannot find symbol
         JSONObject obj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:193: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:193: error: cannot find symbol
         JSONObject obj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:196: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:196: error: cannot find symbol
         obj.put("data", (data != null) ? new JSONObject(data) : "");
         ^
         symbol:   class JSONObject
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:197: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VideoPlayerVLC.java:197: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class VideoPlayerVLC
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:71: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:71: error: cannot find symbol
         BroadcastReceiver br = new BroadcastReceiver() {
         ^
         symbol:   class BroadcastReceiver
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:74: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:74: error: cannot find symbol
         public void onReceive(Context context, Intent intent) {
         ^
         symbol: class Context
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:74: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:74: error: cannot find symbol
         public void onReceive(Context context, Intent intent) {
         ^
         symbol: class Intent
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:73: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:73: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:108: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:108: error: cannot find symbol
         JSONObject obj = new JSONObject();
         ^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:108: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:108: error: cannot find symbol
         JSONObject obj = new JSONObject();
         ^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:114: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:114: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol: class JSONException
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:121: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:121: error: cannot find symbol
         Log.d(TAG, "Seek: " + intent.getFloatExtra("position", 0));
         ^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:134: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:134: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:136: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:136: error: cannot find symbol
         super.onCreate(savedInstanceState);
         ^
         symbol:   variable super
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:138: error: package WindowManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:138: error: package WindowManager does not exist
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:138: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:138: error: cannot find symbol
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         ^
         symbol:   method getWindow()
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:139: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:139: error: cannot find symbol
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         ^
         symbol:   variable Window
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:140: error: package WindowManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:140: error: package WindowManager does not exist
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:140: error: package WindowManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:140: error: package WindowManager does not exist
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:140: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:140: error: cannot find symbol
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         ^
         symbol:   method getWindow()
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:141: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:141: error: cannot find symbol
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
         ^
         symbol:   variable ActivityInfo
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:144: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:144: error: cannot find symbol
         ActionBar actionBar = activity.getActionBar();
         ^
         symbol:   class ActionBar
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:149: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:149: error: cannot find symbol
         setContentView(_getResource("vlc_player", "layout"));
         ^
         symbol:   method setContentView(int)
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:153: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:153: error: cannot find symbol
         Intent intent = getIntent();
         ^
         symbol:   class Intent
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:153: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:153: error: cannot find symbol
         Intent intent = getIntent();
         ^
         symbol:   method getIntent()
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:167: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:167: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:169: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:169: error: cannot find symbol
         super.onPause();
         ^
         symbol:   variable super
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:176: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:176: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:178: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:178: error: cannot find symbol
         super.onResume();
         ^
         symbol:   variable super
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:185: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:185: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:187: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:187: error: cannot find symbol
         super.onDestroy();
         ^
         symbol:   variable super
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:194: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:194: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:207: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:207: error: cannot find symbol
         Drawable drawableIcon = getResources().getDrawable(_getResource("ic_pause_white_24dp", "drawable"));
         ^
         symbol:   class Drawable
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:207: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:207: error: cannot find symbol
         Drawable drawableIcon = getResources().getDrawable(_getResource("ic_pause_white_24dp", "drawable"));
         ^
         symbol:   method getResources()
         location: class VLCActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:215: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/webmons/disono/libVLC/VLCActivity.java:215: error: cannot find symbol
         Drawable drawableIcon = getResources().getDrawable(_getResource("ic_play_arrow_white_24dp", "drawable"));
         ^
         symbol:   class Drawable
         location: class VLCActivity
         100 errors
+        
+        > Task :app:bundleReleaseResources
         
         FAILURE: Build failed with an exception.
         
@@ -562,10 +575,10 @@
         
         * Get more help at https://help.gradle.org
         
+        BUILD FAILED in 12s
+        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        74 actionable tasks: 74 executed
-        
-        BUILD FAILED in 18s
+        76 actionable tasks: 76 executed
         

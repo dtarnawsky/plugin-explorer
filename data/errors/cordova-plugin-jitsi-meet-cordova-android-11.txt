@@ -1,0 +1,36 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/AndroidManifest.xml Error:
+	uses-sdk:minSdkVersion 22 cannot be smaller than version 23 declared in library [org.jitsi.react:jitsi-meet-sdk:3.5.4] /Users/damian/.gradle/caches/transforms-3/1e15ac7b94390c0b69d8cc3d6f85de6e/transformed/jetified-jitsi-meet-sdk-3.5.4/AndroidManifest.xml as the library might be using APIs not available in 22
+	Suggestion: use a compatible library with a minSdk of at most 22,
+		or increase this project's minSdk version to at least 23,
+		or use tools:overrideLibrary="org.jitsi.meet.sdk" to force usage (may lead to runtime failures)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugMainManifest'.
+> Manifest merger failed : uses-sdk:minSdkVersion 22 cannot be smaller than version 23 declared in library [org.jitsi.react:jitsi-meet-sdk:3.5.4] /Users/damian/.gradle/caches/transforms-3/1e15ac7b94390c0b69d8cc3d6f85de6e/transformed/jetified-jitsi-meet-sdk-3.5.4/AndroidManifest.xml as the library might be using APIs not available in 22
+  	Suggestion: use a compatible library with a minSdk of at most 22,
+  		or increase this project's minSdk version to at least 23,
+  		or use tools:overrideLibrary="org.jitsi.meet.sdk" to force usage (may lead to runtime failures)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 22s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

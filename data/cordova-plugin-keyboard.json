@@ -3,7 +3,9 @@
   "version": "1.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/cjpearson/cordova-plugin-keyboard.git",
   "author": "Apache Software Foundation",
@@ -34,7 +36,7 @@
   "bugs": "https://github.com/cjpearson/cordova-plugin-keyboard/issues",
   "stars": 172,
   "image": "https://avatars.githubusercontent.com/u/2095133?v=4",
-  "quality": 675,
+  "quality": 677,
   "updated": "2023-02-13T15:42:54Z",
-  "downloads": 7409
+  "downloads": 7537
 }

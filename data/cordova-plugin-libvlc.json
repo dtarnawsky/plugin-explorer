@@ -3,7 +3,8 @@
   "version": "0.1.4",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/disono/cordova-plugin-libVLC.git",
   "author": "Archie Disono",
@@ -25,7 +26,8 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cross-platform plugin for Cordova / PhoneGap to to easily stream play videos using libVLC. Available for Android ONLY for Now.",
   "bugs": "https://github.com/disono/cordova-plugin-libVLC",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/12042217?v=4",
   "quality": 127,
   "updated": "2020-10-14T04:54:00Z",
-  "downloads": 16
+  "downloads": 15
 }

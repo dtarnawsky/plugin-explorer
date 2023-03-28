@@ -58,23 +58,33 @@
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
         
         > Task :capacitor-cordova-android-plugins:processReleaseManifest FAILED
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-11:11 Error:
+        android:exported needs to be explicitly specified for element <service#cl.kunder.accountmanager.AuthenticatorService>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
         
         See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
         
         
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-keyboard:processReleaseManifest
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-11:11 Error:
-        android:exported needs to be explicitly specified for element <service#cl.kunder.accountmanager.AuthenticatorService>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-android:generateReleaseRFile
         > Task :app:mergeReleaseResources
         
         FAILURE: Build failed with an exception.
@@ -92,5 +102,5 @@
         * Get more help at https://help.gradle.org
         
         BUILD FAILED in 2s
-        29 actionable tasks: 29 executed
+        38 actionable tasks: 38 executed
         

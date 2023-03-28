@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "0.0.4",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "0.0.4",
+      "success": true
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "0.0.4",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-laser-scanner"
+}

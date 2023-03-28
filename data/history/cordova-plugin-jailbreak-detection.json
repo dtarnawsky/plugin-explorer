@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "0.1.0",
+      "success": true
+    }
+  ],
+  "name": "cordova-plugin-jailbreak-detection"
+}

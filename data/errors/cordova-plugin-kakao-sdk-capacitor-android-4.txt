@@ -6,11 +6,11 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-kakao-sdk/src/android/kakao.gradle' line: 7
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-kakao-sdk/src/android/kakao.gradle' line: 7
         
         * What went wrong:
         A problem occurred evaluating script.
-        > Could not find method compile() for arguments [com.kakao.sdk:kakaotalk:1.16.0@aar, kakao_47rkesbvqn5f0o43sa9z185wi$_run_closure2$_closure4@2fcaa093] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
+        > Could not find method compile() for arguments [com.kakao.sdk:kakaotalk:1.16.0@aar, kakao_cnvkqgiasmr348dmz8r4w6otc$_run_closure2$_closure4@1dc75528] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
         
         * Try:
         > Run with --stacktrace option to get the stack trace.
@@ -19,5 +19,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 1s
+        BUILD FAILED in 701ms
         

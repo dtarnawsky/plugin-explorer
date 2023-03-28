@@ -2,7 +2,9 @@
   "name": "cordova-plugin-local-notification-12",
   "version": "0.1.4",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/bhandaribhumin/cordova-plugin-local-notification-12.git",
   "author": "Sebastián bhandaribhumin",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/3336047?v=4",
   "quality": 132,
   "updated": "2023-03-07T19:33:28Z",
-  "downloads": 1877
+  "downloads": 1840
 }

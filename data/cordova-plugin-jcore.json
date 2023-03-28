@@ -2,7 +2,8 @@
   "name": "cordova-plugin-jcore",
   "version": "4.0.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/jpush/cordova-plugin-jcore.git",
   "author": "wilhantian, jiguang",
@@ -53,10 +54,11 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "jcore for cordova plugin",
   "bugs": "https://github.com/jpush/cordova-plugin-jcore/issues",
   "quality": null,
-  "downloads": 389
+  "downloads": 399
 }

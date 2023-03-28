@@ -1,0 +1,20 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Kumulos: config file not found, please ensure kumulos.json is present in your project root
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CopyPlistFile /Users/damian/Sample\ Code/plugin-explorer/apps/cordova/platforms/ios/build/emulator/cs-cord-11.app/kumulos.plist /Users/damian/Sample\ Code/plugin-explorer/apps/cordova/platforms/ios/cs-cord-11/Resources/kumulos.plist (in target 'cs-cord-11' from project 'cs-cord-11')
+(1 failure)
+xcodebuild: Command failed with exit code 65
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build ios exited with exit code 65.
+        
+        Re-running this command with the --verbose flag may provide more information.

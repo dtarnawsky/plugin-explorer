@@ -21,10 +21,14 @@
     "3.0.0"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This package is no longer supported and has been deprecated. To avoid malicious use, npm is hanging on to the package name.",
   "bugs": "https://github.com/npm/deprecate-holder/issues",
   "quality": null,
-  "downloads": 33
+  "downloads": 31,
+  "stars": 21,
+  "image": "https://avatars.githubusercontent.com/u/6078720?v=4"
 }

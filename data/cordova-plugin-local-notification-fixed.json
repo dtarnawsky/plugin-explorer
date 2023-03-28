@@ -2,7 +2,8 @@
   "name": "cordova-plugin-local-notification-fixed",
   "version": "0.11.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/katzer/cordova-plugin-local-notifications.git",
   "author": "Sebastián Katzer",
@@ -37,13 +38,14 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Schedules and queries for local notifications",
   "bugs": "https://github.com/katzer/cordova-plugin-local-notifications/issues",
-  "stars": 2548,
+  "stars": 2547,
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
-  "quality": 4689,
-  "updated": "2023-03-21T11:59:21Z",
-  "downloads": 296
+  "quality": 4688,
+  "updated": "2023-03-27T11:24:44Z",
+  "downloads": 293
 }
