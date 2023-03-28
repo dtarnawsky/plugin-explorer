@@ -75,10 +75,15 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Plugin for Capacitor to receive send intents in Ionic",
   "bugs": "https://github.com/carsten-klaffke/send-intent.git/issues",
-  "quality": null,
-  "downloads": 19413
+  "quality": 183,
+  "downloads": 17547,
+  "stars": 63,
+  "image": "https://avatars.githubusercontent.com/u/54070779?v=4",
+  "updated": "2023-03-23T21:07:25Z"
 }

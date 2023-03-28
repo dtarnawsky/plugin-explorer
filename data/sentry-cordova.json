@@ -53,10 +53,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Official Sentry SDK for Cordova",
   "bugs": "https://github.com/getsentry/sentry-cordova/issues",
   "quality": null,
-  "downloads": 16885
+  "downloads": 16269
 }

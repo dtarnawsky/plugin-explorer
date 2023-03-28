@@ -24,15 +24,24 @@
     "ionic",
     "plugin",
     "native",
-    "theme"
+    "theme",
+    "android",
+    "capacitor-plugin",
+    "dark-mode",
+    "ios"
   ],
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor 3 plugin for automatic dark mode detection on native platforms such as Android and iOS",
   "bugs": "https://github.com/moots-technology/capacitor-dark-mode/issues",
-  "quality": null,
-  "downloads": 24
+  "quality": 103,
+  "downloads": 25,
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/59731070?v=4",
+  "updated": "2022-02-21T22:42:51Z"
 }

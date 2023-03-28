@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "1.0.5",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "1.0.5",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-4",
+      "version": "1.0.5",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
+      "version": "1.0.5",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "1.0.5",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "moots-capacitor-dark-mode"
+}

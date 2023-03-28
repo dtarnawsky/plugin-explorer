@@ -24,7 +24,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Plugin for presentation api",
   "bugs": "https://github.com/TheeMachine/presentation-capacitor/issues",
@@ -32,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/38347131?v=4",
   "quality": 102,
   "updated": "2023-01-22T02:08:07Z",
-  "downloads": 6
+  "downloads": 7
 }

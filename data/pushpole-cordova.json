@@ -3,7 +3,8 @@
   "version": "1.7.2",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "author": "pushpole.co",
   "published": "2022-05-13T17:29:48.602Z",
@@ -22,8 +23,9 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "PushPole plugin for Cordova",
-  "downloads": 13
+  "downloads": 14
 }

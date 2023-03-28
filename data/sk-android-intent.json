@@ -18,9 +18,11 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Provides access to android intents.",
   "bugs": "https://dev.azure.com/applieddatacorp/Heisenberg/_git/SKit.AndroidIntentPlugin/issues",
-  "downloads": 67
+  "downloads": 68
 }

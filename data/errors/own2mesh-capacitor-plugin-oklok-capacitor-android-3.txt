@@ -95,18 +95,18 @@
         > Task :capacitor-android:javaPreCompileRelease
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-haptics:javaPreCompileRelease
@@ -117,71 +117,70 @@
         > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-haptics:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :own2mesh-capacitor-plugin-oklok:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :own2mesh-capacitor-plugin-oklok:generateReleaseBuildConfig
-        > Task :own2mesh-capacitor-plugin-oklok:parseReleaseLocalResources
-        > Task :own2mesh-capacitor-plugin-oklok:javaPreCompileRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
-        
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :own2mesh-capacitor-plugin-oklok:generateReleaseRFileNote: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :own2mesh-capacitor-plugin-oklok:compileReleaseAidl NO-SOURCE
+        > Task :own2mesh-capacitor-plugin-oklok:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :own2mesh-capacitor-plugin-oklok:javaPreCompileRelease
+        > Task :own2mesh-capacitor-plugin-oklok:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :own2mesh-capacitor-plugin-oklok:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/own2mesh-capacitor-plugin-oklok/android/src/main/java/de/own2mesh/plugin/oklok/Own2MeshOkLokPlugin.java uses or overrides a deprecated API.
+        > Task :own2mesh-capacitor-plugin-oklok:compileReleaseJavaWithJavac
+        
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :own2mesh-capacitor-plugin-oklok:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:bundleReleaseResources
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        
-        > Task :own2mesh-capacitor-plugin-oklok:compileReleaseJavaWithJavac
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/own2mesh-capacitor-plugin-oklok/android/src/main/java/de/own2mesh/plugin/oklok/Own2MeshOkLokPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :own2mesh-capacitor-plugin-oklok:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
         > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
-        > Task :app:bundleReleaseResources
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :capacitor-keyboard:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :own2mesh-capacitor-plugin-oklok:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
         > Task :app:checkReleaseAarMetadata
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
-        > Task :own2mesh-capacitor-plugin-oklok:bundleLibCompileToJarRelease
         > Task :app:desugarReleaseFileDependencies
+        > Task :own2mesh-capacitor-plugin-oklok:bundleLibCompileToJarRelease
         > Task :app:mergeReleaseShaders
         > Task :app:compileReleaseShaders NO-SOURCE
         > Task :app:generateReleaseAssets UP-TO-DATE
@@ -214,7 +213,6 @@
         > Task :own2mesh-capacitor-plugin-oklok:generateReleaseAssets UP-TO-DATE
         > Task :own2mesh-capacitor-plugin-oklok:packageReleaseAssets
         > Task :app:mergeExtDexRelease
-        > Task :app:processReleaseResources
         > Task :app:mergeReleaseAssets
         > Task :app:processReleaseJavaRes NO-SOURCE
         > Task :capacitor-android:processReleaseJavaRes NO-SOURCE
@@ -240,6 +238,7 @@
         > Task :capacitor-app:mergeReleaseNativeLibs NO-SOURCE
         > Task :capacitor-app:stripReleaseDebugSymbols NO-SOURCE
         > Task :capacitor-app:copyReleaseJniLibsProjectOnly
+        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-cordova-android-plugins:mergeReleaseJniLibFolders
         > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
         > Task :capacitor-cordova-android-plugins:stripReleaseDebugSymbols NO-SOURCE
@@ -265,6 +264,10 @@
         > Task :app:parseReleaseIntegrityConfig
         > Task :app:writeReleaseAppMetadata
         > Task :app:mergeReleaseJavaResource
+        > Task :app:mergeReleaseNativeLibs
+        > Task :app:stripReleaseDebugSymbols NO-SOURCE
+        > Task :app:extractReleaseNativeSymbolTables NO-SOURCE
+        > Task :app:processReleaseResources
         
         > Task :app:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
@@ -282,12 +285,12 @@
         * Try:
         Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
         
-        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
-        
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 4s
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        146 actionable tasks: 146 executed
+        
+        BUILD FAILED in 3s
+        147 actionable tasks: 147 executed
         

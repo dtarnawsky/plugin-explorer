@@ -19,10 +19,15 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This Capacitor plugin can be used in Ionic applications for receiving data from Intent.SEND_ACTION (works only for intent type \"text/plain\") ",
   "bugs": "https://github.com/dragos-atanasoae/send-intent-listener.git/issues",
-  "quality": null,
-  "downloads": 6
+  "quality": 100,
+  "downloads": 7,
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/59986432?v=4",
+  "updated": "2020-05-20T14:59:12Z"
 }

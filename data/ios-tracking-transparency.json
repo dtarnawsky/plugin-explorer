@@ -21,10 +21,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor ios tracking transparency plugin",
   "bugs": "https://github.com/codercodingthecode/ios-tracking-tranparency/issues",
   "quality": null,
-  "downloads": 252
+  "downloads": 236
 }

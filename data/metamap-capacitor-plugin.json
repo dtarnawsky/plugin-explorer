@@ -54,10 +54,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for MetaMapSDK",
   "bugs": "https://github.com/GetMetaMap/mati-capacitor-plugin/issues",
-  "quality": null,
-  "downloads": 600
+  "quality": 109,
+  "downloads": 576,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/41296799?v=4",
+  "updated": "2022-09-13T14:45:48Z"
 }

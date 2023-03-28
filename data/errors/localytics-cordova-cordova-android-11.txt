@@ -1,0 +1,35 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+   > Could not resolve com.localytics.androidx:library:6.3.7.
+     Required by:
+         project :app
+      > Could not resolve com.localytics.androidx:library:6.3.7.
+         > Could not get resource 'https://maven.localytics.com/public/com/localytics/androidx/library/6.3.7/library-6.3.7.pom'.
+            > Could not GET 'https://maven.localytics.com/public/com/localytics/androidx/library/6.3.7/library-6.3.7.pom'.
+               > Connect to maven.localytics.com:443 [maven.localytics.com/0.0.0.0, maven.localytics.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

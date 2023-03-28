@@ -3,7 +3,8 @@
   "version": "0.9.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/jamesyoon11/segment-cordova-plugin.git",
   "author": "James Yoon",
@@ -18,10 +19,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Segment Cordova Plugin",
   "bugs": "https://github.com/jamesyoon11/segment-cordova-plugin/issues",
   "quality": null,
-  "downloads": 11
+  "downloads": 12
 }

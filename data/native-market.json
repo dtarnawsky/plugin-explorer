@@ -20,10 +20,15 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A native market plugin for linking to google play or app store.",
   "bugs": "https://github.com/riderx/native-market/issues",
-  "quality": null,
-  "downloads": 269
+  "quality": 111,
+  "downloads": 259,
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
+  "updated": "2023-01-31T20:06:35Z"
 }

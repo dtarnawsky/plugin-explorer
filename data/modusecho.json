@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ModusCreateOrg/cordova-plugin-example.git",
   "author": "Modus Create",
@@ -19,7 +21,17 @@
     "ecosystem:cordova",
     "cordova-android",
     "cordova-ios",
-    "cordova-browser"
+    "cordova-browser",
+    "android-app",
+    "cordova-android-plugin",
+    "cordova-ios-plugin",
+    "cordova-plugin",
+    "ios-app",
+    "java",
+    "javascript",
+    "objective-c",
+    "phonegap",
+    "phonegap-plugin"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -27,6 +39,9 @@
   ],
   "description": "Modus Create Demo Cordova Plugin",
   "bugs": "https://github.com/ModusCreateOrg/cordova-plugin-example/issues",
-  "quality": null,
-  "downloads": 8
+  "quality": 126,
+  "downloads": 9,
+  "stars": 15,
+  "image": "https://avatars.githubusercontent.com/u/959059?v=4",
+  "updated": "2023-01-28T19:22:43Z"
 }

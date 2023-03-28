@@ -48,7 +48,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Scandit Data Capture SDK for Capacitor",
   "bugs": "https://github.com/Scandit/scandit-capacitor-datacapture-parser/issues",
@@ -56,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/2790630?v=4",
   "quality": 100,
   "updated": "2021-11-16T18:35:19Z",
-  "downloads": 228
+  "downloads": 224
 }

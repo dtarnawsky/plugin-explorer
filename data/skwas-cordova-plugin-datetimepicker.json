@@ -3,7 +3,9 @@
   "version": "3.0.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/skwasjer/skwas-cordova-plugin-datetimepicker.git",
   "author": "skwasjer",
@@ -38,7 +40,12 @@
     "datetime",
     "datetimepicker",
     "datepicker",
-    "timepicker"
+    "timepicker",
+    "android",
+    "cordova-plugin",
+    "ionic-plugin",
+    "ios",
+    "phonegap-plugin"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -46,6 +53,9 @@
   ],
   "description": "Cordova DateTime picker plugin",
   "bugs": "https://github.com/skwasjer/skwas-cordova-plugin-datetimepicker/issues",
-  "quality": null,
-  "downloads": 1023
+  "quality": 175,
+  "downloads": 1001,
+  "stars": 36,
+  "image": "https://avatars.githubusercontent.com/u/11424653?v=4",
+  "updated": "2022-04-08T14:34:38Z"
 }

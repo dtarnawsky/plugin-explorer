@@ -65,10 +65,12 @@
     "qrcode"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "QRCode / 2d Barcode api with both server side and client side support using canvas",
   "bugs": "https://github.com/soldair/node-qrcode/issues",
   "quality": null,
-  "downloads": 6876058
+  "downloads": 6711347
 }

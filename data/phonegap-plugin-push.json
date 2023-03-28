@@ -84,10 +84,12 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Register and receive push notifications.",
   "bugs": "https://github.com/phonegap/phonegap-plugin-push/issues",
   "quality": null,
-  "downloads": 11238
+  "downloads": 11078
 }

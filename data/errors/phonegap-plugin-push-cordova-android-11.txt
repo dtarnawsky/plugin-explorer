@@ -1,0 +1,72 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Some problems were found with the configuration of task ':app:processDebugGoogleServices' (type 'GoogleServicesTask').
+  - In plugin 'com.google.gms.googleservices.GoogleServicesPlugin' type 'com.google.gms.googleservices.GoogleServicesTask' field 'intermediateDir' without corresponding getter has been annotated with @OutputDirectory.
+    
+    Reason: Annotations on fields are only used if there's a corresponding getter for the field.
+    
+    Possible solutions:
+      1. Add a getter for field 'intermediateDir'.
+      2. Remove the annotations on 'intermediateDir'.
+    
+    Please refer to https://docs.gradle.org/7.4.2/userguide/validation_problems.html#ignored_annotations_on_field for more details about this problem.
+  - In plugin 'com.google.gms.googleservices.GoogleServicesPlugin' type 'com.google.gms.googleservices.GoogleServicesTask' field 'packageNameXOR1' without corresponding getter has been annotated with @Input.
+    
+    Reason: Annotations on fields are only used if there's a corresponding getter for the field.
+    
+    Possible solutions:
+      1. Add a getter for field 'packageNameXOR1'.
+      2. Remove the annotations on 'packageNameXOR1'.
+    
+    Please refer to https://docs.gradle.org/7.4.2/userguide/validation_problems.html#ignored_annotations_on_field for more details about this problem.
+  - In plugin 'com.google.gms.googleservices.GoogleServicesPlugin' type 'com.google.gms.googleservices.GoogleServicesTask' field 'packageNameXOR2' without corresponding getter has been annotated with @Input.
+    
+    Reason: Annotations on fields are only used if there's a corresponding getter for the field.
+    
+    Possible solutions:
+      1. Add a getter for field 'packageNameXOR2'.
+      2. Remove the annotations on 'packageNameXOR2'.
+    
+    Please refer to https://docs.gradle.org/7.4.2/userguide/validation_problems.html#ignored_annotations_on_field for more details about this problem.
+  - In plugin 'com.google.gms.googleservices.GoogleServicesPlugin' type 'com.google.gms.googleservices.GoogleServicesTask' field 'quickstartFile' without corresponding getter has been annotated with @InputFile, @Optional.
+    
+    Reason: Annotations on fields are only used if there's a corresponding getter for the field.
+    
+    Possible solutions:
+      1. Add a getter for field 'quickstartFile'.
+      2. Remove the annotations on 'quickstartFile'.
+    
+    Please refer to https://docs.gradle.org/7.4.2/userguide/validation_problems.html#ignored_annotations_on_field for more details about this problem.
+  - In plugin 'com.google.gms.googleservices.GoogleServicesPlugin' type 'com.google.gms.googleservices.GoogleServicesTask' field 'searchedLocation' without corresponding getter has been annotated with @Input.
+    
+    Reason: Annotations on fields are only used if there's a corresponding getter for the field.
+    
+    Possible solutions:
+      1. Add a getter for field 'searchedLocation'.
+      2. Remove the annotations on 'searchedLocation'.
+    
+    Please refer to https://docs.gradle.org/7.4.2/userguide/validation_problems.html#ignored_annotations_on_field for more details about this problem.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 4s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

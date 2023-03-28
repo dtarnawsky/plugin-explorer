@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "6.17.0-beta.1",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "6.17.0-beta.1",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-4",
+      "version": "6.17.0-beta.1",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
+      "version": "6.17.0-beta.1",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "6.17.0-beta.1",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "6.17.0-beta.1",
+      "failure": "cap-sync",
+      "success": false
+    }
+  ],
+  "name": "scandit-capacitor-datacapture-parser"
+}

@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
   "published": "2022-06-21T10:37:09.313Z",
@@ -15,5 +17,5 @@
     "capacitor-android-3"
   ],
   "description": "Allows your app to keep on playing audio when it's in the background.",
-  "downloads": 167
+  "downloads": 163
 }

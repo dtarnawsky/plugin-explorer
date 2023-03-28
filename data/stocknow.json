@@ -15,8 +15,10 @@
     "0.1.5"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "## Project setup ``` npm install ```",
-  "downloads": 11
+  "downloads": 12
 }
