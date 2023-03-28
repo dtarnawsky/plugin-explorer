@@ -55,42 +55,42 @@
         > Task :capacitor-status-bar:generateReleaseResValues
         > Task :capacitor-status-bar:generateReleaseResources
         > Task :capacitor-status-bar:packageReleaseResources
-        > Task :app:mergeReleaseResources
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-android:processReleaseManifest
-        > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
         > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources FAILED
-        > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-android:generateReleaseRFile
+        > Task :app:mergeReleaseResources
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        
+        You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+        
+        See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
         
         FAILURE: Build failed with an exception.
         
@@ -112,12 +112,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 1m 2s
-        
-        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
-        
-        You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
-        
-        See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
-        45 actionable tasks: 45 executed
+        BUILD FAILED in 2s
+        41 actionable tasks: 41 executed
         

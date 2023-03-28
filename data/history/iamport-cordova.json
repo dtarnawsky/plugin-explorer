@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "0.10.1",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "0.10.1",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "0.10.1",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "0.10.1",
+      "failure": "cap-sync",
+      "success": false
+    }
+  ],
+  "name": "iamport-cordova"
+}

@@ -26,7 +26,9 @@
     "formula"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Calculates the Gallagher Index for an election result.",
   "bugs": "https://github.com/kerihenare/gallagher/issues",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/181816?v=4",
   "quality": 100,
   "updated": "2018-12-02T11:45:50Z",
-  "downloads": 16
+  "downloads": 17
 }

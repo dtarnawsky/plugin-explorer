@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/cozzbie/cordova-phone-call-trap.git",
   "author": "Timi Aiyemo",
@@ -29,6 +31,9 @@
   ],
   "description": "A phone call trap",
   "bugs": "https://github.com/cozzbie/cordova-phone-call-trap.git/issues",
-  "quality": null,
-  "downloads": 13
+  "quality": 5,
+  "downloads": 14,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/3672236?v=4",
+  "updated": "2020-04-12T21:59:43Z"
 }

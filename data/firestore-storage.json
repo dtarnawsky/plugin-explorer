@@ -111,10 +111,12 @@
     "querybuilder"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A typed wrapper around Firestore including a query-builder and an in-memory implementation for testing",
   "bugs": "https://github.com/freshfox/firestore-storage/issues",
   "quality": null,
-  "downloads": 1455
+  "downloads": 1442
 }

@@ -2,7 +2,9 @@
   "name": "cordova-zohosalesiq-mobilisten",
   "version": "4.1.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/zoho/SalesIQ-Mobilisten-Cordova.git",
   "published": "2023-03-10T16:38:44.195Z",
@@ -51,7 +53,6 @@
     "zobot"
   ],
   "fails": [
-    "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
@@ -61,5 +62,5 @@
   "image": "https://avatars.githubusercontent.com/u/5611631?v=4",
   "quality": 106,
   "updated": "2022-12-14T23:24:00Z",
-  "downloads": 291
+  "downloads": 273
 }

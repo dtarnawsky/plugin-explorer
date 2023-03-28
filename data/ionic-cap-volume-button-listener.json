@@ -26,13 +26,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Listen for Volume Button pressed in IONIC Capacitor Project",
   "bugs": "https://github.com/ziaurrehmanjutt/ionic-android-volum-button-listner/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/48430400?v=4",
-  "quality": 100,
-  "updated": "2023-01-18T11:41:15Z",
-  "downloads": 23
+  "quality": null,
+  "downloads": 24
 }

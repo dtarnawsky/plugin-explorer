@@ -31,9 +31,11 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Indigitall Plugin",
   "bugs": "https://gclarfer@bitbucket.org/indigitallfuente/capacitor-sdk.git/issues",
-  "downloads": 248
+  "downloads": 251
 }

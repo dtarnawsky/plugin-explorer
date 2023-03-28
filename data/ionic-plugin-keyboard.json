@@ -3,7 +3,9 @@
   "version": "2.2.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/driftyco/ionic-plugin-keyboard.git",
   "author": "Ionic",
@@ -42,5 +44,5 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 1157,
   "updated": "2023-01-28T20:54:26Z",
-  "downloads": 17424
+  "downloads": 17039
 }

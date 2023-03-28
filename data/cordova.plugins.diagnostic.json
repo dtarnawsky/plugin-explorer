@@ -3,7 +3,9 @@
   "version": "7.1.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/dpa99c/cordova-diagnostic-plugin.git",
   "author": "Dave Alden",
@@ -125,9 +127,9 @@
   ],
   "description": "Cordova/Phonegap plugin to check the state of Location/WiFi/Camera/Bluetooth device settings.",
   "bugs": "https://github.com/dpa99c/cordova-diagnostic-plugin/issues",
-  "stars": 524,
+  "stars": 525,
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
-  "quality": 870,
-  "updated": "2023-03-25T09:36:32Z",
-  "downloads": 96249
+  "quality": 871,
+  "updated": "2023-03-27T07:29:34Z",
+  "downloads": 91521
 }

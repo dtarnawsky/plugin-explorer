@@ -25,13 +25,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for Iamport",
   "bugs": "https://github.com/iamport/iamport-capacitor/issues",
-  "stars": 10,
-  "image": "https://avatars.githubusercontent.com/u/11437969?v=4",
-  "quality": 155,
-  "updated": "2023-03-09T13:26:20Z",
-  "downloads": 41
+  "quality": null,
+  "downloads": 43
 }

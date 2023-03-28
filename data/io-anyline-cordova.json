@@ -2,7 +2,8 @@
   "name": "io-anyline-cordova",
   "version": "43.0.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/Anyline/anyline-ocr-cordova-module.git",
   "author": "Anyline GmbH",
@@ -128,21 +129,16 @@
     "ecosystem:cordova",
     "cordova-ios",
     "cordova-android",
-    "cordova-windows",
-    "anyline",
-    "cordova",
-    "ocr"
+    "cordova-windows"
   ],
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "The cordova plugin for the Anyline SDK",
   "bugs": "https://github.com/Anyline/anyline-ocr-cordova-module/issues",
-  "stars": 26,
-  "image": "https://avatars.githubusercontent.com/u/13364212?v=4",
-  "quality": 154,
-  "updated": "2022-11-08T22:22:49Z",
-  "downloads": 1320
+  "quality": null,
+  "downloads": 1291
 }

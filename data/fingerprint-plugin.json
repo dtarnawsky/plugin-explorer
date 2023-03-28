@@ -3,7 +3,8 @@
   "version": "1.0.3",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/chenliang1937/FingerprintPlugin.git",
   "author": "chenliang",
@@ -19,10 +20,14 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "a fingerprint plugin for ifreezer",
   "bugs": "https://github.com/chenliang1937/FingerprintPlugin/issues",
-  "quality": null,
-  "downloads": 12
+  "quality": 100,
+  "downloads": 12,
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/10989772?v=4",
+  "updated": "2019-06-26T10:15:32Z"
 }

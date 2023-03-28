@@ -1,0 +1,71 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:34: error: cannot find symbol
+import android.support.v4.app.NotificationCompat;
+                             ^
+  symbol:   class NotificationCompat
+  location: package android.support.v4.app
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:30: error: cannot find symbol
+import android.support.v4.app.NotificationCompat;
+                             ^
+  symbol:   class NotificationCompat
+  location: package android.support.v4.app
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Options.java:30: error: cannot find symbol
+import android.support.v4.app.NotificationCompat;
+                             ^
+  symbol:   class NotificationCompat
+  location: package android.support.v4.app
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:161: error: package NotificationCompat does not exist
+    private void applyDeleteReceiver(NotificationCompat.Builder builder) {
+                                                       ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:183: error: package NotificationCompat does not exist
+    private void applyContentReceiver(NotificationCompat.Builder builder) {
+                                                        ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:65: error: package NotificationCompat does not exist
+    private final NotificationCompat.Builder builder;
+                                    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:81: error: package NotificationCompat does not exist
+                    NotificationCompat.Builder builder, Class<?> receiver) {
+                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:121: error: package NotificationCompat does not exist
+        NotificationCompat.Builder builder;
+                          ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:123: error: package NotificationCompat does not exist
+        builder = new NotificationCompat.Builder(context)
+                                        ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/notification/Options.java:262: error: cannot find symbol
+            return NotificationCompat.COLOR_DEFAULT;
+                   ^
+  symbol:   variable NotificationCompat
+  location: class Options
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+10 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

@@ -11,7 +11,9 @@
     "0.0.0"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
-  "downloads": 4
+  "downloads": 5
 }

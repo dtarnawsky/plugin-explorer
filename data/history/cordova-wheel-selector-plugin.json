@@ -1,0 +1,10 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "1.1.7",
+      "success": true
+    }
+  ],
+  "name": "cordova-wheel-selector-plugin"
+}

@@ -47,13 +47,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Ionic Deeplinks Plugin",
   "bugs": "https://github.com/ionic-team/ionic-plugin-deeplinks/issues",
-  "stars": 331,
-  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
-  "quality": 780,
-  "updated": "2023-03-15T11:45:19Z",
-  "downloads": 50474
+  "quality": null,
+  "downloads": 48756
 }

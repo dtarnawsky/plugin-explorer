@@ -74,13 +74,12 @@
     "mongoose"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Server for role and permission management.",
   "bugs": "https://github.com/The-Gray-Hole/identity-service/issues",
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/69776663?v=4",
-  "quality": 108,
-  "updated": "2021-08-29T21:41:49Z",
-  "downloads": 120
+  "quality": null,
+  "downloads": 118
 }
