@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "7.8.4",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "7.8.4",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
+      "version": "7.8.4",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-4",
+      "version": "7.8.4",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "7.8.4",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "7.8.4",
+      "failure": "cap-sync",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-fcm-with-dependecy-updated-12"
+}

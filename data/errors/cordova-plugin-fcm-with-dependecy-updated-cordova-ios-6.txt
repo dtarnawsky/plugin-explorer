@@ -1,0 +1,9 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+[1m[33mAndroid-specific google-services.json file not found![0m
+[1m[33miOS-specific GoogleService-Info.plist file not found![0m

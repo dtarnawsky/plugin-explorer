@@ -37,12 +37,12 @@
         Execution failed for task ':app:processReleaseGoogleServices'.
         > File google-services.json is missing. The Google Services Plugin cannot function without it.
         Searched Location:
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnull/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/release/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnullRelease/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnull/release/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/release/nullnull/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnull/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/release/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnullRelease/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnull/release/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/release/nullnull/google-services.json
         
         
         * Try:
@@ -58,6 +58,6 @@
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
         
-        BUILD FAILED in 1s
+        BUILD FAILED in 3s
         2 actionable tasks: 2 executed
         

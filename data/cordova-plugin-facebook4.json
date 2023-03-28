@@ -73,7 +73,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Cordova Facebook SDK 4 Plugin",
   "bugs": "https://github.com/jeduan/cordova-plugin-facebook4/issues",
@@ -81,5 +83,5 @@
   "image": "https://avatars.githubusercontent.com/u/37972?v=4",
   "quality": 1287,
   "updated": "2023-03-21T13:50:10Z",
-  "downloads": 3319
+  "downloads": 3183
 }

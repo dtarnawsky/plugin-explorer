@@ -80,374 +80,390 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-haptics:generateReleaseRFile
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:generateReleaseRFile
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResourcesNote: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :app:checkReleaseDuplicateClasses
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:3: error: package android.text does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:3: error: package android.text does not exist
         import android.text.TextUtils;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:4: error: package android does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:4: error: package android does not exist
         import android.Manifest;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:5: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:5: error: package android.content does not exist
         import android.content.ContentUris;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:6: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:6: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:7: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:7: error: package android.content.pm does not exist
         import android.content.pm.PackageManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:8: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:8: error: package android.net does not exist
         import android.net.Uri;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:9: error: package android.provider does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:9: error: package android.provider does not exist
         import android.provider.OpenableColumns;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:10: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:10: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:11: error: package android.database does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:11: error: package android.database does not exist
         import android.database.Cursor;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:12: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:12: error: package android.os does not exist
         import android.os.Build;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:13: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:13: error: package android.os does not exist
         import android.os.Environment;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:14: error: package android.provider does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:14: error: package android.provider does not exist
         import android.provider.DocumentsContract;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:15: error: package android.provider does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:15: error: package android.provider does not exist
         import android.provider.MediaStore;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:22: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:22: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:23: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:23: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:24: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:24: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:69: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:69: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:69: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:69: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:95: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:95: error: cannot find symbol
         public void resolveNativePath() throws JSONException {
         ^
         symbol:   class JSONException
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:126: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:126: error: cannot find symbol
         public void onRequestPermissionResult(int requestCode, String[] permissions, int[] grantResults) throws JSONException {
         ^
         symbol:   class JSONException
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:148: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:148: error: cannot find symbol
         private static boolean isExternalStorageDocument(Uri uri) {
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:156: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:156: error: cannot find symbol
         private static boolean isDownloadsDocument(Uri uri) {
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:164: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:164: error: cannot find symbol
         private static boolean isMediaDocument(Uri uri) {
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:172: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:172: error: cannot find symbol
         private static boolean isGooglePhotosUri(Uri uri) {
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:181: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:181: error: cannot find symbol
         private static boolean isGoogleDriveUri(Uri uri) {
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:189: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:189: error: cannot find symbol
         private static boolean isOneDriveUri(Uri uri) {
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:203: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:203: error: cannot find symbol
         private static String getDataColumn(Context context, Uri uri, String selection,
         ^
         symbol:   class Context
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:203: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:203: error: cannot find symbol
         private static String getDataColumn(Context context, Uri uri, String selection,
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:315: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:315: error: cannot find symbol
         private static String getPath(final Context context, final Uri uri) {
         ^
         symbol:   class Context
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:315: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:315: error: cannot find symbol
         private static String getPath(final Context context, final Uri uri) {
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:445: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:445: error: cannot find symbol
         private static String getDriveFilePath(Uri uri, Context context) {
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:445: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:445: error: cannot find symbol
         private static String getDriveFilePath(Uri uri, Context context) {
         ^
         symbol:   class Context
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:50: error: package Manifest does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:50: error: package Manifest does not exist
         public static final String READ = Manifest.permission.READ_EXTERNAL_STORAGE;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:84: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:84: error: cannot find symbol
         JSONObject resultObj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:84: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:84: error: cannot find symbol
         JSONObject resultObj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:96: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:96: error: cannot find symbol
         JSONObject resultObj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:96: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:96: error: cannot find symbol
         JSONObject resultObj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:98: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:98: error: cannot find symbol
         Uri pvUrl = Uri.parse(this.uriStr);
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:98: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:98: error: cannot find symbol
         Uri pvUrl = Uri.parse(this.uriStr);
         ^
         symbol:   variable Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:100: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:100: error: cannot find symbol
         Log.d(TAG, "URI: " + this.uriStr);
         ^
         symbol:   variable Log
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:102: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:102: error: cannot find symbol
         Context appContext = this.cordova.getActivity().getApplicationContext();
         ^
         symbol:   class Context
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:102: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:102: error: cannot access Activity
         Context appContext = this.cordova.getActivity().getApplicationContext();
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:119: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:119: error: cannot find symbol
         Log.d(TAG, "Filepath: " + filePath);
         ^
         symbol:   variable Log
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:128: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:128: error: cannot find symbol
         if (r == PackageManager.PERMISSION_DENIED) {
         ^
         symbol:   variable PackageManager
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:129: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:129: error: cannot find symbol
         JSONObject resultObj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:129: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:129: error: cannot find symbol
         JSONObject resultObj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:206: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:206: error: cannot find symbol
         Cursor cursor = null;
         ^
         symbol:   class Cursor
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:273: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:273: error: cannot find symbol
         fullPath = Environment.getExternalStorageDirectory() + relativePath;
         ^
         symbol:   variable Environment
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:317: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:317: error: cannot find symbol
         Log.d(TAG, "File - " +
         ^
         symbol:   variable Log
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:327: error: package Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:327: error: package Build does not exist
         final boolean isKitKat = Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:327: error: package Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:327: error: package Build does not exist
         final boolean isKitKat = Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:330: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:330: error: cannot find symbol
         if (isKitKat && DocumentsContract.isDocumentUri(context, uri)) {
         ^
         symbol:   variable DocumentsContract
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:333: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:333: error: cannot find symbol
         final String docId = DocumentsContract.getDocumentId(uri);
         ^
         symbol:   variable DocumentsContract
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:348: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:348: error: cannot find symbol
         Cursor cursor = null;
         ^
         symbol:   class Cursor
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:350: error: package MediaStore does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:350: error: package MediaStore does not exist
         cursor = context.getContentResolver().query(uri, new String[]{MediaStore.MediaColumns.DISPLAY_NAME}, null, null, null);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:353: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:353: error: cannot find symbol
         String path = Environment.getExternalStorageDirectory().toString() + "/Download/" + fileName;
         ^
         symbol:   variable Environment
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:363: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:363: error: cannot find symbol
         final String id = DocumentsContract.getDocumentId(uri);
         ^
         symbol:   variable DocumentsContract
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:370: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:370: error: cannot find symbol
         Uri contentUri = ContentUris.withAppendedId(Uri.parse(contentUriPrefix), Long.valueOf(id));
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:370: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:370: error: cannot find symbol
         Uri contentUri = ContentUris.withAppendedId(Uri.parse(contentUriPrefix), Long.valueOf(id));
         ^
         symbol:   variable ContentUris
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:370: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:370: error: cannot find symbol
         Uri contentUri = ContentUris.withAppendedId(Uri.parse(contentUriPrefix), Long.valueOf(id));
         ^
         symbol:   variable Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:389: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:389: error: cannot find symbol
         final String docId = DocumentsContract.getDocumentId(uri);
         ^
         symbol:   variable DocumentsContract
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:393: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:393: error: cannot find symbol
         Uri contentUri = null;
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:395: error: package MediaStore.Images does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:395: error: package MediaStore.Images does not exist
         contentUri = MediaStore.Images.Media.EXTERNAL_CONTENT_URI;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:397: error: package MediaStore.Video does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:397: error: package MediaStore.Video does not exist
         contentUri = MediaStore.Video.Media.EXTERNAL_CONTENT_URI;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:399: error: package MediaStore.Audio does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:399: error: package MediaStore.Audio does not exist
         contentUri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:401: error: package MediaStore does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:401: error: package MediaStore does not exist
         contentUri = MediaStore.Files.getContentUri("external");
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:424: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:424: error: cannot find symbol
         return getPath(context, Uri.parse(contentPath));
         ^
         symbol:   variable Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:446: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:446: error: cannot find symbol
         Uri returnUri = uri;
         ^
         symbol:   class Uri
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:447: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:447: error: cannot find symbol
         Cursor returnCursor = context.getContentResolver().query(returnUri, null, null, null, null);
         ^
         symbol:   class Cursor
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:453: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:453: error: cannot find symbol
         int nameIndex = returnCursor.getColumnIndex(OpenableColumns.DISPLAY_NAME);
         ^
         symbol:   variable OpenableColumns
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:454: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:454: error: cannot find symbol
         int sizeIndex = returnCursor.getColumnIndex(OpenableColumns.SIZE);
         ^
         symbol:   variable OpenableColumns
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:473: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:473: error: cannot find symbol
         Log.e("File Size", "Size " + file.length());
         ^
         symbol:   variable Log
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:476: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:476: error: cannot find symbol
         Log.e("File Path", "Path " + file.getPath());
         ^
         symbol:   variable Log
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:477: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:477: error: cannot find symbol
         Log.e("File Size", "Size " + file.length());
         ^
         symbol:   variable Log
         location: class FilePath
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:479: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/hiddentao/cordova/filepath/FilePath.java:479: error: cannot find symbol
         Log.e("Exception", e.getMessage());
         ^
         symbol:   variable Log
@@ -465,10 +481,10 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
+        BUILD FAILED in 4s
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        72 actionable tasks: 72 executed
+        77 actionable tasks: 77 executed
         

@@ -66,13 +66,13 @@
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
@@ -80,187 +80,196 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-android:javaPreCompileRelease
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-app:bundleLibRuntimeToJarReleaseNote: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarReleaseNote: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-app:bundleLibCompileToJarRelease
+        Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :app:bundleReleaseResources
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:6: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:6: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:7: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:7: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:8: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:8: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:9: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:9: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:18: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:18: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class ESzip
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:18: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:18: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class ESzip
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:36: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:36: error: cannot find symbol
         private void zipFolder(String source, String destination, CallbackContext callbackContext) throws JSONException, IOException {
         ^
         symbol:   class JSONException
         location: class ESzip
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:5: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:5: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:14: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:14: error: cannot find symbol
         public static JSONObject zip(String source, String destination) throws IOException, JSONException{
         ^
         symbol:   class JSONObject
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:14: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:14: error: cannot find symbol
         public static JSONObject zip(String source, String destination) throws IOException, JSONException{
         ^
         symbol:   class JSONException
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:33: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:33: error: cannot find symbol
         public static JSONObject zipFolder(String srcFolder, String destZipFile) throws IOException, JSONException {
         ^
         symbol:   class JSONObject
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:33: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:33: error: cannot find symbol
         public static JSONObject zipFolder(String srcFolder, String destZipFile) throws IOException, JSONException {
         ^
         symbol:   class JSONException
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:22: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:22: error: cannot find symbol
         Log.d("eszip", "Source="+source);
         ^
         symbol:   variable Log
         location: class ESzip
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:29: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:29: error: cannot find symbol
         Log.d("eszip", "Error in execute function!"+e.getMessage());
         ^
         symbol:   variable Log
         location: class ESzip
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:37: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:37: error: cannot find symbol
         JSONObject returnObject = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ESzip
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:37: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:37: error: cannot find symbol
         JSONObject returnObject = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ESzip
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:54: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ESzip.java:54: error: cannot find symbol
         catch(JSONException e)
         ^
         symbol:   class JSONException
         location: class ESzip
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:15: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:15: error: cannot find symbol
         Log.d("eszip", "zip:In zip function");
         ^
         symbol:   variable Log
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:16: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:16: error: cannot find symbol
         Log.d("eszip", "zip:Source="+source);
         ^
         symbol:   variable Log
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:17: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:17: error: cannot find symbol
         JSONObject result = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:17: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:17: error: cannot find symbol
         JSONObject result = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:19: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:19: error: cannot find symbol
         Log.d("eszip", "zip: trying to zip");
         ^
         symbol:   variable Log
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:23: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:23: error: cannot find symbol
         Log.d("eszip", "Error occurred:"+e2.getMessage());
         ^
         symbol:   variable Log
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:37: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:37: error: cannot find symbol
         JSONObject result = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ZipHelper
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:37: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/org/apache/cordova/plugin/ZipHelper.java:37: error: cannot find symbol
         JSONObject result = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ZipHelper
         25 errors
+        
+        > Task :app:processReleaseManifestForPackage
         
         FAILURE: Build failed with an exception.
         
@@ -273,10 +282,10 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 4s
-        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        79 actionable tasks: 79 executed
+        87 actionable tasks: 87 executed
+        
+        BUILD FAILED in 3s
         

@@ -2,7 +2,8 @@
   "name": "cordova-plugin-firebase-config",
   "version": "7.0.3",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-firebase-config.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -54,7 +55,8 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for Firebase Remote Config",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-config/issues",
@@ -62,5 +64,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 155,
   "updated": "2022-12-14T22:42:37Z",
-  "downloads": 2131
+  "downloads": 2166
 }

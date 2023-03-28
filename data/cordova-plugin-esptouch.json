@@ -3,7 +3,9 @@
   "version": "2.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/coloz/cordova-plugin-esptouch.git",
   "author": "coloz",
@@ -34,9 +36,6 @@
   ],
   "description": "cordova plugin esptouch v2 for esp8266 and esp32",
   "bugs": "https://github.com/coloz/cordova-plugin-esptouch/issues",
-  "stars": 25,
-  "image": "https://avatars.githubusercontent.com/u/2948591?v=4",
-  "quality": 135,
-  "updated": "2022-09-26T04:53:10Z",
+  "quality": null,
   "downloads": 84
 }

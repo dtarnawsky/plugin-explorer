@@ -1,7 +1,10 @@
 {
   "name": "cordova-plugin-file-transfer-latest",
   "version": "2.0.2-dev",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/apache/cordova-plugin-file-transfer.git",
   "author": "Apache Software Foundation",
   "published": "2022-04-27T17:22:01.338Z",
@@ -18,15 +21,7 @@
     "cordova-android",
     "cordova-ios",
     "cordova-windows",
-    "cordova-browser",
-    "cplusplus",
-    "csharp",
-    "java",
-    "javascript",
-    "library",
-    "mobile",
-    "nodejs",
-    "objective-c"
+    "cordova-browser"
   ],
   "fails": [
     "capacitor-android-4",
@@ -36,9 +31,6 @@
   ],
   "description": "Cordova File Transfer Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-file-transfer/issues",
-  "stars": 587,
-  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "quality": 1555,
-  "updated": "2023-03-07T16:22:30Z",
-  "downloads": 497
+  "quality": null,
+  "downloads": 521
 }

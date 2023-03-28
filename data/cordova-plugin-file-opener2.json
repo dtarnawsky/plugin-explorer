@@ -3,7 +3,9 @@
   "version": "4.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/pwlin/cordova-plugin-file-opener2.git",
   "author": "pwlin05@gmail.com",
@@ -59,7 +61,7 @@
   "bugs": "https://github.com/pwlin/cordova-plugin-file-opener2/issues",
   "stars": 315,
   "image": "https://avatars.githubusercontent.com/u/160443?v=4",
-  "quality": 1010,
+  "quality": 1011,
   "updated": "2023-03-15T03:48:41Z",
-  "downloads": 101191
+  "downloads": 101728
 }

@@ -41,7 +41,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Google Firebase Cloud Messaging Cordova Push Plugin",
   "bugs": "https://github.com/fechanique/cordova-plugin-fcm/issues",
@@ -49,5 +51,5 @@
   "image": "https://avatars.githubusercontent.com/u/14014715?v=4",
   "quality": 2184,
   "updated": "2023-03-07T07:30:06Z",
-  "downloads": 521
+  "downloads": 510
 }

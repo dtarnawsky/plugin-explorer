@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "1.0.3",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-epson-epos2"
+}

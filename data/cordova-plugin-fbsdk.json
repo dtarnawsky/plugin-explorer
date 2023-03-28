@@ -1,12 +1,16 @@
 {
   "name": "cordova-plugin-fbsdk",
-  "version": "4.0.2",
+  "version": "4.0.4",
   "success": [],
   "repo": "https://github.com/MaximBelov/cordova-plugin-fbsdk.git",
-  "published": "2022-10-12T19:46:29.579Z",
+  "published": "2023-03-28T15:46:42.186Z",
   "versions": [
     "4.0.1",
-    "4.0.2"
+    "4.0.2",
+    "4.0.3",
+    "4.0.4-nightly",
+    "4.0.4-pre",
+    "4.0.4"
   ],
   "keywords": [
     "cordova",
@@ -23,7 +27,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Cordova Facebook SDK Plugin",
   "bugs": "https://github.com/MaximBelov/cordova-plugin-fbsdk/issues",
@@ -31,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
   "quality": 22,
   "updated": "2023-03-01T09:15:57Z",
-  "downloads": 650
+  "downloads": 663
 }

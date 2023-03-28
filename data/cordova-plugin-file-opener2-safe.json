@@ -2,7 +2,8 @@
   "name": "cordova-plugin-file-opener2-safe",
   "version": "3.0.6",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/rayvnas/cordova-plugin-file-opener2-safe.git",
   "author": "tech@rayvn.global",
@@ -20,7 +21,8 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "A File Opener Plugin for Cordova. (A Forked Version)",
   "bugs": "https://github.com/rayvnas/cordova-plugin-file-opener2-safe/issues",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/116153984?v=4",
   "quality": 0,
   "updated": "2022-10-19T08:38:10Z",
-  "downloads": 166
+  "downloads": 170
 }

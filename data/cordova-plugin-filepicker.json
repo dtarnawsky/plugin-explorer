@@ -3,7 +3,9 @@
   "version": "1.1.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/jcesarmobile/FilePicker-Phonegap-iOS-Plugin.git",
   "author": "jcesarmobile",
@@ -27,5 +29,5 @@
   "image": "https://avatars.githubusercontent.com/u/1637892?v=4",
   "quality": 224,
   "updated": "2023-03-03T05:52:16Z",
-  "downloads": 14439
+  "downloads": 14377
 }

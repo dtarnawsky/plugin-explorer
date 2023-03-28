@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin-firebase-analytics",
   "version": "7.0.5",
-  "success": [],
+  "success": [
+    "capacitor-ios-4"
+  ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-firebase-analytics.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
   "published": "2022-08-12T10:56:01.663Z",
@@ -61,8 +63,6 @@
     "cordova-ios"
   ],
   "fails": [
-    "capacitor-ios-4",
-    "capacitor-android-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
@@ -72,5 +72,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 547,
   "updated": "2022-12-06T09:34:25Z",
-  "downloads": 24215
+  "downloads": 24001
 }

@@ -68,13 +68,15 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for Google Firebase",
   "bugs": "https://github.com/arnesson/cordova-plugin-firebase/issues",
   "stars": 1003,
   "image": "https://avatars.githubusercontent.com/u/18620596?v=4",
-  "quality": 2891,
+  "quality": 2892,
   "updated": "2023-03-17T12:03:53Z",
-  "downloads": 2747
+  "downloads": 2742
 }

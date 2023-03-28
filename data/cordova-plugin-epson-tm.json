@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/kristorres/cordova-plugin-epson-tm.git",
   "author": "Kris Torres <torres-kris@outlook.com> (https://kristorres.github.io)",
@@ -30,13 +31,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "A simple Cordova plugin for printing receipts from an Epson TM printer.",
   "bugs": "https://github.com/kristorres/cordova-plugin-epson-tm/issues",
+  "quality": 101,
+  "downloads": 8,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/8150836?v=4",
-  "quality": 101,
-  "updated": "2023-02-06T03:41:24Z",
-  "downloads": 8
+  "updated": "2023-02-06T03:41:24Z"
 }

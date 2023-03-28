@@ -3,7 +3,9 @@
   "version": "1.0.4",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/joycorp/cordova-plugin-exitapp.git",
   "author": "Rakesh Walisheter",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/29520697?v=4",
   "quality": 145,
   "updated": "2021-01-26T15:30:46Z",
-  "downloads": 245
+  "downloads": 231
 }

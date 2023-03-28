@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/wmjalak/cordova-plugin-file-opener.git",
   "author": "wmjalak <wmjalak@gmail.com>",
@@ -21,5 +23,5 @@
   "image": "https://avatars.githubusercontent.com/u/1861972?v=4",
   "quality": 103,
   "updated": "2017-10-31T21:15:43Z",
-  "downloads": 352
+  "downloads": 354
 }

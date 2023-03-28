@@ -3,7 +3,8 @@
   "version": "0.3.5",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/luisdemarchi/cordova-plugin-facedetection-lite.git",
   "author": "Luís De Marchi <luis@luisdemarchi.com.br> (http://www.luisdemarchi.com.br)",
@@ -42,7 +43,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "A face detection offline with a few lines of code. Was designed to run on old smartphones.",
   "bugs": "https://github.com/luisdemarchi/cordova-plugin-facedetection-lite/issues",
@@ -50,5 +52,5 @@
   "image": "https://avatars.githubusercontent.com/u/461642?v=4",
   "quality": 108,
   "updated": "2022-09-19T08:04:55Z",
-  "downloads": 28
+  "downloads": 26
 }

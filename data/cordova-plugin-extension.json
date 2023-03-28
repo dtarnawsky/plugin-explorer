@@ -3,7 +3,8 @@
   "version": "1.6.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/floatinghotpot/cordova-extension.git",
   "author": "Liming Xie <rjfun.mobile@gmail.com>",
@@ -47,10 +48,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova Plugin common extension with adapter interface",
   "bugs": "https://github.com/floatinghotpot/cordova-extension/issues",
   "quality": null,
-  "downloads": 344
+  "downloads": 370
 }

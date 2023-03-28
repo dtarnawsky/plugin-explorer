@@ -56,70 +56,55 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-status-bar:processReleaseManifest
         > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :app:processReleaseMainManifest
-        > Task :app:processReleaseManifest
-        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:parseReleaseLocalResources
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-app:parseReleaseLocalResources
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
-        Note: Some input files use unchecked or unsafe operations.
-        Note: Recompile with -Xlint:unchecked for details.
         
         > Task :app:mapReleaseSourceSetPaths
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-app:compileReleaseJavaWithJavac
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         > Task :app:bundleReleaseResources FAILED
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
         
         FAILURE: Build failed with an exception.
         
@@ -127,11 +112,11 @@
         Execution failed for task ':app:bundleReleaseResources'.
         > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2ProcessResourcesRunnable
         > Android resource linking failed
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:54: error: resource string/fb_app_id (aka capacitor.v4.sample:string/fb_app_id) not found.
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:57: error: resource string/fb_app_name (aka capacitor.v4.sample:string/fb_app_name) not found.
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:60: error: resource bool/fb_auto_log_app_events_enabled (aka capacitor.v4.sample:bool/fb_auto_log_app_events_enabled) not found.
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:63: error: resource bool/fb_advertiser_id_collection_enabled (aka capacitor.v4.sample:bool/fb_advertiser_id_collection_enabled) not found.
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:67: error: resource string/fb_app_name (aka capacitor.v4.sample:string/fb_app_name) not found.
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:54: error: resource string/fb_app_id (aka capacitor.v4.sample:string/fb_app_id) not found.
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:57: error: resource string/fb_app_name (aka capacitor.v4.sample:string/fb_app_name) not found.
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:60: error: resource bool/fb_auto_log_app_events_enabled (aka capacitor.v4.sample:bool/fb_auto_log_app_events_enabled) not found.
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:63: error: resource bool/fb_advertiser_id_collection_enabled (aka capacitor.v4.sample:bool/fb_advertiser_id_collection_enabled) not found.
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:67: error: resource string/fb_app_name (aka capacitor.v4.sample:string/fb_app_name) not found.
         error: failed processing manifest.
         
         
@@ -142,6 +127,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 6s
-        70 actionable tasks: 70 executed
+        BUILD FAILED in 2s
+        57 actionable tasks: 57 executed
         

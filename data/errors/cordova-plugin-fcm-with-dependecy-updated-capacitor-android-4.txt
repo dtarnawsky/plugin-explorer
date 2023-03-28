@@ -37,12 +37,12 @@
         Execution failed for task ':app:processReleaseGoogleServices'.
         > File google-services.json is missing. The Google Services Plugin cannot function without it.
         Searched Location:
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnull/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/release/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnullRelease/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnull/release/google-services.json
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/release/nullnull/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnull/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/release/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnullRelease/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/nullnull/release/google-services.json
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/release/nullnull/google-services.json
         
         
         * Try:
@@ -52,12 +52,12 @@
         
         * Get more help at https://help.gradle.org
         
+        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
-        
-        BUILD FAILED in 7s
         2 actionable tasks: 2 executed
+        BUILD FAILED in 1s
         

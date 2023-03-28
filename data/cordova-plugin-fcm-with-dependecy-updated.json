@@ -102,7 +102,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Google Firebase Cloud Messaging Cordova Push Plugin fork with dependecy updated",
   "bugs": "https://github.com/andrehtissot/cordova-plugin-fcm-with-dependecy-updated/issues",
@@ -110,5 +112,5 @@
   "image": "https://avatars.githubusercontent.com/u/1174345?v=4",
   "quality": 569,
   "updated": "2023-03-06T03:23:30Z",
-  "downloads": 6884
+  "downloads": 6925
 }

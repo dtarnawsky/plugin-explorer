@@ -3,7 +3,8 @@
   "version": "5.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/niklasmerz/cordova-plugin-fingerprint-aio.git",
   "author": "Niklas Merz",
@@ -97,7 +98,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin to use fingerprint authentication on Android and iOS",
   "bugs": "https://github.com/niklasmerz/cordova-plugin-fingerprint-aio/issues",
@@ -105,5 +107,5 @@
   "image": "https://avatars.githubusercontent.com/u/3585860?v=4",
   "quality": 619,
   "updated": "2023-03-20T06:16:23Z",
-  "downloads": 33258
+  "downloads": 33283
 }
