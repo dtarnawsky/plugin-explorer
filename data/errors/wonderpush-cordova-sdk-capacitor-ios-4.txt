@@ -11,8 +11,8 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: efdcec14f9c6cdf250aae354887f6fc4
-        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/efdcec14f9c6cdf250aae354887f6fc4-desc.xcbuild
+        Build description signature: 4ced671a8e7bee0e5cbc92acb945ed9b
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/4ced671a8e7bee0e5cbc92acb945ed9b-desc.xcbuild
         
         note: Building targets in dependency order
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "WonderPush-WonderPush" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'WonderPush-WonderPush' from project 'Pods')

@@ -80,7 +80,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Mobile push notification delivery with the WonderPush service. The WonderPush Cordova SDK is compatible with iOS and Android.",
   "bugs": "https://github.com/wonderpush/wonderpush-cordova-sdk/issues",
@@ -88,5 +90,5 @@
   "image": "https://avatars.githubusercontent.com/u/7977070?v=4",
   "quality": 121,
   "updated": "2023-02-18T10:07:41Z",
-  "downloads": 711
+  "downloads": 678
 }

@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "3.1.1",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "3.1.1",
+      "success": true
+    }
+  ],
+  "name": "wifiwizard2"
+}
