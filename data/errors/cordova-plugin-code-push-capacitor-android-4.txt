@@ -6,11 +6,11 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-code-push/src/android/build-extras.gradle' line: 66
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-code-push/src/android/build-extras.gradle' line: 66
         
         * What went wrong:
         A problem occurred evaluating script.
-        > Could not find method compile() for arguments [com.nimbusds:nimbus-jose-jwt:5.1, build_extras_9sn4rtn2c27cemjkzroit321y$_run_closure3$_closure8@42d3ae54] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
+        > Could not find method compile() for arguments [com.nimbusds:nimbus-jose-jwt:5.1, build_extras_14bil7lgyz5u08lj672oaa75a$_run_closure3$_closure8@41ca18ff] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
         
         * Try:
         > Run with --stacktrace option to get the stack trace.

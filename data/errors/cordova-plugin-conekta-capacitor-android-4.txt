@@ -6,7 +6,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-conekta/src/android/conekta.gradle' line: 6
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-conekta/src/android/conekta.gradle' line: 6
         
         * What went wrong:
         A problem occurred evaluating script.

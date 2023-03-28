@@ -2,7 +2,9 @@
   "name": "cordova-plugin-consent",
   "version": "2.4.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/admob-plus/admob-plus.git",
   "author": "Ratson",
@@ -63,30 +65,14 @@
     "google",
     "consent",
     "ecosystem:cordova",
-    "typescript",
-    "admob",
-    "android",
-    "angular",
-    "capacitor",
-    "hacktoberfest",
-    "ionic",
-    "ios",
-    "javascript",
-    "mobile",
-    "monetization",
-    "react",
-    "react-native"
+    "typescript"
   ],
   "fails": [
-    "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
   "description": "Google Consent SDK Cordova Plugin",
   "bugs": "https://github.com/admob-plus/admob-plus/issues",
-  "stars": 327,
-  "image": "https://avatars.githubusercontent.com/u/39599641?v=4",
-  "quality": 610,
-  "updated": "2023-03-16T00:44:26Z",
-  "downloads": 2128
+  "quality": null,
+  "downloads": 2075
 }

@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11"
   ],
   "repo": "git://github.com/apache/cordova-plugin-compat.git",
   "author": "Apache Software Foundation",
@@ -20,10 +21,11 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "[DEPRECATED] This repo is for remaining backwards compatible with previous versions of Cordova.",
   "bugs": "https://github.com/apache/cordova-plugin-compat/issues",
   "quality": null,
-  "downloads": 22951
+  "downloads": 22967
 }

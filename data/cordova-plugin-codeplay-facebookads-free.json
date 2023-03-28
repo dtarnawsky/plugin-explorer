@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/merbin2012/cordova-plugin-codeplay-facebookads-free.git",
   "author": "Merbin Joe",
@@ -43,7 +44,8 @@
     "audience-network"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Free facebook audience network ads for cordova user. This supports banner ads, Interstitial ads and reward video.",
   "bugs": "https://github.com/merbin2012/cordova-plugin-codeplay-facebookads-free/issues",

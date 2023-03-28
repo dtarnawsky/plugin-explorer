@@ -74,13 +74,15 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "CodePush Plugin for Apache Cordova",
   "bugs": "https://github.com/Microsoft/cordova-plugin-code-push/issues",
-  "stars": 648,
+  "stars": 647,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
-  "quality": 1131,
-  "updated": "2023-03-18T22:27:32Z",
-  "downloads": 3281
+  "quality": 1130,
+  "updated": "2023-03-27T09:32:48Z",
+  "downloads": 3299
 }
