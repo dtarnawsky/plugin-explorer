@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/NoNameProvided/cordova-plugin-webview-checker.git",
   "author": "Attila Olah <NoNameProvided@users.noreply.github.com>",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/4706265?v=4",
   "quality": 121,
   "updated": "2022-09-16T09:04:40Z",
-  "downloads": 779
+  "downloads": 798
 }

@@ -3,7 +3,9 @@
   "version": "0.5.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/t1st3/cordova-plugin-ping.git",
   "author": "t1st3",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/1469638?v=4",
   "quality": 136,
   "updated": "2023-03-04T06:26:26Z",
-  "downloads": 198
+  "downloads": 211
 }

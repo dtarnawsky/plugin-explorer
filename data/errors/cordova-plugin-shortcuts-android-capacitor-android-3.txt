@@ -80,491 +80,508 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
         
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadataNote: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:bundleReleaseResources
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:11: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:11: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:12: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:12: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:13: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:13: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:14: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:14: error: package android.net does not exist
         import android.net.Uri;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:15: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:15: error: package android.util does not exist
         import android.util.Base64;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:16: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:16: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:17: error: package android.graphics does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:17: error: package android.graphics does not exist
         import android.graphics.Bitmap;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:18: error: package android.graphics does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:18: error: package android.graphics does not exist
         import android.graphics.BitmapFactory;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:19: error: package android.graphics.drawable does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:19: error: package android.graphics.drawable does not exist
         import android.graphics.drawable.Icon;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:20: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:20: error: package android.content does not exist
         import android.content.ComponentName;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:21: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:21: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:22: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:22: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:23: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:23: error: package android.os does not exist
         import android.os.Build;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:24: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:24: error: package android.os does not exist
         import android.os.Bundle;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:25: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:25: error: package android.content.pm does not exist
         import android.content.pm.ApplicationInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:26: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:26: error: package android.content.pm does not exist
         import android.content.pm.PackageManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:27: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:27: error: package android.content.pm does not exist
         import android.content.pm.ShortcutInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:28: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:28: error: package android.content.pm does not exist
         import android.content.pm.ShortcutManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:29: error: package android.content.res does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:29: error: package android.content.res does not exist
         import android.content.res.Resources;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:30: error: package android.support.v4.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:30: error: package android.support.v4.content.pm does not exist
         import android.support.v4.content.pm.ShortcutInfoCompat;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:31: error: package android.support.v4.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:31: error: package android.support.v4.content.pm does not exist
         import android.support.v4.content.pm.ShortcutManagerCompat;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:32: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:32: error: cannot find symbol
         import android.support.v4.graphics.drawable.IconCompat;
         ^
         symbol:   class IconCompat
         location: package android.support.v4.graphics.drawable
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:49: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:49: error: cannot find symbol
         JSONArray args,
         ^
         symbol:   class JSONArray
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:92: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:92: error: cannot find symbol
         Intent intent
         ^
         symbol:   class Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:111: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:111: error: cannot find symbol
         JSONArray args,
         ^
         symbol:   class JSONArray
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:113: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:113: error: cannot find symbol
         ) throws JSONException {
         ^
         symbol:   class JSONException
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:125: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:125: error: cannot find symbol
         private void getIntent(CallbackContext callbackContext) throws JSONException  {
         ^
         symbol:   class JSONException
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:132: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:132: error: cannot find symbol
         Intent intent
         ^
         symbol:   class Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:131: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:131: error: cannot find symbol
         private JSONObject buildIntent(
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:133: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:133: error: cannot find symbol
         ) throws JSONException  {
         ^
         symbol:   class JSONException
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:182: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:182: error: cannot find symbol
         JSONObject jsonIntent
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:181: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:181: error: cannot find symbol
         private Intent parseIntent(
         ^
         symbol:   class Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:183: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:183: error: cannot find symbol
         ) throws JSONException {
         ^
         symbol:   class JSONException
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:257: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:257: error: cannot find symbol
         JSONObject jsonShortcut) throws PackageManager.NameNotFoundException, JSONException {
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:256: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:256: error: cannot find symbol
         private ShortcutInfo buildDynamicShortcut(
         ^
         symbol:   class ShortcutInfo
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:257: error: package PackageManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:257: error: package PackageManager does not exist
         JSONObject jsonShortcut) throws PackageManager.NameNotFoundException, JSONException {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:257: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:257: error: cannot find symbol
         JSONObject jsonShortcut) throws PackageManager.NameNotFoundException, JSONException {
         ^
         symbol:   class JSONException
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:322: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:322: error: cannot find symbol
         JSONArray args) throws PackageManager.NameNotFoundException, JSONException {
         ^
         symbol:   class JSONArray
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:322: error: package PackageManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:322: error: package PackageManager does not exist
         JSONArray args) throws PackageManager.NameNotFoundException, JSONException {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:322: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:322: error: cannot find symbol
         JSONArray args) throws PackageManager.NameNotFoundException, JSONException {
         ^
         symbol:   class JSONException
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:338: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:338: error: cannot find symbol
         JSONObject jsonShortcut
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:337: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:337: error: cannot find symbol
         private ShortcutInfoCompat buildPinnedShortcut(
         ^
         symbol:   class ShortcutInfoCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:339: error: package PackageManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:339: error: package PackageManager does not exist
         ) throws PackageManager.NameNotFoundException, JSONException {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:339: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:339: error: cannot find symbol
         ) throws PackageManager.NameNotFoundException, JSONException {
         ^
         symbol:   class JSONException
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:396: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:396: error: cannot find symbol
         JSONArray args
         ^
         symbol:   class JSONArray
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:397: error: package PackageManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:397: error: package PackageManager does not exist
         ) throws PackageManager.NameNotFoundException, JSONException {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:397: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:397: error: cannot find symbol
         ) throws PackageManager.NameNotFoundException, JSONException {
         ^
         symbol:   class JSONException
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:403: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:403: error: cannot find symbol
         private static Bitmap decodeBase64Bitmap(
         ^
         symbol:   class Bitmap
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:53: error: package Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:53: error: package Build does not exist
         boolean supported = Build.VERSION.SDK_INT >= 25;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:82: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:82: error: cannot find symbol
         Log.e(TAG, "Exception executing Cordova action: " + e.getMessage());
         ^
         symbol:   variable Log
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:101: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:101: error: cannot find symbol
         Log.e(TAG, "Exception handling onNewIntent: " + e.getMessage());
         ^
         symbol:   variable Log
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:106: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:106: error: cannot find symbol
         Context context = this.cordova.getActivity().getApplicationContext();
         ^
         symbol:   class Context
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:106: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:106: error: cannot access Activity
         Context context = this.cordova.getActivity().getApplicationContext();
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:107: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:107: error: cannot find symbol
         return ShortcutManagerCompat.isRequestPinShortcutSupported(context);
         ^
         symbol:   variable ShortcutManagerCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:117: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:117: error: cannot find symbol
         Log.i(TAG, "Removed callback for onNewIntent");
         ^
         symbol:   variable Log
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:121: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:121: error: cannot find symbol
         Log.i(TAG, "Added a new callback for onNewIntent");
         ^
         symbol:   variable Log
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:126: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:126: error: cannot find symbol
         Intent intent = this.cordova.getActivity().getIntent();
         ^
         symbol:   class Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:134: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:134: error: cannot find symbol
         JSONObject jsonIntent = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:134: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:134: error: cannot find symbol
         JSONObject jsonIntent = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:141: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:141: error: cannot find symbol
         jsonIntent.put("categories", new JSONArray(categories));
         ^
         symbol:   class JSONArray
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:144: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:144: error: cannot find symbol
         Uri data = intent.getData();
         ^
         symbol:   class Uri
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:149: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:149: error: cannot find symbol
         Bundle extras = intent.getExtras();
         ^
         symbol:   class Bundle
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:151: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:151: error: cannot find symbol
         JSONObject jsonExtras = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:151: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:151: error: cannot find symbol
         JSONObject jsonExtras = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:185: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:185: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:185: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:185: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:195: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:195: error: cannot find symbol
         String action = jsonIntent.optString("action", Intent.ACTION_VIEW);
         ^
         symbol:   variable Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:199: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:199: error: cannot find symbol
         Log.i(TAG, "Creating new intent with action: " + action);
         ^
         symbol:   variable Log
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:202: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:202: error: cannot find symbol
         int flags = jsonIntent.optInt("flags", Intent.FLAG_ACTIVITY_NEW_TASK + Intent.FLAG_ACTIVITY_CLEAR_TOP);
         ^
         symbol:   variable Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:202: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:202: error: cannot find symbol
         int flags = jsonIntent.optInt("flags", Intent.FLAG_ACTIVITY_NEW_TASK + Intent.FLAG_ACTIVITY_CLEAR_TOP);
         ^
         symbol:   variable Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:205: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:205: error: cannot find symbol
         JSONArray jsonCategories = jsonIntent.optJSONArray("categories");
         ^
         symbol:   class JSONArray
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:219: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:219: error: cannot find symbol
         intent.setData(Uri.parse(data));
         ^
         symbol:   variable Uri
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:222: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:222: error: cannot find symbol
         JSONObject extras = jsonIntent.optJSONObject("extras");
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:262: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:262: error: cannot find symbol
         Context context = this.cordova.getActivity().getApplicationContext();
         ^
         symbol:   class Context
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:268: error: package ShortcutInfo does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:268: error: package ShortcutInfo does not exist
         ShortcutInfo.Builder builder = new ShortcutInfo.Builder(context, shortcutId);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:268: error: package ShortcutInfo does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:268: error: package ShortcutInfo does not exist
         ShortcutInfo.Builder builder = new ShortcutInfo.Builder(context, shortcutId);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:284: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:284: error: cannot find symbol
         Icon icon;
         ^
         symbol:   class Icon
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:291: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:291: error: cannot find symbol
         icon = Icon.createWithBitmap(decodeBase64Bitmap(iconBitmap));
         ^
         symbol:   variable Icon
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:295: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:295: error: cannot find symbol
         Resources activityRes = this.cordova.getActivity().getResources();
         ^
         symbol:   class Resources
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:297: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:297: error: cannot find symbol
         icon = Icon.createWithResource(context, iconId);
         ^
         symbol:   variable Icon
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:301: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:301: error: cannot find symbol
         PackageManager pm = context.getPackageManager();
         ^
         symbol:   class PackageManager
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:302: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:302: error: cannot find symbol
         ApplicationInfo applicationInfo = pm.getApplicationInfo(activityPackage, PackageManager.GET_META_DATA);
         ^
         symbol:   class ApplicationInfo
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:302: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:302: error: cannot find symbol
         ApplicationInfo applicationInfo = pm.getApplicationInfo(activityPackage, PackageManager.GET_META_DATA);
         ^
         symbol:   variable PackageManager
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:303: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:303: error: cannot find symbol
         icon = Icon.createWithResource(activityPackage, applicationInfo.icon);
         ^
         symbol:   variable Icon
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:306: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:306: error: cannot find symbol
         JSONObject jsonIntent = jsonShortcut.optJSONObject("intent");
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:308: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:308: error: cannot find symbol
         jsonIntent = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:311: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:311: error: cannot find symbol
         Intent intent = parseIntent(jsonIntent);
         ^
         symbol:   class Intent
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:324: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:324: error: cannot find symbol
         ArrayList<ShortcutInfo> shortcuts = new ArrayList<ShortcutInfo>(count);
         ^
         symbol:   class ShortcutInfo
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:324: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:324: error: cannot find symbol
         ArrayList<ShortcutInfo> shortcuts = new ArrayList<ShortcutInfo>(count);
         ^
         symbol:   class ShortcutInfo
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:330: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:330: error: cannot find symbol
         Context context = this.cordova.getActivity().getApplicationContext();
         ^
         symbol:   class Context
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:331: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:331: error: cannot find symbol
         ShortcutManager shortcutManager = context.getSystemService(ShortcutManager.class);
         ^
         symbol:   class ShortcutManager
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:331: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:331: error: cannot find symbol
         ShortcutManager shortcutManager = context.getSystemService(ShortcutManager.class);
         ^
         symbol:   class ShortcutManager
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:334: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:334: error: cannot find symbol
         Log.i(TAG, String.format("Saved % dynamic shortcuts.", count));
         ^
         symbol:   variable Log
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:344: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:344: error: cannot find symbol
         Context context = this.cordova.getActivity().getApplicationContext();
         ^
         symbol:   class Context
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
         ShortcutInfoCompat.Builder builder = new ShortcutInfoCompat.Builder(context, shortcutId);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
         ShortcutInfoCompat.Builder builder = new ShortcutInfoCompat.Builder(context, shortcutId);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:366: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:366: error: cannot find symbol
         IconCompat icon;
         ^
         symbol:   class IconCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:370: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:370: error: cannot find symbol
         icon = IconCompat.createWithBitmap(decodeBase64Bitmap(iconBitmap));
         ^
         symbol:   variable IconCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:374: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:374: error: cannot find symbol
         PackageManager pm = context.getPackageManager();
         ^
         symbol:   class PackageManager
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:375: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:375: error: cannot find symbol
         ApplicationInfo applicationInfo = pm.getApplicationInfo(activityPackage, PackageManager.GET_META_DATA);
         ^
         symbol:   class ApplicationInfo
@@ -582,10 +599,10 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
-        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        73 actionable tasks: 73 executed
+        81 actionable tasks: 81 executed
+        
+        BUILD FAILED in 2s
         

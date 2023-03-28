@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/hanatharesh2712/ionic-native-sms-retriever-plugin-master.git",
   "author": "Haresh Hanat",
@@ -39,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/17156331?v=4",
   "quality": 134,
   "updated": "2023-02-16T06:07:42Z",
-  "downloads": 8598
+  "downloads": 8867
 }

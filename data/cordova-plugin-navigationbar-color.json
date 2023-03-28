@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/fagundes/cordova-plugin-navigationbar.git",
   "author": "Vinicius Fagundes",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/169477?v=4",
   "quality": 141,
   "updated": "2022-12-30T15:12:11Z",
-  "downloads": 2970
+  "downloads": 3032
 }

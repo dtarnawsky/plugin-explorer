@@ -3,7 +3,9 @@
   "version": "0.5.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/sushichop/cordova-plugin-wifi-manager.git",
   "author": "Koichi Yokota",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/5669641?v=4",
   "quality": 124,
   "updated": "2023-02-16T16:02:19Z",
-  "downloads": 85
+  "downloads": 84
 }

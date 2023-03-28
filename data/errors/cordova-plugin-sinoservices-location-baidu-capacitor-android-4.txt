@@ -59,22 +59,15 @@
         > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-status-bar:processReleaseManifest
         
         > Task :capacitor-cordova-android-plugins:processReleaseManifest FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-10:11 Error:
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:6:1-10:11 Error:
         android:exported needs to be explicitly specified for element <service#com.baidu.location.f>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
         
         See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
         
         
         > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :app:mergeReleaseResources
         
         FAILURE: Build failed with an exception.
@@ -91,6 +84,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 2s
-        29 actionable tasks: 29 executed
+        BUILD FAILED in 1s
+        22 actionable tasks: 22 executed
         

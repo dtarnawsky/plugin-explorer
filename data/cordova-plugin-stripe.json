@@ -3,7 +3,8 @@
   "version": "1.5.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/ihadeed/cordova-plugin-stripe.git",
   "author": "Ibby Hadeed <i.hadeed@zyra.ca>",
@@ -36,7 +37,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin that lets you use Stripe's Native SDKs for Android and iOS",
   "bugs": "https://github.com/ihadeed/cordova-plugin-stripe/issues",
@@ -44,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/17262907?v=4",
   "quality": 285,
   "updated": "2022-12-21T16:05:23Z",
-  "downloads": 1280
+  "downloads": 1279
 }

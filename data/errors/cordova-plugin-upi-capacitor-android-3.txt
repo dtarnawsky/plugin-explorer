@@ -77,429 +77,452 @@
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-status-bar:generateReleaseRFile
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :app:checkReleaseDuplicateClasses
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:3: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:3: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:4: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:4: error: package android.content does not exist
         import android.content.ComponentName;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:5: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:5: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:6: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:6: error: package android.content.pm does not exist
         import android.content.pm.PackageManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:7: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:7: error: package android.content.pm does not exist
         import android.content.pm.ResolveInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:11: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:11: error: package android.content does not exist
         import android.content.BroadcastReceiver;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:12: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:12: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:14: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:14: error: cannot find symbol
         public class ApplicationSelectorReceiver extends BroadcastReceiver {
         ^
         symbol: class BroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:19: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:19: error: cannot find symbol
         public void onReceive(Context context, Intent intent) {
         ^
         symbol:   class Context
         location: class ApplicationSelectorReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:19: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:19: error: cannot find symbol
         public void onReceive(Context context, Intent intent) {
         ^
         symbol:   class Intent
         location: class ApplicationSelectorReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:3: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:3: error: package android.app does not exist
         import android.app.Activity;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:4: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:4: error: package android.app does not exist
         import android.app.PendingIntent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:5: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:5: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:6: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:6: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:7: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:7: error: package android.content.pm does not exist
         import android.content.pm.PackageManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:8: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:8: error: package android.content.pm does not exist
         import android.content.pm.ResolveInfo;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:9: error: package android.net does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:9: error: package android.net does not exist
         import android.net.Uri;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:10: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:10: error: package android.os does not exist
         import android.os.Bundle;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:11: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:11: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:26: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:26: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:27: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:27: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:28: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:28: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:67: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:67: error: cannot find symbol
         private Activity getCurrentActivity() {
         ^
         symbol:   class Activity
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:79: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:79: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:79: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:79: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:109: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:109: error: cannot find symbol
         private List<ResolveInfo> getAllInstalledUPIApps(Context context) {
         ^
         symbol:   class Context
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:109: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:109: error: cannot find symbol
         private List<ResolveInfo> getAllInstalledUPIApps(Context context) {
         ^
         symbol:   class ResolveInfo
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:120: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:120: error: cannot find symbol
         private void acceptPayment(JSONObject options, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:170: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:170: error: cannot find symbol
         public void onActivityResult(int requestCode, int resultCode, Intent intent) {
         ^
         symbol:   class Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:229: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:229: error: cannot find symbol
         private void parseUpiResponse(String upi_response, JSONObject json) throws JSONException {
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:229: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:229: error: cannot find symbol
         private void parseUpiResponse(String upi_response, JSONObject json) throws JSONException {
         ^
         symbol:   class JSONException
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:249: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:249: error: cannot find symbol
         private String bundle2string(Bundle bundle) {
         ^
         symbol:   class Bundle
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:18: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:18: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:23: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:23: error: cannot find symbol
         ComponentName componentInfo = (ComponentName) intent.getExtras().get(key);
         ^
         symbol:   class ComponentName
         location: class ApplicationSelectorReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:23: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:23: error: cannot find symbol
         ComponentName componentInfo = (ComponentName) intent.getExtras().get(key);
         ^
         symbol:   class ComponentName
         location: class ApplicationSelectorReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:24: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:24: error: cannot find symbol
         PackageManager packageManager = context.getPackageManager();
         ^
         symbol:   class PackageManager
         location: class ApplicationSelectorReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:26: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/ApplicationSelectorReceiver.java:26: error: cannot find symbol
         String appName = (String) packageManager.getApplicationLabel(packageManager.getApplicationInfo(componentInfo.getPackageName(), PackageManager.GET_META_DATA));
         ^
         symbol:   variable PackageManager
         location: class ApplicationSelectorReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:84: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:84: error: cannot find symbol
         JSONObject options = args.getJSONObject(0);
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:92: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:92: error: cannot find symbol
         JSONArray result = new JSONArray();
         ^
         symbol:   class JSONArray
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:92: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:92: error: cannot find symbol
         JSONArray result = new JSONArray();
         ^
         symbol:   class JSONArray
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:93: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:93: error: cannot find symbol
         List<ResolveInfo> appsList = getAllInstalledUPIApps(getCurrentActivity().getApplicationContext());
         ^
         symbol:   class ResolveInfo
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:94: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:94: error: cannot find symbol
         for (ResolveInfo appRI : appsList) {
         ^
         symbol:   class ResolveInfo
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:96: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:96: error: cannot find symbol
         JSONObject app = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:96: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:96: error: cannot find symbol
         JSONObject app = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:110: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:110: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:110: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:110: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:111: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:111: error: cannot find symbol
         intent.setAction(Intent.ACTION_VIEW);
         ^
         symbol:   variable Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:112: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:112: error: cannot find symbol
         intent.setData(Uri.parse(
         ^
         symbol:   variable Uri
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:114: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:114: error: cannot find symbol
         List<ResolveInfo> list = context.getPackageManager().queryIntentActivities(intent,
         ^
         symbol:   class ResolveInfo
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:115: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:115: error: cannot find symbol
         PackageManager.MATCH_DEFAULT_ONLY);
         ^
         symbol:   variable PackageManager
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:116: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:116: error: cannot find symbol
         Log.i(TAG, "UPI supported apps count " + list.size());
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:123: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:123: error: cannot find symbol
         JSONObject app = options.getJSONObject("application");
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:137: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:137: error: cannot find symbol
         } catch (JSONException exp) {
         ^
         symbol:   class JSONException
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:140: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:140: error: cannot find symbol
         Log.e(TAG, "There is no application information present in request context");
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:143: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:143: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:143: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:143: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:144: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:144: error: cannot find symbol
         intent.setAction(Intent.ACTION_VIEW);
         ^
         symbol:   variable Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:145: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:145: error: cannot find symbol
         intent.setData(Uri.parse(options.getString("upiString")));
         ^
         symbol:   variable Uri
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:146: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:146: error: cannot find symbol
         Context context = getCurrentActivity().getApplicationContext();
         ^
         symbol:   class Context
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:149: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:149: error: cannot find symbol
         Intent receiver = new Intent(context, ApplicationSelectorReceiver.class);
         ^
         symbol:   class Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:149: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:149: error: cannot find symbol
         Intent receiver = new Intent(context, ApplicationSelectorReceiver.class);
         ^
         symbol:   class Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:150: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:150: error: cannot find symbol
         PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, receiver,
         ^
         symbol:   class PendingIntent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:151: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:151: error: cannot find symbol
         PendingIntent.FLAG_UPDATE_CURRENT);
         ^
         symbol:   variable PendingIntent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:150: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:150: error: cannot find symbol
         PendingIntent pendingIntent = PendingIntent.getBroadcast(context, 0, receiver,
         ^
         symbol:   variable PendingIntent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:152: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:152: error: cannot find symbol
         Intent chooser = Intent.createChooser(intent, "Pay using", pendingIntent.getIntentSender());
         ^
         symbol:   class Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:152: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:152: error: cannot find symbol
         Intent chooser = Intent.createChooser(intent, "Pay using", pendingIntent.getIntentSender());
         ^
         symbol:   variable Intent
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:159: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:159: error: cannot find symbol
         Log.i(TAG, "Initiating payment using app " + UPIPlugin.application);
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:163: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:163: error: cannot find symbol
         } catch (JSONException exp) {
         ^
         symbol:   class JSONException
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:164: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:164: error: cannot find symbol
         Log.e(TAG, "There is no application information present in request context");
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:171: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:171: error: cannot find symbol
         Log.i(TAG, "Request code " + requestCode + " resultCode " + resultCode);
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:174: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:174: error: cannot find symbol
         Log.i(TAG, "UPI payment response " + bundle2string(intent.getExtras()));
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:176: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:176: error: cannot find symbol
         JSONObject result = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:176: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:176: error: cannot find symbol
         JSONObject result = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:192: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:192: error: cannot find symbol
         Log.e(TAG, "Issue in checking the status of  while parsing response from UPI callback", exp);
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:196: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:196: error: cannot find symbol
         Log.e(TAG, "Exception while parsing response from UPI callback", exp);
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:201: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:201: error: cannot find symbol
         Log.d(TAG, "Data = null (User canceled)");
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:202: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:202: error: cannot find symbol
         JSONObject result = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:202: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:202: error: cannot find symbol
         JSONObject result = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:210: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:210: error: cannot find symbol
         Log.e(TAG, "Exception while sending error response", exp);
         ^
         symbol:   variable Log
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:219: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:219: error: cannot find symbol
         PackageManager pm = getCurrentActivity().getPackageManager();
         ^
         symbol:   class PackageManager
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:221: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:221: error: cannot find symbol
         pm.getPackageInfo(bundleId, PackageManager.GET_ACTIVITIES);
         ^
         symbol:   variable PackageManager
         location: class UPIPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:223: error: package PackageManager does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:223: error: package PackageManager does not exist
         } catch (PackageManager.NameNotFoundException e) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:224: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cordova/upi/UPIPlugin.java:224: error: cannot find symbol
         Log.e(TAG, "Error networkNotAvailable json object creation so " + bundleId + " is present in mobile");
         ^
         symbol:   variable Log
         location: class UPIPlugin
         83 errors
+        
+        > Task :app:bundleReleaseResources
         
         FAILURE: Build failed with an exception.
         
@@ -515,7 +538,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        83 actionable tasks: 83 executed
         
-        BUILD FAILED in 4s
-        73 actionable tasks: 73 executed
+        BUILD FAILED in 2s
         

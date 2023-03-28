@@ -80,356 +80,431 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :capacitor-app:generateReleaseRFile
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseRFile
-        
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseRFile
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :app:checkReleaseDuplicateClasses
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:checkReleaseDuplicateClasses
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:checkReleaseAarMetadata
+        > Task :app:processReleaseManifestForPackage
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :capacitor-keyboard:bundleLibCompileToJarRelease
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
+        > Task :app:desugarReleaseFileDependencies
+        > Task :app:bundleReleaseResources
+        > Task :app:mergeReleaseShaders
+        > Task :app:compileReleaseShaders NO-SOURCE
+        > Task :app:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-android:mergeReleaseShaders
+        > Task :capacitor-android:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-android:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-android:packageReleaseAssets
+        > Task :capacitor-app:mergeReleaseShaders
+        > Task :capacitor-app:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-app:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-app:packageReleaseAssets
+        > Task :capacitor-cordova-android-plugins:mergeReleaseShaders
+        > Task :capacitor-cordova-android-plugins:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseAssets
+        > Task :capacitor-haptics:mergeReleaseShaders
+        > Task :capacitor-haptics:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseAssets
+        > Task :capacitor-keyboard:mergeReleaseShaders
+        > Task :capacitor-keyboard:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseAssets
+        > Task :capacitor-status-bar:mergeReleaseShaders
+        > Task :capacitor-status-bar:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseAssets
+        > Task :app:mergeExtDexRelease
+        > Task :app:mergeReleaseAssets
+        > Task :app:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-android:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-android:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-app:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-app:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-haptics:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-haptics:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-keyboard:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-keyboard:bundleLibResRelease NO-SOURCE
+        > Task :capacitor-status-bar:processReleaseJavaRes NO-SOURCE
+        > Task :capacitor-status-bar:bundleLibResRelease NO-SOURCE
+        > Task :app:mergeReleaseJniLibFolders
+        > Task :capacitor-android:mergeReleaseJniLibFolders
+        > Task :capacitor-android:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-android:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-android:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-app:mergeReleaseJniLibFolders
+        > Task :capacitor-app:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-app:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-app:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-cordova-android-plugins:mergeReleaseJniLibFolders
+        > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-haptics:mergeReleaseJniLibFolders
+        > Task :capacitor-haptics:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-haptics:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-haptics:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-keyboard:mergeReleaseJniLibFolders
+        > Task :capacitor-keyboard:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-keyboard:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-keyboard:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-status-bar:mergeReleaseJniLibFolders
+        > Task :capacitor-status-bar:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-status-bar:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-status-bar:copyReleaseJniLibsProjectOnly
+        > Task :app:collectReleaseDependencies
+        > Task :app:configureReleaseDependencies
+        > Task :app:parseReleaseIntegrityConfig
+        > Task :app:writeReleaseAppMetadata
+        > Task :app:mergeReleaseJavaResource
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:19: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:19: error: package android.app does not exist
         import android.app.Dialog;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:20: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:20: error: package android.app does not exist
         import android.app.DialogFragment;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:21: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:21: error: package android.os does not exist
         import android.os.Bundle;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:27: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:27: error: cannot find symbol
         public class ErrorDialogFragment extends DialogFragment {
         ^
         symbol: class DialogFragment
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:30: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:30: error: cannot find symbol
         private Dialog mDialog;
         ^
         symbol:   class Dialog
         location: class ErrorDialogFragment
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:45: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:45: error: cannot find symbol
         public void setDialog(Dialog dialog) {
         ^
         symbol:   class Dialog
         location: class ErrorDialogFragment
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:53: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:53: error: cannot find symbol
         public Dialog onCreateDialog(Bundle savedInstanceState) {
         ^
         symbol:   class Bundle
         location: class ErrorDialogFragment
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:53: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:53: error: cannot find symbol
         public Dialog onCreateDialog(Bundle savedInstanceState) {
         ^
         symbol:   class Dialog
         location: class ErrorDialogFragment
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:21: error: package android does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:21: error: package android does not exist
         import android.Manifest;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:22: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:22: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:23: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:23: error: package android.content.pm does not exist
         import android.content.pm.PackageManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:24: error: package android.location does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:24: error: package android.location does not exist
         import android.location.Location;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:25: error: package android.location does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:25: error: package android.location does not exist
         import android.location.LocationManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:26: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:26: error: package android.os does not exist
         import android.os.Build;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:27: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:27: error: package android.os does not exist
         import android.os.Bundle;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:28: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:28: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:39: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:39: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:40: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:40: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:41: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:41: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:21: error: package android.location does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:21: error: package android.location does not exist
         import android.location.Location;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:22: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:22: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:52: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:52: error: cannot find symbol
         private JSONArray mPrevArgs;
         ^
         symbol:   class JSONArray
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:19: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:19: error: package android.app does not exist
         import android.app.Dialog;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:20: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:20: error: package android.content does not exist
         import android.content.IntentSender;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:21: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:21: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:86: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:86: error: cannot find symbol
         public void onRequestPermissionResult(int requestCode, String[] permissions, int[] grantResults) throws JSONException {
         ^
         symbol:   class JSONException
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:109: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:109: error: cannot find symbol
         public void onConnected(Bundle bundle) {
         ^
         symbol:   class Bundle
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:135: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:135: error: cannot find symbol
         public boolean execute(final String action, final JSONArray args,
         ^
         symbol:   class JSONArray
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:220: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:220: error: cannot find symbol
         public JSONObject returnLocationJSON(Location loc) {
         ^
         symbol:   class Location
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:220: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:220: error: cannot find symbol
         public JSONObject returnLocationJSON(Location loc) {
         ^
         symbol:   class JSONObject
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:240: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:240: error: cannot find symbol
         public void win(Location loc, CallbackContext callbackContext,
         ^
         symbol:   class Location
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:297: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:297: error: cannot find symbol
         private void getLastLocation(JSONArray args, CallbackContext callbackContext) {
         ^
         symbol:   class JSONArray
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:319: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:319: error: cannot find symbol
         private void setWantLastLocation(JSONArray args,
         ^
         symbol:   class JSONArray
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:76: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:76: error: cannot find symbol
         public void onLocationChanged(Location location) {
         ^
         symbol:   class Location
         location: class CordovaLocationListener
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:145: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:145: error: cannot find symbol
         protected void win(Location loc) {
         ^
         symbol:   class Location
         location: class CordovaLocationListener
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:52: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/ErrorDialogFragment.java:52: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:51: error: package Manifest does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:51: error: package Manifest does not exist
         private String[] permissions = {Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION};
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:51: error: package Manifest does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:51: error: package Manifest does not exist
         private String[] permissions = {Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.ACCESS_FINE_LOCATION};
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:60: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:60: error: cannot access Activity
         mGApiClient = new GoogleApiClient.Builder(cordova.getActivity())
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:60: error: cannot access Context
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:60: error: cannot access Context
         mGApiClient = new GoogleApiClient.Builder(cordova.getActivity())
         ^
         class file for android.content.Context not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:72: error: package Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:72: error: package Build does not exist
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:72: error: package Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:72: error: package Build does not exist
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:77: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:77: error: cannot find symbol
         if (PackageManager.PERMISSION_DENIED == cordova.getActivity().checkSelfPermission(p)) {
         ^
         symbol:   variable PackageManager
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:77: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:77: error: cannot access Activity
         if (PackageManager.PERMISSION_DENIED == cordova.getActivity().checkSelfPermission(p)) {
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:90: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:90: error: cannot find symbol
         if (r == PackageManager.PERMISSION_DENIED) {
         ^
         symbol:   variable PackageManager
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:110: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:110: error: cannot find symbol
         Log.d(LocationUtils.APPTAG, "Location Services connected");
         ^
         symbol:   variable Log
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:123: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:123: error: cannot find symbol
         Log.i(LocationUtils.APPTAG,
         ^
         symbol:   variable Log
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:221: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:221: error: cannot find symbol
         JSONObject o = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:221: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:221: error: cannot find symbol
         JSONObject o = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:233: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:233: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:256: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:256: error: cannot find symbol
         JSONObject obj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:256: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:256: error: cannot find symbol
         JSONObject obj = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:261: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:261: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:279: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:279: error: cannot find symbol
         LocationManager lm = (LocationManager) this.cordova.getActivity().getSystemService(
         ^
         symbol:   class LocationManager
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:279: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:279: error: cannot find symbol
         LocationManager lm = (LocationManager) this.cordova.getActivity().getSystemService(
         ^
         symbol:   class LocationManager
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:280: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:280: error: cannot find symbol
         Context.LOCATION_SERVICE);
         ^
         symbol:   variable Context
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:282: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:282: error: cannot find symbol
         gps_enabled = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
         ^
         symbol:   variable LocationManager
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:301: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:301: error: cannot find symbol
         } catch (JSONException e) {
         ^
         symbol:   class JSONException
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:305: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:305: error: cannot find symbol
         Location last = LocationServices.FusedLocationApi
         ^
         symbol:   class Location
         location: class CordovaLocationServices
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:306: error: cannot access Location
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationServices.java:306: error: cannot access Location
         .getLastLocation(mGApiClient);
         ^
         class file for android.location.Location not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:55: error: cannot access Parcelable
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:55: error: cannot access Parcelable
         mLocationRequest = LocationRequest.create();
         ^
         class file for android.os.Parcelable not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:77: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:77: error: cannot find symbol
         Log.d(TAG, "The location has been updated!");
         ^
         symbol:   variable Log
         location: class CordovaLocationListener
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:167: error: cannot access PendingIntent
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/CordovaLocationListener.java:167: error: cannot access PendingIntent
         LocationServices.FusedLocationApi.requestLocationUpdates(
         ^
         class file for android.app.PendingIntent not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:53: error: package IntentSender does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:53: error: package IntentSender does not exist
         } catch (IntentSender.SendIntentException e) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:78: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:78: error: cannot find symbol
         Log.d(LocationUtils.APPTAG, "Google Play Services is available");
         ^
         symbol:   variable Log
         location: class GApiUtils
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:99: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/fr/louisbl/cordova/locationservices/GApiUtils.java:99: error: cannot find symbol
         Dialog errorDialog = GooglePlayServicesUtil.getErrorDialog(errorCode, mCordova.getActivity(), requestCode);
         ^
         symbol: class Dialog
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         66 errors
-        
-        > Task :app:processReleaseManifestForPackage
         
         FAILURE: Build failed with an exception.
         
@@ -442,10 +517,10 @@
         
         * Get more help at https://help.gradle.org
         
+        BUILD FAILED in 4s
+        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        88 actionable tasks: 88 executed
-        
-        BUILD FAILED in 5s
+        125 actionable tasks: 125 executed
         

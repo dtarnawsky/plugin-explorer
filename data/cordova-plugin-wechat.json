@@ -50,7 +50,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A cordova plugin, a JS version of Wechat SDK",
   "bugs": "https://github.com/xu-li/cordova-plugin-wechat/issues",
@@ -58,5 +60,5 @@
   "image": "https://avatars.githubusercontent.com/u/171665?v=4",
   "quality": 1889,
   "updated": "2023-03-18T01:37:23Z",
-  "downloads": 737
+  "downloads": 723
 }

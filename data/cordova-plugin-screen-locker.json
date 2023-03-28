@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/pengkobe/cordova-plugin-screen-locker.git",
   "published": "2022-06-14T00:45:58.690Z",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/8745334?v=4",
   "quality": 2,
   "updated": "2018-10-25T08:29:56Z",
-  "downloads": 173
+  "downloads": 187
 }

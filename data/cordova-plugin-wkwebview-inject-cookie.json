@@ -3,7 +3,9 @@
   "version": "1.1.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/CWBudde/cordova-plugin-wkwebview-inject-cookie.git",
   "author": "Christian-W. Budde <CWBudde@pcjv.de>",
@@ -48,5 +50,5 @@
   "image": "https://avatars.githubusercontent.com/u/4097562?v=4",
   "quality": 172,
   "updated": "2023-02-07T03:03:27Z",
-  "downloads": 3174
+  "downloads": 3096
 }

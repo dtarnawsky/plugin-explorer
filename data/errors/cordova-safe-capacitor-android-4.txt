@@ -6,11 +6,11 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-safe/src/android/conceal.gradle' line: 6
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-safe/src/android/conceal.gradle' line: 6
         
         * What went wrong:
         A problem occurred evaluating script.
-        > Could not find method compile() for arguments [com.facebook.conceal:conceal:1.0.0@aar, conceal_dgmhscsn6r67jlgmbthbu5kqo$_run_closure2$_closure4@b1ba579] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
+        > Could not find method compile() for arguments [com.facebook.conceal:conceal:1.0.0@aar, conceal_ailbnhuzmbwxtik13egfohsll$_run_closure2$_closure4@25018911] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
         
         * Try:
         > Run with --stacktrace option to get the stack trace.
@@ -19,5 +19,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 833ms
+        BUILD FAILED in 699ms
         

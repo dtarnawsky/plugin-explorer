@@ -1,0 +1,85 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:30: error: package android.support.v4.content.pm does not exist
+import android.support.v4.content.pm.ShortcutInfoCompat;
+                                    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:31: error: package android.support.v4.content.pm does not exist
+import android.support.v4.content.pm.ShortcutManagerCompat;
+                                    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:32: error: cannot find symbol
+import android.support.v4.graphics.drawable.IconCompat;
+                                           ^
+  symbol:   class IconCompat
+  location: package android.support.v4.graphics.drawable
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:337: error: cannot find symbol
+    private ShortcutInfoCompat buildPinnedShortcut(
+            ^
+  symbol:   class ShortcutInfoCompat
+  location: class ShortcutsPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:107: error: cannot find symbol
+        return ShortcutManagerCompat.isRequestPinShortcutSupported(context);
+               ^
+  symbol:   variable ShortcutManagerCompat
+  location: class ShortcutsPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
+        ShortcutInfoCompat.Builder builder = new ShortcutInfoCompat.Builder(context, shortcutId);
+                          ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
+        ShortcutInfoCompat.Builder builder = new ShortcutInfoCompat.Builder(context, shortcutId);
+                                                                   ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:366: error: cannot find symbol
+        IconCompat icon;
+        ^
+  symbol:   class IconCompat
+  location: class ShortcutsPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:370: error: cannot find symbol
+            icon = IconCompat.createWithBitmap(decodeBase64Bitmap(iconBitmap));
+                   ^
+  symbol:   variable IconCompat
+  location: class ShortcutsPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:376: error: cannot find symbol
+            icon = IconCompat.createWithResource(context, applicationInfo.icon);
+                   ^
+  symbol:   variable IconCompat
+  location: class ShortcutsPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:398: error: cannot find symbol
+        ShortcutInfoCompat shortcut = buildPinnedShortcut(args.optJSONObject(0));
+        ^
+  symbol:   class ShortcutInfoCompat
+  location: class ShortcutsPlugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:400: error: cannot find symbol
+        return ShortcutManagerCompat.requestPinShortcut(context, shortcut, null);
+               ^
+  symbol:   variable ShortcutManagerCompat
+  location: class ShortcutsPlugin
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+12 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

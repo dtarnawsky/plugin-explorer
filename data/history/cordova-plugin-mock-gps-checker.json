@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "1.0.2",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "1.0.2",
+      "success": true
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "1.0.2",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-mock-gps-checker"
+}

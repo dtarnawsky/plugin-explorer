@@ -58,59 +58,56 @@
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
-        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
         > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:processReleaseManifest
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
         > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
@@ -123,56 +120,76 @@
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :app:processReleaseManifestForPackage
+        > Task :capacitor-keyboard:bundleLibCompileToJarRelease
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
+        > Task :app:desugarReleaseFileDependencies
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:30: error: package android.support.v4.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:30: error: package android.support.v4.content.pm does not exist
         import android.support.v4.content.pm.ShortcutInfoCompat;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:31: error: package android.support.v4.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:31: error: package android.support.v4.content.pm does not exist
         import android.support.v4.content.pm.ShortcutManagerCompat;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:32: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:32: error: cannot find symbol
         import android.support.v4.graphics.drawable.IconCompat;
         ^
         symbol:   class IconCompat
         location: package android.support.v4.graphics.drawable
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:337: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:337: error: cannot find symbol
         private ShortcutInfoCompat buildPinnedShortcut(
         ^
         symbol:   class ShortcutInfoCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:107: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:107: error: cannot find symbol
         return ShortcutManagerCompat.isRequestPinShortcutSupported(context);
         ^
         symbol:   variable ShortcutManagerCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
         ShortcutInfoCompat.Builder builder = new ShortcutInfoCompat.Builder(context, shortcutId);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:350: error: package ShortcutInfoCompat does not exist
         ShortcutInfoCompat.Builder builder = new ShortcutInfoCompat.Builder(context, shortcutId);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:366: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:366: error: cannot find symbol
         IconCompat icon;
         ^
         symbol:   class IconCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:370: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:370: error: cannot find symbol
         icon = IconCompat.createWithBitmap(decodeBase64Bitmap(iconBitmap));
         ^
         symbol:   variable IconCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:376: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:376: error: cannot find symbol
         icon = IconCompat.createWithResource(context, applicationInfo.icon);
         ^
         symbol:   variable IconCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:398: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:398: error: cannot find symbol
         ShortcutInfoCompat shortcut = buildPinnedShortcut(args.optJSONObject(0));
         ^
         symbol:   class ShortcutInfoCompat
         location: class ShortcutsPlugin
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:400: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/shortcuts/ShortcutsPlugin.java:400: error: cannot find symbol
         return ShortcutManagerCompat.requestPinShortcut(context, shortcut, null);
         ^
         symbol:   variable ShortcutManagerCompat
@@ -192,6 +209,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 4s
-        74 actionable tasks: 74 executed
+        BUILD FAILED in 2s
+        90 actionable tasks: 90 executed
         

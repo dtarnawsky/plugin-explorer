@@ -1,0 +1,251 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:15: error: package android.support.v4.media does not exist
+import android.support.v4.media.MediaMetadataCompat;
+                               ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:16: error: package android.support.v4.media.session does not exist
+import android.support.v4.media.session.MediaSessionCompat;
+                                       ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:17: error: package android.support.v4.media.session does not exist
+import android.support.v4.media.session.PlaybackStateCompat;
+                                       ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:45: error: cannot find symbol
+	private MediaSessionCompat mediaSessionCompat;
+	        ^
+  symbol:   class MediaSessionCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:5: error: package android.support.v4.media.session does not exist
+import android.support.v4.media.session.MediaSessionCompat;
+                                       ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:10: error: package MediaSessionCompat does not exist
+public class MediaSessionCallback extends MediaSessionCompat.Callback {
+                                                            ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:103: error: cannot find symbol
+		this.mediaSessionCompat = new MediaSessionCompat(context, "cordova-music-controls-media-session", null, this.mediaButtonPendingIntent);
+		                              ^
+  symbol:   class MediaSessionCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:104: error: cannot find symbol
+		this.mediaSessionCompat.setFlags(MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS | MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS);
+		                                 ^
+  symbol:   variable MediaSessionCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:104: error: cannot find symbol
+		this.mediaSessionCompat.setFlags(MediaSessionCompat.FLAG_HANDLES_MEDIA_BUTTONS | MediaSessionCompat.FLAG_HANDLES_TRANSPORT_CONTROLS);
+		                                                                                 ^
+  symbol:   variable MediaSessionCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:107: error: cannot find symbol
+		setMediaPlaybackState(PlaybackStateCompat.STATE_PAUSED);
+		                      ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:144: error: package MediaMetadataCompat does not exist
+			 final MediaMetadataCompat.Builder metadataBuilder = new MediaMetadataCompat.Builder();
+			                          ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:144: error: package MediaMetadataCompat does not exist
+			 final MediaMetadataCompat.Builder metadataBuilder = new MediaMetadataCompat.Builder();
+			                                                                            ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:152: error: cannot find symbol
+					metadataBuilder.putString(MediaMetadataCompat.METADATA_KEY_TITLE, infos.track);
+					                          ^
+  symbol: variable MediaMetadataCompat
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:154: error: cannot find symbol
+					metadataBuilder.putString(MediaMetadataCompat.METADATA_KEY_ARTIST, infos.artist);
+					                          ^
+  symbol: variable MediaMetadataCompat
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:156: error: cannot find symbol
+					metadataBuilder.putString(MediaMetadataCompat.METADATA_KEY_ALBUM, infos.album);
+					                          ^
+  symbol: variable MediaMetadataCompat
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:160: error: cannot find symbol
+						metadataBuilder.putBitmap(MediaMetadataCompat.METADATA_KEY_ALBUM_ART, art);
+						                          ^
+  symbol: variable MediaMetadataCompat
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:161: error: cannot find symbol
+						metadataBuilder.putBitmap(MediaMetadataCompat.METADATA_KEY_ART, art);
+						                          ^
+  symbol: variable MediaMetadataCompat
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:168: error: cannot find symbol
+						setMediaPlaybackState(PlaybackStateCompat.STATE_PLAYING);
+						                      ^
+  symbol: variable PlaybackStateCompat
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:170: error: cannot find symbol
+						setMediaPlaybackState(PlaybackStateCompat.STATE_PAUSED);
+						                      ^
+  symbol: variable PlaybackStateCompat
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:182: error: cannot find symbol
+				setMediaPlaybackState(PlaybackStateCompat.STATE_PLAYING);
+				                      ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:184: error: cannot find symbol
+				setMediaPlaybackState(PlaybackStateCompat.STATE_PAUSED);
+				                      ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:225: error: package PlaybackStateCompat does not exist
+		PlaybackStateCompat.Builder playbackstateBuilder = new PlaybackStateCompat.Builder();
+		                   ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:225: error: package PlaybackStateCompat does not exist
+		PlaybackStateCompat.Builder playbackstateBuilder = new PlaybackStateCompat.Builder();
+		                                                                          ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:226: error: cannot find symbol
+		if( state == PlaybackStateCompat.STATE_PLAYING ) {
+		             ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:227: error: cannot find symbol
+			playbackstateBuilder.setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE | PlaybackStateCompat.ACTION_PAUSE | PlaybackStateCompat.ACTION_SKIP_TO_NEXT | PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS |
+			                                ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:227: error: cannot find symbol
+			playbackstateBuilder.setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE | PlaybackStateCompat.ACTION_PAUSE | PlaybackStateCompat.ACTION_SKIP_TO_NEXT | PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS |
+			                                                                        ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:227: error: cannot find symbol
+			playbackstateBuilder.setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE | PlaybackStateCompat.ACTION_PAUSE | PlaybackStateCompat.ACTION_SKIP_TO_NEXT | PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS |
+			                                                                                                           ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:227: error: cannot find symbol
+			playbackstateBuilder.setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE | PlaybackStateCompat.ACTION_PAUSE | PlaybackStateCompat.ACTION_SKIP_TO_NEXT | PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS |
+			                                                                                                                                                     ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:228: error: cannot find symbol
+				PlaybackStateCompat.ACTION_PLAY_FROM_MEDIA_ID |
+				^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:229: error: cannot find symbol
+				PlaybackStateCompat.ACTION_PLAY_FROM_SEARCH);
+				^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:230: error: cannot find symbol
+			playbackstateBuilder.setState(state, PlaybackStateCompat.PLAYBACK_POSITION_UNKNOWN, 1.0f);
+			                                     ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:232: error: cannot find symbol
+			playbackstateBuilder.setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE | PlaybackStateCompat.ACTION_PLAY | PlaybackStateCompat.ACTION_SKIP_TO_NEXT | PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS |
+			                                ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:232: error: cannot find symbol
+			playbackstateBuilder.setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE | PlaybackStateCompat.ACTION_PLAY | PlaybackStateCompat.ACTION_SKIP_TO_NEXT | PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS |
+			                                                                        ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:232: error: cannot find symbol
+			playbackstateBuilder.setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE | PlaybackStateCompat.ACTION_PLAY | PlaybackStateCompat.ACTION_SKIP_TO_NEXT | PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS |
+			                                                                                                          ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:232: error: cannot find symbol
+			playbackstateBuilder.setActions(PlaybackStateCompat.ACTION_PLAY_PAUSE | PlaybackStateCompat.ACTION_PLAY | PlaybackStateCompat.ACTION_SKIP_TO_NEXT | PlaybackStateCompat.ACTION_SKIP_TO_PREVIOUS |
+			                                                                                                                                                    ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:233: error: cannot find symbol
+				PlaybackStateCompat.ACTION_PLAY_FROM_MEDIA_ID |
+				^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:234: error: cannot find symbol
+				PlaybackStateCompat.ACTION_PLAY_FROM_SEARCH);
+				^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MusicControls.java:235: error: cannot find symbol
+			playbackstateBuilder.setState(state, PlaybackStateCompat.PLAYBACK_POSITION_UNKNOWN, 0);
+			                                     ^
+  symbol:   variable PlaybackStateCompat
+  location: class MusicControls
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:18: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:20: error: cannot find symbol
+    super.onPlay();
+    ^
+  symbol:   variable super
+  location: class MediaSessionCallback
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:27: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:29: error: cannot find symbol
+    super.onPause();
+    ^
+  symbol:   variable super
+  location: class MediaSessionCallback
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:36: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:38: error: cannot find symbol
+    super.onSkipToNext();
+    ^
+  symbol:   variable super
+  location: class MediaSessionCallback
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:45: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:47: error: cannot find symbol
+    super.onSkipToPrevious();
+    ^
+  symbol:   variable super
+  location: class MediaSessionCallback
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:54: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:56: error: cannot find symbol
+    super.onPlayFromMediaId(mediaId, extras);
+    ^
+  symbol:   variable super
+  location: class MediaSessionCallback
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:59: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:64: error: cannot find symbol
+      return super.onMediaButtonEvent(mediaButtonIntent);
+             ^
+  symbol:   variable super
+  location: class MediaSessionCallback
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/homerours/musiccontrols/MediaSessionCallback.java:131: error: cannot find symbol
+          return super.onMediaButtonEvent(mediaButtonIntent);
+                 ^
+  symbol:   variable super
+  location: class MediaSessionCallback
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+51 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

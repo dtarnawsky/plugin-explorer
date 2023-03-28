@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/king2088/cordova-plugin-usbserialport.git",
   "author": "Tony Tao",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/20067250?v=4",
   "quality": 106,
   "updated": "2023-02-28T03:43:18Z",
-  "downloads": 13
+  "downloads": 15
 }

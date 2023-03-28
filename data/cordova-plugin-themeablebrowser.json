@@ -32,7 +32,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova ThemeableBrowser Plugin",
   "bugs": "https://github.com/initialxy/cordova-plugin-themeablebrowser/issues",
@@ -40,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/1842864?v=4",
   "quality": 649,
   "updated": "2022-10-04T18:15:41Z",
-  "downloads": 242
+  "downloads": 233
 }

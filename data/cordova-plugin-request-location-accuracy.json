@@ -3,7 +3,9 @@
   "version": "2.3.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/dpa99c/cordova-plugin-request-location-accuracy.git",
   "author": "Dave Alden",
@@ -46,5 +48,5 @@
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 262,
   "updated": "2022-11-14T11:24:06Z",
-  "downloads": 13653
+  "downloads": 14201
 }

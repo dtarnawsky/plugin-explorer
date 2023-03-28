@@ -64,10 +64,10 @@
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/com/github/barteksc/android-pdf-viewer/2.8.2/android-pdf-viewer-2.8.2.pom
         - https://repo.maven.apache.org/maven2/com/github/barteksc/android-pdf-viewer/2.8.2/android-pdf-viewer-2.8.2.pom
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/android-pdf-viewer-2.8.2.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/android-pdf-viewer.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/android-pdf-viewer-2.8.2.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/android-pdf-viewer.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/android-pdf-viewer-2.8.2.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/android-pdf-viewer.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/android-pdf-viewer-2.8.2.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/android-pdf-viewer.jar
         Required by:
         project :app
         project :app > project :capacitor-cordova-android-plugins

@@ -3,7 +3,8 @@
   "version": "2.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/auctifera-josed/starprnt.git",
   "author": "Jose Angarita / Ruben Casas",
@@ -23,7 +24,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "noop"
   ],
   "description": "StarPRNT Cordova Plugin for Star Micronics Bluetooth/LAN printers",
   "bugs": "https://github.com/auctifera-josed/starprnt/issues",
@@ -31,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/16018027?v=4",
   "quality": 204,
   "updated": "2022-05-19T23:13:02Z",
-  "downloads": 1644
+  "downloads": 1684
 }

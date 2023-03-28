@@ -3,7 +3,9 @@
   "version": "0.0.26",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/agomezmoron/cordova-save-image-gallery.git",
   "author": "Alejandro Gomez <agommor@gmail.com> (http://github.com/agomezmoron)",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/4848998?v=4",
   "quality": 64,
   "updated": "2022-08-24T10:20:20Z",
-  "downloads": 117
+  "downloads": 122
 }

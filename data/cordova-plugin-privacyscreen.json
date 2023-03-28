@@ -3,7 +3,9 @@
   "version": "0.4.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/devgeeks/PrivacyScreenPlugin.git",
   "author": "Tommy-Carlos Willaims <tommy@devgeeks.org>",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/554999?v=4",
   "quality": 374,
   "updated": "2022-12-20T16:28:32Z",
-  "downloads": 2058
+  "downloads": 2163
 }

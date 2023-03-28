@@ -56,117 +56,116 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-app:processReleaseManifest
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-android:javaPreCompileRelease
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
+        > Task :app:mapReleaseSourceSetPaths
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-app:compileReleaseJavaWithJavac
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :app:bundleReleaseResources
         > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :app:checkReleaseDuplicateClasses
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:34: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:34: error: cannot find symbol
         import android.support.v4.app.NotificationCompat;
         ^
         symbol:   class NotificationCompat
         location: package android.support.v4.app
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:30: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:30: error: cannot find symbol
         import android.support.v4.app.NotificationCompat;
         ^
         symbol:   class NotificationCompat
         location: package android.support.v4.app
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:155: error: package NotificationCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:155: error: package NotificationCompat does not exist
         private void applyDeleteReceiver(NotificationCompat.Builder builder) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:177: error: package NotificationCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:177: error: package NotificationCompat does not exist
         private void applyContentReceiver(NotificationCompat.Builder builder) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:65: error: package NotificationCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:65: error: package NotificationCompat does not exist
         private final NotificationCompat.Builder builder;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:81: error: package NotificationCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Notification.java:81: error: package NotificationCompat does not exist
         NotificationCompat.Builder builder, Class<?> receiver) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:119: error: package NotificationCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:119: error: package NotificationCompat does not exist
         NotificationCompat.BigTextStyle style;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:120: error: package NotificationCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:120: error: package NotificationCompat does not exist
         NotificationCompat.Builder builder;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:122: error: package NotificationCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:122: error: package NotificationCompat does not exist
         style = new NotificationCompat.BigTextStyle()
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:125: error: package NotificationCompat does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/notification/Builder.java:125: error: package NotificationCompat does not exist
         builder = new NotificationCompat.Builder(context)
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/localnotification/LocalNotification.java:564: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/localnotification/LocalNotification.java:564: error: cannot find symbol
         webView.evaluateJavascript(js, null);
         ^
         symbol:   method evaluateJavascript(String,<null>)
         location: variable webView of type CordovaWebView
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/localnotification/LocalNotification.java:561: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/de/appplant/cordova/plugin/localnotification/LocalNotification.java:561: error: cannot find symbol
         webView.post(new Runnable(){
         ^
         symbol:   method post(<anonymous Runnable>)
@@ -187,5 +186,5 @@
         * Get more help at https://help.gradle.org
         
         BUILD FAILED in 3s
-        76 actionable tasks: 76 executed
+        75 actionable tasks: 75 executed
         

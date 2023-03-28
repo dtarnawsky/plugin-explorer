@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/moust/cordova-plugin-videoplayer.git",
   "author": "Quentin Aupetit",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/1053102?v=4",
   "quality": 384,
   "updated": "2023-03-06T09:04:23Z",
-  "downloads": 199
+  "downloads": 200
 }

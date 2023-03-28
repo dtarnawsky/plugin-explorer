@@ -3,7 +3,9 @@
   "version": "0.2.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/vilic/cordova-plugin-tts.git",
   "author": "VILIC VANE",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/970430?v=4",
   "quality": 500,
   "updated": "2023-03-03T12:50:13Z",
-  "downloads": 3120
+  "downloads": 3099
 }

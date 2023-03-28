@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "0.11.0",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-local-notification-fixed"
+}

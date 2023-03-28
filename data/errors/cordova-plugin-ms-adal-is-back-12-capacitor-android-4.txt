@@ -6,11 +6,11 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-ms-adal-is-back-12/src/android/adal.gradle' line: 2
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-ms-adal-is-back-12/src/android/adal.gradle' line: 2
         
         * What went wrong:
         A problem occurred evaluating script.
-        > Could not find method compile() for arguments [com.microsoft.aad:adal:1.16.3, adal_b8qdx77cbf8y4unl4bfqng0sn$_run_closure1$_closure3@56e72353] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
+        > Could not find method compile() for arguments [com.microsoft.aad:adal:1.16.3, adal_czakzkzb5rxv14c5emuc9ll2m$_run_closure1$_closure3@2a375505] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
         
         * Try:
         > Run with --stacktrace option to get the stack trace.
@@ -19,5 +19,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 839ms
+        BUILD FAILED in 632ms
         

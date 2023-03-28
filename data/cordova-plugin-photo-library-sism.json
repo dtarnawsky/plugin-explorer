@@ -3,7 +3,8 @@
   "version": "2.2.99",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/xmarkclx/cordova-plugin-photo-library-sism.git",
   "author": "Roman Viskin <npm@terikon.com> (http://il.linkedin.com/in/romanviskin)",
@@ -27,7 +28,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Plugin that saves photos to the gallery / camera roll. Actually updated so it almost always works.",
   "bugs": "https://github.com/terikon/cordova-plugin-photo-library-sism/issues",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/5523580?v=4",
   "quality": 33,
   "updated": "2022-07-22T21:10:54Z",
-  "downloads": 367
+  "downloads": 365
 }

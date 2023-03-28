@@ -2,7 +2,9 @@
   "name": "cordova-plugin-marketingcloudsdk",
   "version": "7.5.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/salesforce-marketingcloud/MC-Cordova-Plugin.git",
   "author": "Salesforce Marketing Cloud",
@@ -35,12 +37,11 @@
     "marketingcloudsdk"
   ],
   "fails": [
-    "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
   "description": "A Cordova Plugin to access the native Salesforce Marketing Cloud MobilePush SDKs",
   "bugs": "https://github.com/salesforce-marketingcloud/MC-Cordova-Plugin/issues",
   "quality": null,
-  "downloads": 1216
+  "downloads": 1224
 }

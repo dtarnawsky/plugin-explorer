@@ -3,7 +3,9 @@
   "version": "1.4.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/becvert/cordova-plugin-zeroconf.git",
   "author": "Sylvain Bréjeon (https://github.com/becvert)",
@@ -55,5 +57,5 @@
   "image": "https://avatars.githubusercontent.com/u/1422417?v=4",
   "quality": 245,
   "updated": "2022-12-28T16:06:11Z",
-  "downloads": 3540
+  "downloads": 3335
 }

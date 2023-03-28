@@ -40,7 +40,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "android ios mediaPicker support selection of multiple image and video",
   "bugs": "https://github.com/DmcSDK/cordova-plugin-mediaPicker/issues",

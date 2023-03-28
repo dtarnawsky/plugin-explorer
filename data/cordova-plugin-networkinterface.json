@@ -3,7 +3,9 @@
   "version": "2.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/salbahra/cordova-plugin-networkinterface.git",
   "author": "Samer Albahra, tombolaLtd",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/4157206?v=4",
   "quality": 225,
   "updated": "2023-03-06T09:04:20Z",
-  "downloads": 8444
+  "downloads": 8934
 }

@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin-ymchat",
   "version": "2.3.0",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/yellowmessenger/cordova-plugin-ymchat.git",
   "author": "Purushottam",
   "published": "2023-02-15T09:12:42.529Z",
@@ -32,13 +34,11 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin to integrate yellow.ai chatbot",
   "bugs": "https://github.com/yellowmessenger/cordova-plugin-ymchat/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/10415100?v=4",
-  "quality": 101,
-  "updated": "2022-01-10T07:44:43Z",
+  "quality": null,
   "downloads": 88
 }

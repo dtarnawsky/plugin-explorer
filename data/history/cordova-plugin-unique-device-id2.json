@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "2.0.0",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "2.0.0",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "2.0.0",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "2.0.0",
+      "failure": "cap-sync",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-unique-device-id2"
+}

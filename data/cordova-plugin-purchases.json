@@ -2,7 +2,8 @@
   "name": "cordova-plugin-purchases",
   "version": "3.12.1",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/revenuecat/cordova-plugin-purchases.git",
   "author": "RevenueCat, Inc.",
@@ -93,13 +94,15 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "noop"
   ],
   "description": "Purchases Cordova Plugin",
   "bugs": "https://github.com/revenuecat/cordova-plugin-purchases/issues",
-  "stars": 56,
+  "stars": 57,
   "image": "https://avatars.githubusercontent.com/u/33013347?v=4",
-  "quality": 171,
-  "updated": "2023-03-01T16:23:47Z",
-  "downloads": 7581
+  "quality": 172,
+  "updated": "2023-03-28T09:34:05Z",
+  "downloads": 7655
 }

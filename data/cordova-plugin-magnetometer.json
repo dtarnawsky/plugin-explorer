@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/sdesalas/cordova-plugin-magnetometer",
   "author": "Rameez Raja / Steven de Salas",
@@ -31,6 +33,9 @@
   ],
   "description": "Cordova Magnetometer Plugin",
   "bugs": "https://github.com/sdesalas/cordova-plugin-magnetometer/issues",
-  "quality": null,
-  "downloads": 22
+  "quality": 25,
+  "downloads": 22,
+  "stars": 13,
+  "image": "https://avatars.githubusercontent.com/u/534414?v=4",
+  "updated": "2021-02-20T17:54:27Z"
 }

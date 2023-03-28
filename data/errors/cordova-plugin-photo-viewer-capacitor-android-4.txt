@@ -6,7 +6,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-photo-viewer/src/android/photoviewer.gradle' line: 6
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-photo-viewer/src/android/photoviewer.gradle' line: 6
         
         * What went wrong:
         A problem occurred evaluating script.
@@ -19,11 +19,11 @@
         
         * Get more help at https://help.gradle.org
         
+        BUILD FAILED in 590ms
+        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
-        
-        BUILD FAILED in 1s
         

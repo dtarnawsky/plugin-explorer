@@ -1,0 +1,480 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:31: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:32: error: package android.support.v4.print does not exist
+import android.support.v4.print.PrintHelper;
+                               ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:56: error: package PrintHelper does not exist
+    private final @NonNull PrintHelper.OnPrintFinishCallback callback;
+                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:68: error: package PrintHelper does not exist
+                  @NonNull PrintHelper.OnPrintFinishCallback callback)
+                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintProxy.java:30: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintProxy.java:31: error: package android.support.v4.print does not exist
+import android.support.v4.print.PrintHelper;
+                               ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintProxy.java:42: error: package PrintHelper does not exist
+    private final @NonNull PrintHelper.OnPrintFinishCallback callback;
+                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintProxy.java:51: error: package PrintHelper does not exist
+                @NonNull PrintHelper.OnPrintFinishCallback callback)
+                                    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:26: error: package android.support.v4.print does not exist
+import android.support.v4.print.PrintHelper;
+                               ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:38: error: package android.support.v4.print does not exist
+import static android.support.v4.print.PrintHelper.ORIENTATION_LANDSCAPE;
+                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:38: error: static import only from classes and interfaces
+import static android.support.v4.print.PrintHelper.ORIENTATION_LANDSCAPE;
+^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:39: error: package android.support.v4.print does not exist
+import static android.support.v4.print.PrintHelper.ORIENTATION_PORTRAIT;
+                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:39: error: static import only from classes and interfaces
+import static android.support.v4.print.PrintHelper.ORIENTATION_PORTRAIT;
+^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:40: error: package android.support.v4.print does not exist
+import static android.support.v4.print.PrintHelper.SCALE_MODE_FILL;
+                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:40: error: static import only from classes and interfaces
+import static android.support.v4.print.PrintHelper.SCALE_MODE_FILL;
+^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:41: error: package android.support.v4.print does not exist
+import static android.support.v4.print.PrintHelper.SCALE_MODE_FIT;
+                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:41: error: static import only from classes and interfaces
+import static android.support.v4.print.PrintHelper.SCALE_MODE_FIT;
+^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:145: error: cannot find symbol
+    void decoratePrintHelper (@NonNull PrintHelper printer)
+                                       ^
+  symbol:   class PrintHelper
+  location: class PrintOptions
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:29: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:30: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:30: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:31: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:32: error: package android.support.v4.print does not exist
+import android.support.v4.print.PrintHelper;
+                               ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/Printer.java:24: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/Printer.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:47: error: cannot find symbol
+    private final @NonNull String jobName;
+                   ^
+  symbol:   class NonNull
+  location: class PrintAdapter
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:53: error: cannot find symbol
+    private final @NonNull InputStream input;
+                   ^
+  symbol:   class NonNull
+  location: class PrintAdapter
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:56: error: cannot find symbol
+    private final @NonNull PrintHelper.OnPrintFinishCallback callback;
+                   ^
+  symbol:   class NonNull
+  location: class PrintAdapter
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:66: error: cannot find symbol
+    PrintAdapter (@NonNull String jobName, int pageCount,
+                   ^
+  symbol:   class NonNull
+  location: class PrintAdapter
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:67: error: cannot find symbol
+                  @NonNull InputStream input,
+                   ^
+  symbol:   class NonNull
+  location: class PrintAdapter
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintAdapter.java:68: error: cannot find symbol
+                  @NonNull PrintHelper.OnPrintFinishCallback callback)
+                   ^
+  symbol:   class NonNull
+  location: class PrintAdapter
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintProxy.java:39: error: cannot find symbol
+    private final @NonNull PrintDocumentAdapter delegate;
+                   ^
+  symbol:   class NonNull
+  location: class PrintProxy
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintProxy.java:42: error: cannot find symbol
+    private final @NonNull PrintHelper.OnPrintFinishCallback callback;
+                   ^
+  symbol:   class NonNull
+  location: class PrintProxy
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintProxy.java:50: error: cannot find symbol
+    PrintProxy (@NonNull PrintDocumentAdapter adapter,
+                 ^
+  symbol:   class NonNull
+  location: class PrintProxy
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintProxy.java:51: error: cannot find symbol
+                @NonNull PrintHelper.OnPrintFinishCallback callback)
+                 ^
+  symbol:   class NonNull
+  location: class PrintProxy
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:49: error: cannot find symbol
+    private final @NonNull JSONObject spec;
+                   ^
+  symbol:   class NonNull
+  location: class PrintOptions
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:56: error: cannot find symbol
+    PrintOptions (@NonNull JSONObject spec)
+                   ^
+  symbol:   class NonNull
+  location: class PrintOptions
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:64: error: cannot find symbol
+    @NonNull String getJobName()
+     ^
+  symbol:   class NonNull
+  location: class PrintOptions
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:89: error: cannot find symbol
+    @NonNull PrintAttributes toPrintAttributes()
+     ^
+  symbol:   class NonNull
+  location: class PrintOptions
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintOptions.java:145: error: cannot find symbol
+    void decoratePrintHelper (@NonNull PrintHelper printer)
+                               ^
+  symbol:   class NonNull
+  location: class PrintOptions
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:44: error: cannot find symbol
+    private final @NonNull PrintIO io;
+                   ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:51: error: cannot find symbol
+    private PrintContent (@NonNull Context ctx) {
+                           ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:63: error: cannot find symbol
+    static ContentType getContentType (@Nullable String path,
+                                        ^
+  symbol:   class Nullable
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:64: error: cannot find symbol
+                                       @NonNull Context context)
+                                        ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:62: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:77: error: cannot find symbol
+    private ContentType getContentType (@Nullable String path)
+                                         ^
+  symbol:   class Nullable
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:76: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:136: error: cannot find symbol
+    static BufferedInputStream open (@NonNull String path,
+                                      ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:137: error: cannot find symbol
+                                     @NonNull Context context)
+                                      ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:135: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:150: error: cannot find symbol
+    private BufferedInputStream open (@NonNull String path)
+                                       ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:149: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:183: error: cannot find symbol
+    static Bitmap decode (@NonNull String path, @NonNull Context context)
+                           ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:183: error: cannot find symbol
+    static Bitmap decode (@NonNull String path, @NonNull Context context)
+                                                 ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:182: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:196: error: cannot find symbol
+    private Bitmap decode (@NonNull String path)
+                            ^
+  symbol:   class NonNull
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintContent.java:195: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintContent
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:47: error: cannot find symbol
+    private final @NonNull Context context;
+                   ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:54: error: cannot find symbol
+    PrintIO (@NonNull Context ctx)
+              ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:68: error: cannot find symbol
+    static void copy (@NonNull InputStream input,
+                       ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:69: error: cannot find symbol
+                      @NonNull OutputStream output) throws IOException
+                       ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:90: error: cannot find symbol
+    static void close (@NonNull Closeable stream)
+                        ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:107: error: cannot find symbol
+    InputStream openFile (@NonNull String path)
+                           ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:106: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:126: error: cannot find symbol
+    Bitmap decodeFile (@NonNull String path)
+                        ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:125: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:141: error: cannot find symbol
+    InputStream openAsset (@NonNull String path)
+                            ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:140: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:160: error: cannot find symbol
+    Bitmap decodeAsset (@NonNull String path)
+                         ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:159: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:182: error: cannot find symbol
+    InputStream openResource (@NonNull String path)
+                               ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:181: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:198: error: cannot find symbol
+    Bitmap decodeResource (@NonNull String path)
+                            ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:197: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:214: error: cannot find symbol
+    InputStream openBase64 (@NonNull String path)
+                             ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:213: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:230: error: cannot find symbol
+    Bitmap decodeBase64 (@NonNull String path)
+                          ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:229: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintIO.java:243: error: cannot find symbol
+    private int getResId (@NonNull String resPath)
+                           ^
+  symbol:   class NonNull
+  location: class PrintIO
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:54: error: cannot find symbol
+    private final @NonNull Context context;
+                   ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:57: error: cannot find symbol
+    private @Nullable WebView view;
+             ^
+  symbol:   class Nullable
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:64: error: cannot find symbol
+    PrintManager (@NonNull Context context)
+                   ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:76: error: cannot find symbol
+    boolean canPrintItem (@Nullable String item)
+                           ^
+  symbol:   class Nullable
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:91: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:117: error: cannot find symbol
+    void print (@Nullable String content, @NonNull JSONObject settings,
+                 ^
+  symbol:   class Nullable
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:117: error: cannot find symbol
+    void print (@Nullable String content, @NonNull JSONObject settings,
+                                           ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:118: error: cannot find symbol
+                @NonNull WebView view, @NonNull OnPrintFinishCallback callback)
+                 ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:118: error: cannot find symbol
+                @NonNull WebView view, @NonNull OnPrintFinishCallback callback)
+                                        ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:149: error: cannot find symbol
+    private void printHtml (@Nullable String content,
+                             ^
+  symbol:   class Nullable
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:150: error: cannot find symbol
+                            @NonNull JSONObject settings,
+                             ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:151: error: cannot find symbol
+                            @NonNull OnPrintFinishCallback callback)
+                             ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:163: error: cannot find symbol
+    private void printText (@Nullable String content,
+                             ^
+  symbol:   class Nullable
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:164: error: cannot find symbol
+                            @NonNull JSONObject settings,
+                             ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:165: error: cannot find symbol
+                            @NonNull OnPrintFinishCallback callback)
+                             ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:178: error: cannot find symbol
+    private void printContent (@Nullable String content, @NonNull String mimeType,
+                                ^
+  symbol:   class Nullable
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:178: error: cannot find symbol
+    private void printContent (@Nullable String content, @NonNull String mimeType,
+                                                          ^
+  symbol:   class NonNull
+  location: class PrintManager
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/de/appplant/cordova/plugin/printer/PrintManager.java:179: error: cannot find symbol
+                               @NonNull JSONObject settings,
+                                ^
+  symbol:   class NonNull
+  location: class PrintManager
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

@@ -56,74 +56,74 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-status-bar:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :app:mergeReleaseResources
-        > Task :app:processReleaseMainManifest
-        > Task :app:mapReleaseSourceSetPaths
-        > Task :app:processReleaseManifest
-        > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :app:bundleReleaseResources
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-haptics:generateReleaseRFile
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-app:compileReleaseJavaWithJavac
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseRFile
         > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
@@ -133,57 +133,53 @@
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata
-        > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
-        > Task :capacitor-haptics:bundleLibCompileToJarRelease
-        > Task :capacitor-keyboard:bundleLibCompileToJarRelease
         > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
-        > Task :app:checkReleaseAarMetadata
-        > Task :app:desugarReleaseFileDependencies
+        > Task :capacitor-app:bundleLibCompileToJarRelease
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatCordova.java:224: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatCordova.java:224: error: cannot find symbol
         ymChatService.registerDevice(apiKey, result);
         ^
         symbol:   variable result
         location: class YmChatCordova
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatCordova.java:232: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatCordova.java:232: error: cannot find symbol
         ymChatService.getUnreadMessagesCount(result);
         ^
         symbol:   variable result
         location: class YmChatCordova
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:110: error: method unlinkDeviceToken in class YMChat cannot be applied to given types;
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:110: error: method unlinkDeviceToken in class YMChat cannot be applied to given types;
         ymChat.unlinkDeviceToken(apiKey, ymChat.config, new YellowCallback() {
         ^
         required: String,String,String,YellowCallback
         found: String,YMConfig,<anonymous YellowCallback>
         reason: actual and formal argument lists differ in length
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:130: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:130: error: cannot find symbol
         ymChat.registerDevice(apiKey, ymChat.config, new YellowCallback() {
         ^
         symbol:   method registerDevice(String,YMConfig,<anonymous YellowCallback>)
         location: variable ymChat of type YMChat
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:150: error: <anonymous com.yellow.ai.ymchat.YmChatService$3> is not abstract and does not override abstract method success() in YellowCallback
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:150: error: <anonymous com.yellow.ai.ymchat.YmChatService$3> is not abstract and does not override abstract method success() in YellowCallback
         ymChat.getUnreadMessagesCount(ymChat.config, new YellowCallback() {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:151: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:151: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:153: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:153: error: cannot find symbol
         YellowUnreadMessageResponse response = (YellowUnreadMessageResponse) data;
         ^
         symbol: class YellowUnreadMessageResponse
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:153: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:153: error: cannot find symbol
         YellowUnreadMessageResponse response = (YellowUnreadMessageResponse) data;
         ^
         symbol: class YellowUnreadMessageResponse
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:150: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/yellow/ai/ymchat/YmChatService.java:150: error: cannot find symbol
         ymChat.getUnreadMessagesCount(ymChat.config, new YellowCallback() {
         ^
         symbol:   method getUnreadMessagesCount(YMConfig,<anonymous YellowCallback>)
         location: variable ymChat of type YMChat
         9 errors
+        
+        > Task :app:processReleaseManifestForPackage
         
         FAILURE: Build failed with an exception.
         
@@ -203,7 +199,7 @@
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
-        91 actionable tasks: 91 executed
-        BUILD FAILED in 9s
+        86 actionable tasks: 86 executed
+        BUILD FAILED in 5s
         
         

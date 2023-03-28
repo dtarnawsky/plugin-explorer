@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/cranberrygame/cordova-plugin-navigationbar.git",
   "author": "cranberrygame",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/8146515?v=4",
   "quality": 152,
   "updated": "2022-07-04T08:07:40Z",
-  "downloads": 2661
+  "downloads": 2737
 }

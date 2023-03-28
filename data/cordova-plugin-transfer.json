@@ -32,13 +32,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Use the way Pause and Resume to download files or fileStream for Cordova and PhoneGap",
   "bugs": "https://github.com/movooc/cordova-plugin-transfer/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/10151475?v=4",
-  "quality": 101,
-  "updated": "2018-09-18T02:36:16Z",
+  "quality": null,
   "downloads": 47
 }

@@ -2,7 +2,9 @@
   "name": "cordova-plugin-print-pdf",
   "version": "4.0.2",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/sarahgoldman/cordova-print-pdf-plugin.git",
   "author": "Sarah Goldman",
@@ -40,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/2464575?v=4",
   "quality": 166,
   "updated": "2022-08-24T08:51:43Z",
-  "downloads": 973
+  "downloads": 1035
 }

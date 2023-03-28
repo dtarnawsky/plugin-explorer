@@ -3,7 +3,8 @@
   "version": "0.0.4",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/snt1017/cordova-plugin-power-optimization.git",
   "author": "Santiago Cardenas",
@@ -43,7 +44,8 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "*Cordova plugin power save* ========================================================= This plugins give you android PowerManager methods with cordova.",
   "bugs": "https://github.com/snt1017/cordova-plugin-power-optimization/issues",
@@ -51,5 +53,5 @@
   "image": "https://avatars.githubusercontent.com/u/31568830?v=4",
   "quality": 118,
   "updated": "2023-01-09T16:51:05Z",
-  "downloads": 246
+  "downloads": 255
 }

@@ -30,7 +30,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "This plugin adds Rollbar App monitoring to your application. Currently supports iOS and Android. You need to subscribe to the Rollbar service to use the plugin and make sure to set the ROLLBAR_ACCESS_TOKEN and ROLLBAR_ENVIRONMENT variables on install.",
   "bugs": "https://github.com/emilyemorehouse/cordova-plugin-rollbar/issues",

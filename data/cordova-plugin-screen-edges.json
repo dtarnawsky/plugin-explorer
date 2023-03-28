@@ -2,7 +2,10 @@
   "name": "cordova-plugin-screen-edges",
   "version": "1.0.1",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/therealPaulPlay/cordova-plugin-screen-edges.git",
   "author": "PaulPlay",
@@ -19,7 +22,6 @@
     "fork"
   ],
   "fails": [
-    "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/80539587?v=4",
   "quality": 0,
   "updated": "2023-01-13T23:48:42Z",
-  "downloads": 10
+  "downloads": 11
 }

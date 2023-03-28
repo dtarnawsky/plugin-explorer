@@ -1,0 +1,20 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftCompile normal arm64 Compiling\ QRScanner.swift /Users/damian/Sample\ Code/plugin-explorer/apps/cordova/platforms/ios/cs-cord-11/Plugins/cordova-plugin-qrscanner-11/QRScanner.swift (in target 'cs-cord-11' from project 'cs-cord-11')
+	CompileSwift normal arm64 /Users/damian/Sample\ Code/plugin-explorer/apps/cordova/platforms/ios/cs-cord-11/Plugins/cordova-plugin-qrscanner-11/QRScanner.swift (in target 'cs-cord-11' from project 'cs-cord-11')
+(2 failures)
+xcodebuild: Command failed with exit code 65
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build ios exited with exit code 65.
+        
+        Re-running this command with the --verbose flag may provide more information.

@@ -3,7 +3,9 @@
   "version": "2.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/wizpanda/cordova-plugin-unique-device-id2.git",
   "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/19631317?v=4",
   "quality": 17,
   "updated": "2022-05-25T12:44:51Z",
-  "downloads": 787
+  "downloads": 779
 }

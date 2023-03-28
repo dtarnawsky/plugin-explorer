@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/stvngrsh/cordova-plugin-watch-connectivity.git",
   "author": "Steven Gresh",
@@ -15,11 +17,7 @@
     "watch",
     "apple",
     "cordova",
-    "ecosystem:cordova",
-    "ionic",
-    "ios",
-    "phonegap",
-    "watchkit"
+    "ecosystem:cordova"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -27,9 +25,6 @@
   ],
   "description": "Allows communication to Apple Watch devices through the WatchOS 2+ Watch Connectivity Framework",
   "bugs": "https://github.com/stvngrsh/cordova-plugin-watch-connectivity/issues",
-  "stars": 2,
-  "image": "https://avatars.githubusercontent.com/u/11162953?v=4",
-  "quality": 105,
-  "updated": "2020-07-06T02:26:41Z",
-  "downloads": 4
+  "quality": null,
+  "downloads": 5
 }

@@ -2,7 +2,8 @@
   "name": "cordova-plugin-mauron85-background-geolocation",
   "version": "3.0.1",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/mauron85/cordova-plugin-background-geolocation.git",
   "author": "",
@@ -122,10 +123,11 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Background Geolocation Plugin",
   "bugs": "https://github.com/mauron85/cordova-plugin-background-geolocation/issues",
   "quality": null,
-  "downloads": 1157
+  "downloads": 1105
 }

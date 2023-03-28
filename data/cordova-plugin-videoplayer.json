@@ -3,7 +3,9 @@
   "version": "0.1.4",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/phi-jp/cordova-plugin-videoplayer.git",
   "author": "phi",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/1156954?v=4",
   "quality": 105,
   "updated": "2021-09-14T07:24:16Z",
-  "downloads": 84
+  "downloads": 87
 }

@@ -3,7 +3,9 @@
   "version": "1.3.5",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/apache/cordova-plugin-whitelist.git",
   "author": "Apache Software Foundation",
@@ -45,5 +47,5 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 755,
   "updated": "2023-03-25T16:32:33Z",
-  "downloads": 142306
+  "downloads": 137873
 }

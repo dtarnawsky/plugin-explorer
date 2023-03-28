@@ -56,26 +56,20 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-haptics:processReleaseManifest
         
         > Task :capacitor-cordova-android-plugins:processReleaseManifest FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:12:1-16:12 Error:
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/AndroidManifest.xml:12:1-16:12 Error:
         android:exported needs to be explicitly specified for element <receiver#com.startapp.android.publish.common.metaData.BootCompleteListener>. Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
         
         See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
         
         
-        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:processReleaseManifest
         > Task :app:mergeReleaseResources
         
         FAILURE: Build failed with an exception.
@@ -92,6 +86,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 2s
-        30 actionable tasks: 30 executed
+        BUILD FAILED in 1s
+        24 actionable tasks: 24 executed
         

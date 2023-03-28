@@ -3,7 +3,9 @@
   "version": "5.1.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/mibrito707/cordova-plugin-secure-storage-echo.git",
   "author": "Yiorgis Gozadinos <ggozad@crypho.com>",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/8345511?v=4",
   "quality": 165,
   "updated": "2023-02-17T08:05:10Z",
-  "downloads": 17004
+  "downloads": 17638
 }

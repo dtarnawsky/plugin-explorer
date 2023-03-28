@@ -2,7 +2,8 @@
   "name": "cordova-plugin-scanzy-barcodescanner",
   "version": "0.0.6",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11"
   ],
   "author": "Scanzy",
   "published": "2023-03-24T08:52:06.848Z",
@@ -31,8 +32,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Scanzy Barcode Scanner SDK",
-  "downloads": 233
+  "downloads": 240
 }

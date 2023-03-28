@@ -2,7 +2,8 @@
   "name": "cordova-plugin-simple-image-resizer",
   "version": "0.2.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/JoschkaSchulz/cordova-plugin-image-resizer.git",
   "author": "",
@@ -19,7 +20,8 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Plugin for resizing images only with the uri of the image.",
   "bugs": "https://github.com/JoschkaSchulz/cordova-plugin-image-resizer/issues",
@@ -27,5 +29,5 @@
   "image": "https://avatars.githubusercontent.com/u/1632093?v=4",
   "quality": 299,
   "updated": "2022-11-03T20:14:55Z",
-  "downloads": 133
+  "downloads": 131
 }

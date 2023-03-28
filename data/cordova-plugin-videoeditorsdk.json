@@ -1,7 +1,11 @@
 {
   "name": "cordova-plugin-videoeditorsdk",
   "version": "3.3.0",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6",
+    "capacitor-ios-4"
+  ],
   "repo": "https://github.com/imgly/vesdk-cordova.git",
   "author": "img.ly GmbH <contact@img.ly>",
   "published": "2022-11-08T10:02:48.974Z",
@@ -48,7 +52,6 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],

@@ -81,436 +81,455 @@
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-android:javaPreCompileRelease
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
         > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
-        > Task :capacitor-status-bar:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:bundleReleaseResources
         
-        > Task :capacitor-android:compileReleaseJavaWithJavac
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        Note: Some input files use unchecked or unsafe operations.
-        Note: Recompile with -Xlint:unchecked for details.
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-status-bar:generateReleaseRFile
-        
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:6: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:6: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:7: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:7: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:8: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:8: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:10: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:10: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:11: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:11: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:23: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:23: error: cannot find symbol
         public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class PDFViewer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:23: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:23: error: cannot find symbol
         public boolean execute(String action, JSONArray data, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class PDFViewer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:53: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:53: error: cannot find symbol
         public void onActivityResult(int requestCode, int resultCode, Intent data) {
         ^
         symbol:   class Intent
         location: class PDFViewer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:3: error: package android does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:3: error: package android does not exist
         import android.Manifest;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:4: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:4: error: package android.app does not exist
         import android.app.ActionBar;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:5: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:5: error: package android.app does not exist
         import android.app.Activity;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:6: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:6: error: package android.app does not exist
         import android.app.DownloadManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:8: error: package android.content.pm does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:8: error: package android.content.pm does not exist
         import android.content.pm.PackageManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:9: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:9: error: package android.os does not exist
         import android.os.Build;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:10: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:10: error: package android.os does not exist
         import android.os.Bundle;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:11: error: package android.os does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:11: error: package android.os does not exist
         import android.os.Environment;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:12: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:12: error: cannot find symbol
         import android.support.v4.app.ActivityCompat;
         ^
         symbol:   class ActivityCompat
         location: package android.support.v4.app
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:13: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:13: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:14: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:14: error: package android.view does not exist
         import android.view.Menu;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:15: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:15: error: package android.view does not exist
         import android.view.MenuItem;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:16: error: package android.view does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:16: error: package android.view does not exist
         import android.view.View;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:17: error: package android.webkit does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:17: error: package android.webkit does not exist
         import android.webkit.MimeTypeMap;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:18: error: package android.widget does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:18: error: package android.widget does not exist
         import android.widget.Button;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:31: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:31: error: cannot find symbol
         public class PDFViewerActivity extends Activity {
         ^
         symbol: class Activity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:39: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:39: error: cannot find symbol
         protected void onCreate(Bundle savedInstanceState) {
         ^
         symbol:   class Bundle
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:98: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:98: error: cannot find symbol
         public boolean onCreateOptionsMenu(Menu menu) {
         ^
         symbol:   class Menu
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:105: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:105: error: cannot find symbol
         public boolean onOptionsItemSelected(MenuItem item) {
         ^
         symbol:   class MenuItem
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:29: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:29: error: cannot find symbol
         JSONObject options =  data.getJSONObject(1);
         ^
         symbol:   class JSONObject
         location: class PDFViewer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:73: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:73: error: cannot find symbol
         Context context=this.cordova.getActivity().getApplicationContext();
         ^
         symbol:   class Context
         location: class PDFViewer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:73: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:73: error: cannot access Activity
         Context context=this.cordova.getActivity().getApplicationContext();
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:74: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:74: error: cannot find symbol
         Intent intent=new Intent(context,PDFViewerActivity.class);
         ^
         symbol:   class Intent
         location: class PDFViewer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:74: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewer.java:74: error: cannot find symbol
         Intent intent=new Intent(context,PDFViewerActivity.class);
         ^
         symbol:   class Intent
         location: class PDFViewer
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:38: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:38: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:40: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:40: error: cannot find symbol
         super.onCreate(savedInstanceState);
         ^
         symbol:   variable super
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:41: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:41: error: cannot find symbol
         String package_name = getApplication().getPackageName();
         ^
         symbol:   method getApplication()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:42: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:42: error: cannot find symbol
         setContentView(getApplication().getResources().getIdentifier("activity_pdfviewer", "layout", package_name));
         ^
         symbol:   method getApplication()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:43: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:43: error: cannot find symbol
         Intent intent = getIntent();
         ^
         symbol:   class Intent
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:43: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:43: error: cannot find symbol
         Intent intent = getIntent();
         ^
         symbol:   method getIntent()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:50: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:50: error: cannot find symbol
         ActionBar actionbar = getActionBar();
         ^
         symbol:   class ActionBar
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:50: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:50: error: cannot find symbol
         ActionBar actionbar = getActionBar();
         ^
         symbol:   method getActionBar()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:54: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:54: error: cannot find symbol
         PDFView pdfView = (PDFView) findViewById(getResources().getIdentifier("pdfView", "id", getPackageName()));
         ^
         symbol:   method getResources()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:54: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:54: error: cannot find symbol
         PDFView pdfView = (PDFView) findViewById(getResources().getIdentifier("pdfView", "id", getPackageName()));
         ^
         symbol:   method getPackageName()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:59: error: cannot access RelativeLayout
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:59: error: cannot access RelativeLayout
         pdfView.fromFile(pdfFile)
         ^
         class file for android.widget.RelativeLayout not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:68: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:68: error: cannot find symbol
         Button btnOK = (Button) findViewById(getResources().getIdentifier("btnok", "id", getPackageName()));
         ^
         symbol:   class Button
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:68: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:68: error: cannot find symbol
         Button btnOK = (Button) findViewById(getResources().getIdentifier("btnok", "id", getPackageName()));
         ^
         symbol:   class Button
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:68: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:68: error: cannot find symbol
         Button btnOK = (Button) findViewById(getResources().getIdentifier("btnok", "id", getPackageName()));
         ^
         symbol:   method getResources()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:68: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:68: error: cannot find symbol
         Button btnOK = (Button) findViewById(getResources().getIdentifier("btnok", "id", getPackageName()));
         ^
         symbol:   method getPackageName()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:71: error: package View does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:71: error: package View does not exist
         btnOK.setOnClickListener(new View.OnClickListener() {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:73: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:73: error: cannot find symbol
         public void onClick(View v) {
         ^
         symbol: class View
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:72: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:72: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:74: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:74: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol: class Intent
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:74: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:74: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol: class Intent
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:76: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:76: error: cannot find symbol
         setResult(Activity.RESULT_OK, intent);
         ^
         symbol: variable Activity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:77: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:77: error: cannot find symbol
         finish();
         ^
         symbol: method finish()
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:81: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:81: error: cannot find symbol
         btnOK.setVisibility(View.VISIBLE);
         ^
         symbol:   variable View
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:83: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:83: error: cannot find symbol
         Button btnCancel = (Button) findViewById(getResources().getIdentifier("btncancel", "id", getPackageName()));
         ^
         symbol:   class Button
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:83: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:83: error: cannot find symbol
         Button btnCancel = (Button) findViewById(getResources().getIdentifier("btncancel", "id", getPackageName()));
         ^
         symbol:   class Button
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:83: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:83: error: cannot find symbol
         Button btnCancel = (Button) findViewById(getResources().getIdentifier("btncancel", "id", getPackageName()));
         ^
         symbol:   method getResources()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:83: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:83: error: cannot find symbol
         Button btnCancel = (Button) findViewById(getResources().getIdentifier("btncancel", "id", getPackageName()));
         ^
         symbol:   method getPackageName()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:86: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:86: error: cannot find symbol
         btnCancel.setVisibility(View.VISIBLE);
         ^
         symbol:   variable View
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:87: error: package View does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:87: error: package View does not exist
         btnCancel.setOnClickListener(new View.OnClickListener() {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:89: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:89: error: cannot find symbol
         public void onClick(View v) {
         ^
         symbol: class View
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:88: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:88: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:97: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:97: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:99: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:99: error: cannot find symbol
         menu.add(0, 0, 0, cancel).setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
         ^
         symbol:   variable MenuItem
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:100: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:100: error: cannot find symbol
         menu.add(1, 1, 0, save).setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
         ^
         symbol:   variable MenuItem
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:104: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:104: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:117: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:117: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:119: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:119: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:119: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:119: error: cannot find symbol
         Intent intent = new Intent();
         ^
         symbol:   class Intent
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:121: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:121: error: cannot find symbol
         setResult(Activity.RESULT_OK, intent);
         ^
         symbol:   variable Activity
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:122: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:122: error: cannot find symbol
         finish();
         ^
         symbol:   method finish()
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:126: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:126: error: cannot find symbol
         File downloadFolder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
         ^
         symbol:   variable Environment
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:126: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:126: error: cannot find symbol
         File downloadFolder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
         ^
         symbol:   variable Environment
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:133: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:133: error: cannot find symbol
         DownloadManager downloadManager = (DownloadManager) this.getSystemService(DOWNLOAD_SERVICE);
         ^
         symbol:   class DownloadManager
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:133: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:133: error: cannot find symbol
         DownloadManager downloadManager = (DownloadManager) this.getSystemService(DOWNLOAD_SERVICE);
         ^
         symbol:   class DownloadManager
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:133: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:133: error: cannot find symbol
         DownloadManager downloadManager = (DownloadManager) this.getSystemService(DOWNLOAD_SERVICE);
         ^
         symbol:   variable DOWNLOAD_SERVICE
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:147: error: package Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:147: error: package Build does not exist
         if (Build.VERSION.SDK_INT >= 23) {
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:148: error: package android.Manifest does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:148: error: package android.Manifest does not exist
         if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:149: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:149: error: cannot find symbol
         == PackageManager.PERMISSION_GRANTED) {
         ^
         symbol:   variable PackageManager
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:150: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:150: error: cannot find symbol
         Log.v(TAG,"Permission is granted");
         ^
         symbol:   variable Log
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:154: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:154: error: cannot find symbol
         Log.v(TAG,"Permission is revoked");
         ^
         symbol:   variable Log
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:155: error: package Manifest does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:155: error: package Manifest does not exist
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:155: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:155: error: cannot find symbol
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
         ^
         symbol:   variable ActivityCompat
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:160: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:160: error: cannot find symbol
         Log.v(TAG,"Permission is granted");
         ^
         symbol:   variable Log
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:165: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:165: error: method does not override or implement a method from a supertype
         @Override
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:167: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:167: error: cannot find symbol
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         ^
         symbol:   variable super
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:169: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:169: error: cannot find symbol
         if(grantResults[0]== PackageManager.PERMISSION_GRANTED){
         ^
         symbol:   variable PackageManager
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:170: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:170: error: cannot find symbol
         Log.v(TAG,"Permission: "+permissions[0]+ "was "+grantResults[0]);
         ^
         symbol:   variable Log
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:198: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:198: error: cannot find symbol
         String fileExtension = MimeTypeMap.getFileExtensionFromUrl(fileUri
         ^
         symbol:   variable MimeTypeMap
         location: class PDFViewerActivity
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:200: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/ingensnetworks/plugin/PDFViewerActivity.java:200: error: cannot find symbol
         return MimeTypeMap.getSingleton().getMimeTypeFromExtension(
         ^
         symbol:   variable MimeTypeMap
@@ -531,7 +550,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        77 actionable tasks: 77 executed
+        84 actionable tasks: 84 executed
         
-        BUILD FAILED in 8s
+        BUILD FAILED in 6s
         

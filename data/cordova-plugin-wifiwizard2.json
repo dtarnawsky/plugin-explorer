@@ -3,7 +3,9 @@
   "version": "3.1.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/tripflex/wifiwizard2.git",
   "author": "Myles McNamara",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/553732?v=4",
   "quality": 398,
   "updated": "2023-03-25T07:25:47Z",
-  "downloads": 2928
+  "downloads": 2662
 }

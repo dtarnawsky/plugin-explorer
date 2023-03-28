@@ -3,7 +3,9 @@
   "version": "1.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/pbakondy/cordova-plugin-speechrecognition.git",
   "author": "Peter Bakondy",
@@ -42,5 +44,5 @@
   "image": "https://avatars.githubusercontent.com/u/500697?v=4",
   "quality": 487,
   "updated": "2023-03-26T02:17:35Z",
-  "downloads": 4131
+  "downloads": 4249
 }

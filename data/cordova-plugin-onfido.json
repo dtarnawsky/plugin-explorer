@@ -32,13 +32,15 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for Onfido",
   "bugs": "https://github.com/rewireltd1/cordova-plugin-onfido/issues",
   "stars": 6,
   "image": "https://avatars.githubusercontent.com/u/43967618?v=4",
-  "quality": 126,
+  "quality": 125,
   "updated": "2023-03-06T12:28:33Z",
-  "downloads": 58
+  "downloads": 59
 }

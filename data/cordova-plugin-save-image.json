@@ -3,7 +3,9 @@
   "version": "0.3.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/quiply/SaveImage.git",
   "author": "Quiply Technologies GmbH <hello@quiply.com> (http://www.quiply.com)",
@@ -39,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/13499297?v=4",
   "quality": 186,
   "updated": "2021-04-06T03:39:19Z",
-  "downloads": 1873
+  "downloads": 1977
 }

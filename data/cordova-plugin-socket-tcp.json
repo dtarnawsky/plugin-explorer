@@ -3,7 +3,9 @@
   "version": "1.7.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/kitolog/sockets-for-cordova.git",
   "author": "blocshop",
@@ -41,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/781366?v=4",
   "quality": 40,
   "updated": "2022-09-15T15:34:08Z",
-  "downloads": 125
+  "downloads": 115
 }

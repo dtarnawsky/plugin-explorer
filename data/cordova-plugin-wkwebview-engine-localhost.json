@@ -20,7 +20,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for serving using http://localhost instead of file://",
   "bugs": "https://github.com/speige/cordova-plugin-wkwebview-engine-localhost/issues",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/2002030?v=4",
   "quality": 0,
   "updated": "2019-09-15T11:31:28Z",
-  "downloads": 10
+  "downloads": 11
 }

@@ -72,448 +72,444 @@
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-android:javaPreCompileRelease
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
         > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :app:bundleReleaseResources
-        
-        > Task :capacitor-android:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarReleaseNote: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        Note: Some input files use unchecked or unsafe operations.
-        Note: Recompile with -Xlint:unchecked for details.
-        
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-status-bar:generateReleaseRFile
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-app:writeReleaseAarMetadata
         > Task :app:checkReleaseDuplicateClasses
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:5: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:5: error: package android.app does not exist
         import android.app.Activity;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:6: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:6: error: package android.content does not exist
         import android.content.BroadcastReceiver;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:7: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:7: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:8: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:8: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:9: error: package android.hardware.usb does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:9: error: package android.hardware.usb does not exist
         import android.hardware.usb.UsbManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:10: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:10: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:12: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:12: error: cannot find symbol
         public class UsbBroadcastReceiver extends BroadcastReceiver {
         ^
         symbol: class BroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:20: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:20: error: cannot find symbol
         private Activity activity;
         ^
         symbol:   class Activity
         location: class UsbBroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:27: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:27: error: cannot find symbol
         public UsbBroadcastReceiver(CallbackContext callbackContext, Activity activity) {
         ^
         symbol:   class Activity
         location: class UsbBroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:40: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:40: error: cannot find symbol
         public void onReceive(Context context, Intent intent) {
         ^
         symbol:   class Context
         location: class UsbBroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:40: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:40: error: cannot find symbol
         public void onReceive(Context context, Intent intent) {
         ^
         symbol:   class Intent
         location: class UsbBroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:12: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:12: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:13: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:13: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:14: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:14: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:27: error: package android.app does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:27: error: package android.app does not exist
         import android.app.PendingIntent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:28: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:28: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:29: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:29: error: package android.content does not exist
         import android.content.Intent;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:30: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:30: error: package android.content does not exist
         import android.content.IntentFilter;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:31: error: package android.hardware.usb does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:31: error: package android.hardware.usb does not exist
         import android.hardware.usb.UsbDevice;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:32: error: package android.hardware.usb does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:32: error: package android.hardware.usb does not exist
         import android.hardware.usb.UsbDeviceConnection;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:33: error: package android.hardware.usb does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:33: error: package android.hardware.usb does not exist
         import android.hardware.usb.UsbManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:34: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:34: error: package android.util does not exist
         import android.util.Base64;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:35: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:35: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:53: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:53: error: cannot find symbol
         private UsbManager manager;
         ^
         symbol:   class UsbManager
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:93: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:93: error: cannot find symbol
         public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:93: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:93: error: cannot find symbol
         public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:153: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:153: error: cannot find symbol
         private void requestPermission(final JSONObject opts, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:279: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:279: error: cannot find symbol
         private void openSerial(final JSONObject opts, final CallbackContext callbackContext) {
         ^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:612: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:612: error: cannot find symbol
         private void addProperty(JSONObject obj, String key, Object value) {
         ^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:625: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:625: error: cannot find symbol
         private void addPropertyBytes(JSONObject obj, String key, byte[] bytes) {
         ^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:39: error: method does not override or implement a method from a supertype
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:39: error: method does not override or implement a method from a supertype
         	@Override
         	^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:44: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:44: error: cannot find symbol
         if (intent.getBooleanExtra(UsbManager.EXTRA_PERMISSION_GRANTED, false)) {
         ^
         symbol:   variable UsbManager
         location: class UsbBroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:45: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:45: error: cannot find symbol
         Log.d(TAG, "Permission to connect to the device was accepted!");
         				^
         symbol:   variable Log
         location: class UsbBroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:49: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/UsbBroadcastReceiver.java:49: error: cannot find symbol
         Log.d(TAG, "Permission to connect to the device was denied!");
         				^
         symbol:   variable Log
         location: class UsbBroadcastReceiver
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:76: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:76: error: cannot find symbol
         Log.d(TAG, "Runner stopped.");
         					^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:94: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:94: error: cannot find symbol
         Log.d(TAG, "Action: " + action);
         		^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:95: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:95: error: cannot find symbol
         JSONObject arg_object = args.optJSONObject(0);
         		^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:98: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:98: error: cannot find symbol
         JSONObject opts = arg_object.has("opts")? arg_object.getJSONObject("opts") : new JSONObject();
         			^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:98: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:98: error: cannot find symbol
         JSONObject opts = arg_object.has("opts")? arg_object.getJSONObject("opts") : new JSONObject();
         ^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:109: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:109: error: cannot find symbol
         JSONObject opts = arg_object.has("opts")? arg_object.getJSONObject("opts") : new JSONObject();
         			^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:109: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:109: error: cannot find symbol
         JSONObject opts = arg_object.has("opts")? arg_object.getJSONObject("opts") : new JSONObject();
         ^
         symbol:   class JSONObject
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:157: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:157: error: cannot find symbol
         manager = (UsbManager) cordova.getActivity().getSystemService(Context.USB_SERVICE);
         ^
         symbol: class UsbManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:157: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:157: error: cannot find symbol
         manager = (UsbManager) cordova.getActivity().getSystemService(Context.USB_SERVICE);
         ^
         symbol: variable Context
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:157: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:157: error: cannot access Activity
         manager = (UsbManager) cordova.getActivity().getSystemService(Context.USB_SERVICE);
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:184: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:184: error: cannot find symbol
         Log.d(TAG, "Unknown driver!");
         ^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:201: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:201: error: cannot find symbol
         UsbDevice device = driver.getDevice();
         					^
         symbol: class UsbDevice
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:203: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:203: error: cannot find symbol
         PendingIntent pendingIntent = PendingIntent.getBroadcast(cordova.getActivity(), 0, new Intent(UsbBroadcastReceiver.USB_PERMISSION), 0);
         					^
         symbol: class PendingIntent
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:203: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:203: error: cannot find symbol
         PendingIntent pendingIntent = PendingIntent.getBroadcast(cordova.getActivity(), 0, new Intent(UsbBroadcastReceiver.USB_PERMISSION), 0);
         ^
         symbol: class Intent
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:203: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:203: error: cannot find symbol
         PendingIntent pendingIntent = PendingIntent.getBroadcast(cordova.getActivity(), 0, new Intent(UsbBroadcastReceiver.USB_PERMISSION), 0);
         ^
         symbol: variable PendingIntent
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:205: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:205: error: cannot find symbol
         IntentFilter filter = new IntentFilter();
         					^
         symbol: class IntentFilter
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:205: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:205: error: cannot find symbol
         IntentFilter filter = new IntentFilter();
         ^
         symbol: class IntentFilter
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:215: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:215: error: cannot find symbol
         Log.d(TAG, "No device found!");
         					^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:230: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:230: error: cannot find symbol
         UsbDevice device = driver.getDevice();
         					^
         symbol: class UsbDevice
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:231: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:231: error: cannot find symbol
         JSONObject deviceInfo = new JSONObject();
         					^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:231: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:231: error: cannot find symbol
         JSONObject deviceInfo = new JSONObject();
         ^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:241: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:241: error: cannot find symbol
         }catch (JSONException e) {
         ^
         symbol: class JSONException
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:243: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:243: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         					^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:265: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:265: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         					^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:282: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:282: error: cannot find symbol
         UsbDeviceConnection connection = manager.openDevice(driver.getDevice());
         				^
         symbol: class UsbDeviceConnection
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:304: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:304: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         						^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:307: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:307: error: cannot find symbol
         catch (JSONException e) {
         ^
         symbol: class JSONException
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:309: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:309: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         						^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:313: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:313: error: cannot find symbol
         Log.d(TAG, "Serial port opened!");
         					^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:317: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:317: error: cannot find symbol
         Log.d(TAG, "Cannot connect to the device!");
         					^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:338: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:338: error: cannot find symbol
         Log.d(TAG, data);
         						^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:345: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:345: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         						^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:367: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:367: error: cannot find symbol
         Log.d(TAG, data);
         						^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:374: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:374: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         						^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:419: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:419: error: cannot find symbol
         Log.d(TAG, "Read data len=" + len);
         							^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:432: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:432: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         						^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:457: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:457: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         					^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:472: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:472: error: cannot find symbol
         Log.i(TAG, "Stopping io manager.");
         			^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:483: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:483: error: cannot find symbol
         Log.i(TAG, "Starting io manager.");
         			^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:514: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:514: error: cannot find symbol
         Log.d(TAG, "Registering callback");
         		^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:517: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:517: error: cannot find symbol
         Log.d(TAG, "Registering Read Callback");
         				^
         symbol: variable Log
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:519: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:519: error: cannot find symbol
         JSONObject returnObj = new JSONObject();
         				^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:519: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:519: error: cannot find symbol
         JSONObject returnObj = new JSONObject();
         ^
         symbol: class JSONObject
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:555: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:555: error: cannot find symbol
         Log.d(TAG, "Resumed, driver=" + driver);
         		^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:558: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:558: error: cannot find symbol
         Log.d(TAG, "No serial device to resume.");
         				^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:561: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:561: error: cannot find symbol
         UsbDeviceConnection connection = manager.openDevice(driver.getDevice());
         				^
         symbol:   class UsbDeviceConnection
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:573: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:573: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         						^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:575: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:575: error: cannot find symbol
         Log.d(TAG, "Serial port opened!");
         					^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:578: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:578: error: cannot find symbol
         Log.d(TAG, "Cannot connect to the device!");
         					^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:580: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:580: error: cannot find symbol
         Log.d(TAG, "Serial device: " + driver.getClass().getSimpleName());
         				^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:594: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:594: error: cannot find symbol
         Log.d(TAG, "Destroy, port=" + port);
         		^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:600: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:600: error: cannot find symbol
         Log.d(TAG, e.getMessage());
         				^
         symbol:   variable Log
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:616: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:616: error: cannot find symbol
         catch (JSONException e){}
         ^
         symbol:   class JSONException
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:626: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:626: error: cannot find symbol
         String string = Base64.encodeToString(bytes, Base64.NO_WRAP);
         ^
         symbol:   variable Base64
         location: class Serial
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:626: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/ty/cordova/serial/Serial/Serial.java:626: error: cannot find symbol
         String string = Base64.encodeToString(bytes, Base64.NO_WRAP);
         ^
         symbol:   variable Base64
@@ -527,14 +523,16 @@
         > Compilation failed; see the compiler error output for details.
         
         * Try:
-        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-        
-        * Get more help at https://help.gradle.org
-        
-        BUILD FAILED in 4s
+        > Task :app:bundleReleaseResources
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        81 actionable tasks: 81 executed
+        
+        Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 2s
+        77 actionable tasks: 77 executed
         

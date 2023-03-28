@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin-vuforia",
   "version": "3.2.1",
-  "success": [],
+  "success": [
+    "cordova-android-11"
+  ],
   "repo": "ssh://git@github.com/mattrayner/cordova-plugin-vuforia.git",
   "author": "Matthew Rayner",
   "published": "2022-06-14T00:57:41.392Z",
@@ -38,10 +40,11 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova Vuforia Plugin",
   "bugs": "https://github.com/mattrayner/cordova-plugin-vuforia/issues",
   "quality": null,
-  "downloads": 83
+  "downloads": 72
 }

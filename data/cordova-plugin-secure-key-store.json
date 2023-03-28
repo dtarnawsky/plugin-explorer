@@ -3,7 +3,9 @@
   "version": "1.5.5",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/pradeep1991singh/cordova-plugin-secure-key-store.git",
   "author": "pradeep singh",
@@ -34,11 +36,7 @@
     "ios-keychain",
     "sensitive-data-security",
     "encryption-decryption",
-    "public-private-key",
-    "cordova-android",
-    "cordova-ios",
-    "cordova-plugin",
-    "phonegap"
+    "public-private-key"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -46,9 +44,6 @@
   ],
   "description": "Cordova plugin for securely saving keys, passwords or strings on devices.",
   "bugs": "https://github.com/pradeep1991singh/cordova-plugin-secure-key-store/issues",
-  "stars": 24,
-  "image": "https://avatars.githubusercontent.com/u/7058588?v=4",
-  "quality": 157,
-  "updated": "2021-06-25T07:03:44Z",
-  "downloads": 1918
+  "quality": null,
+  "downloads": 1968
 }

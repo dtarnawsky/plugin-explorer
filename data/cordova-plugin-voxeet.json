@@ -119,13 +119,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova Voxeet Plugin",
   "bugs": "https://github.com/voxeet/voxeet-uxkit-cordova/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/18720732?v=4",
-  "quality": 121,
-  "updated": "2022-04-21T22:56:26Z",
-  "downloads": 330
+  "quality": null,
+  "downloads": 322
 }

@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/AndreVarandas/cordova-plugin-wallpaper.git",
   "author": "André Varandas - andre.m.varandas@gmail.com",
@@ -21,9 +23,6 @@
   ],
   "description": "A plugin that exposes utils to set wallpaper and lockscreen images",
   "bugs": "https://github.com/AndreVarandas/cordova-plugin-wallpaper/issues",
-  "stars": 2,
-  "image": "https://avatars.githubusercontent.com/u/11405075?v=4",
-  "quality": 102,
-  "updated": "2022-01-07T19:53:18Z",
+  "quality": null,
   "downloads": 5
 }

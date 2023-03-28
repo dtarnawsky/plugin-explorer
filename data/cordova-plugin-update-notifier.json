@@ -3,7 +3,9 @@
   "version": "2.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/AyogoHealth/cordova-plugin-update-notifier.git",
   "author": "Ayogo Health Inc. <info@ayogo.com>",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/7883475?v=4",
   "quality": 143,
   "updated": "2023-01-01T11:55:14Z",
-  "downloads": 670
+  "downloads": 686
 }

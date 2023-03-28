@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ikoshik/cordova-plugin-mock-location.git",
   "author": "kosh",
@@ -27,5 +29,5 @@
   "image": "https://avatars.githubusercontent.com/u/342033?v=4",
   "quality": 109,
   "updated": "2022-12-30T20:44:58Z",
-  "downloads": 13
+  "downloads": 14
 }

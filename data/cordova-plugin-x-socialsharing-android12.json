@@ -3,7 +3,9 @@
   "version": "6.0.5",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/Takkuz/corodova-plugin-socialsharing-android12.git",
   "author": "Eddy Verbruggen - @EddyVerbruggen",
@@ -36,9 +38,6 @@
   ],
   "description": "Share text, images (and other files), or a link via the native sharing widget of your device. Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.",
   "bugs": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues",
-  "stars": 4,
-  "image": "https://avatars.githubusercontent.com/u/105668176?v=4",
-  "quality": 8,
-  "updated": "2022-09-05T15:17:36Z",
-  "downloads": 5769
+  "quality": null,
+  "downloads": 5613
 }

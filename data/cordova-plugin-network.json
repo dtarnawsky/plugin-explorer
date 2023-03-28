@@ -21,8 +21,10 @@
     "vpn"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Cordova network plugin for Android and iOS",
-  "downloads": 28
+  "downloads": 31
 }

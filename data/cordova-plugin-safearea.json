@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/rickgbw/cordova-plugin-safearea.git",
   "author": "Henrique Moreira",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/924158?v=4",
   "quality": 101,
   "updated": "2020-10-01T19:42:25Z",
-  "downloads": 343
+  "downloads": 358
 }

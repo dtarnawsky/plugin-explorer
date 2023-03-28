@@ -33,8 +33,10 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin for VK auth (forked from https://github.com/OrangeAppsRu/cordova-social-vk)",
-  "downloads": 37
+  "downloads": 38
 }

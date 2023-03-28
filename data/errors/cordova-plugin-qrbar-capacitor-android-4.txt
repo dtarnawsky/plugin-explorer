@@ -6,7 +6,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-qrbar/src/android/qrscanner.gradle' line: 6
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/cordova-plugin-qrbar/src/android/qrscanner.gradle' line: 6
         
         * What went wrong:
         A problem occurred evaluating script.
@@ -25,5 +25,5 @@
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
         
-        BUILD FAILED in 806ms
+        BUILD FAILED in 621ms
         

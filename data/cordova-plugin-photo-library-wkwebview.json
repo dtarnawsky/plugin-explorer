@@ -2,7 +2,9 @@
   "name": "cordova-plugin-photo-library-wkwebview",
   "version": "3.0.3",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/tien271/cordova-plugin-photo-library-wkwebview.git",
   "author": "Roman Viskin <npm@terikon.com> (http://il.linkedin.com/in/romanviskin)",
@@ -24,5 +26,5 @@
   "image": "https://avatars.githubusercontent.com/u/43818500?v=4",
   "quality": 28,
   "updated": "2021-08-30T09:26:47Z",
-  "downloads": 93
+  "downloads": 97
 }

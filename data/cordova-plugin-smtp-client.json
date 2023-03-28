@@ -28,7 +28,9 @@
     "smtp-client"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Basic SMTP client for editing and sending email messages",
   "bugs": "https://github.com/CWBudde/cordova-plugin-smtp-client/issues",

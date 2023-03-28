@@ -15,11 +15,13 @@
     "1.0.4"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "publish",
   "bugs": "https://github.com/npm/security-holder/issues",
   "stars": 140,
   "image": "https://avatars.githubusercontent.com/u/6078720?v=4",
-  "downloads": 1103
+  "downloads": 958
 }

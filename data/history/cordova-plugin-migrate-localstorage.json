@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "0.0.2",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "0.0.2",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "0.0.2",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "0.0.2",
+      "failure": "cap-sync",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-migrate-localstorage"
+}

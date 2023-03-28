@@ -3,7 +3,9 @@
   "version": "2.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-taptic-engine.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 172,
   "updated": "2023-01-01T15:40:30Z",
-  "downloads": 4767
+  "downloads": 4735
 }

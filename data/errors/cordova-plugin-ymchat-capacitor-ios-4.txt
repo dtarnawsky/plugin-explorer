@@ -3,7 +3,7 @@
         /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace App.xcworkspace -scheme App -destination generic/platform=iOS -archivePath App.xcarchive archive
         
         User defaults from command line:
-        IDEArchivePathOverride = /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/ios/App/App.xcarchive
+        IDEArchivePathOverride = /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/App.xcarchive
         IDEPackageSupportUseBuiltinSCM = YES
         
         Prepare packages
@@ -11,11 +11,11 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: c374ef418a8b90755f8413f66c736a82
-        Build description path: /Users/damiantarnawsky/Library/Developer/Xcode/DerivedData/App-ebdlllkgriptbtbfosuexwgayjxo/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/c374ef418a8b90755f8413f66c736a82-desc.xcbuild
+        Build description signature: 2e67496e55623ee9e483a813085955a9
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/2e67496e55623ee9e483a813085955a9-desc.xcbuild
         
         note: Building targets in dependency order
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "YMChat-YMImages" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'YMChat-YMImages' from project 'Pods')
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "YMChat-YMImages" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'YMChat-YMImages' from project 'Pods')
         warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
         ** ARCHIVE FAILED **
         

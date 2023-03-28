@@ -17,7 +17,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "sip support using linphone framework",
   "bugs": "https://github.com/nadirhamid/cordova-plugin-sip/issues",
@@ -25,5 +27,5 @@
   "image": "https://avatars.githubusercontent.com/u/7277417?v=4",
   "quality": 5,
   "updated": "2021-02-17T15:53:23Z",
-  "downloads": 10
+  "downloads": 11
 }

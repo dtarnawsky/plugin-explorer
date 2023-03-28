@@ -3,7 +3,8 @@
   "version": "0.1.1",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/avargaskun/cordova-plugin-shortcuts-android.git",
   "author": "avargaskun",
@@ -22,7 +23,8 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin for Android to create app shortcuts and handle intents.",
   "bugs": "https://github.com/avargaskun/cordova-plugin-shortcuts-android/issues",
@@ -30,5 +32,5 @@
   "image": "https://avatars.githubusercontent.com/u/7409759?v=4",
   "quality": 147,
   "updated": "2023-02-03T20:41:48Z",
-  "downloads": 281
+  "downloads": 291
 }

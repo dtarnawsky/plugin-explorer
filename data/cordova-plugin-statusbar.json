@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "author": "Apache Software Foundation",
   "published": "2022-06-14T00:51:53.789Z",
@@ -45,5 +47,5 @@
     "capacitor-android-3"
   ],
   "description": "Cordova StatusBar Plugin",
-  "downloads": 181991
+  "downloads": 183744
 }

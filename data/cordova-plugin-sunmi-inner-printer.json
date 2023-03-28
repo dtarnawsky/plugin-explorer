@@ -3,7 +3,8 @@
   "version": "1.1.0",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/silviocamposs/cordova-plugin-sunmi-inner-printer.git",
   "author": "Silvio Campos",
@@ -18,7 +19,8 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova/Ionic Sunmi V1 Inner Printer",
   "bugs": "https://github.com/silviocamposs/cordova-plugin-sunmi-inner-printer/issues",

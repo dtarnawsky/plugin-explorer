@@ -3,7 +3,9 @@
   "version": "6.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/SSLCertificateChecker-PhoneGap-Plugin.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 372,
   "updated": "2023-03-15T02:58:38Z",
-  "downloads": 2922
+  "downloads": 3042
 }

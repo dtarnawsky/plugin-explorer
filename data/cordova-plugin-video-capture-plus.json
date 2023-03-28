@@ -2,7 +2,8 @@
   "name": "cordova-plugin-video-capture-plus",
   "version": "1.0.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/danielsogl/cordova-plugin-video-capture-plus.git",
   "author": "Daniel Sogl",
@@ -18,7 +19,8 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "\n        If you want HD video recording, starting with the front camera by default, or\n        use an (transparent PNG) overlay during recording (iOS only feature)? Look no further!\n        All options of the default plugin are available as well, so you c",
   "bugs": "https://github.com/danielsogl/cordova-plugin-video-capture-plus/issues",
@@ -26,5 +28,5 @@
   "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
   "quality": 46,
   "updated": "2021-10-02T21:10:46Z",
-  "downloads": 378
+  "downloads": 396
 }

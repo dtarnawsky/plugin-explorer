@@ -37,13 +37,15 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Official Smartlook SDK plugin for Cordova Android and iOS applications.",
   "bugs": "https://github.com/smartlook/cordova-smartlook-plugin",
   "stars": 8,
   "image": "https://avatars.githubusercontent.com/u/19778715?v=4",
-  "quality": 117,
+  "quality": 118,
   "updated": "2023-03-13T21:50:27Z",
-  "downloads": 4780
+  "downloads": 4952
 }

@@ -3,7 +3,8 @@
   "version": "1.0.4",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/ImpacGroup/Cordova-Plugin-Tracking-Transparency.git",
   "author": "Felix Nievelstein <fn@impacgroup.de>",
@@ -26,13 +27,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin to use the App Tracking Transparency framework for iOS 14.5 and above.",
   "bugs": "https://github.com/ImpacGroup/Cordova-Plugin-Tracking-Transparency/issues",
-  "stars": 4,
-  "image": "https://avatars.githubusercontent.com/u/51481828?v=4",
-  "quality": 111,
-  "updated": "2023-01-30T15:19:53Z",
-  "downloads": 736
+  "quality": null,
+  "downloads": 743
 }

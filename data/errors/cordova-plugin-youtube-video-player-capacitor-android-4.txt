@@ -62,28 +62,28 @@
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:javaPreCompileRelease
         > Task :app:mergeReleaseResources
         
@@ -96,16 +96,17 @@
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:generateReleaseRFile
         > Task :app:bundleReleaseResources FAILED
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         
@@ -115,7 +116,7 @@
         Execution failed for task ':app:bundleReleaseResources'.
         > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2ProcessResourcesRunnable
         > Android resource linking failed
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:52: error: resource string/activity_name (aka capacitor.v4.sample:string/activity_name) not found.
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/build/intermediates/bundle_manifest/release/AndroidManifest.xml:52: error: resource string/activity_name (aka capacitor.v4.sample:string/activity_name) not found.
         error: failed processing manifest.
         
         
@@ -126,6 +127,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 4s
+        BUILD FAILED in 3s
         60 actionable tasks: 60 executed
         

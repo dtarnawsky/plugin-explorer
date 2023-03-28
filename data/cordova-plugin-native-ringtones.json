@@ -3,7 +3,9 @@
   "version": "0.2.5",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/TongZhangzt/cordova-plugin-native-ringtones.git",
   "author": "Tong Zhang",
@@ -29,11 +31,7 @@
     "ringtone list",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios",
-    "cordova-plugin",
-    "notifications",
-    "ringtone",
-    "ringtone-list"
+    "cordova-ios"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -41,9 +39,6 @@
   ],
   "description": "Get and play the native ringtone list on Android/IOS devices.",
   "bugs": "https://github.com/TongZhangzt/cordova-plugin-native-ringtones/issues",
-  "stars": 7,
-  "image": "https://avatars.githubusercontent.com/u/17078423?v=4",
-  "quality": 128,
-  "updated": "2020-12-10T22:16:33Z",
-  "downloads": 449
+  "quality": null,
+  "downloads": 464
 }

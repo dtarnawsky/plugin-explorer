@@ -3,7 +3,9 @@
   "version": "4.16.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "author": "Scanbot / doo GmbH",
   "published": "2023-03-22T10:19:25.962Z",
@@ -248,5 +250,5 @@
     "capacitor-android-3"
   ],
   "description": "Cordova Plugin for the Scanbot Document and Barcode Scanner SDK",
-  "downloads": 3654
+  "downloads": 3702
 }

@@ -2,7 +2,8 @@
   "name": "cordova-plugin-printer",
   "version": "0.8.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/katzer/cordova-plugin-printer.git",
   "author": "Sebastián Katzer",
@@ -32,7 +33,8 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Prints HTML documents",
   "bugs": "https://github.com/katzer/cordova-plugin-printer/issues",
@@ -40,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
   "quality": 743,
   "updated": "2023-02-21T10:44:00Z",
-  "downloads": 7978
+  "downloads": 8407
 }

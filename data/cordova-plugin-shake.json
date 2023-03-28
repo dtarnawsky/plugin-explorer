@@ -3,7 +3,9 @@
   "version": "0.7.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/leecrossley/cordova-plugin-shake-detection.git",
   "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
@@ -33,7 +35,7 @@
   "bugs": "https://github.com/leecrossley/cordova-plugin-shake-detection/issues",
   "stars": 94,
   "image": "https://avatars.githubusercontent.com/u/807783?v=4",
-  "quality": 237,
+  "quality": 238,
   "updated": "2022-11-15T01:15:29Z",
-  "downloads": 6140
+  "downloads": 6590
 }

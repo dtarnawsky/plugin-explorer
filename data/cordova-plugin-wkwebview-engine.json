@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/apache/cordova-plugin-wkwebview-engine.git",
   "author": "Apache Software Foundation",
@@ -47,5 +49,5 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 1091,
   "updated": "2023-03-04T09:17:20Z",
-  "downloads": 10419
+  "downloads": 10192
 }

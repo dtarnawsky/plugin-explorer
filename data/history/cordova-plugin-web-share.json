@@ -11,15 +11,15 @@
       "success": true
     },
     {
+      "test": "capacitor-ios-4",
+      "version": "1.3.0",
+      "success": true
+    },
+    {
       "test": "capacitor-android-4",
       "version": "1.3.0",
       "failure": "native-build",
       "success": false
-    },
-    {
-      "test": "capacitor-ios-4",
-      "version": "1.3.0",
-      "success": true
     },
     {
       "test": "capacitor-ios-3",

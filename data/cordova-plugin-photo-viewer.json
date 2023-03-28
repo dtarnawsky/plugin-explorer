@@ -2,7 +2,8 @@
   "name": "cordova-plugin-photo-viewer",
   "version": "1.1.5",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ihadeed/cordova-plugin-photo-viewer.git",
   "author": "Román A. Sarria",
@@ -20,7 +21,8 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This plugin is intended to show a picture from an URL into a Photo Viewer with zoom features.",
   "bugs": "https://github.com/ihadeed/cordova-plugin-photo-viewer/issues",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
   "quality": 2,
   "updated": "2016-10-30T17:27:18Z",
-  "downloads": 114
+  "downloads": 116
 }

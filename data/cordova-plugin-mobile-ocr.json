@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin-mobile-ocr",
   "version": "3.1.2",
-  "success": [],
+  "success": [
+    "cordova-android-11"
+  ],
   "repo": "https://github.com/NeutrinosPlatform/cordova-plugin-mobile-ocr.git",
   "author": "jatahworx",
   "published": "2022-04-27T17:35:17.498Z",
@@ -34,7 +36,8 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "cordova plugin for mobile ocr text recognition",
   "bugs": "https://github.com/NeutrinosPlatform/cordova-plugin-mobile-ocr/issues",
@@ -42,5 +45,5 @@
   "image": "https://avatars.githubusercontent.com/u/36298190?v=4",
   "quality": 180,
   "updated": "2023-02-09T05:52:51Z",
-  "downloads": 475
+  "downloads": 465
 }

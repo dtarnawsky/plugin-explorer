@@ -3,7 +3,9 @@
   "version": "3.4.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-touch-id.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -25,14 +27,7 @@
     "Biometric",
     "Scanner",
     "ecosystem:cordova",
-    "cordova-ios",
-    "cordova",
-    "cordova-plugin",
-    "faceid",
-    "fingerprint",
-    "fingerprint-scanner",
-    "touch-id",
-    "touchid"
+    "cordova-ios"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -40,9 +35,6 @@
   ],
   "description": "Scan the fingerprint of your user with the TouchID sensor, or the user's Face with Face ID on iPhone X",
   "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-touch-id/issues",
-  "stars": 212,
-  "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "quality": 419,
-  "updated": "2023-02-06T13:15:52Z",
-  "downloads": 6621
+  "quality": null,
+  "downloads": 6670
 }

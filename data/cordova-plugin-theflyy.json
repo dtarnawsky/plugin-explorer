@@ -1,11 +1,11 @@
 {
   "name": "cordova-plugin-theflyy",
-  "version": "1.1.18",
+  "version": "1.1.19",
   "success": [
     "capacitor-ios-4"
   ],
   "author": "",
-  "published": "2023-02-28T12:59:45.546Z",
+  "published": "2023-03-27T11:58:19.018Z",
   "versions": [
     "1.1.0",
     "1.1.1",
@@ -24,7 +24,8 @@
     "1.1.15",
     "1.1.16",
     "1.1.17",
-    "1.1.18"
+    "1.1.18",
+    "1.1.19"
   ],
   "keywords": [
     "ecosystem:cordova",
@@ -34,8 +35,10 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "",
-  "downloads": 233
+  "downloads": 297
 }

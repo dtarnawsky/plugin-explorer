@@ -3,7 +3,9 @@
   "version": "1.0.4",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/injitools/cordova-simple-volume.git",
   "author": "Boudewijn Geiger",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/9765406?v=4",
   "quality": 8,
   "updated": "2020-08-18T18:57:22Z",
-  "downloads": 19
+  "downloads": 20
 }

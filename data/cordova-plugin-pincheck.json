@@ -3,7 +3,9 @@
   "version": "0.0.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/shangyilim/cordova-plugin-pincheck.git",
   "author": "Lim Shang Yi",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/6754603?v=4",
   "quality": 117,
   "updated": "2022-07-06T09:10:49Z",
-  "downloads": 922
+  "downloads": 1006
 }

@@ -3,7 +3,9 @@
   "version": "0.1.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/twogate/cordova-plugin-sign-in-with-apple.git",
   "author": "",
@@ -26,5 +28,5 @@
   "bugs": "https://github.com/twogate/cordova-plugin-sign-in-with-apple/issues",
   "stars": 70,
   "image": "https://avatars.githubusercontent.com/u/18518929?v=4",
-  "downloads": 13096
+  "downloads": 13616
 }

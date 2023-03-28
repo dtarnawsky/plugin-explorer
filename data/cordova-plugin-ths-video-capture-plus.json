@@ -2,7 +2,9 @@
   "name": "cordova-plugin-ths-video-capture-plus",
   "version": "1.0.1",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/danielsogl/cordova-plugin-video-capture-plus.git",
   "author": "Daniel Sogl",
@@ -27,5 +29,5 @@
   "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
   "quality": 46,
   "updated": "2021-10-02T21:10:46Z",
-  "downloads": 11
+  "downloads": 12
 }
