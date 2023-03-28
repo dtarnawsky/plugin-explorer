@@ -1,6 +1,7 @@
 export enum Failure {
-    npmInstall,
-    npmMissing,
-    sync,
-    peer
+    npmInstall = 'npm-install',
+    npmMissing = 'npm-missing',
+    sync = 'cap-sync',
+    peer = 'peer-dependencies',
+    build = 'native-build'
 }

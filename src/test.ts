@@ -1,3 +1,7 @@
+import { existsSync, readFileSync, writeFileSync } from "fs";
+import { join } from "path";
+import { Failure } from "./failures.js";
+
 export enum Test {
     capacitorIos4 = 'capacitor-ios-4',
     capacitorAndroid4 = 'capacitor-android-4',
@@ -7,6 +11,41 @@ export enum Test {
     cordovaAndroid11 = 'cordova-android-11',
     failedInNPM = 'failed-in-npm',
     noOp = 'noop'
+}
+export interface TestHistorySummary {
+   name: string;
+   tests: TestHistory[]
+}
+
+export function setTestHistory(plugin: string, history: TestHistory) {
+    const historySummary = readTestHistorySummary(plugin);
+    historySummary.tests = historySummary.tests.filter((h) => !(h.test == history.test && h.version == history.version));
+    historySummary.tests.push(history);
+    saveTestHistory(historySummary);
+}
+
+export function readTestHistorySummary(plugin: string): TestHistorySummary {
+   if (existsSync(testHistoryFilename(plugin))) {
+       const data = readFileSync(testHistoryFilename(plugin),'utf-8');
+       return JSON.parse(data);
+   } else {
+    return { tests: [], name: plugin};
+   }
+}
+
+function saveTestHistory(testHistory: TestHistorySummary) {
+    writeFileSync(testHistoryFilename(testHistory.name), JSON.stringify(testHistory,undefined, 2));
+}
+
+function testHistoryFilename(plugin: string) {
+    return join('data', 'history', `${encodeURIComponent(plugin)}.json`);
+}
+
+export interface TestHistory {
+    test: Test;
+    version: string;
+    failure: Failure,
+    success: boolean
 }
 
 export interface TestInfo {

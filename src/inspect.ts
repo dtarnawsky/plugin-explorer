@@ -1,6 +1,6 @@
 import { runAll, run } from './utils.js';
 import { Inspection } from './inspection.js';
-import { Test, TestInfo } from './test.js';
+import { Test, TestInfo, setTestHistory } from './test.js';
 import { NPMView } from './npm-view.js';
 import { writeErrorLog, readPlugin, removeErrorLog } from './catalog.js';
 import { inspectGitHubAPI } from './github.js';
@@ -34,6 +34,8 @@ export async function inspect(plugin: string, info: TestInfo, filterType: Filter
     } else {
         result.fails.push(info.ios);
         result.fails.push(info.android);
+        setTestHistory(result.name, {test: info.ios, version: result.version, failure, success: false });
+        setTestHistory(result.name, {test: info.android, version: result.version, failure, success: false });
     }
     return result;
 }
@@ -154,4 +156,7 @@ function storeResult(test: Test, result: Inspection, error?: any) {
         }
         writeErrorLog(result.name, test, error);
     }
+
+    
+    setTestHistory(result.name, {test: test, version: result.version, failure: error ? Failure.build : undefined, success: !error });
 }
