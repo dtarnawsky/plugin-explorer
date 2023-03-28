@@ -3,7 +3,8 @@
   "version": "1.4.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/PeterHdd/cordova-plugin-crypto-file.git",
   "author": "PeterHdd",
@@ -29,7 +30,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "This plugin to encrypt/decrypt the source files.",
   "bugs": "https://github.com/PeterHdd/cordova-plugin-crypto-file/issues",

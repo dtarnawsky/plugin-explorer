@@ -57,67 +57,57 @@
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-app:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:generateReleaseRFile
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseRFile
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
-        
-        > Task :app:mapReleaseSourceSetPaths
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :app:mapReleaseSourceSetPaths
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         warn: removing resource capacitor.v4.sample:string/connecting without required default value.
         warn: removing resource capacitor.v4.sample:string/err_bt_socket without required default value.
         warn: removing resource capacitor.v4.sample:string/err_disconnect_printer without required default value.
@@ -146,26 +136,50 @@
         warn: removing resource capacitor.v4.sample:string/printer_connected without required default value.
         warn: removing resource capacitor.v4.sample:string/printer_disconnected without required default value.
         
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         > Task :app:bundleReleaseResources
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :app:processReleaseManifestForPackage
+        > Task :capacitor-keyboard:bundleLibCompileToJarRelease
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/giorgiofellipe/datecsprinter/DatecsSDKWrapper.java:36: error: package android.support.v4.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/giorgiofellipe/datecsprinter/DatecsSDKWrapper.java:36: error: package android.support.v4.content does not exist
         import android.support.v4.content.LocalBroadcastManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/giorgiofellipe/datecsprinter/DatecsSDKWrapper.java:713: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/giorgiofellipe/datecsprinter/DatecsSDKWrapper.java:713: error: cannot find symbol
         LocalBroadcastManager.getInstance(mWebView.getContext()).sendBroadcastSync(intent);
         ^
         symbol:   variable LocalBroadcastManager
         location: class DatecsSDKWrapper
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/giorgiofellipe/datecsprinter/DatecsSDKWrapper.java uses or overrides a deprecated API.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/giorgiofellipe/datecsprinter/DatecsSDKWrapper.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/giorgiofellipe/datecsprinter/DatecsSDKWrapper.java uses unchecked or unsafe operations.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/giorgiofellipe/datecsprinter/DatecsSDKWrapper.java uses unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
         2 errors
         
@@ -182,6 +196,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
-        76 actionable tasks: 76 executed
+        BUILD FAILED in 6s
+        89 actionable tasks: 89 executed
         

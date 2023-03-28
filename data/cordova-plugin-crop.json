@@ -3,7 +3,8 @@
   "version": "0.4.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/jeduan/cordova-plugin-crop.git",
   "published": "2022-10-05T21:40:31.628Z",
@@ -25,13 +26,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Crop an image in a Cordova app",
   "bugs": "https://github.com/jeduan/cordova-plugin-crop/issues",
-  "stars": 116,
+  "stars": 115,
   "image": "https://avatars.githubusercontent.com/u/37972?v=4",
-  "quality": 427,
-  "updated": "2023-03-08T05:03:36Z",
-  "downloads": 5816
+  "quality": 426,
+  "updated": "2023-03-28T11:15:39Z",
+  "downloads": 5861
 }

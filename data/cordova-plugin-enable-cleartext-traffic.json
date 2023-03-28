@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "author": "Rahul CV",
   "published": "2022-04-27T17:19:54.678Z",
@@ -30,5 +32,5 @@
     "capacitor-android-3"
   ],
   "description": "Cordova Plugin Enable cleartextTraffic ",
-  "downloads": 1369
+  "downloads": 1390
 }

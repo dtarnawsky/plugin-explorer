@@ -8,7 +8,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/cordova-plugin-drawoverapps/src/android/overApp.gradle' line: 1
+        Script '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/cordova-plugin-drawoverapps/src/android/overApp.gradle' line: 1
         
         * What went wrong:
         A problem occurred evaluating script.

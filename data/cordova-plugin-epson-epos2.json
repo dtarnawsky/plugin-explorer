@@ -24,7 +24,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova Plugin integrating the Epson ePOS2 SDK for iOS and Android",
   "bugs": "https://github.com/towerism/cordova-plugin-epson-epos2/issues",
@@ -32,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/2057426?v=4",
   "quality": 118,
   "updated": "2022-04-01T08:23:58Z",
-  "downloads": 20
+  "downloads": 21
 }

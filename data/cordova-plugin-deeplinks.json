@@ -3,7 +3,8 @@
   "version": "1.1.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "ssh://git@github.com/e-imaxina/cordova-plugin-deeplinks.git",
   "author": "Nikolay Demyankov for Nordnet Bank AB",
@@ -28,10 +29,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin to add in your application support for Universal Links (iOS 9) and Deep Links (Android). Basically, open application through the link in the browser.",
   "bugs": "https://github.com/e-imaxina/cordova-plugin-deeplinks/issues",
   "quality": null,
-  "downloads": 4706
+  "downloads": 4615
 }

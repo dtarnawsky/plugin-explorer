@@ -3,7 +3,8 @@
   "version": "1.0.5",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/edwardgaoyb/cordova-cookie-master.git",
   "author": "Edward Gao",
@@ -27,7 +28,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "This plugin enables the management of cookies in WebViews on iOS and Android as those platforms restrict the use of \"document.cookie\".",
   "bugs": "https://github.com/edwardgaoyb/cordova-cookie-master/issues",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/7512269?v=4",
   "quality": 21,
   "updated": "2022-09-17T18:41:53Z",
-  "downloads": 531
+  "downloads": 546
 }

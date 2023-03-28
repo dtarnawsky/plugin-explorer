@@ -64,10 +64,10 @@
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/no/nordicsemi/android/dfu/1.11.0/dfu-1.11.0.pom
         - https://repo.maven.apache.org/maven2/no/nordicsemi/android/dfu/1.11.0/dfu-1.11.0.pom
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/dfu-1.11.0.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/dfu.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/dfu-1.11.0.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/dfu.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/dfu-1.11.0.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/dfu.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/dfu-1.11.0.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/dfu.jar
         Required by:
         project :app
         project :app > project :capacitor-cordova-android-plugins

@@ -80,134 +80,163 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-app:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :capacitor-keyboard:bundleLibCompileToJarRelease
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:processReleaseManifestForPackage
+        > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :app:desugarReleaseFileDependencies
+        > Task :app:mergeReleaseShaders
+        > Task :app:compileReleaseShaders NO-SOURCE
+        > Task :app:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-android:mergeReleaseShaders
+        > Task :capacitor-android:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-android:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-android:packageReleaseAssets
+        > Task :capacitor-app:mergeReleaseShaders
+        > Task :capacitor-app:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-app:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-app:packageReleaseAssets
+        > Task :capacitor-cordova-android-plugins:mergeReleaseShaders
+        > Task :capacitor-cordova-android-plugins:compileReleaseShaders NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseAssets UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseAssets
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:3: error: package android.provider does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:3: error: package android.provider does not exist
         import android.provider.Settings;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:4: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:4: error: package android.content does not exist
         import android.content.ContentResolver;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:9: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:9: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:10: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:10: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:11: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:11: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:15: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:15: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class DevOptionsChecker
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:15: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:15: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class DevOptionsChecker
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:17: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:17: error: cannot find symbol
         ContentResolver resolver = cordova.getActivity().getContentResolver();
         ^
         symbol:   class ContentResolver
         location: class DevOptionsChecker
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:17: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:17: error: cannot access Activity
         ContentResolver resolver = cordova.getActivity().getContentResolver();
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:19: error: package android.os.Build does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:19: error: package android.os.Build does not exist
         int androidSdkVersion = android.os.Build.VERSION.SDK_INT;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:24: error: package Settings does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:24: error: package Settings does not exist
         Settings.Secure.getInt(resolver,
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:26: error: package Settings does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:26: error: package Settings does not exist
         Settings.Secure.ADB_ENABLED :
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:28: error: package Settings does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:28: error: package Settings does not exist
         Settings.Secure.DEVELOPMENT_SETTINGS_ENABLED :
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:29: error: package Settings does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:29: error: package Settings does not exist
         Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0) != 0
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:22: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:22: error: cannot find symbol
         callbackContext.success(new JSONObject().put(
         ^
         symbol:   class JSONObject
         location: class DevOptionsChecker
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:32: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/plugin/dev/DevOptionsChecker/DevOptionsChecker.java:32: error: cannot find symbol
         callbackContext.success(new JSONObject().put(
         ^
         symbol:   class JSONObject
         location: class DevOptionsChecker
         16 errors
         
+        > Task :app:mergeExtDexRelease
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         FAILURE: Build failed with an exception.
         
         * What went wrong:
@@ -219,10 +248,9 @@
         
         * Get more help at https://help.gradle.org
         
-        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        BUILD FAILED in 6s
+        
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        
-        BUILD FAILED in 5s
-        81 actionable tasks: 81 executed
+        100 actionable tasks: 100 executed
         

@@ -3,7 +3,8 @@
   "version": "3.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/experiencecommerce/cordova-plugin-customconfigparameters.git",
   "author": "Deepak Yadav",
@@ -25,7 +26,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova Custom Config Parameters Plugin",
   "bugs": "https://github.com/experiencecommerce/cordova-plugin-customconfigparameters/issues",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/22025490?v=4",
   "quality": 115,
   "updated": "2019-06-13T09:30:39Z",
-  "downloads": 224
+  "downloads": 229
 }

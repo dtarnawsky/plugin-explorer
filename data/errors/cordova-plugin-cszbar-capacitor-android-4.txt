@@ -56,35 +56,39 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :app:processReleaseMainManifest
-        > Task :app:processReleaseManifest
-        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-android:javaPreCompileRelease
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseRFile
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
@@ -93,29 +97,30 @@
         
         > Task :app:mapReleaseSourceSetPaths
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-app:compileReleaseJavaWithJavac
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:checkReleaseDuplicateClasses
         > Task :app:bundleReleaseResources FAILED
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        66 actionable tasks: 66 executed
         
         FAILURE: Build failed with an exception.
         
@@ -123,19 +128,19 @@
         Execution failed for task ':app:bundleReleaseResources'.
         > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2ProcessResourcesRunnable
         > Android resource linking failed
-        ERROR:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:2: AAPT: error: resource color/csZbarScannerBackground (aka capacitor.v4.sample:color/csZbarScannerBackground) not found.
+        ERROR:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:2: AAPT: error: resource color/csZbarScannerBackground (aka capacitor.v4.sample:color/csZbarScannerBackground) not found.
         
-        ERROR:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:8: AAPT: error: resource string/csZbarScannerTitle (aka capacitor.v4.sample:string/csZbarScannerTitle) not found.
+        ERROR:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:8: AAPT: error: resource string/csZbarScannerTitle (aka capacitor.v4.sample:string/csZbarScannerTitle) not found.
         
-        ERROR:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:8: AAPT: error: resource color/csZbarScannerTextColor (aka capacitor.v4.sample:color/csZbarScannerTextColor) not found.
+        ERROR:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:8: AAPT: error: resource color/csZbarScannerTextColor (aka capacitor.v4.sample:color/csZbarScannerTextColor) not found.
         
-        ERROR:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:8: AAPT: error: resource color/csZbarScannerTextBackground (aka capacitor.v4.sample:color/csZbarScannerTextBackground) not found.
+        ERROR:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:8: AAPT: error: resource color/csZbarScannerTextBackground (aka capacitor.v4.sample:color/csZbarScannerTextBackground) not found.
         
-        ERROR:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:23: AAPT: error: resource color/csZbarScannerTextColor (aka capacitor.v4.sample:color/csZbarScannerTextColor) not found.
+        ERROR:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:23: AAPT: error: resource color/csZbarScannerTextColor (aka capacitor.v4.sample:color/csZbarScannerTextColor) not found.
         
-        ERROR:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:23: AAPT: error: resource string/csZbarScannerInstructions (aka capacitor.v4.sample:string/csZbarScannerInstructions) not found.
+        ERROR:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:23: AAPT: error: resource string/csZbarScannerInstructions (aka capacitor.v4.sample:string/csZbarScannerInstructions) not found.
         
-        ERROR:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:51: AAPT: error: resource color/csZbarScannerTextBackground (aka capacitor.v4.sample:color/csZbarScannerTextBackground) not found.
+        ERROR:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/build/intermediates/packaged_res/release/layout/cszbarscanner.xml:51: AAPT: error: resource color/csZbarScannerTextBackground (aka capacitor.v4.sample:color/csZbarScannerTextBackground) not found.
         
         
         * Try:
@@ -145,5 +150,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
+        BUILD FAILED in 4s
+        71 actionable tasks: 71 executed
         

@@ -3,7 +3,8 @@
   "version": "2.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/apache/cordova-plugin-device-motion.git",
   "author": "Apache Software Foundation",
@@ -60,13 +61,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "[DEPRECATED] Cordova Device Motion Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
+  "quality": 311,
+  "downloads": 28133,
   "stars": 70,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "quality": 311,
-  "updated": "2023-03-02T21:21:30Z",
-  "downloads": 27343
+  "updated": "2023-03-02T21:21:30Z"
 }

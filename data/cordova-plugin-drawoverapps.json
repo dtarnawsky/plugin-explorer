@@ -3,7 +3,8 @@
   "version": "1.1.0",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ahmedwahba/cordova-plugin-drawoverapps.git",
   "published": "2022-06-14T00:06:29.440Z",
@@ -30,7 +31,8 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Android Cordova Plugin that uses draw over all apps feasure to display a Web view",
   "bugs": "https://github.com/ahmedwahba/cordova-plugin-drawoverapps/issues",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/11292384?v=4",
   "quality": 155,
   "updated": "2023-01-30T11:01:20Z",
-  "downloads": 29
+  "downloads": 31
 }

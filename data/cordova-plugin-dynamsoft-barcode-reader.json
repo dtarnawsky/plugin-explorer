@@ -47,7 +47,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Plugin for Dynamsoft Barcode Reader",
   "bugs": "https://github.com/xulihang/cordova-plugin-dynamsoft-barcode-reader/issues",
@@ -55,5 +57,5 @@
   "image": "https://avatars.githubusercontent.com/u/112376616?v=4",
   "quality": 105,
   "updated": "2022-10-15T12:41:12Z",
-  "downloads": 99
+  "downloads": 96
 }

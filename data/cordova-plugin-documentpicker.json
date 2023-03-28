@@ -2,7 +2,9 @@
   "name": "cordova-plugin-documentpicker",
   "version": "1.0.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "author": "Impossible",
   "published": "2022-04-27T17:19:15.670Z",

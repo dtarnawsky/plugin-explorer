@@ -36,7 +36,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Launch your app by using this URL:  mycoolapp://, you can add a path and even pass params like this: mycoolerapp://somepath?foo=bar",
   "bugs": "https://github.com/EddyVerbruggen/Custom-URL-scheme/issues",
@@ -44,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 1626,
   "updated": "2023-03-07T01:19:40Z",
-  "downloads": 35529
+  "downloads": 35800
 }

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "",
   "author": "Open",
@@ -20,8 +21,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova SNTP Plugin",
-  "downloads": 4
+  "downloads": 5
 }

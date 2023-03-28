@@ -3,7 +3,9 @@
   "version": "2.0.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/apache/cordova-plugin-dialogs.git",
   "author": "Apache Software Foundation",
@@ -62,5 +64,5 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 770,
   "updated": "2023-03-02T20:35:10Z",
-  "downloads": 97210
+  "downloads": 97753
 }

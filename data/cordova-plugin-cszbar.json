@@ -25,7 +25,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Plugin to integrate with the ZBar barcode scanning library.",
   "bugs": "https://github.com/tjwoon/csZBar/issues",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/5500559?v=4",
   "quality": 489,
   "updated": "2022-11-04T10:37:48Z",
-  "downloads": 258
+  "downloads": 263
 }

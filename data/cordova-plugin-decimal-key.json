@@ -3,7 +3,8 @@
   "version": "1.2.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "git://github.com/exxbrain/cordova-plugin-decimal-key.git",
   "author": "Denis Zakharov",
@@ -29,10 +30,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin decimal keyboard",
   "bugs": "https://github.com/exxbrain/cordova-plugin-decimal-key/issues",
   "quality": null,
-  "downloads": 1324
+  "downloads": 1383
 }

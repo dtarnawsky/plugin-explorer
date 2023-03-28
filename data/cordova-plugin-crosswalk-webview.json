@@ -39,7 +39,9 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Changes the default WebView to CrossWalk",
   "bugs": "https://crosswalk-project.org/jira",
@@ -47,5 +49,5 @@
   "image": "https://avatars.githubusercontent.com/u/4867377?v=4",
   "quality": 1422,
   "updated": "2023-01-28T15:12:30Z",
-  "downloads": 1391
+  "downloads": 1413
 }

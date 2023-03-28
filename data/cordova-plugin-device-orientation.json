@@ -3,7 +3,8 @@
   "version": "2.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/apache/cordova-plugin-device-orientation.git",
   "author": "Apache Software Foundation",
@@ -59,7 +60,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "[DEPRECATED] Cordova Device Orientation Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
@@ -67,5 +69,5 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 245,
   "updated": "2023-03-02T21:35:37Z",
-  "downloads": 4506
+  "downloads": 4531
 }

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "hhttps://github.com/mrchandoo/cordova-plugin-decimal-keyboard.git",
   "author": "mrchandoo",
@@ -22,10 +23,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin to show decimal keyboard on iPhones",
   "bugs": "https://github.com/mrchandoo/cordova-plugin-decimal-keyboard/issues",
   "quality": null,
-  "downloads": 48
+  "downloads": 50
 }

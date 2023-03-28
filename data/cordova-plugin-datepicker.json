@@ -3,7 +3,8 @@
   "version": "0.9.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/VitaliiBlagodir/cordova-plugin-datepicker.git",
   "author": "Vitalii Blagodir <vitalii.blagodir@gmail.com>",
@@ -35,7 +36,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova DatePicker Plugin",
   "bugs": "https://github.com/VitaliiBlagodir/cordova-plugin-datepicker/issues",
@@ -43,5 +45,5 @@
   "image": "https://avatars.githubusercontent.com/u/3941665?v=4",
   "quality": 966,
   "updated": "2022-10-13T15:00:54Z",
-  "downloads": 9341
+  "downloads": 9442
 }
