@@ -21,7 +21,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "iOS and Android Capacitor plugin for App Actions",
   "bugs": "https://github.com/uioporqwerty/capacitor-app-actions/issues",
