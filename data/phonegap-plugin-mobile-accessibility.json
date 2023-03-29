@@ -35,6 +35,9 @@
   ],
   "description": "PhoneGap Mobile Accessibility Plugin",
   "bugs": "https://github.com/phonegap/phonegap-mobile-accessibility/issues",
-  "quality": null,
-  "downloads": 12706
+  "quality": 364,
+  "downloads": 13274,
+  "stars": 144,
+  "image": "https://avatars.githubusercontent.com/u/60365?v=4",
+  "updated": "2023-03-20T07:14:14Z"
 }

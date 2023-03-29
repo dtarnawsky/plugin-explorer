@@ -1,12 +1,6 @@
 {
   "tests": [
     {
-      "test": "capacitor-android-3",
-      "version": "3.0.12",
-      "failure": "native-build",
-      "success": false
-    },
-    {
       "test": "cordova-ios-6",
       "version": "3.0.12",
       "failure": "peer-dependencies",
@@ -16,6 +10,12 @@
       "test": "cordova-android-11",
       "version": "3.0.12",
       "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "3.0.12",
+      "failure": "native-build",
       "success": false
     }
   ],

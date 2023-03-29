@@ -1,15 +1,15 @@
 {
   "tests": [
     {
+      "test": "cordova-ios-6",
+      "version": "8.3.11",
+      "success": true
+    },
+    {
       "test": "cordova-android-11",
       "version": "8.3.11",
       "failure": "native-build",
       "success": false
-    },
-    {
-      "test": "cordova-ios-6",
-      "version": "8.3.11",
-      "success": true
     },
     {
       "test": "capacitor-ios-3",

@@ -63,7 +63,7 @@ Some problems were found with the configuration of task ':app:processDebugGoogle
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 2s
 Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
 [[40mERROR[49m] An error occurred while running subprocess cordova.
         
