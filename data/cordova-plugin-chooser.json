@@ -3,7 +3,8 @@
   "version": "1.3.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/cyph/cordova-plugin-chooser.git",
   "author": "Cyph, Inc. <cordova-plugin-chooser@cyph.com> (https://github.com/cyph)",
@@ -90,13 +91,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova file chooser plugin",
   "bugs": "https://github.com/cyph/cordova-plugin-chooser/issues",
-  "stars": 38,
+  "stars": 39,
   "image": "https://avatars.githubusercontent.com/u/9080936?v=4",
-  "quality": 217,
-  "updated": "2022-11-12T09:41:05Z",
-  "downloads": 19725
+  "quality": 218,
+  "updated": "2023-03-28T19:36:04Z",
+  "downloads": 19808
 }

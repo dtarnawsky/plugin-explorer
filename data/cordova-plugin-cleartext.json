@@ -19,8 +19,10 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "",
-  "downloads": 11906
+  "downloads": 12314
 }

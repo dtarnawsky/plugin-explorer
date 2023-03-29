@@ -3,7 +3,8 @@
   "version": "1.0.7",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-common.git",
   "author": "",
@@ -19,7 +20,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "This plugin is a dependency for a few other chromium plugins.",
   "bugs": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-common/issues",
@@ -27,5 +29,5 @@
   "image": "https://avatars.githubusercontent.com/u/2439313?v=4",
   "quality": 108,
   "updated": "2023-01-28T08:50:18Z",
-  "downloads": 2548
+  "downloads": 2611
 }

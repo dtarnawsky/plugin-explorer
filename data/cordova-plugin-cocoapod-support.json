@@ -3,7 +3,8 @@
   "version": "1.6.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/blakgeek/cordova-plugin-cocoapods-support.git",
   "published": "2022-12-11T19:33:56.680Z",
@@ -51,7 +52,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "A Cordova/PhoneGap plugin to add support for Cocoapod dependencies.",
   "bugs": "https://github.com/blakgeek/cordova-plugin-cocoapods-support/issues",
@@ -59,5 +61,5 @@
   "image": "https://avatars.githubusercontent.com/u/824542?v=4",
   "quality": 252,
   "updated": "2023-01-28T09:37:14Z",
-  "downloads": 4176
+  "downloads": 4114
 }
