@@ -116,6 +116,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 5s
+        BUILD FAILED in 4s
         14 actionable tasks: 14 executed
         

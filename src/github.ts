@@ -141,7 +141,7 @@ export async function inspectGitHubAPI(item: Inspection) {
         // call api (eg https://api.github.com/repos/capawesome-team/capacitor-mlkit) and get GitHubInfo
 
         // https://github.com/capacitor-community/capacitor-googlemaps-native.git
-        const part = item.repo.replace('https://github.com/', '').replace('.git', '');
+        const part = item.repo.replace('https://github.com/', '').replace('.git', '').replace('ssh://git@','');
         const response = await fetch(`https://api.github.com/repos/${part}`);
         const gh: GitHubInfo = await response.json() as GitHubInfo;
         item.stars = gh.stargazers_count;

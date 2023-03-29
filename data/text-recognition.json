@@ -21,5 +21,5 @@
     "cordova-android-11"
   ],
   "description": "This package implements basic OCR logic which recognises and highlights text on image.",
-  "downloads": 32
+  "downloads": 31
 }

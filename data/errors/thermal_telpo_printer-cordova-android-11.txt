@@ -51,7 +51,7 @@ Execution failed for task ':app:compileDebugJavaWithJavac'.
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 3s
 Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
 [[40mERROR[49m] An error occurred while running subprocess cordova.
         

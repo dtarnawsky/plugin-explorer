@@ -11,12 +11,12 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: 4ced671a8e7bee0e5cbc92acb945ed9b
-        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/4ced671a8e7bee0e5cbc92acb945ed9b-desc.xcbuild
+        Build description signature: 8f06d89ccf30c155a0b25f1143b3b33a
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/8f06d89ccf30c155a0b25f1143b3b33a-desc.xcbuild
         
         note: Building targets in dependency order
-        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "WonderPush-WonderPush" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'WonderPush-WonderPush' from project 'Pods')
         warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "WonderPush-WonderPush" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'WonderPush-WonderPush' from project 'Pods')
         ** ARCHIVE FAILED **
         
         

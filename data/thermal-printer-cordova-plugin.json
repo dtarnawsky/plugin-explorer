@@ -35,9 +35,6 @@
   ],
   "description": "Cordova wrapper for ESC/POS Thermal Printer library",
   "bugs": "https://github.com/paystory-de/thermal-printer-cordova-plugin.git/issues",
-  "stars": 25,
-  "image": "https://avatars.githubusercontent.com/u/73749290?v=4",
-  "quality": 165,
-  "updated": "2023-03-21T15:43:52Z",
-  "downloads": 388
+  "quality": null,
+  "downloads": 398
 }

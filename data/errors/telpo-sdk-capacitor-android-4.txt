@@ -69,77 +69,77 @@
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :telpo-sdk:extractDeepLinksRelease
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :telpo-sdk:processReleaseManifest
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-android:processReleaseManifest
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :telpo-sdk:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :telpo-sdk:processReleaseManifest
+        > Task :capacitor-status-bar:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :telpo-sdk:compileReleaseLibraryResources
+        > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:generateReleaseRFile
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
         > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
-        
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        
         > Task :app:mapReleaseSourceSetPaths
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-app:compileReleaseJavaWithJavac
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        > Task :telpo-sdk:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :telpo-sdk:compileReleaseAidl NO-SOURCE
         > Task :telpo-sdk:generateReleaseBuildConfig
-        > Task :telpo-sdk:javaPreCompileRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
         > Task :telpo-sdk:parseReleaseLocalResources
+        > Task :telpo-sdk:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :telpo-sdk:generateReleaseRFile
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :telpo-sdk:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         
         > Task :telpo-sdk:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/telpo-sdk/android/src/main/java/me/ariapos/telpo/Telpo.java:10: error: package com.telpo.tps550.api does not exist
@@ -181,12 +181,12 @@
         
         * Get more help at https://help.gradle.org
         
+        BUILD FAILED in 3s
+        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
-        
-        BUILD FAILED in 3sSee https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+        See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
         85 actionable tasks: 85 executed
-        
         

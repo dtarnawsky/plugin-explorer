@@ -62,9 +62,6 @@
   ],
   "description": "Enables importing/exporting of SQLite databases to/from JSON/SQL.",
   "bugs": "https://github.com/dpa99c/cordova-sqlite-porter/issues",
-  "stars": 63,
-  "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
-  "quality": 202,
-  "updated": "2023-01-07T17:05:09Z",
-  "downloads": 2338
+  "quality": null,
+  "downloads": 2433
 }

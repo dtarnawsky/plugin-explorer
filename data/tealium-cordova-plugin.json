@@ -45,9 +45,6 @@
   ],
   "description": "Tealium Customer Data Hub",
   "bugs": "https://github.com/Tealium/cordova-plugin/issues",
-  "quality": 118,
-  "downloads": 1975,
-  "stars": 4,
-  "image": "https://avatars.githubusercontent.com/u/1724745?v=4",
-  "updated": "2023-02-06T16:54:03Z"
+  "quality": null,
+  "downloads": 2030
 }

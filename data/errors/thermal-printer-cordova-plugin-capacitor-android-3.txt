@@ -80,71 +80,35 @@
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-android:javaPreCompileRelease
-        
-        > Task :capacitor-android:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:parseReleaseLocalResources
         > Task :app:mergeReleaseResources
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        Note: Some input files use unchecked or unsafe operations.
-        Note: Recompile with -Xlint:unchecked for details.
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:generateReleaseRFile
-        
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :app:bundleReleaseResources
-        
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :app:checkReleaseDuplicateClasses
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :app:javaPreCompileRelease
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/de/paystory/thermal_printer/ThermalPrinterCordovaPlugin.java:3: error: package android does not exist
@@ -590,6 +554,8 @@
         location: class ThermalPrinterCordovaPlugin
         100 errors
         
+        > Task :app:bundleReleaseResources
+        
         FAILURE: Build failed with an exception.
         
         * What went wrong:
@@ -604,7 +570,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        81 actionable tasks: 81 executed
+        64 actionable tasks: 64 executed
         
-        BUILD FAILED in 3s
+        BUILD FAILED in 2s
         

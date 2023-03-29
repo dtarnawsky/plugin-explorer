@@ -78,9 +78,6 @@
   ],
   "description": "Cordova/Phonegap plugin to navigate to a destination using native navigation apps on Android, iOS, and Windows",
   "bugs": "https://github.com/dpa99c/phonegap-launch-navigator/issues",
-  "stars": 369,
-  "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
-  "quality": 609,
-  "updated": "2022-12-22T15:20:37Z",
-  "downloads": 39887
+  "quality": null,
+  "downloads": 41366
 }
