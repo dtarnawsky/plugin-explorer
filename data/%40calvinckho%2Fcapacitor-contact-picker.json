@@ -20,12 +20,12 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Allows users to select a single contact from their device.",
   "bugs": "https://github.com/calvinckho/capacitor-contact-picker/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/23274587?v=4",
-  "quality": 1,
-  "updated": "2022-03-24T06:02:05Z"
+  "quality": null,
+  "downloads": 253
 }

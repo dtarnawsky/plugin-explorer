@@ -28,12 +28,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "bugs": "https://github.com/BluePerformance/capacitor-barcode-scanner/issues",
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/74414103?v=4",
   "quality": 101,
-  "updated": "2022-12-15T01:42:57Z"
+  "updated": "2023-03-26T07:43:11Z",
+  "downloads": 297
 }

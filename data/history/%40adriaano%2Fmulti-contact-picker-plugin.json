@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "0.0.6",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.0.6",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-4",
+      "version": "0.0.6",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
+      "version": "0.0.6",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "0.0.6",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "0.0.6",
+      "failure": "peer-dependencies",
+      "success": false
+    }
+  ],
+  "name": "@adriaano/multi-contact-picker-plugin"
+}

@@ -52,14 +52,21 @@
     "capacitor-plugin",
     "oauth2",
     "oauth2-client",
-    "social-login"
+    "social-login",
+    "authentication"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor OAuth 2 client plugin",
   "bugs": "https://github.com/moberwasserlechner/capacitor-oauth2/issues",
-  "quality": null
+  "quality": 406,
+  "stars": 173,
+  "image": "https://avatars.githubusercontent.com/u/1049938?v=4",
+  "updated": "2023-03-07T20:54:24Z",
+  "downloads": 22438
 }

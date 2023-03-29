@@ -1,6 +1,6 @@
 {
   "name": "@aparajita/capacitor-dark-mode",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
@@ -15,7 +15,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
@@ -40,9 +42,11 @@
     "3.2.1",
     "3.3.0",
     "3.3.1",
-    "3.3.2"
+    "3.3.2",
+    "3.3.3"
   ],
   "author": "Aparajita Fishman",
   "bugs": "https://github.com/aparajita/capacitor-dark-mode/issues",
-  "published": "2023-03-22T04:34:59.432Z"
+  "published": "2023-03-28T23:33:26.680Z",
+  "downloads": 448
 }

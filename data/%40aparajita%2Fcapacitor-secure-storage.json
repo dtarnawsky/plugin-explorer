@@ -22,12 +22,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "stars": 34,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
   "description": "Capacitor 4+ plugin that provides secure storage for the web, iOS and Android",
-  "quality": 138,
+  "quality": 139,
   "updated": "2023-03-23T08:02:49Z",
   "versions": [
     "1.0.4",
@@ -40,5 +42,6 @@
   ],
   "author": "Aparajita Fishman",
   "bugs": "https://github.com/aparajita/capacitor-secure-storage/issues",
-  "published": "2023-02-17T21:58:33.088Z"
+  "published": "2023-02-17T21:58:33.088Z",
+  "downloads": 1177
 }

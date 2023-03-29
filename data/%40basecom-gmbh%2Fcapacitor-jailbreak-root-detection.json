@@ -25,12 +25,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Jailbreak Root detection Plugin for Capacitor",
   "bugs": "https://github.com/Phil0xFF/capacitor-jailbreak-root-detection/issues",
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/18264611?v=4",
   "quality": 102,
-  "updated": "2023-01-10T14:39:00Z"
+  "updated": "2023-01-10T14:39:00Z",
+  "downloads": 1547
 }

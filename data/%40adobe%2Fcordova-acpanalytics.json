@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/adobe/cordova-acpanalytics.git",
   "keywords": [
@@ -17,7 +18,8 @@
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/476009?v=4",
@@ -29,5 +31,6 @@
   ],
   "author": "Adobe",
   "bugs": "https://github.com/adobe/cordova-acpanalytics/issues",
-  "published": "2022-04-04T11:34:29.764Z"
+  "published": "2022-04-04T11:34:29.764Z",
+  "downloads": 2139
 }

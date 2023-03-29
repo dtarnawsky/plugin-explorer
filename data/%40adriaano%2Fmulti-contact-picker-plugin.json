@@ -12,7 +12,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "versions": [
     "0.0.1",
@@ -24,5 +26,6 @@
   ],
   "author": "Adriaan Odendaal",
   "description": "Select Multiple Contacts",
-  "published": "2022-04-04T11:37:05.181Z"
+  "published": "2022-04-04T11:37:05.181Z",
+  "downloads": 15
 }

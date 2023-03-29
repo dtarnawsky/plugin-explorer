@@ -15,7 +15,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/2982153?v=4",
@@ -29,5 +31,6 @@
   ],
   "author": "Alexis Deprez",
   "bugs": "https://github.com/adeprez/capacitor-user-agent/issues",
-  "published": "2022-12-08T19:22:29.708Z"
+  "published": "2022-12-08T19:22:29.708Z",
+  "downloads": 1840
 }

@@ -15,7 +15,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "stars": 11,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
@@ -30,5 +32,6 @@
   ],
   "author": "Aparajita Fishman",
   "bugs": "https://github.com/aparajita/capacitor-logger/issues",
-  "published": "2022-08-10T17:16:05.919Z"
+  "published": "2022-08-10T17:16:05.919Z",
+  "downloads": 184
 }

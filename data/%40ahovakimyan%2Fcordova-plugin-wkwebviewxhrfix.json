@@ -3,7 +3,8 @@
   "version": "1.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/arahovakimyan/cordova-plugin-wkwebviewxhrfix.git",
   "keywords": [
@@ -14,7 +15,8 @@
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "stars": 35,
   "image": "https://avatars.githubusercontent.com/u/70112075?v=4",
@@ -28,5 +30,6 @@
   ],
   "author": "Ara Hovakimyan",
   "bugs": "https://github.com/arahovakimyan/cordova-plugin-wkwebviewxhrfix/issues",
-  "published": "2022-07-11T13:54:37.259Z"
+  "published": "2022-07-11T13:54:37.259Z",
+  "downloads": 631
 }

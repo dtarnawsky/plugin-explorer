@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/adobe/cordova-acpcore",
   "keywords": [
@@ -18,7 +19,8 @@
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6"
   ],
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/476009?v=4",
@@ -30,5 +32,6 @@
     "1.0.0"
   ],
   "author": "Adobe",
-  "published": "2022-04-04T11:34:29.930Z"
+  "published": "2022-04-04T11:34:29.930Z",
+  "downloads": 2140
 }

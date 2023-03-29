@@ -26,7 +26,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/46301285?v=4",
@@ -40,5 +42,6 @@
   ],
   "author": "Ashutosh",
   "bugs": "https://github.com/Aashu-Dubey/capacitor-statusbar-safe-area/issues",
-  "published": "2022-11-02T17:48:28.262Z"
+  "published": "2022-11-02T17:48:28.262Z",
+  "downloads": 1293
 }

@@ -22,13 +22,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
-  "stars": 18,
+  "stars": 19,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
   "description": "Provides access to the native biometric auth APIs for Capacitor apps",
-  "quality": 122,
-  "updated": "2023-03-22T03:15:13Z",
+  "quality": 123,
+  "updated": "2023-03-25T19:31:19Z",
   "versions": [
     "1.0.1",
     "1.0.2",
@@ -57,5 +59,6 @@
   ],
   "author": "Aparajita Fishman",
   "bugs": "https://github.com/aparajita/capacitor-biometric-auth/issues",
-  "published": "2022-10-24T18:32:52.479Z"
+  "published": "2022-10-24T18:32:52.479Z",
+  "downloads": 1497
 }
