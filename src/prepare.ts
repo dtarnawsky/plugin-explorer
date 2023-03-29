@@ -3,30 +3,33 @@ import { join } from "path";
 import { readPlugin } from "./catalog.js";
 import { Inspection } from "./inspection.js";
 import { PluginSummary, Summary } from "./summary.js";
-import { Test } from "./test.js";
+import { readTestHistorySummary, Test } from "./test.js";
 
 enum SummaryFilter {
     All,
     Problem, // Plugins that will not build
     Capacitor3, // Works with Capacitor 3
-    Capacitor4 // Works with Capacitor 4
+    Capacitor4, // Works with Capacitor 4
+    Cordova611 // Works with Cordova iOS 6 and Cordova Android 11
 }
 
 export function prepare() {
     console.log(`${reviewList('plugins.json', SummaryFilter.All)} working plugins found.`);
+    reviewList('detailed-plugins.json', SummaryFilter.All, true);
     console.log(`${reviewList('problem-plugins.json', SummaryFilter.Problem)} plugins that wont build.`);
     console.log(`${reviewList('cap4-plugins.json', SummaryFilter.Capacitor4)} Capacitor 4 plugins found.`);
     console.log(`${reviewList('cap3-plugins.json', SummaryFilter.Capacitor3)} Capacitor 3 plugins found.`);
+    console.log(`${reviewList('cordova6-11-plugins.json', SummaryFilter.Cordova611)} Cordova plugins found.`);
     keywords();
 }
 
-function reviewList(filename: string, filter: SummaryFilter): number {
+function reviewList(filename: string, filter: SummaryFilter, fullDetails?: boolean): number {
     let count = 0;
     const result: Summary = { plugins: [] };
     for (let file of pluginNames()) {
-        const plugin = review(join(file), filter);
-        if (plugin) {
-            result.plugins.push(plugin);
+        const summary = review(join(file), filter, fullDetails);
+        if (summary) {
+            result.plugins.push(summary);
             count++;
         }
 
@@ -50,6 +53,8 @@ function keywords() {
             } else {
                 console.warn(`${file} has missing keywords`);
             }
+
+            writeFileSync(join('dist', 'history', encodeURIComponent(plugin.name) + '.json'), JSON.stringify(readTestHistorySummary(plugin.name), undefined, 2), 'utf-8');
             writeFileSync(join('dist', encodeURIComponent(plugin.name) + '.json'), JSON.stringify(plugin, undefined, 2), 'utf-8');
         }
     }
@@ -80,6 +85,12 @@ function filtered(plugin: Inspection, filter: SummaryFilter): Inspection {
             }
             break;
         }
+        case SummaryFilter.Cordova611: {
+            if (plugin.success.includes(Test.cordovaAndroid11) || plugin.success.includes(Test.cordovaIos6)) {
+                return plugin;
+            }
+            break;            
+        }
         case SummaryFilter.Capacitor4: {
             if (plugin.success.includes(Test.capacitorIos4) || plugin.success.includes(Test.capacitorAndroid4)) {
                 return plugin;
@@ -96,10 +107,13 @@ function filtered(plugin: Inspection, filter: SummaryFilter): Inspection {
     return undefined;
 }
 
-function review(file: string, filter: SummaryFilter): PluginSummary {
+function review(file: string, filter: SummaryFilter, fullDetails: boolean): PluginSummary {
     const plugin: Inspection = readPluginFromFile(file);
     if (!filtered(plugin, filter)) {
         return undefined;
+    }
+    if (fullDetails) {
+        return (plugin as any);
     }
     return {
         name: plugin.name,
