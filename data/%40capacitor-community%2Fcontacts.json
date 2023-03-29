@@ -46,12 +46,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Contacts Plugin for Capacitor",
   "bugs": "https://github.com/capacitor-community/contacts/issues",
-  "stars": 86,
-  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 232,
-  "updated": "2023-03-12T09:29:46Z"
+  "quality": null,
+  "downloads": 13315
 }

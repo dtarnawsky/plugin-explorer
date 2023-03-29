@@ -21,12 +21,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Allows access to the IDFA (iOS) and AAID (Android)",
   "bugs": "https://github.com/capacitor-community/advertising-id/issues",
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 102,
-  "updated": "2022-04-28T04:08:54Z"
+  "quality": null,
+  "downloads": 1753
 }

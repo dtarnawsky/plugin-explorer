@@ -41,12 +41,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Camera preview",
   "bugs": "https://github.com/capacitor-community/camera-preview/issues",
-  "stars": 142,
-  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 432,
-  "updated": "2023-03-19T04:09:09Z"
+  "quality": null,
+  "downloads": 19476
 }

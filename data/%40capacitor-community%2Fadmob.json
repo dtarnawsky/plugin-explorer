@@ -58,8 +58,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A native plugin for AdMob",
-  "quality": null
+  "quality": null,
+  "downloads": 3616
 }

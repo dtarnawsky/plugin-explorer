@@ -25,17 +25,16 @@
     "plugin",
     "native",
     "icon",
-    "appicon",
-    "capacitor-plugin"
+    "appicon"
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor community plugin for changing an iOS app icon.",
   "bugs": "https://github.com/capacitor-community/app-icon/issues",
-  "stars": 41,
-  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 157,
-  "updated": "2023-03-24T04:45:45Z"
+  "quality": null,
+  "downloads": 7720
 }

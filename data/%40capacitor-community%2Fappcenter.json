@@ -26,18 +26,16 @@
     "native",
     "appcenter",
     "azure",
-    "microsoft",
-    "capacitor-plugin",
-    "visual-studio-app-center"
+    "microsoft"
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Plugin for Microsoft's App Center SDK.",
   "bugs": "https://github.com/capacitor-community/appcenter-sdk-capacitor/issues",
-  "stars": 25,
-  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 131,
-  "updated": "2022-12-23T06:45:28Z"
+  "quality": null,
+  "downloads": 824
 }

@@ -22,12 +22,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor File Opener. The plugin is able to open a file given the mimeType and the file uri.",
   "bugs": "https://github.com/capacitor-community/file-opener/issues",
   "stars": 36,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 143,
-  "updated": "2023-03-15T03:50:26Z"
+  "updated": "2023-03-15T03:50:26Z",
+  "downloads": 57758
 }

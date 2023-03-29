@@ -1,6 +1,6 @@
 {
   "name": "@capacitor-community/background-geolocation",
-  "version": "1.2.12",
+  "version": "1.2.13",
   "success": [
     "capacitor-ios-3",
     "capacitor-android-4",
@@ -8,7 +8,7 @@
   ],
   "repo": "https://github.com/capacitor-community/background-geolocation.git",
   "author": "James Diacono",
-  "published": "2023-03-02T00:14:18.938Z",
+  "published": "2023-03-25T02:37:18.704Z",
   "versions": [
     "0.3.4",
     "0.3.5",
@@ -43,15 +43,16 @@
     "1.2.9",
     "1.2.10",
     "1.2.11",
-    "1.2.12"
+    "1.2.12",
+    "1.2.13"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Receive geolocation updates even while app is backgrounded.",
   "bugs": "https://github.com/capacitor-community/background-geolocation/issues",
-  "stars": 121,
-  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 266,
-  "updated": "2023-03-22T15:17:16Z"
+  "quality": null,
+  "downloads": 8771
 }

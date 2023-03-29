@@ -43,12 +43,15 @@
     "http"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A native HTTP plugin for CORS-free requests and file transfers",
   "bugs": "https://github.com/capacitor-community/http/issues",
   "stars": 208,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 526,
-  "updated": "2023-03-21T20:51:46Z"
+  "quality": 524,
+  "updated": "2023-03-21T20:51:46Z",
+  "downloads": 71531
 }

@@ -62,12 +62,6 @@
         > Task :capacitor-status-bar:generateReleaseResValues
         > Task :capacitor-status-bar:generateReleaseResources
         > Task :capacitor-status-bar:packageReleaseResources
-        
-        > Task :app:mergeReleaseResources
-        WARNING: [Processor] Library '/Users/damian/.gradle/caches/modules-2/files-2.1/com.google.android.libraries.maps/maps/3.1.0-beta/78bbce6fcebb76eef9c0fb4dec218768961cf5d0/maps-3.1.0-beta.aar' contains references to both AndroidX and old support library. This seems like the library is partially migrated. Jetifier will try to rewrite the library anyway.
-        Example of androidX reference: 'androidx/work/OneTimeWorkRequest'
-        Example of support library reference: 'android/support/annotation/Nullable'
-        
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
@@ -107,87 +101,86 @@
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-community-capacitor-googlemaps-native:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-community-capacitor-googlemaps-native:generateReleaseBuildConfig
-        > Task :capacitor-community-capacitor-googlemaps-native:parseReleaseLocalResources
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
         
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-community-capacitor-googlemaps-native:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-community-capacitor-googlemaps-native:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseRFile
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :capacitor-community-capacitor-googlemaps-native:javaPreCompileRelease
-        > Task :app:bundleReleaseResources
-        
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        
-        > Task :capacitor-community-capacitor-googlemaps-native:compileReleaseJavaWithJavac
-        
+        > Task :capacitor-community-capacitor-googlemaps-native:generateReleaseBuildConfig
+        > Task :capacitor-community-capacitor-googlemaps-native:javaPreCompileRelease
+        > Task :capacitor-community-capacitor-googlemaps-native:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-community-capacitor-googlemaps-native:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor-community/capacitor-googlemaps-native/android/src/main/java/com/hemangkumar/capacitorgooglemaps/CapacitorGoogleMaps.java uses or overrides a deprecated API.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-community-capacitor-googlemaps-native:generateReleaseRFile
         > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:checkReleaseDuplicateClasses
         > Task :app:generateReleaseBuildConfig
+        > Task :app:checkReleaseDuplicateClasses
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
         > Task :capacitor-community-capacitor-googlemaps-native:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-community-capacitor-googlemaps-native:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-community-capacitor-googlemaps-native:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :capacitor-keyboard:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor-community/capacitor-googlemaps-native/android/src/main/java/com/hemangkumar/capacitorgooglemaps/CapacitorGoogleMaps.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-community-capacitor-googlemaps-native:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
-        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
         > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
         > Task :app:desugarReleaseFileDependencies
-        > Task :app:processReleaseResources
         > Task :app:mergeReleaseShaders
         > Task :app:compileReleaseShaders NO-SOURCE
         > Task :app:generateReleaseAssets UP-TO-DATE
@@ -245,7 +238,33 @@
         > Task :capacitor-app:stripReleaseDebugSymbols NO-SOURCE
         > Task :capacitor-app:copyReleaseJniLibsProjectOnly
         > Task :capacitor-community-capacitor-googlemaps-native:mergeReleaseJniLibFolders
-        > Task :app:mergeExtDexRelease
+        > Task :capacitor-community-capacitor-googlemaps-native:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-community-capacitor-googlemaps-native:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-community-capacitor-googlemaps-native:copyReleaseJniLibsProjectOnly
+        > Task :app:processReleaseManifestForPackage
+        > Task :capacitor-cordova-android-plugins:mergeReleaseJniLibFolders
+        > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-haptics:mergeReleaseJniLibFolders
+        > Task :capacitor-haptics:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-haptics:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-haptics:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-keyboard:mergeReleaseJniLibFolders
+        > Task :capacitor-keyboard:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-keyboard:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-keyboard:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-status-bar:mergeReleaseJniLibFolders
+        > Task :capacitor-status-bar:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-status-bar:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-status-bar:copyReleaseJniLibsProjectOnly
+        > Task :app:collectReleaseDependencies
+        > Task :app:configureReleaseDependencies
+        > Task :app:parseReleaseIntegrityConfig
+        > Task :app:writeReleaseAppMetadata
+        > Task :app:mergeReleaseJavaResource
+        > Task :app:processReleaseResources
+        > Task :app:mergeReleaseNativeLibs
         
         > Task :app:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
@@ -254,7 +273,7 @@
         class file for android.view.ViewGroup not found
         1 error
         
-        > Task :app:mergeReleaseJavaResource
+        > Task :app:mergeExtDexRelease
         
         FAILURE: Build failed with an exception.
         
@@ -270,7 +289,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        133 actionable tasks: 133 executed
         
-        BUILD FAILED in 18s
+        BUILD FAILED in 4s
+        147 actionable tasks: 147 executed
         
