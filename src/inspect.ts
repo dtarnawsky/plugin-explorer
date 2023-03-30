@@ -18,7 +18,7 @@ export async function inspect(plugin: string, info: TestInfo, filterType: Filter
         return result;
     }
 
-    if (filterType == FilterType.failed) {
+    if (filterType == FilterType.failed || filterType == FilterType.missing) {
         if (result.success.includes(info.android)) {
             info.android = Test.noOp;
         }
