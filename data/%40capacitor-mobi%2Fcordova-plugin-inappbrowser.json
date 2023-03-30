@@ -3,7 +3,9 @@
   "version": "5.0.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/mobiliarmad/cordova-plugin-inappbrowser.git",
   "author": "Apache Software Foundation",
@@ -32,8 +34,6 @@
   ],
   "description": "Cordova InAppBrowser Plugin",
   "bugs": "https://github.com/mobiliarmad/cordova-plugin-inappbrowser/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/31008236?v=4",
-  "quality": 0,
-  "updated": "2021-05-26T09:22:45Z"
+  "quality": null,
+  "downloads": 1801
 }

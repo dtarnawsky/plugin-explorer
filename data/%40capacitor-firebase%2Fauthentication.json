@@ -61,33 +61,16 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "android",
-    "capacitor-android",
-    "capacitor-community",
-    "capacitor-ios",
-    "capacitor-plugin",
-    "firebase",
-    "firebase-analytics",
-    "firebase-app-check",
-    "firebase-authentication",
-    "firebase-crashlytics",
-    "firebase-messaging",
-    "firebase-performance",
-    "firebase-remote-config",
-    "google-devlibrary",
-    "hacktoberfest",
-    "ios",
-    "web"
+    "native"
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for Firebase Authentication.",
   "bugs": "https://github.com/capawesome-team/capacitor-firebase/issues",
-  "stars": 212,
-  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 404,
-  "updated": "2023-03-21T01:29:51Z"
+  "quality": null,
+  "downloads": 15946
 }

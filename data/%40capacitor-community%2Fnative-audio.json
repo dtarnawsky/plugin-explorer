@@ -28,9 +28,15 @@
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A native plugin for native audio engine",
   "bugs": "https://github.com/capacitor-community/native-audio/issues",
-  "quality": null
+  "quality": 234,
+  "stars": 63,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "updated": "2023-03-24T04:48:18Z",
+  "downloads": 2972
 }

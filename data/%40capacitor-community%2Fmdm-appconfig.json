@@ -23,12 +23,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "read app config values written by a MDM",
   "bugs": "https://github.com/capacitor-community/mdm-appconfig/issues",
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 103,
-  "updated": "2023-02-22T16:32:17Z"
+  "updated": "2023-02-22T16:32:17Z",
+  "downloads": 35
 }

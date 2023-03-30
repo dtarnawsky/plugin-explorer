@@ -88,6 +88,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 1s
+        BUILD FAILED in 2s
         16 actionable tasks: 16 executed
         

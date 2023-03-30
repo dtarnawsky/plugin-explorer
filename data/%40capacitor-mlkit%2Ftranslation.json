@@ -1,40 +1,31 @@
 {
   "name": "@capacitor-mlkit/translation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "success": [
     "capacitor-android-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-mlkit.git",
   "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2023-03-13T13:38:37.449Z",
+  "published": "2023-03-27T19:03:22.400Z",
   "versions": [
     "0.0.1",
-    "0.0.2"
+    "0.0.2",
+    "0.0.3"
   ],
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "capacitor-android",
-    "capacitor-community",
-    "capacitor-ios",
-    "capacitor-plugin",
-    "capacitorjs",
-    "hacktoberfest",
-    "mlkit",
-    "mlkit-android",
-    "mlkit-ios",
-    "mlkit-translate"
+    "native"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for ML Kit Translation.",
   "bugs": "https://github.com/capawesome-team/capacitor-mlkit.git/issues",
-  "stars": 7,
-  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 124,
-  "updated": "2023-03-15T20:34:40Z"
+  "quality": null,
+  "downloads": 154
 }

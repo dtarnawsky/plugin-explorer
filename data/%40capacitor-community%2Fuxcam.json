@@ -17,12 +17,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for UXCam and FullStory analytics. It uses UXCam for Android and iOS platforms and FullStory for Web/PWA.",
   "bugs": "https://github.com/SalahAdDin/capacitor-uxcam.git/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 109,
-  "updated": "2022-10-14T12:35:35Z"
+  "updated": "2022-10-14T12:35:35Z",
+  "downloads": 11
 }

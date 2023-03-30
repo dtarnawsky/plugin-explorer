@@ -7,7 +7,7 @@
   ],
   "repo": "https://github.com/ionic-team/capacitor-plugins.git",
   "author": "Ionic <hi@ionicframework.com>",
-  "published": "2023-03-24T15:13:42.378Z",
+  "published": "2023-03-30T15:12:56.054Z",
   "versions": [
     "0.0.1",
     "0.1.0",
@@ -175,31 +175,25 @@
     "5.0.0-nightly-20230321T150946.0",
     "5.0.0-nightly-20230322T151509.0",
     "5.0.0-nightly-20230323T150916.0",
-    "5.0.0-nightly-20230324T150846.0"
+    "5.0.0-nightly-20230324T150846.0",
+    "5.0.0-nightly-20230327T150845.0",
+    "5.0.0-nightly-20230328T150956.0",
+    "5.0.0-nightly-20230329T152052.0",
+    "5.0.0-nightly-20230330T150756.0"
   ],
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "android",
-    "capacitor-plugin",
-    "cross-platform",
-    "css",
-    "html",
-    "ios",
-    "java",
-    "javascript",
-    "pwa",
-    "swift"
+    "native"
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "The Clipboard API enables copy and pasting to/from the system clipboard.",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
-  "stars": 336,
-  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
-  "quality": 985,
-  "updated": "2023-03-22T20:03:16Z"
+  "quality": null,
+  "downloads": 150597
 }

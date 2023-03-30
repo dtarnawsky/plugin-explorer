@@ -24,12 +24,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A native plugin for speech recognition",
   "bugs": "https://github.com/capacitor-community/speech-recognition/issues",
   "stars": 41,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 183,
-  "updated": "2023-03-14T03:06:52Z"
+  "updated": "2023-03-14T03:06:52Z",
+  "downloads": 779
 }

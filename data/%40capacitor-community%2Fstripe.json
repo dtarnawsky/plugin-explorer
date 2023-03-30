@@ -77,12 +77,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Stripe SDK bindings for Capacitor Applications",
   "bugs": "https://github.com/capacitor-community/stripe/issues",
-  "stars": 126,
+  "stars": 128,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 304,
-  "updated": "2023-03-19T03:41:57Z"
+  "quality": 302,
+  "updated": "2023-03-27T06:17:57Z",
+  "downloads": 5694
 }

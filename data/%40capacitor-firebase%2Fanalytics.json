@@ -55,12 +55,15 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for Firebase Analytics.",
   "bugs": "https://github.com/capawesome-team/capacitor-firebase/issues",
-  "stars": 212,
+  "stars": 215,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 404,
-  "updated": "2023-03-21T01:29:51Z"
+  "quality": 405,
+  "updated": "2023-03-28T23:33:50Z",
+  "downloads": 7392
 }
