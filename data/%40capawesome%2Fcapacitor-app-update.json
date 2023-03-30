@@ -1,20 +1,22 @@
 {
   "name": "@capawesome/capacitor-app-update",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-app-update.git",
   "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2023-01-21T21:06:45.242Z",
+  "published": "2023-03-30T20:16:21.962Z",
   "versions": [
     "1.3.1-dev.c3affa2.1659623189",
     "2.0.0-dev.91013b6.1667321556",
     "2.0.0",
     "2.0.1",
     "2.1.0-dev.9759507.1674335108",
-    "2.1.0"
+    "2.1.0-dev.1680205751",
+    "2.1.0",
+    "2.1.1"
   ],
   "keywords": [
     "capacitor",
@@ -29,12 +31,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin that assists with app updates.",
   "bugs": "https://github.com/capawesome-team/capacitor-app-update/issues",
-  "stars": 110,
+  "stars": 111,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 228,
-  "updated": "2023-03-19T12:04:55Z"
+  "quality": 227,
+  "updated": "2023-03-29T00:10:52Z",
+  "downloads": 26106
 }

@@ -7,7 +7,7 @@
   ],
   "repo": "https://github.com/ionic-team/capacitor-plugins.git",
   "author": "Ionic <hi@ionicframework.com>",
-  "published": "2023-03-24T15:13:58.260Z",
+  "published": "2023-03-30T15:13:10.960Z",
   "versions": [
     "0.0.1",
     "0.1.0",
@@ -174,7 +174,11 @@
     "5.0.0-nightly-20230321T150946.0",
     "5.0.0-nightly-20230322T151509.0",
     "5.0.0-nightly-20230323T150916.0",
-    "5.0.0-nightly-20230324T150846.0"
+    "5.0.0-nightly-20230324T150846.0",
+    "5.0.0-nightly-20230327T150845.0",
+    "5.0.0-nightly-20230328T150956.0",
+    "5.0.0-nightly-20230329T152052.0",
+    "5.0.0-nightly-20230330T150756.0"
   ],
   "keywords": [
     "capacitor",
@@ -193,12 +197,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "The Toast API provides a notification pop up for displaying important information to a user. Just like real toast!",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
-  "stars": 337,
+  "stars": 338,
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
-  "quality": 986,
-  "updated": "2023-03-25T02:10:29Z"
+  "quality": 994,
+  "updated": "2023-03-26T14:52:24Z",
+  "downloads": 44853
 }
