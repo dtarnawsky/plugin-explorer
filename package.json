@@ -5,6 +5,7 @@
     "inspect": "npx tsc && node out/index.js capacitor-app-actions",
     "inspect-all": "npx tsc && node out/index.js all",
     "inspect-failed": "npx tsc && node out/index.js --failed --reverse",
+    "inspect-missing": "npx tsc && node out/index.js --missing",
     "inspect-new": "npx tsc && node out/index.js --new",
     "prepare": "npx tsc && node out/index.js --prepare",
     "publish": "npm run prepare && cp data/index.html dist && netlify deploy --dir dist --prod"

@@ -19,6 +19,9 @@ if (hasArg('all', args)) {
 } else if (hasArg('new', args)) {
     console.log('Inspecting new plugins...');
     go(filter(readPluginList(), FilterType.new), FilterType.new);
+} else if (hasArg('missing', args)) {
+    console.log('Inspecting plugins with missing tests...');
+    go(filter(readPluginList(), FilterType.missing), FilterType.missing);    
 } else if (hasArg('prepare', args)) {
     prepare();
 } else {
