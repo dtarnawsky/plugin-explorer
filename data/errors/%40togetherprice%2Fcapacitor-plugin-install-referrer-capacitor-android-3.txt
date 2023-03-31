@@ -93,69 +93,66 @@
         > Task :capacitor-android:parseReleaseLocalResources
         > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-android:javaPreCompileRelease
-        > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :app:bundleReleaseResources
+        > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :togetherprice-capacitor-plugin-install-referrer:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        > Task :togetherprice-capacitor-plugin-install-referrer:compileReleaseAidlNote: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        NO-SOURCE
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :togetherprice-capacitor-plugin-install-referrer:generateReleaseBuildConfig
         > Task :togetherprice-capacitor-plugin-install-referrer:javaPreCompileRelease
         > Task :togetherprice-capacitor-plugin-install-referrer:parseReleaseLocalResources
-        
-        > Task :capacitor-app:compileReleaseJavaWithJavac
         Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :togetherprice-capacitor-plugin-install-referrer:generateReleaseRFile
         
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :app:checkReleaseDuplicateClasses
-        > Task :togetherprice-capacitor-plugin-install-referrer:compileReleaseJavaWithJavac
-        > Task :togetherprice-capacitor-plugin-install-referrer:bundleLibRuntimeToJarRelease
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
@@ -163,16 +160,23 @@
         > Task :capacitor-app:writeReleaseAarMetadata
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :togetherprice-capacitor-plugin-install-referrer:compileReleaseJavaWithJavac
+        > Task :togetherprice-capacitor-plugin-install-referrer:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :togetherprice-capacitor-plugin-install-referrer:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        > Task :app:bundleReleaseResources
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
         > Task :togetherprice-capacitor-plugin-install-referrer:bundleLibCompileToJarRelease
-        > Task :app:checkReleaseAarMetadata
         > Task :app:desugarReleaseFileDependencies
         > Task :app:mergeReleaseShaders
         > Task :app:compileReleaseShaders NO-SOURCE
@@ -204,29 +208,10 @@
         > Task :togetherprice-capacitor-plugin-install-referrer:mergeReleaseShaders
         > Task :togetherprice-capacitor-plugin-install-referrer:compileReleaseShaders NO-SOURCE
         > Task :togetherprice-capacitor-plugin-install-referrer:generateReleaseAssets UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
-        > Task :app:processReleaseManifestForPackage
-        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :togetherprice-capacitor-plugin-install-referrer:packageReleaseAssets
         > Task :app:mergeExtDexRelease
         > Task :app:processReleaseResources
         > Task :app:mergeReleaseAssets
-        > Task :app:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-android:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-android:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-app:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-app:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-haptics:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-haptics:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-keyboard:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-keyboard:bundleLibResRelease NO-SOURCE
-        > Task :capacitor-status-bar:processReleaseJavaRes NO-SOURCE
-        > Task :capacitor-status-bar:bundleLibResRelease NO-SOURCE
-        > Task :togetherprice-capacitor-plugin-install-referrer:processReleaseJavaRes NO-SOURCE
-        > Task :togetherprice-capacitor-plugin-install-referrer:bundleLibResRelease NO-SOURCE
         
         > Task :app:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
@@ -234,8 +219,6 @@
         ^
         class file for android.view.ViewGroup not found
         1 error
-        
-        > Task :app:mergeReleaseJavaResource
         
         FAILURE: Build failed with an exception.
         
@@ -248,10 +231,10 @@
         
         * Get more help at https://help.gradle.org
         
-        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        127 actionable tasks: 127 executed
+        126 actionable tasks: 126 executed
+        
         BUILD FAILED in 3s
         

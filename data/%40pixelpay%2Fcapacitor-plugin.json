@@ -23,9 +23,11 @@
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Native bridge with Capacitor plugin and PixelPaySDK",
   "bugs": "https://ionic.io/issues",
-  "downloads": 26
+  "downloads": 16
 }

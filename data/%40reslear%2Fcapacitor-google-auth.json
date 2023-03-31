@@ -46,13 +46,12 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Google Auth plugin for capacitor.",
   "bugs": "https://github.com/reslear/CapacitorGoogleAuth/issues",
-  "stars": 7,
-  "image": "https://avatars.githubusercontent.com/u/12596485?v=4",
-  "quality": 11,
-  "updated": "2023-03-10T12:09:23Z",
-  "downloads": 24745
+  "quality": null,
+  "downloads": 14220
 }

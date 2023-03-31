@@ -28,7 +28,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Ionic Capacitor Stockfish interface",
   "bugs": "https://github.com/veloce/capacitor-stockfish/issues",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/423393?v=4",
   "quality": 121,
   "updated": "2023-01-30T00:27:42Z",
-  "downloads": 66
+  "downloads": 72
 }

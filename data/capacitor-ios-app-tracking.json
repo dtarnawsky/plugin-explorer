@@ -34,7 +34,9 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "App AD Tracking for iOS 14 and above",
   "bugs": "https://github.com/migtam628/capacitor-ios-app-tracking.git/issues",
@@ -42,5 +44,5 @@
   "image": "https://avatars.githubusercontent.com/u/26477083?v=4",
   "quality": 133,
   "updated": "2022-06-23T08:42:25Z",
-  "downloads": 7524
+  "downloads": 6508
 }

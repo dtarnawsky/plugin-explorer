@@ -139,13 +139,15 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "OTA update for capacitor apps",
   "bugs": "https://github.com/Cap-go/capacitor-updater/issues",
-  "stars": 264,
+  "stars": 271,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "quality": 437,
-  "updated": "2023-03-25T19:37:08Z",
-  "downloads": 1401
+  "quality": 441,
+  "updated": "2023-03-31T09:55:24Z",
+  "downloads": 1267
 }

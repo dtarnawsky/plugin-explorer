@@ -22,13 +22,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A Capacitor plugin to check and request permission for using location service (Android)",
   "bugs": "https://github.com/asephermann/capacitor-request-location/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
-  "quality": 100,
-  "updated": "2022-08-15T09:24:47Z",
-  "downloads": 1884
+  "quality": null,
+  "downloads": 1930
 }

@@ -73,6 +73,7 @@
         - https://repo.maven.apache.org/maven2/com/transistorsoft/tslocationmanager/maven-metadata.xml
         - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/
         - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/
+        - https://developer.huawei.com/repo/com/transistorsoft/tslocationmanager/maven-metadata.xml
         Required by:
         project :app > project :transistorsoft-capacitor-background-geolocation
         
@@ -83,6 +84,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 1s
+        BUILD FAILED in 15s
         16 actionable tasks: 16 executed
         

@@ -28,7 +28,9 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Select a video in ios",
   "bugs": "https://github.com/bennyt2/capacitor-choose-video/issues",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/9728480?v=4",
   "quality": 100,
   "updated": "2021-07-19T19:38:36Z",
-  "downloads": 260
+  "downloads": 213
 }

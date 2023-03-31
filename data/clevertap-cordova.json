@@ -6,7 +6,7 @@
   ],
   "repo": "https://github.com/CleverTap/clevertap-cordova.git",
   "author": "CleverTap",
-  "published": "2023-01-27T09:09:31.866Z",
+  "published": "2023-03-28T10:38:26.175Z",
   "versions": [
     "1.0.0",
     "1.0.1",
@@ -87,7 +87,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "CleverTap Plugin for Cordova/PhoneGap",
   "bugs": "https://github.com/CleverTap/clevertap-cordova/issues",
@@ -95,5 +97,5 @@
   "image": "https://avatars.githubusercontent.com/u/8391945?v=4",
   "quality": 162,
   "updated": "2023-01-08T04:43:48Z",
-  "downloads": 5065
+  "downloads": 3898
 }

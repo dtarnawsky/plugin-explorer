@@ -1,0 +1,23 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "0.1.0",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.1.0",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "0.1.0",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "@vinit_poojary/capacitor-intent"
+}

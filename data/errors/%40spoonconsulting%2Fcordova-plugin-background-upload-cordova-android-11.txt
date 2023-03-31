@@ -1,0 +1,105 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+   > 4 issues were found when checking AAR metadata:
+     
+       1.  Dependency 'androidx.work:work-runtime:2.8.0' requires libraries and applications that
+           depend on it to compile against version 33 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-32.
+     
+           Also, the maximum recommended compile SDK version for Android Gradle
+           plugin 7.2.1 is 32.
+     
+           Recommended action: Update this project's version of the Android Gradle
+           plugin to one that supports 33, then update this project to use
+           compileSdkVerion of at least 33.
+     
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+     
+       2.  Dependency 'androidx.room:room-runtime:2.5.0' requires libraries and applications that
+           depend on it to compile against version 33 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-32.
+     
+           Also, the maximum recommended compile SDK version for Android Gradle
+           plugin 7.2.1 is 32.
+     
+           Recommended action: Update this project's version of the Android Gradle
+           plugin to one that supports 33, then update this project to use
+           compileSdkVerion of at least 33.
+     
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+     
+       3.  Dependency 'androidx.sqlite:sqlite-framework:2.3.0' requires libraries and applications that
+           depend on it to compile against version 33 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-32.
+     
+           Also, the maximum recommended compile SDK version for Android Gradle
+           plugin 7.2.1 is 32.
+     
+           Recommended action: Update this project's version of the Android Gradle
+           plugin to one that supports 33, then update this project to use
+           compileSdkVerion of at least 33.
+     
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+     
+       4.  Dependency 'androidx.sqlite:sqlite:2.3.0' requires libraries and applications that
+           depend on it to compile against version 33 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-32.
+     
+           Also, the maximum recommended compile SDK version for Android Gradle
+           plugin 7.2.1 is 32.
+     
+           Recommended action: Update this project's version of the Android Gradle
+           plugin to one that supports 33, then update this project to use
+           compileSdkVerion of at least 33.
+     
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

@@ -1,10 +1,10 @@
 {
   "name": "@transistorsoft/capacitor-background-geolocation",
-  "version": "4.10.1",
+  "version": "4.11.1",
   "success": [],
   "repo": "https://github.com/transistorsoft/capacitor-background-geolocation.git",
   "author": "Transistor Software <chris@transistorsoft.com>",
-  "published": "2023-03-17T15:34:03.823Z",
+  "published": "2023-03-30T17:51:42.444Z",
   "versions": [
     "0.0.1",
     "0.0.2",
@@ -44,7 +44,9 @@
     "4.9.4",
     "4.9.5",
     "4.10.0",
-    "4.10.1"
+    "4.10.1",
+    "4.11.0",
+    "4.11.1"
   ],
   "keywords": [
     "capacitor",
@@ -62,13 +64,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "The most sophisticated cross platform Capacitor background location tracking & geofencing module with battery-conscious motion-detection intelligence",
   "bugs": "https://github.com/transistorsoft/capacitor-background-geolocation/issues",
   "stars": 53,
   "image": "https://avatars.githubusercontent.com/u/2099918?v=4",
   "quality": 211,
-  "updated": "2023-03-06T09:40:42Z",
-  "downloads": 6514
+  "updated": "2023-03-29T06:34:24Z",
+  "downloads": 6045
 }

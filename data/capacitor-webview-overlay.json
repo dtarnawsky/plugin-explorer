@@ -22,13 +22,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Webview Overlay",
   "bugs": "https://github.com/dgolosov/capacitor-webview-overlay/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/14894850?v=4",
-  "quality": 0,
-  "updated": "2022-07-06T14:51:05Z",
-  "downloads": 96
+  "quality": null,
+  "downloads": 111
 }

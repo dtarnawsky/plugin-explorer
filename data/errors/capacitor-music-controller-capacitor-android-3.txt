@@ -87,29 +87,37 @@
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-music-controller:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:generateReleaseBuildConfig
         > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
         > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-music-controller:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-music-controller:generateReleaseBuildConfig
+        > Task :capacitor-music-controller:javaPreCompileRelease
+        > Task :capacitor-music-controller:parseReleaseLocalResources
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :app:bundleReleaseResources FAILED
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
@@ -124,7 +132,7 @@
         Execution failed for task ':app:bundleReleaseResources'.
         > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2ProcessResourcesRunnable
         > Android resource linking failed
-        ERROR:/Users/damiantarnawsky/.gradle/caches/transforms-3/60228435d1edf4aad3d438bc5defe997/transformed/core-1.7.0/res/values/values.xml:105:5-114:25: AAPT: error: resource android:attr/lStar not found.
+        ERROR:/Users/damian/.gradle/caches/transforms-3/60228435d1edf4aad3d438bc5defe997/transformed/core-1.7.0/res/values/values.xml:105:5-114:25: AAPT: error: resource android:attr/lStar not found.
         
         
         * Try:
@@ -134,8 +142,8 @@
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
-        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
         
-        BUILD FAILED in 5s
-        62 actionable tasks: 62 executed
+        BUILD FAILED in 3s
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        68 actionable tasks: 68 executed
         

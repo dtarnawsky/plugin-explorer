@@ -2,7 +2,8 @@
   "name": "@matiasfic/intercom",
   "version": "4.0.3",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/matiasfic/intercom.git",
   "author": "Matias Ficarrotti",
@@ -19,13 +20,13 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3",
-    "capacitor-ios-4"
+    "capacitor-android-3"
   ],
   "description": "Enable Intercom features for Capacitor apps",
   "bugs": "https://github.com/matiasfic/intercom/issues",
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/8427033?v=4",
   "quality": 0,
-  "updated": "2022-10-31T23:32:14Z"
+  "updated": "2022-10-31T23:32:14Z",
+  "downloads": 151
 }

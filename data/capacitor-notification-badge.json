@@ -25,13 +25,12 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Set the app icon's notification badge number",
   "bugs": "https://github.com/epicshaggy/capacitor-notification-badge.git/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/50883345?v=4",
-  "quality": 100,
-  "updated": "2022-04-18T13:42:15Z",
-  "downloads": 189
+  "quality": null,
+  "downloads": 202
 }

@@ -24,13 +24,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A Capacitor plugin for camera preview",
   "bugs": "https://github.com/tony-xlh/capacitor-plugin-camera-preview/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/112376616?v=4",
-  "quality": 104,
+  "quality": 105,
   "updated": "2023-01-12T09:32:15Z",
-  "downloads": 27
+  "downloads": 29
 }

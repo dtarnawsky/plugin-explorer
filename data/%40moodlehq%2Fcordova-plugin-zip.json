@@ -2,7 +2,9 @@
   "name": "@moodlehq/cordova-plugin-zip",
   "version": "3.1.0-moodle.1",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-zip.git",
   "author": "",
@@ -22,9 +24,6 @@
   ],
   "description": "Moodle's fork of Cordova Plugin File",
   "bugs": "https://github.com/moodlemobile/zip/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
-  "quality": 1,
-  "updated": "2021-12-14T06:59:42Z",
-  "downloads": 2264
+  "quality": null,
+  "downloads": 2056
 }

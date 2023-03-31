@@ -20,13 +20,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "White listing an Android application programmatically from battery optimize settings",
   "bugs": "https://github.com/asephermann/capacitor-doze-optimize/issues",
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
-  "quality": 3,
-  "updated": "2022-12-23T12:12:23Z",
-  "downloads": 58
+  "quality": null,
+  "downloads": 80
 }

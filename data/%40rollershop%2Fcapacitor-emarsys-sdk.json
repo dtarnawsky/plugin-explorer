@@ -27,10 +27,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Plugin that wraps the Emarsys SDK",
   "bugs": "https://github.com/EinfachHans/capacitor-emarsys-sdk/issues",
-  "quality": null,
-  "downloads": 26
+  "quality": 100,
+  "downloads": 27,
+  "stars": 0,
+  "image": "https://avatars.githubusercontent.com/u/116153916?v=4",
+  "updated": "2022-10-27T07:57:08Z"
 }

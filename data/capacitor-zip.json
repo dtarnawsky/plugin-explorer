@@ -25,13 +25,12 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Zip plugin",
   "bugs": "https://github.com/triniwiz/capacitor-zip/issues",
-  "stars": 4,
-  "image": "https://avatars.githubusercontent.com/u/6695919?v=4",
-  "quality": 119,
-  "updated": "2023-03-15T15:14:34Z",
-  "downloads": 127
+  "quality": null,
+  "downloads": 121
 }

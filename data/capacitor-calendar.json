@@ -36,7 +36,9 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Simple native calendar handling for Capacitor",
   "bugs": "https://github.com/Fir3st/capacitor-calendar/issues",
@@ -44,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/24609278?v=4",
   "quality": 117,
   "updated": "2022-11-10T12:07:02Z",
-  "downloads": 174
+  "downloads": 170
 }

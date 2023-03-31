@@ -4,7 +4,9 @@
   "success": [
     "capacitor-ios-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/campers/android-camera-permission.git",
   "author": "Daniel Campagnoli",

@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "success": [
     "capacitor-ios-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/regulaforensics/cordova-plugin-face-api.git",
   "author": "RegulaForensics",
@@ -20,13 +21,11 @@
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin for face detection (Huawei Vision framework)",
   "bugs": "https://github.com/regulaforensics/cordova-plugin-face-api/issues",
-  "stars": 3,
-  "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
-  "quality": 104,
-  "updated": "2023-03-03T14:19:04Z",
-  "downloads": 8
+  "quality": null,
+  "downloads": 10
 }

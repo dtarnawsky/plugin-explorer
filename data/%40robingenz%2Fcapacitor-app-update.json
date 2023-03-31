@@ -26,24 +26,17 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "android",
-    "capacitor-community",
-    "capacitor-plugin",
-    "capawesome",
-    "in-app-update",
-    "ios"
+    "native"
   ],
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin that assists with app updates.",
   "bugs": "https://github.com/robingenz/capacitor-app-update/issues",
-  "stars": 110,
-  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 228,
-  "updated": "2023-03-19T12:04:55Z",
-  "downloads": 3382
+  "quality": null,
+  "downloads": 3090
 }

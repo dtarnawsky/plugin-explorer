@@ -29,13 +29,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin to handle media files",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-media/issues",
-  "stars": 3,
-  "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
-  "quality": 104,
-  "updated": "2022-06-09T13:59:58Z",
-  "downloads": 81
+  "quality": null,
+  "downloads": 90
 }

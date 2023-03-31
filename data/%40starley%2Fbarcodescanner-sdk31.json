@@ -3,7 +3,9 @@
   "version": "8.1.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/StarleyDev/barcodescanner-sdk31.git",
   "author": "Adobe PhoneGap Team",
@@ -26,6 +28,9 @@
   ],
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
   "bugs": "https://github.com/StarleyDev/barcodescanner-sdk31/issues",
-  "quality": null,
-  "downloads": 21
+  "quality": 8,
+  "downloads": 22,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/9012499?v=4",
+  "updated": "2022-12-12T09:33:17Z"
 }

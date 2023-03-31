@@ -3,7 +3,9 @@
   "version": "3.11.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ROKT/rokt-sdk-cordova.git",
   "author": "ROKT",
@@ -30,5 +32,5 @@
   "description": "The Rokt Cordova SDK enables you to integrate Rokt into your mobile apps to drive more value from—and for—your customers.",
   "bugs": "https://github.com/ROKT/rokt-sdk-cordova/issues",
   "quality": null,
-  "downloads": 336
+  "downloads": 349
 }

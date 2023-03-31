@@ -7,11 +7,11 @@
         WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
         
         > Configure project :capacitor-stockfish
-        Checking the license for package NDK (Side by side) 23.1.7779620 in /Users/damiantarnawsky/Library/Android/sdk/licenses
+        Checking the license for package NDK (Side by side) 23.1.7779620 in /Users/damian/Library/Android/sdk/licenses
         License for package NDK (Side by side) 23.1.7779620 accepted.
         Preparing "Install NDK (Side by side) 23.1.7779620 (revision: 23.1.7779620)".
         "Install NDK (Side by side) 23.1.7779620 (revision: 23.1.7779620)" ready.
-        Installing NDK (Side by side) 23.1.7779620 in /Users/damiantarnawsky/Library/Android/sdk/ndk/23.1.7779620
+        Installing NDK (Side by side) 23.1.7779620 in /Users/damian/Library/Android/sdk/ndk/23.1.7779620
         "Install NDK (Side by side) 23.1.7779620 (revision: 23.1.7779620)" complete.
         "Install NDK (Side by side) 23.1.7779620 (revision: 23.1.7779620)" finished.
         
@@ -76,86 +76,90 @@
         > Task :capacitor-app:extractDeepLinksRelease
         > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-stockfish:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-stockfish:processReleaseManifest
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-stockfish:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-android:parseReleaseLocalResources
         > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-stockfish:compileReleaseLibraryResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-android:generateReleaseRFile
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
-        Note: Some input files use unchecked or unsafe operations.
-        Note: Recompile with -Xlint:unchecked for details.
         
         > Task :app:mapReleaseSourceSetPaths
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :app:bundleReleaseResources
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
         > Task :capacitor-stockfish:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-stockfish:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:generateReleaseRFile
         > Task :capacitor-stockfish:javaPreCompileRelease
         > Task :capacitor-stockfish:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-stockfish:generateReleaseRFile
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-stockfish:compileReleaseJavaWithJavac
         
         > Task :capacitor-stockfish:bundleLibRuntimeToJarRelease
-        > Task :app:compileReleaseAidl NO-SOURCE
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/src/main/java/org/lichess/mobileapp/stockfish/Stockfish.java uses or overrides a deprecated API.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/src/main/java/org/lichess/mobileapp/stockfish/Stockfish.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
+        > Task :app:checkReleaseDuplicateClasses
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
@@ -163,16 +167,14 @@
         > Task :capacitor-keyboard:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata
         > Task :capacitor-stockfish:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:checkReleaseDuplicateClasses
         > Task :capacitor-app:bundleLibCompileToJarRelease
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
-        > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-stockfish:bundleLibCompileToJarRelease
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
         > Task :app:desugarReleaseFileDependencies
-        > Task :capacitor-stockfish:bundleLibCompileToJarRelease
+        > Task :app:checkReleaseAarMetadata
         > Task :app:mergeReleaseShaders
         > Task :app:compileReleaseShaders NO-SOURCE
         > Task :app:generateReleaseAssets UP-TO-DATE
@@ -203,11 +205,7 @@
         > Task :capacitor-stockfish:mergeReleaseShaders
         > Task :capacitor-stockfish:compileReleaseShaders NO-SOURCE
         > Task :capacitor-stockfish:generateReleaseAssets UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :capacitor-stockfish:packageReleaseAssets
-        > Task :app:processReleaseResources
         > Task :app:mergeExtDexRelease
         > Task :app:mergeReleaseAssets
         > Task :app:processReleaseJavaRes NO-SOURCE
@@ -232,9 +230,7 @@
         > Task :capacitor-app:mergeReleaseJniLibFolders
         > Task :capacitor-app:mergeReleaseNativeLibs NO-SOURCE
         > Task :capacitor-app:copyReleaseJniLibsProjectOnly
-        > Task :app:compileReleaseJavaWithJavac
-        > Task :app:mergeReleaseJavaResource
-        > Task :app:dexBuilderRelease
+        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-cordova-android-plugins:mergeReleaseJniLibFolders
         > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
         > Task :capacitor-cordova-android-plugins:copyReleaseJniLibsProjectOnly
@@ -247,45 +243,18 @@
         > Task :capacitor-status-bar:mergeReleaseJniLibFolders
         > Task :capacitor-status-bar:mergeReleaseNativeLibs NO-SOURCE
         > Task :capacitor-status-bar:copyReleaseJniLibsProjectOnly
-        > Task :app:mergeDexRelease
-        > Task :capacitor-stockfish:configureNdkBuildRelease[arm64-v8a]
-        
-        > Task :capacitor-stockfish:buildNdkBuildRelease[arm64-v8a]
-        C/C++: <inline asm>:6:9: error: Could not find incbin file 'nn-13406b1dcbe0.nnue'
-        C/C++: .incbin "nn-13406b1dcbe0.nnue"
-        C/C++:         ^
-        C/C++: 1 error generated.
-        C/C++: make: *** [/Users/damiantarnawsky/Library/Android/sdk/ndk/23.1.7779620/build/core/build-binary.mk:478: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/build/intermediates/cxx/Release/546l2h3x/obj/local/arm64-v8a/objs/stockfish/__/__/stockfish/src/evaluate.o] Error 1
-        
-        > Task :capacitor-stockfish:buildNdkBuildRelease[arm64-v8a] FAILED
+        > Task :app:mergeReleaseJavaResource
+        > Task :app:processReleaseResources
+        > Task :capacitor-stockfish:configureNdkBuildRelease[arm64-v8a] FAILED
         
         FAILURE: Build failed with an exception.
         
         * What went wrong:
-        Execution failed for task ':capacitor-stockfish:buildNdkBuildRelease[arm64-v8a]'.
-        > Build command failed.
-        Error while executing process /Users/damiantarnawsky/Library/Android/sdk/ndk/23.1.7779620/ndk-build with arguments {NDK_PROJECT_PATH=null APP_BUILD_SCRIPT=/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/jni/Android.mk NDK_APPLICATION_MK=/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/jni/Application.mk APP_ABI=arm64-v8a NDK_ALL_ABIS=arm64-v8a NDK_DEBUG=0 APP_PLATFORM=android-22 NDK_OUT=/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/build/intermediates/cxx/Release/546l2h3x/obj NDK_LIBS_OUT=/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/build/intermediates/cxx/Release/546l2h3x/lib APP_CPPFLAGS+=-std=c++17 APP_CPPFLAGS+=-DUSE_PTHREADS APP_CPPFLAGS+=-DNDEBUG APP_CPPFLAGS+=-O3 APP_CPPFLAGS+=-DIS_64BIT APP_CPPFLAGS+=-DUSE_POPCNT APP_CPPFLAGS+=-DUSE_NEON stockfish}
-        [arm64-v8a] Compile++      : stockfish <= stockfish-jni.cpp
-        [arm64-v8a] Compile++      : stockfish <= thread.cpp
-        [arm64-v8a] Compile++      : stockfish <= timeman.cpp
-        [arm64-v8a] Compile++      : stockfish <= ucioption.cpp
-        [arm64-v8a] Compile++      : stockfish <= evaluate_nnue.cpp
-        [arm64-v8a] Compile++      : stockfish <= half_ka_v2_hm.cpp
-        [arm64-v8a] Compile++      : stockfish <= misc.cpp
-        [arm64-v8a] Compile++      : stockfish <= bitboard.cpp
-        [arm64-v8a] Compile++      : stockfish <= psqt.cpp
-        [arm64-v8a] Compile++      : stockfish <= benchmark.cpp
-        [arm64-v8a] Compile++      : stockfish <= movepick.cpp
-        [arm64-v8a] Compile++      : stockfish <= tune.cpp
-        [arm64-v8a] Compile++      : stockfish <= tbprobe.cpp
-        [arm64-v8a] Compile++      : stockfish <= bitbase.cpp
-        [arm64-v8a] Compile++      : stockfish <= evaluate.cpp
+        Execution failed for task ':capacitor-stockfish:configureNdkBuildRelease[arm64-v8a]'.
+        > [CXX1405] error when building with ndkBuild using /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/jni/Android.mk: Build command failed.
+        Error while executing process /Users/damian/Library/Android/sdk/ndk/23.1.7779620/ndk-build with arguments {NDK_PROJECT_PATH=null APP_BUILD_SCRIPT=/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/jni/Android.mk NDK_APPLICATION_MK=/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/jni/Application.mk APP_ABI=arm64-v8a NDK_ALL_ABIS=arm64-v8a NDK_DEBUG=0 APP_PLATFORM=android-22 NDK_OUT=/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/build/intermediates/cxx/Release/6g5s3y14/obj NDK_LIBS_OUT=/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/build/intermediates/cxx/Release/6g5s3y14/lib APP_CPPFLAGS+=-std=c++17 APP_CPPFLAGS+=-DUSE_PTHREADS APP_CPPFLAGS+=-DNDEBUG APP_CPPFLAGS+=-O3 APP_CPPFLAGS+=-DIS_64BIT APP_CPPFLAGS+=-DUSE_POPCNT APP_CPPFLAGS+=-DUSE_NEON APP_SHORT_COMMANDS=false LOCAL_SHORT_COMMANDS=false -B -n}
+        ERROR: Unknown host CPU architecture: arm64
         
-        <inline asm>:6:9: error: Could not find incbin file 'nn-13406b1dcbe0.nnue'
-        .incbin "nn-13406b1dcbe0.nnue"
-        ^
-        1 error generated.
-        make: *** [/Users/damiantarnawsky/Library/Android/sdk/ndk/23.1.7779620/build/core/build-binary.mk:478: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-stockfish/android/build/intermediates/cxx/Release/546l2h3x/obj/local/arm64-v8a/objs/stockfish/__/__/stockfish/src/evaluate.o] Error 1
         
         
         * Try:
@@ -300,7 +269,7 @@
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
-        BUILD FAILED in 1m 24s
+        BUILD FAILED in 57s
         
-        143 actionable tasks: 143 executed
+        139 actionable tasks: 139 executed
         

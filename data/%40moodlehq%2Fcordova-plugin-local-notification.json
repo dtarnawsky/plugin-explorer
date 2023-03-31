@@ -2,7 +2,9 @@
   "name": "@moodlehq/cordova-plugin-local-notification",
   "version": "0.9.0-moodle.8",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-local-notification.git",
   "author": "Sebastián Katzer",
@@ -34,9 +36,6 @@
   ],
   "description": "Moodle's fork of Cordova Local Notifications Plugin",
   "bugs": "https://github.com/moodlemobile/cordova-plugin-local-notification/issues",
-  "stars": 5,
-  "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
-  "quality": 13,
-  "updated": "2023-02-21T11:14:31Z",
-  "downloads": 2111
+  "quality": null,
+  "downloads": 2006
 }

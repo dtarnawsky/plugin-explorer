@@ -17,7 +17,9 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Moodle's fork of Ionic Web View Engine Plugin",
   "bugs": "https://github.com/moodlemobile/cordova-plugin-ionic-webview/issues",
@@ -25,5 +27,5 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 0,
   "updated": "2021-09-01T11:34:22Z",
-  "downloads": 1974
+  "downloads": 1835
 }

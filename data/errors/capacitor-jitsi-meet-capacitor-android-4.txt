@@ -71,10 +71,10 @@
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/org/jitsi/react/jitsi-meet-sdk/7.0.1/jitsi-meet-sdk-7.0.1.pom
         - https://repo.maven.apache.org/maven2/org/jitsi/react/jitsi-meet-sdk/7.0.1/jitsi-meet-sdk-7.0.1.pom
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/jitsi-meet-sdk-7.0.1.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/jitsi-meet-sdk.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/jitsi-meet-sdk-7.0.1.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/jitsi-meet-sdk.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/jitsi-meet-sdk-7.0.1.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/jitsi-meet-sdk.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/jitsi-meet-sdk-7.0.1.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/jitsi-meet-sdk.jar
         Required by:
         project :app > project :capacitor-jitsi-meet
         
@@ -85,6 +85,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
+        BUILD FAILED in 1s
         16 actionable tasks: 16 executed
         

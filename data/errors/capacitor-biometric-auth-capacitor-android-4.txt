@@ -63,34 +63,35 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-biometric-auth:extractDeepLinksRelease
         > Task :capacitor-biometric-auth:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:processReleaseManifest
         
         > Task :app:processReleaseMainManifest FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
-        uses-sdk:minSdkVersion 22 cannot be smaller than version 23 declared in library [:capacitor-biometric-auth] /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-biometric-auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml as the library might be using APIs not available in 22
+        
+        See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
+        
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
+        uses-sdk:minSdkVersion 22 cannot be smaller than version 23 declared in library [:capacitor-biometric-auth] /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-biometric-auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml as the library might be using APIs not available in 22
         Suggestion: use a compatible library with a minSdk of at most 22,
         or increase this project's minSdk version to at least 23,
         or use tools:overrideLibrary="com.ahm.capacitor.biometric.capacitorbiometricauth" to force usage (may lead to runtime failures)
         
-        See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
-        
-        
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseLibraryResources
         > Task :capacitor-biometric-auth:compileReleaseLibraryResources
         > Task :app:mergeReleaseResources
@@ -99,7 +100,7 @@
         
         * What went wrong:
         Execution failed for task ':app:processReleaseMainManifest'.
-        > Manifest merger failed : uses-sdk:minSdkVersion 22 cannot be smaller than version 23 declared in library [:capacitor-biometric-auth] /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-biometric-auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml as the library might be using APIs not available in 22
+        > Manifest merger failed : uses-sdk:minSdkVersion 22 cannot be smaller than version 23 declared in library [:capacitor-biometric-auth] /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-biometric-auth/android/build/intermediates/merged_manifest/release/AndroidManifest.xml as the library might be using APIs not available in 22
         Suggestion: use a compatible library with a minSdk of at most 22,
         or increase this project's minSdk version to at least 23,
         or use tools:overrideLibrary="com.ahm.capacitor.biometric.capacitorbiometricauth" to force usage (may lead to runtime failures)
@@ -116,7 +117,7 @@
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+        40 actionable tasks: 40 executed
         
-        BUILD FAILED in 3s
-        39 actionable tasks: 39 executed
+        BUILD FAILED in 2s
         

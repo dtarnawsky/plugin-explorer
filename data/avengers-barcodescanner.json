@@ -3,7 +3,9 @@
   "version": "8.1.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
   "author": "Adobe PhoneGap Team",
@@ -28,7 +30,7 @@
   "bugs": "https://github.com/phonegap/phonegap-plugin-barcodescanner/issues",
   "stars": 1277,
   "image": "https://avatars.githubusercontent.com/u/60365?v=4",
-  "quality": 2775,
+  "quality": 2778,
   "updated": "2023-03-24T14:48:05Z",
-  "downloads": 71
+  "downloads": 76
 }

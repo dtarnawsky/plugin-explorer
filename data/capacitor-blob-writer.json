@@ -54,13 +54,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Write javascript Blobs to the filesystem efficiently",
   "bugs": "https://github.com/diachedelic/capacitor-blob-writer/issues",
-  "stars": 93,
+  "stars": 94,
   "image": "https://avatars.githubusercontent.com/u/310464?v=4",
-  "quality": 213,
-  "updated": "2023-03-24T19:41:51Z",
-  "downloads": 29696
+  "quality": 214,
+  "updated": "2023-03-26T17:59:43Z",
+  "downloads": 29132
 }

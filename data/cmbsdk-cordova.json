@@ -3,7 +3,8 @@
   "version": "1.4.270",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "author": "Cognex",
   "published": "2022-08-19T08:30:32.388Z",
@@ -34,9 +35,10 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "CMB Scanner Cordova Plugin",
   "bugs": "https://cmbdn.cognex.com/tickets/submit_ticket",
-  "downloads": 110
+  "downloads": 134
 }

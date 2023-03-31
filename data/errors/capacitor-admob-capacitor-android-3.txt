@@ -104,53 +104,68 @@
         > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseRFile
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-admob:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseRFile
         > Task :capacitor-admob:generateReleaseBuildConfig
         > Task :app:bundleReleaseResources
         > Task :capacitor-admob:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-admob:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-admob:generateReleaseRFile
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-admob:generateReleaseRFile
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-admob:writeReleaseAarMetadata
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-app:bundleLibCompileToJarRelease
         
         > Task :capacitor-admob:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/capacitor-admob/android/src/main/java/app/xplatform/capacitor/plugins/AdMob.java:4: error: package android.support.design.widget does not exist
@@ -172,6 +187,8 @@
         Note: Recompile with -Xlint:deprecation for details.
         5 errors
         
+        > Task :app:processReleaseManifestForPackage
+        
         FAILURE: Build failed with an exception.
         
         * What went wrong:
@@ -186,7 +203,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        BUILD FAILED in 3s
         
-        BUILD FAILED in 4s
-        83 actionable tasks: 83 executed
+        97 actionable tasks: 97 executed
         

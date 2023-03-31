@@ -19,13 +19,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Print the webview",
   "bugs": "https://github.com/leoruhland/capacitor-print/issues",
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/1785552?v=4",
-  "quality": 101,
-  "updated": "2023-02-16T22:56:10Z",
-  "downloads": 492
+  "quality": null,
+  "downloads": 507
 }

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "success": [
     "capacitor-ios-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6"
   ],
   "author": "ifast",
   "published": "2022-06-13T04:15:39.104Z",
@@ -16,8 +17,9 @@
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11"
   ],
   "description": "Plugin for scanning barcode and QR codes",
-  "downloads": 39
+  "downloads": 24
 }

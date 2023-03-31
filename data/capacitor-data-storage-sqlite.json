@@ -157,10 +157,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "SQLite Storage of key/value strings pair",
   "bugs": "https://github.com/jepiqueau/capacitor-data-storage-sqlite.git/issues",
   "quality": null,
-  "downloads": 9181
+  "downloads": 8591
 }

@@ -22,7 +22,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Easy interface to register GeoFences on iOS.",
   "bugs": "https://github.com/JillevdW/Capacitor-Geofencing.git/issues",

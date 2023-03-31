@@ -44,13 +44,15 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A Capacitor Plugin that provides native capabilities to retrieve media files sent via iOS Share Extension and Android Send Intent events",
   "bugs": "https://github.com/calvinckho/capacitor-share-extension/issues",
-  "stars": 10,
+  "stars": 11,
   "image": "https://avatars.githubusercontent.com/u/23274587?v=4",
-  "quality": 114,
-  "updated": "2023-03-19T03:34:07Z",
-  "downloads": 504
+  "quality": 115,
+  "updated": "2023-03-29T18:23:17Z",
+  "downloads": 494
 }

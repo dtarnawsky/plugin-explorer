@@ -25,8 +25,10 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This is ionic capacitor plugin for paytm all in one sdk",
-  "downloads": 96
+  "downloads": 103
 }

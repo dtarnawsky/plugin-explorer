@@ -22,13 +22,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin to support LINE Login",
   "bugs": "https://github.com/rabianr/capacitor-line-login/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/76022206?v=4",
-  "quality": 100,
-  "updated": "2022-12-16T09:44:35Z",
-  "downloads": 20
+  "quality": null,
+  "downloads": 23
 }

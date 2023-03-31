@@ -80,14 +80,14 @@
         > Task :capacitor-status-bar:processReleaseManifest
         
         > Task :app:processReleaseMainManifest FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/app/src/main/AndroidManifest.xml Error:
-        uses-sdk:minSdkVersion 21 cannot be smaller than version 23 declared in library [dev.bmcreations:scrcast:0.3.0] /Users/damiantarnawsky/.gradle/caches/transforms-3/b0b6213ccddced7522be7fe1d9a0f45a/transformed/jetified-scrcast-0.3.0/AndroidManifest.xml as the library might be using APIs not available in 21
-        Suggestion: use a compatible library with a minSdk of at most 21,
-        or increase this project's minSdk version to at least 23,
-        or use tools:overrideLibrary="dev.bmcreations.scrcast" to force usage (may lead to runtime failures)
         
         See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
         
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/src/main/AndroidManifest.xml Error:
+        uses-sdk:minSdkVersion 21 cannot be smaller than version 23 declared in library [dev.bmcreations:scrcast:0.3.0] /Users/damian/.gradle/caches/transforms-3/b0b6213ccddced7522be7fe1d9a0f45a/transformed/jetified-scrcast-0.3.0/AndroidManifest.xml as the library might be using APIs not available in 21
+        Suggestion: use a compatible library with a minSdk of at most 21,
+        or increase this project's minSdk version to at least 23,
+        or use tools:overrideLibrary="dev.bmcreations.scrcast" to force usage (may lead to runtime failures)
         
         > Task :app:mergeReleaseResources
         
@@ -95,7 +95,7 @@
         
         * What went wrong:
         Execution failed for task ':app:processReleaseMainManifest'.
-        > Manifest merger failed : uses-sdk:minSdkVersion 21 cannot be smaller than version 23 declared in library [dev.bmcreations:scrcast:0.3.0] /Users/damiantarnawsky/.gradle/caches/transforms-3/b0b6213ccddced7522be7fe1d9a0f45a/transformed/jetified-scrcast-0.3.0/AndroidManifest.xml as the library might be using APIs not available in 21
+        > Manifest merger failed : uses-sdk:minSdkVersion 21 cannot be smaller than version 23 declared in library [dev.bmcreations:scrcast:0.3.0] /Users/damian/.gradle/caches/transforms-3/b0b6213ccddced7522be7fe1d9a0f45a/transformed/jetified-scrcast-0.3.0/AndroidManifest.xml as the library might be using APIs not available in 21
         Suggestion: use a compatible library with a minSdk of at most 21,
         or increase this project's minSdk version to at least 23,
         or use tools:overrideLibrary="dev.bmcreations.scrcast" to force usage (may lead to runtime failures)
@@ -107,8 +107,8 @@
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
-        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
         
-        BUILD FAILED in 20s
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        BUILD FAILED in 13s
         35 actionable tasks: 35 executed
         

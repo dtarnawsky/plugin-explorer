@@ -47,10 +47,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for voice recording",
   "bugs": "https://github.com/tchvu3/capacitor-voice-recorder.git/issues",
   "quality": null,
-  "downloads": 9405
+  "downloads": 9547
 }

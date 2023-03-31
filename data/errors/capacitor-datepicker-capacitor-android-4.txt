@@ -5,13 +5,6 @@
         
         > Configure project :capacitor-cordova-android-plugins
         WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
-        Checking the license for package Android SDK Platform 27 in /Users/damiantarnawsky/Library/Android/sdk/licenses
-        License for package Android SDK Platform 27 accepted.
-        Preparing "Install Android SDK Platform 27 (revision: 3)".
-        "Install Android SDK Platform 27 (revision: 3)" ready.
-        Installing Android SDK Platform 27 in /Users/damiantarnawsky/Library/Android/sdk/platforms/android-27
-        "Install Android SDK Platform 27 (revision: 3)" complete.
-        "Install Android SDK Platform 27 (revision: 3)" finished.
         
         > Task :app:preBuild UP-TO-DATE
         > Task :app:preReleaseBuild UP-TO-DATE
@@ -78,8 +71,8 @@
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/ionic-team/capacitor-android/maven-metadata.xml
         - https://repo.maven.apache.org/maven2/ionic-team/capacitor-android/maven-metadata.xml
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/
         Required by:
         project :app > project :capacitor-datepicker
         
@@ -90,12 +83,12 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 19s
-        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 2s
         16 actionable tasks: 16 executed
         

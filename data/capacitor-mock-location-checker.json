@@ -26,13 +26,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin to avoid location mocking",
   "bugs": "https://github.com/asephermann/capacitor-mock-location-checker/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
-  "quality": 101,
-  "updated": "2022-07-29T03:25:12Z",
-  "downloads": 2160
+  "quality": null,
+  "downloads": 2201
 }

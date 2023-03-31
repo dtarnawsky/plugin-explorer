@@ -1,0 +1,45 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/bitpay/cordova/qrscanner/QRScanner.java:27: error: cannot find symbol
+import android.support.v4.app.ActivityCompat;
+                             ^
+  symbol:   class ActivityCompat
+  location: package android.support.v4.app
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/bitpay/cordova/qrscanner/QRScanner.java:356: error: cannot find symbol
+                    boolean showRationale = ActivityCompat.shouldShowRequestPermissionRationale(cordova.getActivity(), permission);
+                                            ^
+  symbol:   variable ActivityCompat
+  location: class QRScanner
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/com/bitpay/cordova/qrscanner/QRScanner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

@@ -93,38 +93,32 @@
         > Task :capacitor-android:parseReleaseLocalResources
         > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-android:javaPreCompileRelease
-        > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :app:bundleReleaseResources
+        > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
         
@@ -133,12 +127,17 @@
         Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :williartsinternet-capacitor-media-session:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         > Task :williartsinternet-capacitor-media-session:generateReleaseBuildConfig
         > Task :williartsinternet-capacitor-media-session:javaPreCompileRelease
         > Task :williartsinternet-capacitor-media-session:parseReleaseLocalResources
@@ -150,17 +149,16 @@
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :williartsinternet-capacitor-media-session:generateReleaseRFile
         > Task :app:checkReleaseDuplicateClasses
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-app:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:bundleReleaseResources
         
         > Task :williartsinternet-capacitor-media-session:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@williartsinternet/capacitor-media-session/android/src/main/java/io/github/jofr/capacitor/mediasessionplugin/MediaSessionService.java:3: error: package android.annotation does not exist
@@ -544,7 +542,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        91 actionable tasks: 91 executed
-        BUILD FAILED in 3s
         
+        BUILD FAILED in 2s
+        89 actionable tasks: 89 executed
         

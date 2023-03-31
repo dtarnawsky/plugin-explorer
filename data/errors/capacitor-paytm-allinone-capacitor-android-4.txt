@@ -71,10 +71,10 @@
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/com/paytm/appinvokesdk/appinvokesdk/1.6.8/appinvokesdk-1.6.8.pom
         - https://repo.maven.apache.org/maven2/com/paytm/appinvokesdk/appinvokesdk/1.6.8/appinvokesdk-1.6.8.pom
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/appinvokesdk-1.6.8.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/appinvokesdk.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/appinvokesdk-1.6.8.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/appinvokesdk.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/appinvokesdk-1.6.8.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/appinvokesdk.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/appinvokesdk-1.6.8.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/appinvokesdk.jar
         Required by:
         project :app > project :capacitor-paytm-allinone
         
@@ -85,6 +85,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 2s
+        BUILD FAILED in 1s
         16 actionable tasks: 16 executed
         

@@ -1,0 +1,91 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/Plugin.java:9: error: cannot find symbol
+import admob.plus.cordova.AdMob;
+                         ^
+  symbol:   class AdMob
+  location: package admob.plus.cordova
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/Plugin.java:10: error: package admob.plus.cordova.ads does not exist
+import admob.plus.cordova.ads.Native;
+                             ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:11: error: package com.google.android.gms.ads.nativead does not exist
+import com.google.android.gms.ads.nativead.MediaView;
+                                          ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:12: error: package com.google.android.gms.ads.nativead does not exist
+import com.google.android.gms.ads.nativead.NativeAd;
+                                          ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:13: error: package com.google.android.gms.ads.nativead does not exist
+import com.google.android.gms.ads.nativead.NativeAdView;
+                                          ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:17: error: package admob.plus.cordova.ads does not exist
+import admob.plus.cordova.ads.Native;
+                             ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:19: error: package Native does not exist
+public class AdViewProvider implements Native.ViewProvider {
+                                             ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:28: error: cannot find symbol
+    public View createView(NativeAd nativeAd) {
+                           ^
+  symbol:   class NativeAd
+  location: class AdViewProvider
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/Plugin.java:20: error: package Native does not exist
+        AdMob.registerNativeAdViewProviders(new HashMap<String, Native.ViewProvider>() {{
+                                                                      ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/Plugin.java:21: error: cannot find symbol
+            put(AdMob.NATIVE_VIEW_DEFAULT, new AdViewProvider(cordova));
+                ^
+  symbol: variable AdMob
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/Plugin.java:20: error: cannot find symbol
+        AdMob.registerNativeAdViewProviders(new HashMap<String, Native.ViewProvider>() {{
+        ^
+  symbol:   variable AdMob
+  location: class Plugin
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:29: error: cannot find symbol
+        NativeAdView adView =
+        ^
+  symbol:   class NativeAdView
+  location: class AdViewProvider
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:30: error: cannot find symbol
+                (NativeAdView) cordova.getActivity().getLayoutInflater()
+                 ^
+  symbol:   class NativeAdView
+  location: class AdViewProvider
+/Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:33: error: cannot find symbol
+        adView.setMediaView((MediaView) adView.findViewById(id("ad_media")));
+                             ^
+  symbol:   class MediaView
+  location: class AdViewProvider
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+15 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 3s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

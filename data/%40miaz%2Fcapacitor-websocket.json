@@ -1,13 +1,13 @@
 {
   "name": "@miaz/capacitor-websocket",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/mia-z/capacitor-websocket.git",
   "author": "Ryan",
-  "published": "2023-03-20T17:04:42.227Z",
+  "published": "2023-03-29T18:01:10.544Z",
   "versions": [
     "0.1.1",
     "0.2.0",
@@ -18,7 +18,8 @@
     "0.2.5",
     "0.2.6",
     "0.2.7",
-    "0.3.0"
+    "0.3.0",
+    "0.4.0"
   ],
   "keywords": [
     "capacitor",
@@ -30,12 +31,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Basic websocket for capacitor",
   "bugs": "https://github.com/mia-z/capacitor-websocket/issues",
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/1094070?v=4",
   "quality": 100,
-  "updated": "2023-02-20T20:06:26Z"
+  "updated": "2023-02-20T20:06:26Z",
+  "downloads": 130
 }

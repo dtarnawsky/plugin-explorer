@@ -22,13 +22,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This plugin take screenshot of the app or webpage",
   "bugs": "https://github.com/ludufre/capacitor-screenshot/issues",
   "stars": 7,
   "image": "https://avatars.githubusercontent.com/u/4112077?v=4",
-  "quality": 110,
+  "quality": 111,
   "updated": "2023-01-22T08:09:02Z",
-  "downloads": 20109
+  "downloads": 9134
 }

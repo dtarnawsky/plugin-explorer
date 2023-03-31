@@ -28,13 +28,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Record device's screen",
   "bugs": "https://github.com/riderx/capacitor-screen-recorder/issues",
-  "stars": 5,
-  "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "quality": 118,
-  "updated": "2023-03-04T23:09:33Z",
-  "downloads": 36
+  "quality": null,
+  "downloads": 33
 }

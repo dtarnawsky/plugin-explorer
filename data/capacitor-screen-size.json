@@ -20,10 +20,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Get pixel density of iOS and Android devices",
   "bugs": "https://github.com/onexip/capacitor-screen-size.git/issues",
   "quality": null,
-  "downloads": 21
+  "downloads": 25
 }

@@ -29,12 +29,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A Capacitor plugin for Segment analytics",
   "bugs": "https://github.com/joinflux/capacitor-segment/issues",
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
   "quality": 110,
-  "updated": "2022-12-17T02:40:32Z"
+  "updated": "2022-12-17T02:40:32Z",
+  "downloads": 197
 }

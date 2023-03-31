@@ -17,13 +17,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Simple intent tools for Capacitor on Android",
   "bugs": "https://github.com/IT-MikeS/capacitor-intents.git/issues",
-  "stars": 6,
-  "image": "https://avatars.githubusercontent.com/u/20338451?v=4",
-  "quality": 114,
-  "updated": "2022-06-20T19:38:31Z",
+  "quality": null,
   "downloads": 8
 }

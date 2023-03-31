@@ -40,7 +40,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "CA App Experience Analytic native SDK's capacitor supplement for using custom metrics",
   "bugs": "https://github.com/CA-Application-Performance-Management/CapacitorAxaMobileSdkPlugin/issues",
@@ -48,5 +50,5 @@
   "image": "https://avatars.githubusercontent.com/u/57116976?v=4",
   "quality": 100,
   "updated": "2022-06-20T09:52:49Z",
-  "downloads": 114
+  "downloads": 143
 }

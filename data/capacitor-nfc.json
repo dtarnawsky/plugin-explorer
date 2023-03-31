@@ -36,13 +36,12 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Read NFC tags",
   "bugs": "https://github.com/adrynov/Capacitor-NFC-Plugin/issues",
-  "stars": 26,
-  "image": "https://avatars.githubusercontent.com/u/922429?v=4",
-  "quality": 161,
-  "updated": "2022-09-19T02:50:43Z",
-  "downloads": 69
+  "quality": null,
+  "downloads": 108
 }

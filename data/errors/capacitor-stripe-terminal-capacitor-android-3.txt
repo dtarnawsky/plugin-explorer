@@ -96,18 +96,18 @@
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-app:javaPreCompileRelease
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-haptics:javaPreCompileRelease
@@ -115,68 +115,82 @@
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-haptics:generateReleaseRFile
-        
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-keyboard:javaPreCompileRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-stripe-terminal:compileReleaseAidl NO-SOURCE
         > Task :capacitor-stripe-terminal:generateReleaseBuildConfig
         > Task :capacitor-stripe-terminal:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-stripe-terminal:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-stripe-terminal:generateReleaseRFile
         
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:checkReleaseDuplicateClasses FAILED
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-stripe-terminal:compileReleaseJavaWithJavac FAILED
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/capacitor-stripe-terminal/android/src/main/java/io/event1/capacitorstripeterminal/StripeTerminal.java:65: error: cannot find symbol
+        Manifest.permission.BLUETOOTH_CONNECT,
+        ^
+        symbol:   variable BLUETOOTH_CONNECT
+        location: class permission
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/capacitor-stripe-terminal/android/src/main/java/io/event1/capacitorstripeterminal/StripeTerminal.java:66: error: cannot find symbol
+        Manifest.permission.BLUETOOTH_SCAN
+        ^
+        symbol:   variable BLUETOOTH_SCAN
+        location: class permission
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/capacitor-stripe-terminal/android/src/main/java/io/event1/capacitorstripeterminal/StripeTerminal.java:108: error: cannot find symbol
+        Build.VERSION.SDK_INT >= Build.VERSION_CODES.S
+        ^
+        symbol:   variable S
+        location: class VERSION_CODES
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/capacitor-stripe-terminal/android/src/main/java/io/event1/capacitorstripeterminal/StripeTerminal.java:120: error: cannot find symbol
+        Build.VERSION.SDK_INT < Build.VERSION_CODES.S
+        ^
+        symbol:   variable S
+        location: class VERSION_CODES
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/capacitor-stripe-terminal/android/src/main/java/io/event1/capacitorstripeterminal/StripeTerminal.java uses unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        4 errors
         
         FAILURE: Build failed with an exception.
         
         * What went wrong:
-        Execution failed for task ':app:checkReleaseDuplicateClasses'.
-        > Could not resolve all files for configuration ':app:releaseRuntimeClasspath'.
-        > Failed to transform moshi-1.13.0.jar (com.squareup.moshi:moshi:1.13.0) to match attributes {artifactType=enumerated-runtime-classes, org.gradle.category=library, org.gradle.dependency.bundling=external, org.gradle.jvm.environment=standard-jvm, org.gradle.jvm.version=8, org.gradle.libraryelements=jar, org.gradle.status=release, org.gradle.usage=java-runtime, org.jetbrains.kotlin.platform.type=jvm}.
-        > Execution failed for JetifyTransform: /Users/damiantarnawsky/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.13.0/da685586facab9eb5c4fb630ce248be14e7da21b/moshi-1.13.0.jar.
-        > Failed to transform '/Users/damiantarnawsky/.gradle/caches/modules-2/files-2.1/com.squareup.moshi/moshi/1.13.0/da685586facab9eb5c4fb630ce248be14e7da21b/moshi-1.13.0.jar' using Jetifier. Reason: IllegalArgumentException, message: Unsupported class file major version 60. (Run with --stacktrace for more details.)
-        Suggestions:
-        - Check out existing issues at https://issuetracker.google.com/issues?q=componentid:460323&s=modified_time:desc, it's possible that this issue has already been filed there.
-        - If this issue has not been filed, please report it at https://issuetracker.google.com/issues/new?component=460323 (run with --stacktrace and provide a stack trace if possible).
+        Execution failed for task ':capacitor-stripe-terminal:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
         
         * Try:
         Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
         
         * Get more help at https://help.gradle.org
         
+        BUILD FAILED in 10s
+        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        BUILD FAILED in 9s
-        85 actionable tasks: 85 executed
-        
+        81 actionable tasks: 81 executed
         

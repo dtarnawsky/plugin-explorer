@@ -39,7 +39,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Enable TwitterKit features for Capacitor",
   "bugs": "https://github.com/stewwan/capacitor-twitter/issues",
@@ -47,5 +49,5 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 126,
   "updated": "2022-06-06T07:30:13Z",
-  "downloads": 129
+  "downloads": 43
 }

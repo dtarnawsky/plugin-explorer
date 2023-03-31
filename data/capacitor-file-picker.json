@@ -30,13 +30,12 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This plugin presents the native UI for picking a file.",
   "bugs": "https://github.com/epicshaggy/capaitor-file-picker/issues",
-  "stars": 9,
-  "image": "https://avatars.githubusercontent.com/u/50883345?v=4",
-  "quality": 127,
-  "updated": "2023-03-13T09:39:52Z",
-  "downloads": 603
+  "quality": null,
+  "downloads": 596
 }

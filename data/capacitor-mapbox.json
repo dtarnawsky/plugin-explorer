@@ -63,13 +63,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Show a truly native mapbox map.",
   "bugs": "https://github.com/skelpo/capacitor-mapbox/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/2872298?v=4",
-  "quality": 101,
-  "updated": "2021-03-09T17:49:31Z",
-  "downloads": 3653
+  "quality": null,
+  "downloads": 3579
 }

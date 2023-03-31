@@ -56,13 +56,15 @@
     "typescript"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A capacitor plugin for Dynamsoft Barcode Reader",
   "bugs": "https://github.com/xulihang/capacitor-plugin-dynamsoft-barcode-reader/issues",
-  "stars": 4,
+  "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/112376616?v=4",
-  "quality": 104,
-  "updated": "2023-01-31T19:17:10Z",
-  "downloads": 310
+  "quality": 105,
+  "updated": "2023-03-29T13:41:22Z",
+  "downloads": 288
 }

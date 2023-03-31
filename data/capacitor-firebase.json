@@ -18,13 +18,15 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "[Not functioning] Integrating the offerings of Firebase in a Capacitor plugin",
   "bugs": "https://github.com/eikooc/capacitor-firebase/issues",
+  "quality": 100,
+  "downloads": 7,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/1305015?v=4",
-  "quality": 100,
-  "updated": "2018-05-22T18:42:33Z",
-  "downloads": 5
+  "updated": "2018-05-22T18:42:33Z"
 }

@@ -27,13 +27,15 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Start a fullscreen intent with a local notification triggered by a push notification",
   "bugs": "https://github.com/NePheus/capacitor-fullscreen-notification/issues",
-  "stars": 2,
+  "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
-  "quality": 102,
-  "updated": "2023-01-23T13:35:16Z",
-  "downloads": 219
+  "quality": 103,
+  "updated": "2023-03-27T12:05:25Z",
+  "downloads": 206
 }

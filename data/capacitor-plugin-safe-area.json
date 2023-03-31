@@ -29,10 +29,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "a capacitor V3/V4 plugin to get SafeArea info on Android and IOS",
   "bugs": "https://github.com/AlwaysLoveme/capacitor-plugin-safe-area.git/issues",
   "quality": null,
-  "downloads": 12698
+  "downloads": 12888
 }

@@ -3,7 +3,8 @@
   "version": "6.7.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/regulaforensics/DocumentReader-Cordova-Plugin.git",
   "author": "RegulaForensics",
@@ -40,7 +41,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for reading and validation of identification documents (Core framework)",
   "bugs": "https://github.com/regulaforensics/DocumentReader-Cordova-Plugin/issues",

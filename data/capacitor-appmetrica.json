@@ -1,7 +1,9 @@
 {
   "name": "capacitor-appmetrica",
   "version": "1.0.0",
-  "success": [],
+  "success": [
+    "capacitor-ios-3"
+  ],
   "repo": "https://github.com/rediska1114/capacitor-appmetrica.git.git",
   "author": "rediska1114 (rediska1114@gmail.com)",
   "published": "2022-08-06T15:49:10.258Z",
@@ -36,11 +38,10 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-android-3"
   ],
   "description": "Appmetrica capacitor plugin",
   "bugs": "https://github.com/rediska1114/capacitor-appmetrica.git/issues",
   "quality": null,
-  "downloads": 369
+  "downloads": 414
 }

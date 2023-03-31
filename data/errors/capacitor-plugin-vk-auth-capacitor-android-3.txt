@@ -91,40 +91,39 @@
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-android:javaPreCompileRelease
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :app:mergeReleaseResources
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-plugin-vk-auth:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-plugin-vk-auth:generateReleaseBuildConfig
-        > Task :capacitor-plugin-vk-auth:javaPreCompileRelease
-        > Task :capacitor-plugin-vk-auth:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
         > Task :app:bundleReleaseResources FAILED
-        > Task :app:checkReleaseDuplicateClasses
-        
-        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
-        Use '--warning-mode all' to show the individual deprecation warnings.
-        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        68 actionable tasks: 68 executed
         
         FAILURE: Build failed with an exception.
         
@@ -132,7 +131,7 @@
         Execution failed for task ':app:bundleReleaseResources'.
         > A failure occurred while executing com.android.build.gradle.internal.res.Aapt2ProcessResourcesRunnable
         > Android resource linking failed
-        ERROR:/Users/damiantarnawsky/.gradle/caches/transforms-3/60228435d1edf4aad3d438bc5defe997/transformed/core-1.7.0/res/values/values.xml:105:5-114:25: AAPT: error: resource android:attr/lStar not found.
+        ERROR:/Users/damian/.gradle/caches/transforms-3/60228435d1edf4aad3d438bc5defe997/transformed/core-1.7.0/res/values/values.xml:105:5-114:25: AAPT: error: resource android:attr/lStar not found.
         
         
         * Try:
@@ -140,5 +139,10 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 10s
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        Use '--warning-mode all' to show the individual deprecation warnings.
+        See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 9s
+        68 actionable tasks: 68 executed
         

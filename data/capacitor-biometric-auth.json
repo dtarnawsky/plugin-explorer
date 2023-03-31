@@ -25,7 +25,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Complete",
   "bugs": "https://github.com/arielhernandezmusa/capacitor-biometric-auth.git/issues",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/12831947?v=4",
   "quality": 165,
   "updated": "2022-12-22T06:06:46Z",
-  "downloads": 407
+  "downloads": 440
 }

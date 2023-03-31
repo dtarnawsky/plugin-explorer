@@ -1,12 +1,12 @@
 {
   "name": "@proteansoftware/capacitor-firestore",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "success": [
     "capacitor-android-4"
   ],
   "repo": "https://github.com/ProteanSoftware/capacitor-firestore.git",
   "author": "Ashley Medway",
-  "published": "2023-03-23T15:06:11.475Z",
+  "published": "2023-03-26T10:59:57.818Z",
   "versions": [
     "0.0.5",
     "0.0.6",
@@ -52,7 +52,8 @@
     "4.2.0-alpha2",
     "4.2.0-alpha3",
     "4.2.0",
-    "4.2.1"
+    "4.2.1",
+    "4.2.2"
   ],
   "keywords": [
     "capacitor",
@@ -62,7 +63,9 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Plugin for Native Firestore",
   "bugs": "https://github.com/ProteanSoftware/capacitor-firestore/issues",
@@ -70,5 +73,5 @@
   "image": "https://avatars.githubusercontent.com/u/59541385?v=4",
   "quality": 107,
   "updated": "2023-02-22T01:08:56Z",
-  "downloads": 521
+  "downloads": 653
 }

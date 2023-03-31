@@ -1,0 +1,36 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:processDebugGoogleServices'.
+> File google-services.json is missing. The Google Services Plugin cannot function without it. 
+   Searched Location: 
+  /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/google-services.json
+  /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/nullnull/google-services.json
+  /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/debug/google-services.json
+  /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/nullnullDebug/google-services.json
+  /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/nullnull/debug/google-services.json
+  /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/app/src/debug/nullnull/google-services.json
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1s
+Command failed with exit code 1: /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/gradlew cdvBuildDebug -b /Users/damian/Sample Code/plugin-explorer/apps/cordova/platforms/android/build.gradle
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build android exited with exit code 1.
+        
+        Re-running this command with the --verbose flag may provide more information.

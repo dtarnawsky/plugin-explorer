@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "1.0.0",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "1.0.0",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "1.0.0",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "1.0.0",
+      "failure": "peer-dependencies",
+      "success": false
+    }
+  ],
+  "name": "@pantrist/capacitor-date-picker"
+}

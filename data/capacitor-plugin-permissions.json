@@ -21,7 +21,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor permissions request and management plugin",
   "bugs": "https://github.com/diiiary/capacitor-plugin-permissions.git/issues",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/23431627?v=4",
   "quality": 103,
   "updated": "2019-08-28T11:03:40Z",
-  "downloads": 68
+  "downloads": 65
 }

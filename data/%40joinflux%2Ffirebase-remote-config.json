@@ -31,12 +31,15 @@
     "firebase-remote-config"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A native plugin for firebase remote config",
   "bugs": "https://github.com/joinflux/firebase-remote-config/issues",
   "stars": 7,
   "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
   "quality": 21,
-  "updated": "2023-03-16T02:38:54Z"
+  "updated": "2023-03-16T02:38:54Z",
+  "downloads": 790
 }

@@ -71,59 +71,29 @@
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-keyboard:processReleaseManifest
-        > Task :robingenz-capacitor-app-update:extractDeepLinksRelease
+        > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-status-bar:processReleaseManifest
+        > Task :robingenz-capacitor-app-update:extractDeepLinksRelease
         > Task :robingenz-capacitor-app-update:processReleaseManifest
-        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :robingenz-capacitor-app-update:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :robingenz-capacitor-app-update:compileReleaseAidl NO-SOURCE
-        > Task :robingenz-capacitor-app-update:generateReleaseBuildConfig
-        > Task :robingenz-capacitor-app-update:javaPreCompileRelease
-        > Task :robingenz-capacitor-app-update:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:javaPreCompileRelease
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         Note: Some input files use or override a deprecated API.
@@ -132,57 +102,86 @@
         Note: Recompile with -Xlint:unchecked for details.
         
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :robingenz-capacitor-app-update:generateReleaseRFile
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        
-        > Task :robingenz-capacitor-app-update:compileReleaseJavaWithJavac
-        
-        > Task :robingenz-capacitor-app-update:bundleLibRuntimeToJarRelease
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@robingenz/capacitor-app-update/android/src/main/java/dev/robingenz/capacitor/appupdate/AppUpdatePlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-android:writeReleaseAarMetadata
-        > Task :capacitor-app:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
-        > Task :capacitor-haptics:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-keyboard:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:writeReleaseAarMetadata
-        > Task :robingenz-capacitor-app-update:writeReleaseAarMetadata
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :app:checkReleaseAarMetadataNote: Some input files use or override a deprecated API.
+        Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :robingenz-capacitor-app-update:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :robingenz-capacitor-app-update:generateReleaseBuildConfig
+        > Task :robingenz-capacitor-app-update:javaPreCompileRelease
+        > Task :robingenz-capacitor-app-update:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :robingenz-capacitor-app-update:generateReleaseRFile
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :robingenz-capacitor-app-update:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        
+        > Task :robingenz-capacitor-app-update:compileReleaseJavaWithJavac
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@robingenz/capacitor-app-update/android/src/main/java/dev/robingenz/capacitor/appupdate/AppUpdatePlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
+        > Task :robingenz-capacitor-app-update:bundleLibRuntimeToJarRelease
         > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
-        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
+        > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
         > Task :robingenz-capacitor-app-update:bundleLibCompileToJarRelease
         > Task :app:desugarReleaseFileDependencies
-        > Task :app:processReleaseResources
         > Task :app:mergeReleaseShaders
         > Task :app:compileReleaseShaders NO-SOURCE
         > Task :app:generateReleaseAssets UP-TO-DATE
@@ -215,6 +214,7 @@
         > Task :robingenz-capacitor-app-update:generateReleaseAssets UP-TO-DATE
         > Task :robingenz-capacitor-app-update:packageReleaseAssets
         > Task :app:mergeExtDexRelease
+        > Task :app:processReleaseResources
         > Task :app:mergeReleaseAssets
         > Task :app:processReleaseJavaRes NO-SOURCE
         > Task :capacitor-android:processReleaseJavaRes NO-SOURCE
@@ -231,10 +231,18 @@
         > Task :capacitor-status-bar:bundleLibResRelease NO-SOURCE
         > Task :robingenz-capacitor-app-update:processReleaseJavaRes NO-SOURCE
         > Task :robingenz-capacitor-app-update:bundleLibResRelease NO-SOURCE
+        > Task :app:mergeReleaseJniLibFolders
+        > Task :capacitor-android:mergeReleaseJniLibFolders
+        > Task :capacitor-android:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-android:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-android:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-app:mergeReleaseJniLibFolders
+        > Task :capacitor-app:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-app:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-app:copyReleaseJniLibsProjectOnly
+        > Task :app:mergeReleaseJavaResource
         
         > Task :app:compileReleaseJavaWithJavac FAILED
-        
-        > Task :app:mergeReleaseJavaResource
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
         public class MainActivity extends BridgeActivity {}
         ^
@@ -256,6 +264,6 @@
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
         
-        BUILD FAILED in 4s
-        127 actionable tasks: 127 executed
+        BUILD FAILED in 3s
+        132 actionable tasks: 132 executed
         

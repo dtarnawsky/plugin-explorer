@@ -3,7 +3,9 @@
   "version": "3.0.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/VelocityCubed/cordova-plugin-file-opener2.git",
   "author": "Velocity",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/84908720?v=4",
   "quality": 0,
   "updated": "2022-10-13T06:12:31Z",
-  "downloads": 7
+  "downloads": 9
 }

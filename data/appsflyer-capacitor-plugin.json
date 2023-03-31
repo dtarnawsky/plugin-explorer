@@ -2,7 +2,8 @@
   "name": "appsflyer-capacitor-plugin",
   "version": "6.9.2",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/AppsFlyerSDK/appsflyer-capacitor-plugin.git",
   "author": "Paz Lavi",
@@ -32,7 +33,6 @@
     "native"
   ],
   "fails": [
-    "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
@@ -40,7 +40,7 @@
   "bugs": "https://github.com/AppsFlyerSDK/appsflyer-capacitor-plugin/issues",
   "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/6083614?v=4",
-  "quality": 120,
+  "quality": 121,
   "updated": "2023-02-14T21:47:49Z",
-  "downloads": 15816
+  "downloads": 16311
 }

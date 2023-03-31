@@ -73,20 +73,20 @@
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/com/kakao/sdk/v2-user/2.5.2/v2-user-2.5.2.pom
         - https://jcenter.bintray.com/com/kakao/sdk/v2-user/2.5.2/v2-user-2.5.2.pom
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/v2-user-2.5.2.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/v2-user.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/app/libs/v2-user-2.5.2.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/app/libs/v2-user.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/v2-user-2.5.2.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/v2-user.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/libs/v2-user-2.5.2.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/libs/v2-user.jar
         Required by:
         project :app > project :capacitor3-kakao-login
         > Could not find com.kakao.sdk:v2-link:2.5.2.
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/com/kakao/sdk/v2-link/2.5.2/v2-link-2.5.2.pom
         - https://jcenter.bintray.com/com/kakao/sdk/v2-link/2.5.2/v2-link-2.5.2.pom
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/v2-link-2.5.2.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/v2-link.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/app/libs/v2-link-2.5.2.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/app/libs/v2-link.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/v2-link-2.5.2.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/v2-link.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/libs/v2-link-2.5.2.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/libs/v2-link.jar
         Required by:
         project :app > project :capacitor3-kakao-login
         

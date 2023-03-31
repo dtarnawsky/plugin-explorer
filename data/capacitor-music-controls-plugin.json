@@ -26,23 +26,16 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "ionic-capacitor",
-    "ionic-framework",
-    "java",
-    "javascript",
-    "swift",
-    "typescript"
+    "native"
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Implementation of MusicControls for Capacitor projects",
   "bugs": "https://github.com/ingageco/capacitor-music-controls-plugin/issues",
-  "stars": 20,
-  "image": "https://avatars.githubusercontent.com/u/1514415?v=4",
-  "quality": 152,
-  "updated": "2023-01-29T16:54:47Z",
-  "downloads": 56
+  "quality": null,
+  "downloads": 48
 }

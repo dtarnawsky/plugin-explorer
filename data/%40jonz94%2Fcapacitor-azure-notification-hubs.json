@@ -30,12 +30,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin to register push notifications via Azure Notification Hub.",
   "bugs": "https://github.com/jonz94/capacitor-azure-notification-hubs/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/16042676?v=4",
   "quality": 103,
-  "updated": "2023-01-14T19:17:31Z"
+  "updated": "2023-01-14T19:17:31Z",
+  "downloads": 62
 }

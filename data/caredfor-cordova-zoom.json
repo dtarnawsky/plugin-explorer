@@ -18,9 +18,11 @@
     "caredfor"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "caredfor supporting cordova zoom plugin",
   "bugs": "https://bitbucket.org/caredfor/cordova.plugin.zoom/issues",
-  "downloads": 1
+  "downloads": 3
 }

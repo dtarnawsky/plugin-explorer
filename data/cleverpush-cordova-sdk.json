@@ -2,7 +2,8 @@
   "name": "cleverpush-cordova-sdk",
   "version": "1.7.9",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/cleverpush/cleverpush-cordova-sdk.git",
   "author": "",
@@ -44,7 +45,8 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6"
   ],
   "description": "CleverPush Cordova plugin",
   "bugs": "https://github.com/cleverpush/cleverpush-cordova-sdk/issues",
@@ -52,5 +54,5 @@
   "image": "https://avatars.githubusercontent.com/u/19711249?v=4",
   "quality": 100,
   "updated": "2022-05-17T21:34:25Z",
-  "downloads": 367
+  "downloads": 318
 }

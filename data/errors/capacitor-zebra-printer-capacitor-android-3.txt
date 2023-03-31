@@ -108,58 +108,52 @@
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-zebra-printer:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-zebra-printer:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-zebra-printer:generateReleaseBuildConfig
-        > Task :capacitor-zebra-printer:javaPreCompileRelease
         > Task :capacitor-zebra-printer:parseReleaseLocalResources
+        > Task :capacitor-zebra-printer:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:bundleReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-android:bundleLibCompileToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-status-bar:generateReleaseRFile
         > Task :capacitor-zebra-printer:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-zebra-printer:compileReleaseJavaWithJavac
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
         
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :capacitor-zebra-printer:bundleLibRuntimeToJarRelease
-        
+        > Task :capacitor-zebra-printer:compileReleaseJavaWithJavac
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :capacitor-zebra-printer:bundleLibRuntimeToJarRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :app:checkReleaseDuplicateClasses
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
         > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:writeReleaseAarMetadata
@@ -167,11 +161,16 @@
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
         > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :capacitor-zebra-printer:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
-        > Task :app:checkReleaseAarMetadata
+        > Task :app:processReleaseManifestForPackageNote: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        
         > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
@@ -194,6 +193,7 @@
         > Task :capacitor-cordova-android-plugins:generateReleaseAssets UP-TO-DATE
         > Task :capacitor-cordova-android-plugins:packageReleaseAssets
         > Task :capacitor-haptics:mergeReleaseShaders
+        > Task :app:checkReleaseAarMetadata
         > Task :capacitor-haptics:compileReleaseShaders NO-SOURCE
         > Task :capacitor-haptics:generateReleaseAssets UP-TO-DATE
         > Task :capacitor-haptics:packageReleaseAssets
@@ -227,36 +227,13 @@
         > Task :capacitor-status-bar:bundleLibResRelease NO-SOURCE
         > Task :capacitor-zebra-printer:processReleaseJavaRes NO-SOURCE
         > Task :capacitor-zebra-printer:bundleLibResRelease NO-SOURCE
-        > Task :app:mergeReleaseJniLibFolders
-        > Task :capacitor-android:mergeReleaseJniLibFolders
-        > Task :capacitor-android:mergeReleaseNativeLibs NO-SOURCE
-        > Task :capacitor-android:stripReleaseDebugSymbols NO-SOURCE
-        > Task :capacitor-android:copyReleaseJniLibsProjectOnly
-        > Task :capacitor-app:mergeReleaseJniLibFolders
-        > Task :capacitor-app:mergeReleaseNativeLibs NO-SOURCE
-        > Task :capacitor-app:stripReleaseDebugSymbols NO-SOURCE
-        > Task :capacitor-app:copyReleaseJniLibsProjectOnly
-        > Task :capacitor-cordova-android-plugins:mergeReleaseJniLibFolders
-        > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:stripReleaseDebugSymbols NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:copyReleaseJniLibsProjectOnly
-        > Task :capacitor-haptics:mergeReleaseJniLibFolders
-        > Task :capacitor-haptics:mergeReleaseNativeLibs NO-SOURCE
-        > Task :capacitor-haptics:stripReleaseDebugSymbols NO-SOURCE
-        > Task :capacitor-haptics:copyReleaseJniLibsProjectOnly
-        > Task :capacitor-keyboard:mergeReleaseJniLibFolders
-        > Task :capacitor-keyboard:mergeReleaseNativeLibs NO-SOURCE
-        > Task :capacitor-keyboard:stripReleaseDebugSymbols NO-SOURCE
-        > Task :capacitor-keyboard:copyReleaseJniLibsProjectOnly
         
         > Task :app:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
         public class MainActivity extends BridgeActivity {}
         ^
         class file for android.view.ViewGroup not found
         1 error
-        
-        > Task :app:mergeReleaseJavaResource
         
         FAILURE: Build failed with an exception.
         
@@ -269,10 +246,12 @@
         
         * Get more help at https://help.gradle.org
         
+        BUILD FAILED in 3s
+        
+        > Task :app:mergeReleaseJavaResource
+        
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        138 actionable tasks: 138 executed
-        BUILD FAILED in 4s
-        
+        127 actionable tasks: 127 executed
         

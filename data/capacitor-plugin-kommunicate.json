@@ -1,7 +1,9 @@
 {
   "name": "capacitor-plugin-kommunicate",
   "version": "2.0.0",
-  "success": [],
+  "success": [
+    "capacitor-ios-3"
+  ],
   "repo": "https://github.com/Kommunicate-io/Kommunicate-Capacitor-Plugin.git",
   "author": "aman.toppo@kommunicate.io",
   "published": "2022-07-22T14:26:41.505Z",
@@ -21,9 +23,7 @@
   ],
   "fails": [
     "capacitor-ios-4",
-    "capacitor-android-4",
-    "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-4"
   ],
   "description": "A smart customer support plugin for capacitor",
   "bugs": "https://github.com/Kommunicate-io/Kommunicate-Capacitor-Plugin.git/issues",
@@ -31,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/33670207?v=4",
   "quality": 101,
   "updated": "2022-05-02T14:58:39Z",
-  "downloads": 30
+  "downloads": 28
 }

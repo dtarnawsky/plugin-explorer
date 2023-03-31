@@ -24,9 +24,11 @@
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Plugin to retrieve and use the google play install referrer",
   "bugs": "https://bitbucket.org/together_price/capacitor-plugin-install-referrer/issues",
-  "downloads": 75
+  "downloads": 56
 }

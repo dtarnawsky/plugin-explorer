@@ -23,7 +23,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Auto adjust the native android layout when the keyboard opens. Needed when using translucent status and navigation bars.",
   "bugs": "https://github.com/NePheus/capacitor-adjust-resize/issues",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
   "quality": 102,
   "updated": "2023-01-19T16:38:23Z",
-  "downloads": 265
+  "downloads": 287
 }

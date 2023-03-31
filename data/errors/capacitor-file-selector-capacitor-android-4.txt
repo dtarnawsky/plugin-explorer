@@ -65,58 +65,52 @@
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-file-selector:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-file-selector:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-file-selector:processReleaseManifest
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-file-selector:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-keyboard:processReleaseManifest
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-android:javaPreCompileRelease
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-file-selector:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-file-selector:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-file-selector:generateReleaseBuildConfig
+        > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-file-selector:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-file-selector:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:mergeReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
@@ -124,30 +118,32 @@
         > Task :app:mapReleaseSourceSetPaths
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
-        Note: Some input files use unchecked or unsafe operations.
-        Note: Recompile with -Xlint:unchecked for details.
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
         > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :app:bundleReleaseResources
         > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-file-selector:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-file-selector:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-file-selector/android/src/main/java/com/bkon/capacitor/fileselector/FileSelector.java:91: error: cannot access AppCompatActivity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-file-selector/android/src/main/java/com/bkon/capacitor/fileselector/FileSelector.java:91: error: cannot access AppCompatActivity
         Context context = getBridge().getActivity().getApplicationContext();
         ^
         class file for androidx.appcompat.app.AppCompatActivity not found
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-file-selector/android/src/main/java/com/bkon/capacitor/fileselector/FileSelector.java uses or overrides a deprecated API.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-file-selector/android/src/main/java/com/bkon/capacitor/fileselector/FileSelector.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         1 error
         
@@ -162,14 +158,14 @@
         > Run with --info or --debug option to get more log output.
         > Run with --scan to get full insights.
         
-        * Get more help at https://help.gradle.org
-        
+        * Get more help at
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
-        
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
-        BUILD FAILED in 5s
-        86 actionable tasks: 86 executed
+        https://help.gradle.org
+        
+        BUILD FAILED in 3s
+        82 actionable tasks: 82 executed
         

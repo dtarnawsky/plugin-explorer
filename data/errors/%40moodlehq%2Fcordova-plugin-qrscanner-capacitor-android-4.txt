@@ -63,56 +63,57 @@
         > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-android:javaPreCompileRelease
-        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :app:mergeReleaseResources
         > Task :app:processReleaseMainManifest
+        > Task :app:mapReleaseSourceSetPaths
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:parseReleaseLocalResources
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:bundleReleaseResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :app:mapReleaseSourceSetPaths
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
@@ -121,16 +122,9 @@
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :app:bundleReleaseResources
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/java/com/bitpay/cordova/qrscanner/QRScanner.java:27: error: cannot find symbol
@@ -164,8 +158,8 @@
         
         You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
         
-        BUILD FAILED
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
-        78 actionable tasks: 78 executed in 2s
+        73 actionable tasks: 73 executed
         
+        BUILD FAILED in 3s
         

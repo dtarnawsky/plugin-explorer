@@ -25,5 +25,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 626ms
+        BUILD FAILED in 611ms
         

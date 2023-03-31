@@ -35,13 +35,30 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "android",
+    "crash",
+    "crash-reporting",
+    "error",
+    "error-handling",
+    "hybrid-apps",
+    "ionic",
+    "ios",
+    "javascript",
+    "mobile",
+    "sdk",
+    "sentry"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Official Sentry SDK for Capacitor",
   "bugs": "https://github.com/getsentry/sentry-capacitor/issues",
-  "quality": null,
-  "downloads": 50464
+  "quality": 263,
+  "downloads": 47417,
+  "stars": 109,
+  "image": "https://avatars.githubusercontent.com/u/1396951?v=4",
+  "updated": "2023-03-27T17:02:49Z"
 }

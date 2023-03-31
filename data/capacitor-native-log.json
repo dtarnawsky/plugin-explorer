@@ -24,13 +24,12 @@
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Alternative to Capacitor‘s Console plugin for logging to the native device log console",
   "bugs": "https://github.com/Mote-OU/capacitor-native-log/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/60335857?v=4",
-  "quality": 104,
-  "updated": "2020-04-04T07:12:50Z",
-  "downloads": 49
+  "quality": null,
+  "downloads": 55
 }

@@ -48,7 +48,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Securely store secrets such as usernames, passwords, tokens, certificates or other sensitive information (strings) on iOS & Android",
   "bugs": "https://github.com/martinkasa/capacitor-secure-storage-plugin.git/issues",
@@ -56,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/32707615?v=4",
   "quality": 265,
   "updated": "2023-03-25T08:26:22Z",
-  "downloads": 44866
+  "downloads": 42196
 }

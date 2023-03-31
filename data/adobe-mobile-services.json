@@ -2,7 +2,8 @@
   "name": "adobe-mobile-services",
   "version": "4.19.5",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11"
   ],
   "repo": "https://github.com/Adobe-Marketing-Cloud/mobile-services.git",
   "author": "Adobe",
@@ -29,7 +30,8 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6"
   ],
   "description": "Native Mobile SDKs, dev tools and example apps.",
   "bugs": "https://github.com/Adobe-Marketing-Cloud/mobile-services/issues",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/1440554?v=4",
   "quality": 464,
   "updated": "2023-02-17T11:09:35Z",
-  "downloads": 564
+  "downloads": 581
 }

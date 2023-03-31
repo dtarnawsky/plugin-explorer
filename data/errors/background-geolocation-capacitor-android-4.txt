@@ -65,60 +65,59 @@
         > Task :background-geolocation:extractDeepLinksRelease
         > Task :background-geolocation:processReleaseManifest
         > Task :capacitor-android:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
         > Task :background-geolocation:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:processReleaseManifest
         > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
         > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:processReleaseManifest
-        > Task :app:processReleaseMainManifest
-        > Task :app:processReleaseManifest
-        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :background-geolocation:compileReleaseAidl NO-SOURCE
         > Task :background-geolocation:generateReleaseBuildConfig
-        > Task :background-geolocation:parseReleaseLocalResources
-        > Task :background-geolocation:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :background-geolocation:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         > Task :capacitor-android:generateReleaseRFile
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :background-geolocation:parseReleaseLocalResources
         > Task :app:checkReleaseDuplicateClasses
         > Task :app:mergeReleaseResources
         
@@ -132,21 +131,18 @@
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        > Task :app:bundleReleaseResources
         > Task :capacitor-app:compileReleaseJavaWithJavac
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :background-geolocation:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
-        > Task :background-geolocation:writeReleaseAarMetadata
-        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         
         > Task :background-geolocation:compileReleaseJavaWithJavac FAILED
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/background-geolocation/android/src/main/java/com/geolocation/service/app/GeolocationService.java:41: error: invalid method declaration; return type required
@@ -167,6 +163,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 2s
-        91 actionable tasks: 91 executed
+        BUILD FAILED in 3s
+        87 actionable tasks: 87 executed
         

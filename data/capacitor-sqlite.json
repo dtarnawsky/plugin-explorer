@@ -67,13 +67,15 @@
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor SQLite Plugin",
   "bugs": "https://github.com/jepiqueau/capacitor-sqlite/issues",
-  "stars": 261,
+  "stars": 263,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 457,
-  "updated": "2023-03-23T22:55:53Z",
-  "downloads": 144
+  "quality": 460,
+  "updated": "2023-03-28T11:28:53Z",
+  "downloads": 127
 }

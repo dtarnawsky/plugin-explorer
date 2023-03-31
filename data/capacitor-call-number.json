@@ -21,7 +21,9 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Plugin to pick files/images/videos from android or ios.",
   "bugs": "https://github.com/mantosh59/call-number/issues",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/11851742?v=4",
   "quality": 101,
   "updated": "2021-07-15T05:33:33Z",
-  "downloads": 4292
+  "downloads": 3408
 }

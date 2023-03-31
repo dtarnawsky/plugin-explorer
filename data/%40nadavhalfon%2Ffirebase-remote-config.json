@@ -18,13 +18,12 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A native plugin for firebase remote config",
   "bugs": "https://github.com/nadavhalfon/firebase-remote-config/issues",
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/32557985?v=4",
-  "quality": 1,
-  "updated": "2022-10-21T02:04:27Z",
-  "downloads": 7
+  "quality": null,
+  "downloads": 10
 }

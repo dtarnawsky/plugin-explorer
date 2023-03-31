@@ -6,15 +6,6 @@
         This repository is deprecated and it will be shut down in the future.
         See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
         Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
-        Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-        Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-        Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
         > Task :app:preBuild UP-TO-DATE
         > Task :app:preReleaseBuild UP-TO-DATE
         > Task :app:writeReleaseApplicationId
@@ -82,8 +73,8 @@
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/ionic-team/capacitor-android/maven-metadata.xml
         - https://jcenter.bintray.com/ionic-team/capacitor-android/maven-metadata.xml
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/app/libs/
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/libs/
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/libs/
         Required by:
         project :app > project :capacitor-datepicker
         
@@ -95,7 +86,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        BUILD FAILED in 4s
         18 actionable tasks: 18 executed
         
+        BUILD FAILED in 1s
         

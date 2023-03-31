@@ -43,13 +43,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This plugin gives access to the native biometric apis for android and iOS",
   "bugs": "https://github.com/epicshaggy/capacitor-native-biometric/issues",
-  "stars": 117,
-  "image": "https://avatars.githubusercontent.com/u/50883345?v=4",
-  "quality": 311,
-  "updated": "2023-03-12T13:57:48Z",
-  "downloads": 50468
+  "quality": null,
+  "downloads": 47708
 }

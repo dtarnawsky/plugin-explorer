@@ -51,13 +51,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Apptentive Plugin For Cordova",
   "bugs": "https://github.com/apptentive/apptentive-cordova/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/733925?v=4",
-  "quality": 119,
+  "quality": 120,
   "updated": "2022-10-26T17:28:03Z",
-  "downloads": 219
+  "downloads": 221
 }

@@ -3,7 +3,9 @@
   "version": "5.1.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/regulaforensics/cordova-plugin-face-api.git",
   "author": "RegulaForensics",
@@ -39,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
   "quality": 104,
   "updated": "2023-03-03T14:19:04Z",
-  "downloads": 389
+  "downloads": 399
 }

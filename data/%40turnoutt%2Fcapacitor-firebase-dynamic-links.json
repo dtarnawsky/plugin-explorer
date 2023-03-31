@@ -22,10 +22,12 @@
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Plugin for Firebase Dynamic Links",
   "bugs": "https://github.com/ClipboardHealth/capacitor-firebase-dynamic-links.git/issues",
   "quality": null,
-  "downloads": 44
+  "downloads": 41
 }

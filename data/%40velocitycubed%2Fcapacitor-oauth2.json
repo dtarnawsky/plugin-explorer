@@ -25,7 +25,9 @@
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor OAuth 2 client plugin",
   "bugs": "https://github.com/VelocityCubed/capacitor-oauth2/issues",

@@ -18,12 +18,11 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Wifi Plugin",
-  "stars": 6,
-  "image": "https://avatars.githubusercontent.com/u/15358538?v=4",
-  "quality": 116,
-  "updated": "2023-01-30T08:47:30Z",
-  "downloads": 4
+  "quality": null,
+  "downloads": 5
 }

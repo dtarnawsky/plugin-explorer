@@ -1,0 +1,35 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "0.1.4",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.1.4",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-4",
+      "version": "0.1.4",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
+      "version": "0.1.4",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "0.1.4",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "@robingenz/capacitor-managed-configurations"
+}

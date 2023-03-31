@@ -32,9 +32,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Glassfy Plugin",
   "bugs": "https://glassfy.io/issues",
-  "downloads": 618
+  "downloads": 514
 }

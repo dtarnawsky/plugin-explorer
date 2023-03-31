@@ -29,7 +29,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Plugin using native Maps API for Android and iOS.",
   "bugs": "https://github.com/hemangsk/capacitor-googlemaps-native/issues",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 316,
   "updated": "2023-03-10T15:04:30Z",
-  "downloads": 21
+  "downloads": 22
 }

@@ -33,7 +33,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Plugin for Firebase Push",
   "bugs": "https://github.com/EinfachHans/capacitor-firebase-push.git/issues",
@@ -41,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
   "quality": 140,
   "updated": "2022-08-23T20:18:14Z",
-  "downloads": 673
+  "downloads": 585
 }

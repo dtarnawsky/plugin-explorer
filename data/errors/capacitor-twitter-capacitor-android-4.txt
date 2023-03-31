@@ -71,10 +71,10 @@
         Searched in the following locations:
         - https://dl.google.com/dl/android/maven2/com/twitter/sdk/android/twitter-core/3.1.1/twitter-core-3.1.1.pom
         - https://repo.maven.apache.org/maven2/com/twitter/sdk/android/twitter-core/3.1.1/twitter-core-3.1.1.pom
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/twitter-core-3.1.1.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/twitter-core.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/twitter-core-3.1.1.jar
-        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/android/app/libs/twitter-core.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/twitter-core-3.1.1.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/capacitor-cordova-android-plugins/src/main/libs/twitter-core.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/twitter-core-3.1.1.jar
+        - file:/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/libs/twitter-core.jar
         Required by:
         project :app > project :capacitor-twitter
         
@@ -91,6 +91,6 @@
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
         
-        BUILD FAILED in 2s
+        BUILD FAILED in 1s
         16 actionable tasks: 16 executed
         

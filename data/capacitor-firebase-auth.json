@@ -62,13 +62,15 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for Firebase Authentication",
   "bugs": "https://github.com/baumblatt/capacitor-firebase-auth.git/issues",
   "stars": 250,
   "image": "https://avatars.githubusercontent.com/u/13812055?v=4",
-  "quality": 589,
+  "quality": 588,
   "updated": "2023-03-10T12:02:46Z",
-  "downloads": 6680
+  "downloads": 6203
 }

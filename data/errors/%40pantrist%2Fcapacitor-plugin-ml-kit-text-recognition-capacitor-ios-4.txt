@@ -11,13 +11,13 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: 0a4e2805dead715f994fdd6d30a3c6a0
-        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/0a4e2805dead715f994fdd6d30a3c6a0-desc.xcbuild
+        Build description signature: 30b8af4017bbfac5179ad436abc77a35
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/30b8af4017bbfac5179ad436abc77a35-desc.xcbuild
         
         note: Building targets in dependency order
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "MLKitTextRecognition-LatinOCRResources" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'MLKitTextRecognition-LatinOCRResources' from project 'Pods')
         warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
         warning: Run script build phase '[CP] Copy Pods Resources' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
-        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "MLKitTextRecognition-LatinOCRResources" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'MLKitTextRecognition-LatinOCRResources' from project 'Pods')
         ** ARCHIVE FAILED **
         
         

@@ -63,51 +63,51 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :cap-browser:extractDeepLinksRelease
+        > Task :cap-browser:processReleaseManifest
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
-        > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :cap-browser:processReleaseManifest
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :cap-browser:compileReleaseLibraryResources
-        > Task :capacitor-android:processReleaseManifest
-        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-status-bar:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
-        > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :cap-browser:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
         > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:parseReleaseLocalResources
         > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-android:parseReleaseLocalResources
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-android:generateReleaseRFile
         > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-status-bar:javaPreCompileRelease
         > Task :cap-browser:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :cap-browser:generateReleaseBuildConfig
         > Task :app:mergeReleaseResources
         > Task :app:mapReleaseSourceSetPaths
@@ -118,8 +118,8 @@
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
         
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseRFile
@@ -250,7 +250,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 3s
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         
@@ -258,4 +257,5 @@
         
         See https://docs.gradle.org/7.4.2/userguide/command_line_interface.html#sec:command_line_warnings
         80 actionable tasks: 80 executed
+        BUILD FAILED in 3s
         

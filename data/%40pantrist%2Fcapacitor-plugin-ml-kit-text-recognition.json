@@ -25,10 +25,15 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor Wrapper for TextRecognition of Gogoles ML-Kit",
   "bugs": "https://github.com/Pantrist-dev/capacitor-plugin-ml-kit-text-recognition/issues",
-  "quality": null,
-  "downloads": 1398
+  "quality": 110,
+  "downloads": 1464,
+  "stars": 6,
+  "image": "https://avatars.githubusercontent.com/u/67862742?v=4",
+  "updated": "2023-03-18T10:46:26Z"
 }

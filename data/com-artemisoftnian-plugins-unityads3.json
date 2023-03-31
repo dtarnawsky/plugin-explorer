@@ -2,7 +2,9 @@
   "name": "com-artemisoftnian-plugins-unityads3",
   "version": "4.4.1",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "author": "Waldemar Medina",
   "published": "2022-10-09T14:55:58.695Z",
@@ -58,5 +60,5 @@
     "capacitor-android-3"
   ],
   "description": "Monetize your cordova application using the UnityAds 4 API",
-  "downloads": 60
+  "downloads": 50
 }

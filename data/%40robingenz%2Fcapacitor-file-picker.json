@@ -38,28 +38,17 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "android",
-    "capacitor-android",
-    "capacitor-ios",
-    "capacitor-plugin",
-    "capacitor-web",
-    "capawesome",
-    "file-chooser",
-    "file-picker",
-    "ios",
-    "web"
+    "native"
   ],
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin that allows the user to select a file.",
   "bugs": "https://github.com/robingenz/capacitor-file-picker/issues",
-  "stars": 59,
-  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 182,
-  "updated": "2023-03-19T20:03:26Z",
-  "downloads": 1103
+  "quality": null,
+  "downloads": 1182
 }

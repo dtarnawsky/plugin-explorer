@@ -28,10 +28,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Moodle's fork of Cordova Push Plugin.",
   "bugs": "https://github.com/moodlemobile/phonegap-plugin-push/issues",
   "quality": null,
-  "downloads": 2036
+  "downloads": 1908
 }

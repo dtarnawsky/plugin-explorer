@@ -104,60 +104,55 @@
         > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:javaPreCompileRelease
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
         > Task :capacitor-haptics:javaPreCompileRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseRFile
-        
-        > Task :capacitor-app:compileReleaseJavaWithJavac
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseRFile
         > Task :turnoutt-capacitor-firebase-dynamic-links:compileReleaseAidl NO-SOURCE
         > Task :turnoutt-capacitor-firebase-dynamic-links:generateReleaseBuildConfig
         > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :turnoutt-capacitor-firebase-dynamic-links:javaPreCompileRelease
         > Task :turnoutt-capacitor-firebase-dynamic-links:parseReleaseLocalResources
-        > Task :app:bundleReleaseResources
+        > Task :turnoutt-capacitor-firebase-dynamic-links:javaPreCompileRelease
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :turnoutt-capacitor-firebase-dynamic-links:generateReleaseRFileNote: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :turnoutt-capacitor-firebase-dynamic-links:generateReleaseRFile
         > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:bundleReleaseResources
         
         > Task :turnoutt-capacitor-firebase-dynamic-links:compileReleaseKotlin FAILED
         e: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@turnoutt/capacitor-firebase-dynamic-links/android/src/main/java/com/turnoutt/firebase/dynamiclinks/CapacitorFirebaseDynamicLinks.kt: (19, 41): Type mismatch: inferred type is String? but String was expected
@@ -178,7 +173,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        BUILD FAILED in 16s
+        BUILD FAILED in 3s
         
-        88 actionable tasks: 88 executed
+        84 actionable tasks: 84 executed
         

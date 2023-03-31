@@ -9,7 +9,7 @@
         FAILURE: Build failed with an exception.
         
         * Where:
-        Build file '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-fullscreen-notification/android/build.gradle' line: 56
+        Build file '/Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/capacitor-fullscreen-notification/android/build.gradle' line: 56
         
         * What went wrong:
         A problem occurred evaluating project ':capacitor-fullscreen-notification'.
@@ -22,5 +22,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 1s
+        BUILD FAILED in 791ms
         

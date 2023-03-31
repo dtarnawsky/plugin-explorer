@@ -25,13 +25,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin to verifies the integrity of the static assets of your application, cheking if the files have changed since the original build.",
   "bugs": "https://github.com/asephermann/capacitor-antitampering/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
-  "quality": 0,
-  "updated": "2022-08-05T08:00:54Z",
-  "downloads": 1894
+  "quality": null,
+  "downloads": 1936
 }

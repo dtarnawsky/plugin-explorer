@@ -11,16 +11,16 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: f3085d1361bab8aba3108b2263e8a174
-        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/f3085d1361bab8aba3108b2263e8a174-desc.xcbuild
+        Build description signature: 4ce5fd9b20a6c1506f29472cb304fae7
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/4ce5fd9b20a6c1506f29472cb304fae7-desc.xcbuild
         
         note: Building targets in dependency order
-        warning: Run script build phase '[CP] Copy XCFrameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'Appboy-iOS-SDK' from project 'Pods')
         warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "Appboy-iOS-SDK-AppboyUI.NewsFeed" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'Appboy-iOS-SDK-AppboyUI.NewsFeed' from project 'Pods')
-        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "Appboy-iOS-SDK-AppboyUI.ContentCards" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'Appboy-iOS-SDK-AppboyUI.ContentCards' from project 'Pods')
+        warning: Run script build phase '[CP] Copy XCFrameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'Appboy-iOS-SDK' from project 'Pods')
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "Appboy-iOS-SDK-AppboyUI.InAppMessage" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'Appboy-iOS-SDK-AppboyUI.InAppMessage' from project 'Pods')
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "Appboy-iOS-SDK-Appboy" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'Appboy-iOS-SDK-Appboy' from project 'Pods')
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "Appboy-iOS-SDK-AppboyUI.ContentCards" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'Appboy-iOS-SDK-AppboyUI.ContentCards' from project 'Pods')
         ** ARCHIVE FAILED **
         
         

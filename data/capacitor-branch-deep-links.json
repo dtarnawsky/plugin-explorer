@@ -2,7 +2,8 @@
   "name": "capacitor-branch-deep-links",
   "version": "5.0.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-ios-4"
   ],
   "repo": "https://github.com/BranchMetrics/capacitor-branch-deep-links.git",
   "author": "Bound State Software <info@boundstatesoftware.com>",
@@ -30,7 +31,6 @@
     "native"
   ],
   "fails": [
-    "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
@@ -40,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/7772941?v=4",
   "quality": 189,
   "updated": "2023-03-08T05:09:03Z",
-  "downloads": 21666
+  "downloads": 19194
 }

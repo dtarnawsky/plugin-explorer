@@ -35,12 +35,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for multiple image selection",
   "bugs": "https://github.com/jonz94/capacitor-image-picker/issues",
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/16042676?v=4",
   "quality": 104,
-  "updated": "2023-03-14T14:19:14Z"
+  "updated": "2023-03-14T14:19:14Z",
+  "downloads": 121
 }

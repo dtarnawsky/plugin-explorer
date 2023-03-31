@@ -1,7 +1,9 @@
 {
   "name": "capacitor-google-analytics",
   "version": "1.0.1",
-  "success": [],
+  "success": [
+    "capacitor-android-4"
+  ],
   "repo": "https://github.com/vancuren/capacitor-google-analytics.git",
   "author": "Russell L. Van Curen",
   "published": "2022-04-12T05:15:20.980Z",
@@ -31,9 +33,8 @@
   ],
   "fails": [
     "capacitor-ios-4",
-    "capacitor-android-4",
-    "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-3"
   ],
   "description": "A Google/Firebase Analytics plugin for use with Capacitor Hybrid Applications",
   "bugs": "https://github.com/vancuren/capacitor-google-analytics.git/issues",
@@ -41,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/31829375?v=4",
   "quality": 105,
   "updated": "2022-04-11T20:43:20Z",
-  "downloads": 42
+  "downloads": 39
 }

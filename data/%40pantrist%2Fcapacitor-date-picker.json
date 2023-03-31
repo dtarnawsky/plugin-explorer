@@ -18,10 +18,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Native DateTime Picker Plugin for Capacitor Apps",
   "bugs": "https://github.com/Pantrist-dev/capacitor-date-picker/issues",
-  "quality": null,
-  "downloads": 1623
+  "quality": 4,
+  "downloads": 1685,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/67862742?v=4",
+  "updated": "2022-12-29T07:49:29Z"
 }

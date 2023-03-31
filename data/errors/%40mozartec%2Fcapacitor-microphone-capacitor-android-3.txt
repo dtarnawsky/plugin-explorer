@@ -103,76 +103,80 @@
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :app:mergeReleaseResources
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseBuildConfig
         > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-app:generateReleaseRFile
         > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-app:generateReleaseRFile
+        
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-haptics:generateReleaseRFile
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.> Task :capacitor-app:compileReleaseJavaWithJavac
-        
-        
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :app:bundleReleaseResources
         > Task :mozartec-capacitor-microphone:compileReleaseAidl NO-SOURCE
         > Task :mozartec-capacitor-microphone:generateReleaseBuildConfig
         > Task :mozartec-capacitor-microphone:parseReleaseLocalResources
+        > Task :mozartec-capacitor-microphone:javaPreCompileRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :mozartec-capacitor-microphone:generateReleaseRFile
+        
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :app:bundleReleaseResources
+        > Task :mozartec-capacitor-microphone:compileReleaseKotlin
+        > Task :mozartec-capacitor-microphone:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :mozartec-capacitor-microphone:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :app:checkReleaseDuplicateClasses
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
         
         > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        > Task :mozartec-capacitor-microphone:javaPreCompileReleaseNote: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :mozartec-capacitor-microphone:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :mozartec-capacitor-microphone:compileReleaseKotlin
-        > Task :mozartec-capacitor-microphone:compileReleaseJavaWithJavac
-        > Task :mozartec-capacitor-microphone:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
         > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
-        > Task :app:checkReleaseDuplicateClasses
         > Task :capacitor-status-bar:writeReleaseAarMetadata
         > Task :mozartec-capacitor-microphone:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :capacitor-haptics:bundleLibCompileToJarRelease
         > Task :app:processReleaseManifestForPackage
+        > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
-        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :app:checkReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        > Task :capacitor-status-bar:bundleLibCompileToJarRelease
         > Task :mozartec-capacitor-microphone:bundleLibCompileToJarRelease
         > Task :app:desugarReleaseFileDependencies
         > Task :app:mergeReleaseShaders
@@ -199,11 +203,8 @@
         > Task :capacitor-keyboard:generateReleaseAssets UP-TO-DATE
         > Task :capacitor-keyboard:packageReleaseAssets
         > Task :capacitor-status-bar:mergeReleaseShaders
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :capacitor-status-bar:compileReleaseShaders NO-SOURCE
         > Task :capacitor-status-bar:generateReleaseAssets UP-TO-DATE
-        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
         > Task :capacitor-status-bar:packageReleaseAssets
         > Task :mozartec-capacitor-microphone:mergeReleaseShaders
         > Task :mozartec-capacitor-microphone:compileReleaseShaders NO-SOURCE
@@ -227,8 +228,27 @@
         > Task :capacitor-status-bar:bundleLibResRelease NO-SOURCE
         > Task :mozartec-capacitor-microphone:processReleaseJavaRes NO-SOURCE
         > Task :mozartec-capacitor-microphone:bundleLibResRelease
+        > Task :app:mergeReleaseJniLibFolders
+        > Task :capacitor-android:mergeReleaseJniLibFolders
+        > Task :capacitor-android:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-android:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-android:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-app:mergeReleaseJniLibFolders
+        > Task :capacitor-app:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-app:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-app:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-cordova-android-plugins:mergeReleaseJniLibFolders
+        > Task :capacitor-cordova-android-plugins:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-haptics:mergeReleaseJniLibFolders
+        > Task :capacitor-haptics:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-haptics:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-haptics:copyReleaseJniLibsProjectOnly
         
         > Task :app:compileReleaseJavaWithJavac FAILED
+        
+        > Task :app:mergeReleaseJavaResource
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
         public class MainActivity extends BridgeActivity {}
         ^
@@ -249,7 +269,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        128 actionable tasks: 128 executed
+        138 actionable tasks: 138 executed
         
-        BUILD FAILED in 21s
+        BUILD FAILED in 7s
         

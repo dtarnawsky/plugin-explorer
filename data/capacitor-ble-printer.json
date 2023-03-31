@@ -19,13 +19,15 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "ble printer",
   "bugs": "https://github.com/Limbertfenixio/capacitor-ble-printer/issues",
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/44102427?v=4",
-  "quality": 100,
+  "quality": 101,
   "updated": "2021-08-31T19:36:20Z",
-  "downloads": 44
+  "downloads": 52
 }

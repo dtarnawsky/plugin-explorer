@@ -3,7 +3,9 @@
   "version": "4.1.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/Microsoft/code-push.git",
   "author": "Microsoft Corporation",
@@ -68,5 +70,5 @@
   "bugs": "https://github.com/Microsoft/code-push/issues",
   "stars": 4237,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
-  "downloads": 618828
+  "downloads": 593158
 }

@@ -22,13 +22,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Add shortcuts in Android",
   "bugs": "https://github.com/NePheus/capacitor-android-shortcuts/issues",
-  "stars": 7,
-  "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
-  "quality": 107,
-  "updated": "2022-11-30T23:15:24Z",
-  "downloads": 356
+  "quality": null,
+  "downloads": 354
 }

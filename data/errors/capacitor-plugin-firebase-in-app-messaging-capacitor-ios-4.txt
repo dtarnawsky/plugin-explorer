@@ -3,7 +3,7 @@
         /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace App.xcworkspace -scheme App -destination generic/platform=iOS -archivePath App.xcarchive archive
         
         User defaults from command line:
-        IDEArchivePathOverride = /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/ios/App/App.xcarchive
+        IDEArchivePathOverride = /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/App.xcarchive
         IDEPackageSupportUseBuiltinSCM = YES
         
         Prepare packages
@@ -11,12 +11,12 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: 05b2538f85884e2eaea2dd630b0187b9
-        Build description path: /Users/damiantarnawsky/Library/Developer/Xcode/DerivedData/App-ebdlllkgriptbtbfosuexwgayjxo/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/05b2538f85884e2eaea2dd630b0187b9-desc.xcbuild
+        Build description signature: c2c5484a540199aab7b376d0b2c0c24a
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-ewjegscclcectrfnntuiueiuhync/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/c2c5484a540199aab7b376d0b2c0c24a-desc.xcbuild
         
         note: Building targets in dependency order
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "FirebaseInAppMessaging-InAppMessagingDisplayResources" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'FirebaseInAppMessaging-InAppMessagingDisplayResources' from project 'Pods')
         warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-4/ios/App/Pods/Pods.xcodeproj: error: Signing for "FirebaseInAppMessaging-InAppMessagingDisplayResources" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'FirebaseInAppMessaging-InAppMessagingDisplayResources' from project 'Pods')
         ** ARCHIVE FAILED **
         
         

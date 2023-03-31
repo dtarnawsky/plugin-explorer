@@ -25,13 +25,12 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This is Ionic Capacitor native AdMob plugin for IOS & Android",
   "bugs": "https://github.com/rahadur/capacitor-admob/issues",
-  "stars": 79,
-  "image": "https://avatars.githubusercontent.com/u/12534866?v=4",
-  "quality": 269,
-  "updated": "2023-03-08T05:09:01Z",
-  "downloads": 45
+  "quality": null,
+  "downloads": 53
 }

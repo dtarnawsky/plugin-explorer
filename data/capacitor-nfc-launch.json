@@ -23,13 +23,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Launch the app by a NFC tag and read the data",
   "bugs": "https://github.com/NePheus/capacitor-nfc-launch/issues",
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
-  "quality": 101,
-  "updated": "2022-06-02T05:01:53Z",
-  "downloads": 45
+  "quality": null,
+  "downloads": 48
 }

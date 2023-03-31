@@ -31,13 +31,12 @@
     "native"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A better implementation of MusicControls for Capacitor v3 projects",
   "bugs": "https://github.com/patrickjquinn/capacitor-music-controller/issues",
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/1819370?v=4",
-  "quality": 2,
-  "updated": "2023-02-09T21:27:25Z",
-  "downloads": 66
+  "quality": null,
+  "downloads": 50
 }

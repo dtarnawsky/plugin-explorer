@@ -28,19 +28,15 @@
     "microphone",
     "audio recorder",
     "ionic audio recorder",
-    "capacitor audio recorder",
-    "audio-recorder",
-    "capacitor-audio-recorder",
-    "ionic-audio-recorder"
+    "capacitor audio recorder"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "This Microphone API provides the ability to interact with the microphone and record Audio",
   "bugs": "https://github.com/mozartec/capacitor-microphone/issues",
-  "stars": 7,
-  "image": "https://avatars.githubusercontent.com/u/24889023?v=4",
-  "quality": 114,
-  "updated": "2022-10-02T22:13:26Z",
-  "downloads": 2714
+  "quality": null,
+  "downloads": 2735
 }

@@ -19,13 +19,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin to implement payment function via Apple Pay",
   "bugs": "https://github.com/virusv/capacitor-apple-pay/issues",
-  "stars": 4,
-  "image": "https://avatars.githubusercontent.com/u/12464258?v=4",
-  "quality": 109,
-  "updated": "2022-02-26T07:49:25Z",
-  "downloads": 12
+  "quality": null,
+  "downloads": 16
 }

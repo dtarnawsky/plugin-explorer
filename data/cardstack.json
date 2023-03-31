@@ -12,8 +12,10 @@
     "0.1.0"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "React card stack",
-  "downloads": 2
+  "downloads": 4
 }

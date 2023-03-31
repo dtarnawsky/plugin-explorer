@@ -19,7 +19,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A native plugin used for bluetooth low-energy communication with locks from OKLOK",
   "bugs": "https://github.com/own2mesh/capacitor-oklok-v2-plugin.git/issues",

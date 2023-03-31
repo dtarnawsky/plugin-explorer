@@ -20,9 +20,11 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Provide PushKit functionality to ionic capacitor",
   "bugs": "https://gitlab.com/yleso/capacitor-callkit-voip.git/issues",
-  "downloads": 73
+  "downloads": 80
 }

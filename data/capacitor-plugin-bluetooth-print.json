@@ -21,7 +21,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Fork de BluetoothPrinter intentado adaptar a capacitor",
   "bugs": "https://github.com/raulsalitrero/BTPrinter/issues",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/155507?v=4",
   "quality": 108,
   "updated": "2023-03-23T19:29:31Z",
-  "downloads": 14
+  "downloads": 10
 }

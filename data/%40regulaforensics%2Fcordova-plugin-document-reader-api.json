@@ -2,7 +2,9 @@
   "name": "@regulaforensics/cordova-plugin-document-reader-api",
   "version": "6.7.3",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/regulaforensics/DocumentReader-Cordova-Plugin.git",
   "author": "RegulaForensics",
@@ -56,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
   "quality": 108,
   "updated": "2023-02-08T16:19:05Z",
-  "downloads": 292
+  "downloads": 294
 }

@@ -33,13 +33,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin to send ZPL messages to Zebra printers",
   "bugs": "https://github.com/Beelink/capacitor-zebra-printer/issues",
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/40366303?v=4",
-  "quality": 1,
-  "updated": "2022-03-27T18:41:50Z",
-  "downloads": 38
+  "quality": null,
+  "downloads": 47
 }

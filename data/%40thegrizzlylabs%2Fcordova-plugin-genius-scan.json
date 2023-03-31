@@ -2,7 +2,9 @@
   "name": "@thegrizzlylabs/cordova-plugin-genius-scan",
   "version": "4.9.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "author": "TheGrizzlyLabs <sdk@thegrizzlylabs.com> (https://www.thegrizzlylabs.com/)",
   "published": "2023-03-14T16:25:36.569Z",
@@ -142,5 +144,5 @@
     "capacitor-android-4"
   ],
   "description": "Cordova Plugin for Genius Scan SDK",
-  "downloads": 2002
+  "downloads": 1938
 }

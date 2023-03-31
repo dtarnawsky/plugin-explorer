@@ -3,7 +3,9 @@
   "version": "2.1.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ClickSimply/Nano-SQL.git",
   "author": "Scott Lott <Scott@ClickSimply.com>",
@@ -86,9 +88,9 @@
   ],
   "description": "Run SQLite on the device and IndexedDB in the browser with exactly the same API with nanoSQL 2!",
   "bugs": "https://github.com/ClickSimply/Nano-SQL/issues",
-  "stars": 773,
+  "quality": 973,
+  "downloads": 230,
+  "stars": 772,
   "image": "https://avatars.githubusercontent.com/u/14365337?v=4",
-  "quality": 974,
-  "updated": "2023-03-23T09:21:13Z",
-  "downloads": 213
+  "updated": "2023-03-27T16:54:25Z"
 }

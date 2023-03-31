@@ -6,14 +6,6 @@
         This repository is deprecated and it will be shut down in the future.
         See http://developer.android.com/r/tools/jcenter-end-of-service for more information.
         Currently detected usages in: root project 'android', project ':app', project ':capacitor-android', ...
-        Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
-        Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
-        Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
         > Task :app:preBuild UP-TO-DATE
         > Task :app:preReleaseBuild UP-TO-DATE
         > Task :app:writeReleaseApplicationId
@@ -89,8 +81,8 @@
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
@@ -107,87 +99,84 @@
         > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
         > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-udp:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-udp:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-udp:generateReleaseBuildConfig
+        > Task :capacitor-udp:javaPreCompileRelease
+        > Task :capacitor-udp:parseReleaseLocalResources
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
         > Task :capacitor-android:bundleLibRuntimeToJarRelease
-        > Task :capacitor-android:bundleLibCompileToJarRelease
-        > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-udp:generateReleaseRFile
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:generateReleaseRFileNote: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
         
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
-        
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        Note: Recompile with -Xlint:deprecation for details.
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        > Task :capacitor-udp:generateReleaseBuildConfig
-        > Task :app:bundleReleaseResources
-        > Task :capacitor-udp:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-udp:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-udp:generateReleaseRFile
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-udp:compileReleaseJavaWithJavac
         
-        > Task :capacitor-android:writeReleaseAarMetadataNote: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/capacitor-udp/android/src/main/java/ai/unitree/udp/UdpPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
-        
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-udp:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :app:bundleReleaseResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
         > Task :capacitor-app:writeReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
         > Task :capacitor-keyboard:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata
         > Task :capacitor-udp:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/capacitor-udp/android/src/main/java/ai/unitree/udp/UdpPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-app:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
-        > Task :app:checkReleaseAarMetadata
-        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
+        > Task :app:checkReleaseAarMetadata
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
+        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-udp:bundleLibCompileToJarRelease
         > Task :app:desugarReleaseFileDependencies
         > Task :app:mergeReleaseShaders
@@ -221,7 +210,6 @@
         > Task :capacitor-udp:compileReleaseShaders NO-SOURCE
         > Task :capacitor-udp:generateReleaseAssets UP-TO-DATE
         > Task :capacitor-udp:packageReleaseAssets
-        > Task :app:processReleaseResources
         > Task :app:mergeExtDexRelease
         > Task :app:mergeReleaseAssets
         > Task :app:processReleaseJavaRes NO-SOURCE
@@ -257,11 +245,32 @@
         > Task :capacitor-haptics:stripReleaseDebugSymbols NO-SOURCE
         > Task :capacitor-haptics:copyReleaseJniLibsProjectOnly
         > Task :capacitor-keyboard:mergeReleaseJniLibFolders
+        > Task :capacitor-keyboard:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-keyboard:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-keyboard:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
+        > Task :capacitor-status-bar:mergeReleaseJniLibFolders
+        > Task :capacitor-status-bar:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-status-bar:stripReleaseDebugSymbols NO-SOURCE
+        > Task :app:mergeReleaseJavaResource
+        > Task :capacitor-status-bar:copyReleaseJniLibsProjectOnly
+        > Task :capacitor-udp:mergeReleaseJniLibFolders
+        > Task :capacitor-udp:mergeReleaseNativeLibs NO-SOURCE
+        > Task :capacitor-udp:stripReleaseDebugSymbols NO-SOURCE
+        > Task :capacitor-udp:copyReleaseJniLibsProjectOnly
+        > Task :app:collectReleaseDependencies
+        > Task :app:configureReleaseDependencies
+        > Task :app:parseReleaseIntegrityConfig
+        > Task :app:writeReleaseAppMetadata
+        > Task :app:mergeReleaseNativeLibs
+        > Task :app:stripReleaseDebugSymbols NO-SOURCE
+        > Task :app:extractReleaseNativeSymbolTables NO-SOURCE
+        > Task :app:processReleaseResources
         
         > Task :app:compileReleaseJavaWithJavac FAILED
-        
-        > Task :app:mergeReleaseJavaResource
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/app/src/main/java/io/ionic/starter/MainActivity.java:5: error: cannot access ViewGroup
         public class MainActivity extends BridgeActivity {}
         ^
         class file for android.view.ViewGroup not found
@@ -281,7 +290,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
+        147 actionable tasks: 147 executed
         
-        BUILD FAILED in 7s
-        137 actionable tasks: 137 executed
+        BUILD FAILED in 3s
         

@@ -30,10 +30,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "capacitor plugin for counting step works in background",
   "bugs": "https://github.com/thebeau00/capacitor-background-step.git/issues",
   "quality": null,
-  "downloads": 43
+  "downloads": 40
 }

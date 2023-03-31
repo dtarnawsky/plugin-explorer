@@ -18,7 +18,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Plugin for executing android intents from Capacitor app",
   "bugs": "https://github.com/Fir3st/capacitor-intent/issues",
@@ -26,5 +28,5 @@
   "image": "https://avatars.githubusercontent.com/u/24609278?v=4",
   "quality": 101,
   "updated": "2022-01-19T06:24:40Z",
-  "downloads": 77
+  "downloads": 84
 }

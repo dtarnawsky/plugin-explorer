@@ -77,280 +77,282 @@
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-android:parseReleaseLocalResources
-        > Task :app:mergeReleaseResources
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:parseReleaseLocalResources
         > Task :capacitor-android:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:javaPreCompileRelease
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:javaPreCompileRelease
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:compileReleaseAidl NO-SOURCE
-        > Task :app:generateReleaseBuildConfig
-        > Task :app:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:javaPreCompileRelease
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         Note: Some input files use or override a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:mergeReleaseResources
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
         > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-keyboard:parseReleaseLocalResources
         > Task :capacitor-haptics:generateReleaseRFile
-        > Task :capacitor-keyboard:generateReleaseRFile
-        > Task :capacitor-status-bar:generateReleaseRFile
-        > Task :capacitor-haptics:compileReleaseJavaWithJavac
-        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
         
         > Task :capacitor-app:compileReleaseJavaWithJavac
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/app/android/src/main/java/com/capacitorjs/plugins/app/AppPlugin.java uses or overrides a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
         
         > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        Note: Some input files use or override a deprecated API.
-        Note: Recompile with -Xlint:deprecation for details.
         
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
         > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
         
         > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
-        Note: /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/node_modules/@capacitor/status-bar/android/src/main/java/com/capacitorjs/plugins/statusbar/StatusBar.java uses or overrides a deprecated API.
         Note: Recompile with -Xlint:deprecation for details.
         
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :app:bundleReleaseResources
+        
         > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:3: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:3: error: package org.json does not exist
         import org.json.JSONArray;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:4: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:4: error: package org.json does not exist
         import org.json.JSONObject;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:5: error: package org.json does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:5: error: package org.json does not exist
         import org.json.JSONException;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:8: error: package android does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:8: error: package android does not exist
         import android.R;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:9: error: package android.content does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:9: error: package android.content does not exist
         import android.content.Context;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:10: error: package android.media does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:10: error: package android.media does not exist
         import android.media.AudioManager;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:11: error: package android.util does not exist
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:11: error: package android.util does not exist
         import android.util.Log;
         ^
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:39: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:39: error: cannot find symbol
         private AudioManager manager;
         ^
         symbol:   class AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:53: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:53: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONArray
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:53: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:53: error: cannot find symbol
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:162: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:162: error: cannot find symbol
         private void getAudioMode(CallbackContext callbackContext) throws JSONException {
         ^
         symbol:   class JSONException
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:46: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:46: error: cannot find symbol
         this.manager = (AudioManager) this.cordova.getActivity().getSystemService(Context.AUDIO_SERVICE);
         ^
         symbol:   class AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:46: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:46: error: cannot find symbol
         this.manager = (AudioManager) this.cordova.getActivity().getSystemService(Context.AUDIO_SERVICE);
         ^
         symbol:   variable Context
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:46: error: cannot access Activity
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:46: error: cannot access Activity
         this.manager = (AudioManager) this.cordova.getActivity().getSystemService(Context.AUDIO_SERVICE);
         ^
         class file for android.app.Activity not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:47: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:47: error: cannot find symbol
         this.maxVolumeRing = manager.getStreamMaxVolume(AudioManager.STREAM_RING);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:48: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:48: error: cannot find symbol
         this.maxVolumeNotification = manager.getStreamMaxVolume(AudioManager.STREAM_NOTIFICATION);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:49: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:49: error: cannot find symbol
         this.maxVolumeSystem = manager.getStreamMaxVolume(AudioManager.STREAM_SYSTEM);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:50: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:50: error: cannot find symbol
         this.maxVolumeMusic = manager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:53: error: cannot access JSONException
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:53: error: cannot access JSONException
         public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         ^
         class file for org.json.JSONException not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:122: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:122: error: cannot find symbol
         volume = manager.getStreamVolume(AudioManager.STREAM_RING);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:125: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:125: error: cannot find symbol
         volume = manager.getStreamVolume(AudioManager.STREAM_MUSIC);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:128: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:128: error: cannot find symbol
         volume = manager.getStreamVolume(AudioManager.STREAM_NOTIFICATION);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:131: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:131: error: cannot find symbol
         volume = manager.getStreamVolume(AudioManager.STREAM_SYSTEM);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:145: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:145: error: cannot find symbol
         manager.setStreamVolume(AudioManager.STREAM_RING, checkVolumeValue(volume, maxVolumeRing), AudioManager.FLAG_SHOW_UI);
         ^
         symbol: variable AudioManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:145: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:145: error: cannot find symbol
         manager.setStreamVolume(AudioManager.STREAM_RING, checkVolumeValue(volume, maxVolumeRing), AudioManager.FLAG_SHOW_UI);
         ^
         symbol: variable AudioManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:148: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:148: error: cannot find symbol
         manager.setStreamVolume(AudioManager.STREAM_NOTIFICATION, checkVolumeValue(volume, maxVolumeNotification), AudioManager.FLAG_SHOW_UI);
         ^
         symbol: variable AudioManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:148: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:148: error: cannot find symbol
         manager.setStreamVolume(AudioManager.STREAM_NOTIFICATION, checkVolumeValue(volume, maxVolumeNotification), AudioManager.FLAG_SHOW_UI);
         ^
         symbol: variable AudioManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:151: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:151: error: cannot find symbol
         manager.setStreamVolume(AudioManager.STREAM_SYSTEM, checkVolumeValue(volume, maxVolumeSystem), AudioManager.FLAG_SHOW_UI);
         ^
         symbol: variable AudioManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:151: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:151: error: cannot find symbol
         manager.setStreamVolume(AudioManager.STREAM_SYSTEM, checkVolumeValue(volume, maxVolumeSystem), AudioManager.FLAG_SHOW_UI);
         ^
         symbol: variable AudioManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:154: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:154: error: cannot find symbol
         manager.setStreamVolume(AudioManager.STREAM_MUSIC, checkVolumeValue(volume, maxVolumeMusic), AudioManager.FLAG_SHOW_UI);
         ^
         symbol: variable AudioManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:154: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:154: error: cannot find symbol
         manager.setStreamVolume(AudioManager.STREAM_MUSIC, checkVolumeValue(volume, maxVolumeMusic), AudioManager.FLAG_SHOW_UI);
         ^
         symbol: variable AudioManager
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:164: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:164: error: cannot find symbol
         final JSONObject mode = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:164: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:164: error: cannot find symbol
         final JSONObject mode = new JSONObject();
         ^
         symbol:   class JSONObject
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:169: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:169: error: cannot find symbol
         case AudioManager.RINGER_MODE_SILENT:
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:173: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:173: error: cannot find symbol
         case AudioManager.RINGER_MODE_VIBRATE:
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:177: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:177: error: cannot find symbol
         case AudioManager.RINGER_MODE_NORMAL:
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:186: error: cannot access JSONArray
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:186: error: cannot access JSONArray
         callbackContext.success(mode);
         ^
         class file for org.json.JSONArray not found
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:192: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:192: error: cannot find symbol
         if(manager.getRingerMode() != AudioManager.RINGER_MODE_SILENT){
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:193: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:193: error: cannot find symbol
         manager.setRingerMode(AudioManager.RINGER_MODE_SILENT);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:197: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:197: error: cannot find symbol
         if(manager.getRingerMode() != AudioManager.RINGER_MODE_VIBRATE){
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:198: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:198: error: cannot find symbol
         manager.setRingerMode(AudioManager.RINGER_MODE_VIBRATE);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:202: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:202: error: cannot find symbol
         if(manager.getRingerMode() != AudioManager.RINGER_MODE_NORMAL){
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:203: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:203: error: cannot find symbol
         manager.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:216: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:216: error: cannot find symbol
         max = manager.getStreamMaxVolume(AudioManager.STREAM_RING);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:219: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:219: error: cannot find symbol
         max = manager.getStreamMaxVolume(AudioManager.STREAM_NOTIFICATION);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:222: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:222: error: cannot find symbol
         max = manager.getStreamMaxVolume(AudioManager.STREAM_SYSTEM);
         ^
         symbol:   variable AudioManager
         location: class AudioManagement
-        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:225: error: cannot find symbol
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/android/capacitor-cordova-android-plugins/src/main/java/com/cedricclovel/AudioManagement/AudioManagement.java:225: error: cannot find symbol
         max = manager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
         ^
         symbol:   variable AudioManager
@@ -372,6 +374,6 @@
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
         
-        BUILD FAILED in 4s
-        79 actionable tasks: 79 executed
+        BUILD FAILED in 2s
+        81 actionable tasks: 81 executed
         
