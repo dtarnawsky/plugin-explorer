@@ -22,7 +22,10 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
-  "description": "Cordova Plugin AGC AppLinking"
+  "description": "Cordova Plugin AGC AppLinking",
+  "downloads": 14
 }

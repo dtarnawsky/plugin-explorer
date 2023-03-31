@@ -3,7 +3,9 @@
   "version": "6.4.0-301",
   "success": [
     "capacitor-ios-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/HMS-Core/hms-cordova-plugin/tree/master/cordova-plugin-hms-account",
   "published": "2022-04-29T11:29:03.472Z",
@@ -34,5 +36,6 @@
   ],
   "description": "Huawei Account Cordova Plugin",
   "bugs": "https://github.com/HMS-Core/hms-cordova-plugin/issues",
-  "quality": null
+  "quality": null,
+  "downloads": 57
 }

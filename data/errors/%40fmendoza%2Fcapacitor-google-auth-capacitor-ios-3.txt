@@ -11,17 +11,17 @@
         Computing target dependency graph and provisioning inputs
         
         Create build description
-        Build description signature: 885e0923a678df32cb89a08a01e871b4
-        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-elblvzvdzgjkjwdrnjyghxgwynha/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/885e0923a678df32cb89a08a01e871b4-desc.xcbuild
+        Build description signature: dfdc05185840b94c9830eb6fc8d94d67
+        Build description path: /Users/damian/Library/Developer/Xcode/DerivedData/App-elblvzvdzgjkjwdrnjyghxgwynha/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/dfdc05185840b94c9830eb6fc8d94d67-desc.xcbuild
         
         note: Building targets in dependency order
-        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 11.0 to 16.2.99. (in target 'AppAuth' from project 'Pods')
+        warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.2.99. (in target 'GoogleSignIn' from project 'Pods')
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.2.99. (in target 'GoogleSignIn-GoogleSignIn' from project 'Pods')
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: error: Signing for "GoogleSignIn-GoogleSignIn" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'GoogleSignIn-GoogleSignIn' from project 'Pods')
-        warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.2.99. (in target 'GTMSessionFetcher' from project 'Pods')
-        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.2.99. (in target 'GoogleSignIn' from project 'Pods')
         /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.2.99. (in target 'GTMAppAuth' from project 'Pods')
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-3/ios/App/Pods/Pods.xcodeproj: warning: The iOS deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 11.0 to 16.2.99. (in target 'AppAuth' from project 'Pods')
         ** ARCHIVE FAILED **
         
         

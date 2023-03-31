@@ -39,13 +39,20 @@
     "capacitor",
     "plugin",
     "browser",
-    "native"
+    "native",
+    "capacitor-plugin"
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin in app browser",
   "bugs": "https://github.com/Cap-go/capacitor-inappbrowser/issues",
-  "quality": null
+  "quality": 122,
+  "stars": 11,
+  "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
+  "updated": "2023-02-24T08:59:26Z",
+  "downloads": 3860
 }

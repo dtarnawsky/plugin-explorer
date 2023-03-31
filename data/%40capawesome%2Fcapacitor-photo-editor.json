@@ -24,12 +24,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin that allows the user to edit a photo.",
   "bugs": "https://github.com/capawesome-team/capacitor-photo-editor/issues",
   "stars": 7,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
   "quality": 109,
-  "updated": "2023-03-10T12:15:54Z"
+  "updated": "2023-03-10T12:15:54Z",
+  "downloads": 868
 }

@@ -49,12 +49,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Camera preview",
   "bugs": "https://github.com/Cap-go/camera-preview/issues",
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "quality": 116,
-  "updated": "2022-12-03T06:35:38Z"
+  "quality": 114,
+  "updated": "2022-12-03T06:35:38Z",
+  "downloads": 159
 }

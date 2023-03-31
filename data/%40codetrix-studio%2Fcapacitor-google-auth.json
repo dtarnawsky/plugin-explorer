@@ -51,23 +51,17 @@
     "angular",
     "vue",
     "react",
-    "ionic",
-    "android",
-    "authentication",
-    "capacitor-plugin",
-    "ios",
-    "pwa",
-    "web"
+    "ionic"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Google Auth plugin for capacitor.",
   "bugs": "https://github.com/CodetrixStudio/CapacitorGoogleAuth.git/issues",
-  "stars": 179,
-  "image": "https://avatars.githubusercontent.com/u/42300269?v=4",
-  "quality": 476,
-  "updated": "2023-03-20T16:46:58Z"
+  "quality": null,
+  "downloads": 30077
 }

@@ -17,17 +17,16 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "capacitor-plugin"
+    "native"
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Native Sign In With Apple CapacitorJS Plugin",
   "bugs": "https://github.com/ChangeNode/capacitor-sign-in-with-apple/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/77367641?v=4",
-  "quality": 101,
-  "updated": "2022-12-07T20:20:21Z"
+  "quality": null,
+  "downloads": 33
 }

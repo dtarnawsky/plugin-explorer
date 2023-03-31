@@ -1,13 +1,13 @@
 {
   "name": "@capgo/capacitor-updater",
-  "version": "4.20.0",
+  "version": "4.24.0",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/Cap-go/capacitor-updater.git",
   "author": "Martin Donadieu",
-  "published": "2023-03-24T14:41:27.172Z",
+  "published": "2023-03-27T06:54:22.782Z",
   "versions": [
     "3.0.3",
     "3.0.4",
@@ -212,6 +212,10 @@
     "4.17.46",
     "4.17.47",
     "4.20.0",
+    "4.21.0",
+    "4.22.0",
+    "4.23.0",
+    "4.24.0",
     "5.0.0-alpha.0"
   ],
   "keywords": [
@@ -224,13 +228,25 @@
     "ionic",
     "appflow alternative",
     "capgo",
-    "native"
+    "native",
+    "android",
+    "capacitor-plugin",
+    "cordova",
+    "hot-reload",
+    "ios",
+    "typescript"
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Live update for capacitor apps",
   "bugs": "https://github.com/Cap-go/capacitor-updater/issues",
-  "quality": null
+  "quality": 439,
+  "stars": 269,
+  "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
+  "updated": "2023-03-30T10:14:17Z",
+  "downloads": 13638
 }

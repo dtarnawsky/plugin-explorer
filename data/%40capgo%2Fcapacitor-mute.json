@@ -1,13 +1,13 @@
 {
   "name": "@capgo/capacitor-mute",
-  "version": "1.1.44",
+  "version": "1.1.45",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/riderx/capacitor-mute.git",
   "author": "Martin donadieu",
-  "published": "2023-03-13T04:21:55.625Z",
+  "published": "2023-03-27T01:54:50.228Z",
   "versions": [
     "1.1.0",
     "1.1.1",
@@ -46,7 +46,8 @@
     "1.1.41",
     "1.1.42",
     "1.1.43",
-    "1.1.44"
+    "1.1.44",
+    "1.1.45"
   ],
   "keywords": [
     "capacitor",
@@ -60,12 +61,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Detect if the mute switch is enabled/disabled on a device",
   "bugs": "https://github.com/riderx/capacitor-mute/issues",
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
   "quality": 107,
-  "updated": "2023-01-09T12:44:22Z"
+  "updated": "2023-01-09T12:44:22Z",
+  "downloads": 2962
 }

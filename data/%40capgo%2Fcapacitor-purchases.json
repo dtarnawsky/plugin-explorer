@@ -1,13 +1,13 @@
 {
   "name": "@capgo/capacitor-purchases",
-  "version": "2.0.24",
+  "version": "2.1.0",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/Cap-go/capacitor-purchases.git",
   "author": "Martin Donadieu",
-  "published": "2023-02-02T19:39:15.009Z",
+  "published": "2023-03-27T16:53:03.002Z",
   "versions": [
     "1.2.6",
     "1.2.7",
@@ -77,7 +77,8 @@
     "2.0.21",
     "2.0.22",
     "2.0.23",
-    "2.0.24"
+    "2.0.24",
+    "2.1.0"
   ],
   "keywords": [
     "capacitor",
@@ -89,12 +90,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "In-app Subscriptions Made Easy with RevenueCat sdk",
   "bugs": "https://github.com/Cap-go/capacitor-purchases/issues",
   "stars": 42,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "quality": 148,
-  "updated": "2023-03-15T08:20:44Z"
+  "quality": 150,
+  "updated": "2023-03-15T08:20:44Z",
+  "downloads": 2987
 }

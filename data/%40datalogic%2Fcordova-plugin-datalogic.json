@@ -4,7 +4,9 @@
   "success": [
     "capacitor-ios-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/datalogic/cordova-plugin-datalogic.git",
   "author": "Datalogic",
@@ -27,21 +29,13 @@
     "plugin",
     "datalogic",
     "ecosystem:cordova",
-    "cordova-android",
-    "android",
-    "barcode",
-    "cordova-plugin",
-    "ionic",
-    "scanner",
-    "sdk"
+    "cordova-android"
   ],
   "fails": [
     "capacitor-android-3"
   ],
   "description": "Datalogic Cordova SDK for Android devices",
   "bugs": "https://github.com/datalogic/cordova-plugin-datalogic/issues",
-  "stars": 0,
-  "image": "https://avatars.githubusercontent.com/u/15417301?v=4",
-  "quality": 110,
-  "updated": "2019-10-15T17:19:46Z"
+  "quality": null,
+  "downloads": 199
 }

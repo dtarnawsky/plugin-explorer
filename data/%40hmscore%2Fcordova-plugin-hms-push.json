@@ -3,7 +3,9 @@
   "version": "6.7.0-300",
   "success": [
     "capacitor-ios-3",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/HMS-Core/hms-cordova-plugin.git",
   "published": "2023-01-31T08:32:33.077Z",
@@ -41,5 +43,6 @@
   "stars": 80,
   "image": "https://avatars.githubusercontent.com/u/64997192?v=4",
   "quality": 222,
-  "updated": "2023-02-13T20:40:09Z"
+  "updated": "2023-02-13T20:40:09Z",
+  "downloads": 1362
 }

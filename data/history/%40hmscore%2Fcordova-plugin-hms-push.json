@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "6.7.0-300",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "6.7.0-300",
+      "success": true
+    }
+  ],
+  "name": "@hmscore/cordova-plugin-hms-push"
+}
