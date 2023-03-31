@@ -19,6 +19,7 @@ When running tests it will use a starter project in a GitHub repo for particular
 - [Cordova](https://github.com/dtarnawsky/plugin-test-cordova-6-11.git)
 
 # Roadmap
+- Check package.json to see if Capacitor is a dependency and push cordova to failed if so
 - Cleanup git urls - some have ssh in them and will work if stripped
 - Grab whether the plugin is deprecated from github
 - Load each json and re-run if test not run or version number is new
