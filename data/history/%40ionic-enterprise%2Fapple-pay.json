@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "1.0.2",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "1.0.2",
+      "failure": "peer-dependencies",
+      "success": false
+    }
+  ],
+  "name": "@ionic-enterprise/apple-pay"
+}

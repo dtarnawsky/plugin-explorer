@@ -14,7 +14,7 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 740ms
+        BUILD FAILED in 522ms
         
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.

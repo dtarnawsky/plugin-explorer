@@ -48,12 +48,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for Mixpanel",
   "bugs": "https://github.com/houseninjadojo/capacitor-mixpanel/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/88355023?v=4",
-  "quality": 111,
-  "updated": "2023-03-06T21:35:14Z"
+  "quality": 113,
+  "updated": "2023-03-06T21:35:14Z",
+  "downloads": 499
 }

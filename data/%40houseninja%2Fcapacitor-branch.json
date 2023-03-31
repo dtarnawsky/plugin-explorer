@@ -27,9 +27,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for Branch.io deep links",
   "bugs": "https://github.com/houseninjadojo/capacitor-branch/issues",
-  "quality": null
+  "quality": null,
+  "downloads": 152
 }

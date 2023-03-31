@@ -80,12 +80,15 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for the SmartScanner Core library to scan MRZ, NFC and barcodes",
   "bugs": "https://github.com/idpass/smartscanner-capacitor/issues",
   "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/26004630?v=4",
   "quality": 115,
-  "updated": "2023-03-03T15:45:21Z"
+  "updated": "2023-03-03T15:45:21Z",
+  "downloads": 644
 }

@@ -1,7 +1,10 @@
 {
   "name": "@ionic-enterprise/app-version",
   "version": "0.1.14",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/ionic-team/cordova-plugin-app-version.git",
   "author": "whiteoctober",
   "published": "2023-03-22T13:19:12.577Z",

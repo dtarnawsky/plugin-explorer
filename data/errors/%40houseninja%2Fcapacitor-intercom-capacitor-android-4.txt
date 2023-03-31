@@ -63,91 +63,87 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :houseninja-capacitor-intercom:extractDeepLinksRelease
         > Task :houseninja-capacitor-intercom:processReleaseManifest
-        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :houseninja-capacitor-intercom:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseAidl NO-SOURCE
         > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-app:compileReleaseAidl NO-SOURCE
         > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :houseninja-capacitor-intercom:compileReleaseLibraryResources
+        > Task :capacitor-android:javaPreCompileRelease
         > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-android:parseReleaseLocalResources
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :app:mergeReleaseResources
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-android:generateReleaseRFile
         
         > Task :capacitor-android:compileReleaseJavaWithJavac
         
-        > Task :app:mapReleaseSourceSetPaths
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :app:bundleReleaseResources
         Note: Some input files use unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
-        > Task :capacitor-android:bundleLibRuntimeToJarRelease
         > Task :capacitor-android:bundleLibCompileToJarRelease
         > Task :capacitor-app:generateReleaseRFile
-        > Task :capacitor-keyboard:javaPreCompileRelease
         > Task :capacitor-haptics:generateReleaseRFile
         > Task :capacitor-keyboard:generateReleaseRFile
         > Task :capacitor-app:compileReleaseJavaWithJavac
         > Task :capacitor-app:bundleLibRuntimeToJarRelease
-        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
-        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseBuildConfig
-        > Task :capacitor-status-bar:parseReleaseLocalResources
-        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
         > Task :capacitor-haptics:compileReleaseJavaWithJavac
         > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
-        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
         > Task :houseninja-capacitor-intercom:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
         > Task :houseninja-capacitor-intercom:generateReleaseBuildConfig
-        > Task :houseninja-capacitor-intercom:parseReleaseLocalResources
-        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
-        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         > Task :houseninja-capacitor-intercom:javaPreCompileRelease
         > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :houseninja-capacitor-intercom:parseReleaseLocalResources
         > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
-        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
-        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseRFile
         > Task :houseninja-capacitor-intercom:generateReleaseRFile
-        > Task :app:checkReleaseDuplicateClasses
-        > Task :app:bundleReleaseResources
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
         
         > Task :houseninja-capacitor-intercom:compileReleaseJavaWithJavac
         Note: /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/node_modules/@houseninja/capacitor-intercom/android/src/main/java/com/getcapacitor/community/intercom/IntercomPlugin.java uses unchecked or unsafe operations.
         Note: Recompile with -Xlint:unchecked for details.
         
         > Task :houseninja-capacitor-intercom:bundleLibRuntimeToJarRelease
-        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
-        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
         > Task :app:compileReleaseAidl NO-SOURCE
         > Task :app:generateReleaseBuildConfig
         > Task :app:javaPreCompileRelease
@@ -155,19 +151,21 @@
         > Task :capacitor-app:writeReleaseAarMetadata
         > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
         > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
         > Task :capacitor-keyboard:writeReleaseAarMetadata
         > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac
+        > Task :capacitor-cordova-android-plugins:bundleLibRuntimeToJarRelease
         > Task :houseninja-capacitor-intercom:writeReleaseAarMetadata
         > Task :capacitor-app:bundleLibCompileToJarRelease
         > Task :capacitor-cordova-android-plugins:bundleLibCompileToJarRelease
-        > Task :app:processReleaseManifestForPackage
         > Task :capacitor-haptics:bundleLibCompileToJarRelease
         > Task :capacitor-keyboard:bundleLibCompileToJarRelease
         > Task :capacitor-status-bar:bundleLibCompileToJarRelease
-        > Task :houseninja-capacitor-intercom:bundleLibCompileToJarRelease
-        > Task :app:desugarReleaseFileDependencies
         > Task :app:checkReleaseAarMetadata FAILED
-        > Task :app:mergeExtDexRelease
+        > Task :app:processReleaseManifestForPackage
+        > Task :houseninja-capacitor-intercom:bundleLibCompileToJarRelease
         
         FAILURE: Build failed with an exception.
         
@@ -639,6 +637,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 21s
-        107 actionable tasks: 107 executed
+        BUILD FAILED in 6s
+        105 actionable tasks: 105 executed
         
