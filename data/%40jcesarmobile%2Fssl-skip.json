@@ -20,12 +20,12 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for skipping ssl checks",
   "bugs": "https://github.com/jcesarmobile/ssl-skip/issues",
-  "stars": 11,
-  "image": "https://avatars.githubusercontent.com/u/1637892?v=4",
-  "quality": 112,
-  "updated": "2023-03-14T07:18:54Z"
+  "quality": null,
+  "downloads": 965
 }

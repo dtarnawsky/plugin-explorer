@@ -1,5 +1,6 @@
 ✖ Running Gradle build - failed!
-[error] WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
+[error] Starting a Gradle Daemon (subsequent builds will be faster)
+        WARNING:: Using flatDirs should be avoided because it doesn't support any meta-data formats.
         Currently detected usages:
         - repository flatDir used in: project ':app', project ':capacitor-cordova-android-plugins'
         WARNING:: Please remove usages of `jcenter()` Maven repository from your build scripts and migrate your build to other Maven repositories.
@@ -88,7 +89,7 @@
         Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
         Use '--warning-mode all' to show the individual deprecation warnings.
         See https://docs.gradle.org/7.0/userguide/command_line_interface.html#sec:command_line_warnings
-        18 actionable tasks: 18 executed
         
-        BUILD FAILED in 1s
+        BUILD FAILED in 6s
+        18 actionable tasks: 18 executed
         

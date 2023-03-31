@@ -1,7 +1,10 @@
 {
   "name": "@ionic-enterprise/clipboard",
   "version": "1.3.2",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/ionic-team/cordova-plugin-clipboard.git",
   "author": "Ibrahim Hadeed",
   "published": "2023-03-22T13:19:22.168Z",

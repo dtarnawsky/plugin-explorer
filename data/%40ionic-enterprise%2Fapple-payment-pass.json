@@ -3,7 +3,9 @@
   "version": "1.1.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ionic-team/apple-wallet-card-provision.git",
   "author": "Ionic",

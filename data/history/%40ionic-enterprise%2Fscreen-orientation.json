@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "3.0.5",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "3.0.5",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-4",
+      "version": "3.0.5",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
+      "version": "3.0.5",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "3.0.5",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "3.0.5",
+      "failure": "cap-sync",
+      "success": false
+    }
+  ],
+  "name": "@ionic-enterprise/screen-orientation"
+}

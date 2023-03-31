@@ -63,8 +63,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "QR Scanner for Capacitor",
-  "bugs": "https://bitbucket.org/golbros/capacitor-qrscanner/issues"
+  "bugs": "https://bitbucket.org/golbros/capacitor-qrscanner/issues",
+  "downloads": 85
 }

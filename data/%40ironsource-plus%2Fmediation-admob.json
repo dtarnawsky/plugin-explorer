@@ -26,8 +26,11 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "IronSource Mediation Adapter for AdMob",
-  "bugs": "https://bitbucket.org/TheBosZ/ironsource-plus/issues"
+  "bugs": "https://bitbucket.org/TheBosZ/ironsource-plus/issues",
+  "downloads": 2
 }

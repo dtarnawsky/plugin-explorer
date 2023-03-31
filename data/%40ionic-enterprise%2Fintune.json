@@ -86,7 +86,9 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Support for Microsoft Intune",
   "bugs": "https://github.com/ionic-team/enterprise-intune/issues",

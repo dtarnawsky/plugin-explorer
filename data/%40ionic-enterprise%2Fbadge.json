@@ -1,7 +1,10 @@
 {
   "name": "@ionic-enterprise/badge",
   "version": "0.8.12",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/ionic-team/cordova-plugin-badge.git",
   "author": "Sebastián Katzer",
   "published": "2023-03-22T13:19:14.306Z",

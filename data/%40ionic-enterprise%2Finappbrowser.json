@@ -1,7 +1,10 @@
 {
   "name": "@ionic-enterprise/inappbrowser",
   "version": "5.0.3",
-  "success": [],
+  "success": [
+    "cordova-android-11",
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/apache/cordova-plugin-inappbrowser.git",
   "author": "Apache Software Foundation",
   "published": "2023-03-22T13:19:43.157Z",
@@ -53,8 +56,8 @@
   ],
   "description": "Cordova InAppBrowser Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-inappbrowser/issues",
-  "stars": 1083,
+  "stars": 1082,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "quality": 3571,
-  "updated": "2023-03-15T12:16:39Z"
+  "quality": 3572,
+  "updated": "2023-03-25T16:32:56Z"
 }

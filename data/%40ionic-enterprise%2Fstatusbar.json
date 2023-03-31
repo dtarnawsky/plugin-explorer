@@ -28,7 +28,9 @@
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova StatusBar Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-statusbar/issues",

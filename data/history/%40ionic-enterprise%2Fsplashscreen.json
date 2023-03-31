@@ -1,0 +1,33 @@
+{
+  "tests": [
+    {
+      "test": "cordova-android-11",
+      "version": "6.0.0",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "6.0.0",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-4",
+      "version": "6.0.0",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
+      "version": "6.0.0",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-3",
+      "version": "6.0.0",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "@ionic-enterprise/splashscreen"
+}

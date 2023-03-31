@@ -27,7 +27,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-ios-4",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova Device Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",

@@ -36,12 +36,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "SDK Plugin for Ionic Portals",
   "bugs": "https://github.com/ionic-team/ionic-portals/issues",
   "stars": 46,
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 154,
-  "updated": "2023-03-10T15:03:45Z"
+  "updated": "2023-03-10T15:03:45Z",
+  "downloads": 3260
 }

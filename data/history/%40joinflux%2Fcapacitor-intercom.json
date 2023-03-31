@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "test": "cordova-ios-6",
+      "version": "2.0.0",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "2.0.0",
+      "failure": "peer-dependencies",
+      "success": false
+    }
+  ],
+  "name": "@joinflux/capacitor-intercom"
+}

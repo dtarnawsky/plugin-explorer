@@ -1,5 +1,6 @@
 ✖ Running Gradle build - failed!
-[error] 
+[error] Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+        
         > Configure project :app
         WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
         
@@ -63,50 +64,31 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-status-bar:processReleaseManifest
         > Task :ionic-enterprise-auth:extractDeepLinksRelease
-        > Task :ionic-enterprise-auth:processReleaseManifest
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-status-bar:processReleaseManifest
         > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-haptics:processReleaseManifest
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-haptics:compileReleaseLibraryResources
-        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-android:generateReleaseBuildConfig
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-android:javaPreCompileRelease
-        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-app:generateReleaseBuildConfig
-        > Task :capacitor-app:parseReleaseLocalResources
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-haptics:generateReleaseBuildConfig
-        > Task :capacitor-haptics:parseReleaseLocalResources
-        > Task :capacitor-haptics:javaPreCompileRelease
-        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
-        > Task :capacitor-keyboard:generateReleaseBuildConfig
         > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-android:processReleaseManifest
+        > Task :ionic-enterprise-auth:processReleaseManifest
+        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :app:mergeReleaseResources
         
         > Task :app:processReleaseMainManifest FAILED
         
-        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
-        Attribute data@scheme at AndroidManifest.xml requires a placeholder substitution but no value for <AUTH_URL_SCHEME> is provided.
         See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
         
-        
-        > Task :ionic-enterprise-auth:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:parseReleaseLocalResources
-        > Task :capacitor-app:javaPreCompileRelease
-        > Task :capacitor-android:parseReleaseLocalResources
-        > Task :capacitor-status-bar:compileReleaseLibraryResources
-        > Task :app:mergeReleaseResources
+        /Users/damian/Sample Code/plugin-explorer/apps/capacitor-4/android/app/src/main/AndroidManifest.xml Error:
+        Attribute data@scheme at AndroidManifest.xml requires a placeholder substitution but no value for <AUTH_URL_SCHEME> is provided.
         
         FAILURE: Build failed with an exception.
         
@@ -121,6 +103,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 2s
-        51 actionable tasks: 51 executed
+        BUILD FAILED in 8s
+        37 actionable tasks: 37 executed
         

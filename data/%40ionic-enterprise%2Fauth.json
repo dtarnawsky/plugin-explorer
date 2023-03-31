@@ -170,7 +170,9 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Ionic Enterprise Auth Plugin",
   "bugs": "https://ionic.io/issues"
