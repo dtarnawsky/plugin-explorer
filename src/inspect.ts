@@ -13,6 +13,9 @@ export async function inspect(plugin: string, info: TestInfo, filterType: Filter
     const result: Inspection = readPlugin(plugin);
     const folder = join('apps', info.folder);
     const failure: Failure = await prepareProject(plugin, folder, result, info);
+    if (failure == Failure.alreadyTested) {
+        return result;
+    }
     if (failure == Failure.npmMissing) {
         result.fails = [Test.failedInNPM];
         return result;
@@ -34,8 +37,8 @@ export async function inspect(plugin: string, info: TestInfo, filterType: Filter
     } else {
         result.fails.push(info.ios);
         result.fails.push(info.android);
-        setTestHistory(result.name, {test: info.ios, version: result.version, failure, success: false });
-        setTestHistory(result.name, {test: info.android, version: result.version, failure, success: false });
+        setTestHistory(result.name, { test: info.ios, version: result.version, failure, success: false });
+        setTestHistory(result.name, { test: info.android, version: result.version, failure, success: false });
     }
     return result;
 }
@@ -43,6 +46,7 @@ export async function inspect(plugin: string, info: TestInfo, filterType: Filter
 // This returns false only if the plugin could not be found
 async function prepareProject(plugin: string, folder: string, result: Inspection, test: TestInfo): Promise<Failure | undefined> {
     try {
+        const priorVersion = result.version;
         // Get Latest Plugin version number
         const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder));
         result.version = v.version;
@@ -53,6 +57,13 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         result.published = v.time?.modified;
         result.repo = cleanUrl(v.repository?.url);
         result.keywords = v.keywords;
+
+        if (result.version == priorVersion) {
+            if ((test.ios in result.success || test.ios in result.fails) &&
+                (test.android in result.success || test.android in result.fails)) {
+                return Failure.alreadyTested;
+            }
+        }
     } catch (error) {
         console.error(`Failed preparation of ${folder} for ${plugin}`, error);
         return Failure.npmMissing;
@@ -157,6 +168,6 @@ function storeResult(test: Test, result: Inspection, error?: any) {
         writeErrorLog(result.name, test, error);
     }
 
-    
-    setTestHistory(result.name, {test: test, version: result.version, failure: error ? Failure.build : undefined, success: !error });
+
+    setTestHistory(result.name, { test: test, version: result.version, failure: error ? Failure.build : undefined, success: !error });
 }

@@ -1,6 +1,6 @@
 {
   "name": "@aashu-dubey/capacitor-statusbar-safe-area",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
@@ -28,20 +28,23 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
-  "stars": 9,
+  "stars": 10,
   "image": "https://avatars.githubusercontent.com/u/46301285?v=4",
   "description": "Get Status bar height and Safe area insets on Android & iOS.",
-  "quality": 115,
-  "updated": "2023-03-23T02:36:39Z",
+  "quality": 114,
+  "updated": "2023-04-04T01:20:19Z",
   "versions": [
     "1.0.0",
     "1.0.1",
-    "1.1.0"
+    "1.1.0",
+    "2.0.0"
   ],
   "author": "Ashutosh",
   "bugs": "https://github.com/Aashu-Dubey/capacitor-statusbar-safe-area/issues",
-  "published": "2022-11-02T17:48:28.262Z",
-  "downloads": 1293
+  "published": "2023-03-31T20:09:20.236Z",
+  "downloads": 1369
 }
