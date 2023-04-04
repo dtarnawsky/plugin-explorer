@@ -28,7 +28,15 @@ export function filter(plugins: string[], filterType: FilterType): string[] {
 }
 
 function hasAllTests(info: Inspection): boolean {
-    for (const test of [Test.capacitorAndroid3, Test.capacitorAndroid4, Test.capacitorIos3, Test.capacitorIos4, Test.cordovaIos6, Test.cordovaAndroid11]) {
+    for (const test of [
+        Test.capacitorAndroid3,
+        Test.capacitorAndroid4,
+        Test.capacitorAndroid5,
+        Test.capacitorIos3,
+        Test.capacitorIos4,
+        Test.capacitorIos5,
+        Test.cordovaIos6,
+        Test.cordovaAndroid11]) {
         if (!info.success.includes(test) && !info.fails.includes(test)) {
             return false;
         }

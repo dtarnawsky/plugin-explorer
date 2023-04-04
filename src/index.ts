@@ -34,6 +34,14 @@ async function go(plugins: string[], filterType: FilterType) {
     for (const plugin of plugins) {
         count++;
         console.log(`Inspecting ${count} of ${plugins.length}: ${plugin}`);
+        // Capacitor 5 test
+        const capacitor5: TestInfo = {
+            ios: Test.capacitorIos5,
+            android: Test.capacitorAndroid5,
+            folder: 'capacitor-5',
+            git: 'https://github.com/dtarnawsky/plugin-test-capacitor-5.git'
+        }
+
         // Capacitor 4 test
         const capacitor4: TestInfo = {
             ios: Test.capacitorIos4,
@@ -57,7 +65,7 @@ async function go(plugins: string[], filterType: FilterType) {
             git: 'https://github.com/dtarnawsky/plugin-test-cordova-6-11.git'
         }
 
-        for (const test of [cordova, capacitor4, capacitor3]) {
+        for (const test of [capacitor5, cordova, capacitor4, capacitor3]) {
             await clone(test);
             const inspection = await inspect(plugin, test, filterType);
             catalog(inspection);

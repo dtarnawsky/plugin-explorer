@@ -3,8 +3,10 @@ import { join } from "path";
 import { Failure } from "./failures.js";
 
 export enum Test {
+    capacitorIos5 = 'capacitor-ios-5',
+    capacitorAndroid5 = 'capacitor-android-5',
     capacitorIos4 = 'capacitor-ios-4',
-    capacitorAndroid4 = 'capacitor-android-4',
+    capacitorAndroid4 = 'capacitor-android-4',    
     capacitorIos3 = 'capacitor-ios-3',
     capacitorAndroid3 = 'capacitor-android-3',
     cordovaIos6 = 'cordova-ios-6',
