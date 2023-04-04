@@ -66,13 +66,13 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
     } catch (e) {
         console.error(`Failed preparation of ${folder} for ${plugin}`);
     }
-    let failure = await tryRun(['npm i'], Failure.npmInstall, folder);
+    let failure = await tryRun(['npm ci'], Failure.npmInstall, folder);
     if (!failure) {
         let cmd = '';
         if (testIsCordova(test.ios)) {
             cmd = `npx ionic cordova plugin add ${plugin}@${result.version}`;
         } else {
-            cmd = `npm i ${plugin}@${result.version} --save-dev`;
+            cmd = `npm install ${plugin}@${result.version} --save-dev`;
         }
         failure = await tryRun([cmd], Failure.peer, folder);
     }
