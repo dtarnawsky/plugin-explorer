@@ -60,9 +60,11 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A native plugin for AdMob",
   "quality": null,
-  "downloads": 3616
+  "downloads": 3591
 }

@@ -43,16 +43,38 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "android",
+    "capacitor-android",
+    "capacitor-community",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "firebase",
+    "firebase-analytics",
+    "firebase-app-check",
+    "firebase-authentication",
+    "firebase-crashlytics",
+    "firebase-messaging",
+    "firebase-performance",
+    "firebase-remote-config",
+    "google-devlibrary",
+    "hacktoberfest",
+    "ios",
+    "web"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for Firebase Cloud Messaging (FCM).",
   "bugs": "https://github.com/capawesome-team/capacitor-firebase/issues",
-  "quality": null,
-  "downloads": 15424
+  "quality": 409,
+  "downloads": 14956,
+  "stars": 218,
+  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
+  "updated": "2023-04-04T04:30:28Z"
 }

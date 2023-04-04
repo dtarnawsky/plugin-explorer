@@ -25,13 +25,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
-  "stars": 52,
+  "stars": 53,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
   "description": "A Capacitor plugin that provides full native splash screen functionality",
-  "quality": 157,
-  "updated": "2023-03-05T03:58:20Z",
+  "quality": 158,
+  "updated": "2023-04-04T17:00:57Z",
   "versions": [
     "1.0.1",
     "2.0.0",
@@ -41,5 +43,5 @@
   "author": "Aparajita Fishman",
   "bugs": "https://github.com/aparajita/capacitor-splash-screen/issues",
   "published": "2023-01-18T21:26:13.085Z",
-  "downloads": 186
+  "downloads": 179
 }

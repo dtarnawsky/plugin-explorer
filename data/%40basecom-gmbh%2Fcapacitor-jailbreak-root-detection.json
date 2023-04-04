@@ -3,7 +3,9 @@
   "version": "1.0.4",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Phil0xFF/capacitor-jailbreak-root-detection.git",
   "author": "Phil Miletic <p.miletic@basecom.de>",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/18264611?v=4",
   "quality": 102,
   "updated": "2023-01-10T14:39:00Z",
-  "downloads": 1547
+  "downloads": 2088
 }

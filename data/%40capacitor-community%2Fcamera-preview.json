@@ -3,7 +3,9 @@
   "version": "4.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/capacitor-community/camera-preview.git",
   "author": "Ariel Hernandez Musa",
@@ -47,6 +49,9 @@
   ],
   "description": "Camera preview",
   "bugs": "https://github.com/capacitor-community/camera-preview/issues",
-  "quality": null,
-  "downloads": 19476
+  "quality": 432,
+  "downloads": 17844,
+  "stars": 142,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "updated": "2023-03-19T04:09:09Z"
 }

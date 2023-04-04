@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/%40goiarlabs/cordova-base64-to-gallery.git",
   "author": "StefanoMagrassi <stefano.magrassi@gmail.com> (http://thinkwritedone.com)",
@@ -31,5 +33,5 @@
   "description": "Cordova plugin to save base64 data as a png image into the device",
   "bugs": "https://github.com/@goiarlabs/cordova-base64-to-gallery/issues",
   "quality": null,
-  "downloads": 465
+  "downloads": 397
 }

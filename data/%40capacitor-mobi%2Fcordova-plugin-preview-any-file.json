@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/mobiliarmad/previewAnyFile.git",
   "author": "Mostafa Mansour <mostafa@outlook.kr>",
@@ -41,6 +43,9 @@
   ],
   "description": "Plugin to preview any file type from any where in native mode",
   "bugs": "https://github.com/mobiliarmad/previewAnyFile/issues",
-  "quality": null,
-  "downloads": 307
+  "quality": 3,
+  "downloads": 311,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/31008236?v=4",
+  "updated": "2022-02-11T22:42:23Z"
 }

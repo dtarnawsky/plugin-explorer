@@ -3,7 +3,8 @@
   "version": "4.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5"
   ],
   "repo": "ssh://git@github.com/capacitor-community/facebook-login.git",
   "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
@@ -41,9 +42,10 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "description": "A native plugin for Facebook Login",
   "quality": null,
-  "downloads": 66379
+  "downloads": 62900
 }

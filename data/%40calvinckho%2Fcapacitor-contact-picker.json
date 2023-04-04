@@ -4,7 +4,9 @@
   "success": [
     "capacitor-ios-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/calvinckho/capacitor-contact-picker.git",
   "author": "Calvin Ho",
@@ -27,5 +29,5 @@
   "description": "Allows users to select a single contact from their device.",
   "bugs": "https://github.com/calvinckho/capacitor-contact-picker/issues",
   "quality": null,
-  "downloads": 253
+  "downloads": 230
 }

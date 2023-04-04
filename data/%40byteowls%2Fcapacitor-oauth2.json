@@ -60,13 +60,15 @@
     "capacitor-android-3",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor OAuth 2 client plugin",
   "bugs": "https://github.com/moberwasserlechner/capacitor-oauth2/issues",
-  "quality": 406,
+  "quality": 408,
   "stars": 173,
   "image": "https://avatars.githubusercontent.com/u/1049938?v=4",
   "updated": "2023-03-07T20:54:24Z",
-  "downloads": 22438
+  "downloads": 20382
 }

@@ -1,13 +1,13 @@
 {
   "name": "@capgo/nativegeocoder",
-  "version": "0.1.54",
+  "version": "0.1.55",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/Cap-go/capacitor-nativegeocoder.git",
   "author": "Martin Donadieu <martindonadieu@gmail.com>",
-  "published": "2023-03-20T03:06:05.744Z",
+  "published": "2023-04-03T00:55:48.415Z",
   "versions": [
     "0.0.1",
     "0.1.1",
@@ -62,23 +62,32 @@
     "0.1.51",
     "0.1.52",
     "0.1.53",
-    "0.1.54"
+    "0.1.54",
+    "0.1.55"
   ],
   "keywords": [
     "capacitor",
     "plugin",
     "native",
     "geocoding",
-    "geocoder"
+    "geocoder",
+    "android",
+    "capacitor-plugin",
+    "swift"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for native forward and reverse geocoding",
   "bugs": "https://github.com/Cap-go/capacitor-nativegeocoder/issues",
-  "quality": null,
-  "downloads": 1839
+  "quality": 122,
+  "downloads": 1534,
+  "stars": 13,
+  "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
+  "updated": "2023-01-26T13:44:38Z"
 }

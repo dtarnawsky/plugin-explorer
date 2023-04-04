@@ -3,7 +3,8 @@
   "version": "3.1.1",
   "success": [
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/approov/quickstart-cordova-advancedhttp.git",
   "author": "Wymsee",
@@ -31,7 +32,8 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-android-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for communicating with HTTP servers with Approov integration and dynamic SSL pinning",
   "bugs": "https://github.com/approov/quickstart-cordova-advancedhttp",
@@ -39,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/23264728?v=4",
   "quality": 108,
   "updated": "2022-04-29T18:11:07Z",
-  "downloads": 51
+  "downloads": 53
 }

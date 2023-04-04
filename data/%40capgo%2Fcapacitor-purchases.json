@@ -92,13 +92,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "In-app Subscriptions Made Easy with RevenueCat sdk",
   "bugs": "https://github.com/Cap-go/capacitor-purchases/issues",
-  "stars": 42,
+  "stars": 45,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "quality": 150,
-  "updated": "2023-03-15T08:20:44Z",
-  "downloads": 2987
+  "quality": 154,
+  "updated": "2023-04-02T04:50:47Z",
+  "downloads": 3235
 }

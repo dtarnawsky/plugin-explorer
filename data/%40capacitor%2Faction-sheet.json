@@ -7,7 +7,7 @@
   ],
   "repo": "https://github.com/ionic-team/capacitor-plugins.git",
   "author": "Ionic <hi@ionicframework.com>",
-  "published": "2023-03-30T15:12:53.690Z",
+  "published": "2023-04-04T15:15:00.240Z",
   "versions": [
     "0.0.1",
     "0.1.0",
@@ -170,6 +170,7 @@
     "4.1.1-nightly-20230315T150853.0",
     "4.1.1-nightly-20230316T150919.0",
     "5.0.0-alpha.1",
+    "5.0.0-beta.0",
     "5.0.0-nightly-20230317T150907.0",
     "5.0.0-nightly-20230320T150751.0",
     "5.0.0-nightly-20230321T150946.0",
@@ -179,7 +180,10 @@
     "5.0.0-nightly-20230327T150845.0",
     "5.0.0-nightly-20230328T150956.0",
     "5.0.0-nightly-20230329T152052.0",
-    "5.0.0-nightly-20230330T150756.0"
+    "5.0.0-nightly-20230330T150756.0",
+    "5.0.0-nightly-20230331T150806.0",
+    "5.0.0-nightly-20230403T150914.0",
+    "5.0.0-nightly-20230404T150938.0"
   ],
   "keywords": [
     "capacitor",
@@ -190,10 +194,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "The Action Sheet API provides access to native Action Sheets, which come up from the bottom of the screen and display actions a user can take.",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
   "quality": null,
-  "downloads": 36318
+  "downloads": 29120
 }

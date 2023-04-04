@@ -33,13 +33,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to download and share files for the Web, Android and iOS",
   "bugs": "https://github.com/moberwasserlechner/capacitor-filesharer/issues",
-  "stars": 64,
+  "stars": 65,
   "image": "https://avatars.githubusercontent.com/u/1049938?v=4",
-  "quality": 194,
-  "updated": "2023-03-15T01:21:53Z",
-  "downloads": 14150
+  "quality": 195,
+  "updated": "2023-03-30T01:18:41Z",
+  "downloads": 14437
 }

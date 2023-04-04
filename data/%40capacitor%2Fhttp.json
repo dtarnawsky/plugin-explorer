@@ -21,7 +21,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "A native HTTP plugin for CORS-free requests and file transfers",
   "bugs": "https://github.com/ionic-team/capacitor-plugin-http/issues",
@@ -29,5 +31,5 @@
   "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "updated": "2023-01-28T14:23:08Z",
-  "downloads": 109
+  "downloads": 119
 }

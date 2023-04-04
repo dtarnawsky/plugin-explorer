@@ -3,7 +3,9 @@
   "version": "2.11.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "keywords": [
     "voice ai",
@@ -77,5 +79,5 @@
   "author": "",
   "description": "Alan Voice Cordova plugin",
   "published": "2023-03-14T14:19:58.381Z",
-  "downloads": 305
+  "downloads": 362
 }

@@ -55,13 +55,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for synthesizing speech from text.",
   "bugs": "https://github.com/capacitor-community/text-to-speech/issues",
-  "stars": 62,
+  "stars": 63,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 187,
-  "updated": "2023-03-21T13:39:51Z",
-  "downloads": 3186
+  "quality": 188,
+  "updated": "2023-04-02T20:47:41Z",
+  "downloads": 2825
 }

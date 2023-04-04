@@ -34,16 +34,23 @@
     "crash",
     "error",
     "azure",
-    "microsoft"
+    "microsoft",
+    "capacitor-plugin",
+    "visual-studio-app-center"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for Microsoft's App Center Crashes",
   "bugs": "https://github.com/capacitor-community/appcenter-sdk-capacitor/tree/master/appcenter-crashes/issues",
-  "quality": null,
-  "downloads": 2034
+  "quality": 131,
+  "downloads": 1875,
+  "stars": 25,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "updated": "2022-12-23T06:45:28Z"
 }

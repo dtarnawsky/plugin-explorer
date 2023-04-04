@@ -32,13 +32,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to lock/unlock the screen orientation.",
   "bugs": "https://github.com/capawesome-team/capacitor-screen-orientation/issues",
   "stars": 27,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
   "quality": 131,
-  "updated": "2023-03-24T14:53:11Z",
-  "downloads": 12119
+  "updated": "2023-04-01T07:37:01Z",
+  "downloads": 12015
 }

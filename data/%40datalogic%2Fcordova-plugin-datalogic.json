@@ -6,7 +6,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/datalogic/cordova-plugin-datalogic.git",
   "author": "Datalogic",
@@ -37,5 +39,5 @@
   "description": "Datalogic Cordova SDK for Android devices",
   "bugs": "https://github.com/datalogic/cordova-plugin-datalogic/issues",
   "quality": null,
-  "downloads": 199
+  "downloads": 185
 }

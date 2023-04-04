@@ -3,7 +3,8 @@
   "version": "3.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/havesource/cordova-plugin-push.git",
   "author": "Erisu",
@@ -32,13 +33,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Register and receive push notifications.",
   "bugs": "https://github.com/havesource/cordova-plugin-push/issues",
   "stars": 124,
   "image": "https://avatars.githubusercontent.com/u/17874728?v=4",
-  "quality": 432,
+  "quality": 435,
   "updated": "2023-03-25T01:35:08Z",
-  "downloads": 10998
+  "downloads": 10357
 }

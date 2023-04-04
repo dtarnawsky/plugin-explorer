@@ -15,16 +15,31 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "capacitor-android",
+    "capacitor-community",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "capacitorjs",
+    "hacktoberfest",
+    "mlkit",
+    "mlkit-android",
+    "mlkit-ios",
+    "mlkit-translate"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for ML Kit Barcode scanning.",
   "bugs": "https://github.com/capawesome-team/capacitor-mlkit.git/issues",
-  "quality": null,
-  "downloads": 290
+  "quality": 125,
+  "downloads": 362,
+  "stars": 8,
+  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
+  "updated": "2023-04-04T12:45:36Z"
 }

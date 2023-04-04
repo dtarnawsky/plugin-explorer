@@ -28,13 +28,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to access managed configuration settings.",
   "bugs": "https://github.com/capawesome-team/capacitor-managed-configurations/issues",
   "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
   "quality": 105,
-  "updated": "2023-03-10T12:15:00Z",
-  "downloads": 847
+  "updated": "2023-04-01T07:36:39Z",
+  "downloads": 689
 }

@@ -24,10 +24,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A native plugin for native audio engine",
   "bugs": "https://github.com/riderx/native-audio/issues",
   "quality": null,
-  "downloads": 12
+  "downloads": 11
 }
