@@ -15,7 +15,9 @@
     "capacitor-ios-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "stars": 8,
   "image": "https://avatars.githubusercontent.com/u/3104895?v=4",
@@ -29,5 +31,5 @@
   "author": "RoxTeddy <maxime@agorapulse.com>",
   "bugs": "https://github.com/agorapulse/capacitor-mediastore/issues",
   "published": "2023-03-07T16:13:14.582Z",
-  "downloads": 2339
+  "downloads": 2650
 }

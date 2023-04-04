@@ -10,7 +10,8 @@
     "capacitor",
     "plugin",
     "native",
-    "user agent"
+    "user agent",
+    "user-agent"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -20,11 +21,8 @@
     "capacitor-ios-5",
     "capacitor-android-5"
   ],
-  "stars": 1,
-  "image": "https://avatars.githubusercontent.com/u/2982153?v=4",
   "description": "User Agent get/set/reset plugin for Capacitor",
   "quality": 101,
-  "updated": "2023-01-13T13:48:38Z",
   "versions": [
     "0.0.1",
     "0.0.2",
@@ -33,5 +31,8 @@
   "author": "Alexis Deprez",
   "bugs": "https://github.com/adeprez/capacitor-user-agent/issues",
   "published": "2022-12-08T19:22:29.708Z",
-  "downloads": 1874
+  "downloads": 1874,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/2982153?v=4",
+  "updated": "2023-01-13T13:48:38Z"
 }

@@ -28,13 +28,12 @@
     "capacitor-ios-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
-  "stars": 327,
-  "image": "https://avatars.githubusercontent.com/u/39599641?v=4",
   "description": "AdMob Plus Capacitor Plugin",
-  "quality": 612,
-  "updated": "2023-03-16T00:44:26Z",
+  "quality": 614,
   "versions": [
     "0.1.0",
     "0.2.0",
@@ -99,5 +98,8 @@
   "author": "Ratson",
   "bugs": "https://github.com/admob-plus/admob-plus/issues",
   "published": "2022-08-14T18:54:46.190Z",
-  "downloads": 910
+  "downloads": 1008,
+  "stars": 327,
+  "image": "https://avatars.githubusercontent.com/u/39599641?v=4",
+  "updated": "2023-03-16T00:44:26Z"
 }
