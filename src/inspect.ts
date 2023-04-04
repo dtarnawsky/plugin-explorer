@@ -61,8 +61,8 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         result.keywords = v.keywords;
 
         if (result.version == priorVersion) {
-            if ((test.ios in result.success || test.ios in result.fails) &&
-                (test.android in result.success || test.android in result.fails)) {
+            if ((result.success.includes(test.ios)  || result.fails.includes(test.ios) &&
+                (result.success.includes(test.android) ||result.fails.includes(test.android)))) {
                 return Failure.alreadyTested;
             }
         }

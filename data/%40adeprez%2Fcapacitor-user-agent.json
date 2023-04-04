@@ -10,8 +10,7 @@
     "capacitor",
     "plugin",
     "native",
-    "user agent",
-    "user-agent"
+    "user agent"
   ],
   "fails": [
     "capacitor-ios-3",
