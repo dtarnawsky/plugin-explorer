@@ -54,8 +54,10 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-android-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Integrate AirWatch SDK capabilities into your Cordova project",
-  "downloads": 1560
+  "downloads": 1849
 }

@@ -30,13 +30,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for Bluetooth Low Energy ",
   "bugs": "https://github.com/capacitor-community/bluetooth-le/issues",
   "stars": 164,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 339,
+  "quality": 335,
   "updated": "2023-03-31T08:03:55Z",
-  "downloads": 34
+  "downloads": 31
 }

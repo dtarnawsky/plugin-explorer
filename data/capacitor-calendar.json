@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Fir3st/capacitor-calendar.git",
   "author": "Vladimír Fojtík <vladimir@fojtik.dev>",
@@ -38,7 +39,8 @@
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "Simple native calendar handling for Capacitor",
   "bugs": "https://github.com/Fir3st/capacitor-calendar/issues",
@@ -46,5 +48,5 @@
   "image": "https://avatars.githubusercontent.com/u/24609278?v=4",
   "quality": 117,
   "updated": "2022-11-10T12:07:02Z",
-  "downloads": 170
+  "downloads": 201
 }

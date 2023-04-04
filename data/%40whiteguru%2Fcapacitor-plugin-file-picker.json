@@ -24,10 +24,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to pick files",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-file-picker/issues",
-  "quality": null,
-  "downloads": 36
+  "quality": 102,
+  "downloads": 41,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
+  "updated": "2023-03-16T02:12:44Z"
 }

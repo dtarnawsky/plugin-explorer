@@ -66,13 +66,15 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "The most sophisticated cross platform Capacitor background location tracking & geofencing module with battery-conscious motion-detection intelligence",
   "bugs": "https://github.com/transistorsoft/capacitor-background-geolocation/issues",
-  "stars": 53,
+  "stars": 54,
   "image": "https://avatars.githubusercontent.com/u/2099918?v=4",
-  "quality": 211,
-  "updated": "2023-03-29T06:34:24Z",
-  "downloads": 6045
+  "quality": 212,
+  "updated": "2023-04-03T15:11:14Z",
+  "downloads": 5907
 }

@@ -4,7 +4,9 @@
   "success": [
     "capacitor-ios-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/vinit-poojary/capacitor-intent.git.git",
   "author": "Vinit Poojary",
@@ -33,5 +35,5 @@
   "description": "Capacitor Plugin for android intent",
   "bugs": "https://github.com/vinit-poojary/capacitor-intent.git/issues",
   "quality": null,
-  "downloads": 123
+  "downloads": 125
 }

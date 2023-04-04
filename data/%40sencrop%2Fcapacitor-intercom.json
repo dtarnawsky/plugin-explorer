@@ -68,10 +68,7 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "capacitor-plugin",
-    "hacktoberfest",
-    "intercom"
+    "native"
   ],
   "fails": [
     "capacitor-android-3",
@@ -79,12 +76,14 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Intercom Plugin for Capacitor",
   "bugs": "https://github.com/sencrop/capacitor-intercom/issues",
   "quality": 105,
-  "downloads": 1778,
+  "downloads": 1743,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/24719929?v=4",
   "updated": "2022-05-03T14:27:39Z"

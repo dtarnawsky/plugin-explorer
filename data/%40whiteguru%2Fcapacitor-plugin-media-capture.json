@@ -23,7 +23,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to capture video",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-media-capture/issues",

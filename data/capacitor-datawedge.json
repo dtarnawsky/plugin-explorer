@@ -21,16 +21,26 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "android",
+    "capacitor-plugin",
+    "datawedge",
+    "typescript",
+    "zebra"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "DataWedge plugin for capacitor",
   "bugs": "https://github.com/jkbz64/capacitor-datawedge/issues",
-  "quality": null,
-  "downloads": 670
+  "quality": 109,
+  "downloads": 701,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/13223538?v=4",
+  "updated": "2023-02-21T10:56:53Z"
 }

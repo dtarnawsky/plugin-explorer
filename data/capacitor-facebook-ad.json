@@ -21,10 +21,15 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for facecbook ads",
   "bugs": "https://github.com/preetamjakhmola/capacitor-facebook-ad-plugin/issues",
-  "quality": null,
-  "downloads": 8
+  "quality": 103,
+  "downloads": 8,
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/35592214?v=4",
+  "updated": "2022-03-13T20:19:15Z"
 }

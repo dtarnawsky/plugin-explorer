@@ -3,7 +3,8 @@
   "version": "1.1.13",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://bitbucket.org/golbros/capacitor-qrscanner.git",
   "author": "Marcel Golob <marcel@golbros.de>",
@@ -65,9 +66,10 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "QR Scanner for Capacitor",
   "bugs": "https://bitbucket.org/golbros/capacitor-qrscanner/issues",
-  "downloads": 85
+  "downloads": 74
 }

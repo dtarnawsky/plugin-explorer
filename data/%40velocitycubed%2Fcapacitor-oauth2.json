@@ -27,7 +27,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor OAuth 2 client plugin",
   "bugs": "https://github.com/VelocityCubed/capacitor-oauth2/issues",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/84908720?v=4",
   "quality": 0,
   "updated": "2022-03-29T05:30:23Z",
-  "downloads": 28
+  "downloads": 34
 }

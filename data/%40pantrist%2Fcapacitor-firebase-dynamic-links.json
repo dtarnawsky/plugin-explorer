@@ -31,13 +31,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor Plugin for Firebase Dynamic Links",
   "bugs": "https://github.com/Pantrist-dev/capacitor-firebase-dynamic-links/issues",
-  "quality": 132,
-  "downloads": 16736,
-  "stars": 16,
+  "quality": 133,
+  "downloads": 14282,
+  "stars": 17,
   "image": "https://avatars.githubusercontent.com/u/67862742?v=4",
-  "updated": "2023-03-20T11:39:48Z"
+  "updated": "2023-03-31T21:48:00Z"
 }

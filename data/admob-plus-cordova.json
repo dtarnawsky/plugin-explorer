@@ -97,15 +97,30 @@
     "cordova-android",
     "cordova-ios",
     "monetization",
-    "typescript"
+    "typescript",
+    "android",
+    "angular",
+    "capacitor",
+    "hacktoberfest",
+    "ionic",
+    "ios",
+    "javascript",
+    "mobile",
+    "react",
+    "react-native"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Trustable Google AdMob Cordova Plugin",
   "bugs": "https://github.com/admob-plus/admob-plus/issues",
-  "quality": null,
-  "downloads": 3430
+  "quality": 615,
+  "downloads": 3432,
+  "stars": 327,
+  "image": "https://avatars.githubusercontent.com/u/39599641?v=4",
+  "updated": "2023-03-16T00:44:26Z"
 }

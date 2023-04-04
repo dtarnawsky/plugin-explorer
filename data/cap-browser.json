@@ -46,7 +46,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Capacitor wrapper around https://github.com/Meniny/WKWebViewContr oller with android support",
   "bugs": "https://github.com/gadapa-rakesh/CapBrowser.git/issues",
@@ -54,5 +56,5 @@
   "image": "https://avatars.githubusercontent.com/u/2396832?v=4",
   "quality": 106,
   "updated": "2022-08-31T19:34:20Z",
-  "downloads": 47
+  "downloads": 39
 }

@@ -1,0 +1,216 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :app:generateReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :app:processReleaseMainManifest
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:mergeReleaseResources
+        > Task :app:desugarReleaseFileDependencies
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :app:mergeExtDexRelease
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/Plugin.java:9: error: cannot find symbol
+        import admob.plus.cordova.AdMob;
+        ^
+        symbol:   class AdMob
+        location: package admob.plus.cordova
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/Plugin.java:10: error: package admob.plus.cordova.ads does not exist
+        import admob.plus.cordova.ads.Native;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:11: error: package com.google.android.gms.ads.nativead does not exist
+        import com.google.android.gms.ads.nativead.MediaView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:12: error: package com.google.android.gms.ads.nativead does not exist
+        import com.google.android.gms.ads.nativead.NativeAd;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:13: error: package com.google.android.gms.ads.nativead does not exist
+        import com.google.android.gms.ads.nativead.NativeAdView;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:17: error: package admob.plus.cordova.ads does not exist
+        import admob.plus.cordova.ads.Native;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:19: error: package Native does not exist
+        public class AdViewProvider implements Native.ViewProvider {
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:28: error: cannot find symbol
+        public View createView(NativeAd nativeAd) {
+        ^
+        symbol:   class NativeAd
+        location: class AdViewProvider
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/Plugin.java:20: error: package Native does not exist
+        AdMob.registerNativeAdViewProviders(new HashMap<String, Native.ViewProvider>() {{
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/Plugin.java:21: error: cannot find symbol
+        put(AdMob.NATIVE_VIEW_DEFAULT, new AdViewProvider(cordova));
+        ^
+        symbol: variable AdMob
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/Plugin.java:20: error: cannot find symbol
+        AdMob.registerNativeAdViewProviders(new HashMap<String, Native.ViewProvider>() {{
+        ^
+        symbol:   variable AdMob
+        location: class Plugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:27: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:29: error: cannot find symbol
+        NativeAdView adView =
+        ^
+        symbol:   class NativeAdView
+        location: class AdViewProvider
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:30: error: cannot find symbol
+        (NativeAdView) cordova.getActivity().getLayoutInflater()
+        ^
+        symbol:   class NativeAdView
+        location: class AdViewProvider
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/admob/plus/cordova/nativead/AdViewProvider.java:33: error: cannot find symbol
+        adView.setMediaView((MediaView) adView.findViewById(id("ad_media")));
+        ^
+        symbol:   class MediaView
+        location: class AdViewProvider
+        15 errors
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 3s
+        86 actionable tasks: 86 executed
+        

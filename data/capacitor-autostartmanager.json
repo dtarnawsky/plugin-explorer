@@ -23,7 +23,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Auto Start Manager, Check Automatic Date Time Zone, Check Camera",
   "bugs": "https://github.com/asephermann/capacitor-autostartmanager/issues",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
   "quality": 102,
   "updated": "2022-07-29T08:05:55Z",
-  "downloads": 1922
+  "downloads": 1875
 }

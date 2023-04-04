@@ -24,12 +24,14 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor wrapper for Headwind MDM",
   "bugs": "https://github.com/paystory-de/capacitor-headwind-mdm/issues",
   "quality": 103,
-  "downloads": 10,
+  "downloads": 9,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/73749290?v=4",
   "updated": "2022-01-31T07:42:17Z"

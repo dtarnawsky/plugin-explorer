@@ -28,10 +28,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "E-Mail Composer Plugin for Capacitor",
   "bugs": "https://github.com/EinfachHans/capacitor-email-composer.git/issues",
-  "quality": null,
-  "downloads": 12622
+  "quality": 122,
+  "downloads": 11027,
+  "stars": 16,
+  "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
+  "updated": "2023-03-21T10:32:52Z"
 }

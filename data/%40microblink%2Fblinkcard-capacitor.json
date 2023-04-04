@@ -35,7 +35,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "AI-driven credit card scanning for cross-platform apps built with Capacitor.",
   "bugs": "https://github.com/blinkcard/blinkcard-capacitor/issues",
@@ -43,5 +45,5 @@
   "image": "https://avatars.githubusercontent.com/u/49157187?v=4",
   "quality": 102,
   "updated": "2023-03-20T00:05:16Z",
-  "downloads": 623
+  "downloads": 609
 }

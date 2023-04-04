@@ -3,7 +3,9 @@
   "version": "4.0.10",
   "success": [
     "capacitor-ios-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/spoonconsulting/cordova-plugin-background-upload.git",
   "author": "Mevin Dhunnooa & Spoon Consulting Ltd",
@@ -59,7 +61,7 @@
   "description": "Cordova plugin for uploading file in the background",
   "bugs": "https://github.com/spoonconsulting/cordova-plugin-background-upload/issues",
   "quality": 225,
-  "downloads": 501,
+  "downloads": 466,
   "stars": 47,
   "image": "https://avatars.githubusercontent.com/u/15421014?v=4",
   "updated": "2023-02-03T17:00:54Z"

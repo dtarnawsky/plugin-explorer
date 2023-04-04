@@ -1,14 +1,15 @@
 {
   "name": "@regulaforensics/cordova-plugin-document-reader-api",
-  "version": "6.7.3",
+  "version": "6.7.4",
   "success": [
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/regulaforensics/DocumentReader-Cordova-Plugin.git",
   "author": "RegulaForensics",
-  "published": "2023-03-02T21:45:20.612Z",
+  "published": "2023-03-31T15:09:40.245Z",
   "versions": [
     "5.2.0",
     "5.2.1",
@@ -33,7 +34,8 @@
     "6.7.0",
     "6.7.1",
     "6.7.2",
-    "6.7.3"
+    "6.7.3",
+    "6.7.4"
   ],
   "keywords": [
     "cordova",
@@ -50,7 +52,8 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for reading and validation of identification documents (API framework)",
   "bugs": "https://github.com/regulaforensics/DocumentReader-Cordova-Plugin/issues",
@@ -58,5 +61,5 @@
   "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
   "quality": 108,
   "updated": "2023-02-08T16:19:05Z",
-  "downloads": 294
+  "downloads": 305
 }

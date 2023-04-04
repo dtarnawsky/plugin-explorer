@@ -6,7 +6,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-intent.git",
   "author": "Darryn Campbell",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 0,
   "updated": "2022-10-26T11:10:49Z",
-  "downloads": 1636
+  "downloads": 1549
 }

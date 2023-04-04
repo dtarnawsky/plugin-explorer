@@ -3,7 +3,8 @@
   "version": "6.1.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/apptentive/apptentive-cordova.git",
   "author": "Apptentive",
@@ -53,7 +54,8 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "description": "Apptentive Plugin For Cordova",
   "bugs": "https://github.com/apptentive/apptentive-cordova/issues",
@@ -61,5 +63,5 @@
   "image": "https://avatars.githubusercontent.com/u/733925?v=4",
   "quality": 120,
   "updated": "2022-10-26T17:28:03Z",
-  "downloads": 221
+  "downloads": 184
 }

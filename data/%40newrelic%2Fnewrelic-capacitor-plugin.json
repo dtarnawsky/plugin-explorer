@@ -23,7 +23,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "NewRelic Plugin for ionic Capacitor",
   "bugs": "https://github.com/newrelic/newrelic-capacitor-plugin/issues",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/31739?v=4",
   "quality": 108,
   "updated": "2023-01-13T20:04:55Z",
-  "downloads": 543
+  "downloads": 403
 }

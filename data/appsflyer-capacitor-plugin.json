@@ -34,7 +34,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "AppsFlyer SDK plugin for Capacitor",
   "bugs": "https://github.com/AppsFlyerSDK/appsflyer-capacitor-plugin/issues",
@@ -42,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/6083614?v=4",
   "quality": 121,
   "updated": "2023-02-14T21:47:49Z",
-  "downloads": 16311
+  "downloads": 15422
 }

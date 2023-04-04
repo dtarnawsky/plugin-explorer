@@ -22,10 +22,15 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin which manages the media session",
   "bugs": "https://github.com/Videodock/capacitor-media-session/issues",
-  "quality": null,
-  "downloads": 23
+  "quality": 104,
+  "downloads": 20,
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/1513271?v=4",
+  "updated": "2022-08-11T11:31:27Z"
 }

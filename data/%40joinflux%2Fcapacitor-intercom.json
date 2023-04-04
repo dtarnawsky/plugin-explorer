@@ -25,7 +25,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Enable Intercom features for Capacitor apps",
   "bugs": "https://github.com/joinflux/capacitor-intercom/issues",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
   "quality": 1,
   "updated": "2022-09-20T06:22:52Z",
-  "downloads": 47
+  "downloads": 50
 }

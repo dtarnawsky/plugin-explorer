@@ -25,12 +25,14 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Facebook Login plugin for Capacitor",
   "bugs": "https://github.com/oxylian/capacitor-facebook-login/issues",
   "quality": 130,
-  "downloads": 19,
+  "downloads": 14,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/23027200?v=4",
   "updated": "2020-05-27T13:08:26Z"

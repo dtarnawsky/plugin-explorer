@@ -71,7 +71,9 @@
     "capacitor-ios-3",
     "capacitor-ios-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Facebook Login plugin for Capacitor",
   "bugs": "https://github.com/rdlabo/capacitor-facebook-login/issues",
@@ -79,5 +81,5 @@
   "image": "https://avatars.githubusercontent.com/u/64881359?v=4",
   "quality": 68,
   "updated": "2023-01-28T13:57:48Z",
-  "downloads": 252
+  "downloads": 183
 }

@@ -38,10 +38,14 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Appmetrica capacitor plugin",
   "bugs": "https://github.com/rediska1114/capacitor-appmetrica.git/issues",
   "quality": null,
-  "downloads": 414
+  "downloads": 438
 }

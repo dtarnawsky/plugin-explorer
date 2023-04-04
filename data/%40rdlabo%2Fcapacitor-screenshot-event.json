@@ -25,7 +25,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Notification that user shot screenshot",
   "bugs": "https://github.com/rdlabo-team/capacitor-screenshot-event/issues",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/64881359?v=4",
   "quality": 115,
   "updated": "2023-03-21T23:23:27Z",
-  "downloads": 372
+  "downloads": 405
 }

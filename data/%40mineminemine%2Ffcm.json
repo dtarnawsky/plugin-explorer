@@ -22,7 +22,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Enable Firebase Cloud Messaging features for Capacitor apps",
   "bugs": "https://github.com/mineminemine/fcm/issues",
@@ -30,5 +32,5 @@
   "image": "https://avatars.githubusercontent.com/u/17585549?v=4",
   "quality": 0,
   "updated": "2022-08-23T20:32:14Z",
-  "downloads": 1133
+  "downloads": 834
 }

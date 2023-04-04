@@ -53,12 +53,14 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Cordova Plugin for AdMob Plus Native Ad",
   "bugs": "https://github.com/admob-plus/admob-plus/issues",
-  "quality": 613,
-  "downloads": 126,
+  "quality": 615,
+  "downloads": 120,
   "stars": 327,
   "image": "https://avatars.githubusercontent.com/u/39599641?v=4",
   "updated": "2023-03-16T00:44:26Z"

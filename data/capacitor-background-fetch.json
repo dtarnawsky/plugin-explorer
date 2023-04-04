@@ -2,7 +2,8 @@
   "name": "capacitor-background-fetch",
   "version": "0.5.3",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/lbslogics/capacitor-background-fetch.git",
   "author": "kaunstdadenga",
@@ -51,7 +52,8 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "description": "Utilizing the iOS background fetch mechanism to fetch new data while the app is in background",
   "bugs": "https://github.com/lbslogics/capacitor-background-fetch.git/issues",
@@ -59,5 +61,5 @@
   "image": "https://avatars.githubusercontent.com/u/19569030?v=4",
   "quality": 106,
   "updated": "2022-07-15T20:51:21Z",
-  "downloads": 55
+  "downloads": 49
 }
