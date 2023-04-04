@@ -21,7 +21,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Preview any file",
   "bugs": "https://github.com/innoline/capacitor-preview-file/issues",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/121399358?v=4",
   "quality": 100,
   "updated": "2022-12-30T12:58:15Z",
-  "downloads": 136
+  "downloads": 141
 }

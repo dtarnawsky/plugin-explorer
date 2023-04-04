@@ -74,10 +74,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Integration for Couchbase Lite (2.x+) in Ionic enterprise apps",
   "bugs": "https://github.com/ionic-team/enterprise-couchbase-lite/issues",
   "quality": null,
-  "downloads": 467
+  "downloads": 375
 }

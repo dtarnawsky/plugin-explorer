@@ -23,9 +23,11 @@
     "capacitor-android-3",
     "capacitor-ios-4",
     "capacitor-android-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Support for ironSource ads in Cordova and Phonegap apps",
   "bugs": "https://bitbucket.org/TheBosZ/ironsource-plus/issues",
-  "downloads": 13
+  "downloads": 8
 }

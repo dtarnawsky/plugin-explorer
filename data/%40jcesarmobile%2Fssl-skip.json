@@ -3,7 +3,9 @@
   "version": "0.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/jcesarmobile/ssl-skip.git",
   "author": "jcesarmobile",
@@ -26,6 +28,9 @@
   ],
   "description": "Capacitor plugin for skipping ssl checks",
   "bugs": "https://github.com/jcesarmobile/ssl-skip/issues",
-  "quality": null,
-  "downloads": 965
+  "quality": 114,
+  "downloads": 635,
+  "stars": 11,
+  "image": "https://avatars.githubusercontent.com/u/1637892?v=4",
+  "updated": "2023-03-14T07:18:54Z"
 }
