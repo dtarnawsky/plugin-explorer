@@ -23,8 +23,19 @@ export function setTestHistory(plugin: string, history: TestHistory) {
     const historySummary = readTestHistorySummary(plugin);
     historySummary.tests = historySummary.tests.filter((h) => !(h.test == history.test && h.version == history.version));
     historySummary.tests.push(history);
+    historySummary.tests.sort( compare );
     saveTestHistory(historySummary);
 }
+
+function compare( a: TestHistory, b: TestHistory ) {
+    if ( a.test < b.test ){
+      return -1;
+    }
+    if ( a.test > b.test ){
+      return 1;
+    }
+    return 0;
+  }
 
 export function readTestHistorySummary(plugin: string): TestHistorySummary {
    if (existsSync(testHistoryFilename(plugin))) {

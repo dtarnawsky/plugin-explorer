@@ -65,8 +65,7 @@ async function go(plugins: string[], filterType: FilterType) {
             git: 'https://github.com/dtarnawsky/plugin-test-cordova-6-11.git'
         }
 
-        for (const test of [capacitor5, cordova, capacitor4, capacitor3]) {
-            await clone(test);
+        for (const test of [capacitor5, cordova, capacitor4, capacitor3]) {            
             const inspection = await inspect(plugin, test, filterType);
             catalog(inspection);
             const removePlugin = inspection.fails.includes(Test.failedInNPM);

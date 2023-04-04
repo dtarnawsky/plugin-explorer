@@ -8,12 +8,14 @@ import { join } from 'path';
 import { Failure } from './failures.js';
 import { inspectNpmAPI } from './npm-stat.js';
 import { FilterType } from './filter.js';
+import { clone } from './clone.js';
 
 export async function inspect(plugin: string, info: TestInfo, filterType: FilterType): Promise<Inspection> {
     const result: Inspection = readPlugin(plugin);
     const folder = join('apps', info.folder);
     const failure: Failure = await prepareProject(plugin, folder, result, info);
     if (failure == Failure.alreadyTested) {
+        console.log(`${plugin} ${result.version} wont be tested for ${info.ios},${info.android} as it has been tested already`);
         return result;
     }
     if (failure == Failure.npmMissing) {
@@ -77,6 +79,7 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
     } catch (e) {
         console.error(`Failed preparation of ${folder} for ${plugin}`);
     }
+    await clone(test);
     let failure = await tryRun(['npm ci'], Failure.npmInstall, folder);
     if (!failure) {
         let cmd = '';
