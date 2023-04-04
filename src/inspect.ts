@@ -47,8 +47,8 @@ export async function inspect(plugin: string, info: TestInfo, filterType: Filter
 
 // This returns false only if the plugin could not be found
 async function prepareProject(plugin: string, folder: string, result: Inspection, test: TestInfo): Promise<Failure | undefined> {
+    const priorVersion = result.version;
     try {
-        const priorVersion = result.version;
         // Get Latest Plugin version number
         const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder));
         result.version = v.version;
@@ -60,12 +60,7 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         result.repo = cleanUrl(v.repository?.url);
         result.keywords = v.keywords;
 
-        if (result.version == priorVersion) {
-            if ((result.success.includes(test.ios)  || result.fails.includes(test.ios) &&
-                (result.success.includes(test.android) ||result.fails.includes(test.android)))) {
-                return Failure.alreadyTested;
-            }
-        }
+
     } catch (error) {
         console.error(`Failed preparation of ${folder} for ${plugin}`, error);
         return Failure.npmMissing;
@@ -78,6 +73,13 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         await inspectNpmAPI(result);
     } catch (e) {
         console.error(`Failed preparation of ${folder} for ${plugin}`);
+    }
+
+    if (result.version == priorVersion) {
+        if ((result.success.includes(test.ios) || result.fails.includes(test.ios) &&
+            (result.success.includes(test.android) || result.fails.includes(test.android)))) {
+            return Failure.alreadyTested;
+        }
     }
     await clone(test);
     let failure = await tryRun(['npm ci'], Failure.npmInstall, folder);
