@@ -33,5 +33,5 @@
   "description": "Cordova plugin to save base64 data as a png image into the device",
   "bugs": "https://github.com/@goiarlabs/cordova-base64-to-gallery/issues",
   "quality": null,
-  "downloads": 397
+  "downloads": 418
 }

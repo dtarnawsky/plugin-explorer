@@ -200,5 +200,5 @@
   "description": "The Clipboard API enables copy and pasting to/from the system clipboard.",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
   "quality": null,
-  "downloads": 132505
+  "downloads": 138181
 }

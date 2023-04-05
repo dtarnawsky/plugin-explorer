@@ -211,5 +211,5 @@
   "description": "The Camera API provides the ability to take a photo with the camera or choose an existing one from the photo album.",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
   "quality": null,
-  "downloads": 258469
+  "downloads": 268044
 }

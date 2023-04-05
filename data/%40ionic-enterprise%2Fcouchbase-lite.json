@@ -81,5 +81,5 @@
   "description": "Integration for Couchbase Lite (2.x+) in Ionic enterprise apps",
   "bugs": "https://github.com/ionic-team/enterprise-couchbase-lite/issues",
   "quality": null,
-  "downloads": 375
+  "downloads": 386
 }

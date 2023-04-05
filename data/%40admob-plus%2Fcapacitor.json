@@ -33,7 +33,7 @@
     "capacitor-android-5"
   ],
   "description": "AdMob Plus Capacitor Plugin",
-  "quality": 614,
+  "quality": 615,
   "versions": [
     "0.1.0",
     "0.2.0",
@@ -98,7 +98,7 @@
   "author": "Ratson",
   "bugs": "https://github.com/admob-plus/admob-plus/issues",
   "published": "2022-08-14T18:54:46.190Z",
-  "downloads": 1008,
+  "downloads": 1007,
   "stars": 327,
   "image": "https://avatars.githubusercontent.com/u/39599641?v=4",
   "updated": "2023-03-16T00:44:26Z"

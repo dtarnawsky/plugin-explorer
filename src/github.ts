@@ -153,9 +153,11 @@ export async function inspectGitHubAPI(item: Inspection) {
         const response = await fetch(`https://api.github.com/repos/${part}`, { headers });
         const gh: GitHubInfo = await response.json() as GitHubInfo;
         if (!gh.stargazers_count) {
-            if ((gh as any).message.startsWith('API rate limit exceeded')) {
+            if ((gh as any).message?.startsWith('API rate limit exceeded')) {
                 const resets = response.headers['x-ratelimit-reset'];
                 console.log(`Github API is rate limited. Its resets ${JSON.stringify(gh)}`);
+            } else {
+                console.error(gh);
             }
             return;
         }

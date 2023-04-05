@@ -63,9 +63,9 @@
   ],
   "description": "Capacitor plugin for Firebase Analytics.",
   "bugs": "https://github.com/capawesome-team/capacitor-firebase/issues",
-  "stars": 218,
+  "stars": 219,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 409,
-  "updated": "2023-04-04T04:30:28Z",
-  "downloads": 6944
+  "quality": 410,
+  "updated": "2023-04-04T23:52:16Z",
+  "downloads": 7163
 }

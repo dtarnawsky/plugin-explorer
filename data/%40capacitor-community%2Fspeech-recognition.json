@@ -32,9 +32,9 @@
   ],
   "description": "A native plugin for speech recognition",
   "bugs": "https://github.com/capacitor-community/speech-recognition/issues",
-  "stars": 42,
+  "stars": 43,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 185,
-  "updated": "2023-04-02T20:47:44Z",
-  "downloads": 765
+  "quality": 186,
+  "updated": "2023-04-04T19:59:49Z",
+  "downloads": 786
 }

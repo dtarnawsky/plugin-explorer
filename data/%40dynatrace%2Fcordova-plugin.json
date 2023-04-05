@@ -65,5 +65,5 @@
     "cordova-android-11"
   ],
   "description": "This plugin gives you the ability to use the Dynatrace instrumentation in your hybrid application (Cordova, Ionic, ..). It uses the Mobile Agent, the JavaScript Agent. The Mobile Agent will give you all device specific values containing lifecycle informat",
-  "downloads": 4262
+  "downloads": 4462
 }

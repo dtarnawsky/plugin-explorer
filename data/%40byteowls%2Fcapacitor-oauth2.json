@@ -66,9 +66,9 @@
   ],
   "description": "Capacitor OAuth 2 client plugin",
   "bugs": "https://github.com/moberwasserlechner/capacitor-oauth2/issues",
-  "quality": 408,
-  "stars": 173,
+  "quality": 409,
+  "stars": 174,
   "image": "https://avatars.githubusercontent.com/u/1049938?v=4",
-  "updated": "2023-03-07T20:54:24Z",
-  "downloads": 20382
+  "updated": "2023-04-04T21:00:43Z",
+  "downloads": 21059
 }

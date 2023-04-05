@@ -36,5 +36,5 @@
   ],
   "description": "A plugin to expose the safe area insets from the native iOS/Android device to your web project.",
   "bugs": "https://dev.azure.com/HQCdevops/HQC/_git/capacitor-community-safe-area",
-  "downloads": 407
+  "downloads": 405
 }

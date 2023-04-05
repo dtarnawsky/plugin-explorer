@@ -199,5 +199,5 @@
   "description": "The Dialog API provides methods for triggering native dialog windows for alerts, confirmations, and input prompts",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
   "quality": null,
-  "downloads": 75113
+  "downloads": 78104
 }

@@ -201,5 +201,5 @@
   "description": "The Device API exposes internal information about the device, such as the model and operating system version, along with user information such as unique ids.",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
   "quality": null,
-  "downloads": 315458
+  "downloads": 328886
 }
