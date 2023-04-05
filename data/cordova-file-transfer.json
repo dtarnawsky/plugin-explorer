@@ -1,7 +1,9 @@
 {
   "name": "cordova-file-transfer",
   "version": "2.0.0",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/ratson/cordova-file-transfer.git",
   "author": "Ratson",
   "published": "2022-04-27T17:03:12.722Z",
@@ -22,7 +24,10 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "Cordova File Transfer Plugin",
   "bugs": "https://github.com/ratson/cordova-file-transfer/issues",

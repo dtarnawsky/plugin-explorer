@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/kulkarniswapnil/honeywell-scanner.git",
   "author": "Swapnil",
@@ -18,13 +21,14 @@
     "1.0.5"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Plugin to receive scanned code from a Honeywell scanner (CT50, CT60, D75E, others?).",
   "bugs": "https://github.com/kulkarniswapnil/honeywell-scanner/issues",
-  "stars": 3,
+  "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/17471872?v=4",
-  "quality": 105,
-  "updated": "2023-01-19T21:06:20Z",
-  "downloads": 69
+  "quality": 107,
+  "updated": "2023-03-30T16:55:54Z",
+  "downloads": 51
 }

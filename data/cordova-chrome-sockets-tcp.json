@@ -2,7 +2,9 @@
   "name": "cordova-chrome-sockets-tcp",
   "version": "1.4.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/KoenLav/cordova-plugin-chrome-apps-sockets-tcp.git",
   "author": "",
@@ -22,7 +24,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "This plugin provides TCP client sockets for Android and iOS.",
   "bugs": "https://github.com/KoenLav/cordova-plugin-chrome-apps-sockets-tcp/issues",
@@ -30,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/12446296?v=4",
   "quality": 35,
   "updated": "2022-12-12T04:08:04Z",
-  "downloads": 159
+  "downloads": 120
 }

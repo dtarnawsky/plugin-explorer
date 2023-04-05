@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/dorumrr/npmjs-cordova-honeywell-scanner-simplified.git",
   "author": "Doru Moraru (http://doru-moraru.com)",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/19718412?v=4",
   "quality": 128,
   "updated": "2022-01-22T12:15:44Z",
-  "downloads": 119
+  "downloads": 153
 }

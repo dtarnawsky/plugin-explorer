@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/xunholy/cordova-device-accounts-v2.git",
   "author": "Michael Fornaro",
@@ -29,7 +32,8 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Device Accounts Plugin",
   "bugs": "https://github.com/xunholy/cordova-device-accounts-v2/issues",
@@ -37,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/20387402?v=4",
   "quality": 14,
   "updated": "2021-04-20T02:48:30Z",
-  "downloads": 82
+  "downloads": 97
 }

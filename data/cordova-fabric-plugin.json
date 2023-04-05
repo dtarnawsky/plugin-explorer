@@ -2,7 +2,8 @@
   "name": "cordova-fabric-plugin",
   "version": "1.1.14-dev",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/sarriaroman/FabricPlugin.git",
   "author": "Roman A. Sarria",
@@ -46,7 +47,10 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Cordova Fabric.io Plugin",
   "bugs": "https://github.com/sarriaroman/FabricPlugin/issues",
@@ -54,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/370885?v=4",
   "quality": 543,
   "updated": "2023-01-31T07:34:37Z",
-  "downloads": 704
+  "downloads": 614
 }

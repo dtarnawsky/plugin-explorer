@@ -2,7 +2,8 @@
   "name": "cordova-background-location-services",
   "version": "1.1.1",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/pmwisdom/cordova-background-geolocation-services.git",
   "author": "Paul Wisdom",
@@ -31,7 +32,10 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova Background Geolocation Plugin For Anrdoid and iOS With JS Callbacks",
   "bugs": "https://github.com/pmwisdom/cordova-background-geolocation-services/issues",
@@ -39,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/6887500?v=4",
   "quality": 367,
   "updated": "2023-01-02T14:19:10Z",
-  "downloads": 45
+  "downloads": 36
 }

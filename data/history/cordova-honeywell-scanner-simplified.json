@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "1.4.3",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "1.4.3",
+      "success": true
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "1.4.3",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "cordova-honeywell-scanner-simplified"
+}
