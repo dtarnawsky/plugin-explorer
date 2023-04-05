@@ -2,7 +2,8 @@
   "name": "cordova-admobsdk",
   "version": "8.13.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "repo": "https://gitlab.com/floatinghotpot/cordova-admobsdk.git",
   "author": "Liming Xie",
@@ -72,9 +73,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Google Mobile Ads SDK, as dependency for cordova plugins",
   "bugs": "https://gitlab.com/floatinghotpot/cordova-admobsdk/issues",
-  "downloads": 176
+  "downloads": 186
 }

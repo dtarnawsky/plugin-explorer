@@ -2,7 +2,9 @@
   "name": "com.paypal.cordova.mobilesdk",
   "version": "3.5.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "ssh://git@github.com/paypal/PayPal-Cordova-Plugin.git",
   "author": "paypal",
@@ -41,10 +43,12 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "This plugin allows to add to add PayPal Payments to your application using PayPal Mobile SDK Native library",
   "bugs": "https://github.com/paypal/PayPal-Cordova-Plugin/issues",
   "quality": null,
-  "downloads": 790
+  "downloads": 625
 }

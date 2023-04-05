@@ -3,7 +3,10 @@
   "version": "0.0.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://omaxlive@github.com/omaxlive/com.omarben.inappreview.git",
   "author": "Omar Ben brahim",
@@ -22,10 +25,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Plugin that use the iOS class SKStore​Review​Controller to open the inapp review popup available since iOS 10.3",
   "bugs": "https://github.com/omaxlive/com.omarben.inappreview/issues",
   "quality": null,
-  "downloads": 1644
+  "downloads": 1270
 }

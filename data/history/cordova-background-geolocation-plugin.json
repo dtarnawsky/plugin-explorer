@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "2.0.8",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "2.0.8",
+      "success": true
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "2.0.8",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "2.0.8",
+      "success": true
+    }
+  ],
+  "name": "cordova-background-geolocation-plugin"
+}

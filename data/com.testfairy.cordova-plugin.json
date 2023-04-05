@@ -3,7 +3,10 @@
   "version": "2.60.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/testfairy/testfairy-cordova-plugin.git",
   "author": "Apache Software Foundation",
@@ -91,7 +94,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "TestFairy SDK plugin for Cordova",
   "bugs": "https://github.com/testfairy/testfairy-cordova-plugin/issues",
@@ -99,5 +103,5 @@
   "image": "https://avatars.githubusercontent.com/u/6095613?v=4",
   "quality": 129,
   "updated": "2021-12-07T13:30:26Z",
-  "downloads": 2294
+  "downloads": 1919
 }

@@ -1,12 +1,14 @@
 {
   "name": "cordova-background-geolocation-lt",
-  "version": "4.10.0",
+  "version": "4.11.1",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/transistorsoft/cordova-background-geolocation-lt.git",
   "author": "Chris Scott, Transistor Software",
-  "published": "2023-02-01T17:44:51.976Z",
+  "published": "2023-03-30T17:51:58.664Z",
   "versions": [
     "1.5.0",
     "1.5.1",
@@ -113,7 +115,9 @@
     "4.9.2",
     "4.9.3",
     "4.9.4",
-    "4.10.0"
+    "4.10.0",
+    "4.11.0",
+    "4.11.1"
   ],
   "keywords": [
     "gps",
@@ -136,13 +140,15 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "Cordova / Capacitor Background Geolocation.  The most sophisticated, cross-platform location-tracking and geofencing plugin with battery-conscious motion-detection intelligence.",
   "bugs": "https://github.com/transistorsoft/cordova-background-geolocation-lt/issues",
   "stars": 644,
   "image": "https://avatars.githubusercontent.com/u/2099918?v=4",
-  "quality": 1048,
+  "quality": 1050,
   "updated": "2023-03-25T18:09:08Z",
-  "downloads": 3432
+  "downloads": 3209
 }

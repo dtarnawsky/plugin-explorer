@@ -3,7 +3,10 @@
   "version": "6.1.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/lampaa/com.lampa.startapp.git",
   "author": "lampaa",
@@ -41,7 +44,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Phonegap plugin for check or launch other application in android device.",
   "bugs": "https://github.com/lampaa/com.lampa.startapp/issues",
@@ -49,5 +53,5 @@
   "image": "https://avatars.githubusercontent.com/u/927585?v=4",
   "quality": 488,
   "updated": "2023-03-16T20:30:34Z",
-  "downloads": 2169
+  "downloads": 2228
 }

@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "1.4.15",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "1.4.15",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "1.4.15",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "1.4.15",
+      "success": true
+    }
+  ],
+  "name": "com.razorpay.cordova"
+}

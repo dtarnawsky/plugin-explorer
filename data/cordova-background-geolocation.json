@@ -1,7 +1,9 @@
 {
   "name": "cordova-background-geolocation",
   "version": "2.12.0",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/transistorsoft/cordova-background-geolocation.git",
   "author": "Chris Scott, Transistor Software",
   "published": "2022-04-27T17:00:53.967Z",
@@ -27,10 +29,13 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "The most sophisticated cross-platform background location tracking & geofencing plugin with battery-conscious motion-detection",
   "bugs": "https://github.com/transistorsoft/cordova-background-geolocation/issues",
   "quality": null,
-  "downloads": 14
+  "downloads": 15
 }

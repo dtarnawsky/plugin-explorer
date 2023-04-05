@@ -15,6 +15,11 @@
       "version": "0.1.6",
       "failure": "native-build",
       "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "0.1.6",
+      "success": true
     }
   ],
   "name": "com.darktalker.cordova.screenshot"

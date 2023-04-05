@@ -48,13 +48,17 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Easy to use and very complete admob ads plugin for cordova, phonegap, intel and ionic. Android Google Play Services SDK and iOS SDK v7.13.1.",
   "bugs": "https://github.com/appfeel/admob-google-cordova/issues",
   "stars": 132,
   "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
   "quality": 422,
-  "updated": "2023-02-14T19:17:50Z",
-  "downloads": 69
+  "updated": "2023-04-02T22:04:46Z",
+  "downloads": 43
 }
