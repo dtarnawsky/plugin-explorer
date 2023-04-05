@@ -1,10 +1,7 @@
 {
   "name": "cordova-plugin-intercom",
   "version": "12.1.0",
-  "success": [
-    "cordova-android-11",
-    "capacitor-ios-4"
-  ],
+  "success": [],
   "repo": "https://github.com/intercom/intercom-cordova.git",
   "author": "Intercom",
   "published": "2022-06-14T00:22:13.057Z",
@@ -108,7 +105,12 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6",
+    "capacitor-ios-4"
   ],
   "description": "Official Cordova/PhoneGap plugin for Intercom",
   "bugs": "https://github.com/intercom/intercom-cordova/issues",
@@ -116,5 +118,5 @@
   "image": "https://avatars.githubusercontent.com/u/6585?v=4",
   "quality": 306,
   "updated": "2022-11-11T12:31:04Z",
-  "downloads": 7913
+  "downloads": 7695
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/dariosalvi78/cordova-plugin-health.git",
   "author": "Dario Salvi",
@@ -69,7 +71,7 @@
   "bugs": "https://github.com/dariosalvi78/cordova-plugin-health/issues",
   "stars": 165,
   "image": "https://avatars.githubusercontent.com/u/5367037?v=4",
-  "quality": 305,
+  "quality": 307,
   "updated": "2023-03-09T09:17:06Z",
-  "downloads": 3822
+  "downloads": 3684
 }

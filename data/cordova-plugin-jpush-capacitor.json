@@ -26,12 +26,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "JPush for Capacitor plugin",
   "bugs": "https://github.com/AlwaysLoveme/cordova-plugin-jpush/issues",
   "quality": 9,
-  "downloads": 48,
+  "downloads": 33,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/29945352?v=4",
   "updated": "2022-09-22T09:42:41Z"

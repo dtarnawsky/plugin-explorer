@@ -94,13 +94,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Google Maps native SDK for Android and iOS, and Google Maps JavaScript API v3 for browser.",
   "bugs": "https://github.com/mapsplugin/cordova-plugin-googlemaps/issues",
-  "stars": 1650,
+  "stars": 1651,
   "image": "https://avatars.githubusercontent.com/u/15133526?v=4",
-  "quality": 2722,
-  "updated": "2023-03-09T14:42:14Z",
-  "downloads": 3853
+  "quality": 2724,
+  "updated": "2023-04-04T17:43:54Z",
+  "downloads": 3803
 }

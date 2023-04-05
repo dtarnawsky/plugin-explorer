@@ -2,7 +2,8 @@
   "name": "cordova-plugin-firebase-crash",
   "version": "7.0.4",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-firebase-crash.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -61,13 +62,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for Firebase Crashlytics",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-crash/issues",
-  "stars": 25,
+  "stars": 26,
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
-  "quality": 162,
-  "updated": "2022-09-11T15:14:42Z",
-  "downloads": 2537
+  "quality": 163,
+  "updated": "2023-04-03T10:07:04Z",
+  "downloads": 2545
 }

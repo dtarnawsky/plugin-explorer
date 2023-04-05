@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/youssmak/cordova-plugin-ionic-webview-openblank.git",
   "author": "Youssef Makboul",
@@ -34,12 +35,13 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5"
   ],
   "description": "Cordova WKWebView OpenBlank Plugin",
   "bugs": "https://github.com/youssmak/cordova-plugin-ionic-webview-openblank/issues",
   "quality": 106,
-  "downloads": 357,
+  "downloads": 372,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/1314239?v=4",
   "updated": "2023-03-07T02:22:29Z"

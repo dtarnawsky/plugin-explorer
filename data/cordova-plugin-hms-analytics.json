@@ -4,7 +4,8 @@
   "success": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/syazanihussin/cordova-plugin-hms-analytics.git",
   "author": "syazanihussin",
@@ -19,10 +20,11 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "## Installing",
   "bugs": "https://github.com/syazanihussin/cordova-plugin-hms-analytics/issues",
   "quality": null,
-  "downloads": 4
+  "downloads": 5
 }

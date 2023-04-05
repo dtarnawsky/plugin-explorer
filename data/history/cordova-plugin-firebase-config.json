@@ -25,6 +25,11 @@
       "success": false
     },
     {
+      "test": "capacitor-ios-5",
+      "version": "7.0.3",
+      "success": true
+    },
+    {
       "test": "cordova-android-11",
       "version": "7.0.3",
       "success": true

@@ -2,7 +2,8 @@
   "name": "cordova-plugin-firebase-dynamiclinks",
   "version": "7.0.2",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -76,13 +77,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for Firebase Dynamic Links",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks/issues",
-  "stars": 55,
+  "stars": 56,
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
-  "quality": 324,
-  "updated": "2023-03-13T17:28:22Z",
-  "downloads": 5307
+  "quality": 325,
+  "updated": "2023-04-03T21:12:25Z",
+  "downloads": 5259
 }

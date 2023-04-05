@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/cordova-rtc/cordova-plugin-iosrtc.git",
   "author": "Iñaki Baz Castillo (https://inakibaz.me)",
@@ -92,7 +94,7 @@
   "bugs": "https://github.com/cordova-rtc/cordova-plugin-iosrtc/issues",
   "stars": 681,
   "image": "https://avatars.githubusercontent.com/u/54018065?v=4",
-  "quality": 1151,
-  "updated": "2023-02-26T12:32:38Z",
-  "downloads": 2476
+  "quality": 1149,
+  "updated": "2023-04-03T00:08:01Z",
+  "downloads": 2429
 }

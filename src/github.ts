@@ -161,8 +161,12 @@ export async function inspectGitHubAPI(item: Inspection) {
         }
         item.stars = gh.stargazers_count;
         item.image = gh.owner?.avatar_url;
+        if (!item.keywords) {
+            item.keywords = [];
+        }
         if (gh.topics) {
             for (const topic of gh.topics) {
+                
                 if (!item.keywords.includes(topic)) {
                     item.keywords.push(topic);
                 }

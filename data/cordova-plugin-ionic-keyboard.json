@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git",
   "author": "Apache Software Foundation",
@@ -40,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 431,
   "updated": "2023-03-21T13:34:39Z",
-  "downloads": 139983
+  "downloads": 139291
 }

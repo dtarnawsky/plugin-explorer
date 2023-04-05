@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/cordova-plugin-ionic-webview.git",
   "author": "Ionic Team",
@@ -73,11 +75,7 @@
   ],
   "keywords": [
     "cordova",
-    "wkwebview",
-    "cordova-android",
-    "cordova-ios",
-    "ionic",
-    "webview"
+    "wkwebview"
   ],
   "fails": [
     "capacitor-android-3"
@@ -88,5 +86,5 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 1083,
   "updated": "2023-03-11T18:17:14Z",
-  "downloads": 152697
+  "downloads": 152433
 }

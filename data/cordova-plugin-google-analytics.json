@@ -4,7 +4,8 @@
   "success": [
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/danwilson/google-analytics-plugin.git",
   "author": "Dan Wilson",
@@ -59,13 +60,14 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "Google Universal Analytics Plugin",
   "bugs": "https://github.com/danwilson/google-analytics-plugin/issues",
-  "stars": 695,
+  "stars": 694,
   "image": "https://avatars.githubusercontent.com/u/889308?v=4",
-  "quality": 1373,
-  "updated": "2023-03-19T20:44:10Z",
-  "downloads": 6716
+  "quality": 1372,
+  "updated": "2023-04-05T02:27:35Z",
+  "downloads": 7861
 }

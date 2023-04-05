@@ -14,10 +14,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "<p align=\"left\"> <img src=\"https://img.shields.io/badge/State-In%20Development-yellowgreen.svg?style=flat-square\"> <img src=\"https://img.shields.io/badge/Support%20for%20IronSource%20Framework%20Version-6.7.3-blue.svg?style=flat-square\"> </p>",
   "bugs": "https://github.com/Dexus/cordova-plugin-ironsource-ads-mediation-adcolony-adapter/issues",
   "quality": null,
-  "downloads": 5
+  "downloads": 4
 }

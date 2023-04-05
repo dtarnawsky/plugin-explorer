@@ -6,7 +6,8 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/sunflowerenergias/cordova-plugin-gpsmockchecker.git",
   "author": "Sunflower Energias SL",
@@ -29,7 +30,8 @@
     "mock gps"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "This is a cordova plugin to avoid mock locations.",
   "bugs": "https://github.com/sunflowerenergias/cordova-plugin-gpsmockchecker/issues",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/50835379?v=4",
   "quality": 105,
   "updated": "2019-06-05T06:24:44Z",
-  "downloads": 318
+  "downloads": 358
 }

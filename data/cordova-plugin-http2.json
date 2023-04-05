@@ -25,12 +25,14 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Cordova / Phonegap plugin for communicating with HTTP servers using SSL pinning",
   "bugs": "https://github.com/sneas/cordova-HTTP2/issues",
   "quality": 104,
-  "downloads": 15,
+  "downloads": 13,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/144651?v=4",
   "updated": "2018-02-02T08:37:05Z"
