@@ -28,5 +28,5 @@
   ],
   "description": "Provide PushKit functionality to ionic capacitor",
   "bugs": "https://gitlab.com/yleso/capacitor-callkit-voip.git/issues",
-  "downloads": 64
+  "downloads": 63
 }

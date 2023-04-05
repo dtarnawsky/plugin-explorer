@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-media.git",
   "author": "Apache Software Foundation",
@@ -64,13 +65,14 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5"
   ],
   "description": "Cordova Media Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-media/issues",
-  "quality": 1342,
-  "downloads": 55734,
-  "stars": 380,
+  "quality": 1344,
+  "downloads": 56888,
+  "stars": 381,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "updated": "2023-03-23T11:25:06Z"
+  "updated": "2023-03-29T22:18:31Z"
 }

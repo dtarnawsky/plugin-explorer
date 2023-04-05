@@ -3,7 +3,9 @@
   "version": "1.1.2",
   "success": [
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/cordova-plugin-android-permission.git",
   "author": "Jason Yang",

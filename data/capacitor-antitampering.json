@@ -34,5 +34,5 @@
   "description": "Capacitor plugin to verifies the integrity of the static assets of your application, cheking if the files have changed since the original build.",
   "bugs": "https://github.com/asephermann/capacitor-antitampering/issues",
   "quality": null,
-  "downloads": 1889
+  "downloads": 2026
 }

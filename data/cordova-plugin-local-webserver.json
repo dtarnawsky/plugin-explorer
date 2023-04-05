@@ -2,7 +2,8 @@
   "name": "cordova-plugin-local-webserver",
   "version": "2.3.1",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "repo": "https://speige/cordova-plugin-local-webserver.git",
   "author": "",
@@ -21,9 +22,10 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "description": "Cordova Local Web Server Plugin",
   "bugs": "https://github.com/Collaborne/cordova-plugins/issues",
-  "downloads": 10
+  "downloads": 12
 }

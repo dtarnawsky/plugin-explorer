@@ -33,7 +33,7 @@
   "description": "Fork copy of capgo-inappbrowser with intent handling on android webview",
   "bugs": "https://github.com/Cap-go/capacitor-inappbrowser/issues",
   "quality": 122,
-  "downloads": 35,
+  "downloads": 30,
   "stars": 11,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
   "updated": "2023-02-24T08:59:26Z"

@@ -29,5 +29,5 @@
   "description": "Capacitor plugin for media notifications and platform media keys as well as background audio playback",
   "bugs": "https://github.com/williartsinternet/capacitor-media-session/issues",
   "quality": null,
-  "downloads": 15
+  "downloads": 18
 }

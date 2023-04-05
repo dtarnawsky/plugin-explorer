@@ -46,7 +46,7 @@
   "description": "Allow users to authenticate with Face ID or Touch ID on iOS devices",
   "bugs": "https://github.com/danielsogl/capacitor-face-id/issues",
   "quality": 218,
-  "downloads": 452,
+  "downloads": 476,
   "stars": 98,
   "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
   "updated": "2023-02-16T18:30:25Z"

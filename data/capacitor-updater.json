@@ -147,9 +147,9 @@
   ],
   "description": "OTA update for capacitor apps",
   "bugs": "https://github.com/Cap-go/capacitor-updater/issues",
-  "stars": 274,
+  "stars": 275,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "quality": 444,
-  "updated": "2023-04-04T19:46:28Z",
-  "downloads": 1250
+  "quality": 445,
+  "updated": "2023-04-05T14:53:46Z",
+  "downloads": 1261
 }

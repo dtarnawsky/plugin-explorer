@@ -32,7 +32,7 @@
   "description": "Launch the app by a NFC tag and read the data",
   "bugs": "https://github.com/NePheus/capacitor-nfc-launch/issues",
   "quality": 101,
-  "downloads": 61,
+  "downloads": 59,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
   "updated": "2022-06-02T05:01:53Z"

@@ -7,8 +7,20 @@
       "success": false
     },
     {
+      "test": "capacitor-android-5",
+      "version": "0.0.32",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
       "test": "capacitor-ios-5",
       "version": "0.0.31",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "0.0.32",
       "failure": "cap-sync",
       "success": false
     },

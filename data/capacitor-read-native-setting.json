@@ -33,5 +33,5 @@
   "description": "A simple plugin to read from Info.plist on iOS and strings.xml on Android",
   "bugs": "https://github.com/ingageco/capacitor-read-native-setting/issues",
   "quality": null,
-  "downloads": 60
+  "downloads": 58
 }

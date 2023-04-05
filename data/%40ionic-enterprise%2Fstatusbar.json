@@ -2,7 +2,9 @@
   "name": "@ionic-enterprise/statusbar",
   "version": "3.0.0",
   "success": [
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/cordova-plugin-statusbar.git",
   "author": "Apache Software Foundation",

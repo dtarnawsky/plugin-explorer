@@ -29,8 +29,12 @@
   ],
   "description": "This package is no longer supported and has been deprecated. To avoid malicious use, npm is hanging on to the package name.",
   "bugs": "https://github.com/npm/deprecate-holder/issues",
-  "quality": null,
+  "quality": 145,
   "downloads": 25,
   "stars": 21,
-  "image": "https://avatars.githubusercontent.com/u/6078720?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6078720?v=4",
+  "keywords": [
+    "registry"
+  ],
+  "updated": "2023-03-08T16:28:37Z"
 }

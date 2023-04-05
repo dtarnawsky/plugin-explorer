@@ -4,7 +4,9 @@
   "success": [
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-splashscreen.git",
   "author": "Apache Software Foundation",
@@ -42,6 +44,6 @@
   "bugs": "https://github.com/apache/cordova-plugin-splashscreen/issues",
   "stars": 637,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "quality": 1395,
+  "quality": 1396,
   "updated": "2023-03-27T17:00:48Z"
 }

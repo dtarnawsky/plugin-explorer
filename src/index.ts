@@ -1,6 +1,5 @@
 import { inspect } from './inspect.js';
 import { catalog, readPluginList, removeFromPluginList, writePluginList } from './catalog.js';
-import { clone } from './clone.js';
 import { hasArg } from './utils.js';
 import { filter, FilterType } from './filter.js';
 import { Test, TestInfo } from './test.js';

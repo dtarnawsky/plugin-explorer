@@ -31,5 +31,5 @@
   ],
   "description": "Native bridge with Capacitor plugin and PixelPaySDK",
   "bugs": "https://ionic.io/issues",
-  "downloads": 15
+  "downloads": 13
 }

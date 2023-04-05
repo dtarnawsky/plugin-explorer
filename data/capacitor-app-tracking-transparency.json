@@ -35,5 +35,5 @@
   "description": "Capacitor plugin to request user authorization to access app-related data for tracking the user or the device. iOS only.",
   "bugs": "https://github.com/rediska1114/capacitor-app-tracking-transparency.git/issues",
   "quality": null,
-  "downloads": 143
+  "downloads": 146
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git",
   "author": "S.J.Hoeksma",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/5503837?v=4",
   "quality": 409,
   "updated": "2022-11-01T02:31:04Z",
-  "downloads": 1715
+  "downloads": 1804
 }

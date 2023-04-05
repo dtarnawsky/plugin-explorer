@@ -29,7 +29,7 @@
   "description": "White listing an Android application programmatically from battery optimize settings",
   "bugs": "https://github.com/asephermann/capacitor-doze-optimize/issues",
   "quality": 3,
-  "downloads": 88,
+  "downloads": 89,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
   "updated": "2022-12-23T12:12:23Z"

@@ -60,9 +60,9 @@
   ],
   "description": "Cordova plugin for uploading file in the background",
   "bugs": "https://github.com/spoonconsulting/cordova-plugin-background-upload/issues",
-  "quality": 225,
-  "downloads": 466,
-  "stars": 47,
+  "quality": 226,
+  "downloads": 477,
+  "stars": 48,
   "image": "https://avatars.githubusercontent.com/u/15421014?v=4",
-  "updated": "2023-02-03T17:00:54Z"
+  "updated": "2023-04-04T23:18:57Z"
 }

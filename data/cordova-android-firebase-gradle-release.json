@@ -28,5 +28,5 @@
     "cordova-android-11"
   ],
   "description": "Cordova/Phonegap plugin for Android to align versions of the Firebase library components specified by other plugins to a specific version.",
-  "downloads": 1651
+  "downloads": 1689
 }

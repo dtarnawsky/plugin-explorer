@@ -82,9 +82,9 @@
   ],
   "description": "Cordova plugin for Firebase Dynamic Links",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks/issues",
-  "stars": 56,
+  "stars": 55,
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
-  "quality": 325,
-  "updated": "2023-04-03T21:12:25Z",
+  "quality": 324,
+  "updated": "2023-04-05T12:04:19Z",
   "downloads": 5259
 }

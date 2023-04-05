@@ -72,7 +72,9 @@
     "smart",
     "ecosystem:cordova",
     "cordova-ios",
-    "cordova-android"
+    "cordova-android",
+    "bluetooth-low-energy",
+    "cordova-plugin"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -83,7 +85,7 @@
   "bugs": "https://github.com/don/cordova-plugin-ble-central/issues",
   "stars": 906,
   "image": "https://avatars.githubusercontent.com/u/3133?v=4",
-  "quality": 1647,
+  "quality": 1648,
   "updated": "2023-03-29T04:43:59Z",
   "downloads": 46239
 }

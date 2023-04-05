@@ -31,5 +31,5 @@
   "description": "A Capacitor plugin to check and request permission for using location service (Android)",
   "bugs": "https://github.com/asephermann/capacitor-request-location/issues",
   "quality": null,
-  "downloads": 1884
+  "downloads": 2021
 }

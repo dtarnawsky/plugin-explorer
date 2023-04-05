@@ -31,7 +31,7 @@
   "description": "This Cordova plugin provides JavaScript API, that allows you to communicate with server through TCP protocol. Currently we support these platforms: iOS, Android, WP8.",
   "bugs": "https://github.com/vendus/sockets-for-cordova/issues",
   "quality": 5,
-  "downloads": 259,
+  "downloads": 267,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/36049514?v=4",
   "updated": "2022-12-06T06:05:52Z"

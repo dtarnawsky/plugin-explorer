@@ -5,7 +5,8 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/enterprise-auth.git",
   "author": "Ionic Team <hi@ionic.io> (https://ionicframework.com)",
@@ -157,7 +158,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "Ionic Identity Vault Plugin",
   "bugs": "https://ionic.zendesk.com/hc/en-us",

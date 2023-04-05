@@ -166,5 +166,5 @@
   "description": "SQLite Storage of key/value strings pair",
   "bugs": "https://github.com/jepiqueau/capacitor-data-storage-sqlite.git/issues",
   "quality": null,
-  "downloads": 8093
+  "downloads": 8264
 }

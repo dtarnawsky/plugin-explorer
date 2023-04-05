@@ -1,7 +1,10 @@
 {
   "name": "@ionic-enterprise/device",
   "version": "2.0.6",
-  "success": [],
+  "success": [
+    "capacitor-android-5",
+    "capacitor-ios-5"
+  ],
   "repo": "https://github.com/ionic-team/cordova-plugin-device.git",
   "author": "Apache Software Foundation",
   "published": "2023-03-22T13:19:38.051Z",

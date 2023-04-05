@@ -31,7 +31,7 @@
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
   "bugs": "https://github.com/StarleyDev/barcodescanner-sdk31/issues",
   "quality": 8,
-  "downloads": 22,
+  "downloads": 24,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/9012499?v=4",
   "updated": "2022-12-12T09:33:17Z"

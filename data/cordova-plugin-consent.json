@@ -2,7 +2,8 @@
   "name": "cordova-plugin-consent",
   "version": "2.4.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/admob-plus/admob-plus.git",
   "author": "Ratson",

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "ssh://git@github.com/eyeseet/cordova-plugin-minify.git",
   "author": "Content & Creations",
@@ -33,5 +35,5 @@
   "description": "Plugin for minifying your html, js and css",
   "bugs": "https://github.com/eyeseet/cordova-plugin-minify/issues",
   "quality": null,
-  "downloads": 254
+  "downloads": 286
 }

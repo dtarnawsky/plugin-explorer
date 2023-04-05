@@ -72,5 +72,14 @@
   "bugs": "https://github.com/Microsoft/code-push/issues",
   "stars": 4239,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
-  "downloads": 568054
+  "downloads": 592297,
+  "keywords": [
+    "codepush",
+    "cordova",
+    "react",
+    "react-native",
+    "reactnative"
+  ],
+  "quality": 4818,
+  "updated": "2023-04-01T12:25:58Z"
 }

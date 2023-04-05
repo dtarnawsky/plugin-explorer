@@ -91,7 +91,7 @@
   "description": "Run SQLite on the device and IndexedDB in the browser with exactly the same API with nanoSQL 2!",
   "bugs": "https://github.com/ClickSimply/Nano-SQL/issues",
   "quality": 973,
-  "downloads": 203,
+  "downloads": 204,
   "stars": 771,
   "image": "https://avatars.githubusercontent.com/u/14365337?v=4",
   "updated": "2023-03-31T11:16:23Z"

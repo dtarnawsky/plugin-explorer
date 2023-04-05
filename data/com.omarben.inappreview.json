@@ -31,5 +31,5 @@
   "description": "Cordova Plugin that use the iOS class SKStore​Review​Controller to open the inapp review popup available since iOS 10.3",
   "bugs": "https://github.com/omaxlive/com.omarben.inappreview/issues",
   "quality": null,
-  "downloads": 1270
+  "downloads": 1339
 }
