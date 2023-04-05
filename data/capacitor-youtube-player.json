@@ -185,7 +185,9 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "capacitor-plugin",
+    "youtube-player"
   ],
   "fails": [
     "capacitor-android-4",
@@ -193,10 +195,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor Youtube Player",
   "bugs": "https://github.com/abritopach/capacitor-youtube-player/issues",
-  "quality": null,
-  "downloads": 537
+  "quality": 147,
+  "downloads": 453,
+  "stars": 32,
+  "image": "https://avatars.githubusercontent.com/u/2934069?v=4",
+  "updated": "2023-01-26T19:36:14Z"
 }

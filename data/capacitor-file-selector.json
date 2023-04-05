@@ -23,10 +23,15 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Select File from the Native Filesystem",
   "bugs": "https://github.com/hinddeep/capacitor-file-selector/issues",
-  "quality": null,
-  "downloads": 239
+  "quality": 132,
+  "downloads": 252,
+  "stars": 13,
+  "image": "https://avatars.githubusercontent.com/u/22722365?v=4",
+  "updated": "2022-02-24T09:03:26Z"
 }

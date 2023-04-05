@@ -26,10 +26,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "This plugin allows to add card.io scanning capabilities to your application using card.io SDK Native library",
   "bugs": "https://github.com/card-io/card.io-Cordova-Plugin/issues",
   "quality": null,
-  "downloads": 1521
+  "downloads": 1435
 }

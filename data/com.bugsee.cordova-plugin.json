@@ -3,7 +3,10 @@
   "version": "4.1.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "author": "Bugsee",
   "published": "2023-02-26T15:34:16.142Z",
@@ -70,9 +73,10 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Bugsee plugin for Cordova",
   "bugs": "https://github.com/bugsee/cordova/issues",
-  "downloads": 276
+  "downloads": 121
 }

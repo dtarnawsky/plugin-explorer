@@ -20,7 +20,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A capacitor camera plugin",
   "bugs": "https://github.com/xulihang/capacitor-plugin-camera/issues",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/5462205?v=4",
   "quality": 101,
   "updated": "2023-03-07T04:17:44Z",
-  "downloads": 7
+  "downloads": 8
 }

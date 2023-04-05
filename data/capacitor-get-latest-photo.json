@@ -24,7 +24,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Grabs the latest photo from the camera roll",
   "bugs": "https://github.com/joshuamorony/capacitor-get-latest-photo/issues",

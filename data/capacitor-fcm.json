@@ -38,7 +38,9 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "capacitor-ios-5",
-    "capacitor-android-5"
+    "capacitor-android-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Brings Firebase Cloud Messaging features to Capacitor",
   "bugs": "https://github.com/stewwan/capacitor-fcm/issues",

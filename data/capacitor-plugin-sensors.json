@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/zzlcoding/capacitor-plugin-sensors.git",
   "author": "zzlcoding",
@@ -25,6 +27,9 @@
   ],
   "description": "plugin for capacitor read sensors data easily.",
   "bugs": "https://github.com/zzlcoding/capacitor-plugin-sensors.git/issues",
-  "quality": null,
-  "downloads": 31
+  "quality": 103,
+  "downloads": 30,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/12132082?v=4",
+  "updated": "2021-12-31T06:00:50Z"
 }

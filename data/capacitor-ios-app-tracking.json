@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/migtam628/capacitor-ios-app-tracking.git",
   "author": "Mig Tam Rod",
@@ -44,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/26477083?v=4",
   "quality": 133,
   "updated": "2022-06-23T08:42:25Z",
-  "downloads": 6508
+  "downloads": 5769
 }

@@ -21,10 +21,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to perform infinite background execution",
   "bugs": "https://github.com/angeloraso/capacitor-plugin-background-mode.git/issues",
   "quality": null,
-  "downloads": 186
+  "downloads": 173
 }

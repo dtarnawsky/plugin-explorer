@@ -37,10 +37,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor MIDI plugin by MuseTrainer",
   "bugs": "https://github.com/musetrainer/capacitor-musetrainer-midi/issues",
-  "quality": null,
-  "downloads": 57
+  "quality": 102,
+  "downloads": 64,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/114279410?v=4",
+  "updated": "2023-02-08T10:43:21Z"
 }

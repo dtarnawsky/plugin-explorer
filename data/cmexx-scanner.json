@@ -25,10 +25,12 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Plugin para scaneamento de códigos de barras 2D pequenos, com utilização de inteligência artificial.",
   "bugs": "https://github.com/bioxxiti/cmexx-scanner/issues",
   "quality": null,
-  "downloads": 17
+  "downloads": 13
 }

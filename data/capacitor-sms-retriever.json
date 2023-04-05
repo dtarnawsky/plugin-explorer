@@ -3,7 +3,9 @@
   "version": "0.1.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/dwlrathod/capacitor-sms-retriever.git",
   "author": "Dhawal Rathod",
@@ -31,5 +33,5 @@
   "description": "Android SMS Retriever API for Capacitor.",
   "bugs": "https://github.com/dwlrathod/capacitor-sms-retriever/issues",
   "quality": null,
-  "downloads": 96
+  "downloads": 101
 }

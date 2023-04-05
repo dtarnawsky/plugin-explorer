@@ -1,13 +1,13 @@
 {
   "name": "capacitor-plugin-glassfy",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://glassfy.io.git",
   "author": "Glassfy",
-  "published": "2023-01-19T15:09:51.124Z",
+  "published": "2023-03-31T12:28:59.071Z",
   "versions": [
     "1.1.7",
     "1.1.70",
@@ -23,7 +23,8 @@
     "2.0.3",
     "2.0.4",
     "2.0.5",
-    "2.0.6"
+    "2.0.6",
+    "2.0.7"
   ],
   "keywords": [
     "capacitor",
@@ -34,9 +35,11 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Glassfy Plugin",
   "bugs": "https://glassfy.io/issues",
-  "downloads": 514
+  "downloads": 618
 }

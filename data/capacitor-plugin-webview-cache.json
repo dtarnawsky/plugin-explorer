@@ -24,10 +24,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Clears Android WebView cache",
   "bugs": "https://github.com/FrameworkSystemsGmbH/capacitor-plugin-webview-cache/issues",
-  "quality": null,
-  "downloads": 295
+  "quality": 105,
+  "downloads": 237,
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/26323952?v=4",
+  "updated": "2022-09-08T11:33:49Z"
 }

@@ -26,10 +26,12 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A Capacitor Plugin to select Files",
   "bugs": "https://github.com/EinfachHans/capacitor-file-select.git/issues",
   "quality": null,
-  "downloads": 176
+  "downloads": 167
 }

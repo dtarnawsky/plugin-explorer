@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/j3k0/cordova-plugin-purchase.git",
   "author": "Jean-Christophe Hoelt <hoelt@fovea.cc>",
@@ -72,6 +74,9 @@
   ],
   "description": "Cordova Purchase plugin for iOS, Android, Windows (AppStore, Play, UWP)",
   "bugs": "https://github.com/j3k0/cordova-plugin-purchase/issues",
-  "quality": null,
-  "downloads": 928
+  "quality": 1938,
+  "downloads": 922,
+  "stars": 1212,
+  "image": "https://avatars.githubusercontent.com/u/191881?v=4",
+  "updated": "2023-03-28T23:01:46Z"
 }

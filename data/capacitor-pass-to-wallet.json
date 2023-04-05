@@ -29,7 +29,9 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Allow to add .pkpass files to Apple Wallet",
   "bugs": "https://github.com/valentinAbundo/capacitor-pass-to-wallet/issues",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/87326120?v=4",
   "quality": 108,
   "updated": "2023-03-10T19:44:17Z",
-  "downloads": 228
+  "downloads": 213
 }

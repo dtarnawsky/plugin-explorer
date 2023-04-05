@@ -3,7 +3,10 @@
   "version": "4.32.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "published": "2022-09-16T13:28:47.793Z",
   "versions": [
@@ -49,8 +52,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin for the Adjust SDK",
-  "downloads": 5369
+  "downloads": 5015
 }

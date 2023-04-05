@@ -19,16 +19,22 @@
     "capacitor",
     "plugin",
     "browser",
-    "native"
+    "native",
+    "capacitor-plugin"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Fork copy of capgo-inappbrowser with intent handling on android webview",
   "bugs": "https://github.com/Cap-go/capacitor-inappbrowser/issues",
-  "quality": null,
-  "downloads": 34
+  "quality": 122,
+  "downloads": 35,
+  "stars": 11,
+  "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
+  "updated": "2023-02-24T08:59:26Z"
 }

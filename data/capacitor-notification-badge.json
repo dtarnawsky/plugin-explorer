@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/epicshaggy/capacitor-notification-badge.git",
   "author": "Jose Martinez",
@@ -32,5 +34,5 @@
   "description": "Set the app icon's notification badge number",
   "bugs": "https://github.com/epicshaggy/capacitor-notification-badge.git/issues",
   "quality": null,
-  "downloads": 202
+  "downloads": 191
 }

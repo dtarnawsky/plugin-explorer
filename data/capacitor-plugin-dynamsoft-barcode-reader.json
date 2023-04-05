@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/xulihang/capacitor-plugin-dynamsoft-barcode-reader.git",
   "author": "Xu Lihang",
@@ -62,9 +64,9 @@
   ],
   "description": "A capacitor plugin for Dynamsoft Barcode Reader",
   "bugs": "https://github.com/xulihang/capacitor-plugin-dynamsoft-barcode-reader/issues",
-  "stars": 5,
+  "stars": 6,
   "image": "https://avatars.githubusercontent.com/u/112376616?v=4",
-  "quality": 105,
-  "updated": "2023-03-29T13:41:22Z",
-  "downloads": 288
+  "quality": 106,
+  "updated": "2023-04-03T21:45:42Z",
+  "downloads": 321
 }

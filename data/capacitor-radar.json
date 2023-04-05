@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/radarlabs/capacitor-radar.git",
   "author": "Radar Labs, Inc.",
@@ -40,7 +42,13 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "background-geolocation",
+    "geocoding",
+    "geofencing",
+    "geolocation",
+    "location-tracking",
+    "radar"
   ],
   "fails": [
     "capacitor-android-3",
@@ -49,6 +57,9 @@
   ],
   "description": "Capacitor plugin for Radar, the leading geofencing and location tracking platform",
   "bugs": "https://github.com/radarlabs/capacitor-radar/issues",
-  "quality": null,
-  "downloads": 1820
+  "quality": 132,
+  "downloads": 1783,
+  "stars": 15,
+  "image": "https://avatars.githubusercontent.com/u/19912091?v=4",
+  "updated": "2023-02-27T11:22:57Z"
 }

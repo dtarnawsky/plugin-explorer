@@ -29,7 +29,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A simple plugin that opens the app's settings page (if it exists)",
   "bugs": "https://github.com/swernimo/capacitor-open-app-settings/issues",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/11137058?v=4",
   "quality": 101,
   "updated": "2022-08-10T06:28:51Z",
-  "downloads": 896
+  "downloads": 860
 }

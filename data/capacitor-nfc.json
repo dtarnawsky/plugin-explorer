@@ -2,7 +2,8 @@
   "name": "capacitor-nfc",
   "version": "0.1.5",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/adrynov/Capacitor-NFC-Plugin.git",
   "author": "Andrei Drynov",
@@ -38,10 +39,14 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "Read NFC tags",
   "bugs": "https://github.com/adrynov/Capacitor-NFC-Plugin/issues",
-  "quality": null,
-  "downloads": 108
+  "quality": 161,
+  "downloads": 154,
+  "stars": 26,
+  "image": "https://avatars.githubusercontent.com/u/922429?v=4",
+  "updated": "2022-09-19T02:50:43Z"
 }

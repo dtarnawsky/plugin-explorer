@@ -1,0 +1,21 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "0.1.6",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "0.1.6",
+      "success": true
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.1.6",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "com.darktalker.cordova.screenshot"
+}

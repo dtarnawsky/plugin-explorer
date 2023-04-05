@@ -29,10 +29,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor ZeroConf plugin",
   "bugs": "https://github.com/trik/capacitor-zeroconf/issues",
-  "quality": null,
-  "downloads": 24
+  "quality": 6,
+  "downloads": 23,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/1615301?v=4",
+  "updated": "2023-02-10T12:50:11Z"
 }

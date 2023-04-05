@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/clovelCed/cordova-plugin-audiomanagement.git",
   "author": "Cédric CLOVEL",
@@ -32,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/6562088?v=4",
   "quality": 113,
   "updated": "2020-10-26T15:55:10Z",
-  "downloads": 326
+  "downloads": 320
 }

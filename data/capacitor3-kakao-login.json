@@ -27,10 +27,15 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "kakao login for capacitor3",
   "bugs": "https://github.com/efluvi/capacitor3-kakao-login/issues",
-  "quality": null,
-  "downloads": 700
+  "quality": 112,
+  "downloads": 734,
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/64414605?v=4",
+  "updated": "2023-03-27T01:21:19Z"
 }

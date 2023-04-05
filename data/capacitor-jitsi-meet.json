@@ -134,7 +134,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "This Ionic Capacitor plugin is created to make video calls through the free, open-sourced Jitsi video platform (https://meet.jit.si) on iOS and Android.",
   "bugs": "https://github.com/calvinckho/capacitor-jitsi-meet/issues",
@@ -142,5 +144,5 @@
   "image": "https://avatars.githubusercontent.com/u/23274587?v=4",
   "quality": 200,
   "updated": "2023-03-21T23:14:23Z",
-  "downloads": 1293
+  "downloads": 1256
 }

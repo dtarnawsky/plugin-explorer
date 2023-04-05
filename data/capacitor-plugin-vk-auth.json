@@ -24,7 +24,10 @@
     "plugin",
     "native",
     "vk",
-    "auth"
+    "auth",
+    "android",
+    "authentication",
+    "ios"
   ],
   "fails": [
     "capacitor-ios-4",
@@ -32,10 +35,15 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "VK Authentication with capacitor",
   "bugs": "https://github.com/BazuMax/capacitor-plugin-vk-auth/issues",
-  "quality": null,
-  "downloads": 64
+  "quality": 104,
+  "downloads": 69,
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/57247603?v=4",
+  "updated": "2022-12-28T22:25:38Z"
 }

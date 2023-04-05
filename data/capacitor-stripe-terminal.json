@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/eventOneHQ/capacitor-stripe-terminal.git",
   "author": "eventOne Labs <opensource@event1.io>",
@@ -62,7 +63,10 @@
     "hacktoberfest"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Capacitor plugin for Stripe Terminal (credit card readers).",
   "bugs": "https://github.com/eventOneHQ/capacitor-stripe-terminal/issues",
@@ -70,5 +74,5 @@
   "image": "https://avatars.githubusercontent.com/u/15706470?v=4",
   "quality": 137,
   "updated": "2023-02-28T13:04:30Z",
-  "downloads": 4230
+  "downloads": 3500
 }

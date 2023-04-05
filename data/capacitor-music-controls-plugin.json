@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ingageco/capacitor-music-controls-plugin.git",
   "author": "Ingage",
@@ -26,7 +28,13 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "ionic-capacitor",
+    "ionic-framework",
+    "java",
+    "javascript",
+    "swift",
+    "typescript"
   ],
   "fails": [
     "capacitor-android-3",
@@ -36,6 +44,9 @@
   ],
   "description": "Implementation of MusicControls for Capacitor projects",
   "bugs": "https://github.com/ingageco/capacitor-music-controls-plugin/issues",
-  "quality": null,
-  "downloads": 48
+  "quality": 152,
+  "downloads": 38,
+  "stars": 20,
+  "image": "https://avatars.githubusercontent.com/u/1514415?v=4",
+  "updated": "2023-01-29T16:54:47Z"
 }

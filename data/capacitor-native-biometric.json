@@ -3,7 +3,9 @@
   "version": "4.1.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/epicshaggy/capacitor-native-biometric.git",
   "author": "Jose Martinez",
@@ -49,6 +51,9 @@
   ],
   "description": "This plugin gives access to the native biometric apis for android and iOS",
   "bugs": "https://github.com/epicshaggy/capacitor-native-biometric/issues",
-  "quality": null,
-  "downloads": 47708
+  "quality": 310,
+  "downloads": 45373,
+  "stars": 116,
+  "image": "https://avatars.githubusercontent.com/u/50883345?v=4",
+  "updated": "2023-04-03T14:03:20Z"
 }

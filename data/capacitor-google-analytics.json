@@ -34,7 +34,11 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-3",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "A Google/Firebase Analytics plugin for use with Capacitor Hybrid Applications",
   "bugs": "https://github.com/vancuren/capacitor-google-analytics.git/issues",
@@ -42,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/31829375?v=4",
   "quality": 105,
   "updated": "2022-04-11T20:43:20Z",
-  "downloads": 39
+  "downloads": 33
 }

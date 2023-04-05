@@ -45,7 +45,11 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for Jetbeep SDK solution.",
   "bugs": "https://github.com/jetbeep/cordova-sdk/issues",
@@ -53,5 +57,5 @@
   "image": "https://avatars.githubusercontent.com/u/35913942?v=4",
   "quality": 100,
   "updated": "2022-10-31T15:31:00Z",
-  "downloads": 467
+  "downloads": 135
 }
