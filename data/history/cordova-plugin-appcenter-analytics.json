@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "0.5.1",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "0.5.1",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.5.1",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "0.5.1",
+      "success": true
+    }
+  ],
+  "name": "cordova-plugin-appcenter-analytics"
+}

@@ -2,7 +2,8 @@
   "name": "cordova-plugin-firebase",
   "version": "2.0.5",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/arnesson/cordova-plugin-firebase.git",
   "author": "Robert Arnesson",
@@ -70,13 +71,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for Google Firebase",
   "bugs": "https://github.com/arnesson/cordova-plugin-firebase/issues",
   "stars": 1003,
   "image": "https://avatars.githubusercontent.com/u/18620596?v=4",
-  "quality": 2892,
+  "quality": 2894,
   "updated": "2023-03-17T12:03:53Z",
-  "downloads": 2742
+  "downloads": 2274
 }

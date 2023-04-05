@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/creacore-team/cordova-plugin-calllog.git",
   "author": "Creacore",
@@ -29,7 +32,8 @@
     "ionic-plugin"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "A plugin to get the device's call log",
   "bugs": "https://github.com/creacore-team/cordova-plugin-calllog/issues",
@@ -37,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/29551618?v=4",
   "quality": 125,
   "updated": "2021-11-02T21:01:34Z",
-  "downloads": 175
+  "downloads": 143
 }

@@ -1,0 +1,62 @@
+✔ Building xArchive in 23.83s
+✖ Building IPA - failed!
+[error] 2023-04-04 20:51:08.260 xcodebuild[87905:1259592] [MT] IDEDistribution: -[IDEDistributionLogging _createLoggingBundleAtPath:]: Created bundle at path "/var/folders/lp/0c9d80456vdbrcd8jv2l6wp40000gn/T/App_2023-04-04_20-51-08.259.xcdistributionlogs".
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600002433ae0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600002433ba0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600002433d40; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: "App.app" requires a provisioning profile.
+        
+        Error Domain=IDEProvisioningErrorDomain Code=9 ""App.app" requires a provisioning profile." UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedDescription="App.app" requires a provisioning profile., NSLocalizedRecoverySuggestion=Add a profile to the "provisioningProfiles" dictionary in your Export Options property list.}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x60000240ac80; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x6000024ea0c0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x6000024372c0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600002433cc0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x60000242a440; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x60000242b360; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600002433ea0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x6000024d2ec0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x60000240adc0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        error: exportArchive: No signing certificate "iOS Distribution" found
+        
+        Error Domain=IDECodesignResolverErrorDomain Code=1 "No signing certificate "iOS Distribution" found" UserInfo={IDEDistributionIssueSeverity=3, NSLocalizedRecoverySuggestion=No "iOS Distribution" signing certificate matching team ID "N3B3WKDZND" with a private key was found., IDEProvisioningError_UserInfoKey_IDEProvisioningErrorSpecifier=iOS Distribution, NSLocalizedDescription=No signing certificate "iOS Distribution" found, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorPlatform=com.apple.platform.iphoneos, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorAction=5, IDEProvisioningError_UserInfoKey_IDEProvisioningErrorTeam=<IDEProvisioningBasicTeam: 0x600002433fc0; teamID='N3B3WKDZND', teamName='(null)'>}
+        
+        ** EXPORT FAILED **
+        
+        

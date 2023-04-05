@@ -3,7 +3,10 @@
   "version": "1.1.7",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/HomeControlAS/cordova-plugin-advanced-websocket.git",
   "author": "HomeControl AS",
@@ -28,13 +31,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Plugin for using WebSockets",
   "bugs": "https://github.com/HomeControlAS/cordova-plugin-advanced-websocket/issues",
-  "stars": 24,
+  "stars": 25,
   "image": "https://avatars.githubusercontent.com/u/11330632?v=4",
-  "quality": 145,
-  "updated": "2022-10-17T03:30:58Z",
-  "downloads": 479
+  "quality": 146,
+  "updated": "2023-03-30T06:57:38Z",
+  "downloads": 487
 }

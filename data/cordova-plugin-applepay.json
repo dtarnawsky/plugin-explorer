@@ -3,7 +3,10 @@
   "version": "5.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/samkelleher/cordova-plugin-applepay.git",
   "author": "Sam Kelleher <sam@samkelleher.com> (https://samkelleher.com/)",
@@ -22,7 +25,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "An adapted Cordova plugin to provide Apple Pay functionality.",
   "bugs": "https://github.com/samkelleher/cordova-plugin-applepay/issues",
@@ -30,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/277884?v=4",
   "quality": 223,
   "updated": "2022-08-23T03:17:35Z",
-  "downloads": 1830
+  "downloads": 1951
 }

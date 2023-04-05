@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/an-rahulpandey/cordova-plugin-dbcopy.git",
   "author": "Rahul Pandey",
@@ -50,5 +52,5 @@
   "image": "https://avatars.githubusercontent.com/u/2369752?v=4",
   "quality": 247,
   "updated": "2022-12-14T07:50:03Z",
-  "downloads": 839
+  "downloads": 832
 }

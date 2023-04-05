@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-contacts.git",
   "author": "Apache Software Foundation",
@@ -50,7 +52,15 @@
     "cordova-wp8",
     "cordova-firefoxos",
     "cordova-windows8",
-    "cordova-windows"
+    "cordova-windows",
+    "cplusplus",
+    "csharp",
+    "java",
+    "javascript",
+    "library",
+    "mobile",
+    "nodejs",
+    "objective-c"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -59,6 +69,9 @@
   ],
   "description": "Cordova Contacts Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
-  "quality": null,
-  "downloads": 9640
+  "quality": 700,
+  "downloads": 9164,
+  "stars": 215,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "updated": "2023-03-02T21:34:41Z"
 }

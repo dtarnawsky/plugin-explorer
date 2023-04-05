@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/kolbasa/cordova-plugin-apkupdater.git",
   "author": "Michael Jedich",
@@ -55,13 +58,14 @@
     "xapk"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This plugin allows your Android app to download and install compressed updates without the Google Play Store.",
   "bugs": "https://github.com/kolbasa/cordova-plugin-apkupdater/issues",
-  "stars": 68,
+  "stars": 69,
   "image": "https://avatars.githubusercontent.com/u/3901582?v=4",
-  "quality": 183,
-  "updated": "2023-03-03T20:40:22Z",
-  "downloads": 867
+  "quality": 184,
+  "updated": "2023-03-27T08:16:38Z",
+  "downloads": 724
 }

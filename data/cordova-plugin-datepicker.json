@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/VitaliiBlagodir/cordova-plugin-datepicker.git",
   "author": "Vitalii Blagodir <vitalii.blagodir@gmail.com>",
@@ -45,5 +47,5 @@
   "image": "https://avatars.githubusercontent.com/u/3941665?v=4",
   "quality": 966,
   "updated": "2022-10-13T15:00:54Z",
-  "downloads": 9442
+  "downloads": 9608
 }

@@ -33,13 +33,17 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova Barcode Scanner Plugin",
   "bugs": "https://github.com/hypery2k/cordova-barcodescanner-plugin/issues",
   "stars": 50,
   "image": "https://avatars.githubusercontent.com/u/979121?v=4",
-  "quality": 119,
+  "quality": 118,
   "updated": "2023-03-13T21:46:06Z",
-  "downloads": 901
+  "downloads": 828
 }

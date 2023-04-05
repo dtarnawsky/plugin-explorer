@@ -28,13 +28,17 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "AppLovin MAX Cordova Plugin for Android and iOS",
   "bugs": "https://github.com/AppLovin/AppLovin-MAX-Cordova/issues",
   "stars": 7,
   "image": "https://avatars.githubusercontent.com/u/1347429?v=4",
-  "quality": 127,
+  "quality": 126,
   "updated": "2023-01-30T19:42:10Z",
-  "downloads": 228
+  "downloads": 276
 }

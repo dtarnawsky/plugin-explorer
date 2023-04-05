@@ -3,7 +3,8 @@
   "version": "1.1.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/rareplanet1/cordova-apple-pay-google-pay-with-environment.git",
   "author": "Oleksii Ratnykov",
@@ -25,7 +26,10 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for integrating Apple Pay and Google Pay in modern cordova apps",
   "bugs": "https://github.com/rareplanet1/cordova-apple-pay-google-pay-with-environment/issues",
@@ -33,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/14979144?v=4",
   "quality": 103,
   "updated": "2022-05-04T06:30:49Z",
-  "downloads": 54
+  "downloads": 58
 }

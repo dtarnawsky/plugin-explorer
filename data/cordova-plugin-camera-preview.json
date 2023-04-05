@@ -3,7 +3,10 @@
   "version": "0.12.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git",
   "author": "Weston Ganger <westonganger@gmail.com> (solidfoundationwebdev.com)",
@@ -40,13 +43,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin that allows camera interaction from HTML code for showing camera preview below or on top of the HTML.",
   "bugs": "https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/issues",
-  "stars": 564,
+  "stars": 565,
   "image": "https://avatars.githubusercontent.com/u/18685638?v=4",
-  "quality": 1333,
-  "updated": "2023-01-25T13:43:35Z",
-  "downloads": 11755
+  "quality": 1334,
+  "updated": "2023-03-31T06:52:34Z",
+  "downloads": 11961
 }

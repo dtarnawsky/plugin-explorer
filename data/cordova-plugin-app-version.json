@@ -3,7 +3,10 @@
   "version": "0.1.14",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/sampart/cordova-plugin-app-version.git",
   "author": "whiteoctober",
@@ -29,13 +32,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin to return the version number of the current app",
   "bugs": "https://github.com/sampart/cordova-plugin-app-version/issues",
-  "stars": 397,
+  "stars": 398,
   "image": "https://avatars.githubusercontent.com/u/1507328?v=4",
-  "quality": 712,
-  "updated": "2023-02-03T03:53:30Z",
-  "downloads": 83019
+  "quality": 714,
+  "updated": "2023-03-27T01:50:00Z",
+  "downloads": 83413
 }

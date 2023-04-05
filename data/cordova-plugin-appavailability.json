@@ -3,7 +3,10 @@
   "version": "0.4.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ohh2ahh/AppAvailability.git",
   "author": "ohh2ahh",
@@ -34,7 +37,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This plugin for Cordova and PhoneGap allows you to check if an app is installed. It requires an URI Scheme (iOS) or a Package Name (Android).",
   "bugs": "https://github.com/ohh2ahh/AppAvailability/issues",
@@ -42,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/2352329?v=4",
   "quality": 450,
   "updated": "2023-01-12T11:23:47Z",
-  "downloads": 25404
+  "downloads": 25058
 }

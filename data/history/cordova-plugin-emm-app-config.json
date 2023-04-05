@@ -1,12 +1,13 @@
 {
   "tests": [
     {
-      "test": "cordova-android-11",
+      "test": "capacitor-android-3",
       "version": "1.0.2",
-      "success": true
+      "failure": "cap-sync",
+      "success": false
     },
     {
-      "test": "cordova-ios-6",
+      "test": "capacitor-android-5",
       "version": "1.0.2",
       "success": true
     },
@@ -17,10 +18,19 @@
       "success": false
     },
     {
-      "test": "capacitor-android-3",
+      "test": "capacitor-ios-5",
       "version": "1.0.2",
-      "failure": "cap-sync",
-      "success": false
+      "success": true
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "1.0.2",
+      "success": true
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "1.0.2",
+      "success": true
     }
   ],
   "name": "cordova-plugin-emm-app-config"

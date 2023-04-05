@@ -1,0 +1,62 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        [33;49mFCMPlugin: Plugin install variables are not accessible, as package.json was unreachable/unreadable.[39;49m[33;49mFCMPlugin: Plugin install variables are not accessible, as package.json was unreachable/unreadable.[39;49m[33;49mFCMPlugin: Plugin install variables are not accessible, as package.json was unreachable/unreadable.[39;49m[33;49mFCMPlugin: Support for Gradle v4 or lower is deprecated. Please upgrade to a newer version.[39;49mWARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        [33;49mFCMPlugin: Plugin install variables are not accessible, as package.json was unreachable/unreadable.[39;49m[33;49mFCMPlugin: Plugin install variables are not accessible, as package.json was unreachable/unreadable.[39;49m[33;49mFCMPlugin: Plugin install variables are not accessible, as package.json was unreachable/unreadable.[39;49m[33;49mFCMPlugin: Support for Gradle v4 or lower is deprecated. Please upgrade to a newer version.[39;49mWARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :app:processReleaseGoogleServices FAILED
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:processReleaseGoogleServices'.
+        > File google-services.json is missing. The Google Services Plugin cannot function without it.
+        Searched Location:
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/google-services.json
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/src/nullnull/google-services.json
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/src/release/google-services.json
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/src/nullnullRelease/google-services.json
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/src/nullnull/release/google-services.json
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/src/release/nullnull/google-services.json
+        
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        
+        You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+        
+        See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 9s
+        2 actionable tasks: 2 executed
+        

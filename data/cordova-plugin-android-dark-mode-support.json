@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/timbru31/cordova-plugin-android-dark-mode-support.git",
   "author": "Tim Brust <github@timbrust.de>",
@@ -30,7 +33,8 @@
     "phonegap-plugin"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Apache Cordova plugin to enable proper dark mode support for Android WebView's",
   "bugs": "https://github.com/timbru31/cordova-plugin-android-dark-mode-support/issues",
@@ -38,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/838003?v=4",
   "quality": 111,
   "updated": "2023-02-09T08:46:18Z",
-  "downloads": 983
+  "downloads": 914
 }

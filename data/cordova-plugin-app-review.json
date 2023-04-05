@@ -2,7 +2,9 @@
   "name": "cordova-plugin-app-review",
   "version": "3.1.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-app-review.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -34,7 +36,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin to review app",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-app-review/issues",
@@ -42,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 155,
   "updated": "2023-02-24T14:24:30Z",
-  "downloads": 5334
+  "downloads": 4066
 }

@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/cyph/cordova-plugin-chooser.git",
   "author": "Cyph, Inc. <cordova-plugin-chooser@cyph.com> (https://github.com/cyph)",
@@ -100,5 +102,5 @@
   "image": "https://avatars.githubusercontent.com/u/9080936?v=4",
   "quality": 218,
   "updated": "2023-03-28T19:36:04Z",
-  "downloads": 19808
+  "downloads": 19622
 }

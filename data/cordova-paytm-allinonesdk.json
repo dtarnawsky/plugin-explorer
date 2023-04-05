@@ -2,7 +2,9 @@
   "name": "cordova-paytm-allinonesdk",
   "version": "1.1.2",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/paytm/paytm-allinonesdk-ionic-cordova.git",
   "author": "Paytm Team",
@@ -27,7 +29,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "A starting point for all in one sdk",
   "bugs": "https://github.com/paytm/paytm-allinonesdk-ionic-cordova/issues",

@@ -3,7 +3,9 @@
   "version": "1.0.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/towerism/cordova-plugin-epson-epos2.git",
   "published": "2022-04-27T17:20:05.169Z",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/2057426?v=4",
   "quality": 118,
   "updated": "2022-04-01T08:23:58Z",
-  "downloads": 21
+  "downloads": 14
 }

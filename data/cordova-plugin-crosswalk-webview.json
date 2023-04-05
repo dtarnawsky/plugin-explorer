@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview.git",
   "author": "",
@@ -47,7 +49,7 @@
   "bugs": "https://crosswalk-project.org/jira",
   "stars": 949,
   "image": "https://avatars.githubusercontent.com/u/4867377?v=4",
-  "quality": 1422,
+  "quality": 1421,
   "updated": "2023-01-28T15:12:30Z",
-  "downloads": 1413
+  "downloads": 1242
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "Apache Software Foundation",
   "published": "2022-06-14T00:10:39.560Z",
@@ -54,5 +56,5 @@
     "capacitor-android-3"
   ],
   "description": "Cordova File Plugin",
-  "downloads": 255993
+  "downloads": 246159
 }

@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth.git",
   "author": "Matthew Wheatley",
@@ -60,7 +63,8 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin to use Android fingerprint authentication API",
   "bugs": "https://github.com/mjwheatley/cordova-plugin-android-fingerprint-auth/issues",
@@ -68,5 +72,5 @@
   "image": "https://avatars.githubusercontent.com/u/11838992?v=4",
   "quality": 424,
   "updated": "2023-03-06T09:04:23Z",
-  "downloads": 4658
+  "downloads": 4729
 }

@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/tomloprod/cordova-plugin-appminimize.git",
   "author": "tomloprod",
@@ -22,7 +25,8 @@
     "minimizes"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This is a cordova plugin to minimizes the application in android devices.",
   "bugs": "https://github.com/tomloprod/cordova-plugin-appminimize/issues",
@@ -30,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/7898894?v=4",
   "quality": 157,
   "updated": "2023-03-06T09:04:18Z",
-  "downloads": 9307
+  "downloads": 8822
 }

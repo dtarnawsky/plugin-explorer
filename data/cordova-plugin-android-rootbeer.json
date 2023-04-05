@@ -3,7 +3,9 @@
   "version": "0.0.8",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/karandpr/cordova-plugin-android-rootbeer.git",
   "author": "Karan Gandhi",
@@ -24,7 +26,9 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "A wrapper plugin for rootbeer library. This library is used to detect root on Android Devices.",
   "bugs": "https://github.com/karandpr/cordova-plugin-android-rootbeer/issues",
@@ -32,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/1048084?v=4",
   "quality": 118,
   "updated": "2022-10-18T13:12:42Z",
-  "downloads": 92
+  "downloads": 110
 }

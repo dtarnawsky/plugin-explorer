@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/esri/cordova-plugin-advanced-geolocation.git",
   "author": "Andy Gup. @agup",
@@ -46,7 +49,8 @@
     "native-development"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Android geolocation plugin for both GPS and NETWORK-based location providers. Also can return satellite info, cellular info and cellular network signal strength.",
   "bugs": "https://github.com/esri/cordova-plugin-advanced-geolocation/issues",
@@ -54,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/628795?v=4",
   "quality": 220,
   "updated": "2022-11-11T12:54:18Z",
-  "downloads": 239
+  "downloads": 201
 }

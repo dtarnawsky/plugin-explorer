@@ -3,7 +3,10 @@
   "version": "1.0.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/edimuj/cordova-plugin-audioinput.git",
   "author": "Edin Mujkanovic",
@@ -55,7 +58,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This cordova plugin enables audio capture from the device microphone, by in (near) real-time forwarding raw audio data to the web layer of your application.",
   "bugs": "https://github.com/edimuj/cordova-plugin-audioinput/issues",
@@ -63,5 +67,5 @@
   "image": "https://avatars.githubusercontent.com/u/8247763?v=4",
   "quality": 371,
   "updated": "2023-02-24T09:40:30Z",
-  "downloads": 3081
+  "downloads": 3275
 }

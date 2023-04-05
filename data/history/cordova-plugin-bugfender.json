@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "2.0.2",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "2.0.2",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "2.0.2",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "2.0.2",
+      "failure": "peer-dependencies",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-bugfender"
+}

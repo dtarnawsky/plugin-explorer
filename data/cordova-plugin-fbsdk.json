@@ -29,7 +29,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Cordova Facebook SDK Plugin",
   "bugs": "https://github.com/MaximBelov/cordova-plugin-fbsdk/issues",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
   "quality": 22,
   "updated": "2023-03-01T09:15:57Z",
-  "downloads": 663
+  "downloads": 750
 }

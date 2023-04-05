@@ -3,7 +3,10 @@
   "version": "0.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/mgcrea/cordova-plugin-brightness.git",
   "author": "Evgeniy Lukovsky",
@@ -23,7 +26,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Brightness Control Plugin",
   "bugs": "https://github.com/mgcrea/cordova-plugin-brightness/issues",
@@ -31,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/108273?v=4",
   "quality": 41,
   "updated": "2021-11-09T10:44:59Z",
-  "downloads": 5953
+  "downloads": 6033
 }

@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Cartegraph/cordova-cookie-master.git",
   "author": "Kevin Kelchen",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/20564404?v=4",
   "quality": 21,
   "updated": "2021-08-30T18:19:08Z",
-  "downloads": 671
+  "downloads": 607
 }

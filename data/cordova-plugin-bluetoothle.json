@@ -3,7 +3,10 @@
   "version": "6.7.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/randdusing/cordova-plugin-bluetoothle.git",
   "author": "Rand Dusing",
@@ -82,13 +85,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Use the Bluetooth Low Energy plugin to connect your Cordova app to new Bluetooth devices like heart rate monitors, thermometers, etc...",
   "bugs": "https://github.com/randdusing/cordova-plugin-bluetoothle/issues",
-  "stars": 784,
+  "stars": 785,
   "image": "https://avatars.githubusercontent.com/u/6188656?v=4",
-  "quality": 1477,
-  "updated": "2023-03-14T23:01:44Z",
-  "downloads": 20225
+  "quality": 1480,
+  "updated": "2023-04-02T00:22:19Z",
+  "downloads": 18969
 }

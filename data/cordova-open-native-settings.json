@@ -3,7 +3,10 @@
   "version": "1.5.5",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/guyromb/Cordova-open-native-settings.git",
   "author": "Guy Rombaut <admin@gsrweb.net>",
@@ -26,7 +29,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Native settings opener for Cordova",
   "bugs": "https://github.com/guyromb/Cordova-open-native-settings/issues",
@@ -34,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/8641168?v=4",
   "quality": 237,
   "updated": "2022-11-17T08:39:34Z",
-  "downloads": 60607
+  "downloads": 59163
 }

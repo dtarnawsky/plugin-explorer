@@ -21,10 +21,14 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "\nThis is pcv plugin for Attestation in Cordova!\n    ",
   "bugs": "https://github.com/chinhle-pa/cordova-plugin-attestation/issues",
   "quality": null,
-  "downloads": 21
+  "downloads": 22
 }

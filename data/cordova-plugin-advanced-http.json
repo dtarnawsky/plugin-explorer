@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin-advanced-http",
   "version": "3.3.1",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/silkimen/cordova-plugin-advanced-http.git",
   "author": "Wymsee",
   "published": "2022-10-19T09:06:47.248Z",
@@ -74,13 +76,16 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "Cordova / Phonegap plugin for communicating with HTTP servers using SSL pinning",
   "bugs": "https://github.com/silkimen/cordova-plugin-advanced-http/issues",
-  "stars": 363,
+  "stars": 364,
   "image": "https://avatars.githubusercontent.com/u/4717881?v=4",
-  "quality": 836,
-  "updated": "2023-03-10T17:22:16Z",
-  "downloads": 94723
+  "quality": 840,
+  "updated": "2023-03-29T20:33:35Z",
+  "downloads": 93067
 }

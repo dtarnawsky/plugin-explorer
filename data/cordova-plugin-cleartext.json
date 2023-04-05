@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "JiaWei",
   "published": "2022-04-27T17:16:13.931Z",
@@ -24,5 +26,5 @@
     "cordova-ios-6"
   ],
   "description": "",
-  "downloads": 12314
+  "downloads": 12974
 }

@@ -3,7 +3,10 @@
   "version": "6.8.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk.git",
   "author": "Appsflyer",
@@ -102,13 +105,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova AppsFlyer SDK Plugin",
   "bugs": "https://github.com/AppsFlyerSDK/cordova-plugin-appsflyer-sdk/issues",
   "stars": 33,
   "image": "https://avatars.githubusercontent.com/u/6083614?v=4",
-  "quality": 214,
+  "quality": 215,
   "updated": "2022-08-24T11:28:09Z",
-  "downloads": 9329
+  "downloads": 9139
 }

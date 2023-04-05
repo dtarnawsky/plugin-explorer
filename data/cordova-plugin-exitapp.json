@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/rakesh-walisheter/cordova-plugin-exitapp.git",
   "author": "Rakesh Walisheter",
@@ -28,5 +30,5 @@
   "description": "Implements navigator.app.exitApp on WP8, Android",
   "bugs": "https://github.com/rakesh-walisheter/cordova-plugin-exitapp/issues",
   "quality": null,
-  "downloads": 785
+  "downloads": 671
 }

@@ -3,7 +3,10 @@
   "version": "1.1.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/appfeel/cordova-play-services-version-adapter.git",
   "author": "AppFeel",
@@ -36,7 +39,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova/Ionic Google Play Services Versions Incompatibility Adapter",
   "bugs": "https://github.com/appfeel/cordova-play-services-version-adapter/issues",
@@ -44,5 +48,5 @@
   "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
   "quality": 119,
   "updated": "2023-03-25T23:22:16Z",
-  "downloads": 1499
+  "downloads": 1327
 }

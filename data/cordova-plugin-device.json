@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "Apache Software Foundation",
   "published": "2022-06-14T00:04:36.572Z",
@@ -55,5 +57,5 @@
     "cordova-ios-6"
   ],
   "description": "Cordova Device Plugin",
-  "downloads": 304027
+  "downloads": 295633
 }

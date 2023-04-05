@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "2.2.6",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "2.2.6",
+      "success": true
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "2.2.6",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "2.2.6",
+      "failure": "peer-dependencies",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-applepay-stripe"
+}

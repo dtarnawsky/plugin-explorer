@@ -1,7 +1,9 @@
 {
   "name": "cordova-moengage-core",
   "version": "8.3.0",
-  "success": [],
+  "success": [
+    "capacitor-android-5"
+  ],
   "author": "MoEngage Inc.",
   "published": "2023-02-28T12:16:36.259Z",
   "versions": [
@@ -33,8 +35,11 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "MoEngage Cordova SDK",
-  "downloads": 846
+  "downloads": 686
 }

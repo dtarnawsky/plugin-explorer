@@ -2,7 +2,8 @@
   "name": "cordova-plugin-cache",
   "version": "1.0.5",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/tiltshiftfocus/cordova-plugin-cache.git",
   "published": "2022-06-13T23:56:38.861Z",
@@ -19,7 +20,10 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova Clear Cache Plugin",
   "bugs": "https://github.com/tiltshiftfocus/cordova-plugin-cache/issues",
@@ -27,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/3158046?v=4",
   "quality": 36,
   "updated": "2020-06-20T04:57:26Z",
-  "downloads": 54
+  "downloads": 70
 }

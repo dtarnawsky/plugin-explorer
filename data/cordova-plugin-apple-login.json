@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/pscsrv/cordova-plugin-apple-login.git",
   "author": "People Software Corporation",
@@ -16,7 +19,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "## Install",
   "bugs": "https://github.com/pscsrv/cordova-plugin-apple-login/issues",
@@ -24,5 +28,5 @@
   "image": "https://avatars.githubusercontent.com/u/21697371?v=4",
   "quality": 135,
   "updated": "2022-11-24T13:28:05Z",
-  "downloads": 478
+  "downloads": 460
 }

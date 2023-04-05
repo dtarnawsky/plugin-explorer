@@ -1,0 +1,19 @@
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/damiantarnawsky/Library/Developer/Xcode/DerivedData/cs-cord-11-adqvrnezejybsnhjesoveirsqwud/Build/Intermediates.noindex/cs-cord-11.build/Debug-iphonesimulator/cs-cord-11.build/Objects-normal/x86_64/Cache.o /Users/damiantarnawsky/Code/plugin-explorer/apps/cordova/platforms/ios/cs-cord-11/Plugins/com.tiltshiftfocus.cordova.plugin.clearCache/Cache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cs-cord-11' from project 'cs-cord-11')
+(1 failure)
+xcodebuild: Command failed with exit code 65
+[[40mERROR[49m] An error occurred while running subprocess cordova.
+        
+        cordova build ios exited with exit code 65.
+        
+        Re-running this command with the --verbose flag may provide more information.

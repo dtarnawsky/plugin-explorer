@@ -3,7 +3,10 @@
   "version": "0.4.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/nchutchind/cordova-plugin-app-launcher.git",
   "author": "Nicholas Hutchind",
@@ -22,7 +25,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This plugin allows you to see if other apps are installed and launch them. On Android, you can send extras to the launched Activity and receive result data (if available), as well as retrieve a list of applications that can open a specified uri.",
   "bugs": "https://github.com/nchutchind/cordova-plugin-app-launcher/issues",
@@ -30,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/1398002?v=4",
   "quality": 305,
   "updated": "2022-10-22T12:23:54Z",
-  "downloads": 7838
+  "downloads": 8114
 }

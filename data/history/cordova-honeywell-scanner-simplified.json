@@ -15,6 +15,11 @@
       "version": "1.4.3",
       "failure": "native-build",
       "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "1.4.3",
+      "success": true
     }
   ],
   "name": "cordova-honeywell-scanner-simplified"

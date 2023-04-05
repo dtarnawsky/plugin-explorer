@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "0.7.4",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "0.7.4",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.7.4",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "0.7.4",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "cordova-plugin-barcodescanner"
+}

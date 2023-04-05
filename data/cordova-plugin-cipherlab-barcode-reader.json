@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "CIPHERLAB SW",
   "published": "2022-04-27T17:16:08.753Z",
@@ -28,5 +30,5 @@
     "cordova-ios-6"
   ],
   "description": "Barcode Reader Cordova Plugin for CipherLab Android Mobile Devices",
-  "downloads": 18
+  "downloads": 13
 }

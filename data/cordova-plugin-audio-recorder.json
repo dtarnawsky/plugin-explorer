@@ -3,7 +3,10 @@
   "version": "1.1.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/cocowalla/cordova-plugin-audiorecorder.git",
   "author": "OutSystems",
@@ -22,7 +25,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Record Audio easily with the device microphone",
   "bugs": "https://github.com/cocowalla/cordova-plugin-audiorecorder/issues",
@@ -30,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/800977?v=4",
   "quality": 9,
   "updated": "2021-07-20T08:48:08Z",
-  "downloads": 116
+  "downloads": 125
 }

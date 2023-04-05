@@ -1,18 +1,22 @@
 {
   "name": "cordova-plugin-bluetooth-classic-serial-port",
-  "version": "0.9.11",
+  "version": "0.9.12",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/MaximBelov/cordova-plugin-bluetooth-classic-serial-port.git",
   "author": "Soltius New Zealand <steve.campbell@soltius.co.nz>",
-  "published": "2022-11-17T15:26:12.232Z",
+  "published": "2023-03-27T15:39:56.881Z",
   "versions": [
     "0.9.8",
     "0.9.9",
     "0.9.10",
-    "0.9.11"
+    "0.9.11",
+    "0.9.12"
   ],
   "keywords": [
     "cordova",
@@ -23,7 +27,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Bluetooth Serial Port Profile Communication Plugin",
   "bugs": "https://github.com/MaximBelov/cordova-plugin-bluetooth-classic-serial-port/issues",
@@ -31,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
   "quality": 9,
   "updated": "2023-02-28T14:17:58Z",
-  "downloads": 316
+  "downloads": 473
 }

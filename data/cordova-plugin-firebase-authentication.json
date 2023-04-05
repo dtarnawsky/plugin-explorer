@@ -2,7 +2,8 @@
   "name": "cordova-plugin-firebase-authentication",
   "version": "7.0.1",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-firebase-authentication.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -58,7 +59,8 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for Firebase Authentication",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-authentication/issues",
@@ -66,5 +68,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 290,
   "updated": "2022-11-08T04:36:43Z",
-  "downloads": 787
+  "downloads": 699
 }

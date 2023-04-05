@@ -3,7 +3,8 @@
   "version": "0.10.0",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/giorgiofellipe/cordova-plugin-datecs-printer.git",
   "author": "Apache Software Foundation",
@@ -77,13 +78,14 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova Datecs Printer Plugin",
   "bugs": "https://github.com/giorgiofellipe/cordova-plugin-datecs-printer/issues",
-  "stars": 69,
+  "stars": 70,
   "image": "https://avatars.githubusercontent.com/u/4589857?v=4",
   "quality": 295,
-  "updated": "2022-12-29T08:00:22Z",
-  "downloads": 354
+  "updated": "2023-03-29T12:04:52Z",
+  "downloads": 325
 }

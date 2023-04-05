@@ -3,7 +3,9 @@
   "version": "0.1.5",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/elevationsoftware/cordova-plugin-camera-stream.git",
   "author": "Elevated Software",
@@ -21,7 +23,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Get an stream from the iOS device to enable the camera view on an HTML element",
   "bugs": "https://github.com/elevationsoftware/cordova-plugin-camera-stream/issues",
@@ -29,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/28845536?v=4",
   "quality": 120,
   "updated": "2022-04-28T13:28:02Z",
-  "downloads": 80
+  "downloads": 100
 }
