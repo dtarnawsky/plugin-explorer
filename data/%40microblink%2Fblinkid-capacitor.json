@@ -43,7 +43,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A small and powerful ID card Capacitor plugin for BlinkID SDK",
   "bugs": "https://github.com/BlinkID/blinkid-capacitor/issues",
@@ -51,5 +53,5 @@
   "image": "https://avatars.githubusercontent.com/u/9021048?v=4",
   "quality": 117,
   "updated": "2023-03-20T00:11:13Z",
-  "downloads": 671
+  "downloads": 685
 }

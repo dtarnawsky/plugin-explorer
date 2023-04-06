@@ -1,0 +1,135 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        WARNING:Your project has set `android.useAndroidX=true`, but configuration `:app:releaseRuntimeClasspath` still contains legacy support libraries, which may cause runtime issues.
+        This behavior will not be allowed in Android Gradle plugin 8.0.
+        Please use only AndroidX dependencies or set `android.enableJetifier=true` in the `gradle.properties` file to migrate your project to AndroidX (see https://developer.android.com/jetpack/androidx/migrate for more info).
+        The following legacy support libraries are detected:
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:appcompat-v7:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-annotations:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-compat:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:appcompat-v7:28.0.0 -> com.android.support:collections:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-compat:28.0.0 -> android.arch.lifecycle:runtime:1.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-compat:28.0.0 -> android.arch.lifecycle:runtime:1.1.1 -> android.arch.lifecycle:common:1.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-compat:28.0.0 -> android.arch.lifecycle:runtime:1.1.1 -> android.arch.core:common:1.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:support-v4:28.0.0 -> com.android.support:support-media-compat:28.0.0 -> com.android.support:versionedparcelable:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:appcompat-v7:28.0.0 -> com.android.support:cursoradapter:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-utils:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-utils:28.0.0 -> com.android.support:documentfile:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-fragment:28.0.0 -> com.android.support:loader:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-fragment:28.0.0 -> com.android.support:loader:28.0.0 -> android.arch.lifecycle:livedata:1.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-fragment:28.0.0 -> com.android.support:loader:28.0.0 -> android.arch.lifecycle:livedata:1.1.1 -> android.arch.core:runtime:1.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-fragment:28.0.0 -> com.android.support:loader:28.0.0 -> android.arch.lifecycle:livedata:1.1.1 -> android.arch.lifecycle:livedata-core:1.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-fragment:28.0.0 -> android.arch.lifecycle:viewmodel:1.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-utils:28.0.0 -> com.android.support:localbroadcastmanager:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-utils:28.0.0 -> com.android.support:print:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-fragment:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0 -> com.android.support:customview:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0 -> com.android.support:viewpager:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0 -> com.android.support:coordinatorlayout:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0 -> com.android.support:drawerlayout:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0 -> com.android.support:slidingpanelayout:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0 -> com.android.support:interpolator:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0 -> com.android.support:swiperefreshlayout:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:support-core-ui:28.0.0 -> com.android.support:asynclayoutinflater:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:appcompat-v7:28.0.0 -> com.android.support:support-vector-drawable:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:appcompat-v7:28.0.0 -> com.android.support:animated-vector-drawable:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:cardview-v7:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:recyclerview-v7:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:support-v4:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:support-v4:28.0.0 -> com.android.support:support-media-compat:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0
+        :app:releaseRuntimeClasspath -> project :capacitor-googlemaps-native -> com.google.android.libraries.maps:maps:3.1.0-beta -> com.android.support:design:28.0.0 -> com.android.support:transition:28.0.0
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-googlemaps-native:preBuild UP-TO-DATE
+        > Task :capacitor-googlemaps-native:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-googlemaps-native:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-googlemaps-native:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-googlemaps-native:generateReleaseResValues
+        > Task :capacitor-googlemaps-native:generateReleaseResources
+        > Task :capacitor-googlemaps-native:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:mapReleaseSourceSetPaths FAILED
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:mapReleaseSourceSetPaths'.
+        > Could not resolve all files for configuration ':app:releaseRuntimeClasspath'.
+        > Could not find com.android.volley:volley:1.1.1.
+        Searched in the following locations:
+        - https://dl.google.com/dl/android/maven2/com/android/volley/volley/1.1.1/volley-1.1.1.pom
+        - https://repo.maven.apache.org/maven2/com/android/volley/volley/1.1.1/volley-1.1.1.pom
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/libs/volley-1.1.1.jar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/libs/volley.jar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/libs/volley-1.1.1.jar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/libs/volley.jar
+        Required by:
+        project :app > project :capacitor-googlemaps-native > com.google.android.libraries.maps:maps:3.1.0-beta
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        
+        You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+        
+        See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 2s
+        16 actionable tasks: 16 executed
+        

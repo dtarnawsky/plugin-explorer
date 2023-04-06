@@ -1,0 +1,122 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        WARNING:Your project has set `android.useAndroidX=true`, but configuration `:app:releaseRuntimeClasspath` still contains legacy support libraries, which may cause runtime issues.
+        This behavior will not be allowed in Android Gradle plugin 8.0.
+        Please use only AndroidX dependencies or set `android.enableJetifier=true` in the `gradle.properties` file to migrate your project to AndroidX (see https://developer.android.com/jetpack/androidx/migrate for more info).
+        The following legacy support libraries are detected:
+        :app:releaseRuntimeClasspath -> com.google.android.gms:play-services-location:11.8.0 -> com.google.android.gms:play-services-basement:11.8.0 -> com.android.support:support-v4:25.2.0
+        :app:releaseRuntimeClasspath -> com.google.android.gms:play-services-location:11.8.0 -> com.google.android.gms:play-services-basement:11.8.0 -> com.android.support:support-v4:25.2.0 -> com.android.support:support-compat:25.2.0
+        :app:releaseRuntimeClasspath -> com.google.android.gms:play-services-location:11.8.0 -> com.google.android.gms:play-services-basement:11.8.0 -> com.android.support:support-v4:25.2.0 -> com.android.support:support-media-compat:25.2.0 -> com.android.support:support-annotations:25.2.0
+        :app:releaseRuntimeClasspath -> com.google.android.gms:play-services-location:11.8.0 -> com.google.android.gms:play-services-basement:11.8.0 -> com.android.support:support-v4:25.2.0 -> com.android.support:support-media-compat:25.2.0
+        :app:releaseRuntimeClasspath -> com.google.android.gms:play-services-location:11.8.0 -> com.google.android.gms:play-services-basement:11.8.0 -> com.android.support:support-v4:25.2.0 -> com.android.support:support-core-utils:25.2.0
+        :app:releaseRuntimeClasspath -> com.google.android.gms:play-services-location:11.8.0 -> com.google.android.gms:play-services-basement:11.8.0 -> com.android.support:support-v4:25.2.0 -> com.android.support:support-core-ui:25.2.0
+        :app:releaseRuntimeClasspath -> com.google.android.gms:play-services-location:11.8.0 -> com.google.android.gms:play-services-basement:11.8.0 -> com.android.support:support-v4:25.2.0 -> com.android.support:support-fragment:25.2.0
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :app:generateReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :app:checkReleaseDuplicateClasses FAILED
+        > Task :app:mergeReleaseResources
+        > Task :app:desugarReleaseFileDependencies
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:checkReleaseDuplicateClasses'.
+        > A failure occurred while executing com.android.build.gradle.internal.tasks.CheckDuplicatesRunnable
+        > Duplicate class android.support.v4.app.INotificationSideChannel found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.app.INotificationSideChannel$Stub found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.app.INotificationSideChannel$Stub$Proxy found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.os.IResultReceiver found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.os.IResultReceiver$Stub found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.os.IResultReceiver$Stub$Proxy found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.os.ResultReceiver found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.os.ResultReceiver$1 found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.os.ResultReceiver$MyResultReceiver found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        Duplicate class android.support.v4.os.ResultReceiver$MyRunnable found in modules core-1.9.0-runtime (androidx.core:core:1.9.0) and support-compat-25.2.0-runtime (com.android.support:support-compat:25.2.0)
+        
+        Go to the documentation to learn how to <a href="d.android.com/r/tools/classpath-sync-errors">Fix dependency resolution errors</a>.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 5s
+        40 actionable tasks: 40 executed
+        

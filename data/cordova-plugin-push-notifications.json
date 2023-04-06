@@ -3,7 +3,8 @@
   "version": "1.1.7",
   "success": [
     "capacitor-android-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/Maxim-Kolmogorov/cordova-plugin-push-notifications.git",
   "author": "maxim.kolmogorov@gmail.com",
@@ -30,13 +31,14 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "description": "Push Notification for iOS (Swift) and Android (Kotlin)",
   "bugs": "https://github.com/Maxim-Kolmogorov/cordova-plugin-push-notifications/issues",
-  "stars": 15,
+  "stars": 16,
   "image": "https://avatars.githubusercontent.com/u/48102796?v=4",
-  "quality": 125,
-  "updated": "2023-03-10T15:04:04Z",
-  "downloads": 325
+  "quality": 126,
+  "updated": "2023-04-01T01:34:21Z",
+  "downloads": 328
 }

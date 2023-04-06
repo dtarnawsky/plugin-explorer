@@ -5,7 +5,8 @@
     "capacitor-ios-3",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/HMS-Core/hms-cordova-plugin.git",
   "published": "2022-04-29T11:32:08.688Z",
@@ -33,13 +34,14 @@
   ],
   "fails": [
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "description": "Cordova HMS Location Plugin",
   "bugs": "https://github.com/HMS-Core/hms-cordova-plugin/issues",
   "stars": 80,
   "image": "https://avatars.githubusercontent.com/u/64997192?v=4",
-  "quality": 222,
+  "quality": 221,
   "updated": "2023-02-13T20:40:09Z",
-  "downloads": 46
+  "downloads": 44
 }

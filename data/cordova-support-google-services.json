@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/chemerisuk/cordova-support-google-services.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -41,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 258,
   "updated": "2023-01-28T13:54:18Z",
-  "downloads": 29757
+  "downloads": 30695
 }

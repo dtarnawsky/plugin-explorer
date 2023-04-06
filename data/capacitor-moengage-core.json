@@ -30,10 +30,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "MoEngage is a mobile marketing automation company. This capacitor SDK helps you track events, trigger smart notifications.",
   "bugs": "https://github.com/moengage/Capacitor-SDK.git/issues",
   "quality": null,
-  "downloads": 341
+  "downloads": 321
 }

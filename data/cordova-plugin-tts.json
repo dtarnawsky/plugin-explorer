@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/vilic/cordova-plugin-tts.git",
   "author": "VILIC VANE",
@@ -29,9 +31,9 @@
   ],
   "description": "Cordova Text-to-Speech Plugin",
   "bugs": "https://github.com/vilic/cordova-plugin-tts/issues",
-  "stars": 179,
+  "stars": 178,
   "image": "https://avatars.githubusercontent.com/u/970430?v=4",
-  "quality": 500,
-  "updated": "2023-03-03T12:50:13Z",
-  "downloads": 3099
+  "quality": 499,
+  "updated": "2023-04-05T16:14:05Z",
+  "downloads": 3162
 }

@@ -49,10 +49,16 @@
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Receive geolocation updates even while app is backgrounded.",
   "bugs": "https://github.com/capacitor-community/background-geolocation/issues",
-  "quality": null,
-  "downloads": 8771
+  "quality": 268,
+  "downloads": 8310,
+  "stars": 123,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "updated": "2023-03-29T11:01:14Z",
+  "keywords": []
 }

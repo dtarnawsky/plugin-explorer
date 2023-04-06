@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/begrossi/MediaScannerPlugin.git",
   "author": "Bruno E. Grossi (http://brunogrossi.com.br)",
@@ -32,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/1013498?v=4",
   "quality": 124,
   "updated": "2019-06-02T00:00:53Z",
-  "downloads": 280
+  "downloads": 312
 }

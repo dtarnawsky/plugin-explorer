@@ -25,9 +25,11 @@
     "capacitor-android-3",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin that launches salesforce chat ui",
   "bugs": "https://bitbucket.org/modea/modea-capacitor-salesforce-chat/src/issues",
-  "downloads": 137
+  "downloads": 141
 }

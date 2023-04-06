@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "success": [
     "capacitor-android-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "repo": "https://mobiniusshreesha@bitbucket.org/mobiniusshreesha/webview.git",
   "author": "Mobinius",
@@ -20,9 +21,10 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "description": "Cordova webview plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB/component/12320648",
-  "downloads": 38
+  "downloads": 48
 }

@@ -141,13 +141,34 @@ export async function inspectGitHubAPI(item: Inspection) {
         // call api (eg https://api.github.com/repos/capawesome-team/capacitor-mlkit) and get GitHubInfo
 
         // https://github.com/capacitor-community/capacitor-googlemaps-native.git
-        const part = item.repo.replace('https://github.com/', '').replace('.git', '').replace('ssh://git@','');
-        const response = await fetch(`https://api.github.com/repos/${part}`);
+        const part = item.repo.replace('https://github.com/', '').replace('.git', '').replace('ssh://git@', '');
+        const token = process.env.GH_PERSONAL_TOKEN;
+        let headers = {};
+        if (!token || token == '') {
+            console.warn(`GitHub API calls may be rate limited because you have not set environment variable GH_PERSONAL_TOKEN (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#using-a-token-on-the-command-line)`);
+        } else {
+            headers = { Authorization: `Bearer ${token}` };
+        }
+
+        const response = await fetch(`https://api.github.com/repos/${part}`, { headers });
         const gh: GitHubInfo = await response.json() as GitHubInfo;
+        if (!gh.stargazers_count) {
+            if ((gh as any).message?.startsWith('API rate limit exceeded')) {
+                const resets = response.headers['x-ratelimit-reset'];
+                console.log(`Github API is rate limited. Its resets ${JSON.stringify(gh)}`);
+            } else {
+                console.error(gh);
+            }
+            return;
+        }
         item.stars = gh.stargazers_count;
         item.image = gh.owner?.avatar_url;
+        if (!item.keywords) {
+            item.keywords = [];
+        }
         if (gh.topics) {
             for (const topic of gh.topics) {
+                
                 if (!item.keywords.includes(topic)) {
                     item.keywords.push(topic);
                 }

@@ -21,16 +21,29 @@
     "cordova-android",
     "cordova-ios",
     "cordova-windows",
-    "cordova-browser"
+    "cordova-browser",
+    "cplusplus",
+    "csharp",
+    "java",
+    "javascript",
+    "library",
+    "mobile",
+    "nodejs",
+    "objective-c"
   ],
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Cordova File Transfer Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-file-transfer/issues",
-  "quality": null,
-  "downloads": 521
+  "quality": 1556,
+  "downloads": 484,
+  "stars": 588,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "updated": "2023-03-31T03:52:44Z"
 }

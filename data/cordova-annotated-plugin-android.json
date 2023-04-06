@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/appfeel/cordova-annotated-plugin-android.git",
   "author": "Miquel Martin <info@appfeel.com>",
@@ -21,7 +24,8 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Enhanced CordovaPlugin class",
   "bugs": "https://github.com/appfeel/cordova-annotated-plugin-android/issues",
@@ -29,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
   "quality": 100,
   "updated": "2020-06-29T17:58:23Z",
-  "downloads": 7213
+  "downloads": 6643
 }

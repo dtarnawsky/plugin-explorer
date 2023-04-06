@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin-appcenter-analytics",
   "version": "0.5.1",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/Microsoft/appcenter-sdk-cordova.git",
   "author": "Microsoft Corporation",
   "published": "2022-04-27T17:11:03.339Z",
@@ -44,7 +46,10 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "Provides Microsoft Azure App Center Analytics client for Cordova",
   "bugs": "https://github.com/Microsoft/appcenter-sdk-cordova/issues",
@@ -52,5 +57,5 @@
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
   "quality": 195,
   "updated": "2023-01-28T05:46:04Z",
-  "downloads": 6329
+  "downloads": 6366
 }

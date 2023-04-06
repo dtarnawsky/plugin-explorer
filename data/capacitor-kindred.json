@@ -41,10 +41,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": " Allow access from to kindred native extension",
   "bugs": "https://github.com/Sportplan-net/capacitor-kindred.git/issues",
   "quality": null,
-  "downloads": 59
+  "downloads": 101
 }

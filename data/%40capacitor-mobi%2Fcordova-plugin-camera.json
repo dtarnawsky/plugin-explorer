@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-camera.git",
   "author": "Apache Software Foundation",
@@ -26,7 +28,14 @@
     "cordova-ios",
     "cordova-browser",
     "cordova-windows",
-    "cordova-osx"
+    "cordova-osx",
+    "cordova-plugin",
+    "hacktoberfest",
+    "java",
+    "javascript",
+    "mobile",
+    "nodejs",
+    "objective-c"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -34,6 +43,9 @@
   ],
   "description": "Cordova Camera Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-camera/issues",
-  "quality": null,
-  "downloads": 45
+  "quality": 2516,
+  "downloads": 36,
+  "stars": 942,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "updated": "2023-04-04T14:26:54Z"
 }

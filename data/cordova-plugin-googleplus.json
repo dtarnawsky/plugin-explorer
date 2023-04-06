@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git",
   "published": "2022-06-14T00:17:14.380Z",
@@ -69,13 +70,14 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Use your Google account to authenticate with the app.",
   "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus/issues",
   "stars": 568,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "quality": 1666,
+  "quality": 1667,
   "updated": "2023-02-26T09:03:27Z",
-  "downloads": 8385
+  "downloads": 8737
 }

@@ -22,12 +22,14 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Camera preview capacitor",
   "bugs": "https://github.com/StarleyDev/camera-preview-capacitor/issues",
   "quality": 0,
-  "downloads": 21,
+  "downloads": 19,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/9012499?v=4",
   "updated": "2023-01-31T21:37:08Z"

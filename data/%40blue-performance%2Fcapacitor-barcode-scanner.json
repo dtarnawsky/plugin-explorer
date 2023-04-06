@@ -1,13 +1,13 @@
 {
   "name": "@blue-performance/capacitor-barcode-scanner",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/BluePerformance/capacitor-barcode-scanner.git",
   "author": "Blue Performance GmbH",
-  "published": "2023-03-24T17:52:49.124Z",
+  "published": "2023-03-30T15:03:54.511Z",
   "versions": [
     "3.0.0",
     "3.0.1",
@@ -19,7 +19,8 @@
     "3.0.7",
     "3.0.8",
     "3.0.9",
-    "3.0.10"
+    "3.0.10",
+    "3.0.11"
   ],
   "keywords": [
     "capacitor",
@@ -30,7 +31,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "bugs": "https://github.com/BluePerformance/capacitor-barcode-scanner/issues",
@@ -38,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/74414103?v=4",
   "quality": 101,
   "updated": "2023-03-26T07:43:11Z",
-  "downloads": 297
+  "downloads": 387
 }

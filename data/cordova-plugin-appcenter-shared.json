@@ -3,7 +3,10 @@
   "version": "0.5.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/Microsoft/appcenter-sdk-cordova.git",
   "author": "Microsoft Corporation",
@@ -43,7 +46,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Provides Microsoft Azure App Center shared functionality for Cordova",
   "bugs": "https://github.com/Microsoft/appcenter-sdk-cordova/issues",
@@ -51,5 +55,5 @@
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
   "quality": 195,
   "updated": "2023-01-28T05:46:04Z",
-  "downloads": 6556
+  "downloads": 6609
 }

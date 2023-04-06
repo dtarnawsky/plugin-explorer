@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Microsoft/code-push.git",
   "author": "Microsoft Corporation",
@@ -68,7 +70,16 @@
   ],
   "description": "Management SDK for the CodePush service",
   "bugs": "https://github.com/Microsoft/code-push/issues",
-  "stars": 4237,
+  "stars": 4239,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
-  "downloads": 593158
+  "downloads": 592297,
+  "keywords": [
+    "codepush",
+    "cordova",
+    "react",
+    "react-native",
+    "reactnative"
+  ],
+  "quality": 4818,
+  "updated": "2023-04-01T12:25:58Z"
 }

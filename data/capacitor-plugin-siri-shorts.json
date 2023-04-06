@@ -31,10 +31,15 @@
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor Plugin for Siri Shortcuts",
   "bugs": "https://github.com/TimoZacherl/capacitor-plugin-siri-shortcuts/issues",
-  "quality": null,
-  "downloads": 681
+  "quality": 128,
+  "downloads": 562,
+  "stars": 12,
+  "image": "https://avatars.githubusercontent.com/u/38291523?v=4",
+  "updated": "2023-03-26T07:56:50Z"
 }

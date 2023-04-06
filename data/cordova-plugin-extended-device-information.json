@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/danielehrhardt/cordova-plugin-extended-device-information.git",
   "author": "Daniel Ehrhardt",
@@ -47,5 +49,6 @@
   "image": "https://avatars.githubusercontent.com/u/19570043?v=4",
   "quality": 118,
   "updated": "2022-07-17T17:20:22Z",
-  "downloads": 1948
+  "downloads": 1875,
+  "keywords": []
 }

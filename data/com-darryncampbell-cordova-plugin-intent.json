@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/darryncampbell/darryncampbell-cordova-plugin-intent.git",
   "author": "Darryn Campbell",
@@ -56,13 +59,14 @@
     "Intent"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "General purpose intent shim layer for cordova appliations on Android.  Handles various techniques for sending and receiving intents.",
   "bugs": "https://github.com/darryncampbell/darryncampbell-cordova-plugin-intent/issues",
-  "stars": 78,
+  "stars": 79,
   "image": "https://avatars.githubusercontent.com/u/951038?v=4",
-  "quality": 312,
-  "updated": "2023-01-28T02:43:03Z",
-  "downloads": 17693
+  "quality": 313,
+  "updated": "2023-04-03T00:30:54Z",
+  "downloads": 15509
 }

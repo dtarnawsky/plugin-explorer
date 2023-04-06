@@ -5,7 +5,8 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/pwlin/cordova-plugin-file-opener2.git",
   "author": "pwlin05@gmail.com",
@@ -22,10 +23,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "A File Opener Plugin for Cordova",
   "bugs": "https://github.com/pwlin/cordova-plugin-file-opener2/issues",
-  "quality": null,
-  "downloads": 12
+  "quality": 1010,
+  "downloads": 13,
+  "stars": 315,
+  "image": "https://avatars.githubusercontent.com/u/160443?v=4",
+  "updated": "2023-03-15T03:48:41Z"
 }

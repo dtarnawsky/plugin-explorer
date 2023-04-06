@@ -26,10 +26,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Get devices wifi IP address",
   "bugs": "https://github.com/DeniKucevic/capacitor-plugin-wifi-ip/issues",
   "quality": null,
-  "downloads": 235
+  "downloads": 120
 }

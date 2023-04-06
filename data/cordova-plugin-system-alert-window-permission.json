@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/MaximBelov/cordova-plugin-system-alert-window-permission.git",
   "author": "wryel",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
   "quality": 0,
   "updated": "2021-04-29T19:15:26Z",
-  "downloads": 795
+  "downloads": 758
 }

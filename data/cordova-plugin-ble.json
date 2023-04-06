@@ -3,7 +3,10 @@
   "version": "2.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/evothings/cordova-ble.git#2.0.1",
   "author": "Evothings",
@@ -37,7 +40,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Bluetooth Low Energy Cordova plugin",
   "bugs": "https://github.com/evothings/cordova-ble/issues",
@@ -45,5 +49,5 @@
   "image": "https://avatars.githubusercontent.com/u/5575818?v=4",
   "quality": 501,
   "updated": "2022-10-13T14:59:02Z",
-  "downloads": 296
+  "downloads": 258
 }

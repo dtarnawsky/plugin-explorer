@@ -3,7 +3,9 @@
   "version": "1.3.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/sarriaroman/photoviewer.git",
   "author": "Román A. Sarria",
@@ -42,13 +44,15 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "This plugin is intended to show a picture from an URL into a Photo Viewer with zoom features.",
   "bugs": "https://github.com/sarriaroman/photoviewer/issues",
-  "stars": 153,
+  "stars": 154,
   "image": "https://avatars.githubusercontent.com/u/370885?v=4",
-  "quality": 559,
-  "updated": "2023-02-23T12:57:23Z",
-  "downloads": 11574
+  "quality": 562,
+  "updated": "2023-04-04T19:48:05Z",
+  "downloads": 12019
 }

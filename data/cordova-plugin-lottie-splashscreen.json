@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/timbru31/cordova-plugin-lottie-splashscreen.git",
   "author": "Tim Brust <github@timbrust.de>",
@@ -104,8 +106,8 @@
   "description": "Apache Cordova plugin to show Lottie animations as the splash screen with Airbnb's Lottie wrapper",
   "bugs": "https://github.com/timbru31/cordova-plugin-lottie-splashscreen/issues",
   "quality": 256,
-  "downloads": 1652,
+  "downloads": 1623,
   "stars": 108,
   "image": "https://avatars.githubusercontent.com/u/838003?v=4",
-  "updated": "2023-02-17T03:38:52Z"
+  "updated": "2023-04-05T12:55:27Z"
 }

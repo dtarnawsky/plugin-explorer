@@ -30,10 +30,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to open files",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-file-opener/issues",
-  "quality": null,
-  "downloads": 1294
+  "quality": 112,
+  "downloads": 1313,
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
+  "updated": "2022-09-30T07:57:05Z"
 }

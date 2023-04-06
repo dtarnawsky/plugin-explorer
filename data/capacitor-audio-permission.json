@@ -25,7 +25,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Plugin sencillo para solicitar permiso de microfono en Android y iOS.",
   "bugs": "https://github.com/jmRicardo/capacitor-audio-permission/issues",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/51313148?v=4",
   "quality": 100,
   "updated": "2022-12-17T12:09:46Z",
-  "downloads": 96
+  "downloads": 126
 }

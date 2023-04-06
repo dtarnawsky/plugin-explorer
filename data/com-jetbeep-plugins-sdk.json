@@ -1,10 +1,10 @@
 {
   "name": "com-jetbeep-plugins-sdk",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "success": [],
   "repo": "https://github.com/jetbeep/cordova-sdk.git",
   "author": "Jetbeep team.",
-  "published": "2023-03-03T16:11:23.718Z",
+  "published": "2023-04-05T12:43:21.015Z",
   "versions": [
     "0.0.1",
     "0.0.2",
@@ -35,7 +35,8 @@
     "0.0.28",
     "0.0.29",
     "0.0.30",
-    "0.0.31"
+    "0.0.31",
+    "0.0.32"
   ],
   "keywords": [
     "ecosystem:cordova",
@@ -45,7 +46,11 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin for Jetbeep SDK solution.",
   "bugs": "https://github.com/jetbeep/cordova-sdk/issues",
@@ -53,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/35913942?v=4",
   "quality": 100,
   "updated": "2022-10-31T15:31:00Z",
-  "downloads": 467
+  "downloads": 90
 }

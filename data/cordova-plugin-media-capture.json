@@ -61,12 +61,14 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Cordova Media Capture Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-media-capture/issues",
-  "quality": 924,
-  "downloads": 27000,
+  "quality": 926,
+  "downloads": 25533,
   "stars": 296,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "updated": "2023-03-23T11:25:08Z"

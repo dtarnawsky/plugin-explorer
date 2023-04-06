@@ -1,18 +1,19 @@
 {
   "tests": [
     {
-      "test": "cordova-android-11",
+      "test": "capacitor-android-3",
+      "version": "0.8.0",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-4",
       "version": "0.8.0",
       "failure": "native-build",
       "success": false
     },
     {
-      "test": "cordova-ios-6",
-      "version": "0.8.0",
-      "success": true
-    },
-    {
-      "test": "capacitor-android-4",
+      "test": "capacitor-android-5",
       "version": "0.8.0",
       "failure": "native-build",
       "success": false
@@ -24,10 +25,20 @@
       "success": false
     },
     {
-      "test": "capacitor-android-3",
+      "test": "capacitor-ios-5",
       "version": "0.8.0",
-      "failure": "cap-sync",
+      "success": true
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.8.0",
+      "failure": "native-build",
       "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "0.8.0",
+      "success": true
     }
   ],
   "name": "cordova-plugin-printer"

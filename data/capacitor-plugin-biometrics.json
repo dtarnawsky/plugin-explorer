@@ -23,10 +23,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Implement native biometrics",
   "bugs": "https://github.com/TLongueira/capacitor-plugin-biometrics/issues",
   "quality": null,
-  "downloads": 12
+  "downloads": 9
 }

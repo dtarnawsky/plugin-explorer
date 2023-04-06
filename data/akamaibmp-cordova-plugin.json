@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "Akamai Technologies",
   "published": "2022-04-11T13:11:23.025Z",
@@ -26,5 +28,5 @@
     "cordova-ios-6"
   ],
   "description": "Cordova plugin for Akamai BMP SDK",
-  "downloads": 21
+  "downloads": 16
 }

@@ -27,7 +27,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Ionic Crosswalk Web View Engine Plugin",
   "bugs": "https://github.com/waitaction/cordova-plugin-ionic4-crosswalk-webview/issues",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/10597479?v=4",
   "quality": 26,
   "updated": "2022-03-24T11:23:54Z",
-  "downloads": 57
+  "downloads": 43
 }

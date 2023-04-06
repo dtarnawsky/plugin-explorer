@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/akofman/cordova-plugin-add-swift-support.git",
   "author": "Alexis Kofman <alexis.kofman@gmail.com> (http://twitter.com/alexiskofman)",
@@ -42,7 +45,8 @@
     "cordova-plugin"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Add Swift support to your iOS plugins",
   "bugs": "https://github.com/akofman/cordova-plugin-add-swift-support/issues",
@@ -50,5 +54,5 @@
   "image": "https://avatars.githubusercontent.com/u/579922?v=4",
   "quality": 342,
   "updated": "2023-03-10T07:28:27Z",
-  "downloads": 52640
+  "downloads": 53309
 }

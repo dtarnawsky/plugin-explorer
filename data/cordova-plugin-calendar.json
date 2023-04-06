@@ -3,7 +3,10 @@
   "version": "5.1.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -48,13 +51,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This plugin allows you to manipulate the native calendar.",
   "bugs": "https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin/issues",
-  "stars": 760,
+  "stars": 761,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "quality": 1471,
-  "updated": "2023-03-08T19:32:59Z",
-  "downloads": 33478
+  "quality": 1472,
+  "updated": "2023-03-31T11:46:22Z",
+  "downloads": 32206
 }

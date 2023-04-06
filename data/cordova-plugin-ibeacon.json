@@ -3,7 +3,8 @@
   "version": "3.8.1",
   "success": [
     "capacitor-ios-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/petermetz/cordova-plugin-ibeacon.git",
   "author": "Peter Metz <peter.metz@unarin.com> (Somogyvari)",
@@ -36,13 +37,14 @@
     "capacitor-android-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "Proximity Beacon Monitoring and Transmission Plugin (supporting iBeacons)",
   "bugs": "https://github.com/petermetz/cordova-plugin-ibeacon/issues",
-  "stars": 730,
+  "stars": 731,
   "image": "https://avatars.githubusercontent.com/u/1583231?v=4",
-  "quality": 1338,
-  "updated": "2023-02-23T17:40:57Z",
-  "downloads": 334
+  "quality": 1340,
+  "updated": "2023-04-03T10:01:44Z",
+  "downloads": 327
 }

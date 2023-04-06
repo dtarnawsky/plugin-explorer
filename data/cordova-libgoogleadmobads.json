@@ -2,7 +2,8 @@
   "name": "cordova-libgoogleadmobads",
   "version": "7.13.1",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/appfeel/google-iosadmobads.git",
   "author": "AppFeel",
@@ -34,7 +35,10 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "iOS Google AdMob Ads library base dependency for other plugins",
   "bugs": "https://github.com/appfeel/google-iosadmobads/issues",
@@ -42,5 +46,5 @@
   "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
   "quality": 102,
   "updated": "2016-10-28T16:28:30Z",
-  "downloads": 14
+  "downloads": 12
 }

@@ -3,7 +3,8 @@
   "version": "2.1.0",
   "success": [
     "capacitor-android-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/akofman/cordova-plugin-dbmeter.git",
   "author": "Alexis Kofman",
@@ -42,13 +43,14 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "description": "Cordova DBMeter plugin",
   "bugs": "https://github.com/akofman/cordova-plugin-dbmeter/issues",
   "stars": 34,
   "image": "https://avatars.githubusercontent.com/u/579922?v=4",
-  "quality": 176,
+  "quality": 177,
   "updated": "2023-03-10T07:28:28Z",
-  "downloads": 57
+  "downloads": 46
 }

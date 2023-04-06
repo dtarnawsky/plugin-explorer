@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/dpa99c/cordova-plugin-cocoapods-support.git",
   "published": "2022-04-27T17:16:30.193Z",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 4,
   "updated": "2023-01-28T12:43:40Z",
-  "downloads": 980
+  "downloads": 708
 }

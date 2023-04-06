@@ -1,12 +1,13 @@
 {
   "name": "tealium-cordova-plugin",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Tealium/cordova-plugin.git",
   "author": "Tealium, Inc.",
-  "published": "2022-12-01T15:56:57.070Z",
+  "published": "2023-04-04T15:01:20.345Z",
   "versions": [
     "0.9.62",
     "1.0.0",
@@ -24,7 +25,8 @@
     "2.1.0",
     "2.2.0",
     "2.2.1",
-    "2.3.0"
+    "2.3.0",
+    "2.3.1"
   ],
   "keywords": [
     "tealium",
@@ -41,10 +43,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Tealium Customer Data Hub",
   "bugs": "https://github.com/Tealium/cordova-plugin/issues",
-  "quality": null,
-  "downloads": 2030
+  "quality": 118,
+  "downloads": 1815,
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/1724745?v=4",
+  "updated": "2023-02-06T16:54:03Z"
 }

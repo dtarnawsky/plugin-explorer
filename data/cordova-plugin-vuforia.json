@@ -41,10 +41,12 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Cordova Vuforia Plugin",
   "bugs": "https://github.com/mattrayner/cordova-plugin-vuforia/issues",
   "quality": null,
-  "downloads": 72
+  "downloads": 58
 }

@@ -20,7 +20,9 @@
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/476009?v=4",
@@ -33,5 +35,5 @@
   ],
   "author": "Adobe",
   "published": "2022-04-04T11:34:29.930Z",
-  "downloads": 2140
+  "downloads": 2252
 }

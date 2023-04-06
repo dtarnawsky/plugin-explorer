@@ -27,10 +27,15 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "exit app on ios",
   "bugs": "https://github.com/tienmanh94hbk/capacitor-exit-app-ios/issues",
-  "quality": null,
-  "downloads": 427
+  "quality": 105,
+  "downloads": 410,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/49017943?v=4",
+  "updated": "2022-05-19T14:36:13Z"
 }

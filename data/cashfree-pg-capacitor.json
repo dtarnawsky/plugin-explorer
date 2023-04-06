@@ -42,10 +42,14 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Cashfree PG plugin for capacitor",
   "bugs": "https://github.com/cashfree/cordova-pgsdk-demo-app/issues",
   "quality": null,
-  "downloads": 97
+  "downloads": 79
 }

@@ -3,7 +3,10 @@
   "version": "0.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/leecrossley/cordova-plugin-background-task.git",
   "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
@@ -21,7 +24,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova / PhoneGap Plugin for running background tasks (will also run for up to 3 minutes after the app is suspended).",
   "bugs": "https://github.com/leecrossley/cordova-plugin-background-task/issues",
@@ -29,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/807783?v=4",
   "quality": 147,
   "updated": "2022-12-23T09:45:21Z",
-  "downloads": 156
+  "downloads": 163
 }

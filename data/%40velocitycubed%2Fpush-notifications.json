@@ -3,7 +3,9 @@
   "version": "4.0.0-beta.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/VelocityCubed/capacitor-plugins.git",
   "author": "Ionic <hi@ionicframework.com>",

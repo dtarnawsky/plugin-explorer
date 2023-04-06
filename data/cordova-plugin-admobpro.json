@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin-admobpro",
   "version": "8.13.1",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/floatinghotpot/cordova-admob-pro.git",
   "author": "Liming Xie",
   "published": "2022-06-13T23:44:33.736Z",
@@ -128,13 +130,16 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "Ultimate Cordova Plugin for Google AdMob and DFP to monetize hybrid apps. Show mobile Ad with single line of JavaScript. Compatible with Cordova CLI, Ionic, etc.",
   "bugs": "https://github.com/floatinghotpot/cordova-admob-pro/issues",
   "stars": 710,
   "image": "https://avatars.githubusercontent.com/u/2339512?v=4",
   "quality": 1220,
-  "updated": "2023-03-10T02:07:28Z",
-  "downloads": 427
+  "updated": "2023-03-30T17:04:51Z",
+  "downloads": 399
 }

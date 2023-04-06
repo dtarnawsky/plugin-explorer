@@ -46,13 +46,17 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Cordova plugin to perform code updates on the fly",
   "bugs": "https://github.com/nordnet/cordova-hot-code-push/issues",
   "stars": 977,
   "image": "https://avatars.githubusercontent.com/u/1134179?v=4",
-  "quality": 1538,
+  "quality": 1539,
   "updated": "2023-03-12T10:55:40Z",
-  "downloads": 493
+  "downloads": 383
 }

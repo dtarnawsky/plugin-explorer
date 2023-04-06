@@ -62,7 +62,9 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Playlist ",
   "bugs": "https://github.com/phiamo/capacitor-plugin-playlist/issues",
@@ -70,5 +72,5 @@
   "image": "https://avatars.githubusercontent.com/u/207291?v=4",
   "quality": 137,
   "updated": "2023-03-08T21:01:41Z",
-  "downloads": 805
+  "downloads": 819
 }

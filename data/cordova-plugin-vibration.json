@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-vibration.git",
   "author": "Apache Software Foundation",
@@ -66,5 +68,5 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 355,
   "updated": "2023-03-02T21:17:04Z",
-  "downloads": 21551
+  "downloads": 20639
 }

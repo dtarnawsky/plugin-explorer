@@ -59,7 +59,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Webview Overlay",
   "bugs": "https://github.com/TeamHive/capacitor-webview-overlay/issues",
@@ -67,5 +69,5 @@
   "image": "https://avatars.githubusercontent.com/u/508269?v=4",
   "quality": 161,
   "updated": "2022-09-04T01:44:18Z",
-  "downloads": 656
+  "downloads": 702
 }

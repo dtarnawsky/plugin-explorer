@@ -25,10 +25,12 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for picking multiple contacts from native contacts list - works on ios only",
   "bugs": "https://github.com/nadavhalfon/capacitor-native-contacts/issues",
   "quality": null,
-  "downloads": 101
+  "downloads": 114
 }

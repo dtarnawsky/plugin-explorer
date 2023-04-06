@@ -25,16 +25,23 @@
     "appcenter",
     "analytics",
     "azure",
-    "microsoft"
+    "microsoft",
+    "capacitor-plugin",
+    "visual-studio-app-center"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for AppCenter Analytics",
   "bugs": "https://github.com/capacitor-community/appcenter-sdk-capacitor/tree/master/appcenter-analytics/issues",
-  "quality": null,
-  "downloads": 997
+  "quality": 131,
+  "downloads": 988,
+  "stars": 25,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "updated": "2022-12-23T06:45:28Z"
 }

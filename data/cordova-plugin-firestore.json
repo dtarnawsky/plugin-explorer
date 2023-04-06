@@ -3,7 +3,8 @@
   "version": "4.1.1",
   "success": [
     "capacitor-android-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/ReallySmallSoftware/cordova-plugin-firestore.git",
   "author": "Richard Windley <richard.windley@gmail.com> (http://www.reallysmall.co.uk)",
@@ -39,7 +40,8 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "description": "A Google Firebase Firestore plugin",
   "bugs": "https://github.com/ReallySmallSoftware/cordova-plugin-firestore/issues",
@@ -47,5 +49,5 @@
   "image": "https://avatars.githubusercontent.com/u/4267359?v=4",
   "quality": 163,
   "updated": "2020-09-04T10:13:05Z",
-  "downloads": 63
+  "downloads": 49
 }

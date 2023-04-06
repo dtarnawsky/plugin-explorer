@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/becvert/cordova-plugin-websocket-server.git",
   "author": "Sylvain Bréjeon (https://github.com/becvert)",
@@ -59,5 +61,5 @@
   "image": "https://avatars.githubusercontent.com/u/1422417?v=4",
   "quality": 234,
   "updated": "2023-01-30T10:07:30Z",
-  "downloads": 159
+  "downloads": 142
 }

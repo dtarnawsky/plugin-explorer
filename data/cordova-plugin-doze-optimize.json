@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/thomas550i/cordova-plugin-doze-Optimize.git",
   "author": "thomas550i",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/13743965?v=4",
   "quality": 142,
   "updated": "2023-03-26T07:02:29Z",
-  "downloads": 1024
+  "downloads": 972
 }

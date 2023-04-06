@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/MobisysGmbH/cordova-plugin-mlkit-barcode-scanner.git",
   "author": "Florian Biebel",
@@ -20,7 +21,8 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Google MLKit Vision Barcode Scanner Plugin",
   "bugs": "https://github.com/MobisysGmbH/cordova-plugin-mlkit-barcode-scanner/issues",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/30900690?v=4",
   "quality": 36,
   "updated": "2023-03-25T02:52:03Z",
-  "downloads": 33
+  "downloads": 37
 }

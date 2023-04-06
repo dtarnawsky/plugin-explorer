@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/xpbrew/cordova-sqlite-storage.git",
   "author": "various",
@@ -96,6 +98,6 @@
   "stars": 2131,
   "image": "https://avatars.githubusercontent.com/u/5808036?v=4",
   "quality": 3319,
-  "updated": "2023-03-26T06:24:34Z",
-  "downloads": 109649
+  "updated": "2023-03-30T07:05:32Z",
+  "downloads": 112079
 }

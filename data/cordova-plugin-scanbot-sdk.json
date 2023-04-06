@@ -1,14 +1,16 @@
 {
   "name": "cordova-plugin-scanbot-sdk",
-  "version": "4.16.2",
+  "version": "4.16.3",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "Scanbot / doo GmbH",
-  "published": "2023-03-22T10:19:25.962Z",
+  "published": "2023-04-04T11:19:00.242Z",
   "versions": [
     "0.9.2",
     "1.0.0",
@@ -199,9 +201,13 @@
     "4.16.2-beta.2",
     "4.16.2-beta.3",
     "4.16.2-beta.4",
+    "4.16.2-beta.5",
     "4.16.2",
+    "4.16.3-alpha1",
+    "4.16.3-alpha2",
     "4.16.3-beta.1",
-    "4.16.3-beta.2"
+    "4.16.3-beta.2",
+    "4.16.3"
   ],
   "keywords": [
     "cordova",
@@ -250,5 +256,5 @@
     "capacitor-android-3"
   ],
   "description": "Cordova Plugin for the Scanbot Document and Barcode Scanner SDK",
-  "downloads": 3702
+  "downloads": 3363
 }

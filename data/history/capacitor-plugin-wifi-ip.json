@@ -1,13 +1,13 @@
 {
   "tests": [
     {
-      "test": "cordova-ios-6",
+      "test": "capacitor-android-3",
       "version": "0.0.7",
       "failure": "peer-dependencies",
       "success": false
     },
     {
-      "test": "cordova-android-11",
+      "test": "capacitor-android-5",
       "version": "0.0.7",
       "failure": "peer-dependencies",
       "success": false
@@ -19,7 +19,19 @@
       "success": false
     },
     {
-      "test": "capacitor-android-3",
+      "test": "capacitor-ios-5",
+      "version": "0.0.7",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.0.7",
+      "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
       "version": "0.0.7",
       "failure": "peer-dependencies",
       "success": false

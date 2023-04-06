@@ -32,13 +32,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to access and update the badge number of the app icon.",
   "bugs": "https://github.com/capawesome-team/capacitor-badge/issues",
   "stars": 67,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 173,
-  "updated": "2023-03-15T20:31:39Z",
-  "downloads": 19860
+  "quality": 172,
+  "updated": "2023-04-01T07:34:43Z",
+  "downloads": 17929
 }

@@ -3,7 +3,9 @@
   "version": "0.6.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/vstirbu/InstagramPlugin.git",
   "author": "Vlad Stirbu",
@@ -30,7 +32,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Share the content of a canvas element or a dataUrl encoded image using the Instagram application for iOS and Android.",
   "bugs": "https://github.com/vstirbu/InstagramPlugin/issues",
@@ -38,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/1288047?v=4",
   "quality": 312,
   "updated": "2022-09-01T18:21:16Z",
-  "downloads": 986
+  "downloads": 930
 }

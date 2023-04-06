@@ -3,7 +3,9 @@
   "version": "23.2.1",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/pbakondy/cordova-plugin-android-support-v4-jar.git",
   "author": "Peter Bakondy",
@@ -22,7 +24,9 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Android Support v4",
   "bugs": "https://github.com/pbakondy/cordova-plugin-android-support-v4-jar/issues",
@@ -30,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/500697?v=4",
   "quality": 107,
   "updated": "2020-04-28T03:42:24Z",
-  "downloads": 139
+  "downloads": 135
 }

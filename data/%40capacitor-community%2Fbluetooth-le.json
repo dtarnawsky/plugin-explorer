@@ -1,13 +1,13 @@
 {
   "name": "@capacitor-community/bluetooth-le",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/bluetooth-le.git",
   "author": "pwespi",
-  "published": "2023-01-23T16:45:44.699Z",
+  "published": "2023-04-02T14:22:21.621Z",
   "versions": [
     "0.0.1",
     "0.0.2",
@@ -52,7 +52,8 @@
     "2.0.0-0",
     "2.0.0",
     "2.0.1",
-    "2.1.0"
+    "2.1.0",
+    "2.2.0"
   ],
   "keywords": [
     "capacitor",
@@ -64,10 +65,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for Bluetooth Low Energy ",
   "bugs": "https://github.com/capacitor-community/bluetooth-le/issues",
-  "quality": null,
-  "downloads": 14446
+  "quality": 335,
+  "downloads": 14199,
+  "stars": 164,
+  "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
+  "updated": "2023-03-31T08:03:55Z"
 }

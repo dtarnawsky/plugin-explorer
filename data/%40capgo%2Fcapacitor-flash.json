@@ -50,13 +50,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Switch the Flashlight / Torch of your device.",
   "bugs": "https://github.com/riderx/capacitor-flash/issues",
-  "stars": 8,
+  "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "quality": 118,
-  "updated": "2022-11-29T19:50:06Z",
-  "downloads": 3374
+  "quality": 119,
+  "updated": "2023-03-31T04:40:30Z",
+  "downloads": 3778
 }

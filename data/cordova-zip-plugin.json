@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://jjdltc@github.com/jjdltc/jjdltc-cordova-plugin-zip.git",
   "author": "Joel De La Torriente <jjdltc@gmail.com> (https://github.com/jjdltc)",
@@ -34,5 +36,5 @@
   "description": "Cordova zip compress and decompress",
   "bugs": "https://github.com/jjdltc/jjdltc-cordova-plugin-zip/issues",
   "quality": null,
-  "downloads": 704
+  "downloads": 637
 }

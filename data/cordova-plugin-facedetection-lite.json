@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/luisdemarchi/cordova-plugin-facedetection-lite.git",
   "author": "Luís De Marchi <luis@luisdemarchi.com.br> (http://www.luisdemarchi.com.br)",
@@ -52,5 +54,5 @@
   "image": "https://avatars.githubusercontent.com/u/461642?v=4",
   "quality": 108,
   "updated": "2022-09-19T08:04:55Z",
-  "downloads": 26
+  "downloads": 27
 }

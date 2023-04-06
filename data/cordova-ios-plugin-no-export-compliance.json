@@ -3,7 +3,10 @@
   "version": "0.0.6",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/mikaoelitiana/cordova-ios-plugin-no-export-compliance.git",
   "author": "mikaoelitiana",
@@ -25,13 +28,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This plugin sets ITSAppUsesNonExemptEncryption to false in *-Info.plist file",
   "bugs": "https://github.com/mikaoelitiana/cordova-ios-plugin-no-export-compliance/issues",
-  "stars": 31,
+  "stars": 32,
   "image": "https://avatars.githubusercontent.com/u/674667?v=4",
   "quality": 175,
-  "updated": "2020-04-02T07:30:19Z",
-  "downloads": 3193
+  "updated": "2023-03-30T09:08:41Z",
+  "downloads": 2829
 }

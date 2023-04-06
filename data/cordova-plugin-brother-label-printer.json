@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin-brother-label-printer",
   "version": "1.6.1",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer.git",
   "author": "Thomas Gordon Lowrey IV",
   "published": "2022-07-28T17:10:28.594Z",
@@ -30,13 +32,16 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Cordova plugin for brother label printers",
   "bugs": "https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer/issues",
   "stars": 10,
   "image": "https://avatars.githubusercontent.com/u/24511811?v=4",
-  "quality": 30,
+  "quality": 31,
   "updated": "2023-03-07T07:34:26Z",
-  "downloads": 40
+  "downloads": 38
 }

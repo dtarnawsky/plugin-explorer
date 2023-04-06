@@ -2,7 +2,8 @@
   "name": "cordova-plugin-fcm",
   "version": "2.1.2",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/fechanique/cordova-plugin-fcm.git",
   "author": "Felipe Echanique Torres <felipe.echanique@gmail.com>",
@@ -43,13 +44,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Google Firebase Cloud Messaging Cordova Push Plugin",
   "bugs": "https://github.com/fechanique/cordova-plugin-fcm/issues",
   "stars": 630,
   "image": "https://avatars.githubusercontent.com/u/14014715?v=4",
-  "quality": 2184,
+  "quality": 2186,
   "updated": "2023-03-07T07:30:06Z",
-  "downloads": 510
+  "downloads": 516
 }

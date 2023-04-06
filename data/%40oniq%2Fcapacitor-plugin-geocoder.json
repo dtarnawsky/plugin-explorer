@@ -23,7 +23,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor geocoder plugin for iOS and Android to reverse and forward addresses",
   "bugs": "https://gitlab.com/oniqlab/capacitor-plugin-geocoder/issues",

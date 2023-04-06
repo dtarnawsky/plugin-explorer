@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "author": "Impossible",
   "published": "2022-04-27T17:19:15.670Z",
@@ -19,8 +20,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5"
   ],
   "description": "iOS plugin for Cordova writting in Swift.",
-  "downloads": 36
+  "downloads": 24
 }

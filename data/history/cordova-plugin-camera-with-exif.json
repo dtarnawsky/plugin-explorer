@@ -1,6 +1,16 @@
 {
   "tests": [
     {
+      "test": "capacitor-android-5",
+      "version": "1.5.1",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "1.5.1",
+      "success": true
+    },
+    {
       "test": "cordova-android-11",
       "version": "1.5.1",
       "success": true

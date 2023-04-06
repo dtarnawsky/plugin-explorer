@@ -25,9 +25,11 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Image to Text (OCR) Plugin for Capacitor",
   "quality": null,
-  "downloads": 94
+  "downloads": 41
 }

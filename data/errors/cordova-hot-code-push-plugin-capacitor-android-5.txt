@@ -1,0 +1,26 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/node_modules/cordova-hot-code-push-plugin/src/android/chcp.gradle' line: 12
+        
+        * What went wrong:
+        A problem occurred evaluating project ':capacitor-cordova-android-plugins'.
+        > Could not find method compile() for arguments [com.fasterxml.jackson.core:jackson-core:2.4.4] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 1s
+        

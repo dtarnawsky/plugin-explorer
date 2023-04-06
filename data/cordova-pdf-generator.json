@@ -3,7 +3,10 @@
   "version": "2.1.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/cesarvr/pdf-generator.git",
   "author": "cesar",
@@ -70,7 +73,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "is a HTML to PDF (offline) Generator.",
   "bugs": "https://github.com/cesarvr/pdf-generator/issues",
@@ -78,5 +82,5 @@
   "image": "https://avatars.githubusercontent.com/u/3899337?v=4",
   "quality": 318,
   "updated": "2023-03-23T11:01:47Z",
-  "downloads": 8344
+  "downloads": 9169
 }

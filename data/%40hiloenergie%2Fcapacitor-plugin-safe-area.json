@@ -30,9 +30,11 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A plugin to expose the safe area insets from the native iOS/Android device to your web project.",
   "bugs": "https://dev.azure.com/HQCdevops/HQC/_git/capacitor-community-safe-area",
-  "downloads": 419
+  "downloads": 405
 }

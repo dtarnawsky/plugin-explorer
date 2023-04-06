@@ -22,7 +22,9 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Android kiosk mode for capacitor",
   "bugs": "https://github.com/10goC/capacitor-plugin-kiosk/issues",

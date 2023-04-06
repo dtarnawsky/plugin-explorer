@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-app-icon-changer.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -20,13 +23,14 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Change the homescreen icon of your app from code.",
   "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-app-icon-changer/issues",
   "stars": 30,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "quality": 152,
+  "quality": 153,
   "updated": "2023-02-16T02:52:02Z",
-  "downloads": 291
+  "downloads": 286
 }

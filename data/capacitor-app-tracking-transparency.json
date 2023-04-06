@@ -28,10 +28,12 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to request user authorization to access app-related data for tracking the user or the device. iOS only.",
   "bugs": "https://github.com/rediska1114/capacitor-app-tracking-transparency.git/issues",
   "quality": null,
-  "downloads": 148
+  "downloads": 146
 }

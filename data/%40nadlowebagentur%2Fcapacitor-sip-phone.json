@@ -21,10 +21,15 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Connect to SIP phone line",
   "bugs": "https://github.com/nadlowebagentur/capacitor-sip-phone/issues",
-  "quality": null,
-  "downloads": 88
+  "quality": 106,
+  "downloads": 82,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/44623655?v=4",
+  "updated": "2023-01-16T06:20:25Z"
 }

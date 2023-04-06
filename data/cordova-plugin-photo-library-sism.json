@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/xmarkclx/cordova-plugin-photo-library-sism.git",
   "author": "Roman Viskin <npm@terikon.com> (http://il.linkedin.com/in/romanviskin)",
@@ -37,5 +39,6 @@
   "image": "https://avatars.githubusercontent.com/u/5523580?v=4",
   "quality": 33,
   "updated": "2022-07-22T21:10:54Z",
-  "downloads": 365
+  "downloads": 303,
+  "keywords": []
 }

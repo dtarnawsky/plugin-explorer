@@ -30,7 +30,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Cordova RTSP player",
   "bugs": "https://github.com/dride/cordova-plugin-rtsp-vlc/issues",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/20656635?v=4",
   "quality": 153,
   "updated": "2023-01-03T12:03:47Z",
-  "downloads": 49
+  "downloads": 43
 }

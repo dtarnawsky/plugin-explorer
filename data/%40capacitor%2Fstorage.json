@@ -41,24 +41,16 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "android",
-    "capacitor-plugin",
-    "cross-platform",
-    "css",
-    "html",
-    "ios",
-    "java",
-    "javascript",
-    "pwa",
-    "swift"
+    "native"
   ],
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "The Storage API provides a simple key/value persistent store for lightweight data.",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
@@ -66,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 994,
   "updated": "2023-03-26T14:52:24Z",
-  "downloads": 125935
+  "downloads": 121146
 }

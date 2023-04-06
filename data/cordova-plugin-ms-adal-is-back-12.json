@@ -24,12 +24,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client.",
   "bugs": "https://github.com/AndrewIl/azure-activedirectory-library-for-cordova/issues",
   "quality": 0,
-  "downloads": 27,
+  "downloads": 21,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/10064717?v=4",
   "updated": "2021-12-21T14:37:58Z"

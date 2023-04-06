@@ -1,9 +1,9 @@
 {
   "name": "scandit-capacitor-datacapture-barcode",
-  "version": "6.17.0-beta.1",
+  "version": "6.17.0-beta.2",
   "success": [],
   "author": "Scandit <support@scandit.com>",
-  "published": "2023-03-10T21:07:08.157Z",
+  "published": "2023-03-30T19:21:36.782Z",
   "versions": [
     "6.8.0-beta.1",
     "6.8.0-beta.2",
@@ -45,7 +45,8 @@
     "6.16.0",
     "6.16.1",
     "6.16.2",
-    "6.17.0-beta.1"
+    "6.17.0-beta.1",
+    "6.17.0-beta.2"
   ],
   "fails": [
     "capacitor-ios-4",
@@ -53,8 +54,10 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Scandit Data Capture SDK for Capacitor",
-  "downloads": 2287
+  "downloads": 2227
 }

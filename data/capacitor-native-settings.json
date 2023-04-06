@@ -30,10 +30,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to open native settings screens for android and iOS",
   "bugs": "https://github.com/RaphaelWoude/capacitor-native-settings/issues",
-  "quality": null,
-  "downloads": 73970
+  "quality": 154,
+  "downloads": 73135,
+  "stars": 37,
+  "image": "https://avatars.githubusercontent.com/u/47354694?v=4",
+  "updated": "2023-04-03T16:58:54Z"
 }

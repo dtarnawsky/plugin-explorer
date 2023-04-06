@@ -1,10 +1,10 @@
 {
   "name": "scandit-capacitor-datacapture-text",
-  "version": "6.17.0-beta.1",
+  "version": "6.17.0-beta.2",
   "success": [],
   "repo": "https://github.com/Scandit/scandit-capacitor-datacapture-text.git",
   "author": "Scandit",
-  "published": "2023-03-10T21:07:20.565Z",
+  "published": "2023-03-30T19:21:42.589Z",
   "versions": [
     "6.11.0-beta.1",
     "6.11.0-beta.2",
@@ -33,7 +33,8 @@
     "6.16.0",
     "6.16.1",
     "6.16.2",
-    "6.17.0-beta.1"
+    "6.17.0-beta.1",
+    "6.17.0-beta.2"
   ],
   "keywords": [
     "capacitor",
@@ -46,7 +47,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Scandit Data Capture SDK for Capacitor",
   "bugs": "https://github.com/Scandit/scandit-capacitor-datacapture-text/issues",
@@ -54,5 +57,5 @@
   "image": "https://avatars.githubusercontent.com/u/2790630?v=4",
   "quality": 100,
   "updated": "2022-02-19T00:25:37Z",
-  "downloads": 194
+  "downloads": 237
 }

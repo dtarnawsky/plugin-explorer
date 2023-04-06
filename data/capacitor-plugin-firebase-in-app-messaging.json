@@ -24,7 +24,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Add In-App Messaging to Ionic Apps",
   "bugs": "https://github.com/dbrookesSPC/capacitor-plugin-firebase-inappmessaging/issues",
@@ -32,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/65164730?v=4",
   "quality": 100,
   "updated": "2022-04-28T08:27:38Z",
-  "downloads": 45
+  "downloads": 46
 }

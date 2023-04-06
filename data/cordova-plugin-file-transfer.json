@@ -66,13 +66,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Cordova File Transfer Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
-  "stars": 587,
+  "stars": 588,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "quality": 1555,
-  "updated": "2023-03-07T16:22:30Z",
-  "downloads": 33011
+  "quality": 1556,
+  "updated": "2023-03-31T03:52:44Z",
+  "downloads": 34073
 }

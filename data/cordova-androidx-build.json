@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/wf9a5m75/cordova-androidx-build.git",
   "author": "Masashi Katsumata",
@@ -22,7 +25,8 @@
     "androidx"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This plugin helps to build your app with AndroidX library. ",
   "bugs": "https://github.com/wf9a5m75/cordova-androidx-build/issues",
@@ -30,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/167831?v=4",
   "quality": 115,
   "updated": "2021-03-04T19:53:42Z",
-  "downloads": 5676
+  "downloads": 5466
 }

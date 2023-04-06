@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Instabug/Instabug-Cordova.git",
   "author": "Instabug (https://instabug.com)",
@@ -91,6 +93,9 @@
   ],
   "description": "Cordova plugin for integrating the Instabug SDK.",
   "bugs": "https://github.com/Instabug/Instabug-Cordova/issues",
-  "quality": null,
-  "downloads": 333
+  "quality": 146,
+  "downloads": 419,
+  "stars": 22,
+  "image": "https://avatars.githubusercontent.com/u/4802335?v=4",
+  "updated": "2023-03-06T23:54:09Z"
 }

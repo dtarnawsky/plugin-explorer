@@ -51,7 +51,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Ironsource ads for cordova based development",
   "bugs": "https://github.com/charlesbodman/cordova-plugin-ironsource-ads/issues",
@@ -59,5 +61,5 @@
   "image": "https://avatars.githubusercontent.com/u/231894?v=4",
   "quality": 147,
   "updated": "2023-01-27T21:17:55Z",
-  "downloads": 96
+  "downloads": 85
 }

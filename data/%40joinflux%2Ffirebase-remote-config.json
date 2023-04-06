@@ -4,7 +4,9 @@
   "success": [
     "capacitor-ios-3",
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/joinflux/firebase-remote-config.git",
   "author": "Priyank Patel <priyank.patel@stackspace.ca>",
@@ -41,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
   "quality": 21,
   "updated": "2023-03-16T02:38:54Z",
-  "downloads": 790
+  "downloads": 734
 }

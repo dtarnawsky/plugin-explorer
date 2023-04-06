@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/adriano-di-giovanni/cordova-plugin-enable-multidex.git",
   "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/3408372?v=4",
   "quality": 143,
   "updated": "2022-09-24T00:39:20Z",
-  "downloads": 8010
+  "downloads": 8330
 }

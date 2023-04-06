@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/restocks/cordova-plugin-detect-screenshot.git",
   "author": "Restocks",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/18449739?v=4",
   "quality": 132,
   "updated": "2023-01-28T17:53:51Z",
-  "downloads": 606
+  "downloads": 572
 }

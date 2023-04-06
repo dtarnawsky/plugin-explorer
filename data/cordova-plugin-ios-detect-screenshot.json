@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/rossmartin/cordova-plugin-ios-detect-screenshot.git",
   "author": "Ross Martin",
@@ -32,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/2498502?v=4",
   "quality": 104,
   "updated": "2020-11-13T12:03:01Z",
-  "downloads": 63
+  "downloads": 66
 }

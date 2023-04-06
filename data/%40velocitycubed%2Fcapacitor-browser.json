@@ -22,7 +22,9 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "The Browser API provides the ability to open an in-app browser and subscribe to browser events.",
   "bugs": "https://github.com/VelocityCubed/capacitor-plugins/issues",
@@ -30,5 +32,5 @@
   "image": "https://avatars.githubusercontent.com/u/84908720?v=4",
   "quality": 1,
   "updated": "2022-07-20T09:38:17Z",
-  "downloads": 19
+  "downloads": 15
 }

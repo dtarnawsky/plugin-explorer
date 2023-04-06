@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/auctifera-josed/starprnt.git",
   "author": "Jose Angarita / Ruben Casas",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/16018027?v=4",
   "quality": 204,
   "updated": "2022-05-19T23:13:02Z",
-  "downloads": 1684
+  "downloads": 1784
 }

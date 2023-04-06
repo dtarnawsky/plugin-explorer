@@ -1,10 +1,7 @@
 {
   "name": "cordova-plugin-firebase-crashlytics",
   "version": "1.2.0",
-  "success": [
-    "cordova-android-11",
-    "capacitor-android-4"
-  ],
+  "success": [],
   "repo": "https://github.com/ReallySmallSoftware/cordova-plugin-firebase-crashlytics.git",
   "author": "Richard Windley <richard.windley@gmail.com> (http://www.reallysmall.co.uk)",
   "published": "2022-04-27T17:22:46.086Z",
@@ -30,7 +27,12 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-android-11",
+    "cordova-ios-6",
+    "capacitor-android-4"
   ],
   "description": "A Google Firebase Crashlytics plugin",
   "bugs": "https://github.com/ReallySmallSoftware/cordova-plugin-firebase-crashlytics/issues",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/4267359?v=4",
   "quality": 236,
   "updated": "2023-03-05T18:28:55Z",
-  "downloads": 1781
+  "downloads": 1815
 }

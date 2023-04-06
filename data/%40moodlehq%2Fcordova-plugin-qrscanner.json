@@ -34,10 +34,12 @@
     "capacitor-android-3",
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Moodle's fork of Cordova QRScanner Plugin.",
   "bugs": "https://github.com/moodlemobile/cordova-plugin-qrscanner/issues",
   "quality": null,
-  "downloads": 1919
+  "downloads": 1917
 }

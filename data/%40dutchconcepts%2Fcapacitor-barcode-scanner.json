@@ -27,10 +27,15 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "bugs": "https://github.com/DutchConcepts/capacitor-barcode-scanner/issues",
-  "quality": null,
-  "downloads": 160
+  "quality": 9,
+  "downloads": 159,
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/56254208?v=4",
+  "updated": "2022-08-05T12:31:47Z"
 }

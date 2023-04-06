@@ -1,0 +1,23 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/node_modules/scandit-cordova-datacapture-core/src/android/build.gradle' line: 10
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > Could not find method kotlinOptions() for arguments [build_1awz7351ea98oe8120mlgtthm$_run_closure1$_closure5@4b4f4eec] on extension 'android' of type com.android.build.gradle.internal.dsl.BaseAppModuleExtension.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 945ms
+        

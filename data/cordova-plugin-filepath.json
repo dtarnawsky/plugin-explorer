@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/hiddentao/cordova-plugin-filepath.git",
   "author": "Ramesh Nair <ram@hiddentao.com>",
@@ -42,6 +44,9 @@
   ],
   "description": "Resolve native file paths from content URLs for Cordova platforms",
   "bugs": "https://github.com/hiddentao/cordova-plugin-filepath/issues",
-  "quality": null,
-  "downloads": 16757
+  "quality": 296,
+  "downloads": 16670,
+  "stars": 67,
+  "image": "https://avatars.githubusercontent.com/u/266594?v=4",
+  "updated": "2023-01-28T05:27:54Z"
 }

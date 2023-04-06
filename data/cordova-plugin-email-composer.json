@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/katzer/cordova-plugin-email-composer.git",
   "author": "Sebastián Katzer",
@@ -53,7 +55,7 @@
   "bugs": "https://github.com/katzer/cordova-plugin-email-composer/issues",
   "stars": 339,
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
-  "quality": 797,
+  "quality": 796,
   "updated": "2023-03-23T11:24:21Z",
-  "downloads": 21066
+  "downloads": 21502
 }

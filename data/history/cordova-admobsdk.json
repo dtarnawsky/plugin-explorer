@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "8.13.0",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "8.13.0",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "8.13.0",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "8.13.0",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "cordova-admobsdk"
+}

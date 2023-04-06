@@ -2,7 +2,8 @@
   "name": "cordova-plugin-kakao-sdk",
   "version": "3.0.6",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/raccoondev85/cordova-plugin-kakao-sdk.git",
   "author": "raccoondev85",
@@ -50,12 +51,13 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "Kakao Cordova SDK Plugin",
   "bugs": "https://github.com/raccoondev85/cordova-plugin-kakao-sdk/issues",
-  "quality": 160,
-  "downloads": 62,
+  "quality": 161,
+  "downloads": 75,
   "stars": 18,
   "image": "https://avatars.githubusercontent.com/u/35438701?v=4",
   "updated": "2022-08-03T07:15:56Z"

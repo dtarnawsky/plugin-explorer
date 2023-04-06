@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ns0m/cordova-plugin-ns0m-nfc.git",
   "author": "Don Coleman <don.coleman@gmail.com>",
@@ -36,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/72109770?v=4",
   "quality": 2,
   "updated": "2022-12-29T07:42:49Z",
-  "downloads": 271
+  "downloads": 296
 }

@@ -158,13 +158,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "custom Native Capacitor plugin to play a video",
   "bugs": "https://github.com/jepiqueau/capacitor-video-player/issues",
-  "stars": 73,
+  "stars": 74,
   "image": "https://avatars.githubusercontent.com/u/16580653?v=4",
-  "quality": 217,
-  "updated": "2023-02-17T02:03:43Z",
-  "downloads": 3557
+  "quality": 218,
+  "updated": "2023-03-31T13:20:12Z",
+  "downloads": 3270
 }

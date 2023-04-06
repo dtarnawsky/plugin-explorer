@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -43,7 +45,10 @@
     "cordova-android",
     "cordova-wp8",
     "cordova-windows",
-    "cordova-blackberry10"
+    "cordova-blackberry10",
+    "cordova",
+    "phonegap",
+    "toast"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -51,6 +56,9 @@
   ],
   "description": "This plugin allows you to show a Toast. A Toast is a little non intrusive buttonless popup which automatically disappears.",
   "bugs": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin/issues",
-  "quality": null,
-  "downloads": 8947
+  "quality": 927,
+  "downloads": 8904,
+  "stars": 508,
+  "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
+  "updated": "2023-01-20T10:01:38Z"
 }

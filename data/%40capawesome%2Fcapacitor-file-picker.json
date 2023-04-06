@@ -1,13 +1,13 @@
 {
   "name": "@capawesome/capacitor-file-picker",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-file-picker.git",
   "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2023-03-01T16:57:22.521Z",
+  "published": "2023-03-31T19:44:38.367Z",
   "versions": [
     "0.4.0",
     "0.5.0",
@@ -32,7 +32,8 @@
     "0.6.0",
     "0.6.1-dev.b2bb2f5.1677241933",
     "0.6.1",
-    "0.6.2"
+    "0.6.2",
+    "0.6.3"
   ],
   "keywords": [
     "capacitor",
@@ -53,13 +54,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin that allows the user to select a file.",
   "bugs": "https://github.com/capawesome-team/capacitor-file-picker/issues",
   "stars": 59,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 182,
-  "updated": "2023-03-19T20:03:26Z",
-  "downloads": 14574
+  "quality": 172,
+  "updated": "2023-04-01T07:44:42Z",
+  "downloads": 14449
 }

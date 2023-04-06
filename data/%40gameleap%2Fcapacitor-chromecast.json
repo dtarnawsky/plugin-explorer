@@ -23,10 +23,15 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "This is a plugin for Capacitor that enables Chromecast functionality for iOS and Android.",
   "bugs": "https://github.com/gameleap/capacitor-chromecast/issues",
-  "quality": null,
-  "downloads": 18
+  "quality": 110,
+  "downloads": 16,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/11230043?v=4",
+  "updated": "2023-01-22T11:26:52Z"
 }

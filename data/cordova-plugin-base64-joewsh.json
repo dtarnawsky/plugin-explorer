@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/Joewsh/cordova-plugin-base64-joewsh.git",
   "published": "2022-06-13T23:52:26.255Z",
@@ -18,7 +21,8 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Base64 Plugin",
   "bugs": "https://github.com/Joewsh/cordova-plugin-base64-joewsh/issues",
@@ -26,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/15830790?v=4",
   "quality": 6,
   "updated": "2020-02-25T09:01:08Z",
-  "downloads": 16
+  "downloads": 19
 }

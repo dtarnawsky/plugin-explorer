@@ -3,8 +3,7 @@
   "version": "4.1.0",
   "success": [
     "capacitor-android-4",
-    "cordova-android-11",
-    "capacitor-ios-4"
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/zoho/SalesIQ-Mobilisten-Cordova.git",
   "published": "2023-03-10T16:38:44.195Z",
@@ -54,7 +53,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11",
+    "capacitor-ios-4"
   ],
   "description": "A Cordova plugin for the Zoho SalesIQ Mobilisten SDK",
   "bugs": "https://github.com/zoho/SalesIQ-Mobilisten-Cordova/issues",
@@ -62,5 +65,5 @@
   "image": "https://avatars.githubusercontent.com/u/5611631?v=4",
   "quality": 106,
   "updated": "2022-12-14T23:24:00Z",
-  "downloads": 273
+  "downloads": 285
 }

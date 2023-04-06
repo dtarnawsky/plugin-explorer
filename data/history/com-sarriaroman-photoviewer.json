@@ -1,0 +1,27 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "1.3.0",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "1.3.0",
+      "success": true
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "1.3.0",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "1.3.0",
+      "success": true
+    }
+  ],
+  "name": "com-sarriaroman-photoviewer"
+}

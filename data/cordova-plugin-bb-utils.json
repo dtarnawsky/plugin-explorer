@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/blackberry/cordova-blackberry-plugins.git",
   "author": "BlackBerry Limited",
@@ -17,7 +20,8 @@
     "cordova-blackberry10"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "BlackBerry 10 Utilities Library",
   "bugs": "https://github.com/blackberry/cordova-blackberry-plugins/issues",
@@ -25,5 +29,5 @@
   "image": "https://avatars.githubusercontent.com/u/410445?v=4",
   "quality": 137,
   "updated": "2023-01-28T17:21:22Z",
-  "downloads": 68
+  "downloads": 60
 }

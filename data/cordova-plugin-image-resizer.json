@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/wymsee/cordova-imageResizer.git",
   "author": "Wymsee",
@@ -22,7 +23,8 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5"
   ],
   "description": "Cordova / Phonegap plugin for resizing images",
   "bugs": "https://github.com/wymsee/cordova-imageResizer/issues",
@@ -30,5 +32,5 @@
   "image": "https://avatars.githubusercontent.com/u/3287538?v=4",
   "quality": 58,
   "updated": "2022-12-27T04:50:37Z",
-  "downloads": 224
+  "downloads": 213
 }

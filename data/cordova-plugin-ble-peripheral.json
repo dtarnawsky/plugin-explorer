@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/don/cordova-plugin-ble-peripheral.git",
   "author": "Don Coleman <don.coleman@gmail.com>",
@@ -26,7 +29,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Bluetooth Low Energy (BLE) Peripheral Plugin",
   "bugs": "https://github.com/don/cordova-plugin-ble-peripheral/issues",
@@ -34,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/3133?v=4",
   "quality": 172,
   "updated": "2023-02-23T17:42:44Z",
-  "downloads": 109
+  "downloads": 14
 }

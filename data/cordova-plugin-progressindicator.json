@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/pbernasconi/cordova-progressIndicator.git",
   "author": "Paolo Bernasconi",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/1716394?v=4",
   "quality": 276,
   "updated": "2023-03-14T23:09:18Z",
-  "downloads": 20
+  "downloads": 22
 }

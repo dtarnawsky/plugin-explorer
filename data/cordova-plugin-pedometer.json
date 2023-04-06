@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/leecrossley/cordova-plugin-pedometer.git",
   "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
@@ -40,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/807783?v=4",
   "quality": 213,
   "updated": "2022-12-25T02:14:15Z",
-  "downloads": 410
+  "downloads": 449
 }

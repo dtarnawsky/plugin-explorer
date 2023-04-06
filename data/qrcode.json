@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "git://github.com/soldair/node-qrcode.git",
   "author": "Ryan Day <soldair@gmail.com>",
@@ -72,5 +74,5 @@
   "description": "QRCode / 2d Barcode api with both server side and client side support using canvas",
   "bugs": "https://github.com/soldair/node-qrcode/issues",
   "quality": null,
-  "downloads": 6937624
+  "downloads": 6857832
 }

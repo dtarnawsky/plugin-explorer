@@ -4,7 +4,8 @@
   "success": [
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/daniel4thsource/cordova-plugin-kunder-accountmanager.git",
   "author": "Daniel Valenzuela",
@@ -24,7 +25,8 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "Account Manager cordova plugin for android and keychain for iOS",
   "bugs": "https://github.com/daniel4thsource/cordova-plugin-kunder-accountmanager/issues",
@@ -32,5 +34,5 @@
   "image": "https://avatars.githubusercontent.com/u/12089333?v=4",
   "quality": 3,
   "updated": "2017-09-01T23:22:35Z",
-  "downloads": 6
+  "downloads": 7
 }

@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/CWBudde/cordova-plugin-smtp-client.git",
   "author": "Christian-W.Budde <CWBudde@pcjv.de> (see README.MD)",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/4097562?v=4",
   "quality": 119,
   "updated": "2020-05-24T12:53:54Z",
-  "downloads": 17
+  "downloads": 15
 }

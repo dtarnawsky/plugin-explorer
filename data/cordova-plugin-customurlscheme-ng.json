@@ -3,7 +3,9 @@
   "version": "13.0.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/cmgustavo/Custom-URL-scheme.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -43,5 +45,5 @@
   "image": "https://avatars.githubusercontent.com/u/237435?v=4",
   "quality": 19,
   "updated": "2022-10-02T11:53:24Z",
-  "downloads": 198
+  "downloads": 202
 }

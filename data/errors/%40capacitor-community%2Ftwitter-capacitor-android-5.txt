@@ -1,0 +1,113 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-community-twitter:preBuild UP-TO-DATE
+        > Task :capacitor-community-twitter:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-community-twitter:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-community-twitter:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-community-twitter:generateReleaseResValues
+        > Task :capacitor-community-twitter:generateReleaseResources
+        > Task :capacitor-community-twitter:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        WARNING:Your project has set `android.useAndroidX=true`, but configuration `:app:releaseRuntimeClasspath` still contains legacy support libraries, which may cause runtime issues.
+        This behavior will not be allowed in Android Gradle plugin 8.0.
+        Please use only AndroidX dependencies or set `android.enableJetifier=true` in the `gradle.properties` file to migrate your project to AndroidX (see https://developer.android.com/jetpack/androidx/migrate for more info).
+        The following legacy support libraries are detected:
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-annotations:27.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-core-utils:27.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1 -> com.android.support:support-compat:27.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1 -> com.android.support:support-compat:27.1.1 -> android.arch.lifecycle:runtime:1.1.0
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1 -> android.arch.lifecycle:livedata-core:1.1.0 -> android.arch.lifecycle:common:1.1.0
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1 -> android.arch.lifecycle:livedata-core:1.1.0 -> android.arch.core:common:1.1.0
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1 -> com.android.support:support-core-ui:27.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1 -> android.arch.lifecycle:livedata-core:1.1.0
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1 -> android.arch.lifecycle:livedata-core:1.1.0 -> android.arch.core:runtime:1.1.0
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-fragment:27.1.1 -> android.arch.lifecycle:viewmodel:1.1.0
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:support-vector-drawable:27.1.1
+        :app:releaseRuntimeClasspath -> project :capacitor-community-twitter -> com.android.support:appcompat-v7:27.1.1 -> com.android.support:animated-vector-drawable:27.1.1
+        > Task :app:mapReleaseSourceSetPaths FAILED
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:mapReleaseSourceSetPaths'.
+        > Could not resolve all files for configuration ':app:releaseRuntimeClasspath'.
+        > Could not find com.twitter.sdk.android:twitter-core:3.1.1.
+        Searched in the following locations:
+        - https://dl.google.com/dl/android/maven2/com/twitter/sdk/android/twitter-core/3.1.1/twitter-core-3.1.1.pom
+        - https://repo.maven.apache.org/maven2/com/twitter/sdk/android/twitter-core/3.1.1/twitter-core-3.1.1.pom
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/libs/twitter-core-3.1.1.jar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/libs/twitter-core.jar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/libs/twitter-core-3.1.1.jar
+        - file:/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/libs/twitter-core.jar
+        Required by:
+        project :app > project :capacitor-community-twitter
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+        
+        You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+        
+        See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+        
+        BUILD FAILED in 2s
+        16 actionable tasks: 16 executed
+        

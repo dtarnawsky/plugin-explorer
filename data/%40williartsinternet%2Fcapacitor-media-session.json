@@ -22,7 +22,9 @@
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for media notifications and platform media keys as well as background audio playback",
   "bugs": "https://github.com/williartsinternet/capacitor-media-session/issues",

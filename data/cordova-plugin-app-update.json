@@ -3,7 +3,9 @@
   "version": "2.0.2",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/vaenow/cordova-plugin-app-update.git",
   "author": "vaenow",
@@ -81,7 +83,9 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Cordova App Update",
   "bugs": "https://github.com/vaenow/cordova-plugin-app-update/issues",
@@ -89,5 +93,5 @@
   "image": "https://avatars.githubusercontent.com/u/1642418?v=4",
   "quality": 578,
   "updated": "2023-03-16T23:22:51Z",
-  "downloads": 1134
+  "downloads": 993
 }

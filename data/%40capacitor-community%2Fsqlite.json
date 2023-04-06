@@ -198,13 +198,15 @@
     "capacitor-android-3",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Community plugin for native & electron SQLite databases",
   "bugs": "https://github.com/capacitor-community/sqlite/issues",
-  "stars": 263,
+  "stars": 265,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 460,
-  "updated": "2023-03-28T11:28:53Z",
-  "downloads": 41354
+  "quality": 461,
+  "updated": "2023-04-04T06:26:44Z",
+  "downloads": 34096
 }

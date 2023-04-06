@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/jeduan/cordova-plugin-crop.git",
   "published": "2022-10-05T21:40:31.628Z",
@@ -33,7 +35,7 @@
   "bugs": "https://github.com/jeduan/cordova-plugin-crop/issues",
   "stars": 115,
   "image": "https://avatars.githubusercontent.com/u/37972?v=4",
-  "quality": 426,
+  "quality": 427,
   "updated": "2023-03-28T11:15:39Z",
-  "downloads": 5861
+  "downloads": 5988
 }

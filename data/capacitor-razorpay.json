@@ -21,10 +21,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "This plugin is used for integration related to ionic Capacitor and its latest versions.",
   "bugs": "https://github.com/razorpay/razorpay-cordova/issues",
-  "quality": null,
-  "downloads": 151
+  "quality": 187,
+  "downloads": 162,
+  "stars": 50,
+  "image": "https://avatars.githubusercontent.com/u/7713209?v=4",
+  "updated": "2022-11-26T07:37:07Z"
 }

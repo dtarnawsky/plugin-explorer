@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/playsignage/cordova-plugin-reboot.git",
   "author": "",
@@ -23,5 +25,6 @@
   "image": "https://avatars.githubusercontent.com/u/20071991?v=4",
   "quality": 109,
   "updated": "2020-06-25T03:43:26Z",
-  "downloads": 5
+  "downloads": 4,
+  "keywords": []
 }

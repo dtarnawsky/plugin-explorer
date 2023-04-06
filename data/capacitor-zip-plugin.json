@@ -20,7 +20,14 @@
     "native",
     "zip",
     "unzip",
-    "ionic"
+    "ionic",
+    "android",
+    "angular",
+    "capacitor-android",
+    "capacitor-plugin",
+    "java",
+    "javascript",
+    "typescript"
   ],
   "fails": [
     "capacitor-ios-4",
@@ -28,10 +35,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Zip and Unzip files on android. Tested on cap v3. Based on Zip4j library.",
   "bugs": "https://github.com/m3allimm4a4/capacitor-zip/issues",
-  "quality": null,
-  "downloads": 21
+  "quality": 106,
+  "downloads": 21,
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/80393521?v=4",
+  "updated": "2022-08-22T11:06:17Z"
 }

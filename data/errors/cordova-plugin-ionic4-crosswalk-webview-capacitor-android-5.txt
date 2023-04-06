@@ -1,0 +1,24 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        null
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/node_modules/cordova-plugin-ionic4-crosswalk-webview/src/android/xwalk.gradle' line: 64
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > Could not get unknown property 'cdvBuildMultipleApks' for project ':app' of type org.gradle.api.Project.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 877ms
+        

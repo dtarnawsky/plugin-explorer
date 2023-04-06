@@ -5,7 +5,8 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ghenry22/cordova-plugin-music-controls2.git",
   "author": "ghenry22",
@@ -32,12 +33,13 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "Music controls for Cordova apps",
   "bugs": "https://github.com/ghenry22/cordova-plugin-music-controls2/issues",
   "quality": 124,
-  "downloads": 626,
+  "downloads": 575,
   "stars": 58,
   "image": "https://avatars.githubusercontent.com/u/7463213?v=4",
   "updated": "2023-03-05T15:47:27Z"

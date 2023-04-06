@@ -23,9 +23,11 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "print labels with an zebra label printer on the local network",
   "bugs": "https://JoJo-Bear@bitbucket.org/JoJo-Bear/ionic-zebra-label-printer.git/issues",
-  "downloads": 19
+  "downloads": 18
 }

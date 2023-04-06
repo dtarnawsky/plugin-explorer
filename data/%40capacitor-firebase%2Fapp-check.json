@@ -40,13 +40,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin for Firebase App Check.",
   "bugs": "https://github.com/capawesome-team/capacitor-firebase/issues",
-  "stars": 215,
+  "stars": 219,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 405,
-  "updated": "2023-03-28T23:33:50Z",
-  "downloads": 723
+  "quality": 410,
+  "updated": "2023-04-04T23:52:16Z",
+  "downloads": 993
 }

@@ -2,7 +2,8 @@
   "name": "capacitor-zip",
   "version": "1.0.4",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/triniwiz/capacitor-zip.git",
   "author": "Osei Fortune",
@@ -27,10 +28,14 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "Zip plugin",
   "bugs": "https://github.com/triniwiz/capacitor-zip/issues",
-  "quality": null,
-  "downloads": 121
+  "quality": 119,
+  "downloads": 111,
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/6695919?v=4",
+  "updated": "2023-03-15T15:14:34Z"
 }

@@ -3,7 +3,10 @@
   "version": "1.2.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
   "published": "2022-06-13T06:33:36.604Z",
@@ -51,7 +54,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "A Cordova/Capacitor plugin to display video from the device's camera into an HTML canvas element.",
   "bugs": "https://github.com/VirtuoWorks/CanvasCameraPlugin/issues",
@@ -59,5 +63,5 @@
   "image": "https://avatars.githubusercontent.com/u/7304853?v=4",
   "quality": 79,
   "updated": "2023-02-28T00:23:00Z",
-  "downloads": 182
+  "downloads": 134
 }

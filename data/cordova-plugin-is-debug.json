@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/mattlewis92/cordova-plugin-is-debug.git",
   "author": "Matt Lewis",
@@ -26,6 +28,9 @@
   ],
   "description": "A cordova plugin to detect if the device is running in debug mode or not.",
   "bugs": "https://github.com/mattlewis92/cordova-plugin-is-debug/issues",
-  "quality": null,
-  "downloads": 2964
+  "quality": 133,
+  "downloads": 3003,
+  "stars": 20,
+  "image": "https://avatars.githubusercontent.com/u/6425649?v=4",
+  "updated": "2022-02-24T20:49:49Z"
 }

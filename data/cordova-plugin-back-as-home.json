@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/danielsogl/cordova-plugin-back-as-home.git",
   "author": "Daniel Sogl",
@@ -21,7 +24,8 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Android back-as-home Plugin",
   "bugs": "https://github.com/danielsogl/cordova-plugin-back-as-home/issues",
@@ -29,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
   "quality": 1,
   "updated": "2018-03-16T17:10:15Z",
-  "downloads": 10
+  "downloads": 5
 }

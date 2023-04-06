@@ -38,7 +38,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor Plugin for Navigation Bar",
   "bugs": "https://github.com/hugotomazi/navigation-bar/issues",
@@ -46,5 +48,5 @@
   "image": "https://avatars.githubusercontent.com/u/14278164?v=4",
   "quality": 135,
   "updated": "2023-03-20T01:09:05Z",
-  "downloads": 9851
+  "downloads": 9278
 }

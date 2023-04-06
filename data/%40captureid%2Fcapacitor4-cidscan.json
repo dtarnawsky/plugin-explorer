@@ -32,10 +32,12 @@
     "capacitor-android-3",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "CaptureID Camera Scanner Plugin",
   "bugs": "https://github.com/P4IT/capacitor-plugin-cidscan.git/issues",
   "quality": null,
-  "downloads": 263
+  "downloads": 258
 }

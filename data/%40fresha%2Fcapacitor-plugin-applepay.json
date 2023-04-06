@@ -17,16 +17,26 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "applepay",
+    "capacitor-community",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "capacitorjs"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Apple Pay plugin for Capacitor",
   "bugs": "https://github.com/fresha/capacitor-plugin-applepay/issues",
-  "quality": null,
-  "downloads": 33598
+  "quality": 120,
+  "downloads": 32931,
+  "stars": 15,
+  "image": "https://avatars.githubusercontent.com/u/108352997?v=4",
+  "updated": "2023-02-11T14:44:18Z"
 }

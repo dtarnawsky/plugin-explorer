@@ -2,7 +2,8 @@
   "name": "capacitor-plugin-permissions",
   "version": "1.0.0",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/diiiary/capacitor-plugin-permissions.git",
   "author": "diiiary.com",
@@ -23,7 +24,8 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "description": "Capacitor permissions request and management plugin",
   "bugs": "https://github.com/diiiary/capacitor-plugin-permissions.git/issues",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/23431627?v=4",
   "quality": 103,
   "updated": "2019-08-28T11:03:40Z",
-  "downloads": 65
+  "downloads": 64
 }

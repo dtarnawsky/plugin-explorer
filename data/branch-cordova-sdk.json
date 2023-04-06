@@ -142,11 +142,22 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Branch Metrics Cordova SDK",
   "bugs": "https://github.com/BranchMetrics/cordova-ionic-phonegap-branch-deep-linking/issues",
   "stars": 231,
   "image": "https://avatars.githubusercontent.com/u/7772941?v=4",
-  "downloads": 6700
+  "downloads": 7016,
+  "keywords": [
+    "branch-sdk",
+    "cordova",
+    "deep-links",
+    "ionic",
+    "phonegap"
+  ],
+  "quality": 539,
+  "updated": "2023-03-26T13:10:59Z"
 }

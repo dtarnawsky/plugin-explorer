@@ -12,8 +12,10 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "<img src=\"https://github.com/Appboy/appboy-cordova-sdk/blob/master/braze-logo.png\" width=\"300\" title=\"Braze Logo\" />",
-  "downloads": 32
+  "downloads": 20
 }

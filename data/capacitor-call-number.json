@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/mantosh59/call-number.git",
   "author": "Devmantosh",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/11851742?v=4",
   "quality": 101,
   "updated": "2021-07-15T05:33:33Z",
-  "downloads": 3408
+  "downloads": 2533
 }

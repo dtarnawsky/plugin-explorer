@@ -10,6 +10,7 @@ enum SummaryFilter {
     Problem, // Plugins that will not build
     Capacitor3, // Works with Capacitor 3
     Capacitor4, // Works with Capacitor 4
+    Capacitor5, // Works with Capacitor 5
     Cordova611 // Works with Cordova iOS 6 and Cordova Android 11
 }
 
@@ -17,6 +18,7 @@ export function prepare() {
     console.log(`${reviewList('plugins.json', SummaryFilter.All)} working plugins found.`);
     reviewList('detailed-plugins.json', SummaryFilter.All, true);
     console.log(`${reviewList('problem-plugins.json', SummaryFilter.Problem)} plugins that wont build.`);
+    console.log(`${reviewList('cap4-plugins.json', SummaryFilter.Capacitor5)} Capacitor 5 plugins found.`);
     console.log(`${reviewList('cap4-plugins.json', SummaryFilter.Capacitor4)} Capacitor 4 plugins found.`);
     console.log(`${reviewList('cap3-plugins.json', SummaryFilter.Capacitor3)} Capacitor 3 plugins found.`);
     console.log(`${reviewList('cordova6-11-plugins.json', SummaryFilter.Cordova611)} Cordova plugins found.`);
@@ -97,6 +99,12 @@ function filtered(plugin: Inspection, filter: SummaryFilter): Inspection {
             }
             break;
         }
+        case SummaryFilter.Capacitor5: {
+            if (plugin.success.includes(Test.capacitorIos5) || plugin.success.includes(Test.capacitorAndroid5)) {
+                return plugin;
+            }
+            break;
+        }        
         case SummaryFilter.Capacitor3: {
             if (plugin.success.includes(Test.capacitorIos3) || plugin.success.includes(Test.capacitorAndroid3)) {
                 return plugin;

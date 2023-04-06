@@ -37,10 +37,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "plugin used for connect the device trhought Wifi also with prefix",
   "bugs": "https://github.com/falconeta/capacitor-wifi-connect/issues",
-  "quality": null,
-  "downloads": 200
+  "quality": 106,
+  "downloads": 232,
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/36620514?v=4",
+  "updated": "2023-03-05T19:16:11Z"
 }

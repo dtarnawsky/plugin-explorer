@@ -3,7 +3,9 @@
   "version": "1.0.24",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/ionic-plugin-deeplinks.git",
   "author": "Max Lynch <max@ionic.io>",
@@ -54,5 +56,5 @@
   "description": "Ionic Deeplinks Plugin",
   "bugs": "https://github.com/ionic-team/ionic-plugin-deeplinks/issues",
   "quality": null,
-  "downloads": 48756
+  "downloads": 52490
 }

@@ -3,7 +3,9 @@
   "version": "4.1.0",
   "success": [
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-geolocation.git",
   "author": "Apache Software Foundation",

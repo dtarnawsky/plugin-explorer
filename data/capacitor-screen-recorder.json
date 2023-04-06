@@ -30,10 +30,15 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Record device's screen",
   "bugs": "https://github.com/riderx/capacitor-screen-recorder/issues",
-  "quality": null,
-  "downloads": 33
+  "quality": 118,
+  "downloads": 38,
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
+  "updated": "2023-03-04T23:09:33Z"
 }

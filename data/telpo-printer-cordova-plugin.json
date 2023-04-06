@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "Tsango Marlon <tsango12marlon@gmail.com>",
   "published": "2023-01-30T15:51:24.243Z",
@@ -37,5 +39,5 @@
     "capacitor-android-3"
   ],
   "description": "Cordova wrapper for ESC/POS Telpo Printer library",
-  "downloads": 19
+  "downloads": 29
 }

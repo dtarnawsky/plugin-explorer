@@ -24,15 +24,15 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "capacitor-plugin",
-    "firebase-dynamic-links"
+    "native"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor Plugin for Firebase Dynamic Links",
   "bugs": "https://github.com/joinflux/capacitor-firebase-dynamic-links/issues",
@@ -40,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
   "quality": 2,
   "updated": "2022-09-20T06:25:49Z",
-  "downloads": 67
+  "downloads": 76
 }

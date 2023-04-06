@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-taptic-engine.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -34,9 +36,9 @@
   ],
   "description": "Use Apple's Taptic Engine to vibrate your iPhone 6s (or up) in a variety of ways.",
   "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-taptic-engine/issues",
-  "stars": 59,
+  "stars": 60,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "quality": 172,
-  "updated": "2023-01-01T15:40:30Z",
-  "downloads": 4735
+  "quality": 173,
+  "updated": "2023-04-02T20:11:16Z",
+  "downloads": 4756
 }

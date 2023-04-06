@@ -1,0 +1,269 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :app:generateReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:mergeReleaseResources
+        > Task :app:desugarReleaseFileDependencies
+        > Task :app:bundleReleaseResources
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        Note: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-android:bundleLibRuntimeToJarRelease
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :app:mergeExtDexRelease
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :app:generateReleaseBuildConfig
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseAarMetadata
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:8: error: package by.chemerisuk.cordova.support does not exist
+        import by.chemerisuk.cordova.support.CordovaMethod;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:9: error: package by.chemerisuk.cordova.support does not exist
+        import by.chemerisuk.cordova.support.ReflectiveCordovaPlugin;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:37: error: cannot find symbol
+        public class FirebaseAuthenticationPlugin extends ReflectiveCordovaPlugin implements AuthStateListener {
+        ^
+        symbol: class ReflectiveCordovaPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:49: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:62: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:68: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:80: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:88: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:99: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:106: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:112: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:120: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:127: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:133: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:140: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:148: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:181: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:188: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:194: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:205: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:218: error: cannot find symbol
+        @CordovaMethod
+        ^
+        symbol:   class CordovaMethod
+        location: class FirebaseAuthenticationPlugin
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:43: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/by/chemerisuk/cordova/firebase/FirebaseAuthenticationPlugin.java:153: error: cannot find symbol
+        .setActivity(cordova.getActivity())
+        ^
+        symbol:   variable cordova
+        location: class FirebaseAuthenticationPlugin
+        23 errors
+        
+        > Task :app:processReleaseManifestForPackage
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 7s
+        88 actionable tasks: 88 executed
+        

@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/byorty/cordova-install-referrer-api.git",
   "author": "Aleksey Solomonov",
@@ -17,7 +20,8 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Install Referrer API",
   "bugs": "https://github.com/byorty/cordova-install-referrer-api.git/issues",
@@ -25,5 +29,5 @@
   "image": "https://avatars.githubusercontent.com/u/757629?v=4",
   "quality": 106,
   "updated": "2022-07-17T17:21:11Z",
-  "downloads": 140
+  "downloads": 148
 }

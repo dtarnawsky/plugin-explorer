@@ -1,7 +1,24 @@
 {
   "tests": [
     {
-      "test": "cordova-ios-6",
+      "test": "capacitor-android-3",
+      "version": "5.0.6",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-5",
+      "version": "5.0.6",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "5.0.6",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
       "version": "5.0.6",
       "success": true
     },
@@ -12,16 +29,9 @@
       "success": false
     },
     {
-      "test": "capacitor-ios-3",
+      "test": "cordova-ios-6",
       "version": "5.0.6",
-      "failure": "cap-sync",
-      "success": false
-    },
-    {
-      "test": "capacitor-android-3",
-      "version": "5.0.6",
-      "failure": "cap-sync",
-      "success": false
+      "success": true
     }
   ],
   "name": "uk.co.workingedge.phonegap.plugin.launchnavigator"

@@ -1,0 +1,591 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :app:generateReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
+        > Task :capacitor-status-bar:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :app:checkReleaseDuplicateClasses
+        > Task :app:mergeReleaseResources
+        > Task :app:desugarReleaseFileDependencies
+        > Task :capacitor-android:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:generateReleaseBuildConfig
+        > Task :capacitor-app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-android:javaPreCompileRelease
+        > Task :capacitor-android:parseReleaseLocalResources
+        > Task :capacitor-app:generateReleaseBuildConfig
+        > Task :capacitor-haptics:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-app:javaPreCompileRelease
+        > Task :capacitor-app:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-haptics:javaPreCompileRelease
+        > Task :capacitor-haptics:parseReleaseLocalResources
+        > Task :capacitor-android:generateReleaseRFile
+        > Task :capacitor-keyboard:generateReleaseBuildConfig
+        > Task :app:bundleReleaseResources
+        
+        > Task :capacitor-android:compileReleaseJavaWithJavac
+        
+        > Task :capacitor-android:bundleLibCompileToJarRelease
+        > Task :capacitor-android:bundleLibRuntimeToJarReleaseNote: Some input files use unchecked or unsafe operations.
+        Note: Recompile with -Xlint:unchecked for details.
+        
+        > Task :capacitor-app:generateReleaseRFile
+        > Task :capacitor-keyboard:parseReleaseLocalResources
+        > Task :capacitor-haptics:generateReleaseRFile
+        > Task :capacitor-app:compileReleaseJavaWithJavac
+        > Task :capacitor-app:bundleLibRuntimeToJarRelease
+        > Task :app:mergeExtDexRelease
+        > Task :capacitor-haptics:compileReleaseJavaWithJavac
+        > Task :capacitor-haptics:bundleLibRuntimeToJarRelease
+        > Task :capacitor-keyboard:javaPreCompileRelease
+        > Task :capacitor-status-bar:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseRFile
+        > Task :capacitor-status-bar:generateReleaseBuildConfig
+        > Task :capacitor-keyboard:compileReleaseJavaWithJavac
+        > Task :capacitor-keyboard:bundleLibRuntimeToJarRelease
+        > Task :capacitor-status-bar:javaPreCompileRelease
+        > Task :capacitor-status-bar:parseReleaseLocalResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseBuildConfig
+        > Task :app:compileReleaseAidl NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:javaPreCompileRelease
+        > Task :capacitor-cordova-android-plugins:parseReleaseLocalResources
+        > Task :capacitor-status-bar:generateReleaseRFile
+        > Task :app:generateReleaseBuildConfig
+        > Task :capacitor-status-bar:compileReleaseJavaWithJavac
+        > Task :capacitor-status-bar:bundleLibRuntimeToJarRelease
+        > Task :app:javaPreCompileRelease
+        > Task :capacitor-android:writeReleaseAarMetadata
+        > Task :capacitor-app:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:writeReleaseAarMetadata
+        > Task :capacitor-haptics:writeReleaseAarMetadata
+        > Task :capacitor-keyboard:writeReleaseAarMetadata
+        > Task :capacitor-status-bar:writeReleaseAarMetadata
+        > Task :capacitor-cordova-android-plugins:generateReleaseRFile
+        > Task :app:checkReleaseAarMetadata
+        
+        > Task :capacitor-cordova-android-plugins:compileReleaseJavaWithJavac FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationControl.java:10: error: package com.vuforia does not exist
+        import com.vuforia.State;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationControl.java:49: error: cannot find symbol
+        void onVuforiaUpdate(State state);
+        ^
+        symbol:   class State
+        location: interface ApplicationControl
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:23: error: package com.vuforia does not exist
+        import com.vuforia.Renderer;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:24: error: package com.vuforia does not exist
+        import com.vuforia.State;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:25: error: package com.vuforia does not exist
+        import com.vuforia.Trackable;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:26: error: package com.vuforia does not exist
+        import com.vuforia.TrackableResult;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:27: error: package com.vuforia does not exist
+        import com.vuforia.VIDEO_BACKGROUND_REFLECTION;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:28: error: package com.vuforia does not exist
+        import com.vuforia.Vuforia;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:24: error: package com.vuforia does not exist
+        import com.vuforia.CameraCalibration;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:25: error: package com.vuforia does not exist
+        import com.vuforia.CameraDevice;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:26: error: package com.vuforia does not exist
+        import com.vuforia.Matrix44F;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:27: error: package com.vuforia does not exist
+        import com.vuforia.Renderer;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:28: error: package com.vuforia does not exist
+        import com.vuforia.State;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:29: error: package com.vuforia does not exist
+        import com.vuforia.Tool;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:30: error: package com.vuforia does not exist
+        import com.vuforia.Vec2I;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:31: error: package com.vuforia does not exist
+        import com.vuforia.VideoBackgroundConfig;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:32: error: package com.vuforia does not exist
+        import com.vuforia.VideoMode;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:33: error: package com.vuforia does not exist
+        import com.vuforia.Vuforia;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:34: error: package com.vuforia.Vuforia does not exist
+        import com.vuforia.Vuforia.UpdateCallbackInterface;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:36: error: cannot find symbol
+        public class ApplicationSession implements UpdateCallbackInterface
+        ^
+        symbol: class UpdateCallbackInterface
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:46: error: package com.vuforia does not exist
+        import com.vuforia.CameraDevice;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:47: error: package com.vuforia does not exist
+        import com.vuforia.DataSet;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:48: error: package com.vuforia does not exist
+        import com.vuforia.ObjectTracker;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:49: error: package com.vuforia does not exist
+        import com.vuforia.State;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:50: error: package com.vuforia does not exist
+        import com.vuforia.STORAGE_TYPE;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:51: error: package com.vuforia does not exist
+        import com.vuforia.Trackable;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:52: error: package com.vuforia does not exist
+        import com.vuforia.Tracker;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:53: error: package com.vuforia does not exist
+        import com.vuforia.TrackerManager;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:54: error: package com.vuforia does not exist
+        import com.vuforia.Vuforia;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:42: error: cannot find symbol
+        private Renderer mRenderer;
+        ^
+        symbol:   class Renderer
+        location: class ImageTargetRenderer
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:71: error: cannot find symbol
+        private DataSet mCurrentDataset;
+        ^
+        symbol:   class DataSet
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:608: error: cannot find symbol
+        public void onVuforiaUpdate(State state)
+        ^
+        symbol:   class State
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:72: error: cannot find symbol
+        private Matrix44F mProjectionMatrix;
+        ^
+        symbol:   class Matrix44F
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:309: error: cannot find symbol
+        public Matrix44F getProjectionMatrix()
+        ^
+        symbol:   class Matrix44F
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:322: error: cannot find symbol
+        public void Vuforia_onUpdate(State s)
+        ^
+        symbol:   class State
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:98: error: cannot find symbol
+        mRenderer = Renderer.getInstance();
+        ^
+        symbol:   variable Renderer
+        location: class ImageTargetRenderer
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:100: error: cannot find symbol
+        GLES20.glClearColor(0.0f, 0.0f, 0.0f, Vuforia.requiresAlpha() ? 0.0f
+        ^
+        symbol:   variable Vuforia
+        location: class ImageTargetRenderer
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:116: error: cannot find symbol
+        State state = mRenderer.begin();
+        ^
+        symbol:   class State
+        location: class ImageTargetRenderer
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:125: error: cannot find symbol
+        if (Renderer.getInstance().getVideoBackgroundConfig().getReflection() == VIDEO_BACKGROUND_REFLECTION.VIDEO_BACKGROUND_REFLECTION_ON)
+        ^
+        symbol:   variable Renderer
+        location: class ImageTargetRenderer
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:125: error: cannot find symbol
+        if (Renderer.getInstance().getVideoBackgroundConfig().getReflection() == VIDEO_BACKGROUND_REFLECTION.VIDEO_BACKGROUND_REFLECTION_ON)
+        ^
+        symbol:   variable VIDEO_BACKGROUND_REFLECTION
+        location: class ImageTargetRenderer
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:133: error: cannot find symbol
+        TrackableResult result = state.getTrackableResult(tIdx);
+        ^
+        symbol:   class TrackableResult
+        location: class ImageTargetRenderer
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargetRenderer.java:134: error: cannot find symbol
+        Trackable trackable = result.getTrackable();
+        ^
+        symbol:   class Trackable
+        location: class ImageTargetRenderer
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:69: error: package CameraDevice does not exist
+        private int mCamera = CameraDevice.CAMERA_DIRECTION.CAMERA_DIRECTION_DEFAULT;
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:135: error: cannot find symbol
+        mVuforiaFlags = Vuforia.GL_20;
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:185: error: cannot find symbol
+        if (!CameraDevice.getInstance().init(camera))
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:194: error: package CameraDevice does not exist
+        CameraDevice.MODE.MODE_DEFAULT))
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:193: error: cannot find symbol
+        if (!CameraDevice.getInstance().selectVideoMode(
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:205: error: cannot find symbol
+        if (!CameraDevice.getInstance().start())
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:219: error: package CameraDevice does not exist
+        if(!CameraDevice.getInstance().setFocusMode(CameraDevice.FOCUS_MODE.FOCUS_MODE_CONTINUOUSAUTO))
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:219: error: cannot find symbol
+        if(!CameraDevice.getInstance().setFocusMode(CameraDevice.FOCUS_MODE.FOCUS_MODE_CONTINUOUSAUTO))
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:221: error: package CameraDevice does not exist
+        if(!CameraDevice.getInstance().setFocusMode(CameraDevice.FOCUS_MODE.FOCUS_MODE_TRIGGERAUTO))
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:221: error: cannot find symbol
+        if(!CameraDevice.getInstance().setFocusMode(CameraDevice.FOCUS_MODE.FOCUS_MODE_TRIGGERAUTO))
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:222: error: package CameraDevice does not exist
+        CameraDevice.getInstance().setFocusMode(CameraDevice.FOCUS_MODE.FOCUS_MODE_NORMAL);
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:222: error: cannot find symbol
+        CameraDevice.getInstance().setFocusMode(CameraDevice.FOCUS_MODE.FOCUS_MODE_NORMAL);
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:267: error: cannot find symbol
+        Vuforia.deinit();
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:287: error: cannot find symbol
+        Vuforia.onResume();
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:304: error: cannot find symbol
+        Vuforia.onPause();
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:321: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:350: error: cannot find symbol
+        Vuforia.onResume();
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:356: error: cannot find symbol
+        Vuforia.onPause();
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:362: error: cannot find symbol
+        Vuforia.onSurfaceChanged(width, height);
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:368: error: cannot find symbol
+        Vuforia.onSurfaceCreated();
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:383: error: cannot find symbol
+        Vuforia.setInitParameters(mActivity, mVuforiaFlags, mLicenseKey);
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession.InitVuforiaTask
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:392: error: cannot find symbol
+        mProgressValue = Vuforia.init();
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession.InitVuforiaTask
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:518: error: cannot find symbol
+        Vuforia.registerCallback(ApplicationSession.this);
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession.LoadTrackerTask
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:533: error: cannot find symbol
+        if (code == Vuforia.INIT_DEVICE_NOT_SUPPORTED)
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:535: error: cannot find symbol
+        if (code == Vuforia.INIT_NO_CAMERA_ACCESS)
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:537: error: cannot find symbol
+        if (code == Vuforia.INIT_LICENSE_ERROR_MISSING_KEY)
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:539: error: cannot find symbol
+        if (code == Vuforia.INIT_LICENSE_ERROR_INVALID_KEY)
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:541: error: cannot find symbol
+        if (code == Vuforia.INIT_LICENSE_ERROR_NO_NETWORK_TRANSIENT)
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:543: error: cannot find symbol
+        if (code == Vuforia.INIT_LICENSE_ERROR_NO_NETWORK_PERMANENT)
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:545: error: cannot find symbol
+        if (code == Vuforia.INIT_LICENSE_ERROR_CANCELED_KEY)
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:547: error: cannot find symbol
+        if (code == Vuforia.INIT_LICENSE_ERROR_PRODUCT_TYPE_MISMATCH)
+        ^
+        symbol:   variable Vuforia
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:594: error: cannot find symbol
+        CameraCalibration camCal = CameraDevice.getInstance()
+        ^
+        symbol:   class CameraCalibration
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:594: error: cannot find symbol
+        CameraCalibration camCal = CameraDevice.getInstance()
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:596: error: cannot find symbol
+        mProjectionMatrix = Tool.getProjectionGL(camCal, 10.0f, 5000.0f);
+        ^
+        symbol:   variable Tool
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:605: error: cannot find symbol
+        CameraDevice.getInstance().stop();
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:606: error: cannot find symbol
+        CameraDevice.getInstance().deinit();
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:615: error: cannot find symbol
+        CameraDevice cameraDevice = CameraDevice.getInstance();
+        ^
+        symbol:   class CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:615: error: cannot find symbol
+        CameraDevice cameraDevice = CameraDevice.getInstance();
+        ^
+        symbol:   variable CameraDevice
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:616: error: cannot find symbol
+        VideoMode vm = cameraDevice.getVideoMode(CameraDevice.MODE.MODE_DEFAULT);
+        ^
+        symbol:   class VideoMode
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:616: error: package CameraDevice does not exist
+        VideoMode vm = cameraDevice.getVideoMode(CameraDevice.MODE.MODE_DEFAULT);
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:618: error: cannot find symbol
+        VideoBackgroundConfig config = new VideoBackgroundConfig();
+        ^
+        symbol:   class VideoBackgroundConfig
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:618: error: cannot find symbol
+        VideoBackgroundConfig config = new VideoBackgroundConfig();
+        ^
+        symbol:   class VideoBackgroundConfig
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:620: error: cannot find symbol
+        config.setPosition(new Vec2I(0, 0));
+        ^
+        symbol:   class Vec2I
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:649: error: cannot find symbol
+        config.setSize(new Vec2I(xSize, ySize));
+        ^
+        symbol:   class Vec2I
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ApplicationSession.java:664: error: cannot find symbol
+        Renderer.getInstance().setVideoBackgroundConfig(config);
+        ^
+        symbol:   variable Renderer
+        location: class ApplicationSession
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:131: error: cannot find symbol
+        Vuforia.deinit();
+        ^
+        symbol:   variable Vuforia
+        location: class ImageTargets.ActionReceiver
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:225: error: package CameraDevice does not exist
+        CameraDevice.FOCUS_MODE.FOCUS_MODE_TRIGGERAUTO);
+        ^
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:224: error: cannot find symbol
+        boolean result = CameraDevice.getInstance().setFocusMode(
+        ^
+        symbol: variable CameraDevice
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:370: error: cannot find symbol
+        boolean translucent = Vuforia.requiresAlpha();
+        ^
+        symbol:   variable Vuforia
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:435: error: cannot find symbol
+        TrackerManager tManager = TrackerManager.getInstance();
+        ^
+        symbol:   class TrackerManager
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:435: error: cannot find symbol
+        TrackerManager tManager = TrackerManager.getInstance();
+        ^
+        symbol:   variable TrackerManager
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:436: error: cannot find symbol
+        ObjectTracker objectTracker = (ObjectTracker) tManager
+        ^
+        symbol:   class ObjectTracker
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:436: error: cannot find symbol
+        ObjectTracker objectTracker = (ObjectTracker) tManager
+        ^
+        symbol:   class ObjectTracker
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:437: error: cannot find symbol
+        .getTracker(ObjectTracker.getClassType());
+        ^
+        symbol:   variable ObjectTracker
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:452: error: cannot find symbol
+        storage_type = STORAGE_TYPE.STORAGE_ABSOLUTE;
+        ^
+        symbol:   variable STORAGE_TYPE
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:457: error: cannot find symbol
+        storage_type = STORAGE_TYPE.STORAGE_APPRESOURCE;
+        ^
+        symbol:   variable STORAGE_TYPE
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:472: error: cannot find symbol
+        Trackable trackable = mCurrentDataset.getTrackable(count);
+        ^
+        symbol:   class Trackable
+        location: class ImageTargets
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/capacitor-cordova-android-plugins/src/main/java/java/com/mattrayner/vuforia/app/ImageTargets.java:496: error: cannot find symbol
+        TrackerManager tManager = TrackerManager.getInstance();
+        ^
+        symbol:   class TrackerManager
+        location: class ImageTargets
+        Note: Some input files use or override a deprecated API.
+        Note: Recompile with -Xlint:deprecation for details.
+        100 errors
+        
+        > Task :app:processReleaseManifestForPackage
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':capacitor-cordova-android-plugins:compileReleaseJavaWithJavac'.
+        > Compilation failed; see the compiler error output for details.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 3s
+        88 actionable tasks: 88 executed
+        

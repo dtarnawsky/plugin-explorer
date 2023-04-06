@@ -24,10 +24,15 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "UDP Plugin for CapacitorJS inspired by the UDP Plugin of https://github.com/unitree-czk/capacitor-udp",
   "bugs": "https://github.com/brugsel/capacitor-udp/issues",
-  "quality": null,
-  "downloads": 224
+  "quality": 110,
+  "downloads": 266,
+  "stars": 3,
+  "image": "https://avatars.githubusercontent.com/u/232117?v=4",
+  "updated": "2022-12-13T15:57:02Z"
 }

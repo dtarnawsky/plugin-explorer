@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-splashscreen.git",
   "author": "Apache Software Foundation",
@@ -53,13 +55,24 @@
     "ecosystem:cordova",
     "cordova-android",
     "cordova-windows",
-    "cordova-browser"
+    "cordova-browser",
+    "cplusplus",
+    "csharp",
+    "java",
+    "javascript",
+    "library",
+    "mobile",
+    "nodejs",
+    "objective-c"
   ],
   "fails": [
     "capacitor-android-3"
   ],
   "description": "Cordova Splashscreen Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-splashscreen/issues",
-  "quality": null,
-  "downloads": 163501
+  "quality": 1396,
+  "downloads": 163276,
+  "stars": 637,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "updated": "2023-03-27T17:00:48Z"
 }

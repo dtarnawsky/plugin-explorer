@@ -56,12 +56,14 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "A Cordova plugin for PhotoEditor SDK. Integrate the photo editor into your own HTML5, iOS or Android app - in minutes!",
   "bugs": "https://github.com/imgly/pesdk-cordova/issues",
   "quality": 111,
-  "downloads": 51,
+  "downloads": 68,
   "stars": 8,
   "image": "https://avatars.githubusercontent.com/u/6421070?v=4",
   "updated": "2022-03-18T21:25:48Z"

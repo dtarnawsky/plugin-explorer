@@ -3,7 +3,10 @@
   "version": "2.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/Ideas2IT/cordova-aes256.git",
   "author": "Ideas2it",
@@ -33,7 +36,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This cordova ionic plugin allows you to perform AES 256 encryption and decryption on the plain text. It's a cross-platform plugin which supports both Android and iOS. The encryption and decryption are performed on the device native layer so that the perfo",
   "bugs": "https://github.com/Ideas2IT/cordova-aes256/issues",
@@ -41,5 +45,5 @@
   "image": "https://avatars.githubusercontent.com/u/6663052?v=4",
   "quality": 138,
   "updated": "2020-09-16T01:15:46Z",
-  "downloads": 3217
+  "downloads": 3522
 }

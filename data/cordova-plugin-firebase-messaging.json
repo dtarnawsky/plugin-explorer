@@ -2,7 +2,8 @@
   "name": "cordova-plugin-firebase-messaging",
   "version": "7.0.4",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-firebase-messaging.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -86,13 +87,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for Firebase Messaging",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-firebase-messaging/issues",
   "stars": 157,
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
-  "quality": 420,
+  "quality": 421,
   "updated": "2023-03-13T17:07:24Z",
-  "downloads": 12877
+  "downloads": 11787
 }

@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "author": "Waldemar Medina",
   "published": "2022-10-09T14:55:58.695Z",
@@ -57,8 +58,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5"
   ],
   "description": "Monetize your cordova application using the UnityAds 4 API",
-  "downloads": 50
+  "downloads": 61
 }

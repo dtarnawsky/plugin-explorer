@@ -4,7 +4,8 @@
   "success": [
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-local-notification.git",
   "author": "Sebastián Katzer",
@@ -32,10 +33,14 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "description": "Moodle's fork of Cordova Local Notifications Plugin",
   "bugs": "https://github.com/moodlemobile/cordova-plugin-local-notification/issues",
-  "quality": null,
-  "downloads": 2006
+  "quality": 13,
+  "downloads": 2000,
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
+  "updated": "2023-02-21T11:14:31Z"
 }

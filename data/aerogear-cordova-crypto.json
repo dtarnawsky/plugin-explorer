@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/aerogear/aerogear-cordova-crypto.git",
   "author": "edewit",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/34545933?v=4",
   "quality": 122,
   "updated": "2023-01-28T16:27:55Z",
-  "downloads": 99
+  "downloads": 91
 }

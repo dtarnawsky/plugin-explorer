@@ -7,7 +7,7 @@
   ],
   "repo": "https://github.com/ionic-team/capacitor-plugins.git",
   "author": "Ionic <hi@ionicframework.com>",
-  "published": "2023-03-30T15:12:58.258Z",
+  "published": "2023-04-03T15:15:28.879Z",
   "versions": [
     "0.0.1",
     "0.1.0",
@@ -171,6 +171,7 @@
     "4.1.5-nightly-20230315T150853.0",
     "4.1.5-nightly-20230316T150919.0",
     "5.0.0-alpha.1",
+    "5.0.0-beta.0",
     "5.0.0-nightly-20230317T150907.0",
     "5.0.0-nightly-20230320T150751.0",
     "5.0.0-nightly-20230321T150946.0",
@@ -180,33 +181,27 @@
     "5.0.0-nightly-20230327T150845.0",
     "5.0.0-nightly-20230328T150956.0",
     "5.0.0-nightly-20230329T152052.0",
-    "5.0.0-nightly-20230330T150756.0"
+    "5.0.0-nightly-20230330T150756.0",
+    "5.0.0-nightly-20230331T150806.0",
+    "5.0.0-nightly-20230403T150914.0"
   ],
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "android",
-    "capacitor-plugin",
-    "cross-platform",
-    "css",
-    "html",
-    "ios",
-    "java",
-    "javascript",
-    "pwa",
-    "swift"
+    "native"
   ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "The Filesystem API provides a NodeJS-like API for working with files on the device.",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
   "quality": 993,
-  "downloads": 409585,
+  "downloads": 380503,
   "stars": 338,
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "updated": "2023-03-26T14:52:24Z"

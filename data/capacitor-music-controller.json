@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/patrickjquinn/capacitor-music-controller.git",
   "author": "patrickjquinn",
@@ -37,6 +39,9 @@
   ],
   "description": "A better implementation of MusicControls for Capacitor v3 projects",
   "bugs": "https://github.com/patrickjquinn/capacitor-music-controller/issues",
-  "quality": null,
-  "downloads": 50
+  "quality": 2,
+  "downloads": 55,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/1819370?v=4",
+  "updated": "2023-02-09T21:27:25Z"
 }

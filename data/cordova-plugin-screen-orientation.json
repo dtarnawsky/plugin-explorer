@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-screen-orientation.git",
   "author": "Apache Software Foundation",
@@ -51,7 +53,7 @@
   "description": "Cordova Screen Orientation plugin",
   "bugs": "https://github.com/apache/cordova-plugin-screen-orientation/issues",
   "quality": 522,
-  "downloads": 165287,
+  "downloads": 158407,
   "stars": 208,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "updated": "2023-03-02T21:30:16Z"

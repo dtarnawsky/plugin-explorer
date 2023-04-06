@@ -30,7 +30,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Enable some media features for Capacitor such as create albums, save videos, gifs and more.",
   "bugs": "https://github.com/capacitor-community/media/issues",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 199,
   "updated": "2023-03-28T16:48:01Z",
-  "downloads": 20136
+  "downloads": 19918
 }

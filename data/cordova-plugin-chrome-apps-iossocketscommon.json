@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-iosSocketsCommon.git",
   "author": "",
@@ -30,5 +32,5 @@
   "image": "https://avatars.githubusercontent.com/u/2439313?v=4",
   "quality": 108,
   "updated": "2023-01-28T08:50:16Z",
-  "downloads": 762
+  "downloads": 898
 }

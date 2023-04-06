@@ -3,8 +3,10 @@ import { join } from "path";
 import { Failure } from "./failures.js";
 
 export enum Test {
+    capacitorIos5 = 'capacitor-ios-5',
+    capacitorAndroid5 = 'capacitor-android-5',
     capacitorIos4 = 'capacitor-ios-4',
-    capacitorAndroid4 = 'capacitor-android-4',
+    capacitorAndroid4 = 'capacitor-android-4',    
     capacitorIos3 = 'capacitor-ios-3',
     capacitorAndroid3 = 'capacitor-android-3',
     cordovaIos6 = 'cordova-ios-6',
@@ -21,8 +23,19 @@ export function setTestHistory(plugin: string, history: TestHistory) {
     const historySummary = readTestHistorySummary(plugin);
     historySummary.tests = historySummary.tests.filter((h) => !(h.test == history.test && h.version == history.version));
     historySummary.tests.push(history);
+    historySummary.tests.sort( compare );
     saveTestHistory(historySummary);
 }
+
+function compare( a: TestHistory, b: TestHistory ) {
+    if ( a.test < b.test ){
+      return -1;
+    }
+    if ( a.test > b.test ){
+      return 1;
+    }
+    return 0;
+  }
 
 export function readTestHistorySummary(plugin: string): TestHistorySummary {
    if (existsSync(testHistoryFilename(plugin))) {

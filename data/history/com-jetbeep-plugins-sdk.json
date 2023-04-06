@@ -1,0 +1,41 @@
+{
+  "tests": [
+    {
+      "test": "capacitor-android-5",
+      "version": "0.0.31",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-5",
+      "version": "0.0.32",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "0.0.31",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "0.0.32",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "0.0.31",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "0.0.31",
+      "failure": "native-build",
+      "success": false
+    }
+  ],
+  "name": "com-jetbeep-plugins-sdk"
+}

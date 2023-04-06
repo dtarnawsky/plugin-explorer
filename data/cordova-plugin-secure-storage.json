@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/crypho/cordova-plugin-secure-storage.git",
   "author": "Yiorgis Gozadinos <ggozad@crypho.com>",
@@ -60,6 +62,9 @@
   ],
   "description": "Secure storage plugin for iOS & Android",
   "bugs": "https://github.com/crypho/cordova-plugin-secure-storage/issues",
-  "quality": null,
-  "downloads": 5295
+  "quality": 645,
+  "downloads": 5049,
+  "stars": 281,
+  "image": "https://avatars.githubusercontent.com/u/2860957?v=4",
+  "updated": "2023-01-28T17:39:59Z"
 }

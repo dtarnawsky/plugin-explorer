@@ -5,7 +5,8 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/regulaforensics/cordova-plugin-face-api.git",
   "author": "RegulaForensics",
@@ -33,7 +34,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5"
   ],
   "description": "Cordova plugin for compairing faces using phone`s camera",
   "bugs": "https://github.com/regulaforensics/cordova-plugin-face-api/issues",
@@ -41,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
   "quality": 104,
   "updated": "2023-03-03T14:19:04Z",
-  "downloads": 399
+  "downloads": 271
 }

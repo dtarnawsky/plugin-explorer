@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/soete1111/cordova-plugin-sketch.git",
   "author": "BlinkMobile Interactive",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/10219386?v=4",
   "quality": 0,
   "updated": "2020-08-21T15:17:30Z",
-  "downloads": 118
+  "downloads": 127
 }

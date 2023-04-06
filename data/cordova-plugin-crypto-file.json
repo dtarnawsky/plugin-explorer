@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/PeterHdd/cordova-plugin-crypto-file.git",
   "author": "PeterHdd",
@@ -39,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/29070108?v=4",
   "quality": 174,
   "updated": "2023-02-13T19:14:53Z",
-  "downloads": 124
+  "downloads": 130
 }

@@ -3,7 +3,10 @@
   "version": "0.8.10",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/bhandaribhumin/cordova-plugin-badge-fix.git",
   "author": "Sebastián Katzer",
@@ -25,7 +28,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Shows the count of unread messages as a badge on the app icon.",
   "bugs": "https://github.com/bhandaribhumin/cordova-plugin-badge-fix/issues",
@@ -33,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/3336047?v=4",
   "quality": 101,
   "updated": "2022-11-29T11:00:59Z",
-  "downloads": 3460
+  "downloads": 3350
 }

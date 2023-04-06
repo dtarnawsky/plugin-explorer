@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/MobileChromeApps/cordova-plugin-zip.git",
   "author": "",
@@ -22,13 +23,14 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5"
   ],
   "description": "Unzips zip files",
   "bugs": "https://github.com/MobileChromeApps/zip/issues",
   "stars": 166,
   "image": "https://avatars.githubusercontent.com/u/2439313?v=4",
-  "quality": 523,
+  "quality": 524,
   "updated": "2022-11-30T14:11:48Z",
-  "downloads": 14978
+  "downloads": 15636
 }

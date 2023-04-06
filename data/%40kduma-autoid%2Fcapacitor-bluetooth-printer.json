@@ -20,7 +20,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Allows printing on SPP BT printers",
   "bugs": "https://github.com/kduma-autoid/capacitor-bluetooth-printer/issues",
@@ -28,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/123112037?v=4",
   "quality": 101,
   "updated": "2023-03-09T14:54:26Z",
-  "downloads": 107
+  "downloads": 68
 }

@@ -47,12 +47,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Localytics Plugin for Cordova/PhoneGap",
   "bugs": "https://github.com/localytics/localytics-cordova/issues",
   "quality": 142,
-  "downloads": 109,
+  "downloads": 130,
   "stars": 13,
   "image": "https://avatars.githubusercontent.com/u/29205?v=4",
   "updated": "2019-06-24T02:55:22Z"

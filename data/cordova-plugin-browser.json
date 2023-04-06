@@ -2,7 +2,9 @@
   "name": "cordova-plugin-browser",
   "version": "2.1.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-browser.git",
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
@@ -25,7 +27,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Open browser in your app",
   "bugs": "https://github.com/chemerisuk/cordova-plugin-browser/issues",
@@ -33,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 114,
   "updated": "2022-09-20T11:25:03Z",
-  "downloads": 192
+  "downloads": 239
 }

@@ -1,0 +1,28 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        Adding classpath: com.google.firebase:firebase-crashlytics-gradle:2.9.1
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        Adding classpath: com.google.firebase:firebase-crashlytics-gradle:2.9.1
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/node_modules/cordova-plugin-firebase-crash/src/android/build.gradle' line: 19
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > Could not find method firebaseCrashlytics() for arguments [build_vv9xvhbmsnfahv2w6dekxfb2$_run_closure1$_closure2$_closure3$_closure4@5a86fc1b] on BuildType$AgpDecorated_Decorated{name=debug, debuggable=true, testCoverageEnabled=false, jniDebuggable=false, pseudoLocalesEnabled=false, renderscriptDebuggable=false, renderscriptOptimLevel=3, minifyEnabled=false, zipAlignEnabled=true, signingConfig=SigningConfig$AgpDecorated_Decorated{name=debug, storeFile=/Users/damiantarnawsky/.android/debug.keystore, storePassword=android, keyAlias=AndroidDebugKey, keyPassword=android, storeType=pkcs12, v1SigningEnabled=true, v2SigningEnabled=true, enableV1Signing=null, enableV2Signing=null, enableV3Signing=null, enableV4Signing=null}, embedMicroApp=false, mBuildConfigFields={}, mResValues={}, mProguardFiles=[], mConsumerProguardFiles=[], mManifestPlaceholders={}} of type com.android.build.gradle.internal.dsl.BuildType$AgpDecorated.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 3s
+        

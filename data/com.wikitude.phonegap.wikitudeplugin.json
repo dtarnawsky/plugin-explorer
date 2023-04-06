@@ -2,7 +2,9 @@
   "name": "com.wikitude.phonegap.wikitudeplugin",
   "version": "9.10.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/Wikitude/wikitude-phonegap.git",
   "author": "Wikitude GmbH",
@@ -52,7 +54,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Augmented Reality Wikitude SDK Plugin \n        The Wikitude Cordova Plugin enables developers to embed an augmented reality view into their Cordova project. You can create a fully featured app with advanced augmented reality features, including image reco",
   "bugs": "https://github.com/Wikitude/wikitude-phonegap/issues",
@@ -60,5 +64,5 @@
   "image": "https://avatars.githubusercontent.com/u/2346236?v=4",
   "quality": 499,
   "updated": "2023-02-09T00:13:50Z",
-  "downloads": 199
+  "downloads": 175
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/xfally/cordova-plugin-ftp.git",
   "author": "pax",
@@ -48,5 +50,5 @@
   "image": "https://avatars.githubusercontent.com/u/5096620?v=4",
   "quality": 166,
   "updated": "2022-11-30T13:45:45Z",
-  "downloads": 614
+  "downloads": 712
 }

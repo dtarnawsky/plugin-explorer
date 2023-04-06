@@ -40,13 +40,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Use Nordic Semiconductor's Device Firmware Update (DFU) service to update a Bluetooth LE device",
   "bugs": "https://github.com/EinfachHans/cordova-plugin-dfu-update/issues",
   "stars": 6,
   "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
-  "quality": 125,
-  "updated": "2022-03-18T22:00:36Z",
-  "downloads": 230
+  "quality": 127,
+  "updated": "2023-04-02T14:17:25Z",
+  "downloads": 224
 }

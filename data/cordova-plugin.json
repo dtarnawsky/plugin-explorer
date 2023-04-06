@@ -1,7 +1,9 @@
 {
   "name": "cordova-plugin",
   "version": "1.0.0",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "repo": "https://github.com/ascsi/cordova-plugin.git",
   "author": "Apache Software Foundation",
   "published": "2022-04-27T17:07:06.533Z",
@@ -17,10 +19,13 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Modified Cordova Device Plugin",
   "bugs": "https://github.com/ascsi/cordova-plugin/issues",
   "quality": null,
-  "downloads": 44
+  "downloads": 52
 }

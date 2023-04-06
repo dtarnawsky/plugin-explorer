@@ -1,0 +1,33 @@
+✔ Building xArchive in 24.23s
+✖ Building IPA - failed!
+[error] 2023-04-04 17:29:32.209 xcodebuild[94829:892517] [MT] IDEDistribution: -[IDEDistributionLogging _createLoggingBundleAtPath:]: Created bundle at path "/var/folders/lp/0c9d80456vdbrcd8jv2l6wp40000gn/T/App_2023-04-04_17-29-32.208.xcdistributionlogs".
+        2023-04-04 17:29:41.899 xcodebuild[94829:892517] [MT] DVTPortal: Service '<DVTPortalListTeamsService: 0x600003dd6200; action='listTeams'>' encountered an unexpected result code from the portal ('1100')
+        2023-04-04 17:29:41.899 xcodebuild[94829:892517] [MT] DVTPortal: Error:
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-04-05T00:29:41Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/listTeams.action";
+        responseId = "3ca0cb59-c4a1-40ad-ba34-52eefd79fa42";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        error: exportArchive: Your session has expired. Please log in.
+        
+        Error Domain=DVTPortalServiceErrorDomain Code=1100 "Your session has expired. Please log in." UserInfo={payload={
+        creationTimestamp = "2023-04-05T00:29:41Z";
+        httpCode = 200;
+        protocolVersion = QH65B2;
+        requestUrl = "https://developerservices2.apple.com/services/QH65B2/listTeams.action";
+        responseId = "3ca0cb59-c4a1-40ad-ba34-52eefd79fa42";
+        resultCode = 1100;
+        resultString = "Your session has expired. Please log in.";
+        userLocale = "en_US";
+        userString = "Your session has expired. Please log in.";
+        }, NSLocalizedDescription=Your session has expired. Please log in.}
+        
+        ** EXPORT FAILED **
+        
+        

@@ -1,0 +1,26 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:DSL element 'dexOptions' is obsolete and should be removed.
+        It will be removed in version 8.0 of the Android Gradle plugin.
+        Using it has no effect, and the AndroidGradle plugin optimizes dexing automatically.
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        FAILURE: Build failed with an exception.
+        
+        * Where:
+        Script '/Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/node_modules/cordova-plugin-multidex/build.gradle' line: 14
+        
+        * What went wrong:
+        A problem occurred evaluating script.
+        > Could not find method compile() for arguments [com.android.support:multidex:1.0.1] on object of type org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler.
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 817ms
+        

@@ -29,10 +29,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Handle screen orientation of a mobile device. ",
   "bugs": "https://github.com/hinddeep/capacitor-screen-orientation/issues",
-  "quality": null,
-  "downloads": 793
+  "quality": 107,
+  "downloads": 833,
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/22722365?v=4",
+  "updated": "2022-06-13T19:21:43Z"
 }

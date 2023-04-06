@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/dpa99c/cordova-plugin-androidx.git",
   "author": "Dave Alden",
@@ -17,7 +20,8 @@
     "3.0.0"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova/Phonegap plugin to enable AndroidX",
   "bugs": "https://github.com/dpa99c/cordova-plugin-androidx/issues",
@@ -25,5 +29,6 @@
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 168,
   "updated": "2023-01-28T12:42:07Z",
-  "downloads": 73144
+  "downloads": 76083,
+  "keywords": []
 }

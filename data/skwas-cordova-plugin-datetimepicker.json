@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/skwasjer/skwas-cordova-plugin-datetimepicker.git",
   "author": "skwasjer",
@@ -54,7 +56,7 @@
   "description": "Cordova DateTime picker plugin",
   "bugs": "https://github.com/skwasjer/skwas-cordova-plugin-datetimepicker/issues",
   "quality": 175,
-  "downloads": 1047,
+  "downloads": 1140,
   "stars": 36,
   "image": "https://avatars.githubusercontent.com/u/11424653?v=4",
   "updated": "2022-04-08T14:34:38Z"

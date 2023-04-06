@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/johnborges/capacitor-plugin-cookies.git",
   "author": "johnborges",
@@ -16,8 +18,7 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native",
-    "capacitor-plugin"
+    "native"
   ],
   "fails": [
     "capacitor-android-3",
@@ -30,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/1888122?v=4",
   "quality": 100,
   "updated": "2022-03-21T14:53:42Z",
-  "downloads": 158
+  "downloads": 178
 }

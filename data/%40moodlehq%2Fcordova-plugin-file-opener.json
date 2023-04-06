@@ -3,7 +3,8 @@
   "version": "3.0.5-moodle.1",
   "success": [
     "capacitor-ios-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-file-opener.git",
   "author": "pwlin05@gmail.com",
@@ -22,7 +23,8 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-android-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "Moodle's fork of a File Opener Plugin for Cordova.",
   "bugs": "https://github.com/moodlemobile/cordova-plugin-file-opener/issues",
@@ -30,5 +32,5 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 0,
   "updated": "2022-10-26T10:51:05Z",
-  "downloads": 1598
+  "downloads": 1582
 }

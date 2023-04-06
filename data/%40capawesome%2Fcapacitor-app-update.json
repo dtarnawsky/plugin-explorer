@@ -33,13 +33,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin that assists with app updates.",
   "bugs": "https://github.com/capawesome-team/capacitor-app-update/issues",
-  "stars": 111,
+  "stars": 112,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
   "quality": 227,
-  "updated": "2023-03-29T00:10:52Z",
-  "downloads": 26106
+  "updated": "2023-04-01T07:27:48Z",
+  "downloads": 25374
 }

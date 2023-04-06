@@ -3,7 +3,10 @@
   "version": "0.11.5",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/leecrossley/cordova-plugin-apple-watch.git",
   "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
@@ -46,7 +49,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova / PhoneGap Plugin for the Apple Watch (WatchKit) to allow in memory and lightweight json object message passing over named queues from a Cordova app to Apple Watch (and vice versa).",
   "bugs": "https://github.com/leecrossley/cordova-plugin-apple-watch/issues",
@@ -54,5 +58,5 @@
   "image": "https://avatars.githubusercontent.com/u/807783?v=4",
   "quality": 416,
   "updated": "2022-10-17T08:20:53Z",
-  "downloads": 70
+  "downloads": 45
 }

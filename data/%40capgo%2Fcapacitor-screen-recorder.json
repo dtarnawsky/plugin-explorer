@@ -1,12 +1,12 @@
 {
   "name": "@capgo/capacitor-screen-recorder",
-  "version": "1.2.44",
+  "version": "1.2.45",
   "success": [
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/riderx/capacitor-screen-recorder.git",
   "author": "Martin Donadieu",
-  "published": "2023-03-27T01:16:54.659Z",
+  "published": "2023-04-03T04:52:14.447Z",
   "versions": [
     "1.2.0",
     "1.2.1",
@@ -46,7 +46,8 @@
     "1.2.41",
     "1.2.42",
     "1.2.43",
-    "1.2.44"
+    "1.2.44",
+    "1.2.45"
   ],
   "keywords": [
     "capacitor",
@@ -58,7 +59,9 @@
     "capacitor-android-3",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Record device's screen",
   "bugs": "https://github.com/riderx/capacitor-screen-recorder/issues",
@@ -66,5 +69,5 @@
   "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
   "updated": "2023-03-04T23:09:33Z",
-  "downloads": 2851
+  "downloads": 3028
 }

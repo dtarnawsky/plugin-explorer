@@ -2,7 +2,9 @@
   "name": "com.synconset.imagepicker",
   "version": "2.1.10",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "published": "2022-04-27T14:04:35.988Z",
   "versions": [
@@ -14,8 +16,10 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "This plugin allows selection of multiple images from the camera roll / gallery in a phonegap app",
-  "downloads": 500
+  "downloads": 497
 }

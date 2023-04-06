@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/tobspr/cordova-plugin-android-notch",
   "author": "tobspr",
@@ -23,12 +26,13 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova Android Notch Plugin",
   "stars": 19,
   "image": "https://avatars.githubusercontent.com/u/5307711?v=4",
   "quality": 132,
   "updated": "2022-07-29T08:53:24Z",
-  "downloads": 3370
+  "downloads": 3578
 }

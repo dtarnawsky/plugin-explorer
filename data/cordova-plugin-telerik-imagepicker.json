@@ -3,7 +3,8 @@
   "version": "2.3.6",
   "success": [
     "capacitor-ios-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Telerik-Verified-Plugins/ImagePicker.git",
   "published": "2022-06-14T00:53:28.758Z",
@@ -28,13 +29,14 @@
     "capacitor-android-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "This plugin allows selection of multiple images from the camera roll / gallery in a phonegap app",
   "bugs": "https://github.com/Telerik-Verified-Plugins/ImagePicker/issues",
   "stars": 182,
   "image": "https://avatars.githubusercontent.com/u/7255413?v=4",
-  "quality": 640,
+  "quality": 642,
   "updated": "2023-01-28T08:01:43Z",
-  "downloads": 12002
+  "downloads": 11094
 }

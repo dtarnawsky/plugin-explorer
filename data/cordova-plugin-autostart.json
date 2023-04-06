@@ -3,7 +3,9 @@
   "version": "2.3.0",
   "success": [
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/ToniKorin/cordova-plugin-autostart.git",
   "author": "Toni Korin",
@@ -23,13 +25,15 @@
   ],
   "fails": [
     "capacitor-android-4",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "\r\n        The application will be automatically started after the every boot and the automatic update of your application. \r\n        You can enable or disable the autostart function in your app.\r\n    ",
   "bugs": "https://github.com/ToniKorin/cordova-plugin-autostart/issues",
   "stars": 106,
   "image": "https://avatars.githubusercontent.com/u/11617354?v=4",
-  "quality": 295,
+  "quality": 296,
   "updated": "2023-03-04T20:06:22Z",
-  "downloads": 364
+  "downloads": 429
 }

@@ -2,7 +2,8 @@
   "name": "onesignal-cordova-plugin",
   "version": "3.3.1",
   "success": [
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/onesignal/OneSignal-Cordova-SDK.git",
   "author": "Josh Kasten, Brad Hesse, Rodrigo Gomez-Palacio",
@@ -130,12 +131,13 @@
     "capacitor-android-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "description": "OneSignal is a high volume Push Notification service for mobile apps. In addition to basic notification delivery, OneSignal also provides tools to localize, target, schedule, and automate notifications that you send.",
   "bugs": "https://github.com/onesignal/OneSignal-Cordova-SDK/issues",
-  "quality": 568,
-  "downloads": 53939,
+  "quality": 570,
+  "downloads": 54604,
   "stars": 234,
   "image": "https://avatars.githubusercontent.com/u/11823027?v=4",
   "updated": "2023-02-19T17:40:11Z"

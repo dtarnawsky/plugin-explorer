@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/xmartlabs/cordova-plugin-market.git",
   "author": "Xmartlabs",
@@ -31,6 +33,9 @@
   ],
   "description": "Cordova Plugin for access to Google Play and Apple Store within your app",
   "bugs": "https://github.com/xmartlabs/cordova-plugin-market/issues",
-  "quality": null,
-  "downloads": 33516
+  "quality": 241,
+  "downloads": 34812,
+  "stars": 87,
+  "image": "https://avatars.githubusercontent.com/u/2227731?v=4",
+  "updated": "2021-08-05T07:35:19Z"
 }

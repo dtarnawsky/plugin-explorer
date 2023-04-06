@@ -3,7 +3,9 @@
   "version": "5.5.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/cordova-plugin-ionic.git",
   "author": "Ionic",
@@ -144,5 +146,5 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 260,
   "updated": "2023-03-22T18:24:00Z",
-  "downloads": 133566
+  "downloads": 130007
 }

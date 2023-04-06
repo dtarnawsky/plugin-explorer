@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/kevbarrios/cordova-plugin-btprinter.git",
   "author": "Kevin Barrios",
@@ -31,7 +34,8 @@
     "zpl"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Cordova/Phonegap driver for bluetooth printers",
   "bugs": "https://github.com/kevbarrios/cordova-plugin-btprinter/issues",
@@ -39,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/59294983?v=4",
   "quality": 103,
   "updated": "2022-11-22T18:54:34Z",
-  "downloads": 63
+  "downloads": 45
 }

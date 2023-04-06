@@ -1,15 +1,9 @@
 {
   "tests": [
     {
-      "test": "cordova-android-11",
+      "test": "capacitor-android-3",
       "version": "2.3.10",
-      "failure": "native-build",
-      "success": false
-    },
-    {
-      "test": "cordova-ios-6",
-      "version": "2.3.10",
-      "failure": "native-build",
+      "failure": "cap-sync",
       "success": false
     },
     {
@@ -19,7 +13,7 @@
       "success": false
     },
     {
-      "test": "capacitor-ios-4",
+      "test": "capacitor-android-5",
       "version": "2.3.10",
       "failure": "native-build",
       "success": false
@@ -31,9 +25,27 @@
       "success": false
     },
     {
-      "test": "capacitor-android-3",
+      "test": "capacitor-ios-4",
       "version": "2.3.10",
-      "failure": "cap-sync",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "2.3.10",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-android-11",
+      "version": "2.3.10",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "cordova-ios-6",
+      "version": "2.3.10",
+      "failure": "native-build",
       "success": false
     }
   ],

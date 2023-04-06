@@ -4,7 +4,8 @@
   "success": [
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/bhandaribhumin/cordova-plugin-local-notification-12.git",
   "author": "Sebastián bhandaribhumin",
@@ -30,7 +31,8 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "Schedules and queries for local notifications",
   "bugs": "https://github.com/bhandaribhumin/cordova-plugin-local-notification-12/issues",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/3336047?v=4",
   "quality": 132,
   "updated": "2023-03-07T19:33:28Z",
-  "downloads": 1840
+  "downloads": 1692
 }

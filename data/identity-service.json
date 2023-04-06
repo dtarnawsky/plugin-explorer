@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/The-Gray-Hole/identity-service.git",
   "author": "Alejandro Alfonso",
@@ -80,6 +82,9 @@
   ],
   "description": "Server for role and permission management.",
   "bugs": "https://github.com/The-Gray-Hole/identity-service/issues",
-  "quality": null,
-  "downloads": 118
+  "quality": 108,
+  "downloads": 172,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/69776663?v=4",
+  "updated": "2021-08-29T21:41:49Z"
 }

@@ -1,7 +1,9 @@
 {
   "name": "cordova-paytm-customuisdk",
   "version": "1.1.1",
-  "success": [],
+  "success": [
+    "cordova-ios-6"
+  ],
   "published": "2022-06-08T07:34:59.355Z",
   "versions": [
     "1.0.0",
@@ -12,8 +14,11 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "A starting point for a Cordova Plugin",
-  "downloads": 10
+  "downloads": 9
 }

@@ -56,7 +56,9 @@
     "capacitor-android-3",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "PhotoViewer table images with fullscreen and sharing capabilities",
   "bugs": "https://github.com/capacitor-community/photoviewer/issues",
@@ -64,5 +66,5 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 146,
   "updated": "2023-01-21T18:46:45Z",
-  "downloads": 4915
+  "downloads": 3552
 }

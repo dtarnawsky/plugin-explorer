@@ -26,7 +26,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "MongoDB Mobile plugin for capacitor",
   "bugs": "https://github.com/hamstudy/capacitor-mongodb-mobile/issues",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/45740364?v=4",
   "quality": 105,
   "updated": "2022-06-24T03:19:13Z",
-  "downloads": 23
+  "downloads": 24
 }

@@ -24,10 +24,12 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor Peer to Peer connectivity plugin",
   "bugs": "https://github.com/enertrag/p2pconnect/issues",
   "quality": null,
-  "downloads": 282
+  "downloads": 47
 }

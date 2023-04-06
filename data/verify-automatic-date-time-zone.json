@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/edsonhoraciojunior/verify-automatic-date-time-zone.git",
   "author": "Edson Horácio Junior",
@@ -33,5 +35,5 @@
   "image": "https://avatars.githubusercontent.com/u/4573095?v=4",
   "quality": 111,
   "updated": "2022-11-24T08:01:24Z",
-  "downloads": 34
+  "downloads": 33
 }

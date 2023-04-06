@@ -25,7 +25,11 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Cordova Facebook SDK Plugin",
   "bugs": "https://github.com/MaximBelov/cordova-plugin-fbsdk/issues",

@@ -3,7 +3,10 @@
   "version": "0.7.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "author": "Telerik / Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
   "published": "2022-06-13T06:33:32.177Z",
@@ -35,8 +38,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Slide out the current page to reveal the next one. By a native transitions.",
-  "downloads": 3594
+  "downloads": 3770
 }

@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/xseignard/cordovarduino.git",
   "author": "Xavier Seignard <xavier.seignard@gmail.com>",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/515603?v=4",
   "quality": 408,
   "updated": "2023-02-14T05:51:00Z",
-  "downloads": 314
+  "downloads": 293
 }

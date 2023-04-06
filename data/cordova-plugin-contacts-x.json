@@ -2,7 +2,8 @@
   "name": "cordova-plugin-contacts-x",
   "version": "2.1.1",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/EinfachHans/cordova-plugin-contacts-x.git",
   "author": "EinfachHans",
@@ -29,10 +30,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova Plugins for managing contacts",
   "bugs": "https://github.com/EinfachHans/cordova-plugin-contacts-x/issues",
-  "quality": null,
-  "downloads": 658
+  "quality": 167,
+  "downloads": 682,
+  "stars": 23,
+  "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
+  "updated": "2022-08-28T23:08:46Z"
 }

@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/carsten-klaffke/send-intent.git",
   "author": "Carsten Klaffke",
@@ -81,9 +83,9 @@
   ],
   "description": "Plugin for Capacitor to receive send intents in Ionic",
   "bugs": "https://github.com/carsten-klaffke/send-intent.git/issues",
-  "quality": 183,
-  "downloads": 16095,
-  "stars": 63,
+  "quality": 186,
+  "downloads": 9205,
+  "stars": 65,
   "image": "https://avatars.githubusercontent.com/u/54070779?v=4",
-  "updated": "2023-03-23T21:07:25Z"
+  "updated": "2023-04-04T18:27:11Z"
 }

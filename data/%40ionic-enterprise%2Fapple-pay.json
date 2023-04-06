@@ -35,7 +35,9 @@
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor Plugin used to enable Apple Pay in an Application",
   "bugs": "https://github.com/ionic-team/enterprise-apple-pay/issues",

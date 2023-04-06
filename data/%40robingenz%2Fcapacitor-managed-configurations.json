@@ -20,17 +20,30 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "android",
+    "capacitor-android",
+    "capacitor-ios",
+    "capacitor-plugin",
+    "capawesome",
+    "ios",
+    "managed-configurations",
+    "mdm"
   ],
   "fails": [
     "capacitor-android-3",
     "capacitor-ios-4",
     "capacitor-android-4",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to access managed configuration settings.",
   "bugs": "https://github.com/robingenz/capacitor-managed-configurations/issues",
-  "quality": null,
-  "downloads": 5378
+  "quality": 105,
+  "downloads": 5054,
+  "stars": 5,
+  "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
+  "updated": "2023-04-01T07:36:39Z"
 }

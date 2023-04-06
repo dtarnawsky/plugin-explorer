@@ -3,7 +3,9 @@
   "version": "1.0.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/randdusing/cordova-plugin-bluetooth-peripheral-usage-description.git",
   "author": "Rand Dusing",
@@ -24,7 +26,9 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-ios-6",
+    "cordova-android-11"
   ],
   "description": "Set Bluetooth Peripheral Usage Description on iOS",
   "bugs": "https://github.com/randdusing/cordova-plugin-bluetooth-peripheral-usage-description/issues",
@@ -32,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/6188656?v=4",
   "quality": 109,
   "updated": "2020-09-25T11:19:23Z",
-  "downloads": 250
+  "downloads": 166
 }

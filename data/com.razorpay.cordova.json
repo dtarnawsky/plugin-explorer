@@ -2,7 +2,9 @@
   "name": "com.razorpay.cordova",
   "version": "1.4.15",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/razorpay/razorpay-cordova.git",
   "author": "Razorpay Developers <developers@razorpay.com> (https://razorpay.com/)",
@@ -58,7 +60,9 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "cordova-android-11"
   ],
   "description": "Cordova/Phonegap bindings for Razorpay's Mobile SDKs",
   "bugs": "https://github.com/razorpay/razorpay-cordova/issues",
@@ -66,5 +70,5 @@
   "image": "https://avatars.githubusercontent.com/u/7713209?v=4",
   "quality": 187,
   "updated": "2022-11-26T07:37:07Z",
-  "downloads": 682
+  "downloads": 787
 }

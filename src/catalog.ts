@@ -69,7 +69,7 @@ export function readPluginList(): string[] {
         lines = readFileSync(filename, 'utf-8').split('\n');
     }
     if (hasArg('reverse', process.argv)) {
-        lines.reverse();
+        lines = lines.reverse();
     }
     return lines;
 }

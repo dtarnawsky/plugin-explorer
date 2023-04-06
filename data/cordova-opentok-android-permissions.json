@@ -4,7 +4,10 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/patwaswapnil/cordova-opentok-android-permissions.git",
   "author": "Swapnil Patwa",
@@ -31,7 +34,8 @@
     "audio"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "This cordova plugin invokes permission for all the hardwares which require for a video chat",
   "bugs": "https://github.com/patwaswapnil/cordova-opentok-android-permissions/issues",
@@ -39,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/12543693?v=4",
   "quality": 100,
   "updated": "2016-04-23T16:11:25Z",
-  "downloads": 693
+  "downloads": 889
 }

@@ -3,7 +3,9 @@
   "version": "0.24.1",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://gitlab.com/ratson/cordova-admob-sdk.git",
   "author": "Ratson",
@@ -61,9 +63,11 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "cordova-android-11"
   ],
   "description": "Google AdMob SDK to Cordova.",
   "bugs": "https://gitlab.com/ratson/cordova-admob-sdk/issues",
-  "downloads": 511
+  "downloads": 444
 }

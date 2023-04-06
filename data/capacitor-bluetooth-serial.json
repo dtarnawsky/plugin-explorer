@@ -3,7 +3,9 @@
   "version": "0.0.4",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/agro1desenvolvimento/capacitor-bluetooth-serial.git",
   "author": "Gerson Groth",
@@ -31,5 +33,5 @@
   "image": "https://avatars.githubusercontent.com/u/49657220?v=4",
   "quality": 120,
   "updated": "2023-01-28T08:40:00Z",
-  "downloads": 54
+  "downloads": 52
 }

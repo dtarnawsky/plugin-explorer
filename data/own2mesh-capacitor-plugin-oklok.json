@@ -3,7 +3,9 @@
   "version": "1.2.0",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "www.github.com",
   "author": "own2mesh",
@@ -63,5 +65,5 @@
   ],
   "description": "An awesome plugin!",
   "quality": null,
-  "downloads": 138
+  "downloads": 133
 }

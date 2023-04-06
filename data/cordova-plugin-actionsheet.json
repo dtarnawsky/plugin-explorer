@@ -3,7 +3,10 @@
   "version": "2.3.3",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5",
+    "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-actionsheet.git",
   "author": "Eddy Verbruggen - @EddyVerbruggen",
@@ -32,7 +35,8 @@
   ],
   "fails": [
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "cordova-android-11"
   ],
   "description": "Show a sheet of options the user can choose from.",
   "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-actionsheet/issues",
@@ -40,5 +44,5 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 407,
   "updated": "2023-03-06T22:10:30Z",
-  "downloads": 49392
+  "downloads": 46666
 }

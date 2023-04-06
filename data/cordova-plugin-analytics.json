@@ -41,7 +41,11 @@
     "capacitor-ios-4",
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-android-11",
+    "cordova-ios-6"
   ],
   "description": "Phonegap, Cordova, Ionic, Intel XDK Google Analytics Firebase plugin for iOS/Android with full support for views, events, timings, ecommerce and social.",
   "bugs": "https://github.com/appfeel/analytics-google/issues",
@@ -49,5 +53,5 @@
   "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
   "quality": 169,
   "updated": "2020-10-25T23:22:13Z",
-  "downloads": 127
+  "downloads": 95
 }

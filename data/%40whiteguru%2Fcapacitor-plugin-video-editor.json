@@ -33,10 +33,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "Capacitor plugin to edit videos",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-video-editor/issues",
-  "quality": null,
-  "downloads": 613
+  "quality": 106,
+  "downloads": 721,
+  "stars": 4,
+  "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
+  "updated": "2023-03-15T20:38:33Z"
 }

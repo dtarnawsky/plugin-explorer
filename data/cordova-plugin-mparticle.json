@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/mParticle/cordova-plugin-mparticle.git",
   "published": "2023-03-14T17:15:05.502Z",
@@ -41,5 +43,5 @@
   "image": "https://avatars.githubusercontent.com/u/7572762?v=4",
   "quality": 115,
   "updated": "2021-11-18T17:50:37Z",
-  "downloads": 294
+  "downloads": 329
 }

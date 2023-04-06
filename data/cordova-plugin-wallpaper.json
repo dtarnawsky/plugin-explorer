@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/fbsanches/cordova-plugin-wallpaper.git",
   "author": "Fernando Arce (https://github.com/fbsanches)",
@@ -28,6 +30,9 @@
   ],
   "description": "Cordova Set Wallpaper Plugin",
   "bugs": "https://github.com/fbsanches/cordova-plugin-wallpaper/issues",
-  "quality": null,
-  "downloads": 25
+  "quality": 152,
+  "downloads": 30,
+  "stars": 20,
+  "image": "https://avatars.githubusercontent.com/u/19842555?v=4",
+  "updated": "2021-09-22T11:34:27Z"
 }

@@ -3,7 +3,8 @@
   "version": "1.4.0",
   "success": [
     "capacitor-ios-4",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "author": "useinsider",
   "published": "2022-10-13T07:30:24.304Z",
@@ -23,8 +24,9 @@
     "capacitor-android-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "A plugin that you can use Insider SDK with Cordova and Ionic",
-  "downloads": 177
+  "downloads": 162
 }

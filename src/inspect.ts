@@ -8,11 +8,16 @@ import { join } from 'path';
 import { Failure } from './failures.js';
 import { inspectNpmAPI } from './npm-stat.js';
 import { FilterType } from './filter.js';
+import { clone } from './clone.js';
 
 export async function inspect(plugin: string, info: TestInfo, filterType: FilterType): Promise<Inspection> {
     const result: Inspection = readPlugin(plugin);
     const folder = join('apps', info.folder);
     const failure: Failure = await prepareProject(plugin, folder, result, info);
+    if (failure == Failure.alreadyTested) {
+        console.log(`${plugin} ${result.version} wont be tested for ${info.ios},${info.android} as it has been tested already`);
+        return result;
+    }
     if (failure == Failure.npmMissing) {
         result.fails = [Test.failedInNPM];
         return result;
@@ -34,14 +39,15 @@ export async function inspect(plugin: string, info: TestInfo, filterType: Filter
     } else {
         result.fails.push(info.ios);
         result.fails.push(info.android);
-        setTestHistory(result.name, {test: info.ios, version: result.version, failure, success: false });
-        setTestHistory(result.name, {test: info.android, version: result.version, failure, success: false });
+        setTestHistory(result.name, { test: info.ios, version: result.version, failure, success: false });
+        setTestHistory(result.name, { test: info.android, version: result.version, failure, success: false });
     }
     return result;
 }
 
 // This returns false only if the plugin could not be found
 async function prepareProject(plugin: string, folder: string, result: Inspection, test: TestInfo): Promise<Failure | undefined> {
+    const priorVersion = result.version;
     try {
         // Get Latest Plugin version number
         const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder));
@@ -53,6 +59,8 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         result.published = v.time?.modified;
         result.repo = cleanUrl(v.repository?.url);
         result.keywords = v.keywords;
+
+
     } catch (error) {
         console.error(`Failed preparation of ${folder} for ${plugin}`, error);
         return Failure.npmMissing;
@@ -66,13 +74,21 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
     } catch (e) {
         console.error(`Failed preparation of ${folder} for ${plugin}`);
     }
-    let failure = await tryRun(['npm i'], Failure.npmInstall, folder);
+
+    if (result.version == priorVersion) {
+        if ((result.success.includes(test.ios) || result.fails.includes(test.ios) &&
+            (result.success.includes(test.android) || result.fails.includes(test.android)))) {
+            return Failure.alreadyTested;
+        }
+    }
+    await clone(test);
+    let failure = await tryRun(['npm ci'], Failure.npmInstall, folder);
     if (!failure) {
         let cmd = '';
         if (testIsCordova(test.ios)) {
             cmd = `npx ionic cordova plugin add ${plugin}@${result.version}`;
         } else {
-            cmd = `npm i ${plugin}@${result.version} --save-dev`;
+            cmd = `npm install ${plugin}@${result.version} --save-dev`;
         }
         failure = await tryRun([cmd], Failure.peer, folder);
     }
@@ -157,6 +173,6 @@ function storeResult(test: Test, result: Inspection, error?: any) {
         writeErrorLog(result.name, test, error);
     }
 
-    
-    setTestHistory(result.name, {test: test, version: result.version, failure: error ? Failure.build : undefined, success: !error });
+
+    setTestHistory(result.name, { test: test, version: result.version, failure: error ? Failure.build : undefined, success: !error });
 }
