@@ -1,0 +1,23 @@
+✖ Building xArchive - failed!
+[error] Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace App.xcworkspace -scheme App -destination generic/platform=iOS -archivePath App.xcarchive archive
+        
+        User defaults from command line:
+        IDEArchivePathOverride = /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/ios/App/App.xcarchive
+        IDEPackageSupportUseBuiltinSCM = YES
+        
+        Prepare packages
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: 353d2550bc5093cd4651e3e8132e6956
+        Build description path: /Users/damiantarnawsky/Library/Developer/Xcode/DerivedData/App-burzknfazcowpdezxitwuujckorp/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/353d2550bc5093cd4651e3e8132e6956-desc.xcbuild
+        
+        note: Building targets in dependency order
+        warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
+        warning: Run script build phase '[CP] Copy Pods Resources' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/ios/App/Pods/Pods.xcodeproj: error: Signing for "MLKitTextRecognition-LatinOCRResources" requires a development team. Select a development team in the Signing & Capabilities editor. (in target 'MLKitTextRecognition-LatinOCRResources' from project 'Pods')
+        ** ARCHIVE FAILED **
+        
+        

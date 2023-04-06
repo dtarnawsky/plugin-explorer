@@ -1,0 +1,104 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:mapReleaseSourceSetPaths
+        > Task :app:generateReleaseResources
+        > Task :app:createReleaseCompatibleScreenManifests
+        > Task :app:extractDeepLinksRelease
+        > Task :capacitor-android:extractDeepLinksRelease
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
+        > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-keyboard:extractDeepLinksRelease
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-status-bar:extractDeepLinksRelease
+        > Task :capacitor-status-bar:processReleaseManifest
+        
+        > Task :app:processReleaseMainManifest FAILED
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/src/main/AndroidManifest.xml:15:69-120 Error:
+        Attribute provider#androidx.core.content.FileProvider@authorities value=(plugin.test.capacitor.v5.fileprovider) from AndroidManifest.xml:15:69-120
+        is also present at [:capacitor-cordova-android-plugins] AndroidManifest.xml:15:13-82 value=(nl.x-services.plugins.videocaptureplus.provider).
+        Suggestion: add 'tools:replace="android:authorities"' to <provider> element at AndroidManifest.xml:15:9-17:20 to override.
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/android/app/src/main/AndroidManifest.xml:16:75-109 Error:
+        Attribute meta-data#android.support.FILE_PROVIDER_PATHS@resource value=(@xml/file_paths) from AndroidManifest.xml:16:75-109
+        is also present at [:capacitor-cordova-android-plugins] AndroidManifest.xml:20:17-55 value=(@xml/provider_paths).
+        Suggestion: add 'tools:replace="android:resource"' to <meta-data> element at AndroidManifest.xml:16:13-111 to override.
+        
+        See http://g.co/androidstudio/manifest-merger for more information about the manifest merger.
+        
+        
+        > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :app:mergeReleaseResources
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:processReleaseMainManifest'.
+        > Manifest merger failed with multiple errors, see logs
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 2s
+        32 actionable tasks: 32 executed
+        

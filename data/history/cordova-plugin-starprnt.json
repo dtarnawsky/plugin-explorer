@@ -1,6 +1,28 @@
 {
   "tests": [
     {
+      "test": "capacitor-android-3",
+      "version": "2.2.0",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-5",
+      "version": "2.2.0",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-3",
+      "version": "2.2.0",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "2.2.0",
+      "success": true
+    },
+    {
       "test": "cordova-android-11",
       "version": "2.2.0",
       "success": true
@@ -13,18 +35,6 @@
     },
     {
       "test": "noop",
-      "version": "2.2.0",
-      "failure": "cap-sync",
-      "success": false
-    },
-    {
-      "test": "capacitor-ios-3",
-      "version": "2.2.0",
-      "failure": "cap-sync",
-      "success": false
-    },
-    {
-      "test": "capacitor-android-3",
       "version": "2.2.0",
       "failure": "cap-sync",
       "success": false

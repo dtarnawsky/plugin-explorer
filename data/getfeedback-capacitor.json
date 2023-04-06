@@ -21,10 +21,15 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "GetFeedback Capacitor is wrapper for GetFeedback SDK.",
   "bugs": "https://github.com/GetFeedback/getfeedback-g4a-capacitor/issues",
-  "quality": null,
-  "downloads": 8
+  "quality": 105,
+  "downloads": 6,
+  "stars": 1,
+  "image": "https://avatars.githubusercontent.com/u/8670573?v=4",
+  "updated": "2023-03-28T09:53:44Z"
 }

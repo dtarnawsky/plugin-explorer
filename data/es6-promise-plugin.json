@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/vstirbu/PromisesPlugin.git",
   "author": "",
@@ -25,8 +27,9 @@
   "description": "ES6-Promises polyfill for Cordova/PhoneGap",
   "bugs": "https://github.com/vstirbu/PromisesPlugin/issues",
   "quality": 143,
-  "downloads": 226520,
+  "downloads": 223645,
   "stars": 24,
   "image": "https://avatars.githubusercontent.com/u/1288047?v=4",
-  "updated": "2021-11-16T10:51:12Z"
+  "updated": "2021-11-16T10:51:12Z",
+  "keywords": []
 }

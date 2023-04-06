@@ -2,7 +2,8 @@
   "name": "cordova-plugin-onfido",
   "version": "1.1.5",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/rewireltd1/cordova-plugin-onfido.git",
   "author": "Rewire LTD",
@@ -34,7 +35,8 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for Onfido",
   "bugs": "https://github.com/rewireltd1/cordova-plugin-onfido/issues",
@@ -42,5 +44,5 @@
   "image": "https://avatars.githubusercontent.com/u/43967618?v=4",
   "quality": 125,
   "updated": "2023-03-06T12:28:33Z",
-  "downloads": 59
+  "downloads": 63
 }

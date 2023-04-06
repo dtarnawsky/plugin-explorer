@@ -1,0 +1,120 @@
+✖ Running Gradle build - failed!
+[error] 
+        > Configure project :app
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Configure project :capacitor-cordova-android-plugins
+        WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
+        
+        > Task :app:preBuild UP-TO-DATE
+        > Task :app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:preBuild UP-TO-DATE
+        > Task :capacitor-android:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-android:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:preBuild UP-TO-DATE
+        > Task :capacitor-app:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-app:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-cordova-android-plugins:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:preBuild UP-TO-DATE
+        > Task :capacitor-haptics:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-haptics:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:preBuild UP-TO-DATE
+        > Task :capacitor-keyboard:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-keyboard:packageReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:preBuild UP-TO-DATE
+        > Task :capacitor-status-bar:preReleaseBuild UP-TO-DATE
+        > Task :capacitor-status-bar:packageReleaseRenderscript NO-SOURCE
+        > Task :app:compileReleaseRenderscript NO-SOURCE
+        > Task :app:generateReleaseResValues
+        > Task :capacitor-android:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-android:generateReleaseResValues
+        > Task :capacitor-android:generateReleaseResources
+        > Task :capacitor-android:packageReleaseResources
+        > Task :capacitor-app:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-app:generateReleaseResValues
+        > Task :capacitor-app:generateReleaseResources
+        > Task :capacitor-app:packageReleaseResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-cordova-android-plugins:generateReleaseResValues
+        > Task :capacitor-cordova-android-plugins:generateReleaseResources
+        > Task :capacitor-cordova-android-plugins:packageReleaseResources
+        > Task :capacitor-haptics:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-haptics:generateReleaseResValues
+        > Task :capacitor-haptics:generateReleaseResources
+        > Task :capacitor-haptics:packageReleaseResources
+        > Task :capacitor-keyboard:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-keyboard:generateReleaseResValues
+        > Task :capacitor-keyboard:generateReleaseResources
+        > Task :capacitor-keyboard:packageReleaseResources
+        > Task :capacitor-status-bar:compileReleaseRenderscript NO-SOURCE
+        > Task :capacitor-status-bar:generateReleaseResValues
+        > Task :capacitor-status-bar:generateReleaseResources
+        > Task :capacitor-status-bar:packageReleaseResources
+        > Task :app:mapReleaseSourceSetPaths FAILED
+        
+        FAILURE: Build failed with an exception.
+        
+        * What went wrong:
+        Execution failed for task ':app:mapReleaseSourceSetPaths'.
+        > Could not resolve all files for configuration ':app:releaseRuntimeClasspath'.
+        > Could not resolve com.tealium:kotlin-core:1.5.1.
+        Required by:
+        project :app
+        project :app > project :capacitor-cordova-android-plugins
+        > Could not resolve com.tealium:kotlin-core:1.5.1.
+        > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-core/1.5.1/kotlin-core-1.5.1.pom'.
+        > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-core/1.5.1/kotlin-core-1.5.1.pom'.
+        > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+        > Could not resolve com.tealium:kotlin-collect-dispatcher:1.1.0.
+        Required by:
+        project :app
+        project :app > project :capacitor-cordova-android-plugins
+        > Could not resolve com.tealium:kotlin-collect-dispatcher:1.1.0.
+        > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-collect-dispatcher/1.1.0/kotlin-collect-dispatcher-1.1.0.pom'.
+        > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-collect-dispatcher/1.1.0/kotlin-collect-dispatcher-1.1.0.pom'.
+        > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+        > Could not resolve com.tealium:kotlin-tagmanagement-dispatcher:1.2.0.
+        Required by:
+        project :app
+        project :app > project :capacitor-cordova-android-plugins
+        > Could not resolve com.tealium:kotlin-tagmanagement-dispatcher:1.2.0.
+        > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-tagmanagement-dispatcher/1.2.0/kotlin-tagmanagement-dispatcher-1.2.0.pom'.
+        > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-tagmanagement-dispatcher/1.2.0/kotlin-tagmanagement-dispatcher-1.2.0.pom'.
+        > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+        > Could not resolve com.tealium:kotlin-remotecommand-dispatcher:1.2.1.
+        Required by:
+        project :app
+        project :app > project :capacitor-cordova-android-plugins
+        > Could not resolve com.tealium:kotlin-remotecommand-dispatcher:1.2.1.
+        > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-remotecommand-dispatcher/1.2.1/kotlin-remotecommand-dispatcher-1.2.1.pom'.
+        > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-remotecommand-dispatcher/1.2.1/kotlin-remotecommand-dispatcher-1.2.1.pom'.
+        > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+        > Could not resolve com.tealium:kotlin-lifecycle:1.1.1.
+        Required by:
+        project :app
+        project :app > project :capacitor-cordova-android-plugins
+        > Could not resolve com.tealium:kotlin-lifecycle:1.1.1.
+        > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-lifecycle/1.1.1/kotlin-lifecycle-1.1.1.pom'.
+        > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-lifecycle/1.1.1/kotlin-lifecycle-1.1.1.pom'.
+        > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+        > Could not resolve com.tealium:kotlin-visitor-service:1.1.1.
+        Required by:
+        project :app
+        project :app > project :capacitor-cordova-android-plugins
+        > Could not resolve com.tealium:kotlin-visitor-service:1.1.1.
+        > Could not get resource 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-visitor-service/1.1.1/kotlin-visitor-service-1.1.1.pom'.
+        > Could not GET 'https://maven.tealiumiq.com/android/releases/com/tealium/kotlin-visitor-service/1.1.1/kotlin-visitor-service-1.1.1.pom'.
+        > Connect to maven.tealiumiq.com:443 [maven.tealiumiq.com/0.0.0.0, maven.tealiumiq.com/0:0:0:0:0:0:0:0] failed: Connection refused (Connection refused)
+        
+        * Try:
+        > Run with --stacktrace option to get the stack trace.
+        > Run with --info or --debug option to get more log output.
+        > Run with --scan to get full insights.
+        
+        * Get more help at https://help.gradle.org
+        
+        BUILD FAILED in 5s
+        14 actionable tasks: 14 executed
+        

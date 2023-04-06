@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "jeffdnpm",
   "published": "2022-04-27T17:39:49.636Z",
@@ -24,5 +26,5 @@
     "capacitor-android-3"
   ],
   "description": "Throwing screen",
-  "downloads": 314
+  "downloads": 286
 }

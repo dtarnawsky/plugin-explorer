@@ -30,7 +30,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Cordova RongCloud IMLib Plugin",
   "bugs": "https://github.com/rongcloud/cordova-plugin-rongcloud-im/issues",
@@ -38,5 +40,5 @@
   "image": "https://avatars.githubusercontent.com/u/65995217?v=4",
   "quality": 199,
   "updated": "2023-01-28T17:20:16Z",
-  "downloads": 31
+  "downloads": 27
 }

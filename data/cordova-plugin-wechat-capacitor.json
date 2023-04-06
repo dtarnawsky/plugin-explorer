@@ -2,7 +2,8 @@
   "name": "cordova-plugin-wechat-capacitor",
   "version": "3.0.3",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/yangdejingjing/cordova-plugin-wechat-capacitor.git",
   "author": "xu.li <AthenaLightenedMyPath@gmail.com>",
@@ -26,7 +27,8 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "A cordova plugin, a JS version of Wechat SDK",
   "bugs": "https://github.com/xu-li/cordova-plugin-wechat/issues",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/41714656?v=4",
   "quality": 0,
   "updated": "2022-05-17T05:26:51Z",
-  "downloads": 6
+  "downloads": 8
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/mostafa-mansour1/previewAnyFile.git",
   "author": "Mostafa Mansour <mostafa@outlook.kr>",
@@ -61,7 +63,7 @@
   "bugs": "https://github.com/mostafa-mansour1/previewAnyFile/issues",
   "stars": 31,
   "image": "https://avatars.githubusercontent.com/u/6575879?v=4",
-  "quality": 158,
+  "quality": 159,
   "updated": "2023-01-02T07:24:39Z",
-  "downloads": 10867
+  "downloads": 11180
 }

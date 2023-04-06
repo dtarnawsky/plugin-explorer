@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ArunYogi/cordova-plugin-upi.git",
   "author": "Arun Yokesh Kumar",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/23559391?v=4",
   "quality": 116,
   "updated": "2023-03-20T09:11:23Z",
-  "downloads": 43
+  "downloads": 36
 }

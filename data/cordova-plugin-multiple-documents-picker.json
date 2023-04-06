@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/akeotech/cordova-plugin-multiple-documents-picker.git",
   "author": "Akeo Software Solutions <post@akeo.no>",
@@ -27,9 +29,9 @@
   ],
   "description": "A Cordova plugin that allows users to pick multiple documents/images at once.",
   "bugs": "https://github.com/akeotech/cordova-plugin-multiple-documents-picker/issues",
-  "quality": 109,
-  "downloads": 780,
-  "stars": 1,
+  "quality": 110,
+  "downloads": 733,
+  "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/31200352?v=4",
-  "updated": "2022-10-27T13:26:55Z"
+  "updated": "2023-04-05T07:15:54Z"
 }

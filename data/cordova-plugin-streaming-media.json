@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin.git",
   "author": "Nicholas Hutchind",
@@ -40,5 +42,5 @@
   "image": "https://avatars.githubusercontent.com/u/1398002?v=4",
   "quality": 839,
   "updated": "2023-01-09T16:46:40Z",
-  "downloads": 6691
+  "downloads": 5351
 }

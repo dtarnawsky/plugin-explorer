@@ -32,12 +32,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Jumio Mobile SDK Plugin for Cordova",
   "bugs": "https://github.com/Jumio/mobile-cordova/issues",
   "quality": 134,
-  "downloads": 82,
+  "downloads": 126,
   "stars": 6,
   "image": "https://avatars.githubusercontent.com/u/8918947?v=4",
   "updated": "2022-07-28T13:56:50Z"

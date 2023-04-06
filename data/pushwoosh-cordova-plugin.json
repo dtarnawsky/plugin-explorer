@@ -160,13 +160,15 @@
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "\n    This plugin allows you to send and receive push notifications. Powered by Pushwoosh (www.pushwoosh.com).\n    ",
   "bugs": "https://github.com/Pushwoosh/pushwoosh-phonegap-3.0-plugin/issues",
   "stars": 107,
   "image": "https://avatars.githubusercontent.com/u/6467760?v=4",
-  "quality": 349,
+  "quality": 351,
   "updated": "2022-12-26T20:10:40Z",
-  "downloads": 7031
+  "downloads": 6882
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/iamport/iamport-cordova.git",
   "author": "Soree Choi <mymusese@gmail.com> (https://github.com/SoleeChoi)",
@@ -39,6 +41,9 @@
   ],
   "description": "아임포트 코르도바용 일반, 정기결제 및 휴대폰 본인인증 플러그인입니다.",
   "bugs": "https://github.com/iamport/iamport-cordova/issues",
-  "quality": null,
-  "downloads": 70
+  "quality": 117,
+  "downloads": 56,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/11437969?v=4",
+  "updated": "2023-03-28T05:06:35Z"
 }

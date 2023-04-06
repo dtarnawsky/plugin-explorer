@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "fytoro",
   "published": "2022-04-27T17:36:54.857Z",
@@ -26,5 +28,5 @@
     "cordova-android-11"
   ],
   "description": "Cordova network plugin for Android and iOS",
-  "downloads": 31
+  "downloads": 36
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/pbakondy/cordova-plugin-screensize.git",
   "author": "Peter Bakondy",
@@ -38,6 +40,9 @@
   ],
   "description": "A cordova plugin to get the size of the device screen",
   "bugs": "https://github.com/pbakondy/cordova-plugin-screensize/issues",
-  "quality": null,
-  "downloads": 1055
+  "quality": 140,
+  "downloads": 1021,
+  "stars": 24,
+  "image": "https://avatars.githubusercontent.com/u/500697?v=4",
+  "updated": "2022-12-16T12:10:02Z"
 }

@@ -1,10 +1,10 @@
 {
   "name": "scandit-cordova-datacapture-barcode",
-  "version": "6.17.0-beta.1",
+  "version": "6.17.0-beta.2",
   "success": [
     "cordova-android-11"
   ],
-  "published": "2023-03-10T21:07:07.068Z",
+  "published": "2023-03-30T19:21:33.799Z",
   "versions": [
     "6.2.0-beta.2",
     "6.2.0-beta.3",
@@ -82,7 +82,8 @@
     "6.16.0",
     "6.16.1",
     "6.16.2",
-    "6.17.0-beta.1"
+    "6.17.0-beta.1",
+    "6.17.0-beta.2"
   ],
   "keywords": [
     "ecosystem:cordova",
@@ -94,8 +95,10 @@
     "capacitor-android-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Scandit Data Capture SDK for Cordova",
-  "downloads": 934
+  "downloads": 1023
 }

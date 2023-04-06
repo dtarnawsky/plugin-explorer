@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/danielsogl/cordova-plugin-useragent.git",
   "author": "Daniel Sogl",
@@ -35,7 +37,7 @@
   "bugs": "https://github.com/danielsogl/cordova-plugin-useragent/issues",
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
-  "quality": 25,
+  "quality": 24,
   "updated": "2022-08-02T12:37:19Z",
-  "downloads": 586
+  "downloads": 604
 }

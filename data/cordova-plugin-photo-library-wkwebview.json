@@ -4,7 +4,8 @@
   "success": [
     "capacitor-android-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/tien271/cordova-plugin-photo-library-wkwebview.git",
   "author": "Roman Viskin <npm@terikon.com> (http://il.linkedin.com/in/romanviskin)",
@@ -18,7 +19,8 @@
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-ios-5"
   ],
   "description": "Plugin that just gets photos from the gallery",
   "bugs": "https://github.com/tien271/cordova-plugin-photo-library-wkwebview/issues",
@@ -26,5 +28,6 @@
   "image": "https://avatars.githubusercontent.com/u/43818500?v=4",
   "quality": 28,
   "updated": "2021-08-30T09:26:47Z",
-  "downloads": 97
+  "downloads": 85,
+  "keywords": []
 }

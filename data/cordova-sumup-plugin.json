@@ -2,7 +2,8 @@
   "name": "cordova-sumup-plugin",
   "version": "2.0.0",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/mariusbackes/cordova-plugin-sumup.git",
   "author": "Marius Backes",
@@ -32,7 +33,8 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin for SumUp SDK integration",
   "bugs": "https://github.com/mariusbackes/cordova-plugin-sumup.git/issues",

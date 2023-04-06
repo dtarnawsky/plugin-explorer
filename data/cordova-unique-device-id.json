@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/john-doherty/cordova-unique-device-id.git",
   "author": "John Doherty <contact@johndoherty.info> (http://www.johndoherty.info)",
@@ -34,5 +36,5 @@
   "description": "Cordova unique device id (UUID) plugin for Android, iOS and Windows Phone 8. Remains the same after app uninstall.",
   "bugs": "https://github.com/john-doherty/cordova-unique-device-id/issues",
   "quality": null,
-  "downloads": 668
+  "downloads": 637
 }

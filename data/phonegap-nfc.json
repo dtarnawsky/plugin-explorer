@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/chariotsolutions/phonegap-nfc.git",
   "author": "Don Coleman <don.coleman@gmail.com>",
@@ -46,9 +48,9 @@
   ],
   "description": "Near Field Communication (NFC) Plugin. Read and write NDEF messages to NFC tags and share NDEF messages with peers.",
   "bugs": "https://github.com/chariotsolutions/phonegap-nfc/issues",
-  "quality": 1302,
-  "downloads": 7128,
-  "stars": 671,
+  "quality": 1309,
+  "downloads": 6826,
+  "stars": 673,
   "image": "https://avatars.githubusercontent.com/u/132350?v=4",
-  "updated": "2023-03-13T05:41:19Z"
+  "updated": "2023-04-01T21:10:50Z"
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/pranavagiligar/cordova-plugin-screenprivacy-cxm.git",
   "author": "grpranava",
@@ -42,5 +44,5 @@
   "description": "Cordova plugin to handle screenshot",
   "bugs": "https://github.com/pranavagiligar/cordova-plugin-screenprivacy-cxm/issues",
   "quality": null,
-  "downloads": 107
+  "downloads": 109
 }

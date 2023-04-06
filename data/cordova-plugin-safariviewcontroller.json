@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -47,9 +49,9 @@
   ],
   "description": "Forget InAppBrowser for iOS - this is way better for displaying read-only web content in your PhoneGap app.",
   "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-safariviewcontroller/issues",
-  "stars": 278,
+  "stars": 279,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "quality": 595,
-  "updated": "2023-03-13T15:57:13Z",
-  "downloads": 39622
+  "quality": 596,
+  "updated": "2023-04-03T07:35:14Z",
+  "downloads": 40942
 }

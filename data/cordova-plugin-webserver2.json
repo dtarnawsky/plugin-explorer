@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/NguyenThanh1995/cordova-plugin-webserver2",
   "author": "Nguyen Thanh",
@@ -34,5 +36,5 @@
   "image": "https://avatars.githubusercontent.com/u/45375496?v=4",
   "quality": 7,
   "updated": "2022-12-31T00:30:00Z",
-  "downloads": 91
+  "downloads": 68
 }

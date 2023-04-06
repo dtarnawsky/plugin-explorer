@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/roberthovhannisyan/SpinnerDialog.git",
   "author": "Robert Hovhannisyan",
@@ -35,6 +37,9 @@
   ],
   "description": "PhoneGap waiting dialog (progress indicator) plugin with spinner for Android, iOS and Windows Phone 8.",
   "bugs": "https://github.com/roberthovhannisyan/SpinnerDialog/issues",
-  "quality": null,
-  "downloads": 127
+  "quality": 4,
+  "downloads": 134,
+  "stars": 2,
+  "image": "https://avatars.githubusercontent.com/u/2118842?v=4",
+  "updated": "2019-02-01T15:57:35Z"
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/homerours/cordova-music-controls-plugin.git",
   "author": "homerours",
@@ -42,7 +44,7 @@
   "description": "Music controls for Cordova apps",
   "bugs": "https://github.com/homerours/cordova-music-controls-plugin/issues",
   "quality": 502,
-  "downloads": 100,
+  "downloads": 77,
   "stars": 152,
   "image": "https://avatars.githubusercontent.com/u/12702557?v=4",
   "updated": "2022-12-14T14:45:09Z"

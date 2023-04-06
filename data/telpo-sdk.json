@@ -2,7 +2,8 @@
   "name": "telpo-sdk",
   "version": "0.2.2",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/nikolalj/telpo-sdk.git",
   "author": "Nikola Ljumovic",
@@ -41,10 +42,11 @@
     "capacitor-android-3",
     "capacitor-ios-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "description": "Capacitor Plugin that integrates Telpo SDK",
   "bugs": "https://github.com/nikolalj/telpo-sdk/issues",
   "quality": null,
-  "downloads": 41
+  "downloads": 37
 }

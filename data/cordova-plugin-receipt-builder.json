@@ -6,7 +6,8 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Drunkenpilot/cordova-plugin-receipt-builder.git",
   "author": "betalife",
@@ -28,10 +29,11 @@
     "cordova-android"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "Cordova Plugin implemented library drawreceiptlib to build receipt image",
   "bugs": "https://github.com/Drunkenpilot/cordova-plugin-receipt-builder/issues",
   "quality": null,
-  "downloads": 37
+  "downloads": 28
 }

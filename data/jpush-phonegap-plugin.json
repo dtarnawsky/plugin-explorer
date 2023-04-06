@@ -1,10 +1,10 @@
 {
   "name": "jpush-phonegap-plugin",
-  "version": "4.8.5",
+  "version": "4.8.6",
   "success": [],
   "repo": "https://github.com/jpush/jpush-phonegap-plugin.git",
   "author": "JiGuang",
-  "published": "2022-12-23T09:29:38.738Z",
+  "published": "2023-03-31T06:09:17.424Z",
   "versions": [
     "2.1.1",
     "2.1.3",
@@ -80,7 +80,8 @@
     "3.8.4",
     "3.8.5",
     "3.8.6",
-    "4.8.5"
+    "4.8.5",
+    "4.8.6"
   ],
   "keywords": [
     "JPush",
@@ -101,13 +102,15 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "JPush for cordova plugin",
   "bugs": "https://github.com/jpush/jpush-phonegap-plugin/issues",
-  "stars": 925,
+  "stars": 924,
   "image": "https://avatars.githubusercontent.com/u/2645408?v=4",
-  "quality": 1422,
-  "updated": "2023-02-16T09:13:07Z",
-  "downloads": 353
+  "quality": 1421,
+  "updated": "2023-03-28T06:03:01Z",
+  "downloads": 632
 }

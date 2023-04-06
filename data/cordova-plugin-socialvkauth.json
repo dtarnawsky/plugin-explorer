@@ -2,7 +2,8 @@
   "name": "cordova-plugin-socialvkauth",
   "version": "1.0.14",
   "success": [
-    "capacitor-android-4"
+    "capacitor-android-4",
+    "capacitor-android-5"
   ],
   "author": "Netfan",
   "published": "2023-02-10T07:58:31.019Z",
@@ -35,8 +36,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "description": "Cordova plugin for VK auth (forked from https://github.com/OrangeAppsRu/cordova-social-vk)",
-  "downloads": 38
+  "downloads": 33
 }

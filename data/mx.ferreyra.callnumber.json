@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Rohfosho/CordovaCallNumberPlugin.git",
   "author": "",
@@ -28,8 +30,8 @@
   ],
   "description": "Call Number from Cordova Application",
   "bugs": "https://github.com/Rohfosho/CordovaCallNumberPlugin/issues",
-  "quality": 474,
-  "downloads": 9652,
+  "quality": 475,
+  "downloads": 10110,
   "stars": 186,
   "image": "https://avatars.githubusercontent.com/u/3130493?v=4",
   "updated": "2023-02-13T19:20:23Z"

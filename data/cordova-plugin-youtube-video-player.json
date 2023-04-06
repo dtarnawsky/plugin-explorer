@@ -4,7 +4,8 @@
   "success": [
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/ihadeed/CordovaYoutubeVideoPlayer.git",
   "author": "",
@@ -20,10 +21,15 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "**Play Youtube Videos in a native Video Player on Android &amp; iOS.**",
   "bugs": "https://github.com/ihadeed/CordovaYoutubeVideoPlayer/issues",
-  "quality": null,
-  "downloads": 604
+  "quality": 87,
+  "downloads": 681,
+  "keywords": [],
+  "stars": 23,
+  "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
+  "updated": "2022-11-03T00:22:16Z"
 }

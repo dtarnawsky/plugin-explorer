@@ -29,7 +29,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "Simple file crypto for Cordova.",
   "bugs": "https://github.com/disusered/cordova-safe/issues",
@@ -37,5 +39,5 @@
   "image": "https://avatars.githubusercontent.com/u/246254?v=4",
   "quality": 178,
   "updated": "2023-01-28T15:17:43Z",
-  "downloads": 42
+  "downloads": 33
 }

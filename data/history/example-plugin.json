@@ -1,10 +1,20 @@
 {
   "tests": [
     {
-      "test": "cordova-ios-6",
+      "test": "capacitor-android-3",
       "version": "0.0.0",
-      "failure": "peer-dependencies",
+      "failure": "native-build",
       "success": false
+    },
+    {
+      "test": "capacitor-android-5",
+      "version": "0.0.0",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "0.0.0",
+      "success": true
     },
     {
       "test": "cordova-android-11",
@@ -13,9 +23,9 @@
       "success": false
     },
     {
-      "test": "capacitor-android-3",
+      "test": "cordova-ios-6",
       "version": "0.0.0",
-      "failure": "native-build",
+      "failure": "peer-dependencies",
       "success": false
     }
   ],

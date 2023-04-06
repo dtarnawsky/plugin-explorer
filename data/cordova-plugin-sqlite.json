@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/hypery2k/cordova-sqlite-plugin.git",
   "author": "Martin Reinhardt",
@@ -35,5 +37,5 @@
   "description": "Cordova SQLite Plugin",
   "bugs": "https://github.com/hypery2k/cordova-sqlite-plugin/issues",
   "quality": null,
-  "downloads": 196
+  "downloads": 190
 }

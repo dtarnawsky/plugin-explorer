@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/s1lviu/cordova-plugin-uptime.git",
   "author": "Silviu Stroe",
@@ -58,5 +60,5 @@
   "image": "https://avatars.githubusercontent.com/u/9863576?v=4",
   "quality": 102,
   "updated": "2021-03-27T17:09:04Z",
-  "downloads": 345
+  "downloads": 272
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "author": "Apache Cordova Team",
   "published": "2022-12-30T13:41:25.754Z",

@@ -3,7 +3,9 @@
   "version": "1.0.8",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/movooc/cordova-plugin-transfer.git",
   "author": "movooc",
@@ -39,5 +41,5 @@
   "description": "Use the way Pause and Resume to download files or fileStream for Cordova and PhoneGap",
   "bugs": "https://github.com/movooc/cordova-plugin-transfer/issues",
   "quality": null,
-  "downloads": 47
+  "downloads": 44
 }

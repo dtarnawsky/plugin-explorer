@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://Tomnar@bitbucket.org/creativevikings/cordova-plugin-sideloaded.git",
   "author": "Creative Vikings ApS",
@@ -24,5 +26,5 @@
     "capacitor-android-3"
   ],
   "description": "A Cordova plugin that checks if an android app was side loaded or downloaded from the play store.",
-  "downloads": 9
+  "downloads": 7
 }

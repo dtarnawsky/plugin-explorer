@@ -3,7 +3,8 @@
   "version": "2.0.6",
   "success": [
     "capacitor-android-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-native-keyboard.git",
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
@@ -62,16 +63,27 @@
     "Messenger Keyboard",
     "ecosystem:cordova",
     "cordova-ios",
-    "cordova-android"
+    "cordova-android",
+    "chat",
+    "cordova",
+    "keyboard",
+    "messenger",
+    "phonegap",
+    "slack",
+    "whatsapp"
   ],
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "description": "This plugin aims to solve common keyboard problems encountered with Cordova / PhoneGap apps. The messenger component (see screenshots) is ready for production, but this plugin will have more tricks up its sleeve. I'll document those once they're ready for",
   "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-native-keyboard/issues",
-  "quality": null,
-  "downloads": 482
+  "quality": 483,
+  "downloads": 541,
+  "stars": 275,
+  "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
+  "updated": "2022-10-22T14:53:23Z"
 }

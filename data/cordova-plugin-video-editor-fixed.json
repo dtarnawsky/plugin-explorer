@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/alimhan1986/cordova-plugin-video-editor.git",
   "author": "Josh Bavari",
@@ -35,5 +37,5 @@
   "image": "https://avatars.githubusercontent.com/u/53707836?v=4",
   "quality": 1,
   "updated": "2021-07-07T08:21:40Z",
-  "downloads": 294
+  "downloads": 326
 }

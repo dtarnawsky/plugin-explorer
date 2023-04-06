@@ -4,7 +4,9 @@
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-ios-3"
+    "capacitor-ios-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "git://github.com/WalletInc/sdk-ts.git",
   "author": "OpenAPI-Generator Contributors",
@@ -53,5 +55,5 @@
   "description": "NodeJS client for wallet",
   "bugs": "https://github.com/WalletInc/sdk-ts/issues",
   "quality": null,
-  "downloads": 177
+  "downloads": 171
 }

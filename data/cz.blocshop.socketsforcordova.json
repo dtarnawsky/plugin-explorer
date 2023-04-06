@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "published": "2022-06-14T07:22:40.861Z",
   "versions": [
@@ -23,5 +25,5 @@
     "capacitor-android-3"
   ],
   "description": "\r\n\t\tThis Cordova plugin provides JavaScript API, that allows you to communicate with server through TCP protocol.\r\n\t\tCurrently we support these platforms: iOS, Android, WP8.\r\n\t",
-  "downloads": 894
+  "downloads": 917
 }

@@ -16,7 +16,9 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "cordova-plugin-scanner",
   "bugs": "https://github.com/phi-jp/cordova-plugin-scanner/issues",
@@ -24,5 +26,6 @@
   "image": "https://avatars.githubusercontent.com/u/1156954?v=4",
   "quality": 103,
   "updated": "2018-05-25T06:31:03Z",
-  "downloads": 8
+  "downloads": 10,
+  "keywords": []
 }

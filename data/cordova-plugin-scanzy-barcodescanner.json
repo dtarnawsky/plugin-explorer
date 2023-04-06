@@ -3,7 +3,8 @@
   "version": "0.0.6",
   "success": [
     "capacitor-android-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-android-5"
   ],
   "author": "Scanzy",
   "published": "2023-03-24T08:52:06.848Z",
@@ -33,8 +34,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "capacitor-android-3",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "description": "Scanzy Barcode Scanner SDK",
-  "downloads": 240
+  "downloads": 248
 }

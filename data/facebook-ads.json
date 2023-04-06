@@ -22,7 +22,9 @@
     "capacitor-android-4",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5",
+    "capacitor-android-5"
   ],
   "description": "to create facebook ads this plugin will help...",
   "bugs": "https://github.com/Yagnik031/Facebook-ads.git/issues",

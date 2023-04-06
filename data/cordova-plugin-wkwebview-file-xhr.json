@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/oracle/cordova-plugin-wkwebview-file-xhr.git",
   "author": "oraclejet",
@@ -39,5 +41,5 @@
   "image": "https://avatars.githubusercontent.com/u/4430336?v=4",
   "quality": 368,
   "updated": "2023-02-24T06:31:12Z",
-  "downloads": 9293
+  "downloads": 8356
 }

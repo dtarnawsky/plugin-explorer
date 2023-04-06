@@ -6,7 +6,8 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/andreszs/cordova-plugin-sms-retriever.git",
   "author": "Andres Zsogon <andreszs@users.noreply.github.com>",
@@ -34,7 +35,8 @@
     "retriever"
   ],
   "fails": [
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5"
   ],
   "description": "Cordova plugin to retrieve SMS in Android using the SMS Retriever API.",
   "bugs": "https://github.com/andreszs/cordova-plugin-sms-retriever/issues",
@@ -42,5 +44,5 @@
   "image": "https://avatars.githubusercontent.com/u/10298071?v=4",
   "quality": 124,
   "updated": "2022-06-22T15:14:51Z",
-  "downloads": 735
+  "downloads": 738
 }

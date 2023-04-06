@@ -1,7 +1,18 @@
 {
   "tests": [
     {
-      "test": "cordova-ios-6",
+      "test": "capacitor-android-3",
+      "version": "1.0.2",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-5",
+      "version": "1.0.2",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
       "version": "1.0.2",
       "success": true
     },
@@ -12,10 +23,9 @@
       "success": false
     },
     {
-      "test": "capacitor-android-3",
+      "test": "cordova-ios-6",
       "version": "1.0.2",
-      "failure": "native-build",
-      "success": false
+      "success": true
     }
   ],
   "name": "thermal_telpo_printer"

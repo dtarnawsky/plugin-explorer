@@ -53,7 +53,9 @@
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
-    "capacitor-android-3"
+    "capacitor-android-3",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "description": "A Cordova plugin for VideoEditor SDK. Integrate the video editor into your own HTML5, iOS or Android app - in minutes!",
   "bugs": "https://github.com/imgly/vesdk-cordova/issues",
@@ -61,5 +63,5 @@
   "image": "https://avatars.githubusercontent.com/u/6421070?v=4",
   "quality": 104,
   "updated": "2021-12-14T15:18:12Z",
-  "downloads": 47
+  "downloads": 65
 }

@@ -3,7 +3,9 @@
   "version": "0.0.2",
   "success": [
     "capacitor-android-4",
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/triniwiz/fancy-notifications.git",
   "author": "Osei Fortune",
@@ -26,7 +28,7 @@
   "description": "Local notifications for capacitor",
   "bugs": "https://github.com/triniwiz/fancy-notifications.git/issues",
   "quality": 121,
-  "downloads": 204,
+  "downloads": 217,
   "stars": 10,
   "image": "https://avatars.githubusercontent.com/u/508269?v=4",
   "updated": "2022-01-30T15:52:24Z"

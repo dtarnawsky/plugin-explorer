@@ -1,6 +1,22 @@
 {
   "tests": [
     {
+      "test": "capacitor-android-3",
+      "version": "1.0.1",
+      "failure": "native-build",
+      "success": false
+    },
+    {
+      "test": "capacitor-android-5",
+      "version": "1.0.1",
+      "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "1.0.1",
+      "success": true
+    },
+    {
       "test": "cordova-android-11",
       "version": "1.0.1",
       "success": true
@@ -9,12 +25,6 @@
       "test": "cordova-ios-6",
       "version": "1.0.1",
       "success": true
-    },
-    {
-      "test": "capacitor-android-3",
-      "version": "1.0.1",
-      "failure": "native-build",
-      "success": false
     }
   ],
   "name": "cordova-plugin-video-player"

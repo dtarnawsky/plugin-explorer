@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/phonegap/phonegap-mobile-accessibility.git",
   "author": "Adobe PhoneGap Team",
@@ -36,7 +38,7 @@
   "description": "PhoneGap Mobile Accessibility Plugin",
   "bugs": "https://github.com/phonegap/phonegap-mobile-accessibility/issues",
   "quality": 364,
-  "downloads": 13274,
+  "downloads": 13231,
   "stars": 144,
   "image": "https://avatars.githubusercontent.com/u/60365?v=4",
   "updated": "2023-03-20T07:14:14Z"

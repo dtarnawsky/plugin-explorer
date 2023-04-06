@@ -6,7 +6,9 @@
     "capacitor-ios-4",
     "capacitor-ios-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/eduardoaw/cordova-webintent.git",
   "author": "Boris Smus, Eduardo Adams Wohlfahrt <eduardowohlfahrt@gmail.com>",
@@ -29,5 +31,5 @@
   "image": "https://avatars.githubusercontent.com/u/11036786?v=4",
   "quality": 0,
   "updated": "2017-02-04T11:46:01Z",
-  "downloads": 125
+  "downloads": 123
 }

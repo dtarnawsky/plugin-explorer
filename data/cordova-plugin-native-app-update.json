@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/kungfu-king-betty/cordova-plugin-native-app-update.git",
   "author": "Austen Zeh <developerDawg@gmail.com>",
@@ -29,7 +31,18 @@
   "keywords": [
     "cordova",
     "native",
-    "app update"
+    "app update",
+    "android",
+    "app-store",
+    "appstore",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-plugin",
+    "google-play-store",
+    "in-app-updates",
+    "ionic",
+    "ios",
+    "update-checker"
   ],
   "fails": [
     "capacitor-ios-3",
@@ -37,6 +50,9 @@
   ],
   "description": "A plugin to check the App Store or Google Play Store for iOS and Android respectively.",
   "bugs": "https://github.com/kungfu-king-betty/cordova-plugin-native-app-update/issues",
-  "quality": null,
-  "downloads": 720
+  "quality": 123,
+  "downloads": 673,
+  "stars": 9,
+  "image": "https://avatars.githubusercontent.com/u/55329360?v=4",
+  "updated": "2023-03-10T12:05:33Z"
 }

@@ -2,7 +2,8 @@
   "name": "cordova-plugin-qrscanner",
   "version": "3.0.1",
   "success": [
-    "capacitor-ios-4"
+    "capacitor-ios-4",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/bitpay/cordova-plugin-qrscanner.git",
   "author": "Jason Dreyzehner",
@@ -58,13 +59,14 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5"
   ],
   "description": "Fast, energy-efficient, highly-configurable QR code scanner.",
   "bugs": "https://github.com/bitpay/cordova-plugin-qrscanner/issues",
-  "stars": 560,
+  "stars": 561,
   "image": "https://avatars.githubusercontent.com/u/2554930?v=4",
-  "quality": 1584,
-  "updated": "2023-03-19T16:37:43Z",
-  "downloads": 7620
+  "quality": 1586,
+  "updated": "2023-03-29T13:58:10Z",
+  "downloads": 7036
 }

@@ -5,7 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4",
     "cordova-android-11",
-    "cordova-ios-6"
+    "cordova-ios-6",
+    "capacitor-android-5",
+    "capacitor-ios-5"
   ],
   "repo": "https://github.com/Paldom/UniqueDeviceID.git",
   "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
@@ -37,9 +39,9 @@
   ],
   "description": "PhoneGap / Cordova unique device id (UUID) plugin for Android, iOS and Windows Phone 8. Remains the same after app uninstall.",
   "bugs": "https://github.com/Paldom/UniqueDeviceID/issues",
-  "stars": 170,
+  "stars": 171,
   "image": "https://avatars.githubusercontent.com/u/3684864?v=4",
-  "quality": 388,
-  "updated": "2023-03-28T06:10:17Z",
-  "downloads": 5352
+  "quality": 389,
+  "updated": "2023-03-31T07:26:18Z",
+  "downloads": 5664
 }
