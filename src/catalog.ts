@@ -107,8 +107,23 @@ export function readPlugin(plugin: string): Inspection {
 }
 
 function cleanupPlugin(i: Inspection): Inspection {
+    // Identity Vault has no keywords
+    if (i.name == '@ionic-enterprise/identity-vault') {
+        i.keywords = [
+            "fingerprint",
+            "authentication",
+            "biometric",
+            "biometrics",
+            "faceid",
+            "touchid",
+            "face",
+            "touch",
+            "encryption"
+        ];
+    }
+
     i.keywords = cleanupKeywords(i.keywords);
-    if (i.name?.startsWith('@capacitor/')) {
+    if (i.name?.startsWith('@capacitor/') || i.name?.startsWith('@ionic-enterprise/')) {
         i.author = 'Ionic';
         if (!i.image) {
             i.image = 'https://avatars.githubusercontent.com/u/3171503?v=4';
@@ -157,18 +172,26 @@ function cleanupKeywords(keywords: string[]): string[] {
                 'nodejs',
                 'react',
                 'electron',
+                'blackberry',
+                'blackberry10',
                 'react native',
                 'community',
                 'vue',
+                'windows',
                 'cordova electron',
                 'cordova osx',
                 'cplusplus',
                 'objective c',
+                'ionic plugin',
+                'objective',
+                'c',
+                'osx',
                 'android',
                 'umd',
                 'cross platform',
                 'phonegap',
                 'ionic',
+                'capacitorjs',
                 'swift',
                 'java',
                 'angular',
