@@ -21,7 +21,7 @@ export function catalog(inspection: Inspection) {
     console.log(inspection);
 }
 
-export function writeErrorLog(plugin: string, test: Test, error: string) {    
+export function writeErrorLog(plugin: string, test: Test, error: string) {
     const filename = errorLogFilename(plugin, test);
     writeFileSync(filename, error);
 }
@@ -90,7 +90,7 @@ export function readPlugin(plugin: string): Inspection {
     const filename = pluginFilename(plugin);
     if (existsSync(filename)) {
         const json = readFileSync(filename, 'utf-8');
-        return JSON.parse(json);
+        return cleanupPlugin(JSON.parse(json));
     } else {
         return {
             name: plugin,
@@ -104,4 +104,83 @@ export function readPlugin(plugin: string): Inspection {
             fails: []
         }
     }
+}
+
+function cleanupPlugin(i: Inspection): Inspection {
+    i.keywords = cleanupKeywords(i.keywords);
+    if (i.name?.startsWith('@capacitor/')) {
+        i.author = 'Ionic';
+        if (!i.image) {
+            i.image = 'https://avatars.githubusercontent.com/u/3171503?v=4';
+        }
+    }
+    return i;
+}
+
+// Remove keywords that add no meaning to a search
+function cleanupKeywords(keywords: string[]): string[] {
+    if (!keywords) return [];
+
+    const result = [];
+    for (let word of keywords) {
+        if (word.includes('-')) {
+            const parts = word.split('-');
+            result.push(word.replace(/-/g, ' ').toLowerCase());
+            for (const part of parts) {
+                result.push(part.toLowerCase());
+            }
+        } else {
+            result.push(word.toLowerCase());
+        }
+    }
+    const words = result.filter(
+        (keyword: string) =>
+            ![
+                'cordova',
+                'javascript',
+                'mobile',
+                'typescript',
+                'plugin',
+                'capacitor',
+                'mobile',
+                'ecosystem:cordova',
+                'capacitor plugin',
+                'capacitor plugins',
+                'ios',
+                'package',
+                'cordova windows',
+                'cordova browser',
+                'csharp',
+                'java',
+                'library',
+                'ecosystem:phonegap',
+                'nodejs',
+                'react',
+                'electron',
+                'react native',
+                'community',
+                'vue',
+                'cordova electron',
+                'cordova osx',
+                'cplusplus',
+                'objective c',
+                'android',
+                'umd',
+                'cross platform',
+                'phonegap',
+                'ionic',
+                'swift',
+                'java',
+                'angular',
+                'capacitor ios',
+                'capacitor android',
+                'cordova plugin',
+                'cordova:plugin',
+                'native',
+                'capacitor community',
+                'cordova ios',
+                'cordova android',
+            ].includes(keyword.toLowerCase())
+    );
+    return [...new Set(words)];
 }
