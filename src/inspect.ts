@@ -1,7 +1,7 @@
 import { runAll, run } from './utils.js';
 import { Inspection } from './inspection.js';
 import { Test, TestInfo, setTestHistory } from './test.js';
-import { NPMView } from './npm-view.js';
+import { NPMView, getNpmView } from './npm-view.js';
 import { writeErrorLog, readPlugin, removeErrorLog } from './catalog.js';
 import { inspectGitHubAPI } from './github.js';
 import { join } from 'path';
@@ -52,15 +52,8 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
     let json = '';
     try {
         // Get Latest Plugin version number
-        json = await run(`npm view ${plugin} --json`, folder);
-        v = JSON.parse(json);     
-    }
-    catch (error) {
-        console.error(`ERROR: npm view failed of ${folder} for ${plugin}:${error}`);
-        console.error(json);
-        return Failure.npmMissing;
-    }
-    try {   
+        //json = await run(`npm view ${plugin} --json`, folder);
+        v = await getNpmView(plugin);
         result.version = v.version;
         result.versions = v.versions;
         result.author = v.author;
