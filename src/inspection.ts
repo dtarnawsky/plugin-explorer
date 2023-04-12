@@ -10,6 +10,7 @@ export interface Inspection {
     repo: string,
     success: Test[],
     fails: Test[],
+    platforms: string[], // Platforms supported
     bugs?: string, // URL for bugs
     stars?: number, // Github stars
     image?: string, // Github author url    

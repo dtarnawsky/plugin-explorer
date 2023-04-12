@@ -30,10 +30,21 @@ export interface NPMView {
     _nodeVersion: string
     _npmVersion: string
     dist: Dist
+    cordova: CordovaInfo
+    capacitor: CapacitorInfo
     _npmUser: string
     directories: Directories
     _npmOperationalInternal: NpmOperationalInternal
     _hasShrinkwrap: boolean
+  }
+
+  export interface CordovaInfo {
+    platforms: string[]
+  }
+
+  export interface CapacitorInfo {
+    ios: any;
+    android: any;
   }
   
   export interface DistTags {

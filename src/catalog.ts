@@ -18,7 +18,6 @@ export function catalog(inspection: Inspection) {
     const filename = pluginFilename(inspection.name);
     writeFileSync(filename, JSON.stringify(inspection, null, 2));
     console.log(`Write to ${filename}`);
-    console.log(inspection);
 }
 
 export function writeErrorLog(plugin: string, test: Test, error: string) {
@@ -101,6 +100,7 @@ export function readPlugin(plugin: string): Inspection {
             published: '',
             versions: [],
             keywords: [],
+            platforms: [],
             fails: []
         }
     }

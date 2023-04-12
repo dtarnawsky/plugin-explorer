@@ -14,11 +14,19 @@ The following commands can be run:
 
 ## Tests
 When running tests it will use a starter project in a GitHub repo for particular versions of Capacitor or Cordova. These projects are tested:
+- [Capacitor 5](https://github.com/dtarnawsky/plugin-test-capacitor-5)
 - [Capacitor 4](https://github.com/dtarnawsky/plugin-test-capacitor-4)
 - [Capacitor 3](https://github.com/dtarnawsky/plugin-test-capacitor-3)
 - [Cordova](https://github.com/dtarnawsky/plugin-test-cordova-6-11.git)
 
 # Roadmap
+- Plugins for cordova have a package.json with this to indicate platforms supported. Use it:
+ "cordova": {
+    "id": "cordova-plugin-android-fingerprint-auth",
+    "platforms": [
+      "android"
+    ]
+  },
 - Check package.json to see if Capacitor is a dependency and push cordova to failed if so
 - Cleanup git urls - some have ssh in them and will work if stripped
 - Grab whether the plugin is deprecated from github

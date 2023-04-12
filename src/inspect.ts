@@ -48,9 +48,19 @@ export async function inspect(plugin: string, info: TestInfo, filterType: Filter
 // This returns false only if the plugin could not be found
 async function prepareProject(plugin: string, folder: string, result: Inspection, test: TestInfo): Promise<Failure | undefined> {
     const priorVersion = result.version;
+    let v: NPMView;
+    let json = '';
     try {
         // Get Latest Plugin version number
-        const v: NPMView = JSON.parse(await run(`npm view ${plugin} --json`, folder));
+        json = await run(`npm view ${plugin} --json`, folder);
+        v = JSON.parse(json);     
+    }
+    catch (error) {
+        console.error(`ERROR: npm view failed of ${folder} for ${plugin}:${error}`);
+        console.error(json);
+        return Failure.npmMissing;
+    }
+    try {   
         result.version = v.version;
         result.versions = v.versions;
         result.author = v.author;
@@ -59,10 +69,16 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         result.published = v.time?.modified;
         result.repo = cleanUrl(v.repository?.url);
         result.keywords = v.keywords;
-
-
+        if (v.cordova) {
+            result.platforms = v.cordova.platforms;
+        }
+        if (v.capacitor) {
+            result.platforms = [];
+            if (v.capacitor.ios) result.platforms.push('ios');
+            if (v.capacitor.android) result.platforms.push('android');
+        }
     } catch (error) {
-        console.error(`Failed preparation of ${folder} for ${plugin}`, error);
+        console.error(`Failed preparation of ${folder} for ${plugin}:${error}`);        
         return Failure.npmMissing;
     }
 
@@ -129,6 +145,12 @@ async function cleanupProject(plugin: string, folder: string): Promise<void> {
 async function testProject(plugin: string, folder: string, result: Inspection, platform: string, test: Test): Promise<void> {
     try {
         if (test == Test.noOp) {
+            return;
+        }
+        if (result.platforms && !result.platforms.includes(platform)) {
+            const msg = `Skip testing ${test} ${plugin}@${result.version} as ${platform} is not supported (supported=${result.platforms})`;
+            console.log(msg);
+            storeResult(test, result, msg);
             return;
         }
         console.log(`Testing ${test} ${plugin}@${result.version}`);
