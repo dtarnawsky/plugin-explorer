@@ -10,22 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/TongZhangzt/cordova-plugin-native-ringtones.git",
-  "author": "Tong Zhang",
-  "published": "2022-06-14T00:33:29.878Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.1.0",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5"
-  ],
+  "author": {
+    "name": "Tong Zhang"
+  },
   "keywords": [
     "cordova",
     "system sound",
@@ -46,8 +33,13 @@
   "description": "Get and play the native ringtone list on Android/IOS devices.",
   "bugs": "https://github.com/TongZhangzt/cordova-plugin-native-ringtones/issues",
   "quality": 128,
-  "downloads": 484,
+  "downloads": 440,
   "stars": 7,
   "image": "https://avatars.githubusercontent.com/u/17078423?v=4",
-  "updated": "2020-12-10T22:16:33Z"
+  "updated": "2020-12-10T22:16:33Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

@@ -3,16 +3,9 @@
   "version": "3.7.9",
   "success": [],
   "repo": "https://github.com/AlwaysLoveme/cordova-plugin-jpush.git",
-  "author": "zhuxian",
-  "published": "2022-04-27T17:30:33.475Z",
-  "versions": [
-    "3.7.5",
-    "3.7.6",
-    "3.7.7-1",
-    "3.7.7",
-    "3.7.8",
-    "3.7.9"
-  ],
+  "author": {
+    "name": "zhuxian"
+  },
   "keywords": [
     "JPush",
     "push",
@@ -33,8 +26,13 @@
   "description": "JPush for Capacitor plugin",
   "bugs": "https://github.com/AlwaysLoveme/cordova-plugin-jpush/issues",
   "quality": 9,
-  "downloads": 33,
+  "downloads": 39,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/29945352?v=4",
-  "updated": "2022-09-22T09:42:41Z"
+  "updated": "2022-09-22T09:42:41Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true
 }

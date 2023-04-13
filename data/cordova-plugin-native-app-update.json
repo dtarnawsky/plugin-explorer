@@ -10,24 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/kungfu-king-betty/cordova-plugin-native-app-update.git",
-  "author": "Austen Zeh <developerDawg@gmail.com>",
-  "published": "2022-04-27T17:36:22.076Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.3.0",
-    "0.3.1",
-    "0.4.0",
-    "0.4.1",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Austen Zeh",
+    "email": "developerDawg@gmail.com"
+  },
   "keywords": [
     "cordova",
     "native",
@@ -50,9 +36,14 @@
   ],
   "description": "A plugin to check the App Store or Google Play Store for iOS and Android respectively.",
   "bugs": "https://github.com/kungfu-king-betty/cordova-plugin-native-app-update/issues",
-  "quality": 123,
-  "downloads": 673,
-  "stars": 9,
+  "quality": 124,
+  "downloads": 666,
+  "stars": 10,
   "image": "https://avatars.githubusercontent.com/u/55329360?v=4",
-  "updated": "2023-03-10T12:05:33Z"
+  "updated": "2023-04-10T11:55:31Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

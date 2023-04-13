@@ -7,12 +7,9 @@
     "cordova-ios-6",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/syazanihussin/cordova-plugin-hms-analytics.git",
-  "author": "syazanihussin",
-  "published": "2022-04-27T17:26:20.008Z",
-  "versions": [
-    "0.1.0"
-  ],
+  "author": {
+    "name": "syazanihussin"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
@@ -26,5 +23,8 @@
   "description": "## Installing",
   "bugs": "https://github.com/syazanihussin/cordova-plugin-hms-analytics/issues",
   "quality": null,
-  "downloads": 5
+  "downloads": 5,
+  "platforms": [
+    "android"
+  ]
 }

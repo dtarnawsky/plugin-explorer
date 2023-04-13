@@ -6,11 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/pchliang/cordova-plugin-pch-alipay.git",
-  "author": "pchliang",
-  "published": "2022-04-27T17:38:42.374Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "pchliang"
+  },
   "keywords": [
     "cordova",
     "alipay",
@@ -32,5 +30,9 @@
   "image": "https://avatars.githubusercontent.com/u/75404984?v=4",
   "quality": 101,
   "updated": "2021-07-14T10:37:25Z",
-  "downloads": 5
+  "downloads": 4,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

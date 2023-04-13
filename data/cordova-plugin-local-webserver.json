@@ -7,10 +7,6 @@
   ],
   "repo": "https://speige/cordova-plugin-local-webserver.git",
   "author": "",
-  "published": "2022-04-27T17:32:02.751Z",
-  "versions": [
-    "2.3.1"
-  ],
   "keywords": [
     "cordova",
     "local web server",
@@ -27,5 +23,8 @@
   ],
   "description": "Cordova Local Web Server Plugin",
   "bugs": "https://github.com/Collaborne/cordova-plugins/issues",
-  "downloads": 12
+  "downloads": 10,
+  "platforms": [
+    "ios"
+  ]
 }

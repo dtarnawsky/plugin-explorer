@@ -11,14 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "",
-  "author": "Sandata",
-  "published": "2022-04-27T17:39:51.131Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Sandata"
+  },
   "keywords": [
     "cordova",
     "preventscreenshots",
@@ -28,5 +23,6 @@
     "capacitor-android-3"
   ],
   "description": "Cordova Prevent Screenshots",
-  "downloads": 362
+  "downloads": 344,
+  "platforms": "android"
 }

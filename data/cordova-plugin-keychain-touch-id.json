@@ -10,12 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/sjhoeksma/cordova-plugin-keychain-touch-id.git",
-  "author": "S.J.Hoeksma",
-  "published": "2022-06-14T00:25:47.115Z",
-  "versions": [
-    "3.1.0",
-    "3.2.1"
-  ],
+  "author": {
+    "name": "S.J.Hoeksma"
+  },
   "keywords": [
     "TouchID",
     "Touch ID",
@@ -36,5 +33,9 @@
   "image": "https://avatars.githubusercontent.com/u/5503837?v=4",
   "quality": 409,
   "updated": "2022-11-01T02:31:04Z",
-  "downloads": 1804
+  "downloads": 1681,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

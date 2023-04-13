@@ -7,14 +7,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/katzer/cordova-plugin-local-notifications.git",
-  "author": "Sebastián Katzer",
-  "published": "2022-06-14T00:27:32.144Z",
-  "versions": [
-    "0.8.4",
-    "0.9.0-beta.1",
-    "0.9.0-beta.2",
-    "0.9.0-beta.3"
-  ],
+  "author": {
+    "name": "Sebastián Katzer"
+  },
   "keywords": [
     "appplant",
     "notification",
@@ -42,9 +37,15 @@
   ],
   "description": "Schedules and queries for local notifications",
   "bugs": "https://github.com/katzer/cordova-plugin-local-notifications/issues",
-  "stars": 2548,
+  "stars": 2552,
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
-  "quality": 4692,
-  "updated": "2023-03-29T06:24:16Z",
-  "downloads": 10345
+  "quality": 4696,
+  "updated": "2023-04-12T17:03:08Z",
+  "downloads": 10043,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "fork": false
 }

@@ -8,14 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/snt1017/cordova-plugin-power-optimization.git",
-  "author": "Santiago Cardenas",
-  "published": "2022-04-27T17:39:44.430Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
+  "author": {
+    "name": "Santiago Cardenas"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -55,5 +50,9 @@
   "image": "https://avatars.githubusercontent.com/u/31568830?v=4",
   "quality": 118,
   "updated": "2023-01-09T16:51:05Z",
-  "downloads": 236
+  "downloads": 221,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

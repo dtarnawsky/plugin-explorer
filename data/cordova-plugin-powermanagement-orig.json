@@ -7,13 +7,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/Viras-/cordova-plugin-powermanagement.git",
-  "author": "Viras-",
-  "published": "2022-06-14T00:40:32.495Z",
-  "versions": [
-    "1.0.0",
-    "1.1.1",
-    "1.1.2"
-  ],
+  "author": {
+    "name": "Viras-"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -34,5 +30,6 @@
   "image": "https://avatars.githubusercontent.com/u/881071?v=4",
   "quality": 274,
   "updated": "2022-06-26T20:30:50Z",
-  "downloads": 326
+  "downloads": 294,
+  "fork": false
 }

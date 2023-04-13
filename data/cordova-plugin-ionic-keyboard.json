@@ -11,21 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/cordova-plugin-ionic-keyboard.git",
-  "author": "Apache Software Foundation",
-  "published": "2023-03-18T22:19:49.048Z",
-  "versions": [
-    "1.0.5",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "2.0.4",
-    "2.0.5",
-    "2.1.0",
-    "2.1.1",
-    "2.1.2",
-    "2.1.3",
-    "2.2.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "keyboard",
@@ -42,5 +30,5 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 431,
   "updated": "2023-03-21T13:34:39Z",
-  "downloads": 139291
+  "downloads": 132657
 }

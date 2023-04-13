@@ -7,14 +7,9 @@
     "cordova-ios-6",
     "capacitor-ios-5"
   ],
-  "author": "Flavien",
-  "published": "2022-04-27T17:38:46.377Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2"
-  ],
+  "author": {
+    "name": "Flavien"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
@@ -26,5 +21,8 @@
     "capacitor-android-5"
   ],
   "description": "This cordova plugin uses com.github.barteksc:android-pdf-viewer project and show a PDF reader with a callback button(optional)",
-  "downloads": 28
+  "downloads": 31,
+  "platforms": [
+    "android"
+  ]
 }

@@ -10,12 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/roberthovhannisyan/PhoneGap-Plugin-ListPicker.git",
-  "author": "Robert Hovhannisyan",
-  "published": "2022-06-14T00:27:09.656Z",
-  "versions": [
-    "2.2.1",
-    "2.2.2"
-  ],
+  "author": {
+    "name": "Robert Hovhannisyan"
+  },
   "keywords": [
     "phonegap",
     "android",
@@ -37,5 +34,10 @@
   "image": "https://avatars.githubusercontent.com/u/2118842?v=4",
   "quality": 198,
   "updated": "2023-03-09T16:51:00Z",
-  "downloads": 224
+  "downloads": 204,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

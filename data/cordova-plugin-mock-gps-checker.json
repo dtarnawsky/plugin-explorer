@@ -10,13 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "",
-  "author": "Sandata",
-  "published": "2022-04-27T17:35:23.040Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Sandata"
+  },
   "keywords": [
     "cordova",
     "mock",
@@ -29,5 +25,6 @@
     "capacitor-android-5"
   ],
   "description": "Cordova Mock Gps Checker Plugin",
-  "downloads": 48
+  "downloads": 50,
+  "platforms": "android"
 }

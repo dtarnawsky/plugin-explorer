@@ -7,20 +7,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/imgly/pesdk-cordova.git",
-  "author": "img.ly GmbH <contact@img.ly>",
-  "published": "2022-11-08T10:02:48.330Z",
-  "versions": [
-    "1.0.0",
-    "1.0.2",
-    "1.1.0",
-    "2.0.0",
-    "2.1.0",
-    "2.2.0",
-    "3.0.0",
-    "3.1.0",
-    "3.2.0",
-    "3.3.0"
-  ],
+  "author": {
+    "name": "img.ly GmbH",
+    "email": "contact@img.ly"
+  },
   "keywords": [
     "cordova",
     "photoeditorsdk",
@@ -63,8 +53,13 @@
   "description": "A Cordova plugin for PhotoEditor SDK. Integrate the photo editor into your own HTML5, iOS or Android app - in minutes!",
   "bugs": "https://github.com/imgly/pesdk-cordova/issues",
   "quality": 111,
-  "downloads": 68,
+  "downloads": 83,
   "stars": 8,
   "image": "https://avatars.githubusercontent.com/u/6421070?v=4",
-  "updated": "2022-03-18T21:25:48Z"
+  "updated": "2022-03-18T21:25:48Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

@@ -10,31 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/TheCocoaProject/cordova-plugin-nativestorage.git",
-  "author": "Gilles Callebaut <callebaut.gilles@gmail.com>",
-  "published": "2022-06-14T00:33:59.915Z",
-  "versions": [
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.0.10",
-    "1.0.11",
-    "1.1.0",
-    "1.1.1",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.1.0",
-    "2.2.0",
-    "2.2.1",
-    "2.2.2",
-    "2.3.0",
-    "2.3.1",
-    "2.3.2"
-  ],
+  "author": {
+    "name": "Gilles Callebaut",
+    "email": "callebaut.gilles@gmail.com"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -65,5 +44,13 @@
   "image": "https://avatars.githubusercontent.com/u/19332949?v=4",
   "quality": 526,
   "updated": "2022-12-10T19:49:46Z",
-  "downloads": 46465
+  "downloads": 43625,
+  "platforms": [
+    "android",
+    "ios",
+    "browser",
+    "windows",
+    "osx"
+  ],
+  "fork": false
 }

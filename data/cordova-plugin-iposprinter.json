@@ -11,13 +11,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/paystory-de/cordova-plugin-iposprinter.git",
-  "author": "Patrick Bußmann <patrick.bussmann@paystory.de> (https://paystory.de/)",
-  "published": "2022-04-27T17:29:49.832Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Patrick Bußmann",
+    "email": "patrick.bussmann@paystory.de",
+    "url": "https://paystory.de/"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -40,5 +38,5 @@
   "image": "https://avatars.githubusercontent.com/u/73749290?v=4",
   "quality": 100,
   "updated": "2021-06-14T14:26:03Z",
-  "downloads": 11
+  "downloads": 5
 }

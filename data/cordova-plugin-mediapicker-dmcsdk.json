@@ -6,19 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/DmcSDK/cordova-plugin-mediaPicker.git",
-  "author": "DmcSDK",
-  "published": "2022-04-27T17:34:10.362Z",
-  "versions": [
-    "2.3.7",
-    "2.3.8",
-    "2.3.9",
-    "2.4.0",
-    "2.4.1",
-    "2.4.2",
-    "2.4.3",
-    "2.4.4",
-    "2.4.5"
-  ],
+  "author": {
+    "name": "DmcSDK"
+  },
   "keywords": [
     "cordova",
     "imagePicker",
@@ -52,5 +42,10 @@
   "image": "https://avatars.githubusercontent.com/u/28590359?v=4",
   "quality": 364,
   "updated": "2022-04-13T12:24:28Z",
-  "downloads": 115
+  "downloads": 110,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

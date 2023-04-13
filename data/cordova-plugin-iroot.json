@@ -10,24 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/WuglyakBolgoink/cordova-plugin-iroot.git",
-  "author": "Elderov Ali <info@cyberkatze.de> (https://www.cyberkatze.de)",
-  "published": "2022-06-14T00:24:12.948Z",
-  "versions": [
-    "0.3.0",
-    "0.3.3",
-    "0.4.0",
-    "0.5.0",
-    "0.6.0",
-    "0.6.1",
-    "0.7.0",
-    "0.8.0",
-    "0.8.1",
-    "2.0.1",
-    "2.0.2",
-    "2.1.0",
-    "3.0.0",
-    "3.1.0"
-  ],
+  "author": {
+    "name": "Elderov Ali",
+    "email": "info@cyberkatze.de",
+    "url": "https://www.cyberkatze.de"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -53,8 +40,13 @@
   "description": "Jailbreak/Root Detection Plugin for Apache Cordova",
   "bugs": "https://github.com/WuglyakBolgoink/cordova-plugin-iroot/issues",
   "quality": 202,
-  "downloads": 18027,
+  "downloads": 17782,
   "stars": 30,
   "image": "https://avatars.githubusercontent.com/u/2271337?v=4",
-  "updated": "2023-03-18T04:15:51Z"
+  "updated": "2023-03-18T04:15:51Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

@@ -9,12 +9,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "jeffdnpm",
-  "published": "2022-04-27T17:39:49.636Z",
-  "versions": [
-    "1.0.0",
-    "1.0.31"
-  ],
+  "author": {
+    "name": "jeffdnpm"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -26,5 +23,5 @@
     "capacitor-android-3"
   ],
   "description": "Throwing screen",
-  "downloads": 286
+  "downloads": 167
 }

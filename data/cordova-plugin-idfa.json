@@ -8,16 +8,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-idfa.git",
-  "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
-  "published": "2022-09-07T14:48:42.907Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.1.0",
-    "1.2.0",
-    "2.0.0",
-    "2.1.0"
-  ],
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
   "keywords": [
     "cordova",
     "IFA",
@@ -41,5 +36,10 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 174,
   "updated": "2023-01-18T19:04:48Z",
-  "downloads": 11220
+  "downloads": 10632,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

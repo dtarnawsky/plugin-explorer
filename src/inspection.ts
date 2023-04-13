@@ -4,6 +4,7 @@ export interface Inspection {
     name: string,
     author: string,
     published: string, // Date Time published to npm
+    license: string, // eg MIT
     version: string,
     versions: string[],
     keywords: string[],

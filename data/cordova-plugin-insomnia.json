@@ -10,14 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git",
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-14T00:21:52.869Z",
-  "versions": [
-    "4.0.1",
-    "4.1.0",
-    "4.2.0",
-    "4.3.0"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -36,5 +33,13 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 484,
   "updated": "2023-01-25T11:04:05Z",
-  "downloads": 42505
+  "downloads": 37988,
+  "platforms": [
+    "ios",
+    "wp8",
+    "windows",
+    "android",
+    "firefoxos"
+  ],
+  "fork": false
 }

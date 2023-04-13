@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/clemdesign/cordova-plugin-ios-disable-bounce.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-04-27T17:29:12.263Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -32,5 +30,9 @@
   "image": "https://avatars.githubusercontent.com/u/29148935?v=4",
   "quality": 114,
   "updated": "2022-10-26T12:00:33Z",
-  "downloads": 1026
+  "downloads": 1012,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

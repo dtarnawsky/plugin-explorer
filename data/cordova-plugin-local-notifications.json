@@ -4,10 +4,6 @@
   "success": [],
   "repo": "https://github.com/Salesfloor/cordova-plugin-local-notifications.git",
   "author": "",
-  "published": "2022-06-14T00:27:39.649Z",
-  "versions": [
-    "1.0.0"
-  ],
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-4",
@@ -24,6 +20,7 @@
   "image": "https://avatars.githubusercontent.com/u/8698317?v=4",
   "quality": 4,
   "updated": "2018-04-20T03:07:32Z",
-  "downloads": 161,
-  "keywords": []
+  "downloads": 143,
+  "keywords": [],
+  "fork": true
 }

@@ -8,14 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/disono/cordova-plugin-libVLC.git",
-  "author": "Archie Disono",
-  "published": "2022-04-27T17:31:39.812Z",
-  "versions": [
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4"
-  ],
+  "author": {
+    "name": "Archie Disono"
+  },
   "keywords": [
     "cordova",
     "phonegap",
@@ -37,5 +32,9 @@
   "image": "https://avatars.githubusercontent.com/u/12042217?v=4",
   "quality": 127,
   "updated": "2020-10-14T04:54:00Z",
-  "downloads": 13
+  "downloads": 11,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

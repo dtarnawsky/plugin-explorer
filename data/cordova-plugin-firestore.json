@@ -7,29 +7,11 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/ReallySmallSoftware/cordova-plugin-firestore.git",
-  "author": "Richard Windley <richard.windley@gmail.com> (http://www.reallysmall.co.uk)",
-  "published": "2022-06-14T00:13:34.236Z",
-  "versions": [
-    "1.0.0",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.0.10",
-    "1.1.0",
-    "1.2.0",
-    "1.3.0",
-    "1.3.2",
-    "2.0.0",
-    "3.0.0",
-    "4.0.0",
-    "4.1.0",
-    "4.1.1"
-  ],
+  "author": {
+    "name": "Richard Windley",
+    "email": "richard.windley@gmail.com",
+    "url": "http://www.reallysmall.co.uk"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -49,5 +31,11 @@
   "image": "https://avatars.githubusercontent.com/u/4267359?v=4",
   "quality": 163,
   "updated": "2020-09-04T10:13:05Z",
-  "downloads": 49
+  "downloads": 51,
+  "platforms": [
+    "android",
+    "ios",
+    "browser"
+  ],
+  "fork": false
 }

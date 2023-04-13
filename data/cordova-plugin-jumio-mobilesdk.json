@@ -10,18 +10,6 @@
   ],
   "repo": "https://github.com/npm/deprecate-holder.git",
   "author": "",
-  "published": "2022-06-14T00:25:14.615Z",
-  "versions": [
-    "1.1.0",
-    "1.2.0",
-    "1.3.0",
-    "1.4.1",
-    "1.5.0",
-    "1.6.0",
-    "1.6.1",
-    "2.5.0",
-    "3.0.0"
-  ],
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
@@ -36,5 +24,6 @@
   "keywords": [
     "registry"
   ],
-  "updated": "2023-03-08T16:28:37Z"
+  "updated": "2023-03-08T16:28:37Z",
+  "fork": false
 }

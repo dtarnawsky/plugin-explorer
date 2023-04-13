@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/pinchnzoom/cordova-plugin-ios-microphone-permissions.git",
-  "author": "pinchnzoom",
-  "published": "2022-06-14T00:23:00.815Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "pinchnzoom"
+  },
   "keywords": [
     "cordova",
     "ios",
@@ -35,5 +33,9 @@
   "image": "https://avatars.githubusercontent.com/u/24420518?v=4",
   "quality": 105,
   "updated": "2019-02-01T18:28:09Z",
-  "downloads": 55
+  "downloads": 55,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

@@ -10,12 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/maklesoft/cordova-plugin-migrate-localstorage.git",
-  "author": "Martin Kleinschrodt <martin@maklesoft.com>",
-  "published": "2022-04-27T17:34:41.523Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Martin Kleinschrodt",
+    "email": "martin@maklesoft.com"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova",
@@ -34,5 +32,9 @@
   "image": "https://avatars.githubusercontent.com/u/1270940?v=4",
   "quality": 208,
   "updated": "2020-12-24T14:20:17Z",
-  "downloads": 381
+  "downloads": 362,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

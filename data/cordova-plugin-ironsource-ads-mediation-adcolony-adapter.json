@@ -2,12 +2,9 @@
   "name": "cordova-plugin-ironsource-ads-mediation-adcolony-adapter",
   "version": "0.1.0",
   "success": [],
-  "repo": "https://github.com/Dexus/cordova-plugin-ironsource-ads-mediation-adcolony-adapter.git",
-  "author": "Josef Fröhle",
-  "published": "2022-04-27T17:29:51.917Z",
-  "versions": [
-    "0.1.0"
-  ],
+  "author": {
+    "name": "Josef Fröhle"
+  },
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",

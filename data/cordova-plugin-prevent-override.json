@@ -11,12 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-prevent-override.git#main",
-  "author": "Moodle Pty Ltd",
-  "published": "2022-09-05T10:34:28.952Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Moodle Pty Ltd"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -31,5 +28,8 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 101,
   "updated": "2021-07-28T11:11:42Z",
-  "downloads": 1848
+  "downloads": 1665,
+  "platforms": [
+    "android"
+  ]
 }

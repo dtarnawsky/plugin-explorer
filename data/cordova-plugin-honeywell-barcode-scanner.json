@@ -8,13 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/PalotaCompany/cordova-plugin-honeywell-barcode-scanner.git",
-  "author": "Kholofelo Moyaba",
-  "published": "2022-04-27T17:26:30.511Z",
-  "versions": [
-    "0.0.1",
-    "0.0.11",
-    "0.0.12"
-  ],
+  "author": {
+    "name": "Kholofelo Moyaba"
+  },
   "keywords": [
     "cordova",
     "honeywell",
@@ -36,5 +32,6 @@
   "image": "https://avatars.githubusercontent.com/u/41310044?v=4",
   "quality": 112,
   "updated": "2022-07-23T17:18:15Z",
-  "downloads": 41
+  "downloads": 36,
+  "fork": false
 }

@@ -10,15 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/cranberrygame/cordova-plugin-powermanagement.git",
-  "author": "cranberrygame",
-  "published": "2022-06-14T00:40:27.501Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.5"
-  ],
+  "author": {
+    "name": "cranberrygame"
+  },
   "keywords": [
     "cordova",
     "power management",
@@ -36,5 +30,10 @@
   "image": "https://avatars.githubusercontent.com/u/8146515?v=4",
   "quality": 118,
   "updated": "2018-12-04T20:23:28Z",
-  "downloads": 678
+  "downloads": 475,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

@@ -10,17 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/leecrossley/cordova-plugin-pedometer.git",
-  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
-  "published": "2022-06-14T00:38:32.451Z",
-  "versions": [
-    "0.2.0",
-    "0.2.1",
-    "0.3.1",
-    "0.3.2",
-    "0.3.3",
-    "0.4.0",
-    "0.4.1"
-  ],
+  "author": {
+    "name": "Lee Crossley",
+    "email": "leee@hotmail.co.uk",
+    "url": "http://ilee.co.uk/"
+  },
   "keywords": [
     "cordova",
     "core motion",
@@ -42,5 +36,10 @@
   "image": "https://avatars.githubusercontent.com/u/807783?v=4",
   "quality": 213,
   "updated": "2022-12-25T02:14:15Z",
-  "downloads": 449
+  "downloads": 469,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

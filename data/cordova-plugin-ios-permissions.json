@@ -9,11 +9,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "qin_hc",
-  "published": "2022-04-27T17:29:29.788Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "qin_hc"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios"
@@ -23,5 +21,8 @@
     "capacitor-android-3"
   ],
   "description": "",
-  "downloads": 92
+  "downloads": 84,
+  "platforms": [
+    "ios"
+  ]
 }

@@ -10,14 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Santino-Wu/cordova-plugin-imagedownloader.git",
-  "author": "Santino-Wu",
-  "published": "2022-06-14T00:20:27.835Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Santino-Wu"
+  },
   "keywords": [
     "Cordova",
     "Image",
@@ -34,5 +29,6 @@
   "image": "https://avatars.githubusercontent.com/u/5975413?v=4",
   "quality": 107,
   "updated": "2022-04-12T02:10:57Z",
-  "downloads": 508
+  "downloads": 323,
+  "fork": false
 }

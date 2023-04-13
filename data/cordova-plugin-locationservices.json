@@ -11,19 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/louisbl/cordova-plugin-locationservices.git",
-  "author": "louisbl",
-  "published": "2022-06-14T00:28:04.685Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0",
-    "1.2.0",
-    "1.3.0",
-    "2.0.0",
-    "2.0.1",
-    "2.1.0"
-  ],
+  "author": {
+    "name": "louisbl"
+  },
   "keywords": [
     "cordova",
     "google-play-services",
@@ -37,8 +27,12 @@
   "description": "Android geolocation plugin using Google Play Services Location API.",
   "bugs": "https://github.com/louisbl/cordova-plugin-locationservices/issues",
   "quality": 202,
-  "downloads": 587,
+  "downloads": 568,
   "stars": 39,
   "image": "https://avatars.githubusercontent.com/u/274775?v=4",
-  "updated": "2022-11-30T14:11:53Z"
+  "updated": "2022-11-30T14:11:53Z",
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

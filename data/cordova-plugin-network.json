@@ -8,12 +8,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "fytoro",
-  "published": "2022-04-27T17:36:54.857Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "fytoro"
+  },
   "keywords": [
     "cordova",
     "android",
@@ -28,5 +25,9 @@
     "cordova-android-11"
   ],
   "description": "Cordova network plugin for Android and iOS",
-  "downloads": 36
+  "downloads": 29,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

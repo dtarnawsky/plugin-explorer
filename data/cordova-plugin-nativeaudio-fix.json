@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/floatinghotpot/cordova-plugin-nativeaudio.git",
-  "author": "Andrew Trice",
-  "published": "2022-04-27T17:36:30.814Z",
-  "versions": [
-    "3.0.9"
-  ],
+  "author": {
+    "name": "Andrew Trice"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -36,5 +34,10 @@
   "image": "https://avatars.githubusercontent.com/u/2339512?v=4",
   "quality": 725,
   "updated": "2022-12-30T15:09:36Z",
-  "downloads": 6
+  "downloads": 5,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

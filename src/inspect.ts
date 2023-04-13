@@ -60,6 +60,7 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
         result.description = v.description;
         result.bugs = v.bugs?.url;
         result.published = v.time?.modified;
+        result.license = v.license;
         result.repo = cleanUrl(v.repository?.url);
         result.keywords = v.keywords;
         if (v.cordova) {

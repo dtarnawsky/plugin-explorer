@@ -101,6 +101,7 @@ export function readPlugin(plugin: string): Inspection {
             keywords: [],
             platforms: [],
             fork: false,
+            license: '',
             fails: []
         }
     }

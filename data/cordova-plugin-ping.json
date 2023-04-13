@@ -10,16 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/t1st3/cordova-plugin-ping.git",
-  "author": "t1st3",
-  "published": "2022-06-14T00:39:42.475Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.3.0",
-    "0.3.1",
-    "0.4.0",
-    "0.5.0"
-  ],
+  "author": {
+    "name": "t1st3"
+  },
   "keywords": [
     "cordova",
     "ping",
@@ -39,5 +32,9 @@
   "image": "https://avatars.githubusercontent.com/u/1469638?v=4",
   "quality": 136,
   "updated": "2023-03-04T06:26:26Z",
-  "downloads": 253
+  "downloads": 222,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

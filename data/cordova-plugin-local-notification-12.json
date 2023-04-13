@@ -8,16 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/bhandaribhumin/cordova-plugin-local-notification-12.git",
-  "author": "Sebastián bhandaribhumin",
-  "published": "2022-11-02T17:51:51.812Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4",
-    "0.9.0-beta.5"
-  ],
+  "author": {
+    "name": "Sebastián bhandaribhumin"
+  },
   "keywords": [
     "appplant",
     "notification",
@@ -40,5 +33,11 @@
   "image": "https://avatars.githubusercontent.com/u/3336047?v=4",
   "quality": 132,
   "updated": "2023-03-07T19:33:28Z",
-  "downloads": 1692
+  "downloads": 1519,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "fork": false
 }

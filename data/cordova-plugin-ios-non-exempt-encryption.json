@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/pbakondy/cordova-plugin-ios-non-exempt-encryption.git",
-  "author": "Peter Bakondy",
-  "published": "2022-06-14T00:23:05.385Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Peter Bakondy"
+  },
   "keywords": [
     "cordova",
     "ios",
@@ -33,5 +31,9 @@
   "image": "https://avatars.githubusercontent.com/u/500697?v=4",
   "quality": 111,
   "updated": "2020-02-12T04:59:51Z",
-  "downloads": 806
+  "downloads": 681,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

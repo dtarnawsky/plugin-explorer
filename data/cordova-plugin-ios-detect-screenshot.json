@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/rossmartin/cordova-plugin-ios-detect-screenshot.git",
-  "author": "Ross Martin",
-  "published": "2022-04-27T17:29:11.263Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Ross Martin"
+  },
   "keywords": [
     "cordova",
     "privacy",
@@ -34,5 +32,9 @@
   "image": "https://avatars.githubusercontent.com/u/2498502?v=4",
   "quality": 104,
   "updated": "2020-11-13T12:03:01Z",
-  "downloads": 66
+  "downloads": 53,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }
