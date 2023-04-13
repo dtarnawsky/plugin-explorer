@@ -10,15 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-taptic-engine.git",
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-14T00:53:16.246Z",
-  "versions": [
-    "1.0.0",
-    "2.0.0",
-    "2.0.1",
-    "2.1.0",
-    "2.2.0"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "Taptic Engine",
     "Haptic",
@@ -40,5 +36,9 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 173,
   "updated": "2023-04-02T20:11:16Z",
-  "downloads": 4756
+  "downloads": 4545,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

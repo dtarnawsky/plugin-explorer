@@ -10,21 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/mircoc/cordova-plugin-settings-hook.git",
-  "author": "Mirco Cipriani",
-  "published": "2022-06-14T00:47:16.118Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.2.0",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.3.0",
-    "0.3.1"
-  ],
+  "author": {
+    "name": "Mirco Cipriani"
+  },
   "keywords": [
     "cordova",
     "configuration",
@@ -40,5 +28,10 @@
   "image": "https://avatars.githubusercontent.com/u/3178388?v=4",
   "quality": 157,
   "updated": "2023-03-04T05:40:09Z",
-  "downloads": 410
+  "downloads": 372,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

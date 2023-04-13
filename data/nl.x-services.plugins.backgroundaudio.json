@@ -9,15 +9,15 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-21T10:37:09.313Z",
-  "versions": [
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
   "description": "Allows your app to keep on playing audio when it's in the background.",
-  "downloads": 136
+  "downloads": 101
 }

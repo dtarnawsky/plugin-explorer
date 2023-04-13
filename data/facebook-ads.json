@@ -4,14 +4,9 @@
   "success": [
     "capacitor-ios-3"
   ],
-  "repo": "https://github.com/Yagnik031/Facebook-ads.git.git",
-  "author": "yagnik-satani",
-  "published": "2022-04-08T08:07:56.476Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.1.0"
-  ],
+  "author": {
+    "name": "yagnik-satani"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -29,5 +24,9 @@
   "description": "to create facebook ads this plugin will help...",
   "bugs": "https://github.com/Yagnik031/Facebook-ads.git/issues",
   "quality": null,
-  "downloads": 11
+  "downloads": 9,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

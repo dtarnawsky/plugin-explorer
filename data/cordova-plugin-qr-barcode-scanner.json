@@ -7,12 +7,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/AndreiTelteu/cordova-plugin-qr-barcode-scanner.git",
-  "author": "Adobe PhoneGap Team",
-  "published": "2022-04-27T17:40:56.806Z",
-  "versions": [
-    "8.0.2",
-    "8.0.3"
-  ],
+  "author": {
+    "name": "Adobe PhoneGap Team"
+  },
   "keywords": [
     "ecosystem:cordova",
     "ecosystem:phonegap",
@@ -35,5 +32,12 @@
   "image": "https://avatars.githubusercontent.com/u/5564199?v=4",
   "quality": 30,
   "updated": "2022-09-27T03:34:43Z",
-  "downloads": 852
+  "downloads": 809,
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "browser"
+  ],
+  "fork": true
 }

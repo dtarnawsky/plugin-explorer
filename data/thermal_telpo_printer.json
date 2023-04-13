@@ -9,13 +9,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "Apache Cordova Team",
-  "published": "2022-12-30T13:41:25.754Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Apache Cordova Team"
+  },
   "keywords": [
     "ecosystem:cordova"
   ],
@@ -23,5 +19,5 @@
     "capacitor-android-3",
     "cordova-android-11"
   ],
-  "downloads": 12
+  "downloads": 15
 }

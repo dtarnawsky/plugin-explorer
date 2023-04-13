@@ -10,12 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/vilic/cordova-plugin-tts.git",
-  "author": "VILIC VANE",
-  "published": "2022-06-14T00:55:31.293Z",
-  "versions": [
-    "0.2.2",
-    "0.2.3"
-  ],
+  "author": {
+    "name": "VILIC VANE"
+  },
   "keywords": [
     "cordova",
     "tts",
@@ -35,5 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/970430?v=4",
   "quality": 499,
   "updated": "2023-04-05T16:14:05Z",
-  "downloads": 3162
+  "downloads": 2927,
+  "platforms": [
+    "ios",
+    "wp8",
+    "android"
+  ],
+  "fork": false
 }

@@ -10,38 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/litehelpers/cordova-sqlite-ext.git",
-  "author": "various",
-  "published": "2022-06-14T01:05:06.518Z",
-  "versions": [
-    "0.8.0",
-    "0.8.1",
-    "0.8.3",
-    "0.8.4",
-    "0.8.6",
-    "0.9.0-prep",
-    "0.9.1",
-    "0.10.0",
-    "0.10.1",
-    "0.10.2",
-    "0.10.3",
-    "0.10.4",
-    "0.10.5",
-    "0.10.6",
-    "0.10.7",
-    "2.0.0",
-    "2.1.0",
-    "2.1.1",
-    "2.2.0",
-    "2.3.0",
-    "2.3.1",
-    "3.0.0",
-    "3.0.1",
-    "3.1.0",
-    "4.0.0",
-    "5.0.0",
-    "5.0.1",
-    "6.0.0"
-  ],
+  "author": {
+    "name": "various"
+  },
   "keywords": [
     "sqlite",
     "ecosystem:cordova",
@@ -60,5 +31,12 @@
   "image": "https://avatars.githubusercontent.com/u/1559888?v=4",
   "quality": 271,
   "updated": "2022-11-14T07:21:35Z",
-  "downloads": 2641
+  "downloads": 2651,
+  "platforms": [
+    "android",
+    "ios",
+    "osx",
+    "windows"
+  ],
+  "fork": false
 }

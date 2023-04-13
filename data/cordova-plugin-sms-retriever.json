@@ -10,24 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/andreszs/cordova-plugin-sms-retriever.git",
-  "author": "Andres Zsogon <andreszs@users.noreply.github.com>",
-  "published": "2022-05-14T15:13:06.457Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.1.0",
-    "1.1.1",
-    "2.0.0",
-    "2.0.1"
-  ],
+  "author": {
+    "name": "Andres Zsogon",
+    "email": "andreszs@users.noreply.github.com"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -42,7 +28,11 @@
   "bugs": "https://github.com/andreszs/cordova-plugin-sms-retriever/issues",
   "stars": 10,
   "image": "https://avatars.githubusercontent.com/u/10298071?v=4",
-  "quality": 124,
+  "quality": 125,
   "updated": "2022-06-22T15:14:51Z",
-  "downloads": 738
+  "downloads": 700,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

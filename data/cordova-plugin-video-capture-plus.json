@@ -7,11 +7,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/danielsogl/cordova-plugin-video-capture-plus.git",
-  "author": "Daniel Sogl",
-  "published": "2022-04-27T17:50:09.540Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Daniel Sogl"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -30,5 +28,10 @@
   "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
   "quality": 46,
   "updated": "2023-03-29T17:51:44Z",
-  "downloads": 367
+  "downloads": 377,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true
 }

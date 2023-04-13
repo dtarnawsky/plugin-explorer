@@ -11,16 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Luka313/integrator-cordova-plugin-downloader.git",
-  "author": "Integrator Dubrovnik",
-  "published": "2022-05-06T00:35:51.655Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0"
-  ],
+  "author": {
+    "name": "Integrator Dubrovnik"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
@@ -31,8 +24,12 @@
   "description": "Downloader",
   "bugs": "https://github.com/Luka313/integrator-cordova-plugin-downloader/issues",
   "quality": 136,
-  "downloads": 3216,
+  "downloads": 3055,
   "stars": 13,
   "image": "https://avatars.githubusercontent.com/u/13516978?v=4",
-  "updated": "2022-04-30T23:21:06Z"
+  "updated": "2022-04-30T23:21:06Z",
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

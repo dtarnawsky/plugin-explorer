@@ -10,14 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/mibrito707/cordova-plugin-secure-storage-echo.git",
-  "author": "Yiorgis Gozadinos <ggozad@crypho.com>",
-  "published": "2022-04-27T17:44:22.487Z",
-  "versions": [
-    "5.0.0",
-    "5.0.1",
-    "5.1.0",
-    "5.1.1"
-  ],
+  "author": {
+    "name": "Yiorgis Gozadinos",
+    "email": "ggozad@crypho.com"
+  },
   "keywords": [
     "cordova",
     "security",
@@ -41,5 +37,12 @@
   "image": "https://avatars.githubusercontent.com/u/8345511?v=4",
   "quality": 165,
   "updated": "2023-02-17T08:05:10Z",
-  "downloads": 17533
+  "downloads": 16530,
+  "platforms": [
+    "android",
+    "ios",
+    "wp8",
+    "windows"
+  ],
+  "fork": true
 }

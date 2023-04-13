@@ -7,15 +7,9 @@
     "cordova-ios-6",
     "capacitor-ios-5"
   ],
-  "author": "pushpole.co",
-  "published": "2022-05-13T17:29:48.602Z",
-  "versions": [
-    "1.0.20",
-    "1.0.21",
-    "1.7.0",
-    "1.7.1",
-    "1.7.2"
-  ],
+  "author": {
+    "name": "pushpole.co"
+  },
   "keywords": [
     "pushpole",
     "cordova",
@@ -29,5 +23,8 @@
     "capacitor-android-5"
   ],
   "description": "PushPole plugin for Cordova",
-  "downloads": 11
+  "downloads": 10,
+  "platforms": [
+    "android"
+  ]
 }

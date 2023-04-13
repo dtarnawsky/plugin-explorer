@@ -5,16 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/moots-technology/capacitor-dark-mode.git",
-  "author": "moots-technology",
-  "published": "2022-11-07T09:13:07.590Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5"
-  ],
+  "author": {
+    "name": "moots-technology"
+  },
   "keywords": [
     "capacitor",
     "darkmode",
@@ -42,8 +35,13 @@
   "description": "Capacitor 3 plugin for automatic dark mode detection on native platforms such as Android and iOS",
   "bugs": "https://github.com/moots-technology/capacitor-dark-mode/issues",
   "quality": 103,
-  "downloads": 38,
+  "downloads": 36,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/59731070?v=4",
-  "updated": "2022-02-21T22:42:51Z"
+  "updated": "2022-02-21T22:42:51Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

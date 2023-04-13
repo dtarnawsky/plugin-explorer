@@ -9,21 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-whitelist.git",
-  "author": "Apache Software Foundation",
-  "published": "2023-01-06T16:08:18.174Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.3.0",
-    "1.3.1",
-    "1.3.2",
-    "1.3.3",
-    "1.3.4",
-    "1.3.5"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "whitelist",
@@ -49,5 +37,9 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 755,
   "updated": "2023-03-25T16:32:33Z",
-  "downloads": 142994
+  "downloads": 137028,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

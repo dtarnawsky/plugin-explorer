@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/stvngrsh/cordova-plugin-watch-connectivity.git",
-  "author": "Steven Gresh",
-  "published": "2022-04-27T17:50:45.196Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Steven Gresh"
+  },
   "keywords": [
     "watch",
     "apple",
@@ -35,5 +33,9 @@
   "downloads": 7,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/11162953?v=4",
-  "updated": "2020-07-06T02:26:41Z"
+  "updated": "2020-07-06T02:26:41Z",
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

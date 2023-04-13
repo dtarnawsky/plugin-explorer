@@ -7,20 +7,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/imgly/vesdk-cordova.git",
-  "author": "img.ly GmbH <contact@img.ly>",
-  "published": "2022-11-08T10:02:48.974Z",
-  "versions": [
-    "1.0.0",
-    "1.0.2",
-    "1.1.0",
-    "2.0.0",
-    "2.1.0",
-    "2.2.0",
-    "3.0.0",
-    "3.1.0",
-    "3.2.0",
-    "3.3.0"
-  ],
+  "author": {
+    "name": "img.ly GmbH",
+    "email": "contact@img.ly"
+  },
   "keywords": [
     "cordova",
     "videoeditorsdk",
@@ -63,5 +53,10 @@
   "image": "https://avatars.githubusercontent.com/u/6421070?v=4",
   "quality": 104,
   "updated": "2021-12-14T15:18:12Z",
-  "downloads": 65
+  "downloads": 63,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

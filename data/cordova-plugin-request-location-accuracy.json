@@ -9,22 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/dpa99c/cordova-plugin-request-location-accuracy.git",
-  "author": "Dave Alden",
-  "published": "2022-06-14T00:44:05.149Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "2.0.0",
-    "2.1.0",
-    "2.1.1",
-    "2.2.0",
-    "2.2.1",
-    "2.2.2",
-    "2.2.3",
-    "2.3.0"
-  ],
+  "author": {
+    "name": "Dave Alden"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova",
@@ -50,5 +37,10 @@
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 262,
   "updated": "2022-11-14T11:24:06Z",
-  "downloads": 14525
+  "downloads": 13989,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

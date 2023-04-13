@@ -6,12 +6,9 @@
     "cordova-ios-6",
     "capacitor-ios-5"
   ],
-  "repo": "https://RTeran@github.com/RTeran/cordova-plugin-image-resizer.git",
-  "author": "RTeran",
-  "published": "2022-06-19T01:12:41.798Z",
-  "versions": [
-    "0.1.1"
-  ],
+  "author": {
+    "name": "RTeran"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -32,5 +29,10 @@
   "description": "Plugin for resizing images only with the uri of the image.",
   "bugs": "https://github.com/RTeran/cordova-plugin-image-resizer/issues",
   "quality": null,
-  "downloads": 1417
+  "downloads": 1499,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ]
 }

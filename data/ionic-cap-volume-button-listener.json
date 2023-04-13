@@ -3,16 +3,9 @@
   "version": "3.0.0",
   "success": [],
   "repo": "https://github.com/ziaurrehmanjutt/ionic-android-volum-button-listner.git",
-  "author": "Zia Ur Rehman",
-  "published": "2023-01-18T11:44:23.791Z",
-  "versions": [
-    "0.0.3",
-    "0.0.4",
-    "1.0.0",
-    "2.0.0",
-    "2.0.1",
-    "3.0.0"
-  ],
+  "author": {
+    "name": "Zia Ur Rehman"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,5 +28,9 @@
   "description": "Listen for Volume Button pressed in IONIC Capacitor Project",
   "bugs": "https://github.com/ziaurrehmanjutt/ionic-android-volum-button-listner/issues",
   "quality": null,
-  "downloads": 32
+  "downloads": 33,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

@@ -8,14 +8,10 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "published": "2022-05-01T20:42:53.104Z",
-  "versions": [
-    "0.0.0"
-  ],
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
     "cordova-android-11"
   ],
-  "downloads": 4
+  "downloads": 5
 }

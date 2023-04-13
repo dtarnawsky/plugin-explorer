@@ -6,12 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/dragos-atanasoae/send-intent-listener.git",
-  "author": "Dragos Atanasoae",
-  "published": "2022-05-17T10:58:55.804Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Dragos Atanasoae"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,8 +25,12 @@
   "description": "This Capacitor plugin can be used in Ionic applications for receiving data from Intent.SEND_ACTION (works only for intent type \"text/plain\") ",
   "bugs": "https://github.com/dragos-atanasoae/send-intent-listener.git/issues",
   "quality": 100,
-  "downloads": 4,
+  "downloads": 6,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/59986432?v=4",
-  "updated": "2020-05-20T14:59:12Z"
+  "updated": "2020-05-20T14:59:12Z",
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

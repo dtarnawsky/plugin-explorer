@@ -10,12 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/dtrmangesh/plugin-disable-ios-bouncing.git",
-  "author": "Mangesh Datar",
-  "published": "2022-04-28T21:09:39.573Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Mangesh Datar"
+  },
   "keywords": [
     "cordova",
     "camera",
@@ -29,8 +26,12 @@
   "description": "Disable ios boucing",
   "bugs": "https://github.com/dtrmangesh/plugin-disable-ios-bouncing/issues",
   "quality": 111,
-  "downloads": 760,
+  "downloads": 727,
   "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/59204466?v=4",
-  "updated": "2021-05-14T06:27:37Z"
+  "updated": "2021-05-14T06:27:37Z",
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

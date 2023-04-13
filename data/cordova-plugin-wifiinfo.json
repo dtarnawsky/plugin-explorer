@@ -10,13 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/emcniece/cordova-plugin-wifiinfo.git",
-  "author": "Eric McNiece (https://github.com/emcniece)",
-  "published": "2022-06-14T00:59:28.879Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.1.0"
-  ],
+  "author": {
+    "name": "Eric McNiece",
+    "url": "https://github.com/emcniece"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -36,5 +33,6 @@
   "image": "https://avatars.githubusercontent.com/u/1182187?v=4",
   "quality": 121,
   "updated": "2022-03-26T19:25:14Z",
-  "downloads": 237
+  "downloads": 414,
+  "fork": false
 }

@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/MenelicSoftware/cordova-plugin-qrcodejs.git",
-  "author": "Menelic Limited",
-  "published": "2022-06-14T00:42:42.544Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Menelic Limited"
+  },
   "keywords": [
     "QRCodeJS",
     "plugin",
@@ -34,8 +32,9 @@
   "description": "Cordova plugin for generating QR code",
   "bugs": "https://github.com/MenelicSoftware/cordova-plugin-qrcodejs/issues",
   "quality": 112,
-  "downloads": 69,
+  "downloads": 71,
   "stars": 6,
   "image": "https://avatars.githubusercontent.com/u/24511811?v=4",
-  "updated": "2021-09-02T10:32:35Z"
+  "updated": "2021-09-02T10:32:35Z",
+  "fork": false
 }

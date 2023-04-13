@@ -5,11 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/josprimasihombing/webview-capacitor-plugin.git",
-  "author": "josprimasihombing",
-  "published": "2022-05-24T08:39:54.606Z",
-  "versions": [
-    "0.1.1"
-  ],
+  "author": {
+    "name": "josprimasihombing"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/57883217?v=4",
   "quality": 100,
   "updated": "2021-08-10T08:27:41Z",
-  "downloads": 12
+  "downloads": 14,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

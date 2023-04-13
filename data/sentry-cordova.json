@@ -4,43 +4,6 @@
   "success": [
     "capacitor-android-5"
   ],
-  "repo": "git://github.com/getsentry/sentry-cordova.git",
-  "published": "2023-03-08T13:32:32.633Z",
-  "versions": [
-    "0.6.0",
-    "0.7.0",
-    "0.8.2",
-    "0.8.3",
-    "0.8.4",
-    "0.8.5",
-    "0.9.0",
-    "0.9.1",
-    "0.10.0",
-    "0.10.1",
-    "0.10.2",
-    "0.11.0",
-    "0.12.0",
-    "0.12.1",
-    "0.12.2",
-    "0.12.3",
-    "0.13.0",
-    "0.13.1",
-    "0.14.0",
-    "0.15.0",
-    "0.16.0",
-    "0.16.1",
-    "0.16.2",
-    "0.17.0",
-    "1.0.0-rc.0",
-    "1.0.0-rc.1",
-    "1.0.0-rc.2",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.1.4"
-  ],
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -63,5 +26,9 @@
   "description": "Official Sentry SDK for Cordova",
   "bugs": "https://github.com/getsentry/sentry-cordova/issues",
   "quality": null,
-  "downloads": 16541
+  "downloads": 16583,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

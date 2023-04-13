@@ -11,12 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/AndreVarandas/cordova-plugin-wallpaper.git",
-  "author": "André Varandas - andre.m.varandas@gmail.com",
-  "published": "2022-04-27T17:52:07.881Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "André Varandas - andre.m.varandas@gmail.com"
+  },
   "keywords": [
     "cordova-android"
   ],
@@ -29,5 +26,9 @@
   "downloads": 6,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/11405075?v=4",
-  "updated": "2022-01-07T19:53:18Z"
+  "updated": "2022-01-07T19:53:18Z",
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

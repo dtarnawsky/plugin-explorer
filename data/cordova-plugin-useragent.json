@@ -10,16 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/danielsogl/cordova-plugin-useragent.git",
-  "author": "Daniel Sogl",
-  "published": "2022-04-27T17:49:47.554Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.6"
-  ],
+  "author": {
+    "name": "Daniel Sogl"
+  },
   "keywords": [
     "user",
     "agent",
@@ -39,5 +32,10 @@
   "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
   "quality": 24,
   "updated": "2022-08-02T12:37:19Z",
-  "downloads": 604
+  "downloads": 617,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true
 }

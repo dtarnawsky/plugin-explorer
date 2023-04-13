@@ -11,19 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/knowledgecode/WebSocket-for-Android.git",
-  "author": "KNOWLEDGECODE",
-  "published": "2022-06-14T00:58:31.383Z",
-  "versions": [
-    "0.9.0",
-    "0.9.1",
-    "0.9.2",
-    "0.10.0",
-    "0.11.0",
-    "0.11.1",
-    "0.12.0",
-    "0.12.1",
-    "0.12.2"
-  ],
+  "author": {
+    "name": "KNOWLEDGECODE"
+  },
   "keywords": [
     "cordova",
     "phonegap",
@@ -41,5 +31,9 @@
   "image": "https://avatars.githubusercontent.com/u/1496036?v=4",
   "quality": 296,
   "updated": "2022-12-04T00:13:59Z",
-  "downloads": 108
+  "downloads": 106,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

@@ -11,10 +11,6 @@
   ],
   "repo": "https://github.com/Rohfosho/CordovaCallNumberPlugin.git",
   "author": "",
-  "published": "2022-05-10T02:21:50.584Z",
-  "versions": [
-    "0.0.2"
-  ],
   "keywords": [
     "cordova",
     "call",
@@ -31,8 +27,13 @@
   "description": "Call Number from Cordova Application",
   "bugs": "https://github.com/Rohfosho/CordovaCallNumberPlugin/issues",
   "quality": 475,
-  "downloads": 10110,
+  "downloads": 9521,
   "stars": 186,
   "image": "https://avatars.githubusercontent.com/u/3130493?v=4",
-  "updated": "2023-02-13T19:20:23Z"
+  "updated": "2023-02-13T19:20:23Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

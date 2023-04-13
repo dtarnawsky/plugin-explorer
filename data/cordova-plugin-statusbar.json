@@ -11,32 +11,6 @@
     "capacitor-ios-5"
   ],
   "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:51:53.789Z",
-  "versions": [
-    "0.1.5",
-    "0.1.6",
-    "0.1.7",
-    "0.1.8",
-    "0.1.9",
-    "0.1.10",
-    "1.0.0",
-    "1.0.1",
-    "2.0.0",
-    "2.1.0",
-    "2.1.1",
-    "2.1.2",
-    "2.1.3",
-    "2.2.0",
-    "2.2.1",
-    "2.2.2",
-    "2.2.3",
-    "2.3.0",
-    "2.4.0",
-    "2.4.1",
-    "2.4.2",
-    "2.4.3",
-    "3.0.0"
-  ],
   "keywords": [
     "cordova",
     "statusbar",
@@ -49,5 +23,10 @@
     "capacitor-android-3"
   ],
   "description": "Cordova StatusBar Plugin",
-  "downloads": 184062
+  "downloads": 175487,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ]
 }

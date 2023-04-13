@@ -10,11 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/agomezmoron/cordova-save-image-gallery.git",
-  "author": "Alejandro Gomez <agommor@gmail.com> (http://github.com/agomezmoron)",
-  "published": "2022-04-27T17:43:23.437Z",
-  "versions": [
-    "0.0.26"
-  ],
+  "author": {
+    "name": "Alejandro Gomez",
+    "email": "agommor@gmail.com",
+    "url": "http://github.com/agomezmoron"
+  },
   "keywords": [
     "image",
     "base64",
@@ -38,5 +38,11 @@
   "image": "https://avatars.githubusercontent.com/u/4848998?v=4",
   "quality": 64,
   "updated": "2022-08-24T10:20:20Z",
-  "downloads": 131
+  "downloads": 110,
+  "platforms": [
+    "ios",
+    "android",
+    "wp8"
+  ],
+  "fork": true
 }

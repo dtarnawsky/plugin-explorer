@@ -8,11 +8,6 @@
   ],
   "repo": "https://github.com/JoschkaSchulz/cordova-plugin-image-resizer.git",
   "author": "",
-  "published": "2022-06-14T00:48:11.129Z",
-  "versions": [
-    "0.1.0",
-    "0.2.0"
-  ],
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -27,9 +22,14 @@
   ],
   "description": "Plugin for resizing images only with the uri of the image.",
   "bugs": "https://github.com/JoschkaSchulz/cordova-plugin-image-resizer/issues",
-  "stars": 69,
+  "stars": 70,
   "image": "https://avatars.githubusercontent.com/u/1632093?v=4",
-  "quality": 299,
-  "updated": "2022-11-03T20:14:55Z",
-  "downloads": 110
+  "quality": 300,
+  "updated": "2023-04-09T20:15:04Z",
+  "downloads": 102,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

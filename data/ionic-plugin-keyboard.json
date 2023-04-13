@@ -9,22 +9,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/driftyco/ionic-plugin-keyboard.git",
-  "author": "Ionic",
-  "published": "2023-03-20T14:02:02.311Z",
-  "versions": [
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "2.0.0",
-    "2.0.1",
-    "2.1.0",
-    "2.2.0",
-    "2.2.1"
-  ],
+  "author": {
+    "name": "Ionic"
+  },
   "keywords": [
     "ionic",
     "cordova",
@@ -46,5 +33,12 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 1157,
   "updated": "2023-01-28T20:54:26Z",
-  "downloads": 18064
+  "downloads": 17992,
+  "platforms": [
+    "android",
+    "ios",
+    "blackberry10",
+    "wp8",
+    "windows"
+  ]
 }

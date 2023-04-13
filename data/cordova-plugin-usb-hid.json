@@ -11,14 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/tijmenvangulik/cordova-usb-hid.git",
-  "author": "Tijmen van Gulik",
-  "published": "2022-04-27T17:49:43.549Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Tijmen van Gulik"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -37,5 +32,9 @@
   "image": "https://avatars.githubusercontent.com/u/2781110?v=4",
   "quality": 110,
   "updated": "2021-12-18T16:09:52Z",
-  "downloads": 10
+  "downloads": 9,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

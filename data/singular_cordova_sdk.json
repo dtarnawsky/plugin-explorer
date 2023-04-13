@@ -6,19 +6,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/singular-labs/Singular-Cordova-SDK.git",
-  "author": "Singular Labs",
-  "published": "2023-04-03T13:21:09.868Z",
-  "versions": [
-    "1.0.0-beta.2",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7"
-  ],
+  "author": {
+    "name": "Singular Labs"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -35,8 +25,12 @@
   "description": "Singular Cordova SDK",
   "bugs": "https://github.com/singular-labs/Singular-Cordova-SDK/issues",
   "quality": 100,
-  "downloads": 184,
+  "downloads": 160,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/7960038?v=4",
-  "updated": "2022-09-04T11:01:30Z"
+  "updated": "2022-09-04T11:01:30Z",
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

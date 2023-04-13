@@ -1,0 +1,22 @@
+✖ Building xArchive - failed!
+[error] Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace App.xcworkspace -scheme App -destination generic/platform=iOS -archivePath App.xcarchive archive
+        
+        User defaults from command line:
+        IDEArchivePathOverride = /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/ios/App/App.xcarchive
+        IDEPackageSupportUseBuiltinSCM = YES
+        
+        Prepare packages
+        
+        Computing target dependency graph and provisioning inputs
+        
+        Create build description
+        Build description signature: 02a9af7a430dc58aeeadedc6a912f76d
+        Build description path: /Users/damiantarnawsky/Library/Developer/Xcode/DerivedData/App-burzknfazcowpdezxitwuujckorp/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/XCBuildData/02a9af7a430dc58aeeadedc6a912f76d-desc.xcbuild
+        
+        note: Building targets in dependency order
+        /Users/damiantarnawsky/Code/plugin-explorer/apps/capacitor-5/ios/App/App.xcodeproj: error: No profiles for 'plugin.test.capacitor.5' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'plugin.test.capacitor.5'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild. (in target 'App' from project 'App')
+        warning: Run script build phase '[CP] Embed Pods Frameworks' will be run during every build because it does not specify any outputs. To address this warning, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'App' from project 'App')
+        ** ARCHIVE FAILED **
+        
+        

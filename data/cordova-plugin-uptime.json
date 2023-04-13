@@ -10,21 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/s1lviu/cordova-plugin-uptime.git",
-  "author": "Silviu Stroe",
-  "published": "2022-04-27T17:49:39.060Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.1.0",
-    "0.1.1"
-  ],
+  "author": {
+    "name": "Silviu Stroe"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -60,5 +48,10 @@
   "image": "https://avatars.githubusercontent.com/u/9863576?v=4",
   "quality": 102,
   "updated": "2021-03-27T17:09:04Z",
-  "downloads": 272
+  "downloads": 252,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

@@ -11,11 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/hsccorp/cordova-wifiinfo-plugin",
-  "author": "HSC",
-  "published": "2022-06-14T01:08:01.544Z",
-  "versions": [
-    "0.1.0"
-  ],
+  "author": {
+    "name": "HSC"
+  },
   "keywords": [
     "cordova",
     "wifiinfo",
@@ -32,5 +30,9 @@
   "image": "https://avatars.githubusercontent.com/u/16256664?v=4",
   "quality": 109,
   "updated": "2022-10-27T18:31:38Z",
-  "downloads": 21
+  "downloads": 27,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

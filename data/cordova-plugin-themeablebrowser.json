@@ -3,21 +3,9 @@
   "version": "0.2.18",
   "success": [],
   "repo": "https://github.com/initialxy/cordova-plugin-themeablebrowser.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:54:13.796Z",
-  "versions": [
-    "0.2.8",
-    "0.2.9",
-    "0.2.10",
-    "0.2.11",
-    "0.2.12",
-    "0.2.13",
-    "0.2.14",
-    "0.2.15",
-    "0.2.16",
-    "0.2.17",
-    "0.2.18"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "in",
@@ -44,5 +32,17 @@
   "image": "https://avatars.githubusercontent.com/u/1842864?v=4",
   "quality": 649,
   "updated": "2022-10-04T18:15:41Z",
-  "downloads": 245
+  "downloads": 248,
+  "platforms": [
+    "android",
+    "amazon-fireos",
+    "ubuntu",
+    "ios",
+    "wp7",
+    "wp8",
+    "windows8",
+    "windows",
+    "firefoxos"
+  ],
+  "fork": true
 }

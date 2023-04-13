@@ -8,17 +8,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/jamesyoon11/segment-cordova-plugin.git",
-  "author": "James Yoon",
-  "published": "2022-05-17T09:50:26.509Z",
-  "versions": [
-    "0.9.0",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.1.0"
-  ],
+  "author": {
+    "name": "James Yoon"
+  },
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
@@ -27,5 +19,9 @@
   "description": "Segment Cordova Plugin",
   "bugs": "https://github.com/jamesyoon11/segment-cordova-plugin/issues",
   "quality": null,
-  "downloads": 11
+  "downloads": 14,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

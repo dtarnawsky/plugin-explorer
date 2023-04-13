@@ -3,11 +3,9 @@
   "version": "0.0.24",
   "success": [],
   "repo": "https://JoJo-Bear@bitbucket.org/JoJo-Bear/ionic-zebra-label-printer.git",
-  "author": "Joey Geraeds",
-  "published": "2022-05-06T02:45:26.673Z",
-  "versions": [
-    "0.0.24"
-  ],
+  "author": {
+    "name": "Joey Geraeds"
+  },
   "keywords": [
     "ionic",
     "capacitor",
@@ -29,5 +27,9 @@
   ],
   "description": "print labels with an zebra label printer on the local network",
   "bugs": "https://JoJo-Bear@bitbucket.org/JoJo-Bear/ionic-zebra-label-printer.git/issues",
-  "downloads": 18
+  "downloads": 16,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

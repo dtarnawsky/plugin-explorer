@@ -3,15 +3,9 @@
   "version": "1.0.5",
   "success": [],
   "repo": "https://github.com/guylando/twitterkit3-plugin.git",
-  "author": "Guy Lando",
-  "published": "2022-04-27T17:55:28.300Z",
-  "versions": [
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5"
-  ],
+  "author": {
+    "name": "Guy Lando"
+  },
   "keywords": [
     "cordova",
     "twitter",
@@ -37,5 +31,10 @@
   "image": "https://avatars.githubusercontent.com/u/14879163?v=4",
   "quality": 10,
   "updated": "2021-03-06T11:46:35Z",
-  "downloads": 11
+  "downloads": 10,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true
 }

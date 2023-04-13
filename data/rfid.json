@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "success": [],
   "repo": "https://github.com/mgesmundo/rfid.git",
-  "author": "Marcello Gesmundo <mgesmundo@yoovant.com> (http://www.yoovant.com)",
-  "published": "2022-06-26T13:05:56.163Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Marcello Gesmundo",
+    "email": "mgesmundo@yoovant.com",
+    "url": "http://www.yoovant.com"
+  },
   "keywords": [
     "rfid",
     "id-12",
@@ -35,5 +35,6 @@
   "image": "https://avatars.githubusercontent.com/u/1668543?v=4",
   "quality": 101,
   "updated": "2016-02-19T11:54:08Z",
-  "downloads": 44
+  "downloads": 31,
+  "fork": false
 }

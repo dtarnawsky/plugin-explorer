@@ -11,11 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/cozzbie/cordova-phone-call-trap.git",
-  "author": "Timi Aiyemo",
-  "published": "2022-06-14T02:15:58.130Z",
-  "versions": [
-    "0.1.2"
-  ],
+  "author": {
+    "name": "Timi Aiyemo"
+  },
   "keywords": [
     "phonegap",
     "calendar",
@@ -34,8 +32,12 @@
   "description": "A phone call trap",
   "bugs": "https://github.com/cozzbie/cordova-phone-call-trap.git/issues",
   "quality": 5,
-  "downloads": 8,
+  "downloads": 10,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/3672236?v=4",
-  "updated": "2020-04-12T21:59:43Z"
+  "updated": "2020-04-12T21:59:43Z",
+  "platforms": [
+    "android"
+  ],
+  "fork": true
 }

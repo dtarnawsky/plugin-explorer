@@ -10,12 +10,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "git://github.com/phonegap/phonegap-plugin-multidex.git",
-  "author": "Adobe PhoneGap Team",
-  "published": "2022-05-12T21:31:01.277Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Adobe PhoneGap Team"
+  },
   "keywords": [
     "ecosystem:cordova",
     "ecosystem:phonegap",
@@ -27,5 +24,8 @@
   "description": "Enable multidex in a Apache Cordova/PhoneGap application",
   "bugs": "https://github.com/phonegap/phonegap-plugin-multidex/issues",
   "quality": null,
-  "downloads": 23360
+  "downloads": 22520,
+  "platforms": [
+    "android"
+  ]
 }

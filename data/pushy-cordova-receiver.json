@@ -11,11 +11,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/pushy-me/pushy-cordova.git",
-  "author": "Pushy <support@pushy.me>",
-  "published": "2022-06-25T02:11:32.234Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Pushy",
+    "email": "support@pushy.me"
+  },
   "fails": [
     "capacitor-android-3"
   ],
@@ -25,6 +24,10 @@
   "image": "https://avatars.githubusercontent.com/u/13287630?v=4",
   "quality": 123,
   "updated": "2022-11-15T11:43:52Z",
-  "downloads": 10,
-  "keywords": []
+  "downloads": 9,
+  "keywords": [],
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

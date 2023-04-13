@@ -9,16 +9,11 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://jjdltc@github.com/jjdltc/jjdltc-cordova-plugin-zip.git",
-  "author": "Joel De La Torriente <jjdltc@gmail.com> (https://github.com/jjdltc)",
-  "published": "2022-06-14T01:08:58.737Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "1.1.0",
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Joel De La Torriente",
+    "email": "jjdltc@gmail.com",
+    "url": "https://github.com/jjdltc"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -36,5 +31,9 @@
   "description": "Cordova zip compress and decompress",
   "bugs": "https://github.com/jjdltc/jjdltc-cordova-plugin-zip/issues",
   "quality": null,
-  "downloads": 637
+  "downloads": 549,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

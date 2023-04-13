@@ -10,20 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin.git",
-  "author": "Nicholas Hutchind",
-  "published": "2022-06-14T00:52:16.217Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "2.0.0",
-    "2.1.0",
-    "2.1.1",
-    "2.1.2",
-    "2.1.3",
-    "2.2.0",
-    "2.3.0"
-  ],
+  "author": {
+    "name": "Nicholas Hutchind"
+  },
   "keywords": [
     "media",
     "streaming",
@@ -40,7 +29,8 @@
   "bugs": "https://github.com/nchutchind/Streaming-Media-Cordova-Plugin/issues",
   "stars": 392,
   "image": "https://avatars.githubusercontent.com/u/1398002?v=4",
-  "quality": 839,
+  "quality": 840,
   "updated": "2023-01-09T16:46:40Z",
-  "downloads": 5351
+  "downloads": 4895,
+  "fork": false
 }

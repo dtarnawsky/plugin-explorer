@@ -10,15 +10,6 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/diegorquera/zbtprinter.git",
-  "published": "2022-06-14T01:01:23.932Z",
-  "versions": [
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "2.0.0",
-    "2.0.1"
-  ],
   "keywords": [
     "cordova",
     "zebra",
@@ -36,5 +27,9 @@
   "description": "A Cordova/Phonegap driver for Zebra bluetooth printers",
   "bugs": "https://github.com/diegorquera/zbtprinter/issues",
   "quality": null,
-  "downloads": 282
+  "downloads": 251,
+  "platforms": [
+    "android",
+    "browser"
+  ]
 }

@@ -6,17 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/emilyemorehouse/cordova-plugin-rollbar.git",
-  "author": "Emily Morehouse",
-  "published": "2022-06-14T00:44:43.564Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.2.0",
-    "1.2.1",
-    "1.3.0",
-    "1.4.0",
-    "1.4.1"
-  ],
+  "author": {
+    "name": "Emily Morehouse"
+  },
   "keywords": [
     "cordova",
     "rollbar",
@@ -42,5 +34,10 @@
   "image": "https://avatars.githubusercontent.com/u/4264897?v=4",
   "quality": 110,
   "updated": "2019-02-25T19:18:29Z",
-  "downloads": 438
+  "downloads": 370,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

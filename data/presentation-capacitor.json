@@ -7,12 +7,6 @@
   ],
   "repo": "https://github.com/TheeMachine/presentation-capacitor.git",
   "author": "",
-  "published": "2022-11-19T07:54:30.221Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3"
-  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -36,5 +30,9 @@
   "image": "https://avatars.githubusercontent.com/u/38347131?v=4",
   "quality": 102,
   "updated": "2023-01-22T02:08:07Z",
-  "downloads": 6
+  "downloads": 9,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

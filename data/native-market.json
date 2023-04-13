@@ -9,13 +9,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/riderx/native-market.git",
-  "author": "Martin Donadieu <martindonadieu@gmail.com>",
-  "published": "2022-07-24T13:41:57.713Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Martin Donadieu",
+    "email": "martindonadieu@gmail.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,9 +25,14 @@
   ],
   "description": "A native market plugin for linking to google play or app store.",
   "bugs": "https://github.com/riderx/native-market/issues",
-  "quality": 111,
-  "downloads": 272,
+  "quality": 110,
+  "downloads": 281,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "updated": "2023-01-31T20:06:35Z"
+  "updated": "2023-01-31T20:06:35Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

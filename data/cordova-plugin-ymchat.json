@@ -6,28 +6,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/yellowmessenger/cordova-plugin-ymchat.git",
-  "author": "Purushottam",
-  "published": "2023-03-30T04:33:10.052Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0",
-    "1.3.0",
-    "1.4.0",
-    "1.5.0",
-    "2.0.0",
-    "2.1.0",
-    "2.1.1",
-    "2.2.0",
-    "2.2.1",
-    "2.3.0",
-    "2.3.1",
-    "2.3.2"
-  ],
+  "author": {
+    "name": "Purushottam"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -44,5 +25,10 @@
   "description": "Cordova plugin to integrate yellow.ai chatbot",
   "bugs": "https://github.com/yellowmessenger/cordova-plugin-ymchat/issues",
   "quality": null,
-  "downloads": 190
+  "downloads": 186,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "stars": 0
 }

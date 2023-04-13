@@ -7,11 +7,9 @@
     "cordova-ios-6",
     "capacitor-ios-5"
   ],
-  "author": "Marius",
-  "published": "2022-06-27T05:09:29.936Z",
-  "versions": [
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Marius"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
@@ -23,5 +21,8 @@
     "capacitor-android-5"
   ],
   "description": "Test plugin",
-  "downloads": 3
+  "downloads": 4,
+  "platforms": [
+    "android"
+  ]
 }

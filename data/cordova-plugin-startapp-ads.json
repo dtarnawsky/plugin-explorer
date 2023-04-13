@@ -7,15 +7,6 @@
     "cordova-ios-6",
     "capacitor-ios-5"
   ],
-  "published": "2022-04-27T17:47:05.158Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.1.0"
-  ],
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
@@ -23,5 +14,8 @@
     "capacitor-android-5"
   ],
   "description": "A StartApp Ads Plugin",
-  "downloads": 15
+  "downloads": 14,
+  "platforms": [
+    "android"
+  ]
 }

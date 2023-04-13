@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/NguyenThanh1995/cordova-plugin-webserver2",
-  "author": "Nguyen Thanh",
-  "published": "2022-04-27T17:50:58.883Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "Nguyen Thanh"
+  },
   "keywords": [
     "cordova",
     "ios",
@@ -36,5 +34,10 @@
   "image": "https://avatars.githubusercontent.com/u/45375496?v=4",
   "quality": 7,
   "updated": "2022-12-31T00:30:00Z",
-  "downloads": 68
+  "downloads": 52,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true
 }
