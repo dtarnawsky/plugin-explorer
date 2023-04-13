@@ -1,4 +1,4 @@
-[[40mERROR[49m] An error occurred while running subprocess cordova.
+[ERROR] An error occurred while running subprocess cordova.
         
         cordova platform add ios --save exited with exit code 1.
         
