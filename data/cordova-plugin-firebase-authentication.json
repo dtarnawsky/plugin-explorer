@@ -6,45 +6,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-firebase-authentication.git",
-  "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
-  "published": "2022-08-12T10:56:56.032Z",
-  "versions": [
-    "0.10.0",
-    "0.10.1",
-    "0.11.1",
-    "0.12.0",
-    "0.12.1",
-    "0.13.0",
-    "0.13.1",
-    "0.13.2",
-    "0.14.0",
-    "0.14.1",
-    "1.0.0",
-    "1.0.1",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "2.0.0",
-    "2.0.1",
-    "3.0.0",
-    "3.0.1",
-    "3.0.2",
-    "3.1.0",
-    "3.2.0",
-    "3.3.0",
-    "3.3.1",
-    "3.4.0",
-    "3.4.1",
-    "3.5.0",
-    "3.6.0",
-    "4.0.0",
-    "4.0.1",
-    "4.0.2",
-    "5.0.0",
-    "5.1.0",
-    "7.0.0",
-    "7.0.1"
-  ],
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
   "keywords": [
     "cordova",
     "firebase",
@@ -68,5 +34,10 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 290,
   "updated": "2022-11-08T04:36:43Z",
-  "downloads": 699
+  "downloads": 674,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }
