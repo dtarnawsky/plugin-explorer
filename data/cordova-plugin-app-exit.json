@@ -9,12 +9,10 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/huangang/cordova-plugin-app-exit.git",
-  "author": "huangang <huangang.zhang@gmail.com>",
-  "published": "2022-04-27T17:10:39.845Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "huangang",
+    "email": "huangang.zhang@gmail.com"
+  },
   "keywords": [
     "cordova",
     "exit",
@@ -34,5 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/7261239?v=4",
   "quality": 112,
   "updated": "2023-03-15T17:49:36Z",
-  "downloads": 3799
+  "downloads": 3415,
+  "platforms": [
+    "android",
+    "ios",
+    "browser"
+  ],
+  "fork": false
 }

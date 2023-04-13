@@ -10,15 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/joycorp/cordova-plugin-exitapp.git",
-  "author": "Rakesh Walisheter",
-  "published": "2022-06-14T00:08:09.369Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Rakesh Walisheter"
+  },
   "keywords": [
     "cordova",
     "exit",
@@ -38,5 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/29520697?v=4",
   "quality": 145,
   "updated": "2021-01-26T15:30:46Z",
-  "downloads": 311
+  "downloads": 405,
+  "platforms": [
+    "wp8",
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

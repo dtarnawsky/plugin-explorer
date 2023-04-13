@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/scottdermott/cordova-plugin-discovery.git",
-  "author": "Scott Dermott",
-  "published": "2022-06-14T00:05:56.541Z",
-  "versions": [
-    "0.2.0"
-  ],
+  "author": {
+    "name": "Scott Dermott"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -30,5 +28,10 @@
   "image": "https://avatars.githubusercontent.com/u/3798711?v=4",
   "quality": 169,
   "updated": "2022-07-01T11:57:41Z",
-  "downloads": 97
+  "downloads": 103,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

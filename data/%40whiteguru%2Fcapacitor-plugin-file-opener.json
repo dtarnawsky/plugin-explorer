@@ -6,21 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/dragermrb/capacitor-plugin-file-opener.git",
-  "author": "Manuel Rodríguez",
-  "published": "2022-09-06T10:21:29.804Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.1.3",
-    "1.1.4",
-    "3.0.1",
-    "4.0.2-beta.1",
-    "4.0.2"
-  ],
+  "author": {
+    "name": "Manuel Rodríguez"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -37,8 +25,13 @@
   "description": "Capacitor plugin to open files",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-file-opener/issues",
   "quality": 112,
-  "downloads": 1313,
+  "downloads": 1366,
   "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
-  "updated": "2022-09-30T07:57:05Z"
+  "updated": "2022-09-30T07:57:05Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

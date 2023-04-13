@@ -9,16 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/ihadeed/cordova-clipboard.git",
-  "author": "Ibrahim Hadeed",
-  "published": "2022-06-13T23:31:24.377Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0",
-    "1.2.1",
-    "1.3.0"
-  ],
+  "author": {
+    "name": "Ibrahim Hadeed"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -37,5 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
   "quality": 94,
   "updated": "2022-07-13T06:00:58Z",
-  "downloads": 45863
+  "downloads": 44528,
+  "platforms": [
+    "android",
+    "ios",
+    "wp8"
+  ],
+  "fork": true
 }

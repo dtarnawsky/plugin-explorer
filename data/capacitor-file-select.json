@@ -4,14 +4,9 @@
   "success": [
     "capacitor-ios-3"
   ],
-  "repo": "https://github.com/EinfachHans/capacitor-file-select.git.git",
-  "author": "EinfachHans",
-  "published": "2022-04-12T05:15:14.720Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "EinfachHans"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +28,9 @@
   "description": "A Capacitor Plugin to select Files",
   "bugs": "https://github.com/EinfachHans/capacitor-file-select.git/issues",
   "quality": null,
-  "downloads": 172
+  "downloads": 178,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

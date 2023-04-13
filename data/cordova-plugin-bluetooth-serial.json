@@ -9,14 +9,10 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/don/BluetoothSerial.git",
-  "author": "Don Coleman <don.coleman@gmail.com>",
-  "published": "2022-06-13T23:54:51.315Z",
-  "versions": [
-    "0.4.4",
-    "0.4.5",
-    "0.4.6",
-    "0.4.7"
-  ],
+  "author": {
+    "name": "Don Coleman",
+    "email": "don.coleman@gmail.com"
+  },
   "keywords": [
     "cordova",
     "bluetooth",
@@ -34,9 +30,15 @@
   ],
   "description": "Bluetooth Serial Communication Plugin",
   "bugs": "https://github.com/don/BluetoothSerial/issues",
-  "stars": 1049,
+  "stars": 1050,
   "image": "https://avatars.githubusercontent.com/u/3133?v=4",
-  "quality": 1875,
-  "updated": "2023-03-27T03:47:43Z",
-  "downloads": 6461
+  "quality": 1876,
+  "updated": "2023-04-06T09:42:53Z",
+  "downloads": 6323,
+  "platforms": [
+    "android",
+    "ios",
+    "wp8"
+  ],
+  "fork": false
 }

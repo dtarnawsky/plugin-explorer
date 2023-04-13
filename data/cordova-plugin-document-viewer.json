@@ -10,30 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/sitewaerts/cordova-plugin-document-viewer.git",
-  "author": "Felix Schauerte",
-  "published": "2022-06-14T00:06:04.086Z",
-  "versions": [
-    "0.5.0",
-    "0.6.0",
-    "0.7.0",
-    "0.8.0",
-    "0.8.1",
-    "0.9.0",
-    "0.9.1",
-    "0.9.2",
-    "0.9.3",
-    "0.9.4",
-    "0.9.5",
-    "0.9.6",
-    "0.9.7",
-    "0.9.8",
-    "0.9.9",
-    "0.9.10",
-    "0.9.11",
-    "0.9.12",
-    "0.9.13",
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Felix Schauerte"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova",
@@ -57,5 +36,11 @@
   "image": "https://avatars.githubusercontent.com/u/9052994?v=4",
   "quality": 425,
   "updated": "2022-12-15T02:52:07Z",
-  "downloads": 21827
+  "downloads": 19522,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "fork": false
 }

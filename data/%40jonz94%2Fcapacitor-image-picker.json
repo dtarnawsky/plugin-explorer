@@ -3,19 +3,10 @@
   "version": "1.2.5",
   "success": [],
   "repo": "https://github.com/jonz94/capacitor-image-picker.git",
-  "author": "jonz94 <jody16888@gmail.com>",
-  "published": "2022-12-07T11:28:04.427Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.2.3",
-    "1.2.4",
-    "1.2.5"
-  ],
+  "author": {
+    "name": "jonz94",
+    "email": "jody16888@gmail.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -43,9 +34,14 @@
   ],
   "description": "Capacitor plugin for multiple image selection",
   "bugs": "https://github.com/jonz94/capacitor-image-picker/issues",
-  "stars": 5,
+  "stars": 6,
   "image": "https://avatars.githubusercontent.com/u/16042676?v=4",
-  "quality": 105,
-  "updated": "2023-04-03T05:59:19Z",
-  "downloads": 75
+  "quality": 108,
+  "updated": "2023-04-09T20:07:02Z",
+  "downloads": 52,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

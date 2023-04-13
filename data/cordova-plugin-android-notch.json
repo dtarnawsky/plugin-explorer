@@ -10,14 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/tobspr/cordova-plugin-android-notch",
-  "author": "tobspr",
-  "published": "2022-04-27T17:09:52.290Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "tobspr"
+  },
   "keywords": [
     "cordova",
     "android",
@@ -34,5 +29,9 @@
   "image": "https://avatars.githubusercontent.com/u/5307711?v=4",
   "quality": 132,
   "updated": "2022-07-29T08:53:24Z",
-  "downloads": 3578
+  "downloads": 3392,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

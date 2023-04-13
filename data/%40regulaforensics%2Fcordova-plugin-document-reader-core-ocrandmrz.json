@@ -9,26 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/regulaforensics/DocumentReader-Cordova-Plugin.git",
-  "author": "RegulaForensics",
-  "published": "2023-02-14T15:23:40.385Z",
-  "versions": [
-    "5.2.0",
-    "5.3.0",
-    "5.4.0",
-    "5.5.0",
-    "5.6.0",
-    "5.7.0",
-    "5.8.0",
-    "6.1.0",
-    "6.1.1",
-    "6.2.0",
-    "6.2.1",
-    "6.3.0",
-    "6.4.0",
-    "6.5.0",
-    "6.6.0",
-    "6.7.0"
-  ],
+  "author": {
+    "name": "RegulaForensics"
+  },
   "keywords": [
     "cordova",
     "documentreader",
@@ -50,7 +33,12 @@
   "bugs": "https://github.com/regulaforensics/DocumentReader-Cordova-Plugin/issues",
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
-  "quality": 108,
+  "quality": 107,
   "updated": "2023-02-08T16:19:05Z",
-  "downloads": 73
+  "downloads": 84,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

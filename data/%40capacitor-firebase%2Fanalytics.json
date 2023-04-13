@@ -5,31 +5,10 @@
     "capacitor-android-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-firebase.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2023-03-22T12:41:50.838Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1-dev.ff89cf2.1648069741",
-    "0.1.1",
-    "0.2.0-dev.95e7bb6.1648580185",
-    "0.2.0",
-    "0.2.1-dev.fc23b6e.1651072077",
-    "0.2.1",
-    "0.2.2",
-    "0.3.0",
-    "0.3.1",
-    "0.4.0",
-    "0.5.0",
-    "0.5.1-dev.01021f0.1659726888",
-    "0.5.1-dev.bd42e0a.1659614749",
-    "0.5.1",
-    "1.0.0",
-    "1.1.0",
-    "1.2.0",
-    "1.3.0-dev.ceaa8dc.1676791198",
-    "1.3.0",
-    "1.4.0"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -65,7 +44,12 @@
   "bugs": "https://github.com/capawesome-team/capacitor-firebase/issues",
   "stars": 219,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 410,
-  "updated": "2023-04-04T23:52:16Z",
-  "downloads": 7163
+  "quality": 409,
+  "updated": "2023-04-08T11:33:41Z",
+  "downloads": 6561,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

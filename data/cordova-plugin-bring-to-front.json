@@ -10,12 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/innomediahho/cordova-plugin-bring-to-front.git",
-  "author": "Lucas Dupin",
-  "published": "2022-04-27T17:14:11.279Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3"
-  ],
+  "author": {
+    "name": "Lucas Dupin"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -31,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/20920408?v=4",
   "quality": 6,
   "updated": "2020-07-09T06:29:24Z",
-  "downloads": 74
+  "downloads": 73,
+  "platforms": [
+    "android"
+  ],
+  "fork": true
 }

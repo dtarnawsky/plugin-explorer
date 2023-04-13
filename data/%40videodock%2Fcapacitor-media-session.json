@@ -6,12 +6,6 @@
   ],
   "repo": "https://github.com/Videodock/capacitor-media-session.git",
   "author": {},
-  "published": "2022-07-11T08:52:34.998Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,9 +22,14 @@
   ],
   "description": "Capacitor plugin which manages the media session",
   "bugs": "https://github.com/Videodock/capacitor-media-session/issues",
-  "quality": 104,
-  "downloads": 20,
-  "stars": 3,
+  "quality": 105,
+  "downloads": 18,
+  "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/1513271?v=4",
-  "updated": "2022-08-11T11:31:27Z"
+  "updated": "2023-04-11T12:58:23Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

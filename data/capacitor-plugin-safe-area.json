@@ -5,23 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "repo": "https://github.com/AlwaysLoveme/capacitor-plugin-safe-area.git.git",
-  "author": "zhuxian",
-  "published": "2023-01-05T03:20:12.648Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.0.10",
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "zhuxian"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -38,5 +24,9 @@
   "description": "a capacitor V3/V4 plugin to get SafeArea info on Android and IOS",
   "bugs": "https://github.com/AlwaysLoveme/capacitor-plugin-safe-area.git/issues",
   "quality": null,
-  "downloads": 13897
+  "downloads": 14373,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

@@ -3,15 +3,6 @@
   "version": "4.0.4",
   "success": [],
   "repo": "https://github.com/MaximBelov/cordova-plugin-fbsdk.git",
-  "published": "2023-03-28T15:46:42.186Z",
-  "versions": [
-    "4.0.1",
-    "4.0.2",
-    "4.0.3",
-    "4.0.4-nightly",
-    "4.0.4-pre",
-    "4.0.4"
-  ],
   "keywords": [
     "cordova",
     "facebook",
@@ -39,5 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
   "quality": 22,
   "updated": "2023-03-01T09:15:57Z",
-  "downloads": 750
+  "downloads": 754,
+  "platforms": [
+    "android",
+    "ios",
+    "browser"
+  ],
+  "fork": true
 }

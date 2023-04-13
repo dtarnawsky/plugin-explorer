@@ -6,12 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/innoline/capacitor-preview-file.git",
-  "author": "KANekT",
-  "published": "2023-01-05T13:40:43.907Z",
-  "versions": [
-    "4.0.0",
-    "4.0.1"
-  ],
+  "author": {
+    "name": "KANekT"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/121399358?v=4",
   "quality": 100,
   "updated": "2022-12-30T12:58:15Z",
-  "downloads": 139
+  "downloads": 131,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

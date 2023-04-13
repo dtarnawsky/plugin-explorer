@@ -8,12 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/randdusing/cordova-plugin-bluetooth-peripheral-usage-description.git",
-  "author": "Rand Dusing",
-  "published": "2022-06-13T23:54:46.352Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Rand Dusing"
+  },
   "keywords": [
     "bluetooth",
     "bluetoothle",
@@ -36,5 +33,9 @@
   "image": "https://avatars.githubusercontent.com/u/6188656?v=4",
   "quality": 109,
   "updated": "2020-09-25T11:19:23Z",
-  "downloads": 166
+  "downloads": 188,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

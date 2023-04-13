@@ -3,24 +3,6 @@
   "version": "3.2.0",
   "success": [],
   "repo": "https://github.com/cordova-plugin-facebook-connect/cordova-plugin-facebook-connect.git",
-  "published": "2022-04-27T17:20:47.189Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0",
-    "1.2.1",
-    "2.0.0",
-    "2.1.0",
-    "2.2.0",
-    "2.3.0",
-    "3.0.0",
-    "3.1.0",
-    "3.1.1",
-    "3.2.0"
-  ],
   "keywords": [
     "cordova",
     "facebook",
@@ -48,5 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/76914739?v=4",
   "quality": 186,
   "updated": "2023-03-14T18:40:25Z",
-  "downloads": 14396
+  "downloads": 13483,
+  "platforms": [
+    "android",
+    "ios",
+    "browser"
+  ],
+  "fork": true
 }

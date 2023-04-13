@@ -8,10 +8,6 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "published": "2022-06-13T06:32:53.766Z",
-  "versions": [
-    "1.0.1"
-  ],
   "keywords": [
     "cordova",
     "phonegap",
@@ -26,5 +22,5 @@
     "cordova-android-11"
   ],
   "description": "This plugin enables the management of cookies in WebViews on iOS and Android as those platforms restrict the use of \"document.cookie\".",
-  "downloads": 610
+  "downloads": 551
 }

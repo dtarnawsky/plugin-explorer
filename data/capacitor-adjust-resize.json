@@ -6,16 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/NePheus/capacitor-adjust-resize.git",
-  "author": "Jan Gessinger",
-  "published": "2023-03-05T09:44:54.524Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "4.0.0",
-    "4.0.1",
-    "4.0.2",
-    "4.0.4"
-  ],
+  "author": {
+    "name": "Jan Gessinger"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
   "quality": 102,
   "updated": "2023-01-19T16:38:23Z",
-  "downloads": 191
+  "downloads": 155,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

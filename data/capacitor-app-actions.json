@@ -3,15 +3,9 @@
   "version": "1.0.3",
   "success": [],
   "repo": "https://github.com/uioporqwerty/capacitor-app-actions.git",
-  "author": "Nitish Sachar",
-  "published": "2022-12-08T02:20:20.854Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Nitish Sachar"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +27,10 @@
   "image": "https://avatars.githubusercontent.com/u/4053751?v=4",
   "quality": 110,
   "updated": "2022-12-20T04:31:38Z",
-  "downloads": 29
+  "downloads": 29,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

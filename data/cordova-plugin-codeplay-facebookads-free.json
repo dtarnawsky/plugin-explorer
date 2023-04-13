@@ -9,29 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/merbin2012/cordova-plugin-codeplay-facebookads-free.git",
-  "author": "Merbin Joe",
-  "published": "2022-04-27T17:16:35.750Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4",
-    "0.1.5",
-    "0.1.6",
-    "0.1.7",
-    "0.1.8",
-    "0.1.9",
-    "0.2.0"
-  ],
+  "author": {
+    "name": "Merbin Joe"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -55,5 +35,9 @@
   "image": "https://avatars.githubusercontent.com/u/3687184?v=4",
   "quality": 141,
   "updated": "2022-02-05T20:53:41Z",
-  "downloads": 35
+  "downloads": 34,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

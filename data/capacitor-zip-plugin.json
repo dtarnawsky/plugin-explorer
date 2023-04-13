@@ -3,17 +3,9 @@
   "version": "1.0.6",
   "success": [],
   "repo": "https://github.com/m3allimm4a4/capacitor-zip.git",
-  "author": "Bechara Rammouz",
-  "published": "2022-04-12T05:17:36.735Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6"
-  ],
+  "author": {
+    "name": "Bechara Rammouz"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -42,8 +34,13 @@
   "description": "Zip and Unzip files on android. Tested on cap v3. Based on Zip4j library.",
   "bugs": "https://github.com/m3allimm4a4/capacitor-zip/issues",
   "quality": 106,
-  "downloads": 21,
+  "downloads": 22,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/80393521?v=4",
-  "updated": "2022-08-22T11:06:17Z"
+  "updated": "2022-08-22T11:06:17Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

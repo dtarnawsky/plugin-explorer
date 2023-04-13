@@ -8,15 +8,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Phil0xFF/capacitor-jailbreak-root-detection.git",
-  "author": "Phil Miletic <p.miletic@basecom.de>",
-  "published": "2023-02-20T08:07:22.284Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Phil Miletic",
+    "email": "p.miletic@basecom.de"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -37,5 +32,10 @@
   "image": "https://avatars.githubusercontent.com/u/18264611?v=4",
   "quality": 102,
   "updated": "2023-01-10T14:39:00Z",
-  "downloads": 2231
+  "downloads": 2393,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

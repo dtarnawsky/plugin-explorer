@@ -6,15 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/asephermann/capacitor-request-location.git",
-  "author": "Asep Herman Nursalam",
-  "published": "2022-09-13T03:42:46.487Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5"
-  ],
+  "author": {
+    "name": "Asep Herman Nursalam"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +25,10 @@
   "description": "A Capacitor plugin to check and request permission for using location service (Android)",
   "bugs": "https://github.com/asephermann/capacitor-request-location/issues",
   "quality": null,
-  "downloads": 2021
+  "downloads": 1984,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0
 }

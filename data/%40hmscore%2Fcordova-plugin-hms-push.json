@@ -9,20 +9,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/HMS-Core/hms-cordova-plugin.git",
-  "published": "2023-01-31T08:32:33.077Z",
-  "versions": [
-    "4.0.3",
-    "5.0.0-300",
-    "5.0.2-300",
-    "5.0.2-301",
-    "5.1.1-301",
-    "5.3.0-304",
-    "5.3.0-305",
-    "6.1.0-300",
-    "6.3.0-302",
-    "6.3.0-304",
-    "6.7.0-300"
-  ],
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -42,9 +28,13 @@
   ],
   "description": "Cordova HMS Push Plugin",
   "bugs": "https://github.com/HMS-Core/hms-cordova-plugin/issues",
-  "stars": 80,
+  "stars": 82,
   "image": "https://avatars.githubusercontent.com/u/64997192?v=4",
-  "quality": 221,
-  "updated": "2023-02-13T20:40:09Z",
-  "downloads": 1327
+  "quality": 223,
+  "updated": "2023-04-11T08:45:14Z",
+  "downloads": 1359,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

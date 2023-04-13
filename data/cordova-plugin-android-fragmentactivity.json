@@ -8,23 +8,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/ReallySmallSoftware/cordova-plugin-android-fragmentactivity.git",
-  "author": "Richard Windley",
-  "published": "2022-06-13T23:46:33.632Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "1.0.0",
-    "2.0.0",
-    "2.2.0",
-    "2.2.1"
-  ],
+  "author": {
+    "name": "Richard Windley"
+  },
   "keywords": [
     "cordova",
     "fragment",
@@ -44,5 +30,9 @@
   "image": "https://avatars.githubusercontent.com/u/4267359?v=4",
   "quality": 21,
   "updated": "2022-05-20T13:45:54Z",
-  "downloads": 252
+  "downloads": 221,
+  "platforms": [
+    "android"
+  ],
+  "fork": true
 }

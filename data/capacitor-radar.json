@@ -1,44 +1,16 @@
 {
   "name": "capacitor-radar",
-  "version": "3.5.4",
+  "version": "3.6.0",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
     "capacitor-ios-3",
-    "capacitor-android-5",
-    "capacitor-ios-5"
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/radarlabs/capacitor-radar.git",
-  "author": "Radar Labs, Inc.",
-  "published": "2023-01-10T14:37:07.780Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.0.10",
-    "0.0.11",
-    "3.0.0-beta.1",
-    "3.1.0",
-    "3.1.1",
-    "3.1.2",
-    "3.1.3",
-    "3.3.0-beta.1",
-    "3.3.0",
-    "3.4.0",
-    "3.4.1",
-    "3.4.2",
-    "3.4.3",
-    "3.5.0",
-    "3.5.2",
-    "3.5.3",
-    "3.5.4"
-  ],
+  "author": {
+    "name": "Radar Labs, Inc."
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -53,13 +25,19 @@
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "description": "Capacitor plugin for Radar, the leading geofencing and location tracking platform",
   "bugs": "https://github.com/radarlabs/capacitor-radar/issues",
-  "quality": 132,
-  "downloads": 1853,
+  "quality": 131,
+  "downloads": 1766,
   "stars": 15,
   "image": "https://avatars.githubusercontent.com/u/19912091?v=4",
-  "updated": "2023-02-27T11:22:57Z"
+  "updated": "2023-02-27T11:22:57Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

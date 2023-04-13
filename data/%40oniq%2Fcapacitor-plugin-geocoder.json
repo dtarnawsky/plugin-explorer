@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "success": [],
   "repo": "https://gitlab.com/oniqlab/capacitor-plugin-geocoder.git",
-  "author": "Fernando Penna",
-  "published": "2022-04-06T11:20:23.656Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Fernando Penna"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -29,5 +25,9 @@
   ],
   "description": "Capacitor geocoder plugin for iOS and Android to reverse and forward addresses",
   "bugs": "https://gitlab.com/oniqlab/capacitor-plugin-geocoder/issues",
-  "downloads": 3
+  "downloads": 2,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

@@ -8,13 +8,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/VelocityCubed/capacitor-plugins.git",
-  "author": "Ionic <hi@ionicframework.com>",
-  "published": "2022-07-20T10:33:22.319Z",
-  "versions": [
-    "1.0.9",
-    "4.0.0-beta.2",
-    "4.0.0-beta.3"
-  ],
+  "author": {
+    "name": "Ionic",
+    "email": "hi@ionicframework.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -32,5 +29,9 @@
   "image": "https://avatars.githubusercontent.com/u/84908720?v=4",
   "quality": 1,
   "updated": "2022-07-20T09:38:17Z",
-  "downloads": 10
+  "downloads": 10,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

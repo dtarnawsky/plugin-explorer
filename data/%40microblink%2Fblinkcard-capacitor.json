@@ -5,14 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/blinkcard/blinkcard-capacitor.git",
-  "author": "Microblink",
-  "published": "2022-12-21T16:15:16.763Z",
-  "versions": [
-    "2.3.0",
-    "2.4.0",
-    "2.4.1",
-    "2.6.0"
-  ],
+  "author": {
+    "name": "Microblink"
+  },
   "keywords": [
     "credit-card",
     "scanning",
@@ -45,5 +40,10 @@
   "image": "https://avatars.githubusercontent.com/u/49157187?v=4",
   "quality": 102,
   "updated": "2023-03-20T00:05:16Z",
-  "downloads": 642
+  "downloads": 744,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

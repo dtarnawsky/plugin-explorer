@@ -6,28 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/fcm.git",
-  "author": "Stewan Silva",
-  "published": "2023-01-23T16:45:56.839Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "3.0.0",
-    "3.0.1",
-    "3.0.2"
-  ],
+  "author": {
+    "name": "Stewan Silva"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -54,5 +35,10 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 402,
   "updated": "2023-03-09T13:54:58Z",
-  "downloads": 48531
+  "downloads": 46543,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

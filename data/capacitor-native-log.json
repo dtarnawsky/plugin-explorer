@@ -8,17 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Mote-OU/capacitor-native-log.git",
-  "author": "Michael Lawlor",
-  "published": "2022-04-12T05:15:41.974Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.1.0",
-    "0.1.1",
-    "0.2.0"
-  ],
+  "author": {
+    "name": "Michael Lawlor"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +25,10 @@
   "description": "Alternative to Capacitor‘s Console plugin for logging to the native device log console",
   "bugs": "https://github.com/Mote-OU/capacitor-native-log/issues",
   "quality": null,
-  "downloads": 62
+  "downloads": 63,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0
 }

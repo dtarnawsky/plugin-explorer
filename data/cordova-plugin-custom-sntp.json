@@ -9,11 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "",
-  "author": "Open",
-  "published": "2022-04-27T17:17:53.274Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Open"
+  },
   "keywords": [
     "cordova",
     "sntp",
@@ -27,5 +25,9 @@
     "cordova-ios-6"
   ],
   "description": "Cordova SNTP Plugin",
-  "downloads": 5
+  "downloads": 5,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

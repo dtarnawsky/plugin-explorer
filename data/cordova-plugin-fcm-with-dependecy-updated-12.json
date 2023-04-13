@@ -3,15 +3,9 @@
   "version": "7.8.4",
   "success": [],
   "repo": "https://github.com/JaimeHere/cordova-plugin-fcm-with-dependecy-updated-12.git",
-  "author": "André Augusto Tissot",
-  "published": "2023-03-06T19:52:05.061Z",
-  "versions": [
-    "7.8.0",
-    "7.8.1",
-    "7.8.2",
-    "7.8.3",
-    "7.8.4"
-  ],
+  "author": {
+    "name": "André Augusto Tissot"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -38,7 +32,8 @@
   "bugs": "https://github.com/JaimeHere/cordova-plugin-fcm-with-dependecy-updated-12/issues",
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/23527079?v=4",
-  "quality": 2,
+  "quality": 5,
   "updated": "2023-02-08T13:05:40Z",
-  "downloads": 213
+  "downloads": 124,
+  "fork": true
 }

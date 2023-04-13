@@ -159,9 +159,11 @@ export async function inspectGitHubAPI(item: Inspection) {
                 console.log(`Github API is rate limited. Its resets ${JSON.stringify(gh)}`);
             } else if ((gh as any).message?.startsWith('Not Found')) {
                 item.repo = undefined;
-            } else {
+            } else if (gh.full_name != part) {
                 console.error(`Failed to get info on repo ${part}`);
                 console.error(gh);
+            } else {
+                item.stars = 0;
             }
             return;
         }
@@ -173,7 +175,7 @@ export async function inspectGitHubAPI(item: Inspection) {
         }
         if (gh.topics) {
             for (const topic of gh.topics) {
-                
+
                 if (!item.keywords.includes(topic)) {
                     item.keywords.push(topic);
                 }

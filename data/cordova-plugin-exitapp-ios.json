@@ -9,12 +9,6 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/maitscha/cordova-plugin-exitapp-ios.git",
-  "published": "2022-04-27T17:20:27.658Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3"
@@ -22,5 +16,8 @@
   "description": "Implements navigator.app.exitApp on iOS",
   "bugs": "https://github.com/maitscha/cordova-plugin-exitapp-ios/issues",
   "quality": null,
-  "downloads": 993
+  "downloads": 838,
+  "platforms": [
+    "ios"
+  ]
 }

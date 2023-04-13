@@ -9,19 +9,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/anrip/cordova-plugin-cache-clear.git",
-  "author": "Anrip Wong <mail@anrip.com> (http://www.anrip.com/)",
-  "published": "2022-06-13T23:56:41.374Z",
-  "versions": [
-    "1.1.0",
-    "1.3.0",
-    "1.3.1",
-    "1.3.2",
-    "1.3.3",
-    "1.3.5",
-    "1.3.6",
-    "1.3.7",
-    "1.3.8"
-  ],
+  "author": {
+    "name": "Anrip Wong",
+    "email": "mail@anrip.com",
+    "url": "http://www.anrip.com/"
+  },
   "keywords": [
     "cordova",
     "webview",
@@ -43,5 +35,10 @@
   "image": "https://avatars.githubusercontent.com/u/8297757?v=4",
   "quality": 134,
   "updated": "2023-01-28T17:31:24Z",
-  "downloads": 1960
+  "downloads": 1929,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

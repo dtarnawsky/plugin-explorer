@@ -9,18 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/sampart/cordova-plugin-app-version.git",
-  "author": "whiteoctober",
-  "published": "2022-06-13T23:48:18.674Z",
-  "versions": [
-    "0.1.7",
-    "0.1.8",
-    "0.1.9",
-    "0.1.10",
-    "0.1.11",
-    "0.1.12",
-    "0.1.13",
-    "0.1.14"
-  ],
+  "author": {
+    "name": "whiteoctober"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -41,5 +32,6 @@
   "image": "https://avatars.githubusercontent.com/u/1507328?v=4",
   "quality": 714,
   "updated": "2023-03-27T01:50:00Z",
-  "downloads": 83413
+  "downloads": 79712,
+  "fork": false
 }

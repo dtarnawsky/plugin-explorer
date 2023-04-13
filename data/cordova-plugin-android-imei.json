@@ -10,11 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/kapetan/cordova-plugin-android-imei.git",
-  "author": "Mirza Kapetanovic",
-  "published": "2022-04-27T17:09:45.774Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Mirza Kapetanovic"
+  },
   "fails": [
     "capacitor-android-3",
     "cordova-android-11"
@@ -25,6 +23,10 @@
   "image": "https://avatars.githubusercontent.com/u/789564?v=4",
   "quality": 106,
   "updated": "2018-07-22T19:29:27Z",
-  "downloads": 170,
-  "keywords": []
+  "downloads": 160,
+  "keywords": [],
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

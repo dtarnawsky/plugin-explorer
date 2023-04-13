@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "success": [],
   "repo": "https://bitbucket.org/chirag-mewada/capacitor-cloudvoice-meet.git",
-  "author": "Chirag Mewada",
-  "published": "2022-04-12T05:15:03.548Z",
-  "versions": [
-    "1.0.0",
-    "1.5.9"
-  ],
+  "author": {
+    "name": "Chirag Mewada"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -26,5 +23,9 @@
   ],
   "description": "This Ionic Capacitor plugin is created to make video calls through Cloudvoice video platform on iOS and Android.",
   "bugs": "https://bitbucket.org/chirag-mewada/capacitor-cloudvoice-meet/issues",
-  "downloads": 2
+  "downloads": 2,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

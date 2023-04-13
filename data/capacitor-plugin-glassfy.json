@@ -1,31 +1,14 @@
 {
   "name": "capacitor-plugin-glassfy",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://glassfy.io.git",
-  "author": "Glassfy",
-  "published": "2023-03-31T12:28:59.071Z",
-  "versions": [
-    "1.1.7",
-    "1.1.70",
-    "1.1.80",
-    "1.1.81",
-    "1.1.82",
-    "1.1.83",
-    "1.3.0-beta0",
-    "1.3.0",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "2.0.4",
-    "2.0.5",
-    "2.0.6",
-    "2.0.7"
-  ],
+  "author": {
+    "name": "Glassfy"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -41,5 +24,9 @@
   ],
   "description": "Glassfy Plugin",
   "bugs": "https://glassfy.io/issues",
-  "downloads": 624
+  "downloads": 614,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

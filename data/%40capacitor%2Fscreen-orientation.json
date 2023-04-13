@@ -6,30 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/ionic-team/capacitor-plugins.git",
-  "author": "Ionic <hi@ionicframework.com>",
-  "published": "2023-04-03T15:15:42.943Z",
-  "versions": [
-    "4.0.1-nightly-20230222T150854.0",
-    "4.1.0",
-    "4.1.1-nightly-20230313T150905.0",
-    "4.1.1-nightly-20230314T150834.0",
-    "4.1.1-nightly-20230315T150853.0",
-    "4.1.1-nightly-20230316T150919.0",
-    "5.0.0-alpha.1",
-    "5.0.0-beta.0",
-    "5.0.0-nightly-20230317T150907.0",
-    "5.0.0-nightly-20230320T150751.0",
-    "5.0.0-nightly-20230321T150946.0",
-    "5.0.0-nightly-20230322T151509.0",
-    "5.0.0-nightly-20230323T150916.0",
-    "5.0.0-nightly-20230324T150846.0",
-    "5.0.0-nightly-20230327T150845.0",
-    "5.0.0-nightly-20230328T150956.0",
-    "5.0.0-nightly-20230329T152052.0",
-    "5.0.0-nightly-20230330T150756.0",
-    "5.0.0-nightly-20230331T150806.0",
-    "5.0.0-nightly-20230403T150914.0"
-  ],
+  "author": {
+    "name": "Ionic",
+    "email": "hi@ionicframework.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -49,5 +29,9 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 993,
   "updated": "2023-03-26T14:52:24Z",
-  "downloads": 1712
+  "downloads": 2545,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

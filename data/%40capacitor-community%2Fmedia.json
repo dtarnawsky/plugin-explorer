@@ -6,17 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/media.git",
-  "author": "Stewan Silva",
-  "published": "2023-03-18T02:24:02.785Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "3.0.0",
-    "4.0.0-0",
-    "4.0.1",
-    "4.1.0",
-    "4.2.0"
-  ],
+  "author": {
+    "name": "Stewan Silva"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -36,9 +28,14 @@
   ],
   "description": "Enable some media features for Capacitor such as create albums, save videos, gifs and more.",
   "bugs": "https://github.com/capacitor-community/media/issues",
-  "stars": 51,
+  "stars": 53,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 199,
-  "updated": "2023-03-28T16:48:01Z",
-  "downloads": 19918
+  "quality": 201,
+  "updated": "2023-04-07T05:53:46Z",
+  "downloads": 19493,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

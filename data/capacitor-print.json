@@ -5,12 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/leoruhland/capacitor-print.git",
-  "author": "leoruhland",
-  "published": "2022-04-12T05:17:15.043Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "leoruhland"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,8 +25,13 @@
   "description": "Print the webview",
   "bugs": "https://github.com/leoruhland/capacitor-print/issues",
   "quality": 101,
-  "downloads": 630,
+  "downloads": 669,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/1785552?v=4",
-  "updated": "2023-02-16T22:56:10Z"
+  "updated": "2023-02-16T22:56:10Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

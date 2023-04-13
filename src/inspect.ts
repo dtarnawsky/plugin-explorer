@@ -89,6 +89,8 @@ async function prepareProject(plugin: string, folder: string, result: Inspection
             (result.success.includes(test.android) || result.fails.includes(test.android)))) {
             return Failure.alreadyTested;
         }
+    } else {
+        console.log(`${result.name} version ${result.version} hasnt been tested (${priorVersion} was tested last)`);
     }
     await clone(test);
     let failure = await tryRun(['npm ci'], Failure.npmInstall, folder);

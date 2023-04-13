@@ -4,37 +4,6 @@
   "success": [],
   "repo": "https://github.com/nasasutisna/capacitor-custom-google-maps.git",
   "author": "",
-  "published": "2023-02-17T08:04:17.616Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.1.0",
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4",
-    "0.1.5",
-    "0.1.6",
-    "0.1.7",
-    "0.1.8",
-    "0.1.9",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8"
-  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -53,8 +22,13 @@
   "description": "capacitor custom plugin google maps",
   "bugs": "https://github.com/nasasutisna/capacitor-custom-google-maps/issues",
   "quality": 106,
-  "downloads": 2051,
+  "downloads": 2056,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/17155744?v=4",
-  "updated": "2023-02-02T06:27:06Z"
+  "updated": "2023-02-02T06:27:06Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

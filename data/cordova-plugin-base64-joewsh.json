@@ -10,10 +10,6 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/Joewsh/cordova-plugin-base64-joewsh.git",
-  "published": "2022-06-13T23:52:26.255Z",
-  "versions": [
-    "1.0.0"
-  ],
   "keywords": [
     "cordova",
     "base64",
@@ -30,5 +26,9 @@
   "image": "https://avatars.githubusercontent.com/u/15830790?v=4",
   "quality": 6,
   "updated": "2020-02-25T09:01:08Z",
-  "downloads": 19
+  "downloads": 22,
+  "platforms": [
+    "android"
+  ],
+  "fork": true
 }

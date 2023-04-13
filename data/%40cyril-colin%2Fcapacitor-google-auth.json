@@ -3,11 +3,9 @@
   "version": "2.1.4",
   "success": [],
   "repo": "https://github.com/cyril-colin/CapacitorGoogleAuth.git",
-  "author": "CodetrixStudio",
-  "published": "2022-04-05T02:27:38.977Z",
-  "versions": [
-    "2.1.4"
-  ],
+  "author": {
+    "name": "CodetrixStudio"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +31,10 @@
   "description": "Google Auth plugin for capacitor.",
   "bugs": "https://github.com/cyril-colin/CapacitorGoogleAuth.git/issues",
   "quality": null,
-  "downloads": 10
+  "downloads": 12,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0
 }

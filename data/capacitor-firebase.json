@@ -6,11 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/eikooc/capacitor-firebase.git",
-  "author": "Jamie Neubert Pedersen",
-  "published": "2022-04-12T05:15:15.575Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "Jamie Neubert Pedersen"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -27,8 +25,12 @@
   "description": "[Not functioning] Integrating the offerings of Firebase in a Capacitor plugin",
   "bugs": "https://github.com/eikooc/capacitor-firebase/issues",
   "quality": 100,
-  "downloads": 7,
+  "downloads": 9,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/1305015?v=4",
-  "updated": "2018-05-22T18:42:33Z"
+  "updated": "2018-05-22T18:42:33Z",
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

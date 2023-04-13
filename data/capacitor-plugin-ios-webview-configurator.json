@@ -8,15 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/cellular/capacitor-plugin-ios-webview-configurator.git",
-  "author": "Dario Lehmhus",
-  "published": "2022-07-07T17:32:03.404Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.2.0",
-    "0.3.0",
-    "0.4.0"
-  ],
+  "author": {
+    "name": "Dario Lehmhus"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/24269038?v=4",
   "quality": 108,
   "updated": "2022-07-07T17:26:21Z",
-  "downloads": 636
+  "downloads": 680,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

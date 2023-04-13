@@ -9,16 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/katzer/cordova-plugin-background-mode.git",
-  "author": "Sebastián Katzer",
-  "published": "2022-06-13T23:51:23.740Z",
-  "versions": [
-    "0.6.4",
-    "0.6.5",
-    "0.7.0",
-    "0.7.1",
-    "0.7.2",
-    "0.7.3"
-  ],
+  "author": {
+    "name": "Sebastián Katzer"
+  },
   "keywords": [
     "appplant",
     "background",
@@ -39,9 +32,15 @@
   ],
   "description": "Prevent apps from going to sleep in background.",
   "bugs": "https://github.com/katzer/cordova-plugin-background-mode/issues",
-  "stars": 1374,
+  "stars": 1375,
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
-  "quality": 2725,
-  "updated": "2023-03-24T03:04:51Z",
-  "downloads": 11600
+  "quality": 2726,
+  "updated": "2023-04-12T17:08:51Z",
+  "downloads": 11481,
+  "platforms": [
+    "ios",
+    "android",
+    "browser"
+  ],
+  "fork": false
 }

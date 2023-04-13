@@ -9,13 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/MaximBelov/cordova-plugin-ffmpeg.git",
-  "author": "Marin Bivol",
-  "published": "2022-10-21T07:37:48.067Z",
-  "versions": [
-    "1.1.0",
-    "2.0.0",
-    "2.0.1"
-  ],
+  "author": {
+    "name": "Marin Bivol"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -35,5 +31,9 @@
   "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
   "quality": 0,
   "updated": "2023-01-31T11:10:17Z",
-  "downloads": 335
+  "downloads": 335,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

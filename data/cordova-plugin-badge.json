@@ -7,22 +7,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/katzer/cordova-plugin-badge.git",
-  "author": "Sebastián Katzer",
-  "published": "2022-06-13T23:51:51.256Z",
-  "versions": [
-    "0.7.2",
-    "0.7.3",
-    "0.7.4",
-    "0.8.0",
-    "0.8.1",
-    "0.8.2",
-    "0.8.3",
-    "0.8.4",
-    "0.8.5",
-    "0.8.6",
-    "0.8.7",
-    "0.8.8"
-  ],
+  "author": {
+    "name": "Sebastián Katzer"
+  },
   "keywords": [
     "appplant",
     "badge",
@@ -48,9 +35,17 @@
   ],
   "description": "Shows the count of unread messages as a badge on the app icon.",
   "bugs": "https://github.com/katzer/cordova-plugin-badge/issues",
-  "stars": 405,
+  "stars": 406,
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
-  "quality": 782,
-  "updated": "2023-03-11T19:33:01Z",
-  "downloads": 40359
+  "quality": 785,
+  "updated": "2023-04-12T17:13:54Z",
+  "downloads": 37544,
+  "platforms": [
+    "ios",
+    "osx",
+    "android",
+    "browser",
+    "windows"
+  ],
+  "fork": false
 }

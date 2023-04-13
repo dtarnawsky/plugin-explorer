@@ -9,11 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
-  "author": "Adobe PhoneGap Team",
-  "published": "2023-03-03T20:29:11.754Z",
-  "versions": [
-    "8.1.0"
-  ],
+  "author": {
+    "name": "Adobe PhoneGap Team"
+  },
   "keywords": [
     "ecosystem:cordova",
     "ecosystem:phonegap",
@@ -30,9 +28,16 @@
   ],
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
   "bugs": "https://github.com/phonegap/phonegap-plugin-barcodescanner/issues",
-  "stars": 1277,
+  "stars": 1276,
   "image": "https://avatars.githubusercontent.com/u/60365?v=4",
-  "quality": 2780,
-  "updated": "2023-03-24T14:48:05Z",
-  "downloads": 20
+  "quality": 2782,
+  "updated": "2023-04-09T10:31:11Z",
+  "downloads": 11,
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "browser"
+  ],
+  "fork": false
 }

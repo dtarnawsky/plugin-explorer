@@ -8,24 +8,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "Cognex",
-  "published": "2022-08-19T08:30:32.388Z",
-  "versions": [
-    "1.2.12",
-    "1.2.13",
-    "1.2.14",
-    "1.2.15-beta.1",
-    "1.2.15-beta.3",
-    "1.2.15",
-    "1.2.16",
-    "1.2.18",
-    "1.2.19",
-    "1.2.20",
-    "1.2.21",
-    "1.2.22",
-    "1.3.260",
-    "1.4.270"
-  ],
+  "author": {
+    "name": "Cognex"
+  },
   "keywords": [
     "cordova",
     "phonegap",
@@ -42,5 +27,9 @@
   ],
   "description": "CMB Scanner Cordova Plugin",
   "bugs": "https://cmbdn.cognex.com/tickets/submit_ticket",
-  "downloads": 141
+  "downloads": 131,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

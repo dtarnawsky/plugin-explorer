@@ -9,11 +9,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/adriano-di-giovanni/cordova-plugin-shared-preferences.git",
-  "author": "Adriano Di Giovanni <me@adrianodigiovanni.com> (http://adrianodigiovanni.com/)",
-  "published": "2022-06-13T23:50:53.719Z",
-  "versions": [
-    "0.1.0"
-  ],
+  "author": {
+    "name": "Adriano Di Giovanni",
+    "email": "me@adrianodigiovanni.com",
+    "url": "http://adrianodigiovanni.com/"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -37,5 +37,10 @@
   "image": "https://avatars.githubusercontent.com/u/3408372?v=4",
   "quality": 118,
   "updated": "2022-04-21T19:00:00Z",
-  "downloads": 451
+  "downloads": 424,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

@@ -7,17 +7,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/approov/quickstart-cordova-advancedhttp.git",
-  "author": "Wymsee",
-  "published": "2022-12-29T14:36:10.479Z",
-  "versions": [
-    "3.0.2",
-    "3.0.3",
-    "3.0.4",
-    "3.0.5",
-    "3.0.6",
-    "3.1.0",
-    "3.1.1"
-  ],
+  "author": {
+    "name": "Wymsee"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -41,5 +33,9 @@
   "image": "https://avatars.githubusercontent.com/u/23264728?v=4",
   "quality": 108,
   "updated": "2022-04-29T18:11:07Z",
-  "downloads": 54
+  "downloads": 52,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

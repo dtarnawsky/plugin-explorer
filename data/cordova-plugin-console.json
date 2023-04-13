@@ -10,31 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-console.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:01:18.995Z",
-  "versions": [
-    "0.2.0",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8",
-    "0.2.9",
-    "0.2.10",
-    "0.2.11",
-    "0.2.12",
-    "0.2.13",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.1.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "console",
@@ -61,8 +39,17 @@
   "description": "Cordova Console Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
   "quality": 338,
-  "downloads": 6053,
+  "downloads": 5823,
   "stars": 148,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "updated": "2023-03-02T21:28:06Z"
+  "updated": "2023-03-02T21:28:06Z",
+  "platforms": [
+    "ios",
+    "ubuntu",
+    "wp7",
+    "wp8",
+    "windows8",
+    "windows"
+  ],
+  "fork": false
 }

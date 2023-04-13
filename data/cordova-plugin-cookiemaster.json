@@ -9,14 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/edwardgaoyb/cordova-cookie-master.git",
-  "author": "Edward Gao",
-  "published": "2022-06-14T00:01:43.938Z",
-  "versions": [
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5"
-  ],
+  "author": {
+    "name": "Edward Gao"
+  },
   "keywords": [
     "cordova",
     "phonegap",
@@ -39,5 +34,10 @@
   "image": "https://avatars.githubusercontent.com/u/7512269?v=4",
   "quality": 21,
   "updated": "2022-09-17T18:41:53Z",
-  "downloads": 574
+  "downloads": 524,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true
 }

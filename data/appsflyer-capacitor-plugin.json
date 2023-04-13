@@ -6,27 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/AppsFlyerSDK/appsflyer-capacitor-plugin.git",
-  "author": "Paz Lavi",
-  "published": "2022-11-13T11:33:59.029Z",
-  "versions": [
-    "6.3.5-beta.0",
-    "6.3.5",
-    "6.4.0",
-    "6.4.2-rc2",
-    "6.4.4-rc2",
-    "6.4.4",
-    "6.5.2-rc1",
-    "6.5.2",
-    "6.8.0-rc1",
-    "6.8.0-rc2",
-    "6.8.0",
-    "6.8.2-rc1",
-    "6.8.2",
-    "6.9.2-cap3",
-    "6.9.2-cap3-rc1",
-    "6.9.2-rc1",
-    "6.9.2"
-  ],
+  "author": {
+    "name": "Paz Lavi"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -46,5 +28,10 @@
   "image": "https://avatars.githubusercontent.com/u/6083614?v=4",
   "quality": 121,
   "updated": "2023-02-14T21:47:49Z",
-  "downloads": 15696
+  "downloads": 15182,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

@@ -8,13 +8,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/karandpr/cordova-plugin-android-rootbeer.git",
-  "author": "Karan Gandhi",
-  "published": "2022-10-18T13:54:01.257Z",
-  "versions": [
-    "0.0.6",
-    "0.0.8",
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Karan Gandhi"
+  },
   "keywords": [
     "cordova",
     "root",
@@ -36,5 +32,9 @@
   "image": "https://avatars.githubusercontent.com/u/1048084?v=4",
   "quality": 118,
   "updated": "2022-10-18T13:12:42Z",
-  "downloads": 110
+  "downloads": 113,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

@@ -6,14 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/gianluigitrontini/capacitor-codepush.git",
-  "author": "Gianluigi Trontini",
-  "published": "2023-03-06T14:50:07.575Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Gianluigi Trontini"
+  },
   "keywords": [
     "capacitor",
     "code",
@@ -36,5 +31,10 @@
   "image": "https://avatars.githubusercontent.com/u/39003797?v=4",
   "quality": 4,
   "updated": "2023-04-01T18:02:20Z",
-  "downloads": 94
+  "downloads": 29,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true
 }

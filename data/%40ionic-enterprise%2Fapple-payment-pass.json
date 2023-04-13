@@ -9,16 +9,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/ionic-team/apple-wallet-card-provision.git",
-  "author": "Ionic",
-  "published": "2023-03-22T13:19:12.254Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0",
-    "1.1.1"
-  ],
+  "author": {
+    "name": "Ionic"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios"
@@ -29,5 +22,9 @@
   ],
   "description": "This plugin allows you to add credit cards to Apple Wallet",
   "bugs": "https://ionic.zendesk.com/hc/en-us",
-  "quality": null
+  "quality": null,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "platforms": [
+    "ios"
+  ]
 }

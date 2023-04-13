@@ -9,37 +9,6 @@
     "capacitor-ios-5"
   ],
   "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:04:36.572Z",
-  "versions": [
-    "0.2.1",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8",
-    "0.2.9",
-    "0.2.10",
-    "0.2.11",
-    "0.2.12",
-    "0.2.13",
-    "0.3.0",
-    "1.0.0",
-    "1.0.1",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.1.3",
-    "1.1.4",
-    "1.1.5",
-    "1.1.6",
-    "1.1.7",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "2.1.0"
-  ],
   "keywords": [
     "cordova",
     "device",
@@ -57,5 +26,13 @@
     "cordova-ios-6"
   ],
   "description": "Cordova Device Plugin",
-  "downloads": 295633
+  "downloads": 279967,
+  "platforms": [
+    "android",
+    "electron",
+    "ios",
+    "windows",
+    "browser",
+    "osx"
+  ]
 }

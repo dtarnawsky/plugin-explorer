@@ -3,21 +3,9 @@
   "version": "1.5.0-alpha.10",
   "success": [],
   "repo": "https://github.com/capacitor-community/bluetooth-le.git",
-  "author": "pwespi",
-  "published": "2022-04-12T05:14:57.615Z",
-  "versions": [
-    "1.5.0-alpha.0",
-    "1.5.0-alpha.1",
-    "1.5.0-alpha.2",
-    "1.5.0-alpha.3",
-    "1.5.0-alpha.4",
-    "1.5.0-alpha.5",
-    "1.5.0-alpha.6",
-    "1.5.0-alpha.7",
-    "1.5.0-alpha.8",
-    "1.5.0-alpha.9",
-    "1.5.0-alpha.10"
-  ],
+  "author": {
+    "name": "pwespi"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -38,7 +26,12 @@
   "bugs": "https://github.com/capacitor-community/bluetooth-le/issues",
   "stars": 164,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 335,
+  "quality": 338,
   "updated": "2023-03-31T08:03:55Z",
-  "downloads": 32
+  "downloads": 32,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

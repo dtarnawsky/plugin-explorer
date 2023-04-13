@@ -5,13 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "repo": "https://github.com/ionic-team/capacitor-live-updates-plugin.git",
-  "author": "Ionic",
-  "published": "2023-03-20T01:13:27.311Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Ionic"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,5 +24,10 @@
   "description": "Official Live Updates plugin for Capacitor",
   "bugs": "https://github.com/ionic-team/capacitor-live-updates-plugin/issues",
   "quality": null,
-  "downloads": 1166
+  "downloads": 1098,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

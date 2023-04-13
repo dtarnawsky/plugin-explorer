@@ -58,25 +58,28 @@
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
         > Task :capacitor-app:extractDeepLinksRelease
+        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:extractDeepLinksRelease
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
-        > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-app:compileReleaseLibraryResources
-        > Task :capacitor-keyboard:processReleaseManifest
-        > Task :capacitor-app:processReleaseManifest
-        > Task :capacitor-keyboard:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-android:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-status-bar:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-app:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseLibraryResources
+        > Task :app:processReleaseMainManifest
+        > Task :app:processReleaseManifest
+        > Task :app:processApplicationManifestReleaseForBundle
+        > Task :capacitor-haptics:compileReleaseLibraryResources
+        > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :app:checkReleaseDuplicateClasses FAILED
-        > Task :app:processReleaseMainManifest
         > Task :app:mergeReleaseResources
+        > Task :app:desugarReleaseFileDependencies
         
         FAILURE: Build failed with an exception.
         
@@ -94,6 +97,6 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 5s
-        37 actionable tasks: 37 executed
+        BUILD FAILED in 3s
+        40 actionable tasks: 40 executed
         

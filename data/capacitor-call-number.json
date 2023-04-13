@@ -9,14 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/mantosh59/call-number.git",
-  "author": "Devmantosh",
-  "published": "2022-04-12T05:15:00.367Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Devmantosh"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/11851742?v=4",
   "quality": 101,
   "updated": "2021-07-15T05:33:33Z",
-  "downloads": 2533
+  "downloads": 2384,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

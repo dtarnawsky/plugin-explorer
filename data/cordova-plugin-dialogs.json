@@ -10,35 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-dialogs.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:05:21.602Z",
-  "versions": [
-    "0.2.0",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8",
-    "0.2.9",
-    "0.2.10",
-    "0.2.11",
-    "0.3.0",
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0",
-    "1.2.1",
-    "1.3.0",
-    "1.3.1",
-    "1.3.2",
-    "1.3.3",
-    "1.3.4",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "notification",
@@ -64,7 +38,14 @@
   "bugs": "https://github.com/apache/cordova-plugin-dialogs/issues",
   "stars": 289,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "quality": 770,
+  "quality": 769,
   "updated": "2023-03-02T20:35:10Z",
-  "downloads": 93928
+  "downloads": 88719,
+  "platforms": [
+    "android",
+    "browser",
+    "ios",
+    "windows"
+  ],
+  "fork": false
 }

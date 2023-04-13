@@ -9,21 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/edimuj/cordova-plugin-audioinput.git",
-  "author": "Edin Mujkanovic",
-  "published": "2022-06-13T23:50:21.209Z",
-  "versions": [
-    "0.0.1",
-    "0.0.9",
-    "0.1.0",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.3.0",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Edin Mujkanovic"
+  },
   "keywords": [
     "ecosystem:cordova",
     "ecosystem:phonegap",
@@ -65,7 +53,12 @@
   "bugs": "https://github.com/edimuj/cordova-plugin-audioinput/issues",
   "stars": 153,
   "image": "https://avatars.githubusercontent.com/u/8247763?v=4",
-  "quality": 371,
+  "quality": 373,
   "updated": "2023-02-24T09:40:30Z",
-  "downloads": 3275
+  "downloads": 3343,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

@@ -6,11 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/astrocreep/capacitor-textinteraction.git",
-  "author": "Florian Hofmann",
-  "published": "2022-10-16T08:36:20.586Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Florian Hofmann"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +28,8 @@
   "image": "https://avatars.githubusercontent.com/u/13100695?v=4",
   "quality": 100,
   "updated": "2022-10-16T09:00:09Z",
-  "downloads": 9
+  "downloads": 8,
+  "platforms": [
+    "ios"
+  ]
 }

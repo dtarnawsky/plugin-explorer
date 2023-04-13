@@ -28,40 +28,19 @@
     "cordova-ios-6",
     "cordova-android-11"
   ],
-  "stars": 20,
+  "stars": 21,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
   "description": "Provides access to the native biometric auth APIs for Capacitor apps",
-  "quality": 124,
-  "updated": "2023-04-03T13:57:59Z",
-  "versions": [
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "2.0.4",
-    "2.0.5",
-    "2.0.6",
-    "2.0.7",
-    "2.0.8",
-    "3.0.0",
-    "3.0.1",
-    "3.0.2",
-    "3.1.0",
-    "3.1.1",
-    "3.1.2",
-    "3.1.3",
-    "3.1.4",
-    "4.0.0"
-  ],
-  "author": "Aparajita Fishman",
+  "quality": 125,
+  "updated": "2023-04-11T20:59:19Z",
+  "author": {
+    "name": "Aparajita Fishman"
+  },
   "bugs": "https://github.com/aparajita/capacitor-biometric-auth/issues",
-  "published": "2023-03-31T23:19:27.924Z",
-  "downloads": 2101
+  "downloads": 2331,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

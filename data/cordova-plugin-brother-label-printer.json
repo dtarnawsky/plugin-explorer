@@ -5,20 +5,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/MenelicSoftware/cordova-plugin-brother-label-printer.git",
-  "author": "Thomas Gordon Lowrey IV",
-  "published": "2022-07-28T17:10:28.594Z",
-  "versions": [
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.5.0",
-    "1.5.1",
-    "1.5.4",
-    "1.5.5",
-    "1.5.6",
-    "1.6.0",
-    "1.6.1"
-  ],
+  "author": {
+    "name": "Thomas Gordon Lowrey IV"
+  },
   "keywords": [
     "brother",
     "print",
@@ -43,5 +32,10 @@
   "image": "https://avatars.githubusercontent.com/u/24511811?v=4",
   "quality": 31,
   "updated": "2023-03-07T07:34:26Z",
-  "downloads": 38
+  "downloads": 36,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true
 }

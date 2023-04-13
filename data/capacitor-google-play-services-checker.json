@@ -6,15 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/asephermann/capacitor-google-play-services-checker.git",
-  "author": "Asep Herman Nursalam",
-  "published": "2022-09-13T03:30:04.065Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5"
-  ],
+  "author": {
+    "name": "Asep Herman Nursalam"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
   "quality": 101,
   "updated": "2022-07-27T04:17:51Z",
-  "downloads": 2023
+  "downloads": 1976,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

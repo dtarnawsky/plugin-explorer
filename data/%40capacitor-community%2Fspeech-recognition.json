@@ -8,17 +8,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/capacitor-community/speech-recognition.git",
-  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
-  "published": "2023-02-03T18:22:13.886Z",
-  "versions": [
-    "0.0.3",
-    "0.0.4",
-    "1.0.0",
-    "2.0.0",
-    "2.1.0",
-    "3.0.0-0",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Priyank Patel",
+    "email": "priyank.patel@stackspace.ca"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -36,5 +29,10 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 186,
   "updated": "2023-04-04T19:59:49Z",
-  "downloads": 786
+  "downloads": 830,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

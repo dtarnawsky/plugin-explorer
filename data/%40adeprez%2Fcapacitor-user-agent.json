@@ -23,16 +23,17 @@
   ],
   "description": "User Agent get/set/reset plugin for Capacitor",
   "quality": 101,
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3"
-  ],
-  "author": "Alexis Deprez",
+  "author": {
+    "name": "Alexis Deprez"
+  },
   "bugs": "https://github.com/adeprez/capacitor-user-agent/issues",
-  "published": "2022-12-08T19:22:29.708Z",
-  "downloads": 2014,
+  "downloads": 1973,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/2982153?v=4",
-  "updated": "2023-01-13T13:48:38Z"
+  "updated": "2023-01-13T13:48:38Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

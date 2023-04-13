@@ -10,11 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "http://git.scat.su/external/cordova-plugin-android-notification-manager",
-  "author": "SKAT Ltd",
-  "published": "2022-04-27T17:09:52.785Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "SKAT Ltd"
+  },
   "keywords": [
     "android",
     "notification",
@@ -31,5 +29,8 @@
     "cordova-android-11"
   ],
   "description": "Manage android notification channels in cordova application",
-  "downloads": 5
+  "downloads": 5,
+  "platforms": [
+    "android"
+  ]
 }

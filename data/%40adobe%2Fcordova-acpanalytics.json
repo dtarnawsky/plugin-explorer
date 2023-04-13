@@ -28,11 +28,14 @@
   "description": "Adobe Experience Platform - Analytics plugin for Cordova apps.",
   "quality": 108,
   "updated": "2021-08-23T17:25:05Z",
-  "versions": [
-    "0.0.1"
-  ],
-  "author": "Adobe",
+  "author": {
+    "name": "Adobe"
+  },
   "bugs": "https://github.com/adobe/cordova-acpanalytics/issues",
-  "published": "2022-04-04T11:34:29.764Z",
-  "downloads": 2249
+  "downloads": 2478,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

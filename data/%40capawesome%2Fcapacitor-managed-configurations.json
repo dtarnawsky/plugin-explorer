@@ -6,11 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-managed-configurations.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2022-08-04T17:43:33.296Z",
-  "versions": [
-    "0.2.0"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -38,5 +37,10 @@
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
   "quality": 105,
   "updated": "2023-04-01T07:36:39Z",
-  "downloads": 707
+  "downloads": 664,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

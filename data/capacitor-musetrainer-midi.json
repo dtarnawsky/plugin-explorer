@@ -3,27 +3,9 @@
   "version": "0.2.3",
   "success": [],
   "repo": "https://github.com/musetrainer/capacitor-musetrainer-midi.git",
-  "author": "Tai M. Vo",
-  "published": "2023-01-10T04:11:37.715Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6-alpha.0",
-    "0.1.0",
-    "0.1.1-alpha.0",
-    "0.1.1-alpha.1",
-    "0.1.1",
-    "0.1.2",
-    "0.2.0-alpha.0",
-    "0.2.0-alpha.1",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3"
-  ],
+  "author": {
+    "name": "Tai M. Vo"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -44,8 +26,13 @@
   "description": "Capacitor MIDI plugin by MuseTrainer",
   "bugs": "https://github.com/musetrainer/capacitor-musetrainer-midi/issues",
   "quality": 102,
-  "downloads": 64,
+  "downloads": 47,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/114279410?v=4",
-  "updated": "2023-02-08T10:43:21Z"
+  "updated": "2023-02-08T10:43:21Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

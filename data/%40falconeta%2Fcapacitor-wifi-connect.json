@@ -6,28 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/falconeta/capacitor-wifi-connect.git",
-  "author": "Falconeta",
-  "published": "2023-02-03T08:15:49.532Z",
-  "versions": [
-    "0.0.15",
-    "0.0.16",
-    "0.0.17",
-    "0.0.18",
-    "0.0.20",
-    "0.0.21",
-    "0.0.22",
-    "0.0.23",
-    "0.0.24",
-    "0.0.25",
-    "0.0.26",
-    "0.0.27",
-    "0.0.28",
-    "0.0.29",
-    "0.0.30",
-    "0.0.31",
-    "0.0.32",
-    "0.0.33"
-  ],
+  "author": {
+    "name": "Falconeta"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -44,8 +25,13 @@
   "description": "plugin used for connect the device trhought Wifi also with prefix",
   "bugs": "https://github.com/falconeta/capacitor-wifi-connect/issues",
   "quality": 106,
-  "downloads": 232,
+  "downloads": 206,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/36620514?v=4",
-  "updated": "2023-03-05T19:16:11Z"
+  "updated": "2023-03-05T19:16:11Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

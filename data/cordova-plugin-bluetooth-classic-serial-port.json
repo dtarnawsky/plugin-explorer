@@ -9,15 +9,10 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/MaximBelov/cordova-plugin-bluetooth-classic-serial-port.git",
-  "author": "Soltius New Zealand <steve.campbell@soltius.co.nz>",
-  "published": "2023-03-27T15:39:56.881Z",
-  "versions": [
-    "0.9.8",
-    "0.9.9",
-    "0.9.10",
-    "0.9.11",
-    "0.9.12"
-  ],
+  "author": {
+    "name": "Soltius New Zealand",
+    "email": "steve.campbell@soltius.co.nz"
+  },
   "keywords": [
     "cordova",
     "bluetooth",
@@ -32,9 +27,14 @@
   ],
   "description": "Cordova Bluetooth Serial Port Profile Communication Plugin",
   "bugs": "https://github.com/MaximBelov/cordova-plugin-bluetooth-classic-serial-port/issues",
-  "stars": 3,
+  "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
-  "quality": 9,
-  "updated": "2023-02-28T14:17:58Z",
-  "downloads": 473
+  "quality": 10,
+  "updated": "2023-04-12T13:39:02Z",
+  "downloads": 542,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true
 }

@@ -9,17 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/EinfachHans/cordova-plugin-advanced-background-mode.git",
-  "author": "EinfachHans",
-  "published": "2022-04-27T17:08:26.087Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.1.0",
-    "1.1.1"
-  ],
+  "author": {
+    "name": "EinfachHans"
+  },
   "keywords": [
     "appplant",
     "background",
@@ -39,5 +31,11 @@
   "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
   "quality": 129,
   "updated": "2023-03-30T15:59:21Z",
-  "downloads": 142
+  "downloads": 155,
+  "platforms": [
+    "ios",
+    "android",
+    "browser"
+  ],
+  "fork": false
 }

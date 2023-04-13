@@ -4,24 +4,9 @@
   "success": [
     "capacitor-ios-4"
   ],
-  "repo": "https://github.com/P4IT/capacitor-plugin-cidscan.git",
-  "author": "Uwe Hoppe",
-  "published": "2022-10-21T07:03:09.495Z",
-  "versions": [
-    "1.0.41",
-    "1.0.42",
-    "1.0.43",
-    "1.0.44",
-    "1.0.45",
-    "1.0.46",
-    "1.0.47",
-    "1.0.48",
-    "1.0.49",
-    "1.0.50",
-    "1.0.51",
-    "1.0.52",
-    "1.0.53"
-  ],
+  "author": {
+    "name": "Uwe Hoppe"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -39,5 +24,9 @@
   "description": "CaptureID Camera Scanner Plugin",
   "bugs": "https://github.com/P4IT/capacitor-plugin-cidscan.git/issues",
   "quality": null,
-  "downloads": 258
+  "downloads": 237,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

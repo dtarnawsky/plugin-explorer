@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/vendus/sockets-for-cordova.git",
-  "author": "blocshop",
-  "published": "2022-04-07T10:25:42.223Z",
-  "versions": [
-    "1.7.2"
-  ],
+  "author": {
+    "name": "blocshop"
+  },
   "keywords": [
     "cordova",
     "sockets",
@@ -31,8 +29,14 @@
   "description": "This Cordova plugin provides JavaScript API, that allows you to communicate with server through TCP protocol. Currently we support these platforms: iOS, Android, WP8.",
   "bugs": "https://github.com/vendus/sockets-for-cordova/issues",
   "quality": 5,
-  "downloads": 267,
+  "downloads": 200,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/36049514?v=4",
-  "updated": "2022-12-06T06:05:52Z"
+  "updated": "2022-12-06T06:05:52Z",
+  "platforms": [
+    "ios",
+    "android",
+    "wp8"
+  ],
+  "fork": true
 }

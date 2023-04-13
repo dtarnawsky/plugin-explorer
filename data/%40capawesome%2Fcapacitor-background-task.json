@@ -6,11 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-background-task.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2022-08-04T17:43:22.752Z",
-  "versions": [
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,5 +34,10 @@
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
   "quality": 155,
   "updated": "2023-04-01T07:29:03Z",
-  "downloads": 4569
+  "downloads": 4288,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

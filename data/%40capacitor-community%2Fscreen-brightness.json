@@ -7,14 +7,6 @@
   ],
   "repo": "https://github.com/capacitor-community/screen-brightness.git",
   "author": "",
-  "published": "2023-01-23T16:46:04.220Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.0.1",
-    "2.0.0-0",
-    "4.0.0"
-  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +26,10 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 117,
   "updated": "2023-02-02T21:26:57Z",
-  "downloads": 27442
+  "downloads": 25711,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

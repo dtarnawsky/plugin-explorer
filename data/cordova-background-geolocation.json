@@ -4,12 +4,9 @@
   "success": [
     "cordova-ios-6"
   ],
-  "repo": "https://github.com/transistorsoft/cordova-background-geolocation.git",
-  "author": "Chris Scott, Transistor Software",
-  "published": "2022-04-27T17:00:53.967Z",
-  "versions": [
-    "2.12.0"
-  ],
+  "author": {
+    "name": "Chris Scott, Transistor Software"
+  },
   "keywords": [
     "gps",
     "location",
@@ -37,5 +34,9 @@
   "description": "The most sophisticated cross-platform background location tracking & geofencing plugin with battery-conscious motion-detection",
   "bugs": "https://github.com/transistorsoft/cordova-background-geolocation/issues",
   "quality": null,
-  "downloads": 15
+  "downloads": 18,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

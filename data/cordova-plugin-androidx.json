@@ -10,15 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/dpa99c/cordova-plugin-androidx.git",
-  "author": "Dave Alden",
-  "published": "2022-04-27T17:10:19.988Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "2.0.0",
-    "3.0.0"
-  ],
+  "author": {
+    "name": "Dave Alden"
+  },
   "fails": [
     "capacitor-android-3",
     "cordova-android-11"
@@ -29,6 +23,7 @@
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 168,
   "updated": "2023-01-28T12:42:07Z",
-  "downloads": 76083,
-  "keywords": []
+  "downloads": 73227,
+  "keywords": [],
+  "fork": false
 }

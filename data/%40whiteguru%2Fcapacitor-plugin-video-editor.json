@@ -1,29 +1,14 @@
 {
   "name": "@whiteguru/capacitor-plugin-video-editor",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/dragermrb/capacitor-plugin-video-editor.git",
-  "author": "Manuel Rodríguez",
-  "published": "2023-01-08T11:49:11.637Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "3.0.1",
-    "4.0.1",
-    "4.0.2",
-    "4.0.3"
-  ],
+  "author": {
+    "name": "Manuel Rodríguez"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -40,8 +25,13 @@
   "description": "Capacitor plugin to edit videos",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-video-editor/issues",
   "quality": 106,
-  "downloads": 721,
+  "downloads": 766,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
-  "updated": "2023-03-15T20:38:33Z"
+  "updated": "2023-03-15T20:38:33Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

@@ -3,16 +3,9 @@
   "version": "0.0.6",
   "success": [],
   "repo": "https://github.com/hemangsk/capacitor-googlemaps-native.git",
-  "author": "Hemang Kumar",
-  "published": "2022-04-12T05:15:22.422Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6"
-  ],
+  "author": {
+    "name": "Hemang Kumar"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -41,5 +34,10 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 316,
   "updated": "2023-03-10T15:04:30Z",
-  "downloads": 33
+  "downloads": 46,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

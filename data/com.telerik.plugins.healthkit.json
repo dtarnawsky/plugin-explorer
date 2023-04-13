@@ -8,22 +8,11 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "author": "Telerik / Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-13T06:33:32.035Z",
-  "versions": [
-    "0.3.8",
-    "0.3.10",
-    "0.4.1",
-    "0.4.2",
-    "0.5.0",
-    "0.5.1",
-    "0.5.3",
-    "0.5.4",
-    "0.5.5",
-    "0.5.6",
-    "0.6.0",
-    "0.7.0"
-  ],
+  "author": {
+    "name": "Telerik / Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "Health",
     "HealthKit",
@@ -41,5 +30,5 @@
     "cordova-android-11"
   ],
   "description": "Interact with the iOS HealthKit SDK.",
-  "downloads": 608
+  "downloads": 609
 }

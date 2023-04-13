@@ -6,13 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/nwrman/cordova-plugin-conekta.git",
-  "author": "Jonathan H. Fernández",
-  "published": "2022-04-27T17:16:48.087Z",
-  "versions": [
-    "0.1.0",
-    "0.2.0",
-    "0.3.0"
-  ],
+  "author": {
+    "name": "Jonathan H. Fernández"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -33,8 +29,13 @@
   "description": "Cordova plugin that lets you use Conekta's Native SDKs for Android and iOS",
   "bugs": "https://github.com/nwrman/cordova-plugin-conekta/issues",
   "quality": 105,
-  "downloads": 14,
+  "downloads": 13,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/1259562?v=4",
-  "updated": "2022-02-28T23:38:50Z"
+  "updated": "2022-02-28T23:38:50Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

@@ -6,12 +6,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/tjwoon/csZBar.git",
-  "author": "TJ Woon <tj@cloudsky.org>",
-  "published": "2022-06-14T00:03:06.467Z",
-  "versions": [
-    "1.3.1",
-    "1.3.4"
-  ],
+  "author": {
+    "name": "TJ Woon",
+    "email": "tj@cloudsky.org"
+  },
   "keywords": [
     "cszbar",
     "zbar",
@@ -37,5 +35,10 @@
   "image": "https://avatars.githubusercontent.com/u/5500559?v=4",
   "quality": 489,
   "updated": "2022-11-04T10:37:48Z",
-  "downloads": 262
+  "downloads": 265,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

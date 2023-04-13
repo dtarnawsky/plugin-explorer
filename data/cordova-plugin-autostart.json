@@ -8,16 +8,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/ToniKorin/cordova-plugin-autostart.git",
-  "author": "Toni Korin",
-  "published": "2022-06-13T23:50:43.717Z",
-  "versions": [
-    "1.3.0",
-    "2.0.0",
-    "2.0.1",
-    "2.1.0",
-    "2.2.0",
-    "2.3.0"
-  ],
+  "author": {
+    "name": "Toni Korin"
+  },
   "keywords": [
     "autostart",
     "ecosystem:cordova",
@@ -35,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/11617354?v=4",
   "quality": 296,
   "updated": "2023-03-04T20:06:22Z",
-  "downloads": 429
+  "downloads": 410,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

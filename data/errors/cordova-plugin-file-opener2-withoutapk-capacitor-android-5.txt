@@ -74,24 +74,24 @@
         > Task :app:createReleaseCompatibleScreenManifests
         > Task :app:extractDeepLinksRelease
         > Task :capacitor-android:extractDeepLinksRelease
-        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-app:extractDeepLinksRelease
-        > Task :capacitor-app:processReleaseManifest
         > Task :capacitor-cordova-android-plugins:extractDeepLinksRelease
+        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :capacitor-haptics:extractDeepLinksRelease
+        > Task :capacitor-haptics:processReleaseManifest
         > Task :capacitor-keyboard:extractDeepLinksRelease
-        > Task :capacitor-keyboard:processReleaseManifest
+        > Task :capacitor-android:processReleaseManifest
         > Task :capacitor-status-bar:extractDeepLinksRelease
         > Task :capacitor-status-bar:processReleaseManifest
-        > Task :capacitor-haptics:processReleaseManifest
+        > Task :capacitor-app:processReleaseManifest
+        > Task :capacitor-keyboard:processReleaseManifest
         > Task :capacitor-app:compileReleaseLibraryResources
+        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
+        > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-android:compileReleaseLibraryResources
-        > Task :capacitor-cordova-android-plugins:processReleaseManifest
         > Task :app:processReleaseMainManifest
         > Task :app:processReleaseManifest
         > Task :app:processApplicationManifestReleaseForBundle
-        > Task :capacitor-cordova-android-plugins:compileReleaseLibraryResources
-        > Task :capacitor-haptics:compileReleaseLibraryResources
         > Task :capacitor-keyboard:compileReleaseLibraryResources
         > Task :capacitor-status-bar:compileReleaseLibraryResources
         > Task :app:checkReleaseDuplicateClasses FAILED

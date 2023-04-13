@@ -10,27 +10,6 @@
   ],
   "repo": "https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview.git",
   "author": "",
-  "published": "2022-06-14T00:02:38.997Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.2.0",
-    "1.3.0",
-    "1.3.1",
-    "1.4.0",
-    "1.5.0",
-    "1.6.0",
-    "1.6.1",
-    "1.7.0",
-    "1.7.1",
-    "1.7.2",
-    "1.8.0",
-    "2.0.0",
-    "2.1.0",
-    "2.2.0",
-    "2.3.0",
-    "2.4.0"
-  ],
   "keywords": [
     "cordova",
     "chromium",
@@ -51,5 +30,9 @@
   "image": "https://avatars.githubusercontent.com/u/4867377?v=4",
   "quality": 1421,
   "updated": "2023-01-28T15:12:30Z",
-  "downloads": 1242
+  "downloads": 1059,
+  "platforms": [
+    "android"
+  ],
+  "fork": true
 }

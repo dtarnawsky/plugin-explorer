@@ -9,13 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/TheAnkurPanchani/cordova-plugin-file-opener2.git",
-  "author": "ankurpanchani.career@gmail.com",
-  "published": "2022-10-07T08:22:11.903Z",
-  "versions": [
-    "1.0.0-rc",
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "ankurpanchani.career@gmail.com"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -34,5 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/26305975?v=4",
   "quality": 0,
   "updated": "2022-10-07T07:14:18Z",
-  "downloads": 129
+  "downloads": 110,
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "electron"
+  ]
 }

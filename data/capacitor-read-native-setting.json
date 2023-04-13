@@ -8,17 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ingageco/capacitor-read-native-setting.git",
-  "author": "Jay Hughes",
-  "published": "2023-02-26T15:35:44.641Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.0.1",
-    "3.0.0",
-    "3.0.1",
-    "3.0.2",
-    "3.1.0"
-  ],
+  "author": {
+    "name": "Jay Hughes"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +25,10 @@
   "description": "A simple plugin to read from Info.plist on iOS and strings.xml on Android",
   "bugs": "https://github.com/ingageco/capacitor-read-native-setting/issues",
   "quality": null,
-  "downloads": 58
+  "downloads": 54,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0
 }

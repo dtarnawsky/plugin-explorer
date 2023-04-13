@@ -8,11 +8,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "JiaWei",
-  "published": "2022-04-27T17:16:13.931Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "JiaWei"
+  },
   "keywords": [
     "cleartext",
     "usesCleartextTraffic",
@@ -26,5 +24,8 @@
     "cordova-ios-6"
   ],
   "description": "",
-  "downloads": 12974
+  "downloads": 13727,
+  "platforms": [
+    "android"
+  ]
 }

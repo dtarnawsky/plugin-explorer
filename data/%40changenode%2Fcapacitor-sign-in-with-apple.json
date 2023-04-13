@@ -6,14 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/ChangeNode/capacitor-sign-in-with-apple.git",
-  "author": "Will Iverson",
-  "published": "2022-12-07T23:44:57.899Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Will Iverson"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +25,9 @@
   "description": "Native Sign In With Apple CapacitorJS Plugin",
   "bugs": "https://github.com/ChangeNode/capacitor-sign-in-with-apple/issues",
   "quality": null,
-  "downloads": 26
+  "downloads": 25,
+  "platforms": [
+    "ios"
+  ],
+  "stars": 0
 }

@@ -5,12 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/valentinAbundo/capacitor-pass-to-wallet.git",
-  "author": "Valentin Abundo",
-  "published": "2022-04-12T05:15:51.724Z",
-  "versions": [
-    "0.0.4",
-    "0.0.5"
-  ],
+  "author": {
+    "name": "Valentin Abundo"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -39,5 +36,10 @@
   "image": "https://avatars.githubusercontent.com/u/87326120?v=4",
   "quality": 108,
   "updated": "2023-03-10T19:44:17Z",
-  "downloads": 223
+  "downloads": 186,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

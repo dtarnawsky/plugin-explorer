@@ -10,12 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/patwaswapnil/cordova-opentok-android-permissions.git",
-  "author": "Swapnil Patwa",
-  "published": "2022-06-13T23:40:23.185Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Swapnil Patwa"
+  },
   "keywords": [
     "Opentok",
     "permissions",
@@ -43,5 +40,8 @@
   "image": "https://avatars.githubusercontent.com/u/12543693?v=4",
   "quality": 100,
   "updated": "2016-04-23T16:11:25Z",
-  "downloads": 889
+  "downloads": 775,
+  "platforms": [
+    "android"
+  ]
 }

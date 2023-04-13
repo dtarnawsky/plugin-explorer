@@ -8,11 +8,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/pbakondy/cordova-plugin-android-support-v4-jar.git",
-  "author": "Peter Bakondy",
-  "published": "2022-06-13T23:47:16.143Z",
-  "versions": [
-    "23.2.1"
-  ],
+  "author": {
+    "name": "Peter Bakondy"
+  },
   "keywords": [
     "cordova",
     "android",
@@ -34,5 +32,9 @@
   "image": "https://avatars.githubusercontent.com/u/500697?v=4",
   "quality": 107,
   "updated": "2020-04-28T03:42:24Z",
-  "downloads": 135
+  "downloads": 122,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

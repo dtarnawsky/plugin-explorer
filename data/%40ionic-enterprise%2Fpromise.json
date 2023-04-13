@@ -11,10 +11,6 @@
   ],
   "repo": "https://github.com/vstirbu/PromisesPlugin.git",
   "author": "",
-  "published": "2023-03-22T13:19:34.177Z",
-  "versions": [
-    "4.2.2"
-  ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3"
@@ -23,7 +19,8 @@
   "bugs": "https://github.com/vstirbu/PromisesPlugin/issues",
   "stars": 24,
   "image": "https://avatars.githubusercontent.com/u/1288047?v=4",
-  "quality": 143,
+  "quality": 144,
   "updated": "2021-11-16T10:51:12Z",
-  "keywords": []
+  "keywords": [],
+  "fork": false
 }

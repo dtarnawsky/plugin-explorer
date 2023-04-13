@@ -18,16 +18,13 @@
     "capacitor-ios-5",
     "capacitor-android-5"
   ],
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6"
-  ],
-  "author": "Adriaan Odendaal",
+  "author": {
+    "name": "Adriaan Odendaal"
+  },
   "description": "Select Multiple Contacts",
-  "published": "2022-04-04T11:37:05.181Z",
-  "downloads": 16
+  "downloads": 10,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

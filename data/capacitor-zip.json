@@ -6,18 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/triniwiz/capacitor-zip.git",
-  "author": "Osei Fortune",
-  "published": "2022-04-12T05:17:36.595Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Osei Fortune"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,8 +25,13 @@
   "description": "Zip plugin",
   "bugs": "https://github.com/triniwiz/capacitor-zip/issues",
   "quality": 119,
-  "downloads": 111,
+  "downloads": 98,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/6695919?v=4",
-  "updated": "2023-03-15T15:14:34Z"
+  "updated": "2023-03-15T15:14:34Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

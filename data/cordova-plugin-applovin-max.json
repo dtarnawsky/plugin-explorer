@@ -3,20 +3,9 @@
   "version": "1.0.9",
   "success": [],
   "repo": "https://github.com/AppLovin/AppLovin-MAX-Cordova.git",
-  "author": "AppLovin Corporation",
-  "published": "2022-05-30T03:48:06.098Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9"
-  ],
+  "author": {
+    "name": "AppLovin Corporation"
+  },
   "keywords": [
     "applovin",
     "max",
@@ -40,5 +29,10 @@
   "image": "https://avatars.githubusercontent.com/u/1347429?v=4",
   "quality": 126,
   "updated": "2023-01-30T19:42:10Z",
-  "downloads": 276
+  "downloads": 259,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

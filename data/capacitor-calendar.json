@@ -8,29 +8,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Fir3st/capacitor-calendar.git",
-  "author": "Vladimír Fojtík <vladimir@fojtik.dev>",
-  "published": "2022-06-04T05:11:38.793Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.0.11",
-    "0.0.12",
-    "0.0.13",
-    "0.0.14",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6"
-  ],
+  "author": {
+    "name": "Vladimír Fojtík",
+    "email": "vladimir@fojtik.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -48,5 +29,10 @@
   "image": "https://avatars.githubusercontent.com/u/24609278?v=4",
   "quality": 117,
   "updated": "2022-11-10T12:07:02Z",
-  "downloads": 203
+  "downloads": 178,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

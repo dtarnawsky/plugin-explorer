@@ -10,12 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "ssh://git@bitbucket.org/zegeba/cordova-plugin-dns.git",
-  "author": "Zegeba AS",
-  "published": "2022-06-14T00:05:59.042Z",
-  "versions": [
-    "1.0.0",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Zegeba AS"
+  },
   "keywords": [
     "dns",
     "ecosystem:cordova",
@@ -28,5 +25,10 @@
     "capacitor-android-3"
   ],
   "description": "Manually resolve DNS hostnames to IPs for diagnosing network setup.",
-  "downloads": 703
+  "downloads": 592,
+  "platforms": [
+    "android",
+    "ios",
+    "browser"
+  ]
 }

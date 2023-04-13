@@ -6,11 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/kduma-autoid/capacitor-bluetooth-printer.git",
-  "author": "Krystian Duma",
-  "published": "2023-03-05T23:04:29.453Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "Krystian Duma"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/123112037?v=4",
   "quality": 101,
   "updated": "2023-03-09T14:54:26Z",
-  "downloads": 68
+  "downloads": 19,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

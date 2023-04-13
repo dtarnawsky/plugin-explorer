@@ -9,12 +9,10 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/MattiaMalonni/cordova-ios-plugin-userdefaults.git",
-  "author": "Mattia Malonni <mattia.malonni@gmail.com>",
-  "published": "2022-04-27T17:04:57.138Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Mattia Malonni",
+    "email": "mattia.malonni@gmail.com"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -38,5 +36,6 @@
   "image": "https://avatars.githubusercontent.com/u/237847?v=4",
   "quality": 102,
   "updated": "2020-12-03T13:04:08Z",
-  "downloads": 13
+  "downloads": 9,
+  "fork": false
 }

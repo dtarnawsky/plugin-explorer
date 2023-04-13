@@ -7,22 +7,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/TimoZacherl/capacitor-plugin-siri-shortcuts.git",
-  "author": "Timo Zacherl",
-  "published": "2022-11-06T13:37:23.894Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "2.0.0",
-    "2.0.1",
-    "2.1.0",
-    "2.1.1",
-    "2.2.0",
-    "2.2.1",
-    "2.2.2",
-    "3.0.0"
-  ],
+  "author": {
+    "name": "Timo Zacherl"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -38,8 +25,13 @@
   "description": "Capacitor Plugin for Siri Shortcuts",
   "bugs": "https://github.com/TimoZacherl/capacitor-plugin-siri-shortcuts/issues",
   "quality": 128,
-  "downloads": 562,
+  "downloads": 260,
   "stars": 12,
   "image": "https://avatars.githubusercontent.com/u/38291523?v=4",
-  "updated": "2023-03-26T07:56:50Z"
+  "updated": "2023-03-26T07:56:50Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

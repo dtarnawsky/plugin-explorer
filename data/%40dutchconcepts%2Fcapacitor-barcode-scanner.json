@@ -3,19 +3,9 @@
   "version": "1.1.2",
   "success": [],
   "repo": "https://github.com/DutchConcepts/capacitor-barcode-scanner.git",
-  "author": "tafelnl",
-  "published": "2022-04-05T06:09:37.159Z",
-  "versions": [
-    "1.0.0-alpha.6",
-    "1.0.0",
-    "1.0.1-alpha.0",
-    "1.0.1-alpha.1",
-    "1.0.1",
-    "1.1.1",
-    "1.1.2",
-    "1.2.0-alpha.1",
-    "1.2.0-alpha.2"
-  ],
+  "author": {
+    "name": "tafelnl"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,8 +24,13 @@
   "description": "A fast and efficient (QR) barcode scanner for Capacitor",
   "bugs": "https://github.com/DutchConcepts/capacitor-barcode-scanner/issues",
   "quality": 9,
-  "downloads": 159,
+  "downloads": 152,
   "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/56254208?v=4",
-  "updated": "2022-08-05T12:31:47Z"
+  "updated": "2022-08-05T12:31:47Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true
 }

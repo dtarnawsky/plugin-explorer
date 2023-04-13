@@ -4,12 +4,6 @@
   "success": [],
   "repo": "https://github.com/nadlowebagentur/capacitor-sip-phone.git",
   "author": "",
-  "published": "2022-12-15T13:17:23.478Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,8 +22,13 @@
   "description": "Connect to SIP phone line",
   "bugs": "https://github.com/nadlowebagentur/capacitor-sip-phone/issues",
   "quality": 106,
-  "downloads": 82,
+  "downloads": 78,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/44623655?v=4",
-  "updated": "2023-01-16T06:20:25Z"
+  "updated": "2023-01-16T06:20:25Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

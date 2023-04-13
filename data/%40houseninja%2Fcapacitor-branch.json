@@ -5,18 +5,10 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "repo": "https://github.com/houseninjadojo/capacitor-branch.git",
-  "author": "House Ninja Engineering <engineering@houseninja.co>",
-  "published": "2022-11-04T11:20:06.321Z",
-  "versions": [
-    "5.1.0-beta.0",
-    "5.1.0-beta.1",
-    "5.1.0-beta.2",
-    "5.1.0-beta.3",
-    "5.1.0-beta.4",
-    "5.1.0-beta.5",
-    "5.1.0-beta.6"
-  ],
+  "author": {
+    "name": "House Ninja Engineering",
+    "email": "engineering@houseninja.co"
+  },
   "keywords": [
     "branch.io",
     "capacitor",
@@ -36,5 +28,9 @@
   "description": "Capacitor plugin for Branch.io deep links",
   "bugs": "https://github.com/houseninjadojo/capacitor-branch/issues",
   "quality": null,
-  "downloads": 131
+  "downloads": 135,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

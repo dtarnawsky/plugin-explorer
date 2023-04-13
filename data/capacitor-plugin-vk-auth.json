@@ -3,22 +3,10 @@
   "version": "3.0.1",
   "success": [],
   "repo": "https://github.com/BazuMax/capacitor-plugin-vk-auth.git",
-  "author": "BazuMax Studio (Maxim Bazuev)",
-  "published": "2022-10-12T19:48:59.048Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5-beta.1",
-    "0.0.5-beta.2",
-    "3.0.0-beta.6",
-    "3.0.0-rc.0",
-    "3.0.0-rc.2",
-    "3.0.0-rc.3",
-    "3.0.0",
-    "3.0.1"
-  ],
+  "author": {
+    "name": "BazuMax Studio",
+    "url": "Maxim Bazuev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -42,8 +30,13 @@
   "description": "VK Authentication with capacitor",
   "bugs": "https://github.com/BazuMax/capacitor-plugin-vk-auth/issues",
   "quality": 104,
-  "downloads": 68,
+  "downloads": 75,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/57247603?v=4",
-  "updated": "2022-12-28T22:25:38Z"
+  "updated": "2022-12-28T22:25:38Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

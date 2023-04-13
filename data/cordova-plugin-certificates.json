@@ -9,16 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/hypery2k/cordova-certificate-plugin.git",
-  "author": "Martin Reinhardt",
-  "published": "2022-06-13T23:58:18.899Z",
-  "versions": [
-    "0.5.0",
-    "0.6.0",
-    "0.6.1",
-    "0.6.2",
-    "0.6.3",
-    "0.6.4"
-  ],
+  "author": {
+    "name": "Martin Reinhardt"
+  },
   "keywords": [
     "cordova",
     "certificates",
@@ -37,5 +30,10 @@
   "image": "https://avatars.githubusercontent.com/u/979121?v=4",
   "quality": 185,
   "updated": "2021-07-21T10:15:53Z",
-  "downloads": 3454
+  "downloads": 3300,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

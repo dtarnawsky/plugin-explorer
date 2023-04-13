@@ -10,14 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "http://git.scat.su/external/cordova-plugin-android-webview-manager",
-  "author": "SKAT Ltd",
-  "published": "2022-06-17T10:32:42.854Z",
-  "versions": [
-    "0.0.1",
-    "0.1.0",
-    "0.2.0",
-    "0.3.0"
-  ],
+  "author": {
+    "name": "SKAT Ltd"
+  },
   "keywords": [
     "android",
     "system",
@@ -31,5 +26,8 @@
     "cordova-android-11"
   ],
   "description": "Allows to call some methods of Cordova Android WebView",
-  "downloads": 13
+  "downloads": 13,
+  "platforms": [
+    "android"
+  ]
 }

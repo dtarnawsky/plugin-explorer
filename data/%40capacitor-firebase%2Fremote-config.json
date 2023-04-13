@@ -6,14 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-firebase.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2023-03-22T12:41:51.039Z",
-  "versions": [
-    "1.2.0-dev.8dd4ad6.1668633721",
-    "1.2.0-dev.93b28c1.1669212870",
-    "1.3.0",
-    "1.4.0"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -46,9 +42,14 @@
   ],
   "description": "Capacitor plugin for Firebase Remote Config.",
   "bugs": "https://github.com/capawesome-team/capacitor-firebase/issues",
-  "quality": 410,
-  "downloads": 1221,
+  "quality": 409,
+  "downloads": 1255,
   "stars": 219,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "updated": "2023-04-04T23:52:16Z"
+  "updated": "2023-04-08T11:33:41Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

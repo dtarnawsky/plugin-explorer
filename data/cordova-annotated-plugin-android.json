@@ -10,14 +10,10 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/appfeel/cordova-annotated-plugin-android.git",
-  "author": "Miquel Martin <info@appfeel.com>",
-  "published": "2022-04-27T17:00:32.469Z",
-  "versions": [
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Miquel Martin",
+    "email": "info@appfeel.com"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -33,5 +29,9 @@
   "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
   "quality": 100,
   "updated": "2020-06-29T17:58:23Z",
-  "downloads": 6643
+  "downloads": 6314,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

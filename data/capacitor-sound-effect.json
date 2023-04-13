@@ -6,14 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/veloce/capacitor-sound-effect.git",
-  "author": "Vincent Velociter",
-  "published": "2022-12-06T10:14:30.553Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "2.0.1",
-    "3.0.0"
-  ],
+  "author": {
+    "name": "Vincent Velociter"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +28,10 @@
   "image": "https://avatars.githubusercontent.com/u/423393?v=4",
   "quality": 112,
   "updated": "2023-02-28T13:30:31Z",
-  "downloads": 188
+  "downloads": 168,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

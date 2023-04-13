@@ -4,15 +4,9 @@
   "success": [
     "capacitor-android-4"
   ],
-  "repo": "https://github.com/chinhle-pa/cordova-plugin-attestation.git",
-  "author": "Chinh Le",
-  "published": "2022-05-18T04:30:43.748Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Chinh Le"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -30,5 +24,9 @@
   "description": "\nThis is pcv plugin for Attestation in Cordova!\n    ",
   "bugs": "https://github.com/chinhle-pa/cordova-plugin-attestation/issues",
   "quality": null,
-  "downloads": 22
+  "downloads": 27,
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

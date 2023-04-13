@@ -6,16 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/rdlabo-team/capacitor-screenshot-event.git",
-  "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
-  "published": "2023-03-20T08:08:17.977Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "3.0.0-0",
-    "3.0.0",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Masahiko Sakakibara",
+    "email": "sakakibara@rdlabo.jp"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,5 +29,10 @@
   "image": "https://avatars.githubusercontent.com/u/64881359?v=4",
   "quality": 115,
   "updated": "2023-03-21T23:23:27Z",
-  "downloads": 416
+  "downloads": 435,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

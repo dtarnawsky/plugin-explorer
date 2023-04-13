@@ -9,11 +9,6 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "published": "2022-04-27T17:06:58.070Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
   "keywords": [
     "play",
     "install",
@@ -24,5 +19,5 @@
     "cordova-android-11"
   ],
   "description": "Play Install Referrer wrapper for Cordova",
-  "downloads": 8
+  "downloads": 9
 }

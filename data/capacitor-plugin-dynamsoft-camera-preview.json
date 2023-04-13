@@ -6,17 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/tony-xlh/capacitor-plugin-camera-preview.git",
-  "author": "Xu Lihang",
-  "published": "2022-11-16T02:38:31.523Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.1.0",
-    "1.2.0"
-  ],
+  "author": {
+    "name": "Xu Lihang"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -36,5 +28,10 @@
   "image": "https://avatars.githubusercontent.com/u/112376616?v=4",
   "quality": 105,
   "updated": "2023-01-12T09:32:15Z",
-  "downloads": 41
+  "downloads": 34,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

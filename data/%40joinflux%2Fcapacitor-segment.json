@@ -7,19 +7,6 @@
   ],
   "repo": "https://github.com/joinflux/capacitor-segment.git",
   "author": "",
-  "published": "2022-11-29T02:26:24.941Z",
-  "versions": [
-    "0.0.1",
-    "0.1.0",
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4",
-    "0.2.0",
-    "0.2.1",
-    "1.0.0",
-    "1.0.1"
-  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -39,7 +26,12 @@
   "bugs": "https://github.com/joinflux/capacitor-segment/issues",
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
-  "quality": 110,
+  "quality": 111,
   "updated": "2022-12-17T02:40:32Z",
-  "downloads": 190
+  "downloads": 242,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

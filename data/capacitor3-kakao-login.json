@@ -5,18 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/efluvi/capacitor3-kakao-login.git",
-  "author": "bdhwan",
-  "published": "2022-10-16T13:27:51.109Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.10",
-    "0.0.11"
-  ],
+  "author": {
+    "name": "bdhwan"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,9 +24,14 @@
   ],
   "description": "kakao login for capacitor3",
   "bugs": "https://github.com/efluvi/capacitor3-kakao-login/issues",
-  "quality": 112,
-  "downloads": 800,
+  "quality": 113,
+  "downloads": 968,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/64414605?v=4",
-  "updated": "2023-03-27T01:21:19Z"
+  "updated": "2023-03-27T01:21:19Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

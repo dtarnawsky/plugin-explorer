@@ -8,23 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ingageco/capacitor-music-controls-plugin.git",
-  "author": "Ingage",
-  "published": "2022-04-12T05:15:40.302Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.9.0",
-    "0.9.1",
-    "0.9.2",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Ingage"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -45,8 +31,13 @@
   "description": "Implementation of MusicControls for Capacitor projects",
   "bugs": "https://github.com/ingageco/capacitor-music-controls-plugin/issues",
   "quality": 152,
-  "downloads": 40,
+  "downloads": 44,
   "stars": 20,
   "image": "https://avatars.githubusercontent.com/u/1514415?v=4",
-  "updated": "2023-01-29T16:54:47Z"
+  "updated": "2023-01-29T16:54:47Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

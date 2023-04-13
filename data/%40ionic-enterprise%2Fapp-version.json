@@ -7,17 +7,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/ionic-team/cordova-plugin-app-version.git",
-  "author": "whiteoctober",
-  "published": "2023-03-22T13:19:12.577Z",
-  "versions": [
-    "0.1.9",
-    "0.1.10",
-    "0.1.11",
-    "0.1.12",
-    "0.1.13",
-    "0.1.14"
-  ],
+  "author": {
+    "name": "whiteoctober"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -34,5 +26,6 @@
   ],
   "description": "Cordova plugin to return the version number of the current app",
   "bugs": "https://github.com/sampart/cordova-plugin-app-version/issues",
-  "quality": null
+  "quality": null,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4"
 }

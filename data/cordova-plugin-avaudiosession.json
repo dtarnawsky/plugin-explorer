@@ -9,14 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://bitbucket.org/TheBosZ/cordova-plugin-avaudiosession.git",
-  "author": "Nathan Kerr",
-  "published": "2022-06-13T23:50:48.713Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2"
-  ],
+  "author": {
+    "name": "Nathan Kerr"
+  },
   "keywords": [
     "cordova",
     "ios",
@@ -32,5 +27,8 @@
   ],
   "description": "Get and Set AVAudioSession information in iOS",
   "bugs": "https://bitbucket.org/TheBosZ/cordova-plugin-avaudiosession/issues?status=new&status=open",
-  "downloads": 8597
+  "downloads": 7153,
+  "platforms": [
+    "ios"
+  ]
 }

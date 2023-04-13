@@ -6,10 +6,6 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/tiltshiftfocus/cordova-plugin-cache.git",
-  "published": "2022-06-13T23:56:38.861Z",
-  "versions": [
-    "1.0.5"
-  ],
   "keywords": [
     "cordova",
     "cache",
@@ -31,5 +27,10 @@
   "image": "https://avatars.githubusercontent.com/u/3158046?v=4",
   "quality": 36,
   "updated": "2020-06-20T04:57:26Z",
-  "downloads": 70
+  "downloads": 73,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true
 }

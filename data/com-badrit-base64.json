@@ -11,10 +11,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/hazemhagrass/phonegap-base64",
-  "published": "2022-06-13T06:32:34.825Z",
-  "versions": [
-    "0.2.0"
-  ],
   "keywords": [
     "cordova",
     "base64",
@@ -30,5 +26,9 @@
   "image": "https://avatars.githubusercontent.com/u/3625423?v=4",
   "quality": 198,
   "updated": "2022-08-21T19:04:51Z",
-  "downloads": 6146
+  "downloads": 5820,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

@@ -6,40 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-firebase.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2023-03-22T12:41:51.053Z",
-  "versions": [
-    "0.2.1-dev.17f1a69.1651697626",
-    "0.2.1-dev.1fbc146.1651736379",
-    "0.2.1-dev.1fbc146.1651744284",
-    "0.2.1-dev.1fbc146.1651744539",
-    "0.2.1-dev.1fbc146.1651753465",
-    "0.2.1-dev.1fbc146.1651753929",
-    "0.2.1-dev.29adfb5.1651758382",
-    "0.2.1-dev.d4bafb5.1651696824",
-    "0.2.2",
-    "0.3.0-dev.6ead72e.1654850957",
-    "0.3.0",
-    "0.3.1-dev.50802e1.1655753859",
-    "0.3.1-dev.7eea63d.1655062734",
-    "0.3.1-dev.857e322.1655063808",
-    "0.3.1",
-    "0.4.0",
-    "0.5.0-dev.92c882e.1657824199",
-    "0.5.0",
-    "0.5.1-dev.01021f0.1659726888",
-    "0.5.1-dev.bd42e0a.1659614749",
-    "0.5.1",
-    "1.0.0",
-    "1.1.0-dev.a6a0720.1664629140",
-    "1.1.0",
-    "1.2.0-dev.4c00b61.1670180888",
-    "1.2.0-dev.4d12fe2.1671704792",
-    "1.2.0",
-    "1.3.0-dev.2c2ce92.1676925005",
-    "1.3.0",
-    "1.4.0"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -72,9 +42,14 @@
   ],
   "description": "Capacitor plugin for Firebase Cloud Messaging (FCM).",
   "bugs": "https://github.com/capawesome-team/capacitor-firebase/issues",
-  "quality": 410,
-  "downloads": 15184,
+  "quality": 409,
+  "downloads": 14606,
   "stars": 219,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "updated": "2023-04-04T23:52:16Z"
+  "updated": "2023-04-08T11:33:41Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

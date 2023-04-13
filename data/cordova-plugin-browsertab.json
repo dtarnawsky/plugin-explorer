@@ -6,13 +6,9 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "author": "Google, Inc.",
-  "published": "2022-06-13T23:55:51.342Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.2.0"
-  ],
+  "author": {
+    "name": "Google, Inc."
+  },
   "keywords": [
     "sfsafariviewcontroller",
     "custom-tabs",
@@ -27,5 +23,8 @@
     "cordova-android-11"
   ],
   "description": "In-app browser tabs for Android and iOS",
-  "downloads": 4318
+  "downloads": 4355,
+  "platforms": [
+    "android"
+  ]
 }

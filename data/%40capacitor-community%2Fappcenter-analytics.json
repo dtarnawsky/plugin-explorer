@@ -6,19 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/appcenter-sdk-capacitor.git#master",
-  "author": "johnborges",
-  "published": "2023-01-23T16:45:48.282Z",
-  "versions": [
-    "0.2.0",
-    "0.2.1",
-    "0.3.0",
-    "0.3.1",
-    "0.3.2",
-    "0.3.3",
-    "1.0.0",
-    "1.1.0",
-    "3.0.0"
-  ],
+  "author": {
+    "name": "johnborges"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -39,9 +29,14 @@
   ],
   "description": "Capacitor plugin for AppCenter Analytics",
   "bugs": "https://github.com/capacitor-community/appcenter-sdk-capacitor/tree/master/appcenter-analytics/issues",
-  "quality": 131,
-  "downloads": 988,
-  "stars": 25,
+  "quality": 132,
+  "downloads": 906,
+  "stars": 26,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "updated": "2022-12-23T06:45:28Z"
+  "updated": "2023-04-07T05:52:49Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

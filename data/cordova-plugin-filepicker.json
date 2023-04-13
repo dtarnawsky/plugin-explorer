@@ -10,13 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/jcesarmobile/FilePicker-Phonegap-iOS-Plugin.git",
-  "author": "jcesarmobile",
-  "published": "2022-06-14T00:11:36.685Z",
-  "versions": [
-    "1.1.4",
-    "1.1.5",
-    "1.1.6"
-  ],
+  "author": {
+    "name": "jcesarmobile"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios"
@@ -31,5 +27,9 @@
   "image": "https://avatars.githubusercontent.com/u/1637892?v=4",
   "quality": 224,
   "updated": "2023-03-03T05:52:16Z",
-  "downloads": 13352
+  "downloads": 11728,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

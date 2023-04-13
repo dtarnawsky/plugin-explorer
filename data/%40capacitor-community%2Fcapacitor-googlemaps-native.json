@@ -6,20 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/capacitor-googlemaps-native.git",
-  "author": "@capacitor-community",
-  "published": "2023-01-23T16:45:52.192Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0",
-    "1.1.1",
-    "1.1.3",
-    "1.1.4",
-    "1.1.5",
-    "1.1.6",
-    "1.2.0"
-  ],
+  "author": {
+    "name": "@capacitor-community"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -43,8 +32,13 @@
   "description": "Plugin using native Maps API for Android and iOS.",
   "bugs": "https://github.com/capacitor-community/capacitor-googlemaps-native/issues",
   "quality": 316,
-  "downloads": 589,
+  "downloads": 622,
   "stars": 136,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "updated": "2023-03-10T15:04:30Z"
+  "updated": "2023-03-10T15:04:30Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

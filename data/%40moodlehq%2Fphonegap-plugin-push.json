@@ -7,20 +7,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "git://github.com/moodlemobile/phonegap-plugin-push.git",
-  "author": "Erisu",
-  "published": "2022-09-13T12:08:24.045Z",
-  "versions": [
-    "2.0.0-moodle.1",
-    "2.0.0-moodle.2",
-    "2.0.0-moodle.3",
-    "2.0.0-moodle.4",
-    "2.0.0-moodle.5",
-    "2.2.3-moodle.1",
-    "2.3.0-moodle.1",
-    "4.0.0-moodle.1",
-    "4.0.0-moodle.2"
-  ],
+  "author": {
+    "name": "Erisu"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -37,5 +26,11 @@
   "description": "Moodle's fork of Cordova Push Plugin.",
   "bugs": "https://github.com/moodlemobile/phonegap-plugin-push/issues",
   "quality": null,
-  "downloads": 1920
+  "downloads": 1748,
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "browser"
+  ]
 }

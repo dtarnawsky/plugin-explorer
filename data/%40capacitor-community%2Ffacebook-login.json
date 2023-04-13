@@ -6,33 +6,10 @@
     "capacitor-ios-4",
     "capacitor-android-5"
   ],
-  "repo": "ssh://git@github.com/capacitor-community/facebook-login.git",
-  "author": "Masahiko Sakakibara <sakakibara@rdlabo.jp>",
-  "published": "2023-01-23T16:45:53.746Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.1.0",
-    "2.0.0",
-    "3.0.0-1",
-    "3.0.0-2",
-    "3.0.0-3",
-    "3.0.0",
-    "3.1.0",
-    "3.1.1",
-    "3.2.0",
-    "3.3.0",
-    "3.4.0",
-    "4.0.0-0",
-    "4.0.0-1",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Masahiko Sakakibara",
+    "email": "sakakibara@rdlabo.jp"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -47,5 +24,9 @@
   ],
   "description": "A native plugin for Facebook Login",
   "quality": null,
-  "downloads": 65058
+  "downloads": 61798,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

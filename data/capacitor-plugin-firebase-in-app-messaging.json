@@ -5,15 +5,9 @@
     "capacitor-android-4"
   ],
   "repo": "https://github.com/dbrookesSPC/capacitor-plugin-firebase-inappmessaging.git",
-  "author": "David Brookes - Sure Petcare",
-  "published": "2022-10-20T10:57:15.431Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6"
-  ],
+  "author": {
+    "name": "David Brookes - Sure Petcare"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/65164730?v=4",
   "quality": 100,
   "updated": "2022-04-28T08:27:38Z",
-  "downloads": 46
+  "downloads": 40,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

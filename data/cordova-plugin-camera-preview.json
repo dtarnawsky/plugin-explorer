@@ -9,20 +9,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git",
-  "author": "Weston Ganger <westonganger@gmail.com> (solidfoundationwebdev.com)",
-  "published": "2022-06-13T23:57:26.383Z",
-  "versions": [
-    "0.0.8",
-    "0.9.0",
-    "0.10.0",
-    "0.11.0",
-    "0.11.1",
-    "0.11.2",
-    "0.12.0",
-    "0.12.1",
-    "0.12.2",
-    "0.12.3"
-  ],
+  "author": {
+    "name": "Weston Ganger",
+    "email": "westonganger@gmail.com",
+    "url": "solidfoundationwebdev.com"
+  },
   "keywords": [
     "cordova",
     "phonegap",
@@ -48,9 +39,10 @@
   ],
   "description": "Cordova plugin that allows camera interaction from HTML code for showing camera preview below or on top of the HTML.",
   "bugs": "https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/issues",
-  "stars": 565,
+  "stars": 566,
   "image": "https://avatars.githubusercontent.com/u/18685638?v=4",
-  "quality": 1334,
-  "updated": "2023-03-31T06:52:34Z",
-  "downloads": 11961
+  "quality": 1335,
+  "updated": "2023-04-12T17:26:32Z",
+  "downloads": 11896,
+  "fork": false
 }

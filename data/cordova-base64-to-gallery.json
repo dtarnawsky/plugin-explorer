@@ -9,21 +9,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/Nexxa/cordova-base64-to-gallery.git",
-  "author": "StefanoMagrassi <stefano.magrassi@gmail.com> (http://thinkwritedone.com)",
-  "published": "2022-06-13T23:30:21.881Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "3.0.0",
-    "4.0.0",
-    "4.1.0",
-    "4.1.1",
-    "4.1.2",
-    "4.1.3"
-  ],
+  "author": {
+    "name": "StefanoMagrassi",
+    "email": "stefano.magrassi@gmail.com",
+    "url": "http://thinkwritedone.com"
+  },
   "keywords": [
     "image",
     "base64",
@@ -46,5 +36,11 @@
   "image": "https://avatars.githubusercontent.com/u/13329163?v=4",
   "quality": 218,
   "updated": "2023-01-28T19:29:25Z",
-  "downloads": 1459
+  "downloads": 1396,
+  "platforms": [
+    "ios",
+    "android",
+    "wp8"
+  ],
+  "fork": false
 }

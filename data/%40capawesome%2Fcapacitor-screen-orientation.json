@@ -6,14 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-screen-orientation.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2023-01-21T22:49:55.983Z",
-  "versions": [
-    "1.1.7-dev.36f3183.1659623993",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -38,9 +34,14 @@
   ],
   "description": "Capacitor plugin to lock/unlock the screen orientation.",
   "bugs": "https://github.com/capawesome-team/capacitor-screen-orientation/issues",
-  "stars": 27,
+  "stars": 28,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "quality": 131,
-  "updated": "2023-04-01T07:37:01Z",
-  "downloads": 12679
+  "quality": 132,
+  "updated": "2023-04-12T08:15:36Z",
+  "downloads": 12480,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

@@ -8,13 +8,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/towerism/cordova-plugin-epson-epos2.git",
-  "published": "2022-04-27T17:20:05.169Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
   "keywords": [
     "cordova",
     "apache",
@@ -36,5 +29,10 @@
   "image": "https://avatars.githubusercontent.com/u/2057426?v=4",
   "quality": 118,
   "updated": "2022-04-01T08:23:58Z",
-  "downloads": 14
+  "downloads": 10,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

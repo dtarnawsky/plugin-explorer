@@ -10,11 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/danielsogl/cordova-device-accounts.git",
-  "author": "Daniel Sogl",
-  "published": "2022-04-27T17:02:25.507Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Daniel Sogl"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -33,5 +31,9 @@
   "image": "https://avatars.githubusercontent.com/u/15234844?v=4",
   "quality": 8,
   "updated": "2018-06-01T21:34:44Z",
-  "downloads": 49
+  "downloads": 51,
+  "platforms": [
+    "android"
+  ],
+  "fork": true
 }

@@ -6,17 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/EinfachHans/cordova-plugin-contacts-x.git",
-  "author": "EinfachHans",
-  "published": "2022-04-27T17:17:02.096Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "2.0.0",
-    "2.0.2",
-    "2.0.3",
-    "2.1.0",
-    "2.1.1"
-  ],
+  "author": {
+    "name": "EinfachHans"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -35,9 +27,14 @@
   ],
   "description": "Cordova Plugins for managing contacts",
   "bugs": "https://github.com/EinfachHans/cordova-plugin-contacts-x/issues",
-  "quality": 167,
-  "downloads": 682,
-  "stars": 23,
+  "quality": 169,
+  "downloads": 649,
+  "stars": 24,
   "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
-  "updated": "2022-08-28T23:08:46Z"
+  "updated": "2023-04-06T09:39:24Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

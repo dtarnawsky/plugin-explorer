@@ -9,11 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/experiencecommerce/cordova-plugin-customconfigparameters.git",
-  "author": "Deepak Yadav",
-  "published": "2022-06-14T00:03:38.977Z",
-  "versions": [
-    "3.0.0"
-  ],
+  "author": {
+    "name": "Deepak Yadav"
+  },
   "keywords": [
     "cordova",
     "settings",
@@ -37,5 +35,10 @@
   "image": "https://avatars.githubusercontent.com/u/22025490?v=4",
   "quality": 115,
   "updated": "2019-06-13T09:30:39Z",
-  "downloads": 228
+  "downloads": 195,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false
 }

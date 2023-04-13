@@ -5,20 +5,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/NePheus/capacitor-fullscreen-notification.git",
-  "author": "Jan Gessinger",
-  "published": "2022-09-11T17:38:18.697Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "4.0.0",
-    "4.0.1",
-    "4.0.2",
-    "4.0.3",
-    "4.0.4",
-    "4.0.5"
-  ],
+  "author": {
+    "name": "Jan Gessinger"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -39,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
   "quality": 103,
   "updated": "2023-03-27T12:05:25Z",
-  "downloads": 252
+  "downloads": 238,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

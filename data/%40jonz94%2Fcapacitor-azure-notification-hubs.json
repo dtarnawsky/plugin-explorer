@@ -6,13 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/jonz94/capacitor-azure-notification-hubs.git",
-  "author": "jonz94 <jody16888@gmail.com>",
-  "published": "2022-11-11T08:57:09.533Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "jonz94",
+    "email": "jody16888@gmail.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -40,7 +37,12 @@
   "bugs": "https://github.com/jonz94/capacitor-azure-notification-hubs/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/16042676?v=4",
-  "quality": 103,
+  "quality": 104,
   "updated": "2023-01-14T19:17:31Z",
-  "downloads": 63
+  "downloads": 64,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

@@ -1,31 +1,15 @@
 {
   "name": "capacitor-music-controls-plugin-v3",
-  "version": "1.0.13",
+  "version": "1.0.16",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4",
-    "capacitor-android-5",
-    "capacitor-ios-5"
+    "capacitor-android-5"
   ],
   "repo": "https://github.com/ingageco/capacitor-music-controls-plugin-v3.git",
-  "author": "Ingage",
-  "published": "2023-02-24T18:03:31.624Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.0.10",
-    "1.0.11",
-    "1.0.12",
-    "1.0.13"
-  ],
+  "author": {
+    "name": "Ingage"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,13 +19,19 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-ios-6",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "description": "Implementation of MusicControls for Capacitor 3 projects",
   "bugs": "https://github.com/ingageco/capacitor-music-controls-plugin-v3/issues",
-  "quality": 106,
-  "downloads": 767,
-  "stars": 1,
+  "quality": 108,
+  "downloads": 782,
+  "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/1514415?v=4",
-  "updated": "2023-02-25T10:29:39Z"
+  "updated": "2023-04-07T04:02:20Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

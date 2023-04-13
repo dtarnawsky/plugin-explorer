@@ -22,14 +22,17 @@
   "stars": 8,
   "image": "https://avatars.githubusercontent.com/u/3104895?v=4",
   "description": "Manage Android media files",
-  "quality": 114,
+  "quality": 115,
   "updated": "2022-12-20T00:44:37Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3"
-  ],
-  "author": "RoxTeddy <maxime@agorapulse.com>",
+  "author": {
+    "name": "RoxTeddy",
+    "email": "maxime@agorapulse.com"
+  },
   "bugs": "https://github.com/agorapulse/capacitor-mediastore/issues",
-  "published": "2023-03-07T16:13:14.582Z",
-  "downloads": 2783
+  "downloads": 2638,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

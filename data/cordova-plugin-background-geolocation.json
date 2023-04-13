@@ -4,11 +4,6 @@
   "success": [],
   "repo": "https://github.com/ZenCity/cordova-plugin-background-geolocation.git",
   "author": "",
-  "published": "2022-06-13T23:51:16.225Z",
-  "versions": [
-    "1.0.5",
-    "1.0.6"
-  ],
   "keywords": [
     "phonegap",
     "background geolocation",
@@ -33,5 +28,11 @@
   "image": "https://avatars.githubusercontent.com/u/11248038?v=4",
   "quality": 22,
   "updated": "2022-01-05T15:08:57Z",
-  "downloads": 774
+  "downloads": 752,
+  "platforms": [
+    "android",
+    "ios",
+    "wp8"
+  ],
+  "fork": true
 }

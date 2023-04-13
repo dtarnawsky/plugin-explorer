@@ -6,16 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/nadavhalfon/capacitor-native-contacts.git",
-  "author": "NH",
-  "published": "2023-03-20T15:51:18.353Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2"
-  ],
+  "author": {
+    "name": "NH"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -32,5 +25,10 @@
   "description": "Capacitor plugin for picking multiple contacts from native contacts list - works on ios only",
   "bugs": "https://github.com/nadavhalfon/capacitor-native-contacts/issues",
   "quality": null,
-  "downloads": 114
+  "downloads": 113,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0
 }

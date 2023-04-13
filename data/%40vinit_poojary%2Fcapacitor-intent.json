@@ -8,20 +8,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/vinit-poojary/capacitor-intent.git.git",
-  "author": "Vinit Poojary",
-  "published": "2023-03-13T11:26:23.450Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.1.0"
-  ],
+  "author": {
+    "name": "Vinit Poojary"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,5 +24,8 @@
   "description": "Capacitor Plugin for android intent",
   "bugs": "https://github.com/vinit-poojary/capacitor-intent.git/issues",
   "quality": null,
-  "downloads": 124
+  "downloads": 125,
+  "platforms": [
+    "android"
+  ]
 }

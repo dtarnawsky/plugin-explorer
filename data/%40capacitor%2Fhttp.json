@@ -3,13 +3,10 @@
   "version": "0.0.2",
   "success": [],
   "repo": "https://github.com/ionic-team/capacitor-plugin-http.git",
-  "author": "Max Lynch <max@ionic.io>",
-  "published": "2023-03-20T01:13:33.887Z",
-  "versions": [
-    "0.0.2-0",
-    "0.0.2",
-    "0.0.3-0"
-  ],
+  "author": {
+    "name": "Max Lynch",
+    "email": "max@ionic.io"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +28,9 @@
   "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "updated": "2023-01-28T14:23:08Z",
-  "downloads": 123
+  "downloads": 131,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

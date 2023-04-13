@@ -7,11 +7,9 @@
     "cordova-ios-6",
     "capacitor-android-5"
   ],
-  "author": "Impossible",
-  "published": "2022-04-27T17:19:15.670Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Impossible"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -24,5 +22,5 @@
     "capacitor-ios-5"
   ],
   "description": "iOS plugin for Cordova writting in Swift.",
-  "downloads": 24
+  "downloads": 29
 }

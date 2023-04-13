@@ -1,52 +1,13 @@
 {
   "name": "@byteowls/capacitor-oauth2",
-  "version": "4.0.0",
+  "version": "4.0.2",
   "success": [
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/moberwasserlechner/capacitor-oauth2.git",
-  "author": "Michael Oberwasserlechner",
-  "published": "2022-09-18T19:38:24.064Z",
-  "versions": [
-    "1.0.0-alpha.2",
-    "1.0.0-alpha.3",
-    "1.0.0-alpha.4",
-    "1.0.0-alpha.5",
-    "1.0.0-alpha.6",
-    "1.0.0-alpha.7",
-    "1.0.0-alpha.8",
-    "1.0.0-alpha.9",
-    "1.0.0-alpha.10",
-    "1.0.0-alpha.11",
-    "1.0.0-alpha.12",
-    "1.0.0-alpha.13",
-    "1.0.0-alpha.14",
-    "1.0.0-alpha.15",
-    "1.0.0-alpha.16",
-    "1.0.0-alpha.17",
-    "1.0.0-alpha.18",
-    "1.0.0-alpha.19",
-    "1.0.0-alpha.20",
-    "1.0.0-alpha.21",
-    "1.0.0-alpha.22",
-    "1.0.0-alpha.23",
-    "1.0.0-alpha.24",
-    "1.0.0-alpha.25",
-    "1.0.0-alpha.26",
-    "1.0.0-alpha.27",
-    "1.0.0-beta.1",
-    "1.0.0-beta.2",
-    "1.0.0-beta.3",
-    "1.0.0-beta.4",
-    "1.0.0",
-    "1.0.1",
-    "1.1.0",
-    "2.0.0",
-    "2.1.0",
-    "3.0.0",
-    "3.0.1",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Michael Oberwasserlechner"
+  },
   "keywords": [
     "capacitor",
     "capacitor-plugin",
@@ -66,9 +27,14 @@
   ],
   "description": "Capacitor OAuth 2 client plugin",
   "bugs": "https://github.com/moberwasserlechner/capacitor-oauth2/issues",
-  "quality": 409,
-  "stars": 174,
+  "quality": 411,
+  "stars": 178,
   "image": "https://avatars.githubusercontent.com/u/1049938?v=4",
-  "updated": "2023-04-04T21:00:43Z",
-  "downloads": 21059
+  "updated": "2023-04-12T20:48:39Z",
+  "downloads": 19345,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

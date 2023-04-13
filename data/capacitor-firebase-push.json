@@ -3,22 +3,9 @@
   "version": "1.2.7",
   "success": [],
   "repo": "https://github.com/EinfachHans/capacitor-firebase-push.git",
-  "author": "EinfachHans",
-  "published": "2022-04-12T05:15:17.761Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.2.3",
-    "1.2.4",
-    "1.2.5",
-    "1.2.6",
-    "1.2.7"
-  ],
+  "author": {
+    "name": "EinfachHans"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -45,5 +32,10 @@
   "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
   "quality": 140,
   "updated": "2022-08-23T20:18:14Z",
-  "downloads": 498
+  "downloads": 354,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

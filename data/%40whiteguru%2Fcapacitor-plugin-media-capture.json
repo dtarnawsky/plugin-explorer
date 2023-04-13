@@ -6,14 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/dragermrb/capacitor-plugin-media-capture.git",
-  "author": "Manuel Rodríguez",
-  "published": "2022-09-08T08:44:58.511Z",
-  "versions": [
-    "1.0.1",
-    "1.0.2",
-    "3.0.1",
-    "4.0.1"
-  ],
+  "author": {
+    "name": "Manuel Rodríguez"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +25,10 @@
   "description": "Capacitor plugin to capture video",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-media-capture/issues",
   "quality": null,
-  "downloads": 26
+  "downloads": 26,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0
 }

@@ -5,11 +5,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/ratson/cordova-file-transfer.git",
-  "author": "Ratson",
-  "published": "2022-04-27T17:03:12.722Z",
-  "versions": [
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Ratson"
+  },
   "keywords": [
     "cordova",
     "file",
@@ -35,5 +33,11 @@
   "image": "https://avatars.githubusercontent.com/u/2682937?v=4",
   "quality": 0,
   "updated": "2021-08-13T14:35:11Z",
-  "downloads": 12
+  "downloads": 15,
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "browser"
+  ]
 }

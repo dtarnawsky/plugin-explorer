@@ -6,27 +6,11 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "repo": "https://github.com/ionic-team/enterprise-apple-pay.git",
-  "author": "Ionic Team <hi@ionic.io> (https://ionicframework.com)",
-  "published": "2023-03-22T13:19:13.371Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.1.2-dev-a85d5f6.0",
-    "0.1.2-dev-d47d609.0",
-    "0.1.2-dev-de611b6.0",
-    "1.0.0",
-    "1.0.1-dev-27c3a8d.0",
-    "1.0.1-dev-618b958.0",
-    "1.0.1-dev-67d4d76.0",
-    "1.0.1-dev-776614a.0",
-    "1.0.1-dev-93d3863.0",
-    "1.0.1-dev-a44a206.0",
-    "1.0.1-dev-eea7103.0",
-    "1.0.1-dev-f48ed66.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Ionic Team",
+    "email": "hi@ionic.io",
+    "url": "https://ionicframework.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -41,5 +25,10 @@
   ],
   "description": "Capacitor Plugin used to enable Apple Pay in an Application",
   "bugs": "https://github.com/ionic-team/enterprise-apple-pay/issues",
-  "quality": null
+  "quality": null,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

@@ -9,16 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-splashscreen.git",
-  "author": "Apache Software Foundation",
-  "published": "2023-03-22T13:19:56.275Z",
-  "versions": [
-    "5.0.2",
-    "5.0.3",
-    "5.0.4",
-    "5.0.5",
-    "5.0.6",
-    "6.0.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "splashscreen",
@@ -45,5 +38,11 @@
   "stars": 637,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 1396,
-  "updated": "2023-03-27T17:00:48Z"
+  "updated": "2023-03-27T17:00:48Z",
+  "platforms": [
+    "android",
+    "windows",
+    "browser"
+  ],
+  "fork": false
 }

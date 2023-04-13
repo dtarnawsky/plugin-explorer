@@ -10,12 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/tomloprod/cordova-plugin-appminimize.git",
-  "author": "tomloprod",
-  "published": "2022-06-13T23:49:08.691Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "tomloprod"
+  },
   "keywords": [
     "cordova",
     "ionic",
@@ -34,5 +31,9 @@
   "image": "https://avatars.githubusercontent.com/u/7898894?v=4",
   "quality": 157,
   "updated": "2023-03-06T09:04:18Z",
-  "downloads": 8822
+  "downloads": 8121,
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

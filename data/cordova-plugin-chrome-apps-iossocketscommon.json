@@ -10,10 +10,6 @@
   ],
   "repo": "https://github.com/MobileChromeApps/cordova-plugin-chrome-apps-iosSocketsCommon.git",
   "author": "",
-  "published": "2022-06-13T23:59:11.412Z",
-  "versions": [
-    "1.0.2"
-  ],
   "keywords": [
     "chrome",
     "ios",
@@ -32,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/2439313?v=4",
   "quality": 108,
   "updated": "2023-01-28T08:50:16Z",
-  "downloads": 898
+  "downloads": 915,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

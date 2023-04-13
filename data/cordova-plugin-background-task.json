@@ -9,11 +9,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/leecrossley/cordova-plugin-background-task.git",
-  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
-  "published": "2022-06-13T23:51:44.006Z",
-  "versions": [
-    "0.2.0"
-  ],
+  "author": {
+    "name": "Lee Crossley",
+    "email": "leee@hotmail.co.uk",
+    "url": "http://ilee.co.uk/"
+  },
   "keywords": [
     "cordova",
     "background",
@@ -33,5 +33,9 @@
   "image": "https://avatars.githubusercontent.com/u/807783?v=4",
   "quality": 147,
   "updated": "2022-12-23T09:45:21Z",
-  "downloads": 163
+  "downloads": 122,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }

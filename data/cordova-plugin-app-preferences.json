@@ -8,24 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apla/me.apla.cordova.app-preferences.git",
-  "author": "Ivan Baktsheev",
-  "published": "2022-06-13T23:48:06.207Z",
-  "versions": [
-    "0.6.1",
-    "0.6.2",
-    "0.6.3",
-    "0.7.0",
-    "0.7.1",
-    "0.7.2",
-    "0.7.3",
-    "0.7.4",
-    "0.7.6",
-    "0.7.7",
-    "0.99.0",
-    "0.99.1",
-    "0.99.2",
-    "0.99.3"
-  ],
+  "author": {
+    "name": "Ivan Baktsheev"
+  },
   "keywords": [
     "preferences",
     "settings",
@@ -51,5 +36,16 @@
   "image": "https://avatars.githubusercontent.com/u/85349?v=4",
   "quality": 571,
   "updated": "2023-02-13T16:42:30Z",
-  "downloads": 585
+  "downloads": 495,
+  "platforms": [
+    "android",
+    "ios",
+    "osx",
+    "wp7",
+    "wp8",
+    "windows8",
+    "windows",
+    "blackberry10"
+  ],
+  "fork": false
 }

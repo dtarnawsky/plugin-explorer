@@ -5,13 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/10goC/capacitor-plugin-kiosk.git",
-  "author": "Diego Curyk",
-  "published": "2022-08-16T17:43:13.107Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Diego Curyk"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -29,5 +25,9 @@
   "description": "Android kiosk mode for capacitor",
   "bugs": "https://github.com/10goC/capacitor-plugin-kiosk/issues",
   "quality": null,
-  "downloads": 18
+  "downloads": 15,
+  "platforms": [
+    "android"
+  ],
+  "stars": 0
 }

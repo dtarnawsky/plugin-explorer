@@ -11,13 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/clovelCed/cordova-plugin-audiomanagement.git",
-  "author": "Cédric CLOVEL",
-  "published": "2022-06-13T06:14:20.177Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Cédric CLOVEL"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -34,5 +30,6 @@
   "image": "https://avatars.githubusercontent.com/u/6562088?v=4",
   "quality": 113,
   "updated": "2020-10-26T15:55:10Z",
-  "downloads": 324
+  "downloads": 346,
+  "fork": false
 }

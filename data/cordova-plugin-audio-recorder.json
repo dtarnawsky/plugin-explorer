@@ -9,16 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/cocowalla/cordova-plugin-audiorecorder.git",
-  "author": "OutSystems",
-  "published": "2022-06-13T23:50:16.213Z",
-  "versions": [
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.8",
-    "1.0.9",
-    "1.1.0"
-  ],
+  "author": {
+    "name": "OutSystems"
+  },
   "keywords": [
     "cordova",
     "ionic"
@@ -34,5 +27,6 @@
   "image": "https://avatars.githubusercontent.com/u/800977?v=4",
   "quality": 9,
   "updated": "2021-07-20T08:48:08Z",
-  "downloads": 125
+  "downloads": 129,
+  "fork": true
 }

@@ -4,14 +4,9 @@
   "success": [
     "capacitor-ios-3"
   ],
-  "repo": "https://github.com/onexip/capacitor-screen-size.git.git",
-  "author": "Vanessa Brüll",
-  "published": "2022-05-18T08:08:47.280Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3"
-  ],
+  "author": {
+    "name": "Vanessa Brüll"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -29,5 +24,9 @@
   "description": "Get pixel density of iOS and Android devices",
   "bugs": "https://github.com/onexip/capacitor-screen-size.git/issues",
   "quality": null,
-  "downloads": 21
+  "downloads": 17,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

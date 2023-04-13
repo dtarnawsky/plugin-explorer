@@ -5,13 +5,10 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/robingenz/capacitor-android-dark-mode-support.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2022-08-04T18:25:47.253Z",
-  "versions": [
-    "0.0.1-dev.35a298d",
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,8 +31,12 @@
   "description": "Capacitor plugin to support dark mode on Android.",
   "bugs": "https://github.com/robingenz/capacitor-android-dark-mode-support/issues",
   "quality": 131,
-  "downloads": 431,
+  "downloads": 381,
   "stars": 24,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "updated": "2023-02-15T15:05:12Z"
+  "updated": "2023-02-15T15:05:12Z",
+  "platforms": [
+    "android"
+  ],
+  "fork": false
 }

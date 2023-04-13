@@ -9,12 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/iampossible/Cordova-DocPicker.git",
-  "author": "Impossible",
-  "published": "2022-04-27T17:02:35.314Z",
-  "versions": [
-    "1.2.1",
-    "1.2.2"
-  ],
+  "author": {
+    "name": "Impossible"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -33,5 +30,6 @@
   "image": "https://avatars.githubusercontent.com/u/1804894?v=4",
   "quality": 130,
   "updated": "2022-11-05T01:17:12Z",
-  "downloads": 1482
+  "downloads": 1442,
+  "fork": false
 }

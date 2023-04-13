@@ -6,12 +6,6 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "published": "2022-04-27T14:04:35.988Z",
-  "versions": [
-    "2.1.8",
-    "2.1.9",
-    "2.1.10"
-  ],
   "keywords": [],
   "fails": [
     "capacitor-android-4",
@@ -21,5 +15,5 @@
     "cordova-android-11"
   ],
   "description": "This plugin allows selection of multiple images from the camera roll / gallery in a phonegap app",
-  "downloads": 497
+  "downloads": 516
 }

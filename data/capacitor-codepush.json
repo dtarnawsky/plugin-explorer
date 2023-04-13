@@ -3,14 +3,9 @@
   "version": "1.0.3",
   "success": [],
   "repo": "https://github.com/laituanmanh32/capacitor-codepush.git",
-  "author": "Microsoft Corporation",
-  "published": "2022-04-12T05:15:03.717Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Microsoft Corporation"
+  },
   "keywords": [
     "capacitor",
     "code",
@@ -35,5 +30,9 @@
   "image": "https://avatars.githubusercontent.com/u/11975819?v=4",
   "quality": 0,
   "updated": "2020-01-16T07:14:52Z",
-  "downloads": 13
+  "downloads": 17,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

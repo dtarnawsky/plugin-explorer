@@ -8,12 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/zzlcoding/capacitor-plugin-sensors.git",
-  "author": "zzlcoding",
-  "published": "2022-04-12T05:17:09.646Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "zzlcoding"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,8 +25,13 @@
   "description": "plugin for capacitor read sensors data easily.",
   "bugs": "https://github.com/zzlcoding/capacitor-plugin-sensors.git/issues",
   "quality": 103,
-  "downloads": 22,
+  "downloads": 18,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/12132082?v=4",
-  "updated": "2021-12-31T06:00:50Z"
+  "updated": "2021-12-31T06:00:50Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

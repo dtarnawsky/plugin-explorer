@@ -9,24 +9,13 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "author": "Dave Alden",
-  "published": "2022-04-27T17:00:13.742Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "2.0.0",
-    "2.1.0",
-    "3.0.0",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Dave Alden"
+  },
   "fails": [
     "capacitor-android-3",
     "cordova-android-11"
   ],
   "description": "Cordova/Phonegap plugin for Android to align versions of the Firebase library components specified by other plugins to a specific version.",
-  "downloads": 1689
+  "downloads": 1670
 }

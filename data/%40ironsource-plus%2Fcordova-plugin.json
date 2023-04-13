@@ -5,14 +5,9 @@
     "cordova-android-11"
   ],
   "repo": "https://bitbucket.org/TheBosZ/ironsource-plus.git",
-  "author": "Nathan Kerr",
-  "published": "2022-04-05T21:09:47.954Z",
-  "versions": [
-    "0.1.0",
-    "0.2.0",
-    "0.3.0",
-    "1.2.1"
-  ],
+  "author": {
+    "name": "Nathan Kerr"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",

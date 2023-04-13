@@ -6,14 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/asephermann/capacitor-autostartmanager.git",
-  "author": "Asep Herman Nursalam",
-  "published": "2022-09-13T03:24:31.544Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
+  "author": {
+    "name": "Asep Herman Nursalam"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
   "quality": 102,
   "updated": "2022-07-29T08:05:55Z",
-  "downloads": 2013
+  "downloads": 1971,
+  "platforms": [
+    "ios",
+    "android"
+  ]
 }

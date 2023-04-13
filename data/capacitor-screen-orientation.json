@@ -3,21 +3,9 @@
   "version": "0.0.11",
   "success": [],
   "repo": "https://github.com/hinddeep/capacitor-screen-orientation.git",
-  "author": "Hinddeep Shailesh Purohit",
-  "published": "2022-04-12T05:17:19.765Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.0.10",
-    "0.0.11"
-  ],
+  "author": {
+    "name": "Hinddeep Shailesh Purohit"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -36,8 +24,13 @@
   "description": "Handle screen orientation of a mobile device. ",
   "bugs": "https://github.com/hinddeep/capacitor-screen-orientation/issues",
   "quality": 107,
-  "downloads": 833,
+  "downloads": 835,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/22722365?v=4",
-  "updated": "2022-06-13T19:21:43Z"
+  "updated": "2022-06-13T19:21:43Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

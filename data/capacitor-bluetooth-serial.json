@@ -8,14 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/agro1desenvolvimento/capacitor-bluetooth-serial.git",
-  "author": "Gerson Groth",
-  "published": "2022-04-12T05:14:58.282Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
+  "author": {
+    "name": "Gerson Groth"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +28,10 @@
   "image": "https://avatars.githubusercontent.com/u/49657220?v=4",
   "quality": 120,
   "updated": "2023-01-28T08:40:00Z",
-  "downloads": 52
+  "downloads": 67,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false
 }

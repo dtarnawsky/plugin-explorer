@@ -9,26 +9,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "various",
-  "published": "2023-03-22T13:19:54.669Z",
-  "versions": [
-    "2.1.0",
-    "2.1.1",
-    "2.2.1",
-    "2.2.3",
-    "2.3.0-0",
-    "2.3.0-1",
-    "2.3.0",
-    "2.3.1",
-    "2.3.2-0",
-    "2.3.2",
-    "2.3.3-0",
-    "2.3.3",
-    "2.3.4",
-    "2.4.0-0",
-    "3.0.0-0",
-    "3.0.0"
-  ],
+  "author": {
+    "name": "various"
+  },
   "keywords": [
     "sqlite",
     "sqlcipher",
@@ -40,5 +23,10 @@
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
-  "description": "Secure Storage engine for Ionic apps built with Capacitor or Cordova."
+  "description": "Secure Storage engine for Ionic apps built with Capacitor or Cordova.",
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "platforms": [
+    "android",
+    "ios"
+  ]
 }

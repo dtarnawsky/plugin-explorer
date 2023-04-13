@@ -10,19 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/xunholy/cordova-device-accounts-v2.git",
-  "author": "Michael Fornaro",
-  "published": "2022-04-27T17:02:26.993Z",
-  "versions": [
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "2.0.4",
-    "2.0.5",
-    "2.0.6",
-    "2.0.7",
-    "2.0.8"
-  ],
+  "author": {
+    "name": "Michael Fornaro"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -41,5 +31,9 @@
   "image": "https://avatars.githubusercontent.com/u/20387402?v=4",
   "quality": 14,
   "updated": "2021-04-20T02:48:30Z",
-  "downloads": 98
+  "downloads": 97,
+  "platforms": [
+    "android"
+  ],
+  "fork": true
 }

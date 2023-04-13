@@ -9,24 +9,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-3dtouch.git",
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-13T23:41:33.255Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.3.0",
-    "1.3.1",
-    "1.3.2",
-    "1.3.3",
-    "1.3.4",
-    "1.3.5",
-    "1.3.6",
-    "1.3.7",
-    "1.3.8"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "3DTouch",
     "3D Touch",
@@ -46,5 +33,9 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 339,
   "updated": "2022-11-21T03:23:00Z",
-  "downloads": 3867
+  "downloads": 4151,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false
 }
