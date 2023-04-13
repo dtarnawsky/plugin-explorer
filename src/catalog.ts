@@ -17,7 +17,6 @@ export function catalog(inspection: Inspection) {
     // Save to data folder
     const filename = pluginFilename(inspection.name);
     writeFileSync(filename, JSON.stringify(inspection, null, 2));
-    console.log(`Write to ${filename}`);
 }
 
 export function writeErrorLog(plugin: string, test: Test, error: string) {

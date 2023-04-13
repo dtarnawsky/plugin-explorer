@@ -156,13 +156,17 @@ export async function inspectGitHubAPI(item: Inspection) {
             if ((gh as any).message?.startsWith('API rate limit exceeded')) {
                 const resets = response.headers['x-ratelimit-reset'];
                 console.log(`Github API is rate limited. Its resets ${JSON.stringify(gh)}`);
+            } else if ((gh as any).message?.startsWith('API rate limit exceeded')) {
+                item.repo = undefined;
             } else {
+                console.error(`Failed to get info on repo ${part}`);
                 console.error(gh);
             }
             return;
         }
         item.stars = gh.stargazers_count;
         item.image = gh.owner?.avatar_url;
+        item.fork = gh.fork;
         if (!item.keywords) {
             item.keywords = [];
         }
