@@ -26,7 +26,7 @@
   "description": "Capacitor Youtube Player",
   "bugs": "https://github.com/abritopach/capacitor-youtube-player/issues",
   "quality": 148,
-  "downloads": 520,
+  "downloads": 494,
   "stars": 33,
   "image": "https://avatars.githubusercontent.com/u/2934069?v=4",
   "updated": "2023-04-12T08:13:19Z",
@@ -34,5 +34,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-30T19:19:45.485Z",
+  "license": "MIT"
 }

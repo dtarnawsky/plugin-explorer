@@ -40,5 +40,7 @@
   "description": "A lightweight cordova plugin for in app purchases on iOS and Android with a simple promise based API.",
   "bugs": "https://github.com/AlexDisler/cordova-plugin-inapppurchase/issues",
   "quality": null,
-  "downloads": 966
+  "downloads": 976,
+  "published": "2022-06-14T00:21:27.884Z",
+  "license": "MIT"
 }

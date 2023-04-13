@@ -26,5 +26,7 @@
   "description": "QRCode / 2d Barcode api with both server side and client side support using canvas",
   "bugs": "https://github.com/soldair/node-qrcode/issues",
   "quality": null,
-  "downloads": 6742403
+  "downloads": 6766257,
+  "published": "2023-03-28T01:51:56.332Z",
+  "license": "MIT"
 }

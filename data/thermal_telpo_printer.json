@@ -19,5 +19,7 @@
     "capacitor-android-3",
     "cordova-android-11"
   ],
-  "downloads": 15
+  "downloads": 14,
+  "published": "2022-12-30T13:41:25.754Z",
+  "license": "Apache-2.0"
 }

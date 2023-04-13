@@ -7,7 +7,6 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/cleverpush/cleverpush-cordova-sdk.git",
-  "author": "",
   "keywords": [
     "push",
     "notification",
@@ -26,9 +25,11 @@
   "image": "https://avatars.githubusercontent.com/u/19711249?v=4",
   "quality": 100,
   "updated": "2022-05-17T21:34:25Z",
-  "downloads": 268,
+  "downloads": 272,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-12-02T11:45:22.802Z",
+  "license": "SEE LICENSE IN LICENSE"
 }

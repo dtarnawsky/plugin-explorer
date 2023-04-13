@@ -25,9 +25,11 @@
     "cordova-ios-6"
   ],
   "description": "Cordova SNTP Plugin",
-  "downloads": 5,
+  "downloads": 7,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:17:53.274Z",
+  "license": "MIT"
 }

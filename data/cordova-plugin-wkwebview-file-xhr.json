@@ -31,9 +31,11 @@
   "image": "https://avatars.githubusercontent.com/u/4430336?v=4",
   "quality": 368,
   "updated": "2023-02-24T06:31:12Z",
-  "downloads": 7768,
+  "downloads": 7689,
   "platforms": [
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-07-07T09:32:04.303Z",
+  "license": "UPL-1.0"
 }

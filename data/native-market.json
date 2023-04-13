@@ -26,7 +26,7 @@
   "description": "A native market plugin for linking to google play or app store.",
   "bugs": "https://github.com/riderx/native-market/issues",
   "quality": 110,
-  "downloads": 281,
+  "downloads": 290,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
   "updated": "2023-01-31T20:06:35Z",
@@ -34,5 +34,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-07-24T13:41:57.713Z",
+  "license": "MIT"
 }

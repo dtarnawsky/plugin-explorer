@@ -22,9 +22,11 @@
     "capacitor-android-5"
   ],
   "description": "Plugin for TLPrompt Project",
-  "downloads": 79,
+  "downloads": 80,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-06-14T00:43:15.116Z",
+  "license": "MIT"
 }

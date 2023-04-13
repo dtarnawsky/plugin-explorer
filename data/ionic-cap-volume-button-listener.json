@@ -28,9 +28,11 @@
   "description": "Listen for Volume Button pressed in IONIC Capacitor Project",
   "bugs": "https://github.com/ziaurrehmanjutt/ionic-android-volum-button-listner/issues",
   "quality": null,
-  "downloads": 33,
+  "downloads": 32,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-01-18T11:44:23.791Z",
+  "license": "MIT"
 }

@@ -13,5 +13,7 @@
     "cordova-ios-6",
     "cordova-android-11"
   ],
-  "downloads": 5
+  "downloads": 6,
+  "published": "2022-05-01T20:42:53.104Z",
+  "license": "MIT"
 }

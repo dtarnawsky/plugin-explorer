@@ -27,7 +27,7 @@
   "description": "jcore for cordova plugin",
   "bugs": "https://github.com/jpush/cordova-plugin-jcore/issues",
   "quality": 137,
-  "downloads": 453,
+  "downloads": 476,
   "stars": 20,
   "image": "https://avatars.githubusercontent.com/u/2645408?v=4",
   "updated": "2022-08-10T11:12:02Z",
@@ -35,5 +35,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-12-23T08:59:17.672Z",
+  "license": "MIT License"
 }

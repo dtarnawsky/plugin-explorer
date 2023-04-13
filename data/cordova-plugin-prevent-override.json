@@ -28,8 +28,10 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 101,
   "updated": "2021-07-28T11:11:42Z",
-  "downloads": 1665,
+  "downloads": 1725,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-09-05T10:34:28.952Z",
+  "license": "Apache-2.0"
 }

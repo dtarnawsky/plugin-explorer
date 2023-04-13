@@ -29,10 +29,12 @@
   "description": "Cordova plugin to handle screenshot",
   "bugs": "https://github.com/pranavagiligar/cordova-plugin-screenprivacy-cxm/issues",
   "quality": null,
-  "downloads": 104,
+  "downloads": 99,
   "platforms": [
     "ios",
     "android"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2022-04-27T17:44:04.594Z",
+  "license": "MIT"
 }

@@ -20,9 +20,10 @@
     "capacitor-ios-3",
     "capacitor-android-3"
   ],
-  "description": "",
-  "downloads": 84,
+  "downloads": 88,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:29:29.788Z",
+  "license": "ISC"
 }

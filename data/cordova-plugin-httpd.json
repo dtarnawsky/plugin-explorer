@@ -32,7 +32,7 @@
   "description": "Cordova Plugin to embed httpd (web server) into Cordova App",
   "bugs": "https://github.com/floatinghotpot/cordova-httpd/issues",
   "quality": 580,
-  "downloads": 478,
+  "downloads": 464,
   "stars": 280,
   "image": "https://avatars.githubusercontent.com/u/2339512?v=4",
   "updated": "2023-01-09T15:25:02Z",
@@ -40,5 +40,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:19:17.849Z",
+  "license": "MIT"
 }

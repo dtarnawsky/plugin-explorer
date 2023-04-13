@@ -14,5 +14,7 @@
     "cordova-android-11"
   ],
   "description": "Prevent app from going to sleep in background.",
-  "downloads": 111
+  "downloads": 118,
+  "published": "2022-04-27T17:12:28.398Z",
+  "license": "Apache 2.0"
 }

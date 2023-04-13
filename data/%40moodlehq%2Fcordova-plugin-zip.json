@@ -8,7 +8,6 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-zip.git",
-  "author": "",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -28,5 +27,7 @@
     "android",
     "ios"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2022-09-05T10:34:29.488Z",
+  "license": "BSD"
 }

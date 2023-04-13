@@ -32,7 +32,7 @@
   "image": "https://avatars.githubusercontent.com/u/1842864?v=4",
   "quality": 649,
   "updated": "2022-10-04T18:15:41Z",
-  "downloads": 248,
+  "downloads": 255,
   "platforms": [
     "android",
     "amazon-fireos",
@@ -44,5 +44,7 @@
     "windows",
     "firefoxos"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-06-14T00:54:13.796Z",
+  "license": "Apache 2.0"
 }

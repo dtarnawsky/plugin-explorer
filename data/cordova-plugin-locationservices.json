@@ -27,12 +27,14 @@
   "description": "Android geolocation plugin using Google Play Services Location API.",
   "bugs": "https://github.com/louisbl/cordova-plugin-locationservices/issues",
   "quality": 202,
-  "downloads": 568,
+  "downloads": 578,
   "stars": 39,
   "image": "https://avatars.githubusercontent.com/u/274775?v=4",
   "updated": "2022-11-30T14:11:53Z",
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:28:04.685Z",
+  "license": "Apache 2.0"
 }

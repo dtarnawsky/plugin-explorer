@@ -27,9 +27,11 @@
   "description": "This plugin allows to add to add PayPal Payments to your application using PayPal Mobile SDK Native library",
   "bugs": "https://github.com/paypal/PayPal-Cordova-Plugin/issues",
   "quality": null,
-  "downloads": 645,
+  "downloads": 657,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-02-15T16:53:19.848Z",
+  "license": "BSD License, see LICENSE.md for details"
 }

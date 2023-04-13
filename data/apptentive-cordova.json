@@ -35,5 +35,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-13T17:38:56.854Z",
+  "license": "BSD"
 }

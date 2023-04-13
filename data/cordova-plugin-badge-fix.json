@@ -34,7 +34,7 @@
   "image": "https://avatars.githubusercontent.com/u/3336047?v=4",
   "quality": 101,
   "updated": "2022-11-29T11:00:59Z",
-  "downloads": 3174,
+  "downloads": 3152,
   "platforms": [
     "ios",
     "osx",
@@ -42,5 +42,7 @@
     "browser",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-08-08T10:17:04.846Z",
+  "license": "Apache 2.0"
 }

@@ -27,7 +27,7 @@
   "description": "A cordova plugin to detect if the device is running in debug mode or not.",
   "bugs": "https://github.com/mattlewis92/cordova-plugin-is-debug/issues",
   "quality": 133,
-  "downloads": 2588,
+  "downloads": 2593,
   "stars": 20,
   "image": "https://avatars.githubusercontent.com/u/6425649?v=4",
   "updated": "2022-02-24T20:49:49Z",
@@ -35,5 +35,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:24:15.425Z",
+  "license": "MIT"
 }

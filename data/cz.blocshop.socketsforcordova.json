@@ -21,5 +21,7 @@
     "capacitor-android-3"
   ],
   "description": "\r\n\t\tThis Cordova plugin provides JavaScript API, that allows you to communicate with server through TCP protocol.\r\n\t\tCurrently we support these platforms: iOS, Android, WP8.\r\n\t",
-  "downloads": 753
+  "downloads": 696,
+  "published": "2022-06-14T07:22:40.861Z",
+  "license": "Apache 2.0"
 }

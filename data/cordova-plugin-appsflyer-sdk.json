@@ -30,10 +30,15 @@
   "image": "https://avatars.githubusercontent.com/u/6083614?v=4",
   "quality": 213,
   "updated": "2022-08-24T11:28:09Z",
-  "downloads": 8585,
+  "downloads": 8513,
   "platforms": [
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-02T09:21:52.773Z",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/AppsFlyerSDK/appsflyer-cordova-plugin/blob/master/LICENSE"
+  }
 }

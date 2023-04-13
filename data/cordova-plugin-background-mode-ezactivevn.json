@@ -36,11 +36,13 @@
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
   "quality": 2726,
   "updated": "2023-04-12T17:08:51Z",
-  "downloads": 26,
+  "downloads": 25,
   "platforms": [
     "ios",
     "android",
     "browser"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-29T08:44:56.134Z",
+  "license": "UNLICENSED"
 }

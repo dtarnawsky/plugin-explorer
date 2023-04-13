@@ -24,9 +24,11 @@
   ],
   "description": "Capacitor Indigitall Plugin",
   "bugs": "https://gclarfer@bitbucket.org/indigitallfuente/capacitor-sdk.git/issues",
-  "downloads": 116,
+  "downloads": 113,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-03-21T11:01:17.636Z",
+  "license": "MIT"
 }

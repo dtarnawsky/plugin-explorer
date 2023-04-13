@@ -33,5 +33,7 @@
   "platforms": [
     "android"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2022-05-06T02:35:03.989Z",
+  "license": "ISC"
 }

@@ -28,7 +28,7 @@
   "description": "Cordova Volume Control Plugin",
   "bugs": "https://github.com/jlorente/cordova-plugin-volume-control/issues",
   "quality": 113,
-  "downloads": 99,
+  "downloads": 111,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/301741?v=4",
   "updated": "2020-05-29T10:50:25Z",
@@ -36,5 +36,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:50:31.003Z",
+  "license": "MIT"
 }

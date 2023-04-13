@@ -37,8 +37,10 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 105,
   "updated": "2023-01-28T05:33:24Z",
-  "downloads": 7,
+  "downloads": 8,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:28:47.212Z",
+  "license": "MIT"
 }

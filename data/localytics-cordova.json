@@ -27,7 +27,7 @@
   "description": "Localytics Plugin for Cordova/PhoneGap",
   "bugs": "https://github.com/localytics/localytics-cordova/issues",
   "quality": 142,
-  "downloads": 122,
+  "downloads": 103,
   "stars": 13,
   "image": "https://avatars.githubusercontent.com/u/29205?v=4",
   "updated": "2019-06-24T02:55:22Z",
@@ -35,5 +35,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-01T00:46:13.994Z",
+  "license": "SEE LICENSE IN 'LICENSE' file"
 }

@@ -27,9 +27,11 @@
   "description": "Android SMS Retriever API for Capacitor.",
   "bugs": "https://github.com/dwlrathod/capacitor-sms-retriever/issues",
   "quality": null,
-  "downloads": 104,
+  "downloads": 102,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-04-12T05:17:24.256Z",
+  "license": "MIT"
 }

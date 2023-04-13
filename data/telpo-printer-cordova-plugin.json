@@ -29,8 +29,9 @@
     "capacitor-android-3"
   ],
   "description": "Cordova wrapper for ESC/POS Telpo Printer library",
-  "downloads": 41,
+  "downloads": 40,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2023-01-30T15:51:24.243Z"
 }

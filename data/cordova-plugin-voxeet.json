@@ -27,10 +27,12 @@
   "description": "Cordova Voxeet Plugin",
   "bugs": "https://github.com/voxeet/voxeet-uxkit-cordova/issues",
   "quality": null,
-  "downloads": 351,
+  "downloads": 347,
   "platforms": [
     "android",
     "ios"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2022-12-07T18:13:08.444Z",
+  "license": "MIT"
 }

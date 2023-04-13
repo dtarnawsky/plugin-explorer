@@ -34,5 +34,7 @@
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-29T20:48:35.100Z",
+  "license": "GPL-3.0-or-later"
 }

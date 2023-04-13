@@ -25,10 +25,12 @@
     "capacitor-android-3"
   ],
   "description": "Manually resolve DNS hostnames to IPs for diagnosing network setup.",
-  "downloads": 592,
+  "downloads": 599,
   "platforms": [
     "android",
     "ios",
     "browser"
-  ]
+  ],
+  "published": "2022-06-14T00:05:59.042Z",
+  "license": "Apache 2.0"
 }

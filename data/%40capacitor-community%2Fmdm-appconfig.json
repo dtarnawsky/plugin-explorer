@@ -6,7 +6,6 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/mdm-appconfig.git",
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +30,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-01-23T22:56:12.245Z",
+  "license": "MIT"
 }

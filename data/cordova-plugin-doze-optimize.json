@@ -32,9 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/13743965?v=4",
   "quality": 142,
   "updated": "2023-03-26T07:02:29Z",
-  "downloads": 741,
+  "downloads": 685,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:19:26.212Z",
+  "license": "ISC"
 }

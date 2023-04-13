@@ -5,7 +5,6 @@
     "capacitor-ios-3"
   ],
   "repo": "https://bitbucket.org/together_price/capacitor-plugin-install-referrer.git",
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -26,5 +25,7 @@
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-04-07T06:52:09.833Z",
+  "license": "MIT"
 }

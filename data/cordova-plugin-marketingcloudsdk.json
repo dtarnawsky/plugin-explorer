@@ -28,7 +28,7 @@
   "description": "A Cordova Plugin to access the native Salesforce Marketing Cloud MobilePush SDKs",
   "bugs": "https://github.com/salesforce-marketingcloud/MC-Cordova-Plugin/issues",
   "quality": 174,
-  "downloads": 1262,
+  "downloads": 1300,
   "stars": 17,
   "image": "https://avatars.githubusercontent.com/u/12401348?v=4",
   "updated": "2023-03-31T07:08:27Z",
@@ -36,5 +36,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-02-21T15:22:58.364Z",
+  "license": "BSD-3-Clause"
 }

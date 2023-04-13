@@ -29,9 +29,11 @@
   ],
   "description": "Google AdMob SDK to Cordova.",
   "bugs": "https://gitlab.com/ratson/cordova-admob-sdk/issues",
-  "downloads": 398,
+  "downloads": 400,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-06-13T23:27:37.844Z",
+  "license": "MIT"
 }

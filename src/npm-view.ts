@@ -96,9 +96,11 @@ export async function getNpmView(name: string): Promise<NPMView> {
     } else {
       headers = { Authorization: `Bearer ${token}` };
     }
-    const url = `https://registry.npmjs.org/${encodeURIComponent(name)}/latest`;
+    const url = `https://registry.npmjs.org/${encodeURIComponent(name)}`;
     const response = await fetch(url, { headers });
     const np: NPMView = await response.json() as NPMView;
+    np.versions = undefined;
+    np.version = np['dist-tags'].latest;
     return np;
   } catch (error) {
     console.error('getNpmView Failed', error);

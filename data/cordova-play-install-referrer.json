@@ -19,5 +19,7 @@
     "cordova-android-11"
   ],
   "description": "Play Install Referrer wrapper for Cordova",
-  "downloads": 9
+  "downloads": 12,
+  "published": "2022-04-27T17:06:58.070Z",
+  "license": "MIT License"
 }

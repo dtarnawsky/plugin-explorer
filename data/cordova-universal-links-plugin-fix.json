@@ -32,7 +32,7 @@
   "description": "Cordova plugin to add in your application support for Universal Links (iOS 9) and Deep Links (Android). Basically, open application through the link in the browser.",
   "bugs": "https://github.com/nordnet/cordova-universal-links-plugin/issues",
   "quality": 944,
-  "downloads": 1251,
+  "downloads": 1259,
   "stars": 348,
   "image": "https://avatars.githubusercontent.com/u/1134179?v=4",
   "updated": "2023-02-08T08:48:11Z",
@@ -40,5 +40,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:55:34.275Z",
+  "license": "MIT"
 }

@@ -29,9 +29,11 @@
   "description": "Cordova Vuforia Plugin",
   "bugs": "https://github.com/mattrayner/cordova-plugin-vuforia/issues",
   "quality": null,
-  "downloads": 74,
+  "downloads": 80,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-06-14T00:57:41.392Z",
+  "license": "MIT"
 }

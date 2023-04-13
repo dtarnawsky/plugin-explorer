@@ -27,5 +27,7 @@
   "bugs": "https://github.com/HMS-Core/hms-cordova-plugin/issues",
   "quality": null,
   "downloads": 53,
-  "platforms": []
+  "platforms": [],
+  "published": "2022-04-29T11:29:03.472Z",
+  "license": "Apache-2.0"
 }

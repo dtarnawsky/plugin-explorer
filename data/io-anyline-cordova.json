@@ -29,7 +29,7 @@
   "description": "The cordova plugin for the Anyline SDK",
   "bugs": "https://github.com/Anyline/anyline-ocr-cordova-module/issues",
   "quality": 154,
-  "downloads": 1090,
+  "downloads": 1152,
   "stars": 26,
   "image": "https://avatars.githubusercontent.com/u/13364212?v=4",
   "updated": "2022-11-08T22:22:49Z",
@@ -37,5 +37,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-31T16:14:52.926Z",
+  "license": "SEE LICENSE IN LICENSE"
 }

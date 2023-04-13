@@ -19,5 +19,7 @@
   ],
   "description": "SmartPOS is a small to medium sized businesses POS software that provides; Sales, Inventory and KDS modules.",
   "quality": null,
-  "downloads": 13
+  "downloads": 13,
+  "published": "2023-01-12T06:32:43.214Z",
+  "license": "MIT"
 }

@@ -23,8 +23,10 @@
     "cordova-android-11"
   ],
   "description": "In-app browser tabs for Android and iOS",
-  "downloads": 4355,
+  "downloads": 4354,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-06-13T23:55:51.342Z",
+  "license": "Apache-2.0"
 }

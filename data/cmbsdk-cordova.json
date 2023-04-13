@@ -27,9 +27,11 @@
   ],
   "description": "CMB Scanner Cordova Plugin",
   "bugs": "https://cmbdn.cognex.com/tickets/submit_ticket",
-  "downloads": 131,
+  "downloads": 118,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-08-19T08:30:32.388Z",
+  "license": "SEE LICENSE IN LICENSE.txt"
 }

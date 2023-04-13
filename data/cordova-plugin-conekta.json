@@ -29,7 +29,7 @@
   "description": "Cordova plugin that lets you use Conekta's Native SDKs for Android and iOS",
   "bugs": "https://github.com/nwrman/cordova-plugin-conekta/issues",
   "quality": 105,
-  "downloads": 13,
+  "downloads": 14,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/1259562?v=4",
   "updated": "2022-02-28T23:38:50Z",
@@ -37,5 +37,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:16:48.087Z",
+  "license": "MIT"
 }

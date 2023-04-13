@@ -23,9 +23,11 @@
   ],
   "description": "An awesome plugin!",
   "quality": null,
-  "downloads": 128,
+  "downloads": 166,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-09-15T12:14:42.080Z",
+  "license": "MIT"
 }

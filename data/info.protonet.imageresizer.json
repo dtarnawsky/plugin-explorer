@@ -29,10 +29,12 @@
   "description": "Plugin for resizing images only with the uri of the image.",
   "bugs": "https://github.com/RTeran/cordova-plugin-image-resizer/issues",
   "quality": null,
-  "downloads": 1499,
+  "downloads": 1648,
   "platforms": [
     "android",
     "ios",
     "windows"
-  ]
+  ],
+  "published": "2022-06-19T01:12:41.798Z",
+  "license": "MIT"
 }

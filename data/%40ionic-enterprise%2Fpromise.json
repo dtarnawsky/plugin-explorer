@@ -10,7 +10,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/vstirbu/PromisesPlugin.git",
-  "author": "",
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3"
@@ -22,5 +21,7 @@
   "quality": 144,
   "updated": "2021-11-16T10:51:12Z",
   "keywords": [],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-22T13:19:34.177Z",
+  "license": "MIT"
 }

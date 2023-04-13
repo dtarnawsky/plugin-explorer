@@ -53,7 +53,7 @@
   "description": "A Cordova plugin for PhotoEditor SDK. Integrate the photo editor into your own HTML5, iOS or Android app - in minutes!",
   "bugs": "https://github.com/imgly/pesdk-cordova/issues",
   "quality": 111,
-  "downloads": 83,
+  "downloads": 80,
   "stars": 8,
   "image": "https://avatars.githubusercontent.com/u/6421070?v=4",
   "updated": "2022-03-18T21:25:48Z",
@@ -61,5 +61,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-08T10:02:48.330Z",
+  "license": "BSD-3-Clause"
 }

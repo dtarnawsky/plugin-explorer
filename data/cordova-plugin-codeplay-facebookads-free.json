@@ -35,9 +35,11 @@
   "image": "https://avatars.githubusercontent.com/u/3687184?v=4",
   "quality": 141,
   "updated": "2022-02-05T20:53:41Z",
-  "downloads": 34,
+  "downloads": 55,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:16:35.750Z",
+  "license": "ISC"
 }

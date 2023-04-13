@@ -25,7 +25,7 @@
   "description": "Capacitor plugin for MetaMapSDK",
   "bugs": "https://github.com/GetMetaMap/mati-capacitor-plugin/issues",
   "quality": 109,
-  "downloads": 595,
+  "downloads": 588,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/41296799?v=4",
   "updated": "2022-09-13T14:45:48Z",
@@ -33,5 +33,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-02T16:48:31.302Z",
+  "license": "MIT"
 }

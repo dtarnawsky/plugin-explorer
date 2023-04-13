@@ -40,10 +40,12 @@
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
   "quality": 451,
   "updated": "2023-04-12T07:13:31Z",
-  "downloads": 1245,
+  "downloads": 1151,
   "platforms": [
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-07-01T16:23:58.736Z",
+  "license": "LGPL-3.0-only"
 }

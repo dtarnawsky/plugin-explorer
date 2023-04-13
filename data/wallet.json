@@ -19,5 +19,7 @@
   "description": "NodeJS client for wallet",
   "bugs": "https://github.com/WalletInc/sdk-ts/issues",
   "quality": null,
-  "downloads": 119
+  "downloads": 155,
+  "published": "2023-01-03T02:24:06.212Z",
+  "license": "Unlicense"
 }

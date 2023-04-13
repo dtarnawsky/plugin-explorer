@@ -5,7 +5,6 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/TeamHive/capacitor-video-recorder.git",
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +29,7 @@
   "platforms": [
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-02-21T18:51:35.267Z",
+  "license": "MIT"
 }

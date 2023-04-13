@@ -31,8 +31,8 @@
   ],
   "description": "Near Field Communication (NFC) Plugin. Read and write NDEF messages to NFC tags and share NDEF messages with peers.",
   "bugs": "https://github.com/chariotsolutions/phonegap-nfc/issues",
-  "quality": 1312,
-  "downloads": 6276,
+  "quality": 1315,
+  "downloads": 6190,
   "stars": 673,
   "image": "https://avatars.githubusercontent.com/u/132350?v=4",
   "updated": "2023-04-01T21:10:50Z",
@@ -43,5 +43,7 @@
     "blackberry10",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-23T21:27:25.621Z",
+  "license": "MIT"
 }

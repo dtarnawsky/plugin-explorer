@@ -40,8 +40,10 @@
   "image": "https://avatars.githubusercontent.com/u/12543693?v=4",
   "quality": 100,
   "updated": "2016-04-23T16:11:25Z",
-  "downloads": 775,
+  "downloads": 790,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-06-13T23:40:23.185Z",
+  "license": "Apache-2.0"
 }

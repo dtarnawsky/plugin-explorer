@@ -17,9 +17,11 @@
     "capacitor-android-5"
   ],
   "description": "Scandit Data Capture SDK for Capacitor",
-  "downloads": 2033,
+  "downloads": 2024,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-03-30T19:21:32.181Z",
+  "license": "Apache-2.0"
 }

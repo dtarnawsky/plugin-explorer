@@ -30,7 +30,7 @@
   "description": "Cordova Plugin for access to Google Play and Apple Store within your app",
   "bugs": "https://github.com/xmartlabs/cordova-plugin-market/issues",
   "quality": 241,
-  "downloads": 31758,
+  "downloads": 31527,
   "stars": 87,
   "image": "https://avatars.githubusercontent.com/u/2227731?v=4",
   "updated": "2021-08-05T07:35:19Z",
@@ -38,5 +38,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:28:49.686Z",
+  "license": "MIT"
 }

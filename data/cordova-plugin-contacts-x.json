@@ -28,7 +28,7 @@
   "description": "Cordova Plugins for managing contacts",
   "bugs": "https://github.com/EinfachHans/cordova-plugin-contacts-x/issues",
   "quality": 169,
-  "downloads": 649,
+  "downloads": 660,
   "stars": 24,
   "image": "https://avatars.githubusercontent.com/u/20899975?v=4",
   "updated": "2023-04-06T09:39:24Z",
@@ -36,5 +36,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:17:02.096Z",
+  "license": "MIT"
 }

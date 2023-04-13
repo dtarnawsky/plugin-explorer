@@ -30,5 +30,7 @@
     "cordova-android-11"
   ],
   "description": "Interact with the iOS HealthKit SDK.",
-  "downloads": 609
+  "downloads": 600,
+  "published": "2022-06-13T06:33:32.035Z",
+  "license": "MIT"
 }

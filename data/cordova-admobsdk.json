@@ -64,9 +64,11 @@
   ],
   "description": "Google Mobile Ads SDK, as dependency for cordova plugins",
   "bugs": "https://gitlab.com/floatinghotpot/cordova-admobsdk/issues",
-  "downloads": 211,
+  "downloads": 203,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-06-13T23:28:12.827Z",
+  "license": "MIT"
 }

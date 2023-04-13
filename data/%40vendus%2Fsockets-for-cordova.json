@@ -38,5 +38,7 @@
     "android",
     "wp8"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-04-07T10:25:42.223Z",
+  "license": "Apache-2.0"
 }

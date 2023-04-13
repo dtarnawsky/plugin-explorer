@@ -1,6 +1,5 @@
 {
   "name": "@adeprez/capacitor-user-agent",
-  "version": "0.0.3",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
@@ -35,5 +34,8 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-12-08T19:22:29.708Z",
+  "license": "Apache-2.0",
+  "version": "0.0.3"
 }

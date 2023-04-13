@@ -44,5 +44,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-04-07T18:10:11.886Z",
+  "license": "Apache-2.0"
 }

@@ -40,7 +40,7 @@
   "description": "Google Consent SDK Cordova Plugin",
   "bugs": "https://github.com/admob-plus/admob-plus/issues",
   "quality": 619,
-  "downloads": 1974,
+  "downloads": 2037,
   "stars": 328,
   "image": "https://avatars.githubusercontent.com/u/39599641?v=4",
   "updated": "2023-04-12T12:23:56Z",
@@ -48,5 +48,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-08-14T18:54:46.139Z",
+  "license": "MIT"
 }

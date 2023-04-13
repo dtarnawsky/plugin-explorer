@@ -41,5 +41,7 @@
     "osx",
     "windows"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2023-02-15T02:08:06.892Z",
+  "license": "Apache-2.0"
 }

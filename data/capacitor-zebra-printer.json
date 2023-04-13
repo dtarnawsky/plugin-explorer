@@ -30,7 +30,7 @@
   "description": "Capacitor plugin to send ZPL messages to Zebra printers",
   "bugs": "https://github.com/Beelink/capacitor-zebra-printer/issues",
   "quality": 1,
-  "downloads": 41,
+  "downloads": 40,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/40366303?v=4",
   "updated": "2022-03-27T18:41:50Z",
@@ -38,5 +38,7 @@
     "ios",
     "android"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-04-12T05:17:36.127Z",
+  "license": "MIT"
 }

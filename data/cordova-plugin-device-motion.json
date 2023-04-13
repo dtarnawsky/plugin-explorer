@@ -46,7 +46,7 @@
   "description": "[DEPRECATED] Cordova Device Motion Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
   "quality": 311,
-  "downloads": 27547,
+  "downloads": 27278,
   "stars": 70,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "updated": "2023-03-02T21:21:30Z",
@@ -64,5 +64,7 @@
     "tizen",
     "browser"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:04:44.070Z",
+  "license": "Apache-2.0"
 }

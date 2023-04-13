@@ -33,7 +33,7 @@
   "description": "Get and play the native ringtone list on Android/IOS devices.",
   "bugs": "https://github.com/TongZhangzt/cordova-plugin-native-ringtones/issues",
   "quality": 128,
-  "downloads": 440,
+  "downloads": 430,
   "stars": 7,
   "image": "https://avatars.githubusercontent.com/u/17078423?v=4",
   "updated": "2020-12-10T22:16:33Z",
@@ -41,5 +41,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:33:29.878Z",
+  "license": "Apache 2.0"
 }

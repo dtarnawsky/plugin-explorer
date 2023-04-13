@@ -39,5 +39,7 @@
     "windows",
     "browser"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-03T20:29:11.754Z",
+  "license": "MIT"
 }

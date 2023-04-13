@@ -36,7 +36,7 @@
   "description": "Cordova plugin for securely saving keys, passwords or strings on devices.",
   "bugs": "https://github.com/pradeep1991singh/cordova-plugin-secure-key-store/issues",
   "quality": 157,
-  "downloads": 1879,
+  "downloads": 1895,
   "stars": 24,
   "image": "https://avatars.githubusercontent.com/u/7058588?v=4",
   "updated": "2021-06-25T07:03:44Z",
@@ -44,5 +44,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:46:33.591Z",
+  "license": "ISC"
 }

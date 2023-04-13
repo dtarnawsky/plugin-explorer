@@ -30,9 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/674667?v=4",
   "quality": 175,
   "updated": "2023-03-30T09:08:41Z",
-  "downloads": 2633,
+  "downloads": 2630,
   "platforms": [
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-13T23:37:20.634Z",
+  "license": "BSD-3-Clause"
 }

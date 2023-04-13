@@ -25,7 +25,7 @@
   "description": "Plugin for Capacitor to receive send intents in Ionic",
   "bugs": "https://github.com/carsten-klaffke/send-intent.git/issues",
   "quality": 186,
-  "downloads": 8915,
+  "downloads": 8929,
   "stars": 65,
   "image": "https://avatars.githubusercontent.com/u/54070779?v=4",
   "updated": "2023-04-04T18:27:11Z",
@@ -33,5 +33,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-15T09:00:49.357Z",
+  "license": "MIT"
 }

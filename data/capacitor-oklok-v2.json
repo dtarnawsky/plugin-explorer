@@ -5,7 +5,6 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -26,5 +25,7 @@
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-09-18T08:43:10.170Z",
+  "license": "MIT"
 }

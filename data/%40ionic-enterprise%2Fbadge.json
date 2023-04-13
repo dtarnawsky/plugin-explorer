@@ -37,5 +37,7 @@
     "android",
     "browser",
     "windows"
-  ]
+  ],
+  "published": "2023-03-22T13:19:14.306Z",
+  "license": "Apache 2.0"
 }

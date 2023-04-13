@@ -39,5 +39,7 @@
   "platforms": [
     "ios"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2023-02-20T10:49:53.490Z",
+  "license": "MIT"
 }

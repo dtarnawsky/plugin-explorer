@@ -38,9 +38,11 @@
   "image": "https://avatars.githubusercontent.com/u/628795?v=4",
   "quality": 220,
   "updated": "2022-11-11T12:54:18Z",
-  "downloads": 191,
+  "downloads": 186,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-13T23:45:03.649Z",
+  "license": "Apache-2.0"
 }

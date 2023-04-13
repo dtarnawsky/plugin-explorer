@@ -2,7 +2,6 @@
   "name": "cordova-plugin-linsip",
   "version": "0.0.1",
   "success": [],
-  "author": "",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -25,5 +24,7 @@
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:31:42.919Z",
+  "license": "BSD"
 }

@@ -40,7 +40,7 @@
   "description": "Jailbreak/Root Detection Plugin for Apache Cordova",
   "bugs": "https://github.com/WuglyakBolgoink/cordova-plugin-iroot/issues",
   "quality": 202,
-  "downloads": 17782,
+  "downloads": 17923,
   "stars": 30,
   "image": "https://avatars.githubusercontent.com/u/2271337?v=4",
   "updated": "2023-03-18T04:15:51Z",
@@ -48,5 +48,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:24:12.948Z",
+  "license": "MIT"
 }

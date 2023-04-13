@@ -34,10 +34,12 @@
   "description": "Cordova unique device id (UUID) plugin for Android, iOS and Windows Phone 8. Remains the same after app uninstall.",
   "bugs": "https://github.com/john-doherty/cordova-unique-device-id/issues",
   "quality": null,
-  "downloads": 716,
+  "downloads": 720,
   "platforms": [
     "ios",
     "android",
     "wp8"
-  ]
+  ],
+  "published": "2022-04-27T17:55:30.792Z",
+  "license": "MIT"
 }

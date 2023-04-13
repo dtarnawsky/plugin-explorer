@@ -27,9 +27,10 @@
   "description": "A Cordova/Phonegap driver for Zebra bluetooth printers",
   "bugs": "https://github.com/michael79/zbtprinter/issues",
   "quality": null,
-  "downloads": 29,
+  "downloads": 28,
   "platforms": [
     "android",
     "browser"
-  ]
+  ],
+  "published": "2022-06-14T01:01:21.443Z"
 }

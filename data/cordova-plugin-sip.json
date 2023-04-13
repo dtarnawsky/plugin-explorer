@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "success": [],
   "repo": "https://github.com/nadirhamid/cordova-plugin-sip.git",
-  "author": "",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -25,10 +24,12 @@
   "image": "https://avatars.githubusercontent.com/u/7277417?v=4",
   "quality": 5,
   "updated": "2021-02-17T15:53:23Z",
-  "downloads": 15,
+  "downloads": 16,
   "platforms": [
     "android",
     "ios"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-06-14T00:48:23.632Z",
+  "license": "BSD"
 }

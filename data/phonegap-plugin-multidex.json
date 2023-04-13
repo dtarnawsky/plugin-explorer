@@ -24,8 +24,10 @@
   "description": "Enable multidex in a Apache Cordova/PhoneGap application",
   "bugs": "https://github.com/phonegap/phonegap-plugin-multidex/issues",
   "quality": null,
-  "downloads": 22520,
+  "downloads": 22377,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-05-12T21:31:01.277Z",
+  "license": "MIT"
 }

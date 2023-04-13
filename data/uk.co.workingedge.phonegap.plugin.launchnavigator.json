@@ -30,7 +30,7 @@
   "description": "Cordova/Phonegap plugin to navigate to a destination using native navigation apps on Android, iOS, and Windows",
   "bugs": "https://github.com/dpa99c/phonegap-launch-navigator/issues",
   "quality": 609,
-  "downloads": 35352,
+  "downloads": 35398,
   "stars": 369,
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "updated": "2022-12-22T15:20:37Z",
@@ -39,5 +39,7 @@
     "ios",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-28T03:36:50.470Z",
+  "license": "MIT"
 }

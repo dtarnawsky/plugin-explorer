@@ -40,5 +40,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-04-12T14:53:18.263Z",
+  "license": "CUSTOM"
 }

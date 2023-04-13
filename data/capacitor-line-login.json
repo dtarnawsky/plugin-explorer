@@ -32,5 +32,7 @@
     "ios",
     "android"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2023-01-25T03:41:22.551Z",
+  "license": "MIT"
 }

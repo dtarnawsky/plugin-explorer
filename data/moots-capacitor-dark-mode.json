@@ -35,7 +35,7 @@
   "description": "Capacitor 3 plugin for automatic dark mode detection on native platforms such as Android and iOS",
   "bugs": "https://github.com/moots-technology/capacitor-dark-mode/issues",
   "quality": 103,
-  "downloads": 36,
+  "downloads": 35,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/59731070?v=4",
   "updated": "2022-02-21T22:42:51Z",
@@ -43,5 +43,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-07T09:13:07.590Z",
+  "license": "MIT"
 }

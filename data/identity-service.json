@@ -25,9 +25,11 @@
   "description": "Server for role and permission management.",
   "bugs": "https://github.com/The-Gray-Hole/identity-service/issues",
   "quality": 108,
-  "downloads": 160,
+  "downloads": 155,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/69776663?v=4",
   "updated": "2021-08-29T21:41:49Z",
-  "fork": false
+  "fork": false,
+  "published": "2022-05-05T15:39:41.643Z",
+  "license": "MIT"
 }

@@ -26,11 +26,13 @@
   "bugs": "https://github.com/innomediahho/cordova-plugin-bring-to-front/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/20920408?v=4",
-  "quality": 6,
+  "quality": 8,
   "updated": "2020-07-09T06:29:24Z",
-  "downloads": 73,
+  "downloads": 67,
   "platforms": [
     "android"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-04-27T17:14:11.279Z",
+  "license": "Apache 2.0"
 }

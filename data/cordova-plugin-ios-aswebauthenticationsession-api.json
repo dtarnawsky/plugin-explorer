@@ -10,7 +10,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/jwelker110/cordova-plugin-ios-aswebauthenticationsession-api.git",
-  "author": "",
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -31,9 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/8558252?v=4",
   "quality": 14,
   "updated": "2022-07-24T03:41:15Z",
-  "downloads": 1222,
+  "downloads": 1210,
   "platforms": [
     "ios"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-04-27T17:29:04.734Z",
+  "license": "ISC"
 }

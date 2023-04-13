@@ -35,11 +35,13 @@
   "description": "Fast, energy-efficient, highly-configurable QR code and barcode scanner.",
   "bugs": "https://github.com/bitpay/cordova-plugin-qrscanner/issues",
   "quality": 0,
-  "downloads": 12,
+  "downloads": 14,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/8416295?v=4",
   "updated": "2021-07-15T08:37:06Z",
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:40:57.307Z",
+  "license": "MIT"
 }

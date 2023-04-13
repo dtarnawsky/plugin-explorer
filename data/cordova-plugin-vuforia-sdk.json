@@ -27,7 +27,7 @@
   "description": "A Cordova wrapper for the Vuforia SDK",
   "bugs": "https://github.com/mattrayner/cordova-plugin-vuforia-sdk/issues",
   "quality": 114,
-  "downloads": 22,
+  "downloads": 24,
   "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/3502902?v=4",
   "updated": "2021-07-28T15:58:26Z",
@@ -35,5 +35,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:57:43.850Z",
+  "license": "MIT"
 }

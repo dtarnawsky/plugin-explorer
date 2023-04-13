@@ -28,9 +28,11 @@
   "description": "Twitter Connect Plugin - Allows single-sign on logins using Twitter",
   "bugs": "https://github.com/ManifestWebDesign/twitter-connect-plugin/issues",
   "quality": null,
-  "downloads": 90,
+  "downloads": 89,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-06-28T00:16:35.225Z",
+  "license": "Apache 2.0"
 }

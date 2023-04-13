@@ -23,8 +23,10 @@
   "description": "Cordova disable NSURL cache plugin",
   "bugs": "https://github.com/wongatech/cordova-disable-nsurl-cache/issues",
   "quality": null,
-  "downloads": 15,
+  "downloads": 14,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-06-13T23:33:09.256Z",
+  "license": "MIT"
 }

@@ -18,11 +18,12 @@
   "bugs": "https://github.com/npm/security-holder/issues",
   "stars": 141,
   "image": "https://avatars.githubusercontent.com/u/6078720?v=4",
-  "downloads": 643,
+  "downloads": 616,
   "keywords": [
     "registry"
   ],
   "quality": 295,
   "updated": "2023-04-11T14:55:14Z",
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:58:28.871Z"
 }

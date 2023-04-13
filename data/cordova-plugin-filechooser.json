@@ -11,14 +11,13 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ihadeed/cordova-filechooser.git",
-  "author": "",
   "fails": [
     "capacitor-android-3"
   ],
   "description": "Cordova FileChooser Plugin",
   "bugs": "https://github.com/ihadeed/cordova-filechooser/issues",
   "quality": 73,
-  "downloads": 6869,
+  "downloads": 6895,
   "stars": 14,
   "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
   "updated": "2022-10-14T11:47:29Z",
@@ -27,5 +26,7 @@
     "android",
     "windows"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-06-14T00:11:26.680Z",
+  "license": "ISC"
 }

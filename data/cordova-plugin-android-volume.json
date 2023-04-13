@@ -10,7 +10,6 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/MCluck90/cordova-plugin-android-volume.git",
-  "author": "",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -29,9 +28,11 @@
   "image": "https://avatars.githubusercontent.com/u/1753801?v=4",
   "quality": 125,
   "updated": "2023-03-06T09:03:59Z",
-  "downloads": 1064,
+  "downloads": 1045,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-13T23:47:28.658Z",
+  "license": "MIT"
 }

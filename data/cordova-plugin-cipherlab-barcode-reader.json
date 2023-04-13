@@ -24,8 +24,10 @@
     "cordova-ios-6"
   ],
   "description": "Barcode Reader Cordova Plugin for CipherLab Android Mobile Devices",
-  "downloads": 12,
+  "downloads": 18,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-04-27T17:16:08.753Z",
+  "license": "MIT"
 }

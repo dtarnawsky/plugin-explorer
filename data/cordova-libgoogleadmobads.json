@@ -43,8 +43,10 @@
   "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
   "quality": 102,
   "updated": "2016-10-28T16:28:30Z",
-  "downloads": 15,
+  "downloads": 16,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-06-13T23:38:28.118Z",
+  "license": "MIT"
 }

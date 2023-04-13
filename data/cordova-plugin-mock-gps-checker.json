@@ -25,6 +25,8 @@
     "capacitor-android-5"
   ],
   "description": "Cordova Mock Gps Checker Plugin",
-  "downloads": 50,
-  "platforms": "android"
+  "downloads": 51,
+  "platforms": "android",
+  "published": "2022-04-27T17:35:23.040Z",
+  "license": "MIT"
 }

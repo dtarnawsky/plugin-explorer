@@ -37,7 +37,7 @@
   "description": "Kakao Cordova SDK Plugin",
   "bugs": "https://github.com/raccoondev85/cordova-plugin-kakao-sdk/issues",
   "quality": 162,
-  "downloads": 71,
+  "downloads": 93,
   "stars": 18,
   "image": "https://avatars.githubusercontent.com/u/35438701?v=4",
   "updated": "2022-08-03T07:15:56Z",
@@ -45,5 +45,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:30:48.188Z",
+  "license": "MIT"
 }

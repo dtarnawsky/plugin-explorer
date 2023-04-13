@@ -19,5 +19,7 @@
     "capacitor-android-3"
   ],
   "description": "Allows your app to keep on playing audio when it's in the background.",
-  "downloads": 101
+  "downloads": 92,
+  "published": "2022-06-21T10:37:09.313Z",
+  "license": "MIT"
 }

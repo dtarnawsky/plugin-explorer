@@ -27,12 +27,14 @@
   "description": "Resolve native file paths from content URLs for Cordova platforms",
   "bugs": "https://github.com/hiddentao/cordova-plugin-filepath/issues",
   "quality": 296,
-  "downloads": 15957,
+  "downloads": 16076,
   "stars": 67,
   "image": "https://avatars.githubusercontent.com/u/266594?v=4",
   "updated": "2023-01-28T05:27:54Z",
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:11:31.688Z",
+  "license": "Apache 2.0"
 }

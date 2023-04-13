@@ -27,9 +27,11 @@
   ],
   "description": "print labels with an zebra label printer on the local network",
   "bugs": "https://JoJo-Bear@bitbucket.org/JoJo-Bear/ionic-zebra-label-printer.git/issues",
-  "downloads": 16,
+  "downloads": 15,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-05-06T02:45:26.673Z",
+  "license": "MIT"
 }

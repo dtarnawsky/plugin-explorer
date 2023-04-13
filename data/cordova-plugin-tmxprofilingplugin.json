@@ -14,9 +14,10 @@
     "capacitor-android-3"
   ],
   "description": "A Cordova plugin that allows users to utilise ThreatMetrix technologies.",
-  "downloads": 9,
+  "downloads": 13,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:48:38.464Z"
 }

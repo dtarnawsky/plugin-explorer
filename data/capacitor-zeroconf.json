@@ -31,7 +31,7 @@
   "description": "Capacitor ZeroConf plugin",
   "bugs": "https://github.com/trik/capacitor-zeroconf/issues",
   "quality": 6,
-  "downloads": 19,
+  "downloads": 20,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/1615301?v=4",
   "updated": "2023-02-10T12:50:11Z",
@@ -39,5 +39,7 @@
     "ios",
     "android"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-10-24T08:34:54.313Z",
+  "license": "MIT"
 }

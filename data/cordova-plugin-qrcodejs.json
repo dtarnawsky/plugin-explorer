@@ -32,9 +32,11 @@
   "description": "Cordova plugin for generating QR code",
   "bugs": "https://github.com/MenelicSoftware/cordova-plugin-qrcodejs/issues",
   "quality": 112,
-  "downloads": 71,
+  "downloads": 75,
   "stars": 6,
   "image": "https://avatars.githubusercontent.com/u/24511811?v=4",
   "updated": "2021-09-02T10:32:35Z",
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:42:42.544Z",
+  "license": "Apache-2.0"
 }

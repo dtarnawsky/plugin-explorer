@@ -6,7 +6,6 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/joinflux/capacitor-segment.git",
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +32,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-29T02:26:24.941Z",
+  "license": "MIT"
 }

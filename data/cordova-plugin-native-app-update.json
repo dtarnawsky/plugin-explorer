@@ -37,7 +37,7 @@
   "description": "A plugin to check the App Store or Google Play Store for iOS and Android respectively.",
   "bugs": "https://github.com/kungfu-king-betty/cordova-plugin-native-app-update/issues",
   "quality": 124,
-  "downloads": 666,
+  "downloads": 667,
   "stars": 10,
   "image": "https://avatars.githubusercontent.com/u/55329360?v=4",
   "updated": "2023-04-10T11:55:31Z",
@@ -45,5 +45,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:36:22.076Z",
+  "license": "MIT"
 }

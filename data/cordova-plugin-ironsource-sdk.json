@@ -24,8 +24,10 @@
     "capacitor-android-3"
   ],
   "description": "Iron source sdk for cordova based development",
-  "downloads": 33,
+  "downloads": 42,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-12-16T13:36:30.283Z",
+  "license": "MIT"
 }

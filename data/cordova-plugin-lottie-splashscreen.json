@@ -46,7 +46,7 @@
   "description": "Apache Cordova plugin to show Lottie animations as the splash screen with Airbnb's Lottie wrapper",
   "bugs": "https://github.com/timbru31/cordova-plugin-lottie-splashscreen/issues",
   "quality": 259,
-  "downloads": 1623,
+  "downloads": 1692,
   "stars": 108,
   "image": "https://avatars.githubusercontent.com/u/838003?v=4",
   "updated": "2023-04-05T12:55:27Z",
@@ -54,5 +54,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-02-20T11:34:22.840Z",
+  "license": "MIT"
 }

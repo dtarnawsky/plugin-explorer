@@ -4,7 +4,6 @@
   "success": [
     "capacitor-ios-4"
   ],
-  "author": "",
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -19,10 +18,11 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "description": "",
-  "downloads": 219,
+  "downloads": 214,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2023-04-06T17:46:55.251Z",
+  "license": "ISC"
 }

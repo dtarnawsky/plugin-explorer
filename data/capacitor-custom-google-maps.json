@@ -3,7 +3,6 @@
   "version": "0.2.8",
   "success": [],
   "repo": "https://github.com/nasasutisna/capacitor-custom-google-maps.git",
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +29,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-02-17T08:04:17.616Z",
+  "license": "MIT"
 }

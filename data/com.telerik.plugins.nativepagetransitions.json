@@ -33,5 +33,7 @@
     "cordova-android-11"
   ],
   "description": "Slide out the current page to reveal the next one. By a native transitions.",
-  "downloads": 3604
+  "downloads": 3633,
+  "published": "2022-06-13T06:33:32.177Z",
+  "license": "MIT"
 }

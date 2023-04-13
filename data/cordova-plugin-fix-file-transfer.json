@@ -36,7 +36,7 @@
   "description": "Cordova File Transfer Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
   "quality": null,
-  "downloads": 10,
+  "downloads": 11,
   "platforms": [
     "android",
     "amazon-fireos",
@@ -49,5 +49,7 @@
     "windows",
     "firefoxos",
     "browser"
-  ]
+  ],
+  "published": "2022-04-27T17:23:35.594Z",
+  "license": "Apache-2.0"
 }

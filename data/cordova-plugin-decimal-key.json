@@ -29,8 +29,10 @@
   "description": "Cordova plugin decimal keyboard",
   "bugs": "https://github.com/exxbrain/cordova-plugin-decimal-key/issues",
   "quality": null,
-  "downloads": 1265,
+  "downloads": 1262,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:18:18.140Z",
+  "license": "MIT"
 }

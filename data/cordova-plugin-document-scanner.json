@@ -36,10 +36,12 @@
   "image": "https://avatars.githubusercontent.com/u/36298190?v=4",
   "quality": 265,
   "updated": "2023-02-10T13:01:00Z",
-  "downloads": 538,
+  "downloads": 544,
   "platforms": [
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:19:14.752Z",
+  "license": "ISC"
 }

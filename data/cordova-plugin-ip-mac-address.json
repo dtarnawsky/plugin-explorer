@@ -26,9 +26,11 @@
   "description": "cordova-plugin-ip-mac-address",
   "bugs": "https://github.com/surya/cordova-plugin-ip-mac-address/issues",
   "quality": null,
-  "downloads": 168,
+  "downloads": 160,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:29:47.280Z",
+  "license": "ISC"
 }

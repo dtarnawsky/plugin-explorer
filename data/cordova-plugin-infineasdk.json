@@ -23,8 +23,10 @@
   "description": "InfineaSDK Cordova plugin",
   "bugs": "https://github.com/InfinitePeripherals/InfineaSDKCordova/issues",
   "quality": null,
-  "downloads": 4,
+  "downloads": 5,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:28:22.386Z",
+  "license": "ISC"
 }

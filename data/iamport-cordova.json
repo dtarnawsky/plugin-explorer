@@ -31,7 +31,7 @@
   "description": "아임포트 코르도바용 일반, 정기결제 및 휴대폰 본인인증 플러그인입니다.",
   "bugs": "https://github.com/iamport/iamport-cordova/issues",
   "quality": 117,
-  "downloads": 55,
+  "downloads": 52,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/11437969?v=4",
   "updated": "2023-03-28T05:06:35Z",
@@ -39,5 +39,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-05-05T13:52:55.019Z",
+  "license": "MIT"
 }

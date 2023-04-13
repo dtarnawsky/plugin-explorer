@@ -14,9 +14,10 @@
     "cordova-android-11"
   ],
   "description": "A starting point for a Cordova Plugin",
-  "downloads": 4,
+  "downloads": 7,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-06-08T07:34:59.355Z"
 }

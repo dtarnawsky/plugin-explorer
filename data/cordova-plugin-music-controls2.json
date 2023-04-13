@@ -32,7 +32,7 @@
   "description": "Music controls for Cordova apps",
   "bugs": "https://github.com/ghenry22/cordova-plugin-music-controls2/issues",
   "quality": 125,
-  "downloads": 572,
+  "downloads": 581,
   "stars": 58,
   "image": "https://avatars.githubusercontent.com/u/7463213?v=4",
   "updated": "2023-03-05T15:47:27Z",
@@ -41,5 +41,7 @@
     "windows",
     "ios"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-11-17T23:22:10.214Z",
+  "license": "MIT"
 }

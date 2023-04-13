@@ -8,7 +8,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ihadeed/cordova-plugin-stepcounter.git",
-  "author": "",
   "fails": [
     "capacitor-android-4",
     "capacitor-android-3",
@@ -21,7 +20,9 @@
   "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
   "quality": 13,
   "updated": "2021-09-27T01:10:09Z",
-  "downloads": 13,
+  "downloads": 15,
   "keywords": [],
-  "fork": true
+  "fork": true,
+  "published": "2022-06-14T00:52:03.743Z",
+  "license": "ISC"
 }

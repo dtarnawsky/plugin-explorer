@@ -26,7 +26,7 @@
   "description": "JPush for Capacitor plugin",
   "bugs": "https://github.com/AlwaysLoveme/cordova-plugin-jpush/issues",
   "quality": 9,
-  "downloads": 39,
+  "downloads": 45,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/29945352?v=4",
   "updated": "2022-09-22T09:42:41Z",
@@ -34,5 +34,7 @@
     "ios",
     "android"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-04-27T17:30:33.475Z",
+  "license": "MIT"
 }

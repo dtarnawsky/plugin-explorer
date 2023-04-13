@@ -44,5 +44,7 @@
     "ios",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-22T13:19:40.056Z",
+  "license": "Apache-2.0"
 }

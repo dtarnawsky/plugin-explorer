@@ -48,7 +48,7 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 245,
   "updated": "2023-03-02T21:35:37Z",
-  "downloads": 4241,
+  "downloads": 4281,
   "platforms": [
     "firefoxos",
     "android",
@@ -62,5 +62,7 @@
     "tizen",
     "browser"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:04:54.072Z",
+  "license": "Apache-2.0"
 }

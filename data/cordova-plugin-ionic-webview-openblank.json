@@ -30,12 +30,14 @@
   "description": "Cordova WKWebView OpenBlank Plugin",
   "bugs": "https://github.com/youssmak/cordova-plugin-ionic-webview-openblank/issues",
   "quality": 106,
-  "downloads": 324,
+  "downloads": 299,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/1314239?v=4",
   "updated": "2023-03-07T02:22:29Z",
   "platforms": [
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:28:58.556Z",
+  "license": "Apache 2.0"
 }

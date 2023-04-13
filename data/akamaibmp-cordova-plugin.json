@@ -26,5 +26,7 @@
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-04-11T13:11:23.025Z",
+  "license": "ISC"
 }

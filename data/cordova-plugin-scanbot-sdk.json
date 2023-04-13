@@ -59,9 +59,11 @@
     "capacitor-android-3"
   ],
   "description": "Cordova Plugin for the Scanbot Document and Barcode Scanner SDK",
-  "downloads": 3425,
+  "downloads": 3584,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2023-04-04T11:19:00.242Z",
+  "license": "Commercial"
 }

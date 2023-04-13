@@ -23,11 +23,13 @@
   "description": "a fingerprint plugin for ifreezer",
   "bugs": "https://github.com/chenliang1937/FingerprintPlugin/issues",
   "quality": 100,
-  "downloads": 8,
+  "downloads": 7,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/10989772?v=4",
   "updated": "2019-06-26T10:15:32Z",
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-05-02T10:58:18.266Z",
+  "license": "MIT"
 }

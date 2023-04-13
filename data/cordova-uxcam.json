@@ -26,7 +26,7 @@
   "description": "Cordova plugin for UXCam - enables the recording of your applications screen",
   "bugs": "https://github.com/uxcam/cordova-uxcam/issues",
   "quality": 120,
-  "downloads": 404,
+  "downloads": 415,
   "stars": 6,
   "image": "https://avatars.githubusercontent.com/u/6542788?v=4",
   "updated": "2023-02-24T09:54:02Z",
@@ -34,5 +34,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-12-29T12:20:44.970Z",
+  "license": "Commercial"
 }

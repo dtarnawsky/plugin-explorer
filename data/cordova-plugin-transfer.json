@@ -31,6 +31,8 @@
   "description": "Use the way Pause and Resume to download files or fileStream for Cordova and PhoneGap",
   "bugs": "https://github.com/movooc/cordova-plugin-transfer/issues",
   "quality": null,
-  "downloads": 52,
-  "stars": 0
+  "downloads": 54,
+  "stars": 0,
+  "published": "2022-04-27T17:48:57.963Z",
+  "license": "Apache-2.0"
 }

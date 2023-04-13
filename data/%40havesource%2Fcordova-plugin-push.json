@@ -41,5 +41,7 @@
     "windows",
     "browser"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-10-25T12:12:29.630Z",
+  "license": "MIT"
 }

@@ -26,10 +26,12 @@
   "description": "Cordova Plugin common extension with adapter interface",
   "bugs": "https://github.com/floatinghotpot/cordova-extension/issues",
   "quality": null,
-  "downloads": 475,
+  "downloads": 464,
   "platforms": [
     "android",
     "ios",
     "amazon-fireos"
-  ]
+  ],
+  "published": "2022-06-14T00:08:19.362Z",
+  "license": "MIT"
 }

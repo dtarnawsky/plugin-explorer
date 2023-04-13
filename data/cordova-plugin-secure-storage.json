@@ -33,7 +33,7 @@
   "description": "Secure storage plugin for iOS & Android",
   "bugs": "https://github.com/crypho/cordova-plugin-secure-storage/issues",
   "quality": 645,
-  "downloads": 4426,
+  "downloads": 4512,
   "stars": 281,
   "image": "https://avatars.githubusercontent.com/u/2860957?v=4",
   "updated": "2023-01-28T17:39:59Z",
@@ -43,5 +43,7 @@
     "wp8",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:46:36.158Z",
+  "license": "MIT"
 }

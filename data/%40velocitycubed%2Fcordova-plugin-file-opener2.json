@@ -36,5 +36,7 @@
     "ios",
     "windows",
     "electron"
-  ]
+  ],
+  "published": "2022-10-13T07:00:16.758Z",
+  "license": "MIT"
 }

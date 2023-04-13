@@ -31,5 +31,7 @@
   "platforms": [
     "android"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2022-04-05T03:00:31.001Z",
+  "license": "Apache-2.0"
 }

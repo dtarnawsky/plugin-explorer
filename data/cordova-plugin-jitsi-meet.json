@@ -20,8 +20,10 @@
     "capacitor-ios-5"
   ],
   "description": "jitsi meet sdk",
-  "downloads": 181,
+  "downloads": 223,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-04-27T17:30:28.024Z",
+  "license": "ISC"
 }

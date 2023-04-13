@@ -29,7 +29,7 @@
   "description": "Cordova ThemeableBrowser Plugin",
   "bugs": "https://github.com/imloama/cordova-plugin-themeablebrowser/issues",
   "quality": 5,
-  "downloads": 5,
+  "downloads": 4,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/3024323?v=4",
   "updated": "2018-12-22T18:14:47Z",
@@ -44,5 +44,7 @@
     "windows",
     "firefoxos"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-05-02T11:34:08.248Z",
+  "license": "Apache 2.0"
 }

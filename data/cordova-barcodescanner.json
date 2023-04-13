@@ -26,11 +26,13 @@
     "cordova-android-11"
   ],
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
-  "downloads": 28,
+  "downloads": 25,
   "platforms": [
     "ios",
     "android",
     "windows",
     "browser"
-  ]
+  ],
+  "published": "2022-04-27T17:01:06.637Z",
+  "license": "MIT"
 }

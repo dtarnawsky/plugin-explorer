@@ -24,8 +24,10 @@
   "description": "Cordova Plugin implemented library drawreceiptlib to build receipt image",
   "bugs": "https://github.com/Drunkenpilot/cordova-plugin-receipt-builder/issues",
   "quality": null,
-  "downloads": 37,
+  "downloads": 36,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-04-27T17:42:03.697Z",
+  "license": "MIT"
 }

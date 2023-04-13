@@ -29,12 +29,14 @@
   "description": "Foreground service with ongoing notification.",
   "bugs": "https://github.com/DavidBriglio/cordova-plugin-foreground-service/issues",
   "quality": 179,
-  "downloads": 1916,
+  "downloads": 1878,
   "stars": 36,
   "image": "https://avatars.githubusercontent.com/u/3886546?v=4",
   "updated": "2023-01-27T20:53:34Z",
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:23:50.995Z",
+  "license": "MIT"
 }

@@ -36,11 +36,12 @@
     "cordova-android-11",
     "cordova-ios-6"
   ],
-  "author": "",
   "description": "Alan Voice Cordova plugin",
   "downloads": 301,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-03-14T14:19:58.381Z",
+  "license": "MIT"
 }

@@ -34,5 +34,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-16T15:56:19.920Z",
+  "license": "commercial"
 }

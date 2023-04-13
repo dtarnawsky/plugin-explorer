@@ -9,7 +9,6 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/ihadeed/cordova-plugin-call-number.git",
-  "author": "",
   "keywords": [
     "cordova",
     "call",
@@ -30,10 +29,12 @@
   "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
   "quality": 13,
   "updated": "2020-06-22T20:28:56Z",
-  "downloads": 1587,
+  "downloads": 1574,
   "platforms": [
     "ios",
     "android"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-06-13T23:57:06.363Z",
+  "license": "Apache 2.0"
 }

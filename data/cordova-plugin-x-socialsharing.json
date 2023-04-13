@@ -38,7 +38,7 @@
   "description": "Share text, images (and other files), or a link via the native sharing widget of your device. Android is fully supported, as well as iOS 6 and up. WP8 has somewhat limited support.",
   "bugs": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues",
   "quality": 3255,
-  "downloads": 64349,
+  "downloads": 64694,
   "stars": 1780,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "updated": "2023-04-11T19:28:09Z",
@@ -49,5 +49,7 @@
     "windows",
     "web"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-14T10:47:04.666Z",
+  "license": "MIT"
 }

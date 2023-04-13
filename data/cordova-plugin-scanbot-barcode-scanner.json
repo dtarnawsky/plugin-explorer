@@ -35,9 +35,11 @@
     "capacitor-ios-5"
   ],
   "description": "Cordova Plugin for the Scanbot Barcode Scanner SDK",
-  "downloads": 751,
+  "downloads": 811,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2023-04-11T15:11:39.957Z",
+  "license": "Commercial"
 }

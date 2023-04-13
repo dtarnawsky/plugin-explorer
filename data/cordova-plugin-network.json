@@ -25,9 +25,11 @@
     "cordova-android-11"
   ],
   "description": "Cordova network plugin for Android and iOS",
-  "downloads": 29,
+  "downloads": 36,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:36:54.857Z",
+  "license": "MIT"
 }

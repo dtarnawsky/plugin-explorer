@@ -22,9 +22,11 @@
     "capacitor-android-5"
   ],
   "description": "A plugin that you can use Insider SDK with Cordova and Ionic",
-  "downloads": 125,
+  "downloads": 122,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-10-13T07:30:24.304Z",
+  "license": "ISC"
 }

@@ -6,7 +6,6 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/contacts.git",
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +30,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-06T10:30:49.511Z",
+  "license": "MIT"
 }

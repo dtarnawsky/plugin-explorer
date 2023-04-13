@@ -39,10 +39,12 @@
   "image": "https://avatars.githubusercontent.com/u/2346236?v=4",
   "quality": 499,
   "updated": "2023-02-09T00:13:50Z",
-  "downloads": 168,
+  "downloads": 162,
   "platforms": [
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-13T06:33:37.658Z",
+  "license": "(c) 2016 - 2021 Wikitude GmbH - see License.md for details of the license"
 }

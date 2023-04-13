@@ -32,9 +32,11 @@
     "capacitor-ios-5"
   ],
   "description": "Scanzy Barcode Scanner SDK",
-  "downloads": 250,
+  "downloads": 201,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2023-03-24T08:52:06.848Z",
+  "license": "Commercial"
 }

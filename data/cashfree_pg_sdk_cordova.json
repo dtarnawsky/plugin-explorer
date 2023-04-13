@@ -30,10 +30,12 @@
     "capacitor-ios-5"
   ],
   "description": "Cordova/Ionic/Phonegap plugin for Cashfree's Mobile payments SDKs",
-  "downloads": 127,
+  "downloads": 130,
   "platforms": [
     "ios",
     "android",
     "browser"
-  ]
+  ],
+  "published": "2022-12-06T12:17:52.022Z",
+  "license": "ISC"
 }

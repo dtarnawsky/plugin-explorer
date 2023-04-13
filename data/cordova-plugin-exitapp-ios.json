@@ -16,8 +16,10 @@
   "description": "Implements navigator.app.exitApp on iOS",
   "bugs": "https://github.com/maitscha/cordova-plugin-exitapp-ios/issues",
   "quality": null,
-  "downloads": 838,
+  "downloads": 846,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:20:27.658Z",
+  "license": "Apache 2.0"
 }

@@ -53,10 +53,12 @@
   "image": "https://avatars.githubusercontent.com/u/6421070?v=4",
   "quality": 104,
   "updated": "2021-12-14T15:18:12Z",
-  "downloads": 63,
+  "downloads": 69,
   "platforms": [
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-08T10:02:48.974Z",
+  "license": "BSD-3-Clause"
 }

@@ -33,12 +33,14 @@
   "image": "https://avatars.githubusercontent.com/u/6188656?v=4",
   "quality": 1483,
   "updated": "2023-04-12T13:36:48Z",
-  "downloads": 18406,
+  "downloads": 19095,
   "platforms": [
     "android",
     "ios",
     "osx",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-04-07T14:50:14.537Z",
+  "license": "MIT"
 }

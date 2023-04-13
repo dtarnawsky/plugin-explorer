@@ -34,5 +34,7 @@
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:49:46.077Z",
+  "license": "ISC"
 }

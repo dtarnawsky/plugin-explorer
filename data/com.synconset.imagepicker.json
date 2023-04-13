@@ -15,5 +15,7 @@
     "cordova-android-11"
   ],
   "description": "This plugin allows selection of multiple images from the camera roll / gallery in a phonegap app",
-  "downloads": 516
+  "downloads": 510,
+  "published": "2022-04-27T14:04:35.988Z",
+  "license": "MIT"
 }

@@ -9,7 +9,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview.git",
-  "author": "",
   "keywords": [
     "cordova",
     "chromium",
@@ -30,9 +29,11 @@
   "image": "https://avatars.githubusercontent.com/u/4867377?v=4",
   "quality": 1421,
   "updated": "2023-01-28T15:12:30Z",
-  "downloads": 1059,
+  "downloads": 1074,
   "platforms": [
     "android"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-06-14T00:02:38.997Z",
+  "license": "Apache 2.0"
 }

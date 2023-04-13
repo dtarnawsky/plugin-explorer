@@ -27,9 +27,11 @@
   "image": "https://avatars.githubusercontent.com/u/24813078?v=4",
   "quality": 117,
   "updated": "2022-11-27T16:05:31Z",
-  "downloads": 108,
+  "downloads": 117,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:09:50.783Z",
+  "license": "MIT"
 }

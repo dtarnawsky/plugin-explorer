@@ -89,5 +89,7 @@
     "web",
     "osx"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-06T07:26:34.173Z",
+  "license": "MIT"
 }

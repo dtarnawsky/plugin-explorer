@@ -25,7 +25,7 @@
   "description": "Zip plugin",
   "bugs": "https://github.com/triniwiz/capacitor-zip/issues",
   "quality": 119,
-  "downloads": 98,
+  "downloads": 94,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/6695919?v=4",
   "updated": "2023-03-15T15:14:34Z",
@@ -33,5 +33,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-12T05:17:36.595Z",
+  "license": "MIT"
 }

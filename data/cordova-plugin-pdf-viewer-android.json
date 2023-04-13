@@ -21,8 +21,10 @@
     "capacitor-android-5"
   ],
   "description": "This cordova plugin uses com.github.barteksc:android-pdf-viewer project and show a PDF reader with a callback button(optional)",
-  "downloads": 31,
+  "downloads": 35,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-04-27T17:38:46.377Z",
+  "license": "MIT"
 }

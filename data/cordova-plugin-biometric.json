@@ -28,8 +28,10 @@
     "cordova-android-11"
   ],
   "description": "Scan the fingerprint of your user with the TouchID sensor, or the user's Face with Face ID on iPhone X",
-  "downloads": 44,
+  "downloads": 41,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:13:30.899Z",
+  "license": "MIT"
 }

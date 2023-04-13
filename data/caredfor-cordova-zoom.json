@@ -24,5 +24,7 @@
   ],
   "description": "caredfor supporting cordova zoom plugin",
   "bugs": "https://bitbucket.org/caredfor/cordova.plugin.zoom/issues",
-  "downloads": 3
+  "downloads": 3,
+  "published": "2022-04-12T05:21:50.503Z",
+  "license": "ISC"
 }

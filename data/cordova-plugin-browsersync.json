@@ -26,9 +26,11 @@
   "description": "Cordova Plugin to integrate browser-sync in the workflow",
   "bugs": "https://github.com/axemclion/cordova-plugin-browsersync/issues",
   "quality": null,
-  "downloads": 228,
+  "downloads": 229,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-06-13T23:55:48.861Z",
+  "license": "Apache-2.0"
 }

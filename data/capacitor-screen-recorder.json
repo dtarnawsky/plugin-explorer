@@ -33,5 +33,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-07-24T12:48:32.533Z",
+  "license": "MIT"
 }

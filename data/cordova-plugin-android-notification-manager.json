@@ -29,8 +29,10 @@
     "cordova-android-11"
   ],
   "description": "Manage android notification channels in cordova application",
-  "downloads": 5,
+  "downloads": 6,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-04-27T17:09:52.785Z",
+  "license": "MIT"
 }

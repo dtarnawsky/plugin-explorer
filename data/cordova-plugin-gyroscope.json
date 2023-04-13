@@ -28,10 +28,12 @@
   "image": "https://avatars.githubusercontent.com/u/5782106?v=4",
   "quality": 127,
   "updated": "2020-06-22T10:10:05Z",
-  "downloads": 139,
+  "downloads": 140,
   "platforms": [
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:17:34.322Z",
+  "license": "BSD"
 }

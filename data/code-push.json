@@ -21,7 +21,7 @@
   "bugs": "https://github.com/Microsoft/code-push/issues",
   "stars": 4240,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
-  "downloads": 581434,
+  "downloads": 581609,
   "keywords": [
     "codepush",
     "cordova",
@@ -31,5 +31,7 @@
   ],
   "quality": 4821,
   "updated": "2023-04-12T08:20:13Z",
-  "fork": false
+  "fork": false,
+  "published": "2023-01-17T09:59:34.741Z",
+  "license": "MIT"
 }

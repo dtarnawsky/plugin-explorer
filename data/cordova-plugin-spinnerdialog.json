@@ -45,5 +45,7 @@
     "ios",
     "wp8"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-06-14T00:50:26.172Z",
+  "license": "MIT"
 }

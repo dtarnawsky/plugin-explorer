@@ -24,9 +24,11 @@
   ],
   "description": "Bugsee plugin for Cordova",
   "bugs": "https://github.com/bugsee/cordova/issues",
-  "downloads": 163,
+  "downloads": 152,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-02-26T15:34:16.142Z",
+  "license": "Commercial"
 }

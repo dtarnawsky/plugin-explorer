@@ -25,5 +25,7 @@
   "description": "A typed wrapper around Firestore including a query-builder and an in-memory implementation for testing",
   "bugs": "https://github.com/freshfox/firestore-storage/issues",
   "quality": null,
-  "downloads": 1527
+  "downloads": 1504,
+  "published": "2023-04-07T11:49:30.860Z",
+  "license": "MIT"
 }

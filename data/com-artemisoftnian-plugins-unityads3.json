@@ -51,9 +51,11 @@
     "capacitor-ios-5"
   ],
   "description": "Monetize your cordova application using the UnityAds 4 API",
-  "downloads": 75,
+  "downloads": 72,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-10-09T14:55:58.695Z",
+  "license": "MIT"
 }

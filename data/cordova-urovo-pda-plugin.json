@@ -20,6 +20,8 @@
   "description": "Cordova plugin for Urovo PDA barcode scanner",
   "bugs": "https://github.com/sgologuzov/cordova-urovo-pda-plugin/issues",
   "quality": null,
-  "downloads": 11,
-  "stars": 0
+  "downloads": 15,
+  "stars": 0,
+  "published": "2022-04-27T17:55:39.790Z",
+  "license": "Apache-2.0"
 }

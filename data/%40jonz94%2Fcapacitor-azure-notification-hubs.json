@@ -44,5 +44,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-11T08:57:09.533Z",
+  "license": "0BSD"
 }

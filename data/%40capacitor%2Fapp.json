@@ -30,5 +30,7 @@
   "description": "The App API handles high level App state and events.For example, this API emits events when the app enters and leaves the foreground, handles deeplinks, opens other apps, and manages persisted plugin state.",
   "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
   "downloads": 651832,
-  "image": "https://avatars.githubusercontent.com/u/3171503?v=4"
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "published": "2023-04-12T15:13:25.111Z",
+  "license": "MIT"
 }

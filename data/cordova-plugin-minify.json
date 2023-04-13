@@ -34,5 +34,7 @@
     "windows",
     "browser",
     "osx"
-  ]
+  ],
+  "published": "2022-04-27T17:34:45.282Z",
+  "license": "MIT"
 }

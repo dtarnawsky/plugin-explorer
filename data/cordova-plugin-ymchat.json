@@ -25,10 +25,12 @@
   "description": "Cordova plugin to integrate yellow.ai chatbot",
   "bugs": "https://github.com/yellowmessenger/cordova-plugin-ymchat/issues",
   "quality": null,
-  "downloads": 186,
+  "downloads": 185,
   "platforms": [
     "android",
     "ios"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2023-03-30T04:33:10.052Z",
+  "license": "ISC"
 }

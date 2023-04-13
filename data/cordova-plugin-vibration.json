@@ -39,11 +39,13 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 355,
   "updated": "2023-03-02T21:17:04Z",
-  "downloads": 19942,
+  "downloads": 20005,
   "platforms": [
     "android",
     "ios",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:57:06.432Z",
+  "license": "Apache-2.0"
 }

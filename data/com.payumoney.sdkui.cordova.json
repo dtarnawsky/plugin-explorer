@@ -22,9 +22,11 @@
     "cordova-android-11"
   ],
   "description": "PayUmoney PNP Plugin",
-  "downloads": 35,
+  "downloads": 41,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-11-07T16:36:46.964Z",
+  "license": "Apache 2.0"
 }

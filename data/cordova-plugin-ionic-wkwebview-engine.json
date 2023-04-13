@@ -24,5 +24,7 @@
   "description": "The official Apache Cordova WKWebView Engine Plugin",
   "bugs": "https://github.com/ionic-team/cordova-plugin-wkwebview-engine/issues",
   "quality": null,
-  "downloads": 32
+  "downloads": 35,
+  "published": "2022-04-27T17:29:01.238Z",
+  "license": "Apache-2.0"
 }

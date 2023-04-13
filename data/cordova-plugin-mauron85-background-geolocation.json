@@ -7,7 +7,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/mauron85/cordova-plugin-background-geolocation.git",
-  "author": "",
   "keywords": [
     "gps",
     "location",
@@ -29,7 +28,7 @@
   "description": "Cordova Background Geolocation Plugin",
   "bugs": "https://github.com/mauron85/cordova-plugin-background-geolocation/issues",
   "quality": 1032,
-  "downloads": 885,
+  "downloads": 972,
   "stars": 540,
   "image": "https://avatars.githubusercontent.com/u/359450?v=4",
   "updated": "2023-03-24T20:01:18Z",
@@ -37,5 +36,7 @@
     "android",
     "ios"
   ],
-  "fork": true
+  "fork": true,
+  "published": "2022-06-14T00:29:12.480Z",
+  "license": "Apache-2.0"
 }

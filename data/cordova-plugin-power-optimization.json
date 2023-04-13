@@ -50,9 +50,11 @@
   "image": "https://avatars.githubusercontent.com/u/31568830?v=4",
   "quality": 118,
   "updated": "2023-01-09T16:51:05Z",
-  "downloads": 221,
+  "downloads": 229,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:39:44.430Z",
+  "license": "Apache 2.0"
 }

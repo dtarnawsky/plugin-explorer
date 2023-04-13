@@ -3,7 +3,6 @@
   "version": "0.0.4",
   "success": [],
   "repo": "https://github.com/nadlowebagentur/capacitor-sip-phone.git",
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +29,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-12-15T13:17:23.478Z",
+  "license": "MIT"
 }

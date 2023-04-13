@@ -32,7 +32,7 @@
   "description": "This plugin allows you switch the Flashlight / Torch of your device on or off.",
   "bugs": "https://github.com/EddyVerbruggen/Flashlight-PhoneGap-Plugin/issues",
   "quality": 251,
-  "downloads": 12382,
+  "downloads": 12444,
   "stars": 59,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "updated": "2023-03-01T11:30:44Z",
@@ -41,5 +41,7 @@
     "android",
     "wp8"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:13:46.731Z",
+  "license": "MIT"
 }

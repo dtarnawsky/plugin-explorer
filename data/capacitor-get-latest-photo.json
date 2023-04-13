@@ -31,5 +31,7 @@
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-04-12T05:15:20.601Z",
+  "license": "MIT"
 }

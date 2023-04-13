@@ -34,7 +34,7 @@
   "description": "A cordova plugin to get the size of the device screen",
   "bugs": "https://github.com/pbakondy/cordova-plugin-screensize/issues",
   "quality": 140,
-  "downloads": 1042,
+  "downloads": 1049,
   "stars": 24,
   "image": "https://avatars.githubusercontent.com/u/500697?v=4",
   "updated": "2022-12-16T12:10:02Z",
@@ -44,5 +44,7 @@
     "osx",
     "browser"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:46:16.085Z",
+  "license": "MIT"
 }

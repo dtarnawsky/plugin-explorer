@@ -9,7 +9,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/admob-google/admob-cordova.git",
-  "author": "",
   "keywords": [
     "ad",
     "admob",
@@ -49,5 +48,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-13T02:27:00.481Z",
+  "license": "Apache 2.0 License"
 }

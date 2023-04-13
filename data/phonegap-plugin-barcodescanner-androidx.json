@@ -29,7 +29,7 @@
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
   "bugs": "https://github.com/phonegap/phonegap-plugin-barcodescanner/issues",
   "quality": 2782,
-  "downloads": 59,
+  "downloads": 60,
   "stars": 1276,
   "image": "https://avatars.githubusercontent.com/u/60365?v=4",
   "updated": "2023-04-09T10:31:11Z",
@@ -39,5 +39,7 @@
     "windows",
     "browser"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-05-12T21:30:16.534Z",
+  "license": "MIT"
 }

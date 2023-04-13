@@ -25,12 +25,17 @@
   "description": "Singular Cordova SDK",
   "bugs": "https://github.com/singular-labs/Singular-Cordova-SDK/issues",
   "quality": 100,
-  "downloads": 160,
+  "downloads": 150,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/7960038?v=4",
   "updated": "2022-09-04T11:01:30Z",
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-04-03T13:21:09.868Z",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/singular-labs/Singular-Cordova-SDK/blob/master/LICENSE"
+  }
 }

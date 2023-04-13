@@ -33,12 +33,14 @@
   "bugs": "https://github.com/houseninjadojo/capacitor-mixpanel/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/88355023?v=4",
-  "quality": 113,
-  "updated": "2023-03-06T21:35:14Z",
+  "quality": 112,
+  "updated": "2023-04-13T02:00:23Z",
   "downloads": 374,
   "platforms": [
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-04T19:42:15.182Z",
+  "license": "MIT"
 }

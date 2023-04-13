@@ -19,5 +19,7 @@
     "cordova-android-11"
   ],
   "description": "Cordova plugin for the Adjust SDK",
-  "downloads": 5363
+  "downloads": 5351,
+  "published": "2022-09-16T13:28:47.793Z",
+  "license": "MIT License"
 }

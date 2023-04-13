@@ -40,5 +40,7 @@
     "ios",
     "wp8"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-12T03:45:53.851Z",
+  "license": "Apache 2.0"
 }

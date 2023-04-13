@@ -27,7 +27,7 @@
   "description": "This plugin allows you to define a wallpaper in Android with Capacitor and IONIC",
   "bugs": "https://github.com/insoutt/capacitor-wallpaper/issues",
   "quality": 106,
-  "downloads": 10,
+  "downloads": 9,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/9189972?v=4",
   "updated": "2023-03-15T19:22:38Z",
@@ -35,5 +35,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-12T05:17:32.801Z",
+  "license": "MIT"
 }

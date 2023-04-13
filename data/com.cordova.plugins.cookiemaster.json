@@ -22,5 +22,7 @@
     "cordova-android-11"
   ],
   "description": "This plugin enables the management of cookies in WebViews on iOS and Android as those platforms restrict the use of \"document.cookie\".",
-  "downloads": 551
+  "downloads": 569,
+  "published": "2022-06-13T06:32:53.766Z",
+  "license": "MIT"
 }

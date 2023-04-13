@@ -25,12 +25,14 @@
     "capacitor-android-3"
   ],
   "description": "Cordova File Plugin",
-  "downloads": 231855,
+  "downloads": 232612,
   "platforms": [
     "android",
     "browser",
     "ios",
     "osx",
     "windows"
-  ]
+  ],
+  "published": "2022-06-14T00:10:39.560Z",
+  "license": "Apache-2.0"
 }

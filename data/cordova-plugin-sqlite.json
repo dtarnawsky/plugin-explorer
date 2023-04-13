@@ -30,7 +30,7 @@
   "description": "Cordova SQLite Plugin",
   "bugs": "https://github.com/hypery2k/cordova-sqlite-plugin/issues",
   "quality": null,
-  "downloads": 191,
+  "downloads": 189,
   "platforms": [
     "android",
     "amazon-fireos",
@@ -38,5 +38,7 @@
     "wp7",
     "wp8",
     "windows"
-  ]
+  ],
+  "published": "2022-06-14T00:50:38.696Z",
+  "license": "MIT"
 }

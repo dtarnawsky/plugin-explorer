@@ -4,7 +4,6 @@
   "success": [
     "capacitor-ios-4"
   ],
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -26,5 +25,7 @@
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-03-22T13:19:44.346Z",
+  "license": "UNLICENSED"
 }

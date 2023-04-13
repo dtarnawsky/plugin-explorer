@@ -40,7 +40,7 @@
   "description": "Cordova Screen Orientation plugin",
   "bugs": "https://github.com/apache/cordova-plugin-screen-orientation/issues",
   "quality": 524,
-  "downloads": 150786,
+  "downloads": 150848,
   "stars": 208,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "updated": "2023-03-02T21:30:16Z",
@@ -49,5 +49,7 @@
     "ios",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-02-24T14:43:09.405Z",
+  "license": "Apache-2.0"
 }

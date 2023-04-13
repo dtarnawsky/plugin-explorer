@@ -40,5 +40,7 @@
     "android",
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-28T14:42:30.085Z",
+  "license": "See https://bugfender.com/terms"
 }

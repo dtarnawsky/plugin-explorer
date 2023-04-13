@@ -32,9 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/410445?v=4",
   "quality": 505,
   "updated": "2023-03-20T08:42:05Z",
-  "downloads": 154,
+  "downloads": 167,
   "platforms": [
     "blackberry10"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:00:26.437Z",
+  "license": "Apache 2.0"
 }

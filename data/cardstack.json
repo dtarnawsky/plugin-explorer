@@ -17,5 +17,7 @@
     "cordova-android-11"
   ],
   "description": "React card stack",
-  "downloads": 5
+  "downloads": 5,
+  "published": "2022-04-12T05:21:43.283Z",
+  "license": "MIT"
 }

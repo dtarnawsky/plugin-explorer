@@ -46,5 +46,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-04-11T07:52:26.420Z",
+  "license": "MPL-2.0"
 }

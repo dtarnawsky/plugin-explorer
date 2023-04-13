@@ -14,8 +14,9 @@
     "capacitor-android-5"
   ],
   "description": "A StartApp Ads Plugin",
-  "downloads": 14,
+  "downloads": 15,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-04-27T17:47:05.158Z"
 }

@@ -37,5 +37,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-01T16:28:32.655Z",
+  "license": "LGPL-3.0"
 }

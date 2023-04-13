@@ -2,7 +2,6 @@
   "name": "@ionic-enterprise/capacitor-portals",
   "version": "0.0.5",
   "success": [],
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -25,5 +24,7 @@
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-03-22T13:19:20.294Z",
+  "license": "Commercial"
 }

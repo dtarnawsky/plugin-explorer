@@ -29,9 +29,11 @@
   "description": "Cordova Plugin for handling localization strings on InfoPlist.strings and Localizable.strings on iOS, strings.xml on Android",
   "bugs": "https://github.com/kelvinhokk/cordova-plugin-localization-strings.git/issues",
   "quality": 318,
-  "downloads": 17678,
+  "downloads": 17380,
   "stars": 114,
   "image": "https://avatars.githubusercontent.com/u/7766953?v=4",
   "updated": "2023-03-08T21:31:39Z",
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:27:59.698Z",
+  "license": "MIT"
 }

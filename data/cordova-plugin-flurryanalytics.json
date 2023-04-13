@@ -30,9 +30,11 @@
   "description": "Ads support for Flurry Analytics to Cordova and Phonegap apps",
   "bugs": "https://github.com/blakgeek/cordova-plugin-flurryanalytics/issues",
   "quality": 173,
-  "downloads": 56,
+  "downloads": 57,
   "stars": 23,
   "image": "https://avatars.githubusercontent.com/u/824542?v=4",
   "updated": "2022-01-17T15:13:30Z",
-  "fork": false
+  "fork": false,
+  "published": "2022-12-11T19:33:57.617Z",
+  "license": "MIT"
 }

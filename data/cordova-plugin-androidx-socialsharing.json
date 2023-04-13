@@ -41,7 +41,7 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 3255,
   "updated": "2023-04-11T19:28:09Z",
-  "downloads": 14,
+  "downloads": 16,
   "platforms": [
     "ios",
     "android",
@@ -49,5 +49,7 @@
     "windows",
     "web"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-27T17:10:20.981Z",
+  "license": "MIT"
 }

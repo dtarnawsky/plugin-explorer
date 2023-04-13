@@ -23,6 +23,8 @@
     "capacitor-android-3"
   ],
   "description": "Cordova Prevent Screenshots",
-  "downloads": 344,
-  "platforms": "android"
+  "downloads": 391,
+  "platforms": "android",
+  "published": "2022-04-27T17:39:51.131Z",
+  "license": "MIT"
 }

@@ -24,9 +24,11 @@
   "description": "\nThis is pcv plugin for Attestation in Cordova!\n    ",
   "bugs": "https://github.com/chinhle-pa/cordova-plugin-attestation/issues",
   "quality": null,
-  "downloads": 27,
+  "downloads": 26,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-05-18T04:30:43.748Z",
+  "license": "ISC"
 }

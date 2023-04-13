@@ -50,5 +50,7 @@
   "platforms": [
     "ios"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-04-19T04:56:11.608Z",
+  "license": "MIT"
 }

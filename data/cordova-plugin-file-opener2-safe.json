@@ -30,11 +30,13 @@
   "image": "https://avatars.githubusercontent.com/u/116153984?v=4",
   "quality": 0,
   "updated": "2022-10-19T08:38:10Z",
-  "downloads": 78,
+  "downloads": 74,
   "platforms": [
     "android",
     "ios",
     "windows",
     "electron"
-  ]
+  ],
+  "published": "2022-10-20T07:55:34.603Z",
+  "license": "MIT"
 }

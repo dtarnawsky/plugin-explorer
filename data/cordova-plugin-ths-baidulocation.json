@@ -33,5 +33,7 @@
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-04-10T07:19:03.840Z",
+  "license": "Apache 2.0"
 }

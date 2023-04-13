@@ -24,9 +24,11 @@
   "description": "to create facebook ads this plugin will help...",
   "bugs": "https://github.com/Yagnik031/Facebook-ads.git/issues",
   "quality": null,
-  "downloads": 9,
+  "downloads": 8,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-04-08T08:07:56.476Z",
+  "license": "MIT"
 }

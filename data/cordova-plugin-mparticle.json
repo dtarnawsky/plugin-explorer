@@ -20,9 +20,11 @@
   "image": "https://avatars.githubusercontent.com/u/7572762?v=4",
   "quality": 115,
   "updated": "2021-11-18T17:50:37Z",
-  "downloads": 310,
+  "downloads": 334,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2023-03-14T17:15:05.502Z",
+  "license": "Apache-2.0"
 }

@@ -46,7 +46,7 @@
   "description": "OneSignal is a high volume Push Notification service for mobile apps. In addition to basic notification delivery, OneSignal also provides tools to localize, target, schedule, and automate notifications that you send.",
   "bugs": "https://github.com/onesignal/OneSignal-Cordova-SDK/issues",
   "quality": 570,
-  "downloads": 46993,
+  "downloads": 46852,
   "stars": 235,
   "image": "https://avatars.githubusercontent.com/u/11823027?v=4",
   "updated": "2023-04-11T18:19:56Z",
@@ -55,5 +55,7 @@
     "ios",
     "amazon-fireos"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2023-03-16T23:58:52.868Z",
+  "license": "MIT"
 }

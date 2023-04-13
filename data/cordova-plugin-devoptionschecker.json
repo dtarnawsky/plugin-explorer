@@ -24,8 +24,10 @@
     "capacitor-android-3"
   ],
   "description": "This is a cordova plugin that verifies if developer settings is enabled.",
-  "downloads": 397,
+  "downloads": 414,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-04-27T17:18:44.022Z",
+  "license": "MIT"
 }

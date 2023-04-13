@@ -33,9 +33,11 @@
   "image": "https://avatars.githubusercontent.com/u/3133?v=4",
   "quality": 150,
   "updated": "2023-03-31T08:42:24Z",
-  "downloads": 932,
+  "downloads": 940,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:17:54.329Z",
+  "license": "Apache-2.0"
 }

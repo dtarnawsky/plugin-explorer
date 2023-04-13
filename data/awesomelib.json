@@ -18,5 +18,7 @@
   "description": "Tools for personal information retrieving.",
   "bugs": "https://github.com/gghez/awesomelib/issues",
   "quality": null,
-  "downloads": 43
+  "downloads": 43,
+  "published": "2022-06-13T03:53:28.395Z",
+  "license": "MIT"
 }

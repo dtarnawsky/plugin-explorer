@@ -29,11 +29,13 @@
   "description": "Register and receive push notifications.",
   "bugs": "https://github.com/phonegap/phonegap-plugin-push/issues",
   "quality": null,
-  "downloads": 12342,
+  "downloads": 12375,
   "platforms": [
     "ios",
     "android",
     "windows",
     "browser"
-  ]
+  ],
+  "published": "2022-06-23T21:30:31.909Z",
+  "license": "MIT"
 }

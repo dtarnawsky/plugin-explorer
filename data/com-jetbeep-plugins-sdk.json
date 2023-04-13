@@ -26,9 +26,11 @@
   "image": "https://avatars.githubusercontent.com/u/35913942?v=4",
   "quality": 100,
   "updated": "2022-10-31T15:31:00Z",
-  "downloads": 198,
+  "downloads": 194,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2023-04-05T12:43:21.015Z",
+  "license": "ISC"
 }

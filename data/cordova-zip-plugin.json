@@ -31,9 +31,11 @@
   "description": "Cordova zip compress and decompress",
   "bugs": "https://github.com/jjdltc/jjdltc-cordova-plugin-zip/issues",
   "quality": null,
-  "downloads": 549,
+  "downloads": 550,
   "platforms": [
     "android",
     "ios"
-  ]
+  ],
+  "published": "2022-06-14T01:08:58.737Z",
+  "license": "MIT"
 }

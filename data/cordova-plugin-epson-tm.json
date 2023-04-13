@@ -39,9 +39,11 @@
   "description": "A simple Cordova plugin for printing receipts from an Epson TM printer.",
   "bugs": "https://github.com/kristorres/cordova-plugin-epson-tm/issues",
   "quality": 101,
-  "downloads": 50,
+  "downloads": 67,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/8150836?v=4",
   "updated": "2023-04-11T19:22:26Z",
-  "fork": false
+  "fork": false,
+  "published": "2023-04-11T22:46:28.354Z",
+  "license": "MIT"
 }

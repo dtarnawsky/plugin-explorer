@@ -22,5 +22,7 @@
     "capacitor-ios-5"
   ],
   "description": "iOS plugin for Cordova writting in Swift.",
-  "downloads": 29
+  "downloads": 27,
+  "published": "2022-04-27T17:19:15.670Z",
+  "license": "ISC"
 }

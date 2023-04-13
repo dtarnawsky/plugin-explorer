@@ -37,9 +37,11 @@
   "description": "Schedules and queries for local notifications",
   "bugs": "https://github.com/katzer/cordova-plugin-local-notifications/issues",
   "quality": 4696,
-  "downloads": 421,
+  "downloads": 422,
   "stars": 2552,
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
   "updated": "2023-04-12T17:03:08Z",
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T21:52:54.570Z",
+  "license": "Apache-2.0"
 }

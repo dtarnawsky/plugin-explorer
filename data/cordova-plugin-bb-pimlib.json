@@ -27,9 +27,11 @@
   "image": "https://avatars.githubusercontent.com/u/410445?v=4",
   "quality": 137,
   "updated": "2023-01-28T17:21:22Z",
-  "downloads": 47,
+  "downloads": 50,
   "platforms": [
     "blackberry10"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-13T23:53:23.792Z",
+  "license": "Apache 2.0"
 }

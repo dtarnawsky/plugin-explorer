@@ -37,7 +37,7 @@
   "description": "Cordova Media Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-media/issues",
   "quality": 1344,
-  "downloads": 55601,
+  "downloads": 56409,
   "stars": 381,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "updated": "2023-03-29T22:18:31Z",
@@ -47,5 +47,7 @@
     "ios",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-09-09T11:24:38.936Z",
+  "license": "Apache-2.0"
 }

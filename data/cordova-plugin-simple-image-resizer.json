@@ -7,7 +7,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/JoschkaSchulz/cordova-plugin-image-resizer.git",
-  "author": "",
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -26,10 +25,12 @@
   "image": "https://avatars.githubusercontent.com/u/1632093?v=4",
   "quality": 300,
   "updated": "2023-04-09T20:15:04Z",
-  "downloads": 102,
+  "downloads": 108,
   "platforms": [
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:48:11.129Z",
+  "license": "MIT"
 }

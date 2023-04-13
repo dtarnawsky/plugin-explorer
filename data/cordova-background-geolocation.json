@@ -34,9 +34,11 @@
   "description": "The most sophisticated cross-platform background location tracking & geofencing plugin with battery-conscious motion-detection",
   "bugs": "https://github.com/transistorsoft/cordova-background-geolocation/issues",
   "quality": null,
-  "downloads": 18,
+  "downloads": 19,
   "platforms": [
     "ios",
     "android"
-  ]
+  ],
+  "published": "2022-04-27T17:00:53.967Z",
+  "license": "Commercial (http://www.binpress.com/license/view/l/7bbff78c0e0f33e865b4f83333a54bdf)"
 }

@@ -16,8 +16,9 @@
   "description": "Cordova plugin decimal keyboard for wkwebview",
   "bugs": "https://github.com/john-doherty/cordova-plugin-decimal-keyboard-wkwebview/issues",
   "quality": null,
-  "downloads": 127,
+  "downloads": 139,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:18:19.133Z"
 }

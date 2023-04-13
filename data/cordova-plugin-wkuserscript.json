@@ -29,8 +29,10 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 105,
   "updated": "2020-10-30T07:07:56Z",
-  "downloads": 1766,
+  "downloads": 1836,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-09-05T10:34:29.405Z",
+  "license": "Apache-2.0"
 }

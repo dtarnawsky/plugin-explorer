@@ -39,5 +39,7 @@
     "ios",
     "windows",
     "browser"
-  ]
+  ],
+  "published": "2022-09-05T10:34:27.955Z",
+  "license": "Apache-2.0"
 }

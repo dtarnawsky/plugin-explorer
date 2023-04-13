@@ -28,8 +28,10 @@
   "description": "Cordova plugin to show decimal keyboard on iPhones",
   "bugs": "https://github.com/mrchandoo/cordova-plugin-decimal-keyboard/issues",
   "quality": null,
-  "downloads": 52,
+  "downloads": 53,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:18:18.628Z",
+  "license": "Apache License 2.0"
 }

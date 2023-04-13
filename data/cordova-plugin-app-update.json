@@ -37,9 +37,11 @@
   "image": "https://avatars.githubusercontent.com/u/1642418?v=4",
   "quality": 579,
   "updated": "2023-03-16T23:22:51Z",
-  "downloads": 925,
+  "downloads": 989,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-13T23:48:11.269Z",
+  "license": "MIT"
 }

@@ -7,7 +7,6 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/lionelhe/cordova-plugin-uid.git",
-  "author": "",
   "keywords": [
     "cordova",
     "uid",
@@ -31,6 +30,8 @@
   "image": "https://avatars.githubusercontent.com/u/26488899?v=4",
   "quality": 26,
   "updated": "2020-06-20T08:25:28Z",
-  "downloads": 942,
-  "fork": true
+  "downloads": 948,
+  "fork": true,
+  "published": "2022-06-14T00:56:01.307Z",
+  "license": "MIT"
 }

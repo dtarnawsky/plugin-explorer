@@ -29,5 +29,7 @@
   "platforms": [
     "android"
   ],
-  "stars": 0
+  "stars": 0,
+  "published": "2022-08-16T17:43:13.107Z",
+  "license": "MIT"
 }

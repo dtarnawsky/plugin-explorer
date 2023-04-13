@@ -19,8 +19,9 @@
     "cordova-ios-6"
   ],
   "description": "Fix iOS scroll bug when keyboard is showed.",
-  "downloads": 18,
+  "downloads": 22,
   "platforms": [
     "ios"
-  ]
+  ],
+  "published": "2022-04-27T17:31:01.155Z"
 }

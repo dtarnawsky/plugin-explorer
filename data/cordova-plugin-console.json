@@ -39,7 +39,7 @@
   "description": "Cordova Console Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
   "quality": 338,
-  "downloads": 5823,
+  "downloads": 5782,
   "stars": 148,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "updated": "2023-03-02T21:28:06Z",
@@ -51,5 +51,7 @@
     "windows8",
     "windows"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:01:18.995Z",
+  "license": "Apache-2.0"
 }

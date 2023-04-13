@@ -31,11 +31,13 @@
   "image": "https://avatars.githubusercontent.com/u/4267359?v=4",
   "quality": 163,
   "updated": "2020-09-04T10:13:05Z",
-  "downloads": 51,
+  "downloads": 47,
   "platforms": [
     "android",
     "ios",
     "browser"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:13:34.236Z",
+  "license": "Apache-2.0"
 }

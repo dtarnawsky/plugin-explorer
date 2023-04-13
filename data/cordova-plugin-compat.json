@@ -24,8 +24,10 @@
   "description": "[DEPRECATED] This repo is for remaining backwards compatible with previous versions of Cordova.",
   "bugs": "https://github.com/apache/cordova-plugin-compat/issues",
   "quality": null,
-  "downloads": 22026,
+  "downloads": 21887,
   "platforms": [
     "android"
-  ]
+  ],
+  "published": "2022-06-14T00:01:01.438Z",
+  "license": "Apache-2.0"
 }

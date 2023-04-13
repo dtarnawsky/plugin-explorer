@@ -17,5 +17,7 @@
     "cordova-android-11"
   ],
   "description": "Cordova/Phonegap plugin to align various versions of the Android Support libraries specified by other plugins to a specific version",
-  "downloads": 19652
+  "downloads": 19626,
+  "published": "2022-06-13T23:29:06.894Z",
+  "license": "MIT"
 }

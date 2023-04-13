@@ -23,10 +23,12 @@
     "capacitor-android-3"
   ],
   "description": "Cordova StatusBar Plugin",
-  "downloads": 175487,
+  "downloads": 175999,
   "platforms": [
     "android",
     "ios",
     "windows"
-  ]
+  ],
+  "published": "2022-06-14T00:51:53.789Z",
+  "license": "Apache-2.0"
 }

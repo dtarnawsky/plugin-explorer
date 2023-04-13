@@ -17,5 +17,7 @@
     "cordova-android-11"
   ],
   "description": "Cordova/Phonegap plugin for Android to align versions of the Play Services library components specified by other plugins to a specific version",
-  "downloads": 4465
+  "downloads": 4510,
+  "published": "2022-06-13T23:28:54.372Z",
+  "license": "MIT"
 }

@@ -31,9 +31,11 @@
   "image": "https://avatars.githubusercontent.com/u/4589857?v=4",
   "quality": 295,
   "updated": "2023-03-29T12:04:52Z",
-  "downloads": 275,
+  "downloads": 260,
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:03:56.666Z",
+  "license": "Apache 2.0"
 }

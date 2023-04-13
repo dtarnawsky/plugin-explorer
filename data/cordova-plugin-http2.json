@@ -27,7 +27,7 @@
   "description": "Cordova / Phonegap plugin for communicating with HTTP servers using SSL pinning",
   "bugs": "https://github.com/sneas/cordova-HTTP2/issues",
   "quality": 104,
-  "downloads": 15,
+  "downloads": 16,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/144651?v=4",
   "updated": "2018-02-02T08:37:05Z",
@@ -35,5 +35,7 @@
     "ios",
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-06-14T00:19:15.381Z",
+  "license": "MIT"
 }

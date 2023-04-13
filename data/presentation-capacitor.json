@@ -6,7 +6,6 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/TheeMachine/presentation-capacitor.git",
-  "author": "",
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +33,7 @@
   "platforms": [
     "android"
   ],
-  "fork": false
+  "fork": false,
+  "published": "2022-11-19T07:54:30.221Z",
+  "license": "MIT"
 }
