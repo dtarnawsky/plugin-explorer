@@ -9,22 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/dpa99c/cordova-launch-review.git",
-  "author": "Dave Alden",
-  "published": "2022-06-13T23:38:12.067Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "3.0.0",
-    "3.1.0",
-    "3.1.1",
-    "4.0.0",
-    "4.0.1"
-  ],
+  "author": {
+    "name": "Dave Alden"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova",
@@ -46,5 +33,12 @@
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 192,
   "updated": "2022-12-11T03:56:25Z",
-  "downloads": 14031
+  "downloads": 12932,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:38:12.067Z",
+  "license": "MIT"
 }

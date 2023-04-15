@@ -8,16 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/sandeepdillerao/cordova-plugin-otp-auto-verification.git",
-  "author": "sandeep dillerao",
-  "published": "2022-06-14T00:37:09.927Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "sandeep dillerao"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
@@ -34,5 +27,11 @@
   "image": "https://avatars.githubusercontent.com/u/6266245?v=4",
   "quality": 138,
   "updated": "2021-12-15T06:38:16Z",
-  "downloads": 147
+  "downloads": 165,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:37:09.927Z",
+  "license": "MIT License "
 }

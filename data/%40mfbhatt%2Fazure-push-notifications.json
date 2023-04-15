@@ -3,23 +3,9 @@
   "version": "1.0.12",
   "success": [],
   "repo": "https://github.com/mfbhatt/capacitor-azure-push-notification.git",
-  "author": "mfbhatt@gmail.com",
-  "published": "2022-09-15T07:32:23.882Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.0.10",
-    "1.0.11",
-    "1.0.12"
-  ],
+  "author": {
+    "name": "mfbhatt@gmail.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -41,5 +27,12 @@
   "image": "https://avatars.githubusercontent.com/u/26182552?v=4",
   "quality": 107,
   "updated": "2022-12-14T23:42:11Z",
-  "downloads": 91
+  "downloads": 97,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-09-15T07:32:23.882Z",
+  "license": "MIT"
 }

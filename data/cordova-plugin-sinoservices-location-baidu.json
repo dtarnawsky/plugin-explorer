@@ -2,19 +2,9 @@
   "name": "cordova-plugin-sinoservices-location-baidu",
   "version": "1.0.8",
   "success": [],
-  "author": "demo",
-  "published": "2022-04-27T17:45:40.287Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8"
-  ],
+  "author": {
+    "name": "demo"
+  },
   "keywords": [],
   "fails": [
     "capacitor-android-4",
@@ -27,5 +17,11 @@
     "capacitor-ios-5"
   ],
   "description": "Sinoservices developed plugin",
-  "downloads": 14
+  "downloads": 13,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-04-27T17:45:40.287Z",
+  "license": "ISC"
 }

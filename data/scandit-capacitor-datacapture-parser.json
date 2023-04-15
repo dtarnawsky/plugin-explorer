@@ -3,43 +3,9 @@
   "version": "6.17.0-beta.2",
   "success": [],
   "repo": "https://github.com/Scandit/scandit-capacitor-datacapture-parser.git",
-  "author": "Scandit",
-  "published": "2023-03-30T19:21:39.630Z",
-  "versions": [
-    "6.10.0-beta.1",
-    "6.10.0-beta.2",
-    "6.10.0",
-    "6.10.1",
-    "6.11.0-beta.1",
-    "6.11.0-beta.2",
-    "6.11.0-beta.3",
-    "6.11.0",
-    "6.12.0-beta.1",
-    "6.12.0-beta.2",
-    "6.12.0",
-    "6.12.1",
-    "6.13.0-beta.1",
-    "6.13.0-beta.2",
-    "6.13.0",
-    "6.13.1",
-    "6.14.0-beta.1",
-    "6.14.0-beta.2",
-    "6.14.0",
-    "6.14.1",
-    "6.15.0-beta.1",
-    "6.15.0-beta.2",
-    "6.15.0-beta.3",
-    "6.15.0",
-    "6.15.1",
-    "6.15.2",
-    "6.16.0-beta.1",
-    "6.16.0-beta.2",
-    "6.16.0",
-    "6.16.1",
-    "6.16.2",
-    "6.17.0-beta.1",
-    "6.17.0-beta.2"
-  ],
+  "author": {
+    "name": "Scandit"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -61,5 +27,11 @@
   "image": "https://avatars.githubusercontent.com/u/2790630?v=4",
   "quality": 100,
   "updated": "2021-11-16T18:35:19Z",
-  "downloads": 232
+  "downloads": 177,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2023-03-30T19:21:39.630Z",
+  "license": "Apache-2.0"
 }

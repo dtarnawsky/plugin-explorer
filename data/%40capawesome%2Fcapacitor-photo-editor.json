@@ -6,11 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-photo-editor.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2022-08-04T17:43:36.727Z",
-  "versions": [
-    "0.1.0"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -36,5 +35,12 @@
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
   "quality": 107,
   "updated": "2023-04-01T07:39:32Z",
-  "downloads": 740
+  "downloads": 772,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-04-07T18:17:42.917Z",
+  "license": "MIT"
 }

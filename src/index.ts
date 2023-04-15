@@ -20,7 +20,7 @@ if (hasArg('all', args)) {
     go(filter(readPluginList(), FilterType.new), FilterType.new);
 } else if (hasArg('missing', args)) {
     console.log('Inspecting plugins with missing tests...');
-    go(filter(readPluginList(), FilterType.missing), FilterType.missing);    
+    go(filter(readPluginList(), FilterType.missing), FilterType.missing);
 } else if (hasArg('prepare', args)) {
     prepare();
 } else {
@@ -33,6 +33,10 @@ async function go(plugins: string[], filterType: FilterType) {
     for (const plugin of plugins) {
         count++;
         console.log(`Inspecting ${count} of ${plugins.length}: ${plugin}`);
+        
+        // Sleep to avoid rate limiting with npm and github apis
+        await sleep(3000);
+
         // Capacitor 5 test
         const capacitor5: TestInfo = {
             ios: Test.capacitorIos5,
@@ -64,7 +68,7 @@ async function go(plugins: string[], filterType: FilterType) {
             git: 'https://github.com/dtarnawsky/plugin-test-cordova-6-11.git'
         }
 
-        for (const test of [capacitor5, cordova, capacitor4, capacitor3]) {            
+        for (const test of [capacitor5, cordova, capacitor4, capacitor3]) {
             const inspection = await inspect(plugin, test, filterType);
             catalog(inspection);
             const removePlugin = inspection.fails.includes(Test.failedInNPM);
@@ -74,5 +78,10 @@ async function go(plugins: string[], filterType: FilterType) {
                 writePluginList(inspection.name);
             }
         }
+    }
+
+
+    function sleep(ms: number) {
+        return new Promise(resolve => setTimeout(resolve, ms));
     }
 }

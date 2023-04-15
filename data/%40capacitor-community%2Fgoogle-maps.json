@@ -6,16 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/google-maps.git",
-  "author": "@capacitor-community",
-  "published": "2023-01-23T16:45:57.702Z",
-  "versions": [
-    "2.0.0-beta.1",
-    "2.0.0-beta.2",
-    "2.0.0-beta.3",
-    "2.0.0-beta.4",
-    "2.0.0-beta.5",
-    "2.0.0-beta.6"
-  ],
+  "author": {
+    "name": "@capacitor-community"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -42,5 +35,12 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 316,
   "updated": "2023-03-10T15:04:30Z",
-  "downloads": 853
+  "downloads": 899,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-01-23T16:45:57.702Z",
+  "license": "MIT"
 }

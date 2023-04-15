@@ -10,37 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/brodybits/cordova-sqlcipher-adapter.git",
-  "author": "various",
-  "published": "2023-01-11T16:23:09.466Z",
-  "versions": [
-    "0.1.5",
-    "0.1.7-pre1",
-    "0.1.7-pre2",
-    "0.1.7-pre3",
-    "0.1.7",
-    "0.1.8",
-    "0.1.9-pre1",
-    "0.1.9-pre2",
-    "0.1.9-pre3",
-    "0.1.9",
-    "0.1.10",
-    "0.1.11",
-    "0.1.12-rc1",
-    "0.1.12-rc2",
-    "0.1.12-rc3",
-    "0.2.0",
-    "0.2.1",
-    "0.3.0-pre1",
-    "0.3.0",
-    "0.4.0",
-    "0.4.1",
-    "0.5.0",
-    "0.5.1",
-    "0.5.2",
-    "0.5.3",
-    "0.5.4",
-    "0.6.0"
-  ],
+  "author": {
+    "name": "various"
+  },
   "keywords": [
     "sqlite",
     "sqlcipher",
@@ -60,5 +32,14 @@
   "image": "https://avatars.githubusercontent.com/u/5808036?v=4",
   "quality": 298,
   "updated": "2023-01-11T00:36:06Z",
-  "downloads": 4767
+  "downloads": 5082,
+  "platforms": [
+    "android",
+    "ios",
+    "osx",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2023-01-11T16:23:09.466Z",
+  "license": "MIT"
 }

@@ -6,16 +6,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/wymsee/cordova-HTTP.git",
-  "author": "Wymsee",
-  "published": "2022-06-14T00:19:10.311Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.1.0",
-    "1.2.0"
-  ],
+  "author": {
+    "name": "Wymsee"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -37,5 +30,12 @@
   "image": "https://avatars.githubusercontent.com/u/3287538?v=4",
   "quality": 876,
   "updated": "2023-04-04T04:20:41Z",
-  "downloads": 547
+  "downloads": 464,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:19:10.311Z",
+  "license": "MIT"
 }

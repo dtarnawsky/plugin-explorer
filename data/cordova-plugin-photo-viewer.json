@@ -7,11 +7,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ihadeed/cordova-plugin-photo-viewer.git",
-  "author": "Román A. Sarria",
-  "published": "2022-06-14T00:39:04.937Z",
-  "versions": [
-    "1.1.5"
-  ],
+  "author": {
+    "name": "Román A. Sarria"
+  },
   "keywords": [
     "cordova",
     "photoviewer",
@@ -32,5 +30,12 @@
   "image": "https://avatars.githubusercontent.com/u/13794420?v=4",
   "quality": 2,
   "updated": "2016-10-30T17:27:18Z",
-  "downloads": 41
+  "downloads": 28,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true,
+  "published": "2022-06-14T00:39:04.937Z",
+  "license": "MIT"
 }

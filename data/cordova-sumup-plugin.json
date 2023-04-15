@@ -6,19 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/mariusbackes/cordova-plugin-sumup.git",
-  "author": "Marius Backes",
-  "published": "2022-04-27T17:54:54.774Z",
-  "versions": [
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0",
-    "1.3.0",
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Marius Backes"
+  },
   "keywords": [
     "sumup",
     "creditcard",
@@ -42,5 +32,12 @@
   "image": "https://avatars.githubusercontent.com/u/16880888?v=4",
   "quality": 136,
   "updated": "2022-01-02T18:44:17Z",
-  "downloads": 82
+  "downloads": 109,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:54:54.774Z",
+  "license": "MIT"
 }

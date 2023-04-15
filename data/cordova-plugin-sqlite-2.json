@@ -10,18 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/nolanlawson/cordova-plugin-sqlite-2.git",
-  "author": "Nolan Lawson <nolan@nolanlawson.com>",
-  "published": "2022-06-14T00:50:41.197Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7"
-  ],
+  "author": {
+    "name": "Nolan Lawson",
+    "email": "nolan@nolanlawson.com"
+  },
   "keywords": [
     "cordova",
     "sqlite",
@@ -39,8 +31,15 @@
   "description": "Cordova SQLite Plugin 2",
   "bugs": "https://github.com/nolanlawson/cordova-plugin-sqlite-2/issues",
   "quality": 302,
-  "downloads": 2359,
+  "downloads": 2369,
   "stars": 168,
   "image": "https://avatars.githubusercontent.com/u/283842?v=4",
-  "updated": "2022-09-19T12:05:19Z"
+  "updated": "2022-09-19T12:05:19Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:50:41.197Z",
+  "license": "Apache-2.0"
 }

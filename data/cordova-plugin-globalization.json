@@ -10,34 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-globalization.git",
-  "author": "Apache Software Foundation",
-  "published": "2023-01-06T16:09:10.908Z",
-  "versions": [
-    "0.2.0",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8",
-    "0.3.0",
-    "0.3.1",
-    "0.3.2",
-    "0.3.3",
-    "0.3.4",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.11.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "globalization",
@@ -71,5 +46,20 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 350,
   "updated": "2023-03-02T21:37:04Z",
-  "downloads": 40649
+  "downloads": 38242,
+  "platforms": [
+    "android",
+    "amazon-fireos",
+    "ubuntu",
+    "firefoxos",
+    "ios",
+    "wp7",
+    "wp8",
+    "windows",
+    "tizen",
+    "blackberry10"
+  ],
+  "fork": false,
+  "published": "2023-01-06T16:09:10.908Z",
+  "license": "Apache-2.0"
 }

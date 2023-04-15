@@ -9,17 +9,10 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "git://github.com/wccrawford/cordova-plugin-inapppurchase-2.git",
-  "author": "William Crawford <wccrawford@gmail.com>",
-  "published": "2022-11-18T12:09:57.339Z",
-  "versions": [
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "2.0.4",
-    "2.0.5"
-  ],
+  "author": {
+    "name": "William Crawford",
+    "email": "wccrawford@gmail.com"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -46,5 +39,7 @@
   "description": "A lightweight cordova plugin for in app purchases on iOS and Android with a simple promise based API.",
   "bugs": "https://github.com/wccrawford/cordova-plugin-inapppurchase-2/issues",
   "quality": null,
-  "downloads": 134
+  "downloads": 162,
+  "published": "2022-11-18T12:09:57.339Z",
+  "license": "MIT"
 }

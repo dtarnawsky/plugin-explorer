@@ -4,15 +4,9 @@
   "success": [
     "capacitor-ios-3"
   ],
-  "repo": "https://github.com/codercodingthecode/ios-tracking-tranparency.git",
-  "author": "Andy - codercodingthecode",
-  "published": "2022-11-22T05:47:04.259Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.7",
-    "1.0.8"
-  ],
+  "author": {
+    "name": "Andy - codercodingthecode"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +24,11 @@
   "description": "Capacitor ios tracking transparency plugin",
   "bugs": "https://github.com/codercodingthecode/ios-tracking-tranparency/issues",
   "quality": null,
-  "downloads": 168
+  "downloads": 99,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-11-22T05:47:04.259Z",
+  "license": "MIT"
 }

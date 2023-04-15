@@ -4,14 +4,10 @@
   "success": [
     "capacitor-ios-3"
   ],
-  "repo": "https://github.com/riderx/native-audio.git",
-  "author": "bazuka5801 <bazuka5801@mail.ru>",
-  "published": "2022-04-15T14:08:34.639Z",
-  "versions": [
-    "3.0.2",
-    "3.1.0",
-    "3.1.1"
-  ],
+  "author": {
+    "name": "bazuka5801",
+    "email": "bazuka5801@mail.ru"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +27,11 @@
   "description": "A native plugin for native audio engine",
   "bugs": "https://github.com/riderx/native-audio/issues",
   "quality": null,
-  "downloads": 11
+  "downloads": 15,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-04-15T14:08:34.639Z",
+  "license": "MIT"
 }

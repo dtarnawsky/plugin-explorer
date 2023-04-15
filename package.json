@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "start": "npm run inspect-new",
-    "inspect": "npx tsc && node out/index.js @capacitor/app",
+    "inspect": "npx tsc && node out/index.js cordova-plugin-intercom",
     "inspect-all": "npx tsc && node out/index.js all",
     "inspect-failed": "npx tsc && node out/index.js --failed --reverse",
     "inspect-missing": "npx tsc && node out/index.js --missing",

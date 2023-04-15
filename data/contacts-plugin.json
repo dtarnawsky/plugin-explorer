@@ -3,12 +3,9 @@
   "version": "0.0.2",
   "success": [],
   "repo": "https://gitlab.com/#",
-  "author": "ahmedsamy",
-  "published": "2022-04-27T16:09:24.660Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "ahmedsamy"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -26,5 +23,11 @@
   ],
   "description": "this is for get contacts",
   "bugs": "https://gitlab.com/#/issues",
-  "downloads": 5
+  "downloads": 6,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-04-27T16:09:24.660Z",
+  "license": "MIT"
 }

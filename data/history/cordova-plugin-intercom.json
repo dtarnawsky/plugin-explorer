@@ -39,8 +39,7 @@
     {
       "test": "cordova-android-11",
       "version": "12.1.0",
-      "failure": "native-build",
-      "success": false
+      "success": true
     },
     {
       "test": "cordova-ios-6",

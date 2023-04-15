@@ -8,17 +8,9 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "repo": "https://github.com/michael79bxl/cordova-plugin-auth-dialog.git",
-  "author": "Michael Barchy, Microsoft Open Technologies",
-  "published": "2022-06-13T23:50:38.716Z",
-  "versions": [
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4",
-    "0.1.5",
-    "0.1.6"
-  ],
+  "author": {
+    "name": "Michael Barchy, Microsoft Open Technologies"
+  },
   "keywords": [
     "cordova",
     "auth",
@@ -40,5 +32,12 @@
   "description": "Adds support for authentication dialogs into Apache Cordova.",
   "bugs": "https://github.com/michael79bxl/cordova-plugin-auth-dialog/issues",
   "quality": null,
-  "downloads": 216
+  "downloads": 230,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "published": "2022-06-13T23:50:38.716Z",
+  "license": "BSD-Like"
 }

@@ -6,14 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/newrelic/newrelic-capacitor-plugin.git",
-  "author": "Newrelic",
-  "published": "2023-03-24T17:59:44.530Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.1.0",
-    "1.1.1"
-  ],
+  "author": {
+    "name": "Newrelic"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,7 +26,14 @@
   "bugs": "https://github.com/newrelic/newrelic-capacitor-plugin/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/31739?v=4",
-  "quality": 108,
+  "quality": 109,
   "updated": "2023-01-13T20:04:55Z",
-  "downloads": 406
+  "downloads": 380,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-03-24T17:59:44.530Z",
+  "license": "Apache-2.0"
 }

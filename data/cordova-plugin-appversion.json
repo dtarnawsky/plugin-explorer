@@ -9,11 +9,10 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/Rareloop/cordova-plugin-app-version.git",
-  "author": "Rareloop (http://rareloop.com)",
-  "published": "2022-06-13T23:49:36.184Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Rareloop",
+    "url": "http://rareloop.com"
+  },
   "keywords": [
     "cordova",
     "appversion",
@@ -32,5 +31,12 @@
   "image": "https://avatars.githubusercontent.com/u/1554376?v=4",
   "quality": 172,
   "updated": "2023-01-14T03:28:37Z",
-  "downloads": 16215
+  "downloads": 13785,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:49:36.184Z",
+  "license": "MIT"
 }

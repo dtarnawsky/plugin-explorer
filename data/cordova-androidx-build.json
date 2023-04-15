@@ -10,16 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/wf9a5m75/cordova-androidx-build.git",
-  "author": "Masashi Katsumata",
-  "published": "2022-04-27T17:00:31.437Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Masashi Katsumata"
+  },
   "keywords": [
     "cordova",
     "androidx"
@@ -34,5 +27,11 @@
   "image": "https://avatars.githubusercontent.com/u/167831?v=4",
   "quality": 115,
   "updated": "2021-03-04T19:53:42Z",
-  "downloads": 5466
+  "downloads": 4870,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:00:31.437Z",
+  "license": "Apache-2.0"
 }

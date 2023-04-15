@@ -5,21 +5,10 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/robingenz/capacitor-badge.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2022-08-04T18:22:26.480Z",
-  "versions": [
-    "0.0.1-dev.6847754",
-    "0.0.1-dev.794e40f",
-    "0.0.1",
-    "1.0.0-dev.490c1cd.1627392095",
-    "1.0.0",
-    "1.1.0-dev.81adfd8.1627410486",
-    "1.1.0",
-    "1.2.0",
-    "1.2.1-dev.0c1c23b.1659199300",
-    "1.2.1-dev.6111d44.1659196262",
-    "1.2.1"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -46,8 +35,15 @@
   "description": "Capacitor plugin to access and update the badge number of the app icon.",
   "bugs": "https://github.com/robingenz/capacitor-badge/issues",
   "quality": 172,
-  "downloads": 38852,
+  "downloads": 38541,
   "stars": 67,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "updated": "2023-04-01T07:34:43Z"
+  "updated": "2023-04-01T07:34:43Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-08-04T18:22:26.480Z",
+  "license": "MIT"
 }

@@ -19,6 +19,12 @@
       "success": false
     },
     {
+      "test": "capacitor-android-5",
+      "version": "2.5.0",
+      "failure": "cap-sync",
+      "success": false
+    },
+    {
       "test": "capacitor-ios-3",
       "version": "2.0.0",
       "success": true
@@ -33,6 +39,12 @@
       "test": "capacitor-ios-5",
       "version": "2.0.0",
       "failure": "peer-dependencies",
+      "success": false
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "2.5.0",
+      "failure": "cap-sync",
       "success": false
     },
     {

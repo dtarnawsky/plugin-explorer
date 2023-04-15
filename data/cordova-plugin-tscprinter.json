@@ -11,11 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/templatetuners/cordova-plugin-tscprinter.git",
-  "author": "Adrian Axinte",
-  "published": "2022-04-27T17:49:02.957Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "Adrian Axinte"
+  },
   "keywords": [
     "printer",
     "tsc",
@@ -34,5 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/3463791?v=4",
   "quality": 101,
   "updated": "2022-09-17T02:24:01Z",
-  "downloads": 6
+  "downloads": 6,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:49:02.957Z",
+  "license": "MIT"
 }

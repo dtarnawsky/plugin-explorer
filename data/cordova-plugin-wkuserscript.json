@@ -10,12 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-wkuserscript.git#main",
-  "author": "Moodle Pty Ltd",
-  "published": "2022-09-05T10:34:29.405Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Moodle Pty Ltd"
+  },
   "keywords": [
     "cordova",
     "wkuserscript",
@@ -32,5 +29,10 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 105,
   "updated": "2020-10-30T07:07:56Z",
-  "downloads": 1972
+  "downloads": 1836,
+  "platforms": [
+    "ios"
+  ],
+  "published": "2022-09-05T10:34:29.405Z",
+  "license": "Apache-2.0"
 }

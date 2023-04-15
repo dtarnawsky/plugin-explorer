@@ -1,5 +1,5 @@
 ✖ Running Gradle build - failed!
-[error] Starting a Gradle Daemon (subsequent builds will be faster)
+[error] Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
         
         > Configure project :app
         WARNING:Using flatDir should be avoided because it doesn't support any meta-data formats.
@@ -20,5 +20,5 @@
         
         * Get more help at https://help.gradle.org
         
-        BUILD FAILED in 11s
+        BUILD FAILED in 4s
         

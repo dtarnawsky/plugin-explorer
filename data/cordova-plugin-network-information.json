@@ -10,38 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-network-information.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:34:37.461Z",
-  "versions": [
-    "0.2.1",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8",
-    "0.2.9",
-    "0.2.10",
-    "0.2.11",
-    "0.2.12",
-    "0.2.13",
-    "0.2.14",
-    "0.2.15",
-    "1.0.0",
-    "1.0.1",
-    "1.1.0",
-    "1.2.0",
-    "1.2.1",
-    "1.3.0",
-    "1.3.1",
-    "1.3.2",
-    "1.3.3",
-    "1.3.4",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "3.0.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "network",
@@ -70,5 +41,14 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 894,
   "updated": "2023-02-24T09:51:10Z",
-  "downloads": 113471
+  "downloads": 111223,
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "browser"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:34:37.461Z",
+  "license": "Apache-2.0"
 }

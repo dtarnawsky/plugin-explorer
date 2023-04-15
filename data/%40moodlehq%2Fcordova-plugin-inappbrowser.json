@@ -10,13 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-inappbrowser.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-09-05T10:34:27.963Z",
-  "versions": [
-    "5.0.0-moodle.1",
-    "5.0.0-moodle.2",
-    "5.0.0-moodle.3"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "in",
@@ -40,5 +36,14 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 3,
   "updated": "2021-11-22T09:30:38Z",
-  "downloads": 1857
+  "downloads": 1670,
+  "platforms": [
+    "android",
+    "browser",
+    "ios",
+    "osx",
+    "windows"
+  ],
+  "published": "2022-09-05T10:34:27.963Z",
+  "license": "Apache-2.0"
 }

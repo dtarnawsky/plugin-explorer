@@ -6,13 +6,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/apache/cordova-plugin-file-transfer.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-04-27T17:22:01.338Z",
-  "versions": [
-    "2.0.0-dev",
-    "2.0.1-dev",
-    "2.0.2-dev"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "file",
@@ -41,9 +37,18 @@
   ],
   "description": "Cordova File Transfer Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-file-transfer/issues",
-  "quality": 1556,
-  "downloads": 484,
-  "stars": 588,
+  "quality": 1559,
+  "downloads": 322,
+  "stars": 589,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "updated": "2023-03-31T03:52:44Z"
+  "updated": "2023-04-06T08:01:03Z",
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "browser"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:22:01.338Z",
+  "license": "Apache-2.0"
 }

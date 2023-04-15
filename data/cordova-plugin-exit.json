@@ -10,14 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/cakuki/cordova-plugin-exit.git",
-  "author": "Rakesh Walisheter",
-  "published": "2022-04-27T17:20:26.663Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Rakesh Walisheter"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova",
@@ -38,5 +33,13 @@
   "image": "https://avatars.githubusercontent.com/u/1939259?v=4",
   "quality": 22,
   "updated": "2022-10-08T14:40:40Z",
-  "downloads": 4023
+  "downloads": 3961,
+  "platforms": [
+    "android",
+    "ios",
+    "wp8"
+  ],
+  "fork": true,
+  "published": "2022-04-27T17:20:26.663Z",
+  "license": "MIT"
 }

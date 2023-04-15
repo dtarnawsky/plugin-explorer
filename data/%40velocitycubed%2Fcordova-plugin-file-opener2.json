@@ -9,11 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/VelocityCubed/cordova-plugin-file-opener2.git",
-  "author": "Velocity",
-  "published": "2022-10-13T07:00:16.758Z",
-  "versions": [
-    "3.0.6"
-  ],
+  "author": {
+    "name": "Velocity"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -32,5 +30,13 @@
   "image": "https://avatars.githubusercontent.com/u/84908720?v=4",
   "quality": 0,
   "updated": "2022-10-13T06:12:31Z",
-  "downloads": 8
+  "downloads": 8,
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "electron"
+  ],
+  "published": "2022-10-13T07:00:16.758Z",
+  "license": "MIT"
 }

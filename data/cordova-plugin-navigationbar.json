@@ -11,12 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/cranberrygame/cordova-plugin-navigationbar.git",
-  "author": "cranberrygame",
-  "published": "2022-06-14T00:34:17.369Z",
-  "versions": [
-    "1.0.30",
-    "1.0.31"
-  ],
+  "author": {
+    "name": "cranberrygame"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -33,5 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/8146515?v=4",
   "quality": 152,
   "updated": "2022-07-04T08:07:40Z",
-  "downloads": 2684
+  "downloads": 2402,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:34:17.369Z",
+  "license": "MIT"
 }

@@ -6,15 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/dragermrb/capacitor-plugin-file-picker.git",
-  "author": "Manuel Rodríguez",
-  "published": "2022-09-06T10:59:39.203Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "3.0.1",
-    "4.0.1"
-  ],
+  "author": {
+    "name": "Manuel Rodríguez"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,8 +25,15 @@
   "description": "Capacitor plugin to pick files",
   "bugs": "https://github.com/dragermrb/capacitor-plugin-file-picker/issues",
   "quality": 102,
-  "downloads": 39,
+  "downloads": 32,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/11479696?v=4",
-  "updated": "2023-03-16T02:12:44Z"
+  "updated": "2023-03-16T02:12:44Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-09-06T10:59:39.203Z",
+  "license": "MIT"
 }

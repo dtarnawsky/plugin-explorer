@@ -6,12 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/enesyalcin/cordova-plugin-qrscanner.git",
-  "author": "Enes Yalcin",
-  "published": "2022-04-12T05:17:17.190Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Enes Yalcin"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,8 +25,15 @@
   "description": "QR-Scanner with native camera",
   "bugs": "https://github.com/enesyalcin/cordova-plugin-qrscanner/issues",
   "quality": 3,
-  "downloads": 5,
+  "downloads": 4,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/17004938?v=4",
-  "updated": "2020-04-22T07:29:46Z"
+  "updated": "2020-04-22T07:29:46Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true,
+  "published": "2022-04-12T05:17:17.190Z",
+  "license": "MIT"
 }

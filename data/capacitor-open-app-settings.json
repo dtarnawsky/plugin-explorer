@@ -6,20 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/swernimo/capacitor-open-app-settings.git",
-  "author": "Sean Wernimont",
-  "published": "2022-09-23T21:00:07.758Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Sean Wernimont"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -39,5 +28,12 @@
   "image": "https://avatars.githubusercontent.com/u/11137058?v=4",
   "quality": 101,
   "updated": "2022-08-10T06:28:51Z",
-  "downloads": 913
+  "downloads": 1027,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-09-23T21:00:07.758Z",
+  "license": "MIT"
 }

@@ -9,18 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/epicshaggy/capacitor-notification-badge.git",
-  "author": "Jose Martinez",
-  "published": "2022-04-18T13:42:26.812Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6"
-  ],
+  "author": {
+    "name": "Jose Martinez"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +25,12 @@
   "description": "Set the app icon's notification badge number",
   "bugs": "https://github.com/epicshaggy/capacitor-notification-badge.git/issues",
   "quality": null,
-  "downloads": 191
+  "downloads": 192,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0,
+  "published": "2022-04-18T13:42:26.812Z",
+  "license": "MIT"
 }

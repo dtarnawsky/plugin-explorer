@@ -8,40 +8,10 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/floatinghotpot/cordova-extension.git",
-  "author": "Liming Xie <rjfun.mobile@gmail.com>",
-  "published": "2022-06-14T00:08:19.362Z",
-  "versions": [
-    "1.0.8",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.1.3",
-    "1.1.4",
-    "1.1.5",
-    "1.1.6",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.2.3",
-    "1.2.4",
-    "1.2.5",
-    "1.2.6",
-    "1.2.7",
-    "1.2.8",
-    "1.2.9",
-    "1.3.0",
-    "1.3.2",
-    "1.4.0",
-    "1.4.1",
-    "1.4.2",
-    "1.5.0",
-    "1.5.1",
-    "1.5.2",
-    "1.5.3",
-    "1.5.4",
-    "1.6.0"
-  ],
+  "author": {
+    "name": "Liming Xie",
+    "email": "rjfun.mobile@gmail.com"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -56,5 +26,12 @@
   "description": "Cordova Plugin common extension with adapter interface",
   "bugs": "https://github.com/floatinghotpot/cordova-extension/issues",
   "quality": null,
-  "downloads": 430
+  "downloads": 464,
+  "platforms": [
+    "android",
+    "ios",
+    "amazon-fireos"
+  ],
+  "published": "2022-06-14T00:08:19.362Z",
+  "license": "MIT"
 }

@@ -9,13 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/calvinckho/capacitor-contact-picker.git",
-  "author": "Calvin Ho",
-  "published": "2022-04-12T19:48:22.130Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "Calvin Ho"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -29,5 +25,12 @@
   "description": "Allows users to select a single contact from their device.",
   "bugs": "https://github.com/calvinckho/capacitor-contact-picker/issues",
   "quality": null,
-  "downloads": 238
+  "downloads": 248,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0,
+  "published": "2022-04-12T19:48:22.130Z",
+  "license": "MIT"
 }

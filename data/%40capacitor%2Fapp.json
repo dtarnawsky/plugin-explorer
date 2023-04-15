@@ -1,0 +1,36 @@
+{
+  "name": "@capacitor/app",
+  "version": "4.1.1",
+  "success": [
+    "capacitor-android-4"
+  ],
+  "repo": "https://github.com/ionic-team/capacitor-plugins.git",
+  "author": {
+    "name": "Ionic",
+    "email": "hi@ionicframework.com"
+  },
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fails": [
+    "capacitor-ios-5",
+    "capacitor-android-5",
+    "cordova-ios-6",
+    "cordova-android-11",
+    "capacitor-ios-4",
+    "capacitor-ios-3",
+    "capacitor-android-3"
+  ],
+  "description": "The App API handles high level App state and events.For example, this API emits events when the app enters and leaves the foreground, handles deeplinks, opens other apps, and manages persisted plugin state.",
+  "bugs": "https://github.com/ionic-team/capacitor-plugins/issues",
+  "downloads": 651832,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "published": "2023-04-12T15:13:25.111Z",
+  "license": "MIT"
+}

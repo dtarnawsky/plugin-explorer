@@ -3,11 +3,9 @@
   "version": "0.10.11",
   "success": [],
   "repo": "https://github.com/AndrewIl/azure-activedirectory-library-for-cordova.git",
-  "author": "MSOpenTech",
-  "published": "2022-04-27T17:35:42.245Z",
-  "versions": [
-    "0.10.11"
-  ],
+  "author": {
+    "name": "MSOpenTech"
+  },
   "keywords": [
     "microsoft",
     "azure",
@@ -31,8 +29,15 @@
   "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client.",
   "bugs": "https://github.com/AndrewIl/azure-activedirectory-library-for-cordova/issues",
   "quality": 0,
-  "downloads": 21,
+  "downloads": 36,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/10064717?v=4",
-  "updated": "2021-12-21T14:37:58Z"
+  "updated": "2021-12-21T14:37:58Z",
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "published": "2022-04-27T17:35:42.245Z",
+  "license": "UNLICENSED"
 }

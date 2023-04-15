@@ -4,18 +4,9 @@
   "success": [
     "capacitor-android-4"
   ],
-  "repo": "https://github.com/philipjbrowning/media/media",
-  "author": "Stewan Silva",
-  "published": "2022-04-12T05:15:04.076Z",
-  "versions": [
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.0.10"
-  ],
+  "author": {
+    "name": "Stewan Silva"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +24,11 @@
   "description": "Enable some media features for Capacitor such as create albums, save videos, gifs and more.",
   "bugs": "https://github.com/philipjbrowning/mediaissues",
   "quality": null,
-  "downloads": 41
+  "downloads": 44,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-04-12T05:15:04.076Z",
+  "license": "MIT"
 }

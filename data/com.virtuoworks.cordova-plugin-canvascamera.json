@@ -9,29 +9,6 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/VirtuoWorks/CanvasCameraPlugin.git",
-  "published": "2022-06-13T06:33:36.604Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0",
-    "1.0.1",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.1.0",
-    "1.1.4",
-    "1.1.5",
-    "1.1.6",
-    "1.1.7",
-    "1.1.8",
-    "1.1.9",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2"
-  ],
   "keywords": [
     "ecosystem:capacitor",
     "ecosystem:cordova",
@@ -63,5 +40,12 @@
   "image": "https://avatars.githubusercontent.com/u/7304853?v=4",
   "quality": 79,
   "updated": "2023-02-28T00:23:00Z",
-  "downloads": 134
+  "downloads": 165,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true,
+  "published": "2022-06-13T06:33:36.604Z",
+  "license": "MIT"
 }

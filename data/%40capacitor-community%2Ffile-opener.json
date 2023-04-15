@@ -6,15 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/file-opener.git",
-  "author": "Alex Ryltsov <ryltsov.alex@gmail.com>",
-  "published": "2023-01-23T16:45:57.766Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Alex Ryltsov",
+    "email": "ryltsov.alex@gmail.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -32,7 +27,14 @@
   "bugs": "https://github.com/capacitor-community/file-opener/issues",
   "stars": 36,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 143,
+  "quality": 142,
   "updated": "2023-03-15T03:50:26Z",
-  "downloads": 57250
+  "downloads": 56020,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-01-23T16:45:57.766Z",
+  "license": "MIT"
 }

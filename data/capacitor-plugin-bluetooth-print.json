@@ -3,11 +3,9 @@
   "version": "0.2.1",
   "success": [],
   "repo": "https://github.com/raulsalitrero/BTPrinter.git",
-  "author": "Raul Salitrero",
-  "published": "2022-04-12T05:16:00.212Z",
-  "versions": [
-    "0.2.1"
-  ],
+  "author": {
+    "name": "Raul Salitrero"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +31,11 @@
   "image": "https://avatars.githubusercontent.com/u/155507?v=4",
   "quality": 108,
   "updated": "2023-03-23T19:29:31Z",
-  "downloads": 10
+  "downloads": 9,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-12T05:16:00.212Z",
+  "license": "Apache"
 }

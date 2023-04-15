@@ -10,13 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/mobiliarmad/cordova-plugin-inappbrowser.git",
-  "author": "Apache Software Foundation",
-  "published": "2023-02-15T02:08:06.892Z",
-  "versions": [
-    "5.0.1",
-    "5.0.2",
-    "5.0.3"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "in",
@@ -37,5 +33,15 @@
   "description": "Cordova InAppBrowser Plugin",
   "bugs": "https://github.com/mobiliarmad/cordova-plugin-inappbrowser/issues",
   "quality": null,
-  "downloads": 1912
+  "downloads": 2079,
+  "platforms": [
+    "android",
+    "browser",
+    "ios",
+    "osx",
+    "windows"
+  ],
+  "stars": 0,
+  "published": "2023-02-15T02:08:06.892Z",
+  "license": "Apache-2.0"
 }

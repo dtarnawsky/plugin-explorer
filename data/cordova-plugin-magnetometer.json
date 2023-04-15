@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/sdesalas/cordova-plugin-magnetometer",
-  "author": "Rameez Raja / Steven de Salas",
-  "published": "2022-06-14T00:28:37.178Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Rameez Raja / Steven de Salas"
+  },
   "keywords": [
     "cordova",
     "magnetometer",
@@ -36,8 +34,15 @@
   "description": "Cordova Magnetometer Plugin",
   "bugs": "https://github.com/sdesalas/cordova-plugin-magnetometer/issues",
   "quality": 25,
-  "downloads": 27,
+  "downloads": 28,
   "stars": 13,
   "image": "https://avatars.githubusercontent.com/u/534414?v=4",
-  "updated": "2021-02-20T17:54:27Z"
+  "updated": "2021-02-20T17:54:27Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true,
+  "published": "2022-06-14T00:28:37.178Z",
+  "license": "MIT"
 }

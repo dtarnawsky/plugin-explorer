@@ -6,21 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/date-picker.git",
-  "author": "Stewan Silva",
-  "published": "2023-03-16T16:29:58.382Z",
-  "versions": [
-    "0.0.1",
-    "0.1.0",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.3.0",
-    "3.0.0",
-    "4.0.0-0",
-    "4.0.0-1",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Stewan Silva"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -40,5 +28,12 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 205,
   "updated": "2023-03-28T17:27:12Z",
-  "downloads": 1426
+  "downloads": 1301,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-03-16T16:29:58.382Z",
+  "license": "MIT"
 }

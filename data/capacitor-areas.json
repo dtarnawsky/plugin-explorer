@@ -6,14 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/NePheus/capacitor-areas.git",
-  "author": "Jan Gessinger",
-  "published": "2022-11-10T13:26:24.372Z",
-  "versions": [
-    "1.0.1",
-    "4.0.0",
-    "4.0.1",
-    "4.0.2"
-  ],
+  "author": {
+    "name": "Jan Gessinger"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,8 +25,14 @@
   "description": "This plugin provides functions to detect the devices safe area and the status bar and navigation bar height.",
   "bugs": "https://github.com/NePheus/capacitor-areas/issues",
   "quality": 101,
-  "downloads": 75,
+  "downloads": 68,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/16901177?v=4",
-  "updated": "2023-02-14T13:27:13Z"
+  "updated": "2023-02-14T13:27:13Z",
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-11-10T13:26:24.372Z",
+  "license": "MIT"
 }

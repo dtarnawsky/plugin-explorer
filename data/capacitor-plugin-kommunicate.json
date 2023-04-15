@@ -1,21 +1,13 @@
 {
   "name": "capacitor-plugin-kommunicate",
-  "version": "2.0.0",
+  "version": "2.5.0",
   "success": [
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/Kommunicate-io/Kommunicate-Capacitor-Plugin.git",
-  "author": "aman.toppo@kommunicate.io",
-  "published": "2022-07-22T14:26:41.505Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "1.0.0",
-    "2.0.0"
-  ],
+  "author": {
+    "name": "aman.toppo@kommunicate.io"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,7 +25,14 @@
   "bugs": "https://github.com/Kommunicate-io/Kommunicate-Capacitor-Plugin.git/issues",
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/33670207?v=4",
-  "quality": 102,
+  "quality": 101,
   "updated": "2022-05-02T14:58:39Z",
-  "downloads": 34
+  "downloads": 108,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-04-06T13:37:44.586Z",
+  "license": "BSD-3"
 }

@@ -10,35 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/kolbasa/cordova-plugin-apkupdater.git",
-  "author": "Michael Jedich",
-  "published": "2022-11-23T20:12:57.458Z",
-  "versions": [
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.1.3",
-    "1.1.4",
-    "1.1.5",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.2.3",
-    "1.2.4",
-    "1.3.0",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.1.0",
-    "2.2.0",
-    "2.3.0",
-    "2.4.0",
-    "2.5.0",
-    "2.6.0",
-    "2.6.1",
-    "3.0.0",
-    "4.0.0",
-    "4.0.1"
-  ],
+  "author": {
+    "name": "Michael Jedich"
+  },
   "keywords": [
     "apk",
     "updater",
@@ -63,9 +37,15 @@
   ],
   "description": "This plugin allows your Android app to download and install compressed updates without the Google Play Store.",
   "bugs": "https://github.com/kolbasa/cordova-plugin-apkupdater/issues",
-  "stars": 69,
+  "stars": 70,
   "image": "https://avatars.githubusercontent.com/u/3901582?v=4",
-  "quality": 184,
-  "updated": "2023-03-27T08:16:38Z",
-  "downloads": 724
+  "quality": 185,
+  "updated": "2023-04-10T14:48:50Z",
+  "downloads": 613,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-11-23T20:12:57.458Z",
+  "license": "MIT"
 }

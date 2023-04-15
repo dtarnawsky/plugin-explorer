@@ -9,17 +9,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/rgarciadelongoria/firebase-remote-config.git",
-  "author": "Rubén García de Longoria <rgarciadelongoria@gmail.com>",
-  "published": "2022-11-15T09:25:09.221Z",
-  "versions": [
-    "0.5.1",
-    "0.5.2",
-    "0.5.3",
-    "0.5.4",
-    "0.5.5",
-    "0.5.6",
-    "0.5.7"
-  ],
+  "author": {
+    "name": "Rubén García de Longoria",
+    "email": "rgarciadelongoria@gmail.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +26,12 @@
   "description": "A native plugin for firebase remote config",
   "bugs": "https://github.com/rgarciadelongoria/firebase-remote-config/issues",
   "quality": null,
-  "downloads": 30
+  "downloads": 28,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0,
+  "published": "2022-11-15T09:25:09.221Z",
+  "license": "MIT"
 }

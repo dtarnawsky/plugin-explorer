@@ -7,11 +7,9 @@
     "cordova-ios-6",
     "capacitor-ios-5"
   ],
-  "author": "ifast",
-  "published": "2022-06-13T04:15:39.104Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "ifast"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
@@ -23,5 +21,10 @@
     "capacitor-android-5"
   ],
   "description": "Plugin for scanning barcode and QR codes",
-  "downloads": 21
+  "downloads": 10,
+  "platforms": [
+    "android"
+  ],
+  "published": "2022-06-13T04:15:39.104Z",
+  "license": "ISC"
 }

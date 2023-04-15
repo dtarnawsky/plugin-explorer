@@ -10,14 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/aerogear/aerogear-cordova-crypto.git",
-  "author": "edewit",
-  "published": "2022-06-15T15:07:32.387Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
+  "author": {
+    "name": "edewit"
+  },
   "keywords": [
     "cordova",
     "aerogear",
@@ -36,5 +31,12 @@
   "image": "https://avatars.githubusercontent.com/u/34545933?v=4",
   "quality": 122,
   "updated": "2023-01-28T16:27:55Z",
-  "downloads": 91
+  "downloads": 68,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-15T15:07:32.387Z",
+  "license": "Apache2"
 }

@@ -6,26 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/appcenter-sdk-capacitor.git#master",
-  "author": "johnborges",
-  "published": "2023-01-23T16:45:42.742Z",
-  "versions": [
-    "0.1.0",
-    "0.2.0",
-    "0.3.0",
-    "0.3.1",
-    "0.4.0",
-    "0.5.0",
-    "0.6.0",
-    "0.7.0",
-    "0.7.1",
-    "0.7.2",
-    "0.7.3",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "3.0.0",
-    "3.0.1"
-  ],
+  "author": {
+    "name": "johnborges"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -48,9 +31,16 @@
   ],
   "description": "Capacitor plugin for Microsoft's App Center Crashes",
   "bugs": "https://github.com/capacitor-community/appcenter-sdk-capacitor/tree/master/appcenter-crashes/issues",
-  "quality": 131,
-  "downloads": 1928,
-  "stars": 25,
+  "quality": 132,
+  "downloads": 1881,
+  "stars": 26,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "updated": "2022-12-23T06:45:28Z"
+  "updated": "2023-04-07T05:52:49Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-01-23T16:45:42.742Z",
+  "license": "MIT"
 }

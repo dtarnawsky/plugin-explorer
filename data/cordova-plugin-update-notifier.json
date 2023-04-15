@@ -10,15 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/AyogoHealth/cordova-plugin-update-notifier.git",
-  "author": "Ayogo Health Inc. <info@ayogo.com>",
-  "published": "2022-04-27T17:49:35.051Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.1.0",
-    "2.0.0",
-    "2.0.1"
-  ],
+  "author": {
+    "name": "Ayogo Health Inc.",
+    "email": "info@ayogo.com"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -39,5 +34,12 @@
   "image": "https://avatars.githubusercontent.com/u/7883475?v=4",
   "quality": 143,
   "updated": "2023-01-01T11:55:14Z",
-  "downloads": 670
+  "downloads": 806,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:49:35.051Z",
+  "license": "Apache-2.0"
 }

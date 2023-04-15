@@ -4,17 +4,10 @@
   "success": [
     "capacitor-ios-3"
   ],
-  "repo": "https://github.com/bioxxiti/cmexx-scanner.git",
-  "author": "André Paiva <cruzufo@gmail.com>",
-  "published": "2022-04-12T06:53:50.819Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6"
-  ],
+  "author": {
+    "name": "André Paiva",
+    "email": "cruzufo@gmail.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -32,5 +25,11 @@
   "description": "Plugin para scaneamento de códigos de barras 2D pequenos, com utilização de inteligência artificial.",
   "bugs": "https://github.com/bioxxiti/cmexx-scanner/issues",
   "quality": null,
-  "downloads": 13
+  "downloads": 11,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-04-12T06:53:50.819Z",
+  "license": "MIT"
 }

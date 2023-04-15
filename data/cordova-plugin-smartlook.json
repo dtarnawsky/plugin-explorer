@@ -6,25 +6,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/smartlook/cordova-smartlook-plugin.git",
-  "author": "c0mtru1se <martin.budinsky@smartlook.com> (https://www.smartlook.com)",
-  "published": "2023-03-08T16:36:14.343Z",
-  "versions": [
-    "1.0.0",
-    "1.5.0",
-    "1.6.0",
-    "1.7.0",
-    "1.7.1",
-    "1.7.3",
-    "1.7.4",
-    "1.9.0",
-    "1.9.1",
-    "1.9.3",
-    "1.9.4",
-    "1.9.5",
-    "1.9.6",
-    "2.0.0",
-    "2.0.1"
-  ],
+  "author": {
+    "name": "c0mtru1se",
+    "email": "martin.budinsky@smartlook.com",
+    "url": "https://www.smartlook.com"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -47,7 +33,14 @@
   "bugs": "https://github.com/smartlook/cordova-smartlook-plugin",
   "stars": 8,
   "image": "https://avatars.githubusercontent.com/u/19778715?v=4",
-  "quality": 118,
+  "quality": 117,
   "updated": "2023-03-13T21:50:27Z",
-  "downloads": 4573
+  "downloads": 3947,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2023-03-08T16:36:14.343Z",
+  "license": "MIT"
 }

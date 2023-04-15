@@ -9,13 +9,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/npm/security-holder.git",
-  "published": "2022-06-14T00:58:28.871Z",
-  "versions": [
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
@@ -23,12 +16,14 @@
   ],
   "description": "publish",
   "bugs": "https://github.com/npm/security-holder/issues",
-  "stars": 140,
+  "stars": 141,
   "image": "https://avatars.githubusercontent.com/u/6078720?v=4",
-  "downloads": 914,
+  "downloads": 616,
   "keywords": [
     "registry"
   ],
   "quality": 295,
-  "updated": "2023-03-23T16:09:52Z"
+  "updated": "2023-04-11T14:55:14Z",
+  "fork": false,
+  "published": "2022-06-14T00:58:28.871Z"
 }

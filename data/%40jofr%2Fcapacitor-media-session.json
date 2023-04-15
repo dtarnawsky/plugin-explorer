@@ -6,17 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/jofr/capacitor-media-session.git",
-  "author": "Jonas <jofr@vivaldi.net>",
-  "published": "2022-11-29T20:48:35.100Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "2.0.0",
-    "2.0.1"
-  ],
+  "author": {
+    "name": "Jonas",
+    "email": "jofr@vivaldi.net"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,9 +26,15 @@
   ],
   "description": "Capacitor plugin for media notifications and platform media keys as well as background audio playback",
   "bugs": "https://github.com/jofr/capacitor-media-session/issues",
-  "quality": 113,
-  "downloads": 382,
-  "stars": 6,
+  "quality": 114,
+  "downloads": 485,
+  "stars": 7,
   "image": "https://avatars.githubusercontent.com/u/1087312?v=4",
-  "updated": "2023-03-08T21:01:46Z"
+  "updated": "2023-04-12T00:51:36Z",
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-11-29T20:48:35.100Z",
+  "license": "GPL-3.0-or-later"
 }

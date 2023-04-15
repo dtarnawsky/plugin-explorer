@@ -11,11 +11,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/playsignage/cordova-plugin-reboot.git",
-  "author": "",
-  "published": "2022-04-27T17:42:00.887Z",
-  "versions": [
-    "1.0.0"
-  ],
   "fails": [
     "capacitor-android-3"
   ],
@@ -25,6 +20,9 @@
   "image": "https://avatars.githubusercontent.com/u/20071991?v=4",
   "quality": 109,
   "updated": "2020-06-25T03:43:26Z",
-  "downloads": 4,
-  "keywords": []
+  "downloads": 5,
+  "keywords": [],
+  "fork": false,
+  "published": "2022-04-27T17:42:00.887Z",
+  "license": "ISC"
 }

@@ -10,17 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/cordobo/cordova-plugin-ios-camera-permissions.git",
-  "author": "Andreas Jacob <andreas@cordobo.de> (http://cordobo.com/)",
-  "published": "2022-06-14T00:22:27.888Z",
-  "versions": [
-    "0.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.1.1",
-    "1.2.0"
-  ],
+  "author": {
+    "name": "Andreas Jacob",
+    "email": "andreas@cordobo.de",
+    "url": "http://cordobo.com/"
+  },
   "keywords": [
     "cordova",
     "ios",
@@ -49,5 +43,11 @@
   "image": "https://avatars.githubusercontent.com/u/1158?v=4",
   "quality": 177,
   "updated": "2023-01-28T14:49:12Z",
-  "downloads": 2806
+  "downloads": 2439,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:22:27.888Z",
+  "license": "MIT"
 }

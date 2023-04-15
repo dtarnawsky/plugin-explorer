@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/jcesarmobile/cordova-plugin-disable-ios11-statusbar.git",
-  "author": "jcesarmobile",
-  "published": "2022-06-14T00:05:51.540Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "jcesarmobile"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios"
@@ -29,5 +27,11 @@
   "image": "https://avatars.githubusercontent.com/u/1637892?v=4",
   "quality": 123,
   "updated": "2023-01-28T18:58:55Z",
-  "downloads": 344
+  "downloads": 303,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:05:51.540Z",
+  "license": "MIT"
 }

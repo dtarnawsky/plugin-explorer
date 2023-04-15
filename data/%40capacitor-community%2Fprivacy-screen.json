@@ -1,32 +1,15 @@
 {
   "name": "@capacitor-community/privacy-screen",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/privacy-screen.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2023-03-28T19:55:29.193Z",
-  "versions": [
-    "1.0.1-dev.16107db",
-    "1.0.1-dev.3f708ca",
-    "1.0.1",
-    "1.1.0-dev.5a6f254",
-    "1.1.1",
-    "1.1.2",
-    "2.0.0-dev.6b38a40",
-    "2.0.0-dev.bbcc99b.1626456752",
-    "2.0.0-dev.c6acb54",
-    "2.0.0-dev.c6e2ac3",
-    "2.0.0",
-    "2.1.0",
-    "2.1.1-dev.6163d2b.1659193432",
-    "2.1.1",
-    "3.0.0",
-    "3.0.1",
-    "3.1.0"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -50,5 +33,12 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 155,
   "updated": "2023-04-04T10:20:03Z",
-  "downloads": 14208
+  "downloads": 14415,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-04-07T18:05:18.928Z",
+  "license": "MIT"
 }

@@ -3,15 +3,10 @@
   "version": "1.0.0-alpha.5",
   "success": [],
   "repo": "https://github.com/oxylian/capacitor-facebook-login.git",
-  "author": "Sébastian Dejonghe <sebastian@oxylian.com>",
-  "published": "2022-04-06T12:43:31.967Z",
-  "versions": [
-    "1.0.0-alpha.1",
-    "1.0.0-alpha.2",
-    "1.0.0-alpha.3",
-    "1.0.0-alpha.4",
-    "1.0.0-alpha.5"
-  ],
+  "author": {
+    "name": "Sébastian Dejonghe",
+    "email": "sebastian@oxylian.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,5 +30,12 @@
   "downloads": 15,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/23027200?v=4",
-  "updated": "2020-05-27T13:08:26Z"
+  "updated": "2020-05-27T13:08:26Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-06T12:43:31.967Z",
+  "license": "Apache-2.0"
 }

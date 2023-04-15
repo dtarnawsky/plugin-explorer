@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/rickgbw/cordova-plugin-safearea.git",
-  "author": "Henrique Moreira",
-  "published": "2022-04-27T17:43:10.540Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Henrique Moreira"
+  },
   "keywords": [
     "cordova",
     "iphone x",
@@ -32,5 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/924158?v=4",
   "quality": 101,
   "updated": "2020-10-01T19:42:25Z",
-  "downloads": 378
+  "downloads": 388,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:43:10.540Z",
+  "license": "MIT"
 }

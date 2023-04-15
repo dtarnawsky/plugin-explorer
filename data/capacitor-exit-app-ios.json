@@ -5,15 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/tienmanh94hbk/capacitor-exit-app-ios.git",
-  "author": "Manh Do",
-  "published": "2022-04-12T05:15:11.632Z",
-  "versions": [
-    "1.0.0",
-    "1.1.1",
-    "1.1.2",
-    "1.2.1",
-    "1.2.2"
-  ],
+  "author": {
+    "name": "Manh Do"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,8 +28,14 @@
   "description": "exit app on ios",
   "bugs": "https://github.com/tienmanh94hbk/capacitor-exit-app-ios/issues",
   "quality": 105,
-  "downloads": 410,
+  "downloads": 357,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/49017943?v=4",
-  "updated": "2022-05-19T14:36:13Z"
+  "updated": "2022-05-19T14:36:13Z",
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-04-12T05:15:11.632Z",
+  "license": "MIT"
 }

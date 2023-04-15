@@ -10,18 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/cjpearson/cordova-plugin-keyboard.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:25:34.618Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.1.3",
-    "1.1.4",
-    "1.1.5",
-    "1.2.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "keyboard",
@@ -40,5 +31,11 @@
   "image": "https://avatars.githubusercontent.com/u/2095133?v=4",
   "quality": 677,
   "updated": "2023-02-13T15:42:54Z",
-  "downloads": 7307
+  "downloads": 6758,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:25:34.618Z",
+  "license": "Apache 2.0"
 }

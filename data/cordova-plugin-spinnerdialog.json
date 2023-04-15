@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/roberthovhannisyan/SpinnerDialog.git",
-  "author": "Robert Hovhannisyan",
-  "published": "2022-06-14T00:50:26.172Z",
-  "versions": [
-    "1.3.2"
-  ],
+  "author": {
+    "name": "Robert Hovhannisyan"
+  },
   "keywords": [
     "phonegap",
     "android",
@@ -38,8 +36,16 @@
   "description": "PhoneGap waiting dialog (progress indicator) plugin with spinner for Android, iOS and Windows Phone 8.",
   "bugs": "https://github.com/roberthovhannisyan/SpinnerDialog/issues",
   "quality": 4,
-  "downloads": 134,
+  "downloads": 101,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/2118842?v=4",
-  "updated": "2019-02-01T15:57:35Z"
+  "updated": "2019-02-01T15:57:35Z",
+  "platforms": [
+    "android",
+    "ios",
+    "wp8"
+  ],
+  "fork": true,
+  "published": "2022-06-14T00:50:26.172Z",
+  "license": "MIT"
 }

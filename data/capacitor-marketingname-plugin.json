@@ -6,13 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/swernimo/capacitor-iphone-marketingname.git",
-  "author": "Sean Wernimont",
-  "published": "2022-09-23T20:51:04.088Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Sean Wernimont"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -29,5 +25,12 @@
   "description": "Plugin that returns the marketing name of the phone",
   "bugs": "https://github.com/swernimo/capacitor-iphone-marketingname/issues",
   "quality": null,
-  "downloads": 13
+  "downloads": 14,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0,
+  "published": "2022-09-23T20:51:04.088Z",
+  "license": "MIT"
 }

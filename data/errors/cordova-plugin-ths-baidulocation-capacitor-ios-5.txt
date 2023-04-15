@@ -1,0 +1,1 @@
+Skip testing capacitor-ios-5 cordova-plugin-ths-baidulocation@1.0.8 as ios is not supported (supported=android)

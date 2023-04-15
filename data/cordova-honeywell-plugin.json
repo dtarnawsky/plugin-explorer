@@ -10,16 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/kulkarniswapnil/honeywell-scanner.git",
-  "author": "Swapnil",
-  "published": "2022-04-27T17:03:53.446Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5"
-  ],
+  "author": {
+    "name": "Swapnil"
+  },
   "fails": [
     "capacitor-android-3",
     "cordova-android-11"
@@ -30,6 +23,9 @@
   "image": "https://avatars.githubusercontent.com/u/17471872?v=4",
   "quality": 107,
   "updated": "2023-03-30T16:55:54Z",
-  "downloads": 52,
-  "keywords": []
+  "downloads": 51,
+  "keywords": [],
+  "fork": false,
+  "published": "2022-04-27T17:03:53.446Z",
+  "license": "MIT"
 }

@@ -1,26 +1,14 @@
 {
   "name": "@capacitor-community/app-icon",
-  "version": "3.1.0-beta.1",
+  "version": "3.1.0-beta.2",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/app-icon.git",
-  "author": "johnborges",
-  "published": "2023-04-04T14:18:18.572Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "2.0.4",
-    "3.0.0",
-    "3.1.0-beta.0",
-    "3.1.0-beta.1"
-  ],
+  "author": {
+    "name": "johnborges"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -39,9 +27,16 @@
   ],
   "description": "Capacitor community plugin for changing an iOS app icon.",
   "bugs": "https://github.com/capacitor-community/app-icon/issues",
-  "quality": 155,
-  "downloads": 7725,
-  "stars": 41,
+  "quality": 160,
+  "downloads": 7338,
+  "stars": 45,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "updated": "2023-03-24T04:45:45Z"
+  "updated": "2023-04-13T00:08:11Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-04-10T13:31:52.621Z",
+  "license": "MIT"
 }

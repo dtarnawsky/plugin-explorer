@@ -11,13 +11,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/NoNameProvided/cordova-plugin-webview-checker.git",
-  "author": "Attila Olah <NoNameProvided@users.noreply.github.com>",
-  "published": "2022-04-27T17:51:03.269Z",
-  "versions": [
-    "0.9.2",
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Attila Olah",
+    "email": "NoNameProvided@users.noreply.github.com"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -35,5 +32,8 @@
   "image": "https://avatars.githubusercontent.com/u/4706265?v=4",
   "quality": 121,
   "updated": "2022-09-16T09:04:40Z",
-  "downloads": 720
+  "downloads": 700,
+  "fork": false,
+  "published": "2022-04-27T17:51:03.269Z",
+  "license": "MIT"
 }

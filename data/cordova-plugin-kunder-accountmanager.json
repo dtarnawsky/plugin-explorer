@@ -8,11 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/daniel4thsource/cordova-plugin-kunder-accountmanager.git",
-  "author": "Daniel Valenzuela",
-  "published": "2022-06-14T00:26:24.657Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Daniel Valenzuela"
+  },
   "keywords": [
     "cordova",
     "accountmanager",
@@ -34,5 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/12089333?v=4",
   "quality": 3,
   "updated": "2017-09-01T23:22:35Z",
-  "downloads": 7
+  "downloads": 8,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-06-14T00:26:24.657Z",
+  "license": "Apache 2.0"
 }

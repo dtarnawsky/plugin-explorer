@@ -10,13 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/kitolog/sockets-for-cordova.git",
-  "author": "blocshop",
-  "published": "2022-04-27T17:24:39.896Z",
-  "versions": [
-    "1.7.1",
-    "1.7.2",
-    "1.7.3"
-  ],
+  "author": {
+    "name": "blocshop"
+  },
   "keywords": [
     "cordova",
     "sockets",
@@ -36,5 +32,13 @@
   "image": "https://avatars.githubusercontent.com/u/781366?v=4",
   "quality": 40,
   "updated": "2022-09-15T15:34:08Z",
-  "downloads": 10
+  "downloads": 10,
+  "platforms": [
+    "ios",
+    "android",
+    "wp8"
+  ],
+  "fork": true,
+  "published": "2022-04-27T17:24:39.896Z",
+  "license": "Apache-2.0"
 }

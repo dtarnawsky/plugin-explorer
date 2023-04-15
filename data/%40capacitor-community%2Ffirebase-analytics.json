@@ -6,34 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capacitor-community/firebase-analytics.git",
-  "author": "mesur.io <oss@mesur.io>",
-  "published": "2023-01-23T16:45:54.552Z",
-  "versions": [
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.3.0",
-    "0.3.1",
-    "0.3.2-beta.0",
-    "0.3.2",
-    "0.3.3",
-    "1.0.0-alpha.0",
-    "1.0.0-alpha.1",
-    "1.0.0-alpha.2",
-    "1.0.0-alpha.3",
-    "1.0.0-alpha.4",
-    "1.0.0-alpha.5",
-    "1.0.0",
-    "1.0.1-alpha.0",
-    "1.0.1",
-    "2.0.0-0",
-    "2.0.0-1",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "mesur.io",
+    "email": "oss@mesur.io"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -53,7 +29,14 @@
   "bugs": "https://github.com/capacitor-community/firebase-analytics/issues",
   "stars": 137,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "quality": 325,
+  "quality": 326,
   "updated": "2023-03-12T00:49:06Z",
-  "downloads": 68740
+  "downloads": 66970,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-01-23T16:45:54.552Z",
+  "license": "MIT"
 }

@@ -8,15 +8,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "Akamai Technologies",
-  "published": "2022-04-11T13:11:23.025Z",
-  "versions": [
-    "2.1.2",
-    "2.1.3",
-    "2.1.4",
-    "2.1.5",
-    "2.2.2"
-  ],
+  "author": {
+    "name": "Akamai Technologies"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -28,5 +22,11 @@
     "cordova-ios-6"
   ],
   "description": "Cordova plugin for Akamai BMP SDK",
-  "downloads": 16
+  "downloads": 15,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-04-11T13:11:23.025Z",
+  "license": "ISC"
 }

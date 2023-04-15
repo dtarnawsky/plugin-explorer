@@ -4,12 +4,9 @@
   "success": [
     "cordova-ios-6"
   ],
-  "repo": "https://github.com/ascsi/cordova-plugin.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-04-27T17:07:06.533Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -27,5 +24,10 @@
   "description": "Modified Cordova Device Plugin",
   "bugs": "https://github.com/ascsi/cordova-plugin/issues",
   "quality": null,
-  "downloads": 52
+  "downloads": 80,
+  "platforms": [
+    "android"
+  ],
+  "published": "2022-04-27T17:07:06.533Z",
+  "license": "Apache-2.0"
 }

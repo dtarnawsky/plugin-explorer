@@ -8,16 +8,16 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "Robert Gonzales",
-  "published": "2022-04-12T05:21:43.283Z",
-  "versions": [
-    "0.1.0"
-  ],
+  "author": {
+    "name": "Robert Gonzales"
+  },
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
     "cordova-android-11"
   ],
   "description": "React card stack",
-  "downloads": 4
+  "downloads": 5,
+  "published": "2022-04-12T05:21:43.283Z",
+  "license": "MIT"
 }

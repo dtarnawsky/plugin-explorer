@@ -8,13 +8,9 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "author": "Coder",
-  "published": "2022-04-27T17:13:30.899Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3"
-  ],
+  "author": {
+    "name": "Coder"
+  },
   "keywords": [
     "TouchID",
     "Touch ID",
@@ -32,5 +28,10 @@
     "cordova-android-11"
   ],
   "description": "Scan the fingerprint of your user with the TouchID sensor, or the user's Face with Face ID on iPhone X",
-  "downloads": 59
+  "downloads": 41,
+  "platforms": [
+    "ios"
+  ],
+  "published": "2022-04-27T17:13:30.899Z",
+  "license": "MIT"
 }

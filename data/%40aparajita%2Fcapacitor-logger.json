@@ -26,14 +26,16 @@
   "description": "Enhanced, universal logging for Capacitor apps and plugins",
   "quality": 111,
   "updated": "2023-03-22T18:11:34Z",
-  "versions": [
-    "2.0.0",
-    "3.0.0",
-    "3.1.0",
-    "3.1.1"
-  ],
-  "author": "Aparajita Fishman",
+  "author": {
+    "name": "Aparajita Fishman"
+  },
   "bugs": "https://github.com/aparajita/capacitor-logger/issues",
+  "downloads": 190,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
   "published": "2022-08-10T17:16:05.919Z",
-  "downloads": 198
+  "license": "MIT"
 }

@@ -6,22 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/mia-z/capacitor-websocket.git",
-  "author": "Ryan",
-  "published": "2023-04-02T23:17:09.912Z",
-  "versions": [
-    "0.1.1",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.3.0",
-    "0.4.0",
-    "0.4.1"
-  ],
+  "author": {
+    "name": "Ryan"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -41,5 +28,11 @@
   "image": "https://avatars.githubusercontent.com/u/1094070?v=4",
   "quality": 100,
   "updated": "2023-02-20T20:06:26Z",
-  "downloads": 248
+  "downloads": 259,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2023-04-02T23:17:09.912Z",
+  "license": "MIT"
 }

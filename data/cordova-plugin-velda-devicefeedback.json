@@ -11,11 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/VVelda/device-feedback.git",
-  "author": "Jan Velecký",
-  "published": "2022-06-14T00:56:58.831Z",
-  "versions": [
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Jan Velecký"
+  },
   "keywords": [
     "feedback",
     "haptic",
@@ -44,5 +42,11 @@
   "image": "https://avatars.githubusercontent.com/u/3459338?v=4",
   "quality": 148,
   "updated": "2022-06-23T01:30:06Z",
-  "downloads": 1768
+  "downloads": 1894,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:56:58.831Z",
+  "license": "Simplified BSD License"
 }

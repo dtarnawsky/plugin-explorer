@@ -6,17 +6,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/pmwisdom/cordova-background-geolocation-services.git",
-  "author": "Paul Wisdom",
-  "published": "2022-06-13T23:29:49.359Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.1.0",
-    "1.1.1"
-  ],
+  "author": {
+    "name": "Paul Wisdom"
+  },
   "keywords": [
     "gps",
     "location",
@@ -39,9 +31,16 @@
   ],
   "description": "Cordova Background Geolocation Plugin For Anrdoid and iOS With JS Callbacks",
   "bugs": "https://github.com/pmwisdom/cordova-background-geolocation-services/issues",
-  "stars": 134,
+  "stars": 135,
   "image": "https://avatars.githubusercontent.com/u/6887500?v=4",
-  "quality": 367,
-  "updated": "2023-01-02T14:19:10Z",
-  "downloads": 36
+  "quality": 368,
+  "updated": "2023-04-09T06:44:49Z",
+  "downloads": 25,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:29:49.359Z",
+  "license": "Apache-2.0"
 }

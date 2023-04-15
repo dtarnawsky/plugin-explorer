@@ -10,16 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-touch-id.git",
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-14T00:54:48.789Z",
-  "versions": [
-    "3.0.0",
-    "3.1.0",
-    "3.2.0",
-    "3.3.0",
-    "3.3.1",
-    "3.4.0"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "TouchID",
     "Touch ID",
@@ -45,8 +40,14 @@
   "description": "Scan the fingerprint of your user with the TouchID sensor, or the user's Face with Face ID on iPhone X",
   "bugs": "https://github.com/EddyVerbruggen/cordova-plugin-touch-id/issues",
   "quality": 419,
-  "downloads": 6560,
+  "downloads": 6625,
   "stars": 212,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "updated": "2023-02-06T13:15:52Z"
+  "updated": "2023-02-06T13:15:52Z",
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:54:48.789Z",
+  "license": "MIT"
 }

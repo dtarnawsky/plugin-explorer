@@ -7,11 +7,6 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/KoenLav/cordova-plugin-chrome-apps-sockets-tcp.git",
-  "author": "",
-  "published": "2022-04-27T17:01:35.923Z",
-  "versions": [
-    "1.4.0"
-  ],
   "keywords": [
     "chrome",
     "socket",
@@ -34,5 +29,12 @@
   "image": "https://avatars.githubusercontent.com/u/12446296?v=4",
   "quality": 35,
   "updated": "2022-12-12T04:08:04Z",
-  "downloads": 125
+  "downloads": 178,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true,
+  "published": "2022-04-27T17:01:35.923Z",
+  "license": "BSD"
 }

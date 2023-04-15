@@ -6,25 +6,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://gitlab.com/floatinghotpot/cordova-admobsdk.git",
-  "author": "Liming Xie",
-  "published": "2022-06-13T23:28:12.827Z",
-  "versions": [
-    "1.0.0-beta",
-    "1.0.0",
-    "1.0.1-beta",
-    "1.0.2-beta",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "3.1.0",
-    "3.1.1",
-    "3.2.1",
-    "3.2.3",
-    "7.35.0",
-    "7.37.0",
-    "7.49.0",
-    "8.13.0"
-  ],
+  "author": {
+    "name": "Liming Xie"
+  },
   "keywords": [
     "cordova",
     "admob",
@@ -80,5 +64,11 @@
   ],
   "description": "Google Mobile Ads SDK, as dependency for cordova plugins",
   "bugs": "https://gitlab.com/floatinghotpot/cordova-admobsdk/issues",
-  "downloads": 197
+  "downloads": 203,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-06-13T23:28:12.827Z",
+  "license": "MIT"
 }

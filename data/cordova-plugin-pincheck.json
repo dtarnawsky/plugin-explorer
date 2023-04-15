@@ -10,15 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/shangyilim/cordova-plugin-pincheck.git",
-  "author": "Lim Shang Yi",
-  "published": "2022-06-14T00:39:34.972Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6"
-  ],
+  "author": {
+    "name": "Lim Shang Yi"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -40,5 +34,12 @@
   "image": "https://avatars.githubusercontent.com/u/6754603?v=4",
   "quality": 117,
   "updated": "2022-07-06T09:10:49Z",
-  "downloads": 981
+  "downloads": 973,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:39:34.972Z",
+  "license": "MIT"
 }

@@ -6,15 +6,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-file-transfer.git#main",
-  "author": "Apache Software Foundation",
-  "published": "2022-09-05T10:34:27.955Z",
-  "versions": [
-    "1.7.1-moodle.1",
-    "1.7.1-moodle.2",
-    "1.7.1-moodle.3",
-    "1.7.1-moodle.4",
-    "1.7.1-moodle.5"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "file",
@@ -39,5 +33,13 @@
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
   "quality": 2,
   "updated": "2021-08-02T08:24:24Z",
-  "downloads": 1879
+  "downloads": 1686,
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "browser"
+  ],
+  "published": "2022-09-05T10:34:27.955Z",
+  "license": "Apache-2.0"
 }

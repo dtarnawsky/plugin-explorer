@@ -5,21 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/BlinkID/blinkid-capacitor.git",
-  "author": "Microblink",
-  "published": "2022-12-21T16:15:19.435Z",
-  "versions": [
-    "5.7.1",
-    "5.8.0",
-    "5.8.1",
-    "5.9.0",
-    "5.10.0",
-    "5.11.0",
-    "5.12.0",
-    "5.13.0",
-    "5.14.0",
-    "5.15.0",
-    "5.17.0"
-  ],
+  "author": {
+    "name": "Microblink"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -53,5 +41,12 @@
   "image": "https://avatars.githubusercontent.com/u/9021048?v=4",
   "quality": 117,
   "updated": "2023-03-20T00:11:13Z",
-  "downloads": 685
+  "downloads": 796,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-04-06T07:08:51.665Z",
+  "license": "MIT"
 }

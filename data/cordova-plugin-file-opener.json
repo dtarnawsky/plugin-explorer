@@ -11,11 +11,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/wmjalak/cordova-plugin-file-opener.git",
-  "author": "wmjalak <wmjalak@gmail.com>",
-  "published": "2022-06-14T00:11:04.174Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "wmjalak",
+    "email": "wmjalak@gmail.com"
+  },
   "fails": [
     "capacitor-android-3"
   ],
@@ -25,6 +24,9 @@
   "image": "https://avatars.githubusercontent.com/u/1861972?v=4",
   "quality": 103,
   "updated": "2017-10-31T21:15:43Z",
-  "downloads": 323,
-  "keywords": []
+  "downloads": 285,
+  "keywords": [],
+  "fork": false,
+  "published": "2022-06-14T00:11:04.174Z",
+  "license": "MIT"
 }

@@ -7,16 +7,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/ionic-team/cordova-plugin-badge.git",
-  "author": "Sebastián Katzer",
-  "published": "2023-03-22T13:19:14.306Z",
-  "versions": [
-    "0.8.8",
-    "0.8.9",
-    "0.8.10",
-    "0.8.11",
-    "0.8.12"
-  ],
+  "author": {
+    "name": "Sebastián Katzer"
+  },
   "keywords": [
     "appplant",
     "badge",
@@ -36,5 +29,15 @@
   ],
   "description": "Shows the count of unread messages as a badge on the app icon.",
   "bugs": "https://github.com/ionic-team/cordova-plugin-badge/issues",
-  "quality": null
+  "quality": null,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "platforms": [
+    "ios",
+    "osx",
+    "android",
+    "browser",
+    "windows"
+  ],
+  "published": "2023-03-22T13:19:14.306Z",
+  "license": "Apache 2.0"
 }

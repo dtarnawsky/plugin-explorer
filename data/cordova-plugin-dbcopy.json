@@ -9,16 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/an-rahulpandey/cordova-plugin-dbcopy.git",
-  "author": "Rahul Pandey",
-  "published": "2022-06-14T00:04:11.518Z",
-  "versions": [
-    "1.0.3",
-    "1.1.0",
-    "2.0.0",
-    "2.1.0",
-    "2.1.1",
-    "2.1.2"
-  ],
+  "author": {
+    "name": "Rahul Pandey"
+  },
   "keywords": [
     "sqlite db copy",
     "ecosystem:cordova",
@@ -52,5 +45,12 @@
   "image": "https://avatars.githubusercontent.com/u/2369752?v=4",
   "quality": 247,
   "updated": "2022-12-14T07:50:03Z",
-  "downloads": 832
+  "downloads": 852,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:04:11.518Z",
+  "license": "Apache 2.0"
 }

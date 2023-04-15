@@ -10,12 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/sdirekt-app-developer/PrivacyScreenPlugin-Storyboard.git",
-  "author": "Tommy-Carlos Willaims <tommy@devgeeks.org>",
-  "published": "2022-04-27T17:40:03.771Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Tommy-Carlos Willaims",
+    "email": "tommy@devgeeks.org"
+  },
   "keywords": [
     "privacy",
     "cordova",
@@ -34,5 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/57941939?v=4",
   "quality": 2,
   "updated": "2022-02-25T11:53:31Z",
-  "downloads": 290
+  "downloads": 314,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-04-27T17:40:03.771Z",
+  "license": "MIT"
 }

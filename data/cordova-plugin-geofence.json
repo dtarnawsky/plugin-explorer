@@ -6,16 +6,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/cowbell/cordova-plugin-geofence.git",
-  "author": "Cowbell Labs",
-  "published": "2022-06-14T00:15:26.783Z",
-  "versions": [
-    "0.4.0",
-    "0.4.1",
-    "0.4.2",
-    "0.5.0",
-    "0.6.0",
-    "0.7.0"
-  ],
+  "author": {
+    "name": "Cowbell Labs"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -47,5 +40,15 @@
   "image": "https://avatars.githubusercontent.com/u/1249335?v=4",
   "quality": 827,
   "updated": "2022-11-10T21:48:51Z",
-  "downloads": 134
+  "downloads": 115,
+  "platforms": [
+    "android",
+    "ios",
+    "wp8",
+    "windows8",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:15:26.783Z",
+  "license": "Apache-2.0"
 }

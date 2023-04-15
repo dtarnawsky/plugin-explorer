@@ -9,13 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/nchutchind/cordova-plugin-app-launcher.git",
-  "author": "Nicholas Hutchind",
-  "published": "2022-06-13T23:47:58.657Z",
-  "versions": [
-    "0.3.0",
-    "0.3.1",
-    "0.4.0"
-  ],
+  "author": {
+    "name": "Nicholas Hutchind"
+  },
   "keywords": [
     "cordova",
     "launcher",
@@ -32,7 +28,10 @@
   "bugs": "https://github.com/nchutchind/cordova-plugin-app-launcher/issues",
   "stars": 87,
   "image": "https://avatars.githubusercontent.com/u/1398002?v=4",
-  "quality": 305,
+  "quality": 306,
   "updated": "2022-10-22T12:23:54Z",
-  "downloads": 8114
+  "downloads": 8347,
+  "fork": false,
+  "published": "2022-06-13T23:47:58.657Z",
+  "license": "MIT"
 }

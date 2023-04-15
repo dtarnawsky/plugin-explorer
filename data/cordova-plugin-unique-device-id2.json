@@ -10,11 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/wizpanda/cordova-plugin-unique-device-id2.git",
-  "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
-  "published": "2022-04-27T17:49:28.032Z",
-  "versions": [
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Domonkos Pal",
+    "email": "public@dpal.hu",
+    "url": "https://github.com/Paldom"
+  },
   "keywords": [
     "phonegap",
     "cordova",
@@ -41,5 +41,13 @@
   "image": "https://avatars.githubusercontent.com/u/19631317?v=4",
   "quality": 17,
   "updated": "2022-05-25T12:44:51Z",
-  "downloads": 791
+  "downloads": 744,
+  "platforms": [
+    "ios",
+    "android",
+    "wp8"
+  ],
+  "fork": true,
+  "published": "2022-04-27T17:49:28.032Z",
+  "license": "MIT"
 }

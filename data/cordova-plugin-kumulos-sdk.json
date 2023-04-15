@@ -9,34 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Kumulos/KumulosSdkCordova.git",
-  "author": "Shaoyun Li",
-  "published": "2022-06-14T00:26:22.266Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.1.0",
-    "3.0.0",
-    "3.1.0",
-    "3.1.1",
-    "3.1.2",
-    "3.1.3",
-    "3.2.0",
-    "4.0.0",
-    "4.0.1",
-    "4.1.0",
-    "4.2.0",
-    "4.2.1",
-    "4.2.2",
-    "4.2.3",
-    "4.2.4",
-    "5.0.0",
-    "5.1.0"
-  ],
+  "author": {
+    "name": "Shaoyun Li"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -56,5 +31,11 @@
   "image": "https://avatars.githubusercontent.com/u/21124837?v=4",
   "quality": 104,
   "updated": "2021-08-13T10:36:38Z",
-  "downloads": 62
+  "downloads": 56,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-06-14T00:26:22.266Z",
+  "license": "MIT"
 }

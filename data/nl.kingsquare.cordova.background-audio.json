@@ -10,10 +10,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/AubreyHewes/cordova-background-audio.git",
-  "published": "2022-06-21T10:37:04.313Z",
-  "versions": [
-    "1.0.1"
-  ],
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -34,8 +30,14 @@
   "description": "\n\t\tBackground Audio for iOS\n\n\t\tWhen included within a cordova/phonegap build then the application will support background audio for iOS\n\t\tout of the box. No further action is necessary.\n\n\t\tThis negates having to use location/other solutions that may not b",
   "bugs": "https://github.com/AubreyHewes/cordova-background-audio/issues",
   "quality": 166,
-  "downloads": 2303,
+  "downloads": 2112,
   "stars": 38,
   "image": "https://avatars.githubusercontent.com/u/2069584?v=4",
-  "updated": "2023-01-28T18:57:38Z"
+  "updated": "2023-01-28T18:57:38Z",
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-21T10:37:04.313Z",
+  "license": "MIT"
 }

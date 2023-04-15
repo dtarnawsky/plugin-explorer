@@ -8,11 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/OutSystems/cordova-plugin-stetho-android.git",
-  "author": "OutSystems - Mobility Experts",
-  "published": "2022-06-14T00:52:06.212Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "OutSystems - Mobility Experts"
+  },
   "keywords": [
     "cordova",
     "stetho",
@@ -35,5 +33,11 @@
   "image": "https://avatars.githubusercontent.com/u/2916417?v=4",
   "quality": 128,
   "updated": "2022-06-14T14:29:56Z",
-  "downloads": 99
+  "downloads": 83,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:52:06.212Z",
+  "license": "MIT License"
 }

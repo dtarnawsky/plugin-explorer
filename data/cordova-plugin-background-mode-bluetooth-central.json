@@ -9,11 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/randdusing/cordova-plugin-background-mode-bluetooth-central.git",
-  "author": "Rand Dusing",
-  "published": "2022-06-13T23:51:30.466Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Rand Dusing"
+  },
   "keywords": [
     "bluetooth",
     "bluetoothle",
@@ -35,5 +33,11 @@
   "image": "https://avatars.githubusercontent.com/u/6188656?v=4",
   "quality": 105,
   "updated": "2018-11-21T15:26:31Z",
-  "downloads": 29
+  "downloads": 39,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:51:30.466Z",
+  "license": "MIT"
 }

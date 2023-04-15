@@ -8,18 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-local-notification.git",
-  "author": "Sebastián Katzer",
-  "published": "2023-02-20T09:51:57.483Z",
-  "versions": [
-    "0.9.0-moodle.1",
-    "0.9.0-moodle.2",
-    "0.9.0-moodle.3",
-    "0.9.0-moodle.4",
-    "0.9.0-moodle.5",
-    "0.9.0-moodle.6",
-    "0.9.0-moodle.7",
-    "0.9.0-moodle.8"
-  ],
+  "author": {
+    "name": "Sebastián Katzer"
+  },
   "keywords": [
     "appplant",
     "notification",
@@ -39,8 +30,16 @@
   "description": "Moodle's fork of Cordova Local Notifications Plugin",
   "bugs": "https://github.com/moodlemobile/cordova-plugin-local-notification/issues",
   "quality": 13,
-  "downloads": 2000,
+  "downloads": 1825,
   "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/3624878?v=4",
-  "updated": "2023-02-21T11:14:31Z"
+  "updated": "2023-02-21T11:14:31Z",
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "fork": true,
+  "published": "2023-02-20T09:51:57.483Z",
+  "license": "Apache 2.0"
 }

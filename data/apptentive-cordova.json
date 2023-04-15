@@ -7,42 +7,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/apptentive/apptentive-cordova.git",
-  "author": "Apptentive",
-  "published": "2023-03-13T17:38:56.854Z",
-  "versions": [
-    "4.0.1",
-    "4.0.2",
-    "4.1.0",
-    "4.1.1",
-    "5.0.0",
-    "5.1.0",
-    "5.1.1",
-    "5.3.0",
-    "5.3.1",
-    "5.3.2",
-    "5.3.3",
-    "5.4.0",
-    "5.4.1",
-    "5.4.2",
-    "5.4.3",
-    "5.5.0",
-    "5.5.1",
-    "5.5.2",
-    "5.6.0",
-    "5.6.1",
-    "5.6.2",
-    "5.6.3",
-    "5.6.4",
-    "5.6.5",
-    "5.7.0",
-    "5.7.1",
-    "5.8.0",
-    "5.8.3",
-    "5.8.4",
-    "6.0.0",
-    "6.0.1",
-    "6.1.0"
-  ],
+  "author": {
+    "name": "Apptentive"
+  },
   "keywords": [
     "apptentive",
     "ecosystem:cordova",
@@ -61,7 +28,14 @@
   "bugs": "https://github.com/apptentive/apptentive-cordova/issues",
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/733925?v=4",
-  "quality": 120,
+  "quality": 121,
   "updated": "2022-10-26T17:28:03Z",
-  "downloads": 192
+  "downloads": 222,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2023-03-13T17:38:56.854Z",
+  "license": "BSD"
 }

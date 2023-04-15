@@ -11,15 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/thomas550i/cordova-plugin-doze-Optimize.git",
-  "author": "thomas550i",
-  "published": "2022-04-27T17:19:26.212Z",
-  "versions": [
-    "0.5.0",
-    "0.5.1",
-    "0.5.2",
-    "0.5.3",
-    "0.5.4"
-  ],
+  "author": {
+    "name": "thomas550i"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -38,5 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/13743965?v=4",
   "quality": 142,
   "updated": "2023-03-26T07:02:29Z",
-  "downloads": 972
+  "downloads": 685,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:19:26.212Z",
+  "license": "ISC"
 }

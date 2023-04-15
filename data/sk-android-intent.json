@@ -5,11 +5,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://dev.azure.com/applieddatacorp/Heisenberg/_git/SKit.AndroidIntentPlugin.git",
-  "author": "jonathan grimm",
-  "published": "2023-03-08T21:55:32.576Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "jonathan grimm"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -26,5 +24,11 @@
   ],
   "description": "Provides access to android intents.",
   "bugs": "https://dev.azure.com/applieddatacorp/Heisenberg/_git/SKit.AndroidIntentPlugin/issues",
-  "downloads": 71
+  "downloads": 8,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2023-03-08T21:55:32.576Z",
+  "license": "MIT"
 }

@@ -10,12 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/floatinghotpot/cordova-httpd.git",
-  "author": "Raymond Xie <rjfun.mobile@gmail.com>",
-  "published": "2022-06-14T00:19:17.849Z",
-  "versions": [
-    "0.9.2",
-    "0.9.3"
-  ],
+  "author": {
+    "name": "Raymond Xie",
+    "email": "rjfun.mobile@gmail.com"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -34,8 +32,15 @@
   "description": "Cordova Plugin to embed httpd (web server) into Cordova App",
   "bugs": "https://github.com/floatinghotpot/cordova-httpd/issues",
   "quality": 580,
-  "downloads": 520,
+  "downloads": 464,
   "stars": 280,
   "image": "https://avatars.githubusercontent.com/u/2339512?v=4",
-  "updated": "2023-01-09T15:25:02Z"
+  "updated": "2023-01-09T15:25:02Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:19:17.849Z",
+  "license": "MIT"
 }

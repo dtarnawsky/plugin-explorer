@@ -9,18 +9,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/luisdemarchi/cordova-plugin-facedetection-lite.git",
-  "author": "Luís De Marchi <luis@luisdemarchi.com.br> (http://www.luisdemarchi.com.br)",
-  "published": "2022-04-27T17:21:00.672Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.3.0",
-    "0.3.1",
-    "0.3.2",
-    "0.3.3",
-    "0.3.4",
-    "0.3.5"
-  ],
+  "author": {
+    "name": "Luís De Marchi",
+    "email": "luis@luisdemarchi.com.br",
+    "url": "http://www.luisdemarchi.com.br"
+  },
   "keywords": [
     "ecosystem:cordova",
     "phonegap",
@@ -54,5 +47,13 @@
   "image": "https://avatars.githubusercontent.com/u/461642?v=4",
   "quality": 108,
   "updated": "2022-09-19T08:04:55Z",
-  "downloads": 27
+  "downloads": 28,
+  "platforms": [
+    "ios",
+    "android",
+    "browser"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:21:00.672Z",
+  "license": "unlicense"
 }

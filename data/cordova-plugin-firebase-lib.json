@@ -3,20 +3,10 @@
   "version": "5.1.1",
   "success": [],
   "repo": "https://github.com/wizpanda/cordova-plugin-firebase-lib.git",
-  "author": "Wiz Panda Techno Solutions (https://www.wizpanda.com/)",
-  "published": "2022-04-27T17:23:02.867Z",
-  "versions": [
-    "3.0.0",
-    "3.1.0",
-    "3.2.0",
-    "3.3.0",
-    "4.0.0",
-    "4.0.1",
-    "4.1.0",
-    "5.0.0",
-    "5.1.0",
-    "5.1.1"
-  ],
+  "author": {
+    "name": "Wiz Panda Techno Solutions",
+    "url": "https://www.wizpanda.com/"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -46,5 +36,13 @@
   "image": "https://avatars.githubusercontent.com/u/19631317?v=4",
   "quality": 126,
   "updated": "2023-01-28T17:42:23Z",
-  "downloads": 421
+  "downloads": 405,
+  "platforms": [
+    "android",
+    "ios",
+    "browser"
+  ],
+  "fork": true,
+  "published": "2022-04-27T17:23:02.867Z",
+  "license": "MIT"
 }

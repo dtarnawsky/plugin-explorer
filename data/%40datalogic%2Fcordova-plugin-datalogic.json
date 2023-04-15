@@ -11,21 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/datalogic/cordova-plugin-datalogic.git",
-  "author": "Datalogic",
-  "published": "2022-04-05T03:00:31.001Z",
-  "versions": [
-    "0.1.2",
-    "0.1.3",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.3.0",
-    "0.4.0",
-    "0.4.1"
-  ],
+  "author": {
+    "name": "Datalogic"
+  },
   "keywords": [
     "cordova",
     "plugin",
@@ -39,5 +27,11 @@
   "description": "Datalogic Cordova SDK for Android devices",
   "bugs": "https://github.com/datalogic/cordova-plugin-datalogic/issues",
   "quality": null,
-  "downloads": 185
+  "downloads": 163,
+  "platforms": [
+    "android"
+  ],
+  "stars": 0,
+  "published": "2022-04-05T03:00:31.001Z",
+  "license": "Apache-2.0"
 }

@@ -7,14 +7,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/longdw/cordova-plugin-telerik-imagepicker2.git",
-  "author": "longdawei",
-  "published": "2022-06-14T00:53:31.257Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "longdawei"
+  },
   "keywords": [
     "cordova",
     "imagepicker:cordova",
@@ -35,5 +30,8 @@
   "image": "https://avatars.githubusercontent.com/u/4987178?v=4",
   "quality": 103,
   "updated": "2019-08-15T17:20:57Z",
-  "downloads": 16
+  "downloads": 15,
+  "fork": false,
+  "published": "2022-06-14T00:53:31.257Z",
+  "license": "MIT"
 }

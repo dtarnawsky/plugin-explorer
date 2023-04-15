@@ -10,31 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-14T01:00:23.938Z",
-  "versions": [
-    "2.1.1",
-    "2.2.0",
-    "2.2.1",
-    "2.2.2",
-    "2.2.3",
-    "2.3.0",
-    "2.3.1",
-    "2.3.2",
-    "2.4.0",
-    "2.4.1",
-    "2.4.2",
-    "2.5.0",
-    "2.5.1",
-    "2.5.2",
-    "2.6.0",
-    "2.6.1",
-    "2.6.2",
-    "2.7.0",
-    "2.7.1",
-    "2.7.2",
-    "2.7.3"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "Toast",
     "Notification",
@@ -56,9 +36,19 @@
   ],
   "description": "This plugin allows you to show a Toast. A Toast is a little non intrusive buttonless popup which automatically disappears.",
   "bugs": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin/issues",
-  "quality": 927,
-  "downloads": 8904,
+  "quality": 928,
+  "downloads": 8656,
   "stars": 508,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "updated": "2023-01-20T10:01:38Z"
+  "updated": "2023-04-10T14:59:55Z",
+  "platforms": [
+    "ios",
+    "android",
+    "wp8",
+    "windows",
+    "blackberry10"
+  ],
+  "fork": false,
+  "published": "2022-06-14T01:00:23.938Z",
+  "license": "MIT"
 }

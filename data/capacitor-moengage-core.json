@@ -5,23 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "repo": "https://github.com/moengage/Capacitor-SDK.git.git",
-  "author": "MoEngage Inc.",
-  "published": "2023-02-28T11:14:26.385Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.1.0",
-    "1.1.1-beta",
-    "1.1.1",
-    "2.0.0",
-    "2.1.0",
-    "2.2.0"
-  ],
+  "author": {
+    "name": "MoEngage Inc."
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -39,5 +25,11 @@
   "description": "MoEngage is a mobile marketing automation company. This capacitor SDK helps you track events, trigger smart notifications.",
   "bugs": "https://github.com/moengage/Capacitor-SDK.git/issues",
   "quality": null,
-  "downloads": 321
+  "downloads": 281,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2023-02-28T11:14:26.385Z",
+  "license": "MIT"
 }

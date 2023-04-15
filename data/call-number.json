@@ -10,13 +10,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Rohfosho/CordovaCallNumberPlugin.git",
-  "author": "",
-  "published": "2022-06-13T05:26:02.592Z",
-  "versions": [
-    "0.0.2",
-    "1.0.0",
-    "1.0.1"
-  ],
   "keywords": [
     "cordova",
     "call",
@@ -36,5 +29,12 @@
   "image": "https://avatars.githubusercontent.com/u/3130493?v=4",
   "quality": 475,
   "updated": "2023-02-13T19:20:23Z",
-  "downloads": 23273
+  "downloads": 22350,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-06-13T05:26:02.592Z",
+  "license": "Apache 2.0"
 }

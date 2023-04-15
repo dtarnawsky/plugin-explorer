@@ -9,21 +9,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/admob-google/admob-cordova.git",
-  "author": "",
-  "published": "2022-06-13T02:27:00.481Z",
-  "versions": [
-    "5.0.0",
-    "5.0.1",
-    "5.0.2",
-    "5.0.3",
-    "5.0.4",
-    "5.2.0",
-    "5.3.0",
-    "5.4.0",
-    "5.4.1",
-    "5.4.2",
-    "5.5.0"
-  ],
   "keywords": [
     "ad",
     "admob",
@@ -55,8 +40,15 @@
   "description": "\n   Google AdMob plugin for Cordova, Phonegap and Intel XDK ,support ios and android,support admob v1 and admob v2 ,Monetize your app with one javascript line.simple and easy to use api.build on admob ios 7.6 and admob android sdk 8\n    project home:https",
   "bugs": "https://github.com/admob-google/admob-cordova/issues",
   "quality": 224,
-  "downloads": 65,
+  "downloads": 64,
   "stars": 63,
   "image": "https://avatars.githubusercontent.com/u/8605667?v=4",
-  "updated": "2020-10-02T04:38:40Z"
+  "updated": "2020-10-02T04:38:40Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T02:27:00.481Z",
+  "license": "Apache 2.0 License"
 }

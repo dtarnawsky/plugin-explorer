@@ -8,12 +8,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/regulaforensics/cordova-plugin-face-api.git",
-  "author": "RegulaForensics",
-  "published": "2023-03-03T15:25:24.783Z",
-  "versions": [
-    "0.0.1",
-    "5.1.0"
-  ],
+  "author": {
+    "name": "RegulaForensics"
+  },
   "keywords": [
     "cordova",
     "face",
@@ -32,5 +29,12 @@
   "image": "https://avatars.githubusercontent.com/u/19432176?v=4",
   "quality": 104,
   "updated": "2023-03-03T14:19:04Z",
-  "downloads": 37
+  "downloads": 30,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-03-03T15:25:24.783Z",
+  "license": "commercial"
 }

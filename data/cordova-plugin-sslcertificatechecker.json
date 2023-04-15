@@ -10,14 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/SSLCertificateChecker-PhoneGap-Plugin.git",
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-14T00:51:41.206Z",
-  "versions": [
-    "4.0.0",
-    "5.0.0",
-    "5.1.0",
-    "6.0.0"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "Certificate",
     "SSL",
@@ -39,5 +36,13 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 372,
   "updated": "2023-03-15T02:58:38Z",
-  "downloads": 2986
+  "downloads": 2947,
+  "platforms": [
+    "ios",
+    "android",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:51:41.206Z",
+  "license": "MIT"
 }

@@ -6,21 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/moberwasserlechner/capacitor-filesharer.git",
-  "author": "Michael Oberwasserlechner",
-  "published": "2022-09-18T18:07:43.094Z",
-  "versions": [
-    "1.0.0-alpha.1",
-    "1.0.0-alpha.2",
-    "1.0.0-alpha.3",
-    "1.0.0-alpha.4",
-    "1.0.0-alpha.5",
-    "1.0.0-beta.1",
-    "1.0.0",
-    "1.0.1",
-    "2.0.0",
-    "3.0.0",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Michael Oberwasserlechner"
+  },
   "keywords": [
     "capacitor",
     "capacitor-plugin",
@@ -43,5 +31,12 @@
   "image": "https://avatars.githubusercontent.com/u/1049938?v=4",
   "quality": 195,
   "updated": "2023-03-30T01:18:41Z",
-  "downloads": 14987
+  "downloads": 15307,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-09-18T18:07:43.094Z",
+  "license": "MIT"
 }

@@ -73,6 +73,7 @@
 @capacitor-mobi/cordova-plugin-inappbrowser
 @capacitor-mobi/cordova-plugin-preview-any-file
 @capacitor/action-sheet
+@capacitor/app
 @capacitor/app-launcher
 @capacitor/browser
 @capacitor/camera

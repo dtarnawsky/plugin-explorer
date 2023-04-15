@@ -19,6 +19,12 @@
       "success": false
     },
     {
+      "test": "capacitor-android-5",
+      "version": "1.1.20",
+      "failure": "native-build",
+      "success": false
+    },
+    {
       "test": "capacitor-ios-3",
       "version": "1.1.19",
       "failure": "cap-sync",
@@ -28,6 +34,12 @@
       "test": "capacitor-ios-5",
       "version": "1.1.19",
       "success": true
+    },
+    {
+      "test": "capacitor-ios-5",
+      "version": "1.1.20",
+      "failure": "native-build",
+      "success": false
     },
     {
       "test": "cordova-android-11",

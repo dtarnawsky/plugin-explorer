@@ -5,13 +5,9 @@
     "capacitor-android-4"
   ],
   "repo": "https://github.com/rabianr/capacitor-line-login.git",
-  "author": "ラ・ビ・アン・ローズ",
-  "published": "2023-01-25T03:41:22.551Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3"
-  ],
+  "author": {
+    "name": "ラ・ビ・アン・ローズ"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +27,12 @@
   "description": "Capacitor plugin to support LINE Login",
   "bugs": "https://github.com/rabianr/capacitor-line-login/issues",
   "quality": null,
-  "downloads": 26
+  "downloads": 17,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0,
+  "published": "2023-01-25T03:41:22.551Z",
+  "license": "MIT"
 }

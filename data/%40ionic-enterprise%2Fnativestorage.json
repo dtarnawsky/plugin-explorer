@@ -7,13 +7,10 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "Gilles Callebaut <callebaut.gilles@gmail.com>",
-  "published": "2023-03-22T13:19:48.364Z",
-  "versions": [
-    "2.3.2",
-    "2.3.3",
-    "2.3.4"
-  ],
+  "author": {
+    "name": "Gilles Callebaut",
+    "email": "callebaut.gilles@gmail.com"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -34,5 +31,15 @@
     "capacitor-android-4"
   ],
   "description": "Native storage of variables in Android, iOS and Windows",
-  "bugs": "https://github.com/ionic-team/cordova-plugin-nativestorage/issues"
+  "bugs": "https://github.com/ionic-team/cordova-plugin-nativestorage/issues",
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "platforms": [
+    "android",
+    "ios",
+    "browser",
+    "windows",
+    "osx"
+  ],
+  "published": "2023-03-22T13:19:48.364Z",
+  "license": "Apache-2.0"
 }

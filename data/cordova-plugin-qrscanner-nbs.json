@@ -7,13 +7,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/gianluigitrontini/cordova-plugin-qrscanner-nbs.git",
-  "author": "Gianluigi Trontini",
-  "published": "2022-08-31T21:07:33.520Z",
-  "versions": [
-    "3.0.3",
-    "3.0.4",
-    "3.0.5"
-  ],
+  "author": {
+    "name": "Gianluigi Trontini"
+  },
   "keywords": [
     "cordova",
     "qr",
@@ -42,5 +38,10 @@
   "image": "https://avatars.githubusercontent.com/u/39003797?v=4",
   "quality": 106,
   "updated": "2022-08-26T14:35:23Z",
-  "downloads": 19
+  "downloads": 13,
+  "platforms": [
+    "ios"
+  ],
+  "published": "2022-08-31T21:07:33.520Z",
+  "license": "MIT"
 }

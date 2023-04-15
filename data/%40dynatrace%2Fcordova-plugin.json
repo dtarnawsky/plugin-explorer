@@ -1,53 +1,14 @@
 {
   "name": "@dynatrace/cordova-plugin",
-  "version": "1.261.3",
+  "version": "1.263.1",
   "success": [
     "capacitor-ios-4",
     "cordova-ios-6",
-    "capacitor-android-5",
-    "capacitor-ios-5"
+    "capacitor-android-5"
   ],
-  "author": "Dynatrace",
-  "published": "2023-03-22T10:42:33.241Z",
-  "versions": [
-    "1.191.0",
-    "1.191.1",
-    "1.191.2",
-    "1.192.0",
-    "1.201.0",
-    "1.201.1",
-    "1.201.2",
-    "1.205.0",
-    "1.213.0",
-    "1.217.0",
-    "1.217.1",
-    "1.219.0",
-    "1.219.1",
-    "1.225.0",
-    "1.225.1",
-    "1.227.0",
-    "1.227.1",
-    "1.227.2",
-    "1.227.3",
-    "1.227.4",
-    "1.227.5",
-    "1.227.6",
-    "1.229.0",
-    "1.233.0",
-    "1.233.1",
-    "1.247.0",
-    "1.253.1",
-    "1.253.2",
-    "1.253.3",
-    "1.253.4",
-    "1.253.5",
-    "1.255.1",
-    "1.257.1",
-    "1.259.1",
-    "1.259.2",
-    "1.261.2",
-    "1.261.3"
-  ],
+  "author": {
+    "name": "Dynatrace"
+  },
   "keywords": [
     "Dynatrace",
     "Mobile",
@@ -62,8 +23,16 @@
     "capacitor-ios-3",
     "capacitor-android-3",
     "capacitor-android-4",
-    "cordova-android-11"
+    "cordova-android-11",
+    "capacitor-ios-5"
   ],
   "description": "This plugin gives you the ability to use the Dynatrace instrumentation in your hybrid application (Cordova, Ionic, ..). It uses the Mobile Agent, the JavaScript Agent. The Mobile Agent will give you all device specific values containing lifecycle informat",
-  "downloads": 4462
+  "downloads": 4483,
+  "platforms": [
+    "ios",
+    "android",
+    "windows"
+  ],
+  "published": "2023-04-11T14:52:38.081Z",
+  "license": "SEE LICENSE IN LICENSE.md"
 }

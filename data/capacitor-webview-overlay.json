@@ -6,15 +6,6 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/dgolosov/capacitor-webview-overlay.git",
-  "author": "",
-  "published": "2022-09-02T06:57:57.740Z",
-  "versions": [
-    "2.0.4",
-    "2.0.5",
-    "2.0.6",
-    "2.0.7",
-    "3.0.0"
-  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +22,12 @@
   "description": "Capacitor Webview Overlay",
   "bugs": "https://github.com/dgolosov/capacitor-webview-overlay/issues",
   "quality": null,
-  "downloads": 126
+  "downloads": 109,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0,
+  "published": "2022-09-02T06:57:57.740Z",
+  "license": "MIT"
 }

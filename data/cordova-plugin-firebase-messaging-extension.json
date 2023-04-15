@@ -8,18 +8,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/MaximBelov/cordova-plugin-firebase-messaging-extension.git",
-  "published": "2022-09-29T12:00:03.435Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.1.3"
-  ],
   "keywords": [
     "cordova",
     "firebase",
@@ -41,5 +29,10 @@
   "image": "https://avatars.githubusercontent.com/u/7757752?v=4",
   "quality": 1,
   "updated": "2022-08-31T19:37:39Z",
-  "downloads": 342
+  "downloads": 339,
+  "platforms": [
+    "android"
+  ],
+  "published": "2022-09-29T12:00:03.435Z",
+  "license": "MIT"
 }

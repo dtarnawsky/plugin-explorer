@@ -10,12 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/Heartade/cordova-plugin-android-mediastore.git",
-  "author": "Soohan Park",
-  "published": "2022-04-27T17:09:50.783Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1"
-  ],
+  "author": {
+    "name": "Soohan Park"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
@@ -30,5 +27,11 @@
   "image": "https://avatars.githubusercontent.com/u/24813078?v=4",
   "quality": 117,
   "updated": "2022-11-27T16:05:31Z",
-  "downloads": 107
+  "downloads": 117,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:09:50.783Z",
+  "license": "MIT"
 }

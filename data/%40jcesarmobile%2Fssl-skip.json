@@ -8,13 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/jcesarmobile/ssl-skip.git",
-  "author": "jcesarmobile",
-  "published": "2022-11-17T00:09:06.152Z",
-  "versions": [
-    "0.0.1",
-    "0.1.0",
-    "0.2.0"
-  ],
+  "author": {
+    "name": "jcesarmobile"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,9 +24,16 @@
   ],
   "description": "Capacitor plugin for skipping ssl checks",
   "bugs": "https://github.com/jcesarmobile/ssl-skip/issues",
-  "quality": 114,
-  "downloads": 669,
+  "quality": 115,
+  "downloads": 696,
   "stars": 11,
   "image": "https://avatars.githubusercontent.com/u/1637892?v=4",
-  "updated": "2023-03-14T07:18:54Z"
+  "updated": "2023-03-14T07:18:54Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-11-17T00:09:06.152Z",
+  "license": "MIT"
 }

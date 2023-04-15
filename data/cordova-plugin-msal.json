@@ -9,28 +9,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/wrobins/cordova-plugin-msal.git",
-  "author": "Walter Robins <wrobins@kent.edu>",
-  "published": "2023-01-09T18:08:33.820Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "2.0.0",
-    "2.0.1",
-    "2.1.0",
-    "2.1.1",
-    "2.1.2",
-    "2.2.0",
-    "2.3.0",
-    "2.4.0",
-    "2.4.1",
-    "2.4.2",
-    "2.4.3",
-    "2.5.0",
-    "3.0.0-alpha.0",
-    "3.0.0-beta.1",
-    "3.0.0",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Walter Robins",
+    "email": "wrobins@kent.edu"
+  },
   "keywords": [
     "cordova",
     "cordova-android",
@@ -50,9 +32,17 @@
   ],
   "description": "A Cordova plugin providing a wrapper for Microsoft's MSAL library for Android and iOS.",
   "bugs": "https://github.com/wrobins/cordova-plugin-msal/issues",
-  "quality": 208,
-  "downloads": 1095,
+  "quality": 209,
+  "downloads": 1156,
   "stars": 20,
   "image": "https://avatars.githubusercontent.com/u/18485919?v=4",
-  "updated": "2022-09-18T09:46:37Z"
+  "updated": "2022-09-18T09:46:37Z",
+  "platforms": [
+    "android",
+    "ios",
+    "browser"
+  ],
+  "fork": false,
+  "published": "2023-01-09T18:08:33.820Z",
+  "license": "Apache 2.0"
 }

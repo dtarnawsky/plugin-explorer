@@ -2,13 +2,11 @@
   "name": "smartpos",
   "version": "1.4.1",
   "success": [],
-  "repo": "https://github.com/mpwanyi256/smart-pos.git",
-  "author": "Samuel Mpwanyi <samuelmpwanyi@gmail.com> (https://www.linkedin.com/in/mpwanyi-samuel-402b36108/)",
-  "published": "2023-01-12T06:32:43.214Z",
-  "versions": [
-    "1.3.9",
-    "1.4.1"
-  ],
+  "author": {
+    "name": "Samuel Mpwanyi",
+    "email": "samuelmpwanyi@gmail.com",
+    "url": "https://www.linkedin.com/in/mpwanyi-samuel-402b36108/"
+  },
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
@@ -21,5 +19,7 @@
   ],
   "description": "SmartPOS is a small to medium sized businesses POS software that provides; Sales, Inventory and KDS modules.",
   "quality": null,
-  "downloads": 12
+  "downloads": 13,
+  "published": "2023-01-12T06:32:43.214Z",
+  "license": "MIT"
 }

@@ -11,12 +11,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/eduardoaw/cordova-webintent.git",
-  "author": "Boris Smus, Eduardo Adams Wohlfahrt <eduardowohlfahrt@gmail.com>",
-  "published": "2022-06-14T00:58:13.855Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Boris Smus, Eduardo Adams Wohlfahrt",
+    "email": "eduardowohlfahrt@gmail.com"
+  },
   "keywords": [
     "webintent",
     "boris smus",
@@ -31,5 +29,7 @@
   "image": "https://avatars.githubusercontent.com/u/11036786?v=4",
   "quality": 0,
   "updated": "2017-02-04T11:46:01Z",
-  "downloads": 123
+  "downloads": 167,
+  "published": "2022-06-14T00:58:13.855Z",
+  "license": "MIT"
 }

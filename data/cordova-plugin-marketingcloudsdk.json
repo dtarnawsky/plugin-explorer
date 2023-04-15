@@ -8,26 +8,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/salesforce-marketingcloud/MC-Cordova-Plugin.git",
-  "author": "Salesforce Marketing Cloud",
-  "published": "2023-02-21T15:22:58.364Z",
-  "versions": [
-    "6.0.0",
-    "6.1.0",
-    "6.2.1",
-    "6.2.2",
-    "6.3.0",
-    "6.3.1",
-    "6.4.0",
-    "7.0.0",
-    "7.1.0",
-    "7.2.0",
-    "7.3.0",
-    "7.4.0",
-    "7.4.1",
-    "7.4.2",
-    "7.4.3",
-    "7.5.0"
-  ],
+  "author": {
+    "name": "Salesforce Marketing Cloud"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -45,8 +28,15 @@
   "description": "A Cordova Plugin to access the native Salesforce Marketing Cloud MobilePush SDKs",
   "bugs": "https://github.com/salesforce-marketingcloud/MC-Cordova-Plugin/issues",
   "quality": 174,
-  "downloads": 1305,
+  "downloads": 1300,
   "stars": 17,
   "image": "https://avatars.githubusercontent.com/u/12401348?v=4",
-  "updated": "2023-03-31T07:08:27Z"
+  "updated": "2023-03-31T07:08:27Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2023-02-21T15:22:58.364Z",
+  "license": "BSD-3-Clause"
 }

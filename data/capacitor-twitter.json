@@ -6,25 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/stewwan/capacitor-twitter.git",
-  "author": "Stewan Silva",
-  "published": "2022-04-12T05:17:29.219Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.9",
-    "0.0.10",
-    "0.0.11",
-    "0.0.12",
-    "0.0.13",
-    "0.0.14",
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Stewan Silva"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -51,5 +35,12 @@
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "quality": 126,
   "updated": "2022-06-06T07:30:13Z",
-  "downloads": 41
+  "downloads": 62,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-12T05:17:29.219Z",
+  "license": "MIT"
 }

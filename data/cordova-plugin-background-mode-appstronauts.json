@@ -8,16 +8,13 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "published": "2022-04-27T17:12:28.398Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
     "cordova-android-11"
   ],
   "description": "Prevent app from going to sleep in background.",
-  "downloads": 152
+  "downloads": 118,
+  "published": "2022-04-27T17:12:28.398Z",
+  "license": "Apache 2.0"
 }

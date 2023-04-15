@@ -10,12 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ModusCreateOrg/cordova-plugin-example.git",
-  "author": "Modus Create",
-  "published": "2022-06-20T04:09:57.881Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Modus Create"
+  },
   "keywords": [
     "cordova",
     "demo",
@@ -42,8 +39,15 @@
   "description": "Modus Create Demo Cordova Plugin",
   "bugs": "https://github.com/ModusCreateOrg/cordova-plugin-example/issues",
   "quality": 126,
-  "downloads": 9,
+  "downloads": 10,
   "stars": 15,
   "image": "https://avatars.githubusercontent.com/u/959059?v=4",
-  "updated": "2023-01-28T19:22:43Z"
+  "updated": "2023-01-28T19:22:43Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-20T04:09:57.881Z",
+  "license": "MIT"
 }

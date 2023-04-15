@@ -9,11 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/pscsrv/cordova-plugin-apple-login.git",
-  "author": "People Software Corporation",
-  "published": "2022-04-27T17:11:12.070Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "People Software Corporation"
+  },
   "keywords": [
     "sign in with apple"
   ],
@@ -28,5 +26,8 @@
   "image": "https://avatars.githubusercontent.com/u/21697371?v=4",
   "quality": 135,
   "updated": "2022-11-24T13:28:05Z",
-  "downloads": 460
+  "downloads": 411,
+  "fork": false,
+  "published": "2023-04-07T04:43:19.437Z",
+  "license": "MIT"
 }

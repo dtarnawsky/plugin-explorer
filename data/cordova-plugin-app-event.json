@@ -7,15 +7,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/katzer/cordova-plugin-app-event.git",
-  "author": "Sebastián Katzer",
-  "published": "2022-06-13T23:47:53.663Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2"
-  ],
+  "author": {
+    "name": "Sebastián Katzer"
+  },
   "keywords": [
     "appplant",
     "UIApplicationDelegate",
@@ -38,5 +32,11 @@
   "image": "https://avatars.githubusercontent.com/u/2039384?v=4",
   "quality": 153,
   "updated": "2022-08-12T14:52:36Z",
-  "downloads": 12113
+  "downloads": 12843,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:47:53.663Z",
+  "license": "Apache-2.0"
 }

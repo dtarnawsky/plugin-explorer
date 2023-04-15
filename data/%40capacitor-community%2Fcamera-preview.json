@@ -8,34 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/capacitor-community/camera-preview.git",
-  "author": "Ariel Hernandez Musa",
-  "published": "2023-01-23T16:45:49.739Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.1.3",
-    "1.2.0",
-    "1.2.1",
-    "2.0.0-beta.0",
-    "2.0.0-beta.2",
-    "2.0.0",
-    "2.1.0",
-    "3.0.0",
-    "3.1.0",
-    "3.1.1",
-    "3.1.2",
-    "4.0.0-0",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Ariel Hernandez Musa"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -49,9 +24,16 @@
   ],
   "description": "Camera preview",
   "bugs": "https://github.com/capacitor-community/camera-preview/issues",
-  "quality": 432,
-  "downloads": 18648,
-  "stars": 142,
+  "quality": 433,
+  "downloads": 16710,
+  "stars": 143,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
-  "updated": "2023-03-19T04:09:09Z"
+  "updated": "2023-04-07T03:57:26Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-01-23T16:45:49.739Z",
+  "license": "MIT"
 }

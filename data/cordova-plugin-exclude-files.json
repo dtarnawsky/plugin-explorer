@@ -10,27 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/raphinesse/cordova-plugin-exclude-files.git",
-  "author": "Raphael von der Grün",
-  "published": "2022-06-14T00:08:04.388Z",
-  "versions": [
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.3.0",
-    "0.3.1",
-    "0.3.2",
-    "0.3.3",
-    "0.3.4",
-    "0.3.5",
-    "0.4.0",
-    "0.4.1",
-    "0.4.2",
-    "0.4.3",
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Raphael von der Grün"
+  },
   "keywords": [
     "ignores",
     "excludes",
@@ -59,5 +41,19 @@
   "image": "https://avatars.githubusercontent.com/u/1006620?v=4",
   "quality": 110,
   "updated": "2020-08-11T13:08:35Z",
-  "downloads": 174
+  "downloads": 156,
+  "platforms": [
+    "android",
+    "blackberry",
+    "browser",
+    "firefoxos",
+    "ios",
+    "osx",
+    "ubuntu",
+    "windows",
+    "wp8"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:08:04.388Z",
+  "license": "MIT"
 }

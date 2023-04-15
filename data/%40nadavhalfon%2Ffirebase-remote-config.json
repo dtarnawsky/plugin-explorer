@@ -9,11 +9,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/nadavhalfon/firebase-remote-config.git",
-  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
-  "published": "2022-06-11T22:33:43.973Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Priyank Patel",
+    "email": "priyank.patel@stackspace.ca"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -27,8 +26,15 @@
   "description": "A native plugin for firebase remote config",
   "bugs": "https://github.com/nadavhalfon/firebase-remote-config/issues",
   "quality": 1,
-  "downloads": 9,
+  "downloads": 10,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/32557985?v=4",
-  "updated": "2022-10-21T02:04:27Z"
+  "updated": "2022-10-21T02:04:27Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true,
+  "published": "2022-06-11T22:33:43.973Z",
+  "license": "MIT"
 }

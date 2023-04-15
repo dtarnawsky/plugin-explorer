@@ -6,15 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/swernimo/capacitor-biometric-auth.git",
-  "author": "Sean Wernimont",
-  "published": "2022-09-23T20:39:42.989Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "2.0.0"
-  ],
+  "author": {
+    "name": "Sean Wernimont"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +28,11 @@
   "image": "https://avatars.githubusercontent.com/u/11137058?v=4",
   "quality": 0,
   "updated": "2021-11-16T19:03:29Z",
-  "downloads": 25
+  "downloads": 26,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-09-23T20:39:42.989Z",
+  "license": "MIT"
 }

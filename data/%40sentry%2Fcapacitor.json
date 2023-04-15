@@ -7,31 +7,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/getsentry/sentry-capacitor.git",
-  "author": "Sentry Team and Contributors",
-  "published": "2023-02-27T09:59:17.092Z",
-  "versions": [
-    "0.1.0",
-    "0.2.0",
-    "0.2.1",
-    "0.3.0",
-    "0.4.0",
-    "0.4.1",
-    "0.4.2",
-    "0.4.3",
-    "0.4.4",
-    "0.5.0",
-    "0.6.0",
-    "0.6.1",
-    "0.7.0",
-    "0.7.1",
-    "0.8.0",
-    "0.9.0",
-    "0.10.0",
-    "0.10.1",
-    "0.11.0",
-    "0.11.1",
-    "0.11.2"
-  ],
+  "author": {
+    "name": "Sentry Team and Contributors"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -58,9 +36,16 @@
   ],
   "description": "Official Sentry SDK for Capacitor",
   "bugs": "https://github.com/getsentry/sentry-capacitor/issues",
-  "quality": 263,
-  "downloads": 47614,
+  "quality": 265,
+  "downloads": 45579,
   "stars": 109,
   "image": "https://avatars.githubusercontent.com/u/1396951?v=4",
-  "updated": "2023-03-27T17:02:49Z"
+  "updated": "2023-03-27T17:02:49Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-02-27T09:59:17.092Z",
+  "license": "MIT"
 }

@@ -6,17 +6,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/ns0m/cordova-plugin-ns0m-file-transfer.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-20T21:37:43.833Z",
-  "versions": [
-    "2.0.0-1",
-    "2.0.0-2",
-    "2.0.0-3",
-    "2.0.0-4",
-    "2.0.0-5",
-    "2.0.0-6",
-    "2.0.0-7"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "file",
@@ -49,5 +41,14 @@
   "image": "https://avatars.githubusercontent.com/u/72109770?v=4",
   "quality": 1,
   "updated": "2023-01-01T10:29:50Z",
-  "downloads": 668
+  "downloads": 647,
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "browser"
+  ],
+  "fork": true,
+  "published": "2022-06-20T21:37:43.833Z",
+  "license": "Apache-2.0"
 }

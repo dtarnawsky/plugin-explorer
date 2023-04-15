@@ -11,15 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ArunYogi/cordova-plugin-upi.git",
-  "author": "Arun Yokesh Kumar",
-  "published": "2022-04-27T17:49:36.559Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Arun Yokesh Kumar"
+  },
   "keywords": [
     "upi",
     "cordova",
@@ -39,5 +33,8 @@
   "image": "https://avatars.githubusercontent.com/u/23559391?v=4",
   "quality": 116,
   "updated": "2023-03-20T09:11:23Z",
-  "downloads": 36
+  "downloads": 34,
+  "fork": false,
+  "published": "2022-04-27T17:49:36.559Z",
+  "license": "MIT"
 }

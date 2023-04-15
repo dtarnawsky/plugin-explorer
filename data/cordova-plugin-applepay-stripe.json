@@ -8,16 +8,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/monoku/cordova-plugin-applepay-stripe.git",
-  "author": "David Avellaneda <david@monoku.com> (https://monoku.com/)",
-  "published": "2022-06-13T23:48:56.189Z",
-  "versions": [
-    "2.2.0",
-    "2.2.1",
-    "2.2.2",
-    "2.2.3",
-    "2.2.5",
-    "2.2.6"
-  ],
+  "author": {
+    "name": "David Avellaneda",
+    "email": "david@monoku.com",
+    "url": "https://monoku.com/"
+  },
   "keywords": [],
   "fails": [
     "capacitor-ios-3",
@@ -31,5 +26,8 @@
   "image": "https://avatars.githubusercontent.com/u/196964?v=4",
   "quality": 19,
   "updated": "2020-10-19T06:27:55Z",
-  "downloads": 45
+  "downloads": 31,
+  "fork": true,
+  "published": "2022-06-13T23:48:56.189Z",
+  "license": "GPL-3.0"
 }

@@ -8,43 +8,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-media.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-09-09T11:24:38.936Z",
-  "versions": [
-    "0.2.1",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8",
-    "0.2.9",
-    "0.2.10",
-    "0.2.11",
-    "0.2.12",
-    "0.2.13",
-    "0.2.14",
-    "0.2.15",
-    "0.2.16",
-    "1.0.0",
-    "1.0.1",
-    "2.0.0",
-    "2.1.0",
-    "2.2.0",
-    "2.3.0",
-    "2.4.0",
-    "2.4.1",
-    "3.0.0",
-    "3.0.1",
-    "4.0.0",
-    "5.0.0",
-    "5.0.1",
-    "5.0.2",
-    "5.0.3",
-    "5.0.4",
-    "6.0.0",
-    "6.1.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "media",
@@ -71,8 +37,17 @@
   "description": "Cordova Media Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-media/issues",
   "quality": 1344,
-  "downloads": 56888,
+  "downloads": 56409,
   "stars": 381,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "updated": "2023-03-29T22:18:31Z"
+  "updated": "2023-03-29T22:18:31Z",
+  "platforms": [
+    "android",
+    "browser",
+    "ios",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2022-09-09T11:24:38.936Z",
+  "license": "Apache-2.0"
 }

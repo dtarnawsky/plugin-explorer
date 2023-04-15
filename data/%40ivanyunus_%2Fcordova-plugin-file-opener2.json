@@ -9,11 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/pwlin/cordova-plugin-file-opener2.git",
-  "author": "pwlin05@gmail.com",
-  "published": "2022-12-28T04:39:35.642Z",
-  "versions": [
-    "3.0.6"
-  ],
+  "author": {
+    "name": "pwlin05@gmail.com"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -28,9 +26,18 @@
   ],
   "description": "A File Opener Plugin for Cordova",
   "bugs": "https://github.com/pwlin/cordova-plugin-file-opener2/issues",
-  "quality": 1010,
+  "quality": 1012,
   "downloads": 13,
   "stars": 315,
   "image": "https://avatars.githubusercontent.com/u/160443?v=4",
-  "updated": "2023-03-15T03:48:41Z"
+  "updated": "2023-03-15T03:48:41Z",
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "electron"
+  ],
+  "fork": false,
+  "published": "2022-12-28T04:39:35.642Z",
+  "license": "MIT"
 }

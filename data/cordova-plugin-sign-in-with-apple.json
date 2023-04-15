@@ -10,18 +10,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/twogate/cordova-plugin-sign-in-with-apple.git",
-  "author": "",
-  "published": "2022-04-27T17:45:14.358Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.1.0",
-    "0.1.1",
-    "0.1.2"
-  ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3"
@@ -30,7 +18,7 @@
   "bugs": "https://github.com/twogate/cordova-plugin-sign-in-with-apple/issues",
   "stars": 70,
   "image": "https://avatars.githubusercontent.com/u/18518929?v=4",
-  "downloads": 12858,
+  "downloads": 11678,
   "keywords": [
     "apple",
     "cordova",
@@ -38,5 +26,8 @@
     "sign-in-with-apple"
   ],
   "quality": 232,
-  "updated": "2023-02-16T00:06:02Z"
+  "updated": "2023-02-16T00:06:02Z",
+  "fork": false,
+  "published": "2022-04-27T17:45:14.358Z",
+  "license": "MIT"
 }

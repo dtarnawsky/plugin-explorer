@@ -34,14 +34,16 @@
   "description": "A Capacitor plugin that provides full native splash screen functionality",
   "quality": 158,
   "updated": "2023-04-04T17:00:57Z",
-  "versions": [
-    "1.0.1",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2"
-  ],
-  "author": "Aparajita Fishman",
+  "author": {
+    "name": "Aparajita Fishman"
+  },
   "bugs": "https://github.com/aparajita/capacitor-splash-screen/issues",
+  "downloads": 177,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
   "published": "2023-01-18T21:26:13.085Z",
-  "downloads": 188
+  "license": "MIT"
 }

@@ -11,44 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-splashscreen.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-07-16T05:04:55.900Z",
-  "versions": [
-    "0.2.0",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.3.0",
-    "0.3.1",
-    "0.3.2",
-    "0.3.3",
-    "0.3.4",
-    "0.3.5",
-    "1.0.0",
-    "2.0.0",
-    "2.1.0",
-    "3.0.0",
-    "3.1.0",
-    "3.2.0",
-    "3.2.1",
-    "3.2.2",
-    "4.0.0",
-    "4.0.1",
-    "4.0.2",
-    "4.0.3",
-    "4.1.0",
-    "5.0.0",
-    "5.0.1",
-    "5.0.2",
-    "5.0.3",
-    "5.0.4",
-    "6.0.0",
-    "6.0.1",
-    "6.0.2"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "splashscreen",
@@ -71,8 +36,16 @@
   "description": "Cordova Splashscreen Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-splashscreen/issues",
   "quality": 1396,
-  "downloads": 163276,
+  "downloads": 156595,
   "stars": 637,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "updated": "2023-03-27T17:00:48Z"
+  "updated": "2023-03-27T17:00:48Z",
+  "platforms": [
+    "android",
+    "windows",
+    "browser"
+  ],
+  "fork": false,
+  "published": "2022-07-16T05:04:55.900Z",
+  "license": "Apache-2.0"
 }

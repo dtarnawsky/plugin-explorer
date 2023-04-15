@@ -8,11 +8,6 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/moodlemobile/cordova-plugin-zip.git",
-  "author": "",
-  "published": "2022-09-05T10:34:29.488Z",
-  "versions": [
-    "3.1.0-moodle.1"
-  ],
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -27,5 +22,12 @@
   "description": "Moodle's fork of Cordova Plugin File",
   "bugs": "https://github.com/moodlemobile/zip/issues",
   "quality": null,
-  "downloads": 2065
+  "downloads": 1950,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "stars": 0,
+  "published": "2022-09-05T10:34:29.488Z",
+  "license": "BSD"
 }

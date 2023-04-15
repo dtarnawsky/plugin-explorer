@@ -3,12 +3,9 @@
   "version": "15.0.0",
   "success": [],
   "repo": "https://github.com/dpa99c/cordova-plugin-firebase.git",
-  "author": "Dave Alden",
-  "published": "2022-12-19T17:27:10.800Z",
-  "versions": [
-    "14.0.0",
-    "15.0.0"
-  ],
+  "author": {
+    "name": "Dave Alden"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -30,9 +27,16 @@
   ],
   "description": "Cordova plugin for Google Firebase",
   "bugs": "https://github.com/dpa99c/cordova-plugin-firebase/issues",
-  "stars": 558,
+  "stars": 557,
   "image": "https://avatars.githubusercontent.com/u/2345062?v=4",
   "quality": 1077,
-  "updated": "2023-03-31T12:03:43Z",
-  "downloads": 33
+  "updated": "2023-04-09T17:22:29Z",
+  "downloads": 33,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true,
+  "published": "2022-12-19T17:27:10.800Z",
+  "license": "MIT"
 }

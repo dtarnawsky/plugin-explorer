@@ -7,12 +7,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git",
-  "author": "Eddy Verbruggen - @EddyVerbruggen",
-  "published": "2022-04-27T17:10:20.981Z",
-  "versions": [
-    "0.1.0",
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen - @EddyVerbruggen"
+  },
   "keywords": [
     "Social",
     "Share",
@@ -42,7 +39,17 @@
   "bugs": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues",
   "stars": 1780,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
-  "quality": 3253,
-  "updated": "2023-04-01T16:39:01Z",
-  "downloads": 13
+  "quality": 3255,
+  "updated": "2023-04-11T19:28:09Z",
+  "downloads": 16,
+  "platforms": [
+    "ios",
+    "android",
+    "wp8",
+    "windows",
+    "web"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:10:20.981Z",
+  "license": "MIT"
 }

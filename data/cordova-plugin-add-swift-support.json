@@ -10,30 +10,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/akofman/cordova-plugin-add-swift-support.git",
-  "author": "Alexis Kofman <alexis.kofman@gmail.com> (http://twitter.com/alexiskofman)",
-  "published": "2022-06-13T23:43:43.659Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.1.0",
-    "1.2.0",
-    "1.3.1",
-    "1.3.2",
-    "1.4.0",
-    "1.5.0",
-    "1.6.0",
-    "1.6.1",
-    "1.6.2",
-    "1.7.0",
-    "1.7.1",
-    "1.7.2",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2"
-  ],
+  "author": {
+    "name": "Alexis Kofman",
+    "email": "alexis.kofman@gmail.com",
+    "url": "http://twitter.com/alexiskofman"
+  },
   "keywords": [
     "cordova",
     "ios",
@@ -54,5 +35,11 @@
   "image": "https://avatars.githubusercontent.com/u/579922?v=4",
   "quality": 342,
   "updated": "2023-03-10T07:28:27Z",
-  "downloads": 53309
+  "downloads": 51110,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:43:43.659Z",
+  "license": "Apache-2.0"
 }

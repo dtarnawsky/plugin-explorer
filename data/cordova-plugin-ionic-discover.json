@@ -10,15 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ionic-team/cordova-plugin-ionic-discover.git",
-  "author": "Manu Mtz.-Almeida (https://github.com/manucorporat)",
-  "published": "2022-04-27T17:28:47.212Z",
-  "versions": [
-    "0.0.2",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "Manu Mtz.-Almeida",
+    "url": "https://github.com/manucorporat"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -42,5 +37,10 @@
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "quality": 105,
   "updated": "2023-01-28T05:33:24Z",
-  "downloads": 9
+  "downloads": 8,
+  "platforms": [
+    "ios"
+  ],
+  "published": "2022-04-27T17:28:47.212Z",
+  "license": "MIT"
 }

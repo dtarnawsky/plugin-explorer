@@ -3,17 +3,9 @@
   "version": "4.0.4",
   "success": [],
   "repo": "https://github.com/caoguanjie/cordova-plugin-capacitor-jpush.git",
-  "author": "caoguanjie",
-  "published": "2022-09-20T03:55:50.608Z",
-  "versions": [
-    "3.7.3",
-    "3.7.4",
-    "4.0.0",
-    "4.0.1",
-    "4.0.2",
-    "4.0.3",
-    "4.0.4"
-  ],
+  "author": {
+    "name": "caoguanjie"
+  },
   "keywords": [
     "JPush",
     "push",
@@ -38,5 +30,12 @@
   "image": "https://avatars.githubusercontent.com/u/23491340?v=4",
   "quality": 111,
   "updated": "2023-03-02T01:13:46Z",
-  "downloads": 38
+  "downloads": 36,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-09-20T03:55:50.608Z",
+  "license": "MIT"
 }

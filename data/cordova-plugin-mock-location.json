@@ -11,11 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ikoshik/cordova-plugin-mock-location.git",
-  "author": "kosh",
-  "published": "2022-06-14T00:31:54.776Z",
-  "versions": [
-    "0.0.8"
-  ],
+  "author": {
+    "name": "kosh"
+  },
   "keywords": [
     "cordova",
     "mock",
@@ -31,5 +29,9 @@
   "image": "https://avatars.githubusercontent.com/u/342033?v=4",
   "quality": 109,
   "updated": "2022-12-30T20:44:58Z",
-  "downloads": 13
+  "downloads": 7,
+  "platforms": "android",
+  "fork": false,
+  "published": "2022-06-14T00:31:54.776Z",
+  "license": "MIT"
 }

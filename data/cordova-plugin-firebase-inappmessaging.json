@@ -3,29 +3,11 @@
   "version": "7.0.2",
   "success": [],
   "repo": "https://github.com/chemerisuk/cordova-plugin-firebase-inappmessaging.git",
-  "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
-  "published": "2022-08-12T10:57:40.452Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "3.0.0",
-    "3.0.1",
-    "3.1.0",
-    "3.2.0",
-    "3.3.0",
-    "3.4.0",
-    "3.4.1",
-    "3.4.2",
-    "3.5.0",
-    "4.0.0",
-    "5.0.0",
-    "7.0.1",
-    "7.0.2"
-  ],
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
   "keywords": [
     "cordova",
     "firebase",
@@ -50,5 +32,12 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 139,
   "updated": "2022-12-01T15:46:20Z",
-  "downloads": 608
+  "downloads": 641,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-08-12T10:57:40.452Z",
+  "license": "MIT"
 }

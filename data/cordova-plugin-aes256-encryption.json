@@ -9,20 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/Ideas2IT/cordova-aes256.git",
-  "author": "Ideas2it",
-  "published": "2022-04-27T17:08:39.845Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.1.0",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "2.0.0",
-    "2.0.1"
-  ],
+  "author": {
+    "name": "Ideas2it"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -45,5 +34,12 @@
   "image": "https://avatars.githubusercontent.com/u/6663052?v=4",
   "quality": 138,
   "updated": "2020-09-16T01:15:46Z",
-  "downloads": 3522
+  "downloads": 3374,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:08:39.845Z",
+  "license": "MIT"
 }

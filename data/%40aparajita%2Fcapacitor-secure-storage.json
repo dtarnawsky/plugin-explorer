@@ -28,24 +28,21 @@
     "cordova-ios-6",
     "cordova-android-11"
   ],
-  "stars": 34,
+  "stars": 38,
   "image": "https://avatars.githubusercontent.com/u/22218?v=4",
   "description": "Capacitor 4+ plugin that provides secure storage for the iOS and Android",
-  "quality": 139,
-  "updated": "2023-03-23T08:02:49Z",
-  "versions": [
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "2.0.0",
-    "2.0.1",
-    "2.1.0",
-    "3.0.0",
-    "3.0.1"
-  ],
-  "author": "Aparajita Fishman",
+  "quality": 143,
+  "updated": "2023-04-12T16:45:21Z",
+  "author": {
+    "name": "Aparajita Fishman"
+  },
   "bugs": "https://github.com/aparajita/capacitor-secure-storage/issues",
+  "downloads": 1951,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
   "published": "2023-04-02T07:15:51.181Z",
-  "downloads": 1717
+  "license": "MIT"
 }

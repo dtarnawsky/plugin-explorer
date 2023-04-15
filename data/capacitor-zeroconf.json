@@ -6,14 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/trik/capacitor-zeroconf.git",
-  "author": "Marco Marche",
-  "published": "2022-10-24T08:34:54.313Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1-alpha.0",
-    "1.0.1-alpha.1",
-    "1.1.0"
-  ],
+  "author": {
+    "name": "Marco Marche"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -36,8 +31,15 @@
   "description": "Capacitor ZeroConf plugin",
   "bugs": "https://github.com/trik/capacitor-zeroconf/issues",
   "quality": 6,
-  "downloads": 27,
+  "downloads": 20,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/1615301?v=4",
-  "updated": "2023-02-10T12:50:11Z"
+  "updated": "2023-02-10T12:50:11Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true,
+  "published": "2022-10-24T08:34:54.313Z",
+  "license": "MIT"
 }

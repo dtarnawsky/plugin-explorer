@@ -8,12 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/triniwiz/fancy-notifications.git",
-  "author": "Osei Fortune",
-  "published": "2022-05-02T03:41:02.953Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Osei Fortune"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,8 +25,15 @@
   "description": "Local notifications for capacitor",
   "bugs": "https://github.com/triniwiz/fancy-notifications.git/issues",
   "quality": 121,
-  "downloads": 217,
+  "downloads": 244,
   "stars": 10,
   "image": "https://avatars.githubusercontent.com/u/508269?v=4",
-  "updated": "2022-01-30T15:52:24Z"
+  "updated": "2022-01-30T15:52:24Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-05-02T03:41:02.953Z",
+  "license": "MIT"
 }

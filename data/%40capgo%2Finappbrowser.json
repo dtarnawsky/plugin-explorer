@@ -1,41 +1,14 @@
 {
   "name": "@capgo/inappbrowser",
-  "version": "0.4.3",
+  "version": "0.4.9",
   "success": [
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/Cap-go/capacitor-inappbrowser.git",
-  "author": "Martin Donadieu",
-  "published": "2023-04-03T04:13:27.479Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.1.0",
-    "0.1.1",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.3.0",
-    "0.3.1",
-    "0.3.4",
-    "0.3.5",
-    "0.3.6",
-    "0.3.7",
-    "0.3.19",
-    "0.3.20",
-    "0.3.21",
-    "0.3.22",
-    "0.4.1",
-    "0.4.2",
-    "0.4.3"
-  ],
+  "author": {
+    "name": "Martin Donadieu"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -54,8 +27,15 @@
   "description": "Capacitor plugin in app browser",
   "bugs": "https://github.com/Cap-go/capacitor-inappbrowser/issues",
   "quality": 122,
-  "stars": 11,
+  "stars": 12,
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
-  "updated": "2023-02-24T08:59:26Z",
-  "downloads": 3942
+  "updated": "2023-04-11T11:48:08Z",
+  "downloads": 8534,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-04-12T10:10:40.042Z",
+  "license": "MIT"
 }

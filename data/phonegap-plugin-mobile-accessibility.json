@@ -10,19 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/phonegap/phonegap-mobile-accessibility.git",
-  "author": "Adobe PhoneGap Team",
-  "published": "2022-06-23T21:30:07.700Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1-dev",
-    "1.0.2",
-    "1.0.3-dev",
-    "1.0.3",
-    "1.0.4-dev",
-    "1.0.4",
-    "1.0.5-dev",
-    "1.0.5"
-  ],
+  "author": {
+    "name": "Adobe PhoneGap Team"
+  },
   "keywords": [
     "phonegap",
     "mobile accessibility",
@@ -38,8 +28,16 @@
   "description": "PhoneGap Mobile Accessibility Plugin",
   "bugs": "https://github.com/phonegap/phonegap-mobile-accessibility/issues",
   "quality": 364,
-  "downloads": 13231,
+  "downloads": 12908,
   "stars": 144,
   "image": "https://avatars.githubusercontent.com/u/60365?v=4",
-  "updated": "2023-03-20T07:14:14Z"
+  "updated": "2023-03-20T07:14:14Z",
+  "platforms": [
+    "ios",
+    "android",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2022-06-23T21:30:07.700Z",
+  "license": "Apache 2.0"
 }

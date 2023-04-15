@@ -10,20 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/devgeeks/PrivacyScreenPlugin.git",
-  "author": "Tommy-Carlos Willaims <tommy@devgeeks.org>",
-  "published": "2022-06-14T00:41:02.517Z",
-  "versions": [
-    "0.0.5",
-    "0.0.8",
-    "0.0.9",
-    "0.1.0",
-    "0.1.1",
-    "0.1.2",
-    "0.2.0",
-    "0.3.0",
-    "0.3.1",
-    "0.4.0"
-  ],
+  "author": {
+    "name": "Tommy-Carlos Willaims",
+    "email": "tommy@devgeeks.org"
+  },
   "keywords": [
     "privacy",
     "cordova",
@@ -41,5 +31,12 @@
   "image": "https://avatars.githubusercontent.com/u/554999?v=4",
   "quality": 375,
   "updated": "2023-04-03T16:53:43Z",
-  "downloads": 2207
+  "downloads": 2126,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:41:02.517Z",
+  "license": "MIT"
 }

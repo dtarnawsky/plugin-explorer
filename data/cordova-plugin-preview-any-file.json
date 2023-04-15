@@ -10,28 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/mostafa-mansour1/previewAnyFile.git",
-  "author": "Mostafa Mansour <mostafa@outlook.kr>",
-  "published": "2022-04-27T17:39:52.184Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4",
-    "0.1.5",
-    "0.1.6",
-    "0.1.7",
-    "0.2.0",
-    "0.2.1",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8",
-    "0.2.9"
-  ],
+  "author": {
+    "name": "Mostafa Mansour",
+    "email": "mostafa@outlook.kr"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -65,5 +47,12 @@
   "image": "https://avatars.githubusercontent.com/u/6575879?v=4",
   "quality": 159,
   "updated": "2023-01-02T07:24:39Z",
-  "downloads": 11180
+  "downloads": 10477,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:39:52.184Z",
+  "license": "MIT"
 }

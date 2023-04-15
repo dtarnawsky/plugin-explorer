@@ -10,15 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/evothings/cordova-eddystone.git",
-  "author": "Evothings",
-  "published": "2022-06-14T00:06:44.066Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.2.0",
-    "1.3.0"
-  ],
+  "author": {
+    "name": "Evothings"
+  },
   "keywords": [
     "Eddystone",
     "Beacons",
@@ -34,5 +28,9 @@
   "image": "https://avatars.githubusercontent.com/u/5575818?v=4",
   "quality": 215,
   "updated": "2022-12-31T06:31:46Z",
-  "downloads": 156
+  "downloads": 174,
+  "platforms": [],
+  "fork": false,
+  "published": "2022-06-14T00:06:44.066Z",
+  "license": "Apache 2.0"
 }

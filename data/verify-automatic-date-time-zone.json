@@ -11,14 +11,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/edsonhoraciojunior/verify-automatic-date-time-zone.git",
-  "author": "Edson Horácio Junior",
-  "published": "2022-06-28T10:09:39.511Z",
-  "versions": [
-    "1.0.0-dev",
-    "1.0.1-dev",
-    "1.0.2-dev",
-    "1.0.3-dev"
-  ],
+  "author": {
+    "name": "Edson Horácio Junior"
+  },
   "keywords": [
     "automatic",
     "date",
@@ -35,5 +30,12 @@
   "image": "https://avatars.githubusercontent.com/u/4573095?v=4",
   "quality": 111,
   "updated": "2022-11-24T08:01:24Z",
-  "downloads": 33
+  "downloads": 28,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-28T10:09:39.511Z",
+  "license": "MIT"
 }

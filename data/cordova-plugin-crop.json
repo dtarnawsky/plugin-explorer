@@ -9,14 +9,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/jeduan/cordova-plugin-crop.git",
-  "published": "2022-10-05T21:40:31.628Z",
-  "versions": [
-    "0.1.0",
-    "0.2.0",
-    "0.3.0",
-    "0.3.1",
-    "0.4.0"
-  ],
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -37,5 +29,12 @@
   "image": "https://avatars.githubusercontent.com/u/37972?v=4",
   "quality": 427,
   "updated": "2023-03-28T11:15:39Z",
-  "downloads": 5988
+  "downloads": 5784,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-10-05T21:40:31.628Z",
+  "license": "MIT"
 }

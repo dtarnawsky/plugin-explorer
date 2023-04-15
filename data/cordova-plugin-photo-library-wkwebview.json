@@ -8,14 +8,11 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/tien271/cordova-plugin-photo-library-wkwebview.git",
-  "author": "Roman Viskin <npm@terikon.com> (http://il.linkedin.com/in/romanviskin)",
-  "published": "2022-04-27T17:39:06.381Z",
-  "versions": [
-    "3.0.0",
-    "3.0.1",
-    "3.0.2",
-    "3.0.3"
-  ],
+  "author": {
+    "name": "Roman Viskin",
+    "email": "npm@terikon.com",
+    "url": "http://il.linkedin.com/in/romanviskin"
+  },
   "fails": [
     "capacitor-ios-4",
     "capacitor-ios-3",
@@ -28,6 +25,9 @@
   "image": "https://avatars.githubusercontent.com/u/43818500?v=4",
   "quality": 28,
   "updated": "2021-08-30T09:26:47Z",
-  "downloads": 85,
-  "keywords": []
+  "downloads": 64,
+  "keywords": [],
+  "fork": true,
+  "published": "2022-04-27T17:39:06.381Z",
+  "license": "MIT"
 }

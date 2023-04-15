@@ -6,21 +6,6 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/joinflux/capacitor-firebase-dynamic-links.git",
-  "author": "",
-  "published": "2022-09-20T06:26:12.879Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7-alpha",
-    "0.0.7",
-    "0.1.0",
-    "0.2.0",
-    "1.0.0"
-  ],
   "keywords": [
     "capacitor",
     "plugin",
@@ -40,5 +25,11 @@
   "image": "https://avatars.githubusercontent.com/u/48003971?v=4",
   "quality": 2,
   "updated": "2022-09-20T06:25:49Z",
-  "downloads": 76
+  "downloads": 80,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-09-20T06:26:12.879Z",
+  "license": "MIT"
 }

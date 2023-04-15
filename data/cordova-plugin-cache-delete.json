@@ -10,17 +10,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/takuya-nakayasu/cordova-plugin-cache-delete.git",
-  "author": "Takuya Nakayasu <l08084.1989@gmail.com> (https://github.com/takuya-nakayasu)",
-  "published": "2022-04-27T17:14:39.531Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7"
-  ],
+  "author": {
+    "name": "Takuya Nakayasu",
+    "email": "l08084.1989@gmail.com",
+    "url": "https://github.com/takuya-nakayasu"
+  },
   "keywords": [
     "cordova",
     "webview",
@@ -43,5 +37,11 @@
   "image": "https://avatars.githubusercontent.com/u/10209574?v=4",
   "quality": 101,
   "updated": "2023-02-20T10:44:49Z",
-  "downloads": 22
+  "downloads": 20,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:14:39.531Z",
+  "license": "Apache-2.0"
 }

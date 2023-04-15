@@ -6,34 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/riderx/capacitor-flash.git",
-  "author": "Martin Donadieu",
-  "published": "2023-01-04T12:39:16.643Z",
-  "versions": [
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.2.3",
-    "1.2.4",
-    "1.2.5",
-    "1.2.6",
-    "1.2.7",
-    "1.2.8",
-    "1.2.9",
-    "1.2.10",
-    "1.2.11",
-    "1.2.16",
-    "1.2.17",
-    "1.2.18",
-    "1.2.19",
-    "1.2.20",
-    "1.2.21",
-    "1.2.22",
-    "1.2.23",
-    "1.2.24",
-    "1.2.25",
-    "1.2.26",
-    "1.2.27"
-  ],
+  "author": {
+    "name": "Martin Donadieu"
+  },
   "keywords": [
     "capacitor",
     "flashlight",
@@ -60,5 +35,12 @@
   "image": "https://avatars.githubusercontent.com/u/97002524?v=4",
   "quality": 119,
   "updated": "2023-03-31T04:40:30Z",
-  "downloads": 3778
+  "downloads": 8186,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-01-04T12:39:16.643Z",
+  "license": "MIT"
 }

@@ -9,12 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/johnborges/capacitor-plugin-cookies.git",
-  "author": "johnborges",
-  "published": "2022-04-12T05:16:03.422Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0"
-  ],
+  "author": {
+    "name": "johnborges"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -31,5 +28,11 @@
   "image": "https://avatars.githubusercontent.com/u/1888122?v=4",
   "quality": 100,
   "updated": "2022-03-21T14:53:42Z",
-  "downloads": 178
+  "downloads": 217,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-04-12T05:16:03.422Z",
+  "license": "MIT"
 }

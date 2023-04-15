@@ -9,16 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/EddyVerbruggen/cordova-plugin-actionsheet.git",
-  "author": "Eddy Verbruggen - @EddyVerbruggen",
-  "published": "2022-06-13T23:42:04.360Z",
-  "versions": [
-    "2.0.1",
-    "2.2.0",
-    "2.2.1",
-    "2.2.2",
-    "2.3.1",
-    "2.3.3"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen - @EddyVerbruggen"
+  },
   "keywords": [
     "ActionSheet",
     "UIActionSheet",
@@ -44,5 +37,13 @@
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 407,
   "updated": "2023-03-06T22:10:30Z",
-  "downloads": 46666
+  "downloads": 44096,
+  "platforms": [
+    "ios",
+    "android",
+    "wp8"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:42:04.360Z",
+  "license": "MIT"
 }

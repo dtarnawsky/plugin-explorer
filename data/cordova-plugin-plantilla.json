@@ -6,10 +6,6 @@
     "cordova-ios-6",
     "capacitor-ios-5"
   ],
-  "published": "2022-06-14T00:39:59.983Z",
-  "versions": [
-    "1.0.0"
-  ],
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-3",
@@ -18,5 +14,10 @@
     "capacitor-android-5"
   ],
   "description": "Plantilla base para crear un Plugin personalizado",
-  "downloads": 5
+  "downloads": 6,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-06-14T00:39:59.983Z"
 }

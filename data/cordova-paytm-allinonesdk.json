@@ -7,20 +7,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/paytm/paytm-allinonesdk-ionic-cordova.git",
-  "author": "Paytm Team",
-  "published": "2022-09-07T05:24:38.530Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2"
-  ],
+  "author": {
+    "name": "Paytm Team"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -39,5 +28,12 @@
   "image": "https://avatars.githubusercontent.com/u/1472420?v=4",
   "quality": 105,
   "updated": "2021-04-14T06:55:59Z",
-  "downloads": 123
+  "downloads": 124,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-09-07T05:24:38.530Z",
+  "license": "ISC"
 }

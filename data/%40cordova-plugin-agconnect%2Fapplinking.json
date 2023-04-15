@@ -6,11 +6,6 @@
     "capacitor-ios-5"
   ],
   "repo": "",
-  "published": "2022-04-05T01:21:29.450Z",
-  "versions": [
-    "1.2.0-beta.1",
-    "1.2.0"
-  ],
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -29,5 +24,11 @@
     "capacitor-android-5"
   ],
   "description": "Cordova Plugin AGC AppLinking",
-  "downloads": 12
+  "downloads": 11,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-04-05T01:21:29.450Z",
+  "license": "Apache-2.0"
 }

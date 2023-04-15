@@ -5,13 +5,9 @@
     "capacitor-android-4",
     "capacitor-ios-4"
   ],
-  "repo": "https://github.com/cooleone/capacitor-plugin-dingtalk.git.git",
-  "author": "leone456@163.com",
-  "published": "2022-10-11T08:56:02.575Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "leone456@163.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -29,5 +25,11 @@
   "description": "a ionic dingding plugin",
   "bugs": "https://github.com/cooleone/capacitor-plugin-dingtalk.git/issues",
   "quality": null,
-  "downloads": 11
+  "downloads": 10,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-10-11T08:56:02.575Z",
+  "license": "MIT"
 }

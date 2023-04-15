@@ -5,19 +5,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/houseninjadojo/capacitor-intercom.git",
-  "author": "House Ninja Engineering <engineering@houseninja.co>",
-  "published": "2022-11-24T22:42:00.903Z",
-  "versions": [
-    "4.2.0-beta.2",
-    "4.2.0-beta.3",
-    "4.2.0-beta.4",
-    "4.2.0-beta.5",
-    "4.2.1-beta.0",
-    "4.2.1",
-    "4.2.2",
-    "4.2.3",
-    "4.3.0"
-  ],
+  "author": {
+    "name": "House Ninja Engineering",
+    "email": "engineering@houseninja.co"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -38,5 +29,11 @@
   "image": "https://avatars.githubusercontent.com/u/88355023?v=4",
   "quality": 2,
   "updated": "2022-12-01T16:37:50Z",
-  "downloads": 98
+  "downloads": 105,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-11-24T22:42:00.903Z",
+  "license": "MIT"
 }

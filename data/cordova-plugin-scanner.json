@@ -3,13 +3,6 @@
   "version": "0.0.3",
   "success": [],
   "repo": "https://github.com/phi-jp/cordova-plugin-scanner.git",
-  "author": "",
-  "published": "2022-04-27T17:43:40.596Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3"
-  ],
   "fails": [
     "capacitor-ios-4",
     "capacitor-android-4",
@@ -26,6 +19,12 @@
   "image": "https://avatars.githubusercontent.com/u/1156954?v=4",
   "quality": 103,
   "updated": "2018-05-25T06:31:03Z",
-  "downloads": 10,
-  "keywords": []
+  "downloads": 9,
+  "keywords": [],
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:43:40.596Z",
+  "license": "MIT"
 }

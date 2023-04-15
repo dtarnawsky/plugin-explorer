@@ -9,15 +9,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/ImpacGroup/Cordova-Plugin-Tracking-Transparency.git",
-  "author": "Felix Nievelstein <fn@impacgroup.de>",
-  "published": "2022-04-27T17:48:55.955Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Felix Nievelstein",
+    "email": "fn@impacgroup.de"
+  },
   "keywords": [
     "ATT",
     "App Tracking Transperency",
@@ -34,9 +29,15 @@
   ],
   "description": "Cordova plugin to use the App Tracking Transparency framework for iOS 14.5 and above.",
   "bugs": "https://github.com/ImpacGroup/Cordova-Plugin-Tracking-Transparency/issues",
-  "quality": 111,
-  "downloads": 757,
+  "quality": 110,
+  "downloads": 717,
   "stars": 4,
   "image": "https://avatars.githubusercontent.com/u/51481828?v=4",
-  "updated": "2023-01-30T15:19:53Z"
+  "updated": "2023-01-30T15:19:53Z",
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:48:55.955Z",
+  "license": "MIT"
 }

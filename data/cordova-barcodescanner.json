@@ -6,13 +6,9 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "author": "Adobe PhoneGap Team",
-  "published": "2022-04-27T17:01:06.637Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "8.1.1-dev"
-  ],
+  "author": {
+    "name": "Adobe PhoneGap Team"
+  },
   "keywords": [
     "ecosystem:cordova",
     "ecosystem:phonegap",
@@ -30,5 +26,13 @@
     "cordova-android-11"
   ],
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
-  "downloads": 31
+  "downloads": 25,
+  "platforms": [
+    "ios",
+    "android",
+    "windows",
+    "browser"
+  ],
+  "published": "2022-04-27T17:01:06.637Z",
+  "license": "MIT"
 }

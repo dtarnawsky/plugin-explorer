@@ -6,13 +6,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/MaeseppTarvo/cordova-plugin-qrbar.git",
-  "author": "Jason Dreyzehner",
-  "published": "2022-04-27T17:40:57.307Z",
-  "versions": [
-    "3.0.1",
-    "3.0.2",
-    "3.0.3"
-  ],
+  "author": {
+    "name": "Jason Dreyzehner"
+  },
   "keywords": [
     "cordova",
     "qr",
@@ -39,8 +35,13 @@
   "description": "Fast, energy-efficient, highly-configurable QR code and barcode scanner.",
   "bugs": "https://github.com/bitpay/cordova-plugin-qrscanner/issues",
   "quality": 0,
-  "downloads": 11,
+  "downloads": 14,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/8416295?v=4",
-  "updated": "2021-07-15T08:37:06Z"
+  "updated": "2021-07-15T08:37:06Z",
+  "platforms": [
+    "ios"
+  ],
+  "published": "2022-04-27T17:40:57.307Z",
+  "license": "MIT"
 }

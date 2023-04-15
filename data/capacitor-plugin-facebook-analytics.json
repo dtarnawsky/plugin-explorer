@@ -2,15 +2,9 @@
   "name": "capacitor-plugin-facebook-analytics",
   "version": "0.0.4",
   "success": [],
-  "repo": "ssh://git@github.com/SpellChucker/capacitor-plugin-facebook-analytics.git",
-  "author": "Todd Vrba",
-  "published": "2022-04-12T05:16:09.018Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
+  "author": {
+    "name": "Todd Vrba"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,5 +22,11 @@
   ],
   "description": "Provide Facebook analytics functionality to Capacitor-based projects.",
   "quality": null,
-  "downloads": 30
+  "downloads": 76,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-04-12T05:16:09.018Z",
+  "license": "MIT"
 }

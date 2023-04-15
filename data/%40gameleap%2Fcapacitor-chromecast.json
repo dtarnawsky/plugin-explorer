@@ -5,14 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/gameleap/capacitor-chromecast.git",
-  "author": "Dimitar Todorov",
-  "published": "2022-04-05T13:18:29.138Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
+  "author": {
+    "name": "Dimitar Todorov"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,8 +25,15 @@
   "description": "This is a plugin for Capacitor that enables Chromecast functionality for iOS and Android.",
   "bugs": "https://github.com/gameleap/capacitor-chromecast/issues",
   "quality": 110,
-  "downloads": 16,
+  "downloads": 19,
   "stars": 2,
   "image": "https://avatars.githubusercontent.com/u/11230043?v=4",
-  "updated": "2023-01-22T11:26:52Z"
+  "updated": "2023-01-22T11:26:52Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-05T13:18:29.138Z",
+  "license": "MIT"
 }

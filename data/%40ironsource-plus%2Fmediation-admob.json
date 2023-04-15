@@ -5,13 +5,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://bitbucket.org/TheBosZ/ironsource-plus.git",
-  "author": "Nathan Kerr (https://fallingdeathgames.com)",
-  "published": "2022-04-05T21:09:48.282Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.2.1"
-  ],
+  "author": {
+    "name": "Nathan Kerr",
+    "url": "https://fallingdeathgames.com"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova",
@@ -34,5 +31,11 @@
   ],
   "description": "IronSource Mediation Adapter for AdMob",
   "bugs": "https://bitbucket.org/TheBosZ/ironsource-plus/issues",
-  "downloads": 3
+  "downloads": 4,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-04-05T21:09:48.282Z",
+  "license": "MIT"
 }

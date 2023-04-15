@@ -2,23 +2,9 @@
   "name": "capacitor-mapbox-ymg",
   "version": "0.0.13",
   "success": [],
-  "repo": "https://github.com/Check-for-Trips-GmbH/capacitor-mapbox.git",
-  "author": "Check For Trips GMBH",
-  "published": "2023-04-04T17:03:23.229Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6",
-    "0.0.7",
-    "0.0.8",
-    "0.0.10",
-    "0.0.11",
-    "0.0.12",
-    "0.0.13"
-  ],
+  "author": {
+    "name": "Check For Trips GMBH"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -37,5 +23,11 @@
   "description": "Show a truly native mapbox map.",
   "bugs": "https://github.com/Check-for-Trips-GmbH/capacitor-mapbox/issues",
   "quality": null,
-  "downloads": 679
+  "downloads": 741,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2023-04-04T17:03:23.229Z",
+  "license": "MIT"
 }

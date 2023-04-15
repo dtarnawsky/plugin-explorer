@@ -8,19 +8,12 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "published": "2022-05-18T18:22:59.066Z",
-  "versions": [
-    "0.1.0",
-    "0.1.1",
-    "0.1.2",
-    "0.1.4",
-    "0.1.5"
-  ],
   "fails": [
     "capacitor-android-3",
     "cordova-ios-6",
     "cordova-android-11"
   ],
   "description": "## Project setup ``` npm install ```",
-  "downloads": 8
+  "downloads": 8,
+  "published": "2022-05-18T18:22:59.066Z"
 }

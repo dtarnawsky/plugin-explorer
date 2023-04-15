@@ -7,11 +7,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/Scandit/BarcodeScannerPlugin.git",
-  "author": "Scandit AG",
-  "published": "2022-04-27T14:00:13.838Z",
-  "versions": [
-    "5.7.2"
-  ],
+  "author": {
+    "name": "Scandit AG"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -34,5 +32,13 @@
   "image": "https://avatars.githubusercontent.com/u/2790630?v=4",
   "quality": 328,
   "updated": "2023-03-08T23:38:58Z",
-  "downloads": 10
+  "downloads": 7,
+  "platforms": [
+    "ios",
+    "android",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2022-04-27T14:00:13.838Z",
+  "license": "Apache-2.0"
 }

@@ -10,12 +10,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "author": "MindKind Creative",
-  "published": "2022-04-27T17:39:24.256Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "MindKind Creative"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android"
@@ -24,5 +21,10 @@
     "capacitor-android-3"
   ],
   "description": "Picture-In-Picture support for Android.",
-  "downloads": 78
+  "downloads": 80,
+  "platforms": [
+    "android"
+  ],
+  "published": "2022-04-27T17:39:24.256Z",
+  "license": "ISC"
 }

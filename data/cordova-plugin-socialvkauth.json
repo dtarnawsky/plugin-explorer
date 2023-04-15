@@ -5,25 +5,9 @@
     "capacitor-android-4",
     "capacitor-android-5"
   ],
-  "author": "Netfan",
-  "published": "2023-02-10T07:58:31.019Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.0.10",
-    "1.0.11",
-    "1.0.12",
-    "1.0.13",
-    "1.0.14"
-  ],
+  "author": {
+    "name": "Netfan"
+  },
   "keywords": [
     "cordova",
     "social vk auth",
@@ -40,5 +24,11 @@
     "capacitor-ios-5"
   ],
   "description": "Cordova plugin for VK auth (forked from https://github.com/OrangeAppsRu/cordova-social-vk)",
-  "downloads": 33
+  "downloads": 39,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2023-02-10T07:58:31.019Z",
+  "license": "Apache 2.0 License"
 }

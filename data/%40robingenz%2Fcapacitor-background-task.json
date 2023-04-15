@@ -5,14 +5,10 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/robingenz/capacitor-background-task.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2022-08-04T18:22:45.294Z",
-  "versions": [
-    "0.0.1-dev.50b2047",
-    "1.0.0",
-    "1.0.1-dev.5e2ac0e.1659272460",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,8 +31,15 @@
   "description": "Capacitor plugin for running background tasks.",
   "bugs": "https://github.com/robingenz/capacitor-background-task/issues",
   "quality": 155,
-  "downloads": 1977,
+  "downloads": 1856,
   "stars": 49,
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
-  "updated": "2023-04-01T07:29:03Z"
+  "updated": "2023-04-01T07:29:03Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-08-04T18:22:45.294Z",
+  "license": "MIT"
 }

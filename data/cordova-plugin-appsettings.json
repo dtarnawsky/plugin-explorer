@@ -9,13 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/mkliu/cordova-plugin-appsettings.git",
-  "author": "mkliu",
-  "published": "2022-06-13T23:49:18.685Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "mkliu"
+  },
   "keywords": [
     "cordova",
     "settings",
@@ -36,5 +32,12 @@
   "image": "https://avatars.githubusercontent.com/u/1469524?v=4",
   "quality": 118,
   "updated": "2017-03-13T10:49:20Z",
-  "downloads": 422
+  "downloads": 165,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:49:18.685Z",
+  "license": "MIT"
 }

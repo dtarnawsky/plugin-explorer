@@ -10,11 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Paldom/PinDialog.git",
-  "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
-  "published": "2022-06-14T00:39:27.550Z",
-  "versions": [
-    "0.1.3"
-  ],
+  "author": {
+    "name": "Domonkos Pal",
+    "email": "public@dpal.hu",
+    "url": "https://github.com/Paldom"
+  },
   "keywords": [
     "phonegap",
     "android",
@@ -37,5 +37,12 @@
   "image": "https://avatars.githubusercontent.com/u/3684864?v=4",
   "quality": 167,
   "updated": "2021-05-11T20:05:52Z",
-  "downloads": 703
+  "downloads": 696,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:39:27.550Z",
+  "license": "MIT"
 }

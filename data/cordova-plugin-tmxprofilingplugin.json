@@ -10,16 +10,14 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "published": "2022-04-27T17:48:38.464Z",
-  "versions": [
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6"
-  ],
   "fails": [
     "capacitor-android-3"
   ],
   "description": "A Cordova plugin that allows users to utilise ThreatMetrix technologies.",
-  "downloads": 8
+  "downloads": 13,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-04-27T17:48:38.464Z"
 }

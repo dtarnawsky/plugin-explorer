@@ -3,12 +3,9 @@
   "version": "0.3.1",
   "success": [],
   "repo": "https://github.com/imloama/cordova-plugin-themeablebrowser.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-05-02T11:34:08.248Z",
-  "versions": [
-    "0.3.0",
-    "0.3.1"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "in",
@@ -32,8 +29,22 @@
   "description": "Cordova ThemeableBrowser Plugin",
   "bugs": "https://github.com/imloama/cordova-plugin-themeablebrowser/issues",
   "quality": 5,
-  "downloads": 5,
+  "downloads": 4,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/3024323?v=4",
-  "updated": "2018-12-22T18:14:47Z"
+  "updated": "2018-12-22T18:14:47Z",
+  "platforms": [
+    "android",
+    "amazon-fireos",
+    "ubuntu",
+    "ios",
+    "wp7",
+    "wp8",
+    "windows8",
+    "windows",
+    "firefoxos"
+  ],
+  "fork": true,
+  "published": "2022-05-02T11:34:08.248Z",
+  "license": "Apache 2.0"
 }

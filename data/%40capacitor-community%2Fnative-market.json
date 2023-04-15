@@ -6,14 +6,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/capacitor-community/native-market.git",
-  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
-  "published": "2023-01-23T16:46:05.269Z",
-  "versions": [
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4"
-  ],
+  "author": {
+    "name": "Priyank Patel",
+    "email": "priyank.patel@stackspace.ca"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -33,5 +29,12 @@
   "stars": 17,
   "image": "https://avatars.githubusercontent.com/u/63735538?v=4",
   "updated": "2022-12-05T03:25:54Z",
-  "downloads": 877
+  "downloads": 911,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-01-23T16:46:05.269Z",
+  "license": "MIT"
 }

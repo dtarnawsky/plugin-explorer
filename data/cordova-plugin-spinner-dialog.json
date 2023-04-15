@@ -10,11 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Paldom/SpinnerDialog.git",
-  "author": "Domonkos Pal <public@dpal.hu> (https://github.com/Paldom)",
-  "published": "2022-06-14T00:50:23.681Z",
-  "versions": [
-    "1.3.1"
-  ],
+  "author": {
+    "name": "Domonkos Pal",
+    "email": "public@dpal.hu",
+    "url": "https://github.com/Paldom"
+  },
   "keywords": [
     "phonegap",
     "android",
@@ -38,8 +38,16 @@
   "description": "PhoneGap / Cordova waiting dialog (progress indicator) plugin with spinner for Android, iOS and Windows Phone 8. Maintained from original Paldom/SpinnerDialog repository.",
   "bugs": "https://github.com/Paldom/SpinnerDialog/issues",
   "quality": 273,
-  "downloads": 1179,
+  "downloads": 943,
   "stars": 69,
   "image": "https://avatars.githubusercontent.com/u/3684864?v=4",
-  "updated": "2022-11-29T16:49:34Z"
+  "updated": "2022-11-29T16:49:34Z",
+  "platforms": [
+    "android",
+    "ios",
+    "wp8"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:50:23.681Z",
+  "license": "MIT"
 }

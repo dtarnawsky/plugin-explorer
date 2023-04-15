@@ -9,20 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/lynrin/cordova-plugin-buildinfo.git",
-  "author": "Mikihiro Hayashi",
-  "published": "2022-06-13T23:56:26.362Z",
-  "versions": [
-    "0.9.0",
-    "1.0.0",
-    "1.1.0",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "3.0.0",
-    "3.0.1",
-    "4.0.0"
-  ],
+  "author": {
+    "name": "Mikihiro Hayashi"
+  },
   "keywords": [
     "debug",
     "buildconfig",
@@ -48,5 +37,16 @@
   "image": "https://avatars.githubusercontent.com/u/12870525?v=4",
   "quality": 160,
   "updated": "2023-01-28T06:03:36Z",
-  "downloads": 24229
+  "downloads": 21274,
+  "platforms": [
+    "android",
+    "ios",
+    "osx",
+    "windows",
+    "browser",
+    "electron"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:56:26.362Z",
+  "license": "MIT"
 }

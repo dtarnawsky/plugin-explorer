@@ -6,14 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/ludufre/capacitor-screenshot.git",
-  "author": "Luan Freitas (ludufre)",
-  "published": "2023-01-08T07:09:37.492Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "4.0.0",
-    "4.1.0"
-  ],
+  "author": {
+    "name": "Luan Freitas",
+    "url": "ludufre"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +30,12 @@
   "image": "https://avatars.githubusercontent.com/u/4112077?v=4",
   "quality": 111,
   "updated": "2023-01-22T08:09:02Z",
-  "downloads": 7461
+  "downloads": 7049,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-01-08T07:09:37.492Z",
+  "license": "MIT"
 }

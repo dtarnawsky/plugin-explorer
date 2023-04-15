@@ -9,34 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/apache/cordova-plugin-battery-status.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-13T23:52:31.339Z",
-  "versions": [
-    "0.2.1",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.9",
-    "0.2.10",
-    "0.2.11",
-    "0.2.12",
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.2.3",
-    "1.2.4",
-    "1.2.5",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "battery",
@@ -62,6 +37,15 @@
   "stars": 95,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 356,
-  "updated": "2023-03-02T21:33:35Z",
-  "downloads": 4751
+  "updated": "2023-04-10T09:15:26Z",
+  "downloads": 4589,
+  "platforms": [
+    "android",
+    "ios",
+    "browser",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:52:31.339Z",
+  "license": "Apache-2.0"
 }

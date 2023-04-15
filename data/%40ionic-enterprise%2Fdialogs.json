@@ -7,18 +7,9 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "https://github.com/ionic-team/cordova-plugin-dialogs.git",
-  "author": "Apache Software Foundation",
-  "published": "2023-03-22T13:19:28.057Z",
-  "versions": [
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "2.0.4-0",
-    "2.0.4",
-    "2.0.5-0",
-    "2.0.5"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "notification",
@@ -36,5 +27,14 @@
   ],
   "description": "Cordova Notification Plugin",
   "bugs": "https://github.com/apache/cordova-plugin-dialogs/issues",
-  "quality": null
+  "quality": null,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "platforms": [
+    "android",
+    "browser",
+    "ios",
+    "windows"
+  ],
+  "published": "2023-03-22T13:19:28.057Z",
+  "license": "Apache-2.0"
 }

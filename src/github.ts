@@ -150,25 +150,32 @@ export async function inspectGitHubAPI(item: Inspection) {
             headers = { Authorization: `Bearer ${token}` };
         }
 
+        sleep(3000);
         const response = await fetch(`https://api.github.com/repos/${part}`, { headers });
         const gh: GitHubInfo = await response.json() as GitHubInfo;
         if (!gh.stargazers_count) {
             if ((gh as any).message?.startsWith('API rate limit exceeded')) {
                 const resets = response.headers['x-ratelimit-reset'];
                 console.log(`Github API is rate limited. Its resets ${JSON.stringify(gh)}`);
-            } else {
+            } else if ((gh as any).message?.startsWith('Not Found')) {
+                item.repo = undefined;
+            } else if (gh.full_name != part) {
+                console.error(`Failed to get info on repo ${part}`);
                 console.error(gh);
+            } else {
+                item.stars = 0;
             }
             return;
         }
         item.stars = gh.stargazers_count;
         item.image = gh.owner?.avatar_url;
+        item.fork = gh.fork;
         if (!item.keywords) {
             item.keywords = [];
         }
         if (gh.topics) {
             for (const topic of gh.topics) {
-                
+
                 if (!item.keywords.includes(topic)) {
                     item.keywords.push(topic);
                 }
@@ -188,4 +195,8 @@ export async function inspectGitHubAPI(item: Inspection) {
     } catch (error) {
         console.error('inspectGitHubAPI Failed', error);
     }
+}
+
+function sleep(ms: number) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }

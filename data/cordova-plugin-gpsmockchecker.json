@@ -10,14 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/sunflowerenergias/cordova-plugin-gpsmockchecker.git",
-  "author": "Sunflower Energias SL",
-  "published": "2022-04-27T17:25:37.849Z",
-  "versions": [
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5"
-  ],
+  "author": {
+    "name": "Sunflower Energias SL"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -39,5 +34,9 @@
   "image": "https://avatars.githubusercontent.com/u/50835379?v=4",
   "quality": 105,
   "updated": "2019-06-05T06:24:44Z",
-  "downloads": 358
+  "downloads": 254,
+  "platforms": [],
+  "fork": false,
+  "published": "2022-04-27T17:25:37.849Z",
+  "license": "Apache-2.0"
 }

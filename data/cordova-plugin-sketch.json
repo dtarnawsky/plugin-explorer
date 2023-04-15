@@ -10,14 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/soete1111/cordova-plugin-sketch.git",
-  "author": "BlinkMobile Interactive",
-  "published": "2023-01-27T20:40:28.209Z",
-  "versions": [
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "BlinkMobile Interactive"
+  },
   "keywords": [
     "cordova",
     "sketch",
@@ -36,5 +31,11 @@
   "image": "https://avatars.githubusercontent.com/u/10219386?v=4",
   "quality": 0,
   "updated": "2020-08-21T15:17:30Z",
-  "downloads": 127
+  "downloads": 164,
+  "platforms": [
+    "windows",
+    "ios"
+  ],
+  "published": "2023-01-27T20:40:28.209Z",
+  "license": "Apache 2.0"
 }

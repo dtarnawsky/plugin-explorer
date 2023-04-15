@@ -2,13 +2,10 @@
   "name": "@capacitor-community/realm",
   "version": "0.0.3",
   "success": [],
-  "repo": "ssh://git@github.com/capacitor-community/realm.git",
-  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
-  "published": "2023-01-23T16:46:03.173Z",
-  "versions": [
-    "0.0.2",
-    "0.0.3"
-  ],
+  "author": {
+    "name": "Priyank Patel",
+    "email": "priyank.patel@stackspace.ca"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -26,5 +23,11 @@
   ],
   "description": "A native plugin for MongoDB Realm",
   "quality": null,
-  "downloads": 14
+  "downloads": 15,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2023-01-23T16:46:03.173Z",
+  "license": "MIT"
 }

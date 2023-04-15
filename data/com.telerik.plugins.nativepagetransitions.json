@@ -8,20 +8,11 @@
     "capacitor-ios-5",
     "cordova-ios-6"
   ],
-  "author": "Telerik / Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-13T06:33:32.177Z",
-  "versions": [
-    "0.5.2",
-    "0.5.3",
-    "0.5.4",
-    "0.5.5",
-    "0.5.6",
-    "0.5.7",
-    "0.6.0",
-    "0.6.3",
-    "0.6.5",
-    "0.7.0"
-  ],
+  "author": {
+    "name": "Telerik / Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "Native transitions",
     "Native page transitions",
@@ -42,5 +33,7 @@
     "cordova-android-11"
   ],
   "description": "Slide out the current page to reveal the next one. By a native transitions.",
-  "downloads": 3770
+  "downloads": 3633,
+  "published": "2022-06-13T06:33:32.177Z",
+  "license": "MIT"
 }

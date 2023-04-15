@@ -6,22 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/Pantrist-dev/capacitor-firebase-dynamic-links.git",
-  "author": "Nico Lueg (nicolueg@yahoo.de)",
-  "published": "2023-03-19T13:41:32.173Z",
-  "versions": [
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "4.0.0",
-    "4.0.2",
-    "4.1.0",
-    "4.1.2"
-  ],
+  "author": {
+    "name": "Nico Lueg",
+    "url": "nicolueg@yahoo.de"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -37,9 +25,16 @@
   ],
   "description": "Capacitor Plugin for Firebase Dynamic Links",
   "bugs": "https://github.com/Pantrist-dev/capacitor-firebase-dynamic-links/issues",
-  "quality": 133,
-  "downloads": 14815,
-  "stars": 17,
+  "quality": 135,
+  "downloads": 14202,
+  "stars": 18,
   "image": "https://avatars.githubusercontent.com/u/67862742?v=4",
-  "updated": "2023-03-31T21:48:00Z"
+  "updated": "2023-04-05T19:35:40Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-03-19T13:41:32.173Z",
+  "license": "MIT"
 }

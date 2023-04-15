@@ -10,37 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-geolocation.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:15:31.863Z",
-  "versions": [
-    "0.3.0",
-    "0.3.2",
-    "0.3.3",
-    "0.3.4",
-    "0.3.5",
-    "0.3.6",
-    "0.3.7",
-    "0.3.8",
-    "0.3.9",
-    "0.3.10",
-    "0.3.11",
-    "0.3.12",
-    "1.0.0",
-    "1.0.1",
-    "2.0.0",
-    "2.1.0",
-    "2.2.0",
-    "2.3.0",
-    "2.4.0",
-    "2.4.1",
-    "2.4.2",
-    "2.4.3",
-    "3.0.0",
-    "4.0.0",
-    "4.0.1",
-    "4.0.2",
-    "4.1.0"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "geolocation",
@@ -67,5 +39,13 @@
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
   "quality": 1408,
   "updated": "2023-03-25T16:32:41Z",
-  "downloads": 81499
+  "downloads": 77452,
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:15:31.863Z",
+  "license": "Apache-2.0"
 }

@@ -6,16 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/jonz94/capacitor-sim.git",
-  "author": "jonz94 <jody16888@gmail.com>",
-  "published": "2023-02-27T11:55:09.306Z",
-  "versions": [
-    "0.1.0",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "jonz94",
+    "email": "jody16888@gmail.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -38,9 +32,16 @@
   ],
   "description": "Capacitor plugin to get information from device's sim cards",
   "bugs": "https://github.com/jonz94/capacitor-sim/issues",
-  "stars": 8,
+  "stars": 9,
   "image": "https://avatars.githubusercontent.com/u/16042676?v=4",
-  "quality": 110,
-  "updated": "2023-04-01T16:00:34Z",
-  "downloads": 63
+  "quality": 112,
+  "updated": "2023-04-11T12:18:44Z",
+  "downloads": 68,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-02-27T11:55:09.306Z",
+  "license": "0BSD"
 }

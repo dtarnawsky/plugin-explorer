@@ -11,14 +11,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/floatinghotpot/cordova-plugin-sms.git",
-  "author": "Raymond Xie <rjfun.mobile@gmail.com>",
-  "published": "2022-06-14T00:48:56.149Z",
-  "versions": [
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5"
-  ],
+  "author": {
+    "name": "Raymond Xie",
+    "email": "rjfun.mobile@gmail.com"
+  },
   "keywords": [
     "cordova",
     "ecosystem:cordova",
@@ -34,5 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/2339512?v=4",
   "quality": 473,
   "updated": "2023-01-07T07:09:39Z",
-  "downloads": 104
+  "downloads": 126,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:48:56.149Z",
+  "license": "MIT"
 }

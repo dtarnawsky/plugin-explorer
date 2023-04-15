@@ -5,27 +5,9 @@
     "capacitor-android-4"
   ],
   "repo": "https://github.com/vancuren/capacitor-google-analytics.git",
-  "author": "Russell L. Van Curen",
-  "published": "2022-04-12T05:15:20.980Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.1.1",
-    "0.1.2",
-    "0.1.3",
-    "0.1.4",
-    "0.1.5",
-    "0.1.6",
-    "0.1.8",
-    "0.1.9",
-    "0.2.1",
-    "0.2.2",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "1.0.0",
-    "1.0.1"
-  ],
+  "author": {
+    "name": "Russell L. Van Curen"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -46,5 +28,12 @@
   "image": "https://avatars.githubusercontent.com/u/31829375?v=4",
   "quality": 105,
   "updated": "2022-04-11T20:43:20Z",
-  "downloads": 33
+  "downloads": 37,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-12T05:15:20.980Z",
+  "license": "MIT"
 }

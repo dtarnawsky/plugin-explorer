@@ -9,14 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/mattrayner/cordova-plugin-vuforia-sdk.git",
-  "author": "Matt Rayner",
-  "published": "2022-06-14T00:57:43.850Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "1.0.0",
-    "6.0.117"
-  ],
+  "author": {
+    "name": "Matt Rayner"
+  },
   "keywords": [
     "cordova",
     "vuforia",
@@ -32,8 +27,15 @@
   "description": "A Cordova wrapper for the Vuforia SDK",
   "bugs": "https://github.com/mattrayner/cordova-plugin-vuforia-sdk/issues",
   "quality": 114,
-  "downloads": 16,
+  "downloads": 24,
   "stars": 5,
   "image": "https://avatars.githubusercontent.com/u/3502902?v=4",
-  "updated": "2021-07-28T15:58:26Z"
+  "updated": "2021-07-28T15:58:26Z",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:57:43.850Z",
+  "license": "MIT"
 }

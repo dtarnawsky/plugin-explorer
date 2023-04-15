@@ -4,12 +4,6 @@
   "success": [
     "cordova-ios-6"
   ],
-  "published": "2022-06-08T07:34:59.355Z",
-  "versions": [
-    "1.0.0",
-    "1.1.0",
-    "1.1.1"
-  ],
   "fails": [
     "capacitor-android-4",
     "capacitor-ios-4",
@@ -20,5 +14,10 @@
     "cordova-android-11"
   ],
   "description": "A starting point for a Cordova Plugin",
-  "downloads": 9
+  "downloads": 7,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "published": "2022-06-08T07:34:59.355Z"
 }

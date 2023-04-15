@@ -10,11 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/nleclerc/cordova-plugin-ios-disableshaketoedit.git",
-  "author": "Nicolas Leclerc",
-  "published": "2022-06-14T00:22:35.379Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "Nicolas Leclerc"
+  },
   "keywords": [
     "cordova",
     "ios",
@@ -32,5 +30,11 @@
   "image": "https://avatars.githubusercontent.com/u/311197?v=4",
   "quality": 131,
   "updated": "2022-12-14T14:58:50Z",
-  "downloads": 2403
+  "downloads": 2128,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:22:35.379Z",
+  "license": "MIT"
 }

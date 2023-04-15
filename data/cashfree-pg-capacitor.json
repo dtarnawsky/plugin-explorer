@@ -5,32 +5,9 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/cashfree/cordova-pgsdk-demo-app.git",
-  "author": "aabhas@cashfree.com",
-  "published": "2022-04-12T05:25:28.970Z",
-  "versions": [
-    "0.1.0-dev.1",
-    "0.1.0-dev.2",
-    "0.1.0-dev.3",
-    "0.1.0-dev.4",
-    "0.1.0-dev.5",
-    "0.1.0-dev.6",
-    "0.1.0-dev.7",
-    "0.1.0-dev.8",
-    "0.1.0-dev.9",
-    "1.0.0-beta.1",
-    "1.0.0-beta.2",
-    "1.0.0-beta.3",
-    "1.0.0-beta.4",
-    "1.0.0",
-    "1.0.1-demand.1",
-    "1.0.1-demand.2",
-    "1.0.1-dev.1",
-    "1.0.1-dev.2",
-    "1.0.1-dev.3",
-    "1.0.1-dev.4",
-    "1.0.2-dev.1",
-    "1.0.2"
-  ],
+  "author": {
+    "name": "aabhas@cashfree.com"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -51,5 +28,12 @@
   "description": "Cashfree PG plugin for capacitor",
   "bugs": "https://github.com/cashfree/cordova-pgsdk-demo-app/issues",
   "quality": null,
-  "downloads": 79
+  "downloads": 71,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "stars": 0,
+  "published": "2022-04-12T05:25:28.970Z",
+  "license": "MIT"
 }

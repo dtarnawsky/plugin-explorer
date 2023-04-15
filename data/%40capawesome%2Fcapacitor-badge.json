@@ -6,14 +6,10 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/capawesome-team/capacitor-badge.git",
-  "author": "Robin Genz <mail@robingenz.dev>",
-  "published": "2022-10-04T14:22:36.032Z",
-  "versions": [
-    "2.0.0-dev.ea15a38.1664364775",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2"
-  ],
+  "author": {
+    "name": "Robin Genz",
+    "email": "mail@robingenz.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -42,5 +38,12 @@
   "image": "https://avatars.githubusercontent.com/u/105555861?v=4",
   "quality": 172,
   "updated": "2023-04-01T07:34:43Z",
-  "downloads": 17929
+  "downloads": 17469,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2023-04-07T18:16:36.020Z",
+  "license": "MIT"
 }

@@ -7,14 +7,11 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/chemerisuk/cordova-plugin-browser.git",
-  "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
-  "published": "2022-09-20T11:34:39.352Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "2.0.0",
-    "2.1.0"
-  ],
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
   "keywords": [
     "cordova",
     "browser",
@@ -37,5 +34,12 @@
   "image": "https://avatars.githubusercontent.com/u/274044?v=4",
   "quality": 114,
   "updated": "2022-09-20T11:25:03Z",
-  "downloads": 239
+  "downloads": 231,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-09-20T11:34:39.352Z",
+  "license": "MIT"
 }

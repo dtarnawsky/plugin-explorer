@@ -8,21 +8,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/EddyVerbruggen/Custom-URL-scheme.git",
-  "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
-  "published": "2022-06-14T00:03:43.988Z",
-  "versions": [
-    "4.0.0",
-    "4.1.1",
-    "4.1.2",
-    "4.1.3",
-    "4.1.5",
-    "4.2.0",
-    "4.3.0",
-    "4.4.0",
-    "5.0.0",
-    "5.0.1",
-    "5.0.2"
-  ],
+  "author": {
+    "name": "Eddy Verbruggen",
+    "email": "eddyverbruggen@gmail.com",
+    "url": "https://github.com/EddyVerbruggen"
+  },
   "keywords": [
     "Custom URL Scheme",
     "URLscheme",
@@ -47,6 +37,15 @@
   "stars": 1022,
   "image": "https://avatars.githubusercontent.com/u/1426370?v=4",
   "quality": 1626,
-  "updated": "2023-03-07T01:19:40Z",
-  "downloads": 35676
+  "updated": "2023-04-08T17:49:16Z",
+  "downloads": 34072,
+  "platforms": [
+    "ios",
+    "android",
+    "windows8",
+    "windows"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:03:43.988Z",
+  "license": "MIT"
 }

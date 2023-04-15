@@ -8,14 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/chenliang1937/FingerprintPlugin.git",
-  "author": "chenliang",
-  "published": "2022-05-02T10:58:18.266Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3"
-  ],
+  "author": {
+    "name": "chenliang"
+  },
   "keywords": [
     "fingerprint"
   ],
@@ -31,5 +26,10 @@
   "downloads": 7,
   "stars": 0,
   "image": "https://avatars.githubusercontent.com/u/10989772?v=4",
-  "updated": "2019-06-26T10:15:32Z"
+  "updated": "2019-06-26T10:15:32Z",
+  "platforms": [
+    "android"
+  ],
+  "published": "2022-05-02T10:58:18.266Z",
+  "license": "MIT"
 }

@@ -8,11 +8,9 @@
     "capacitor-android-5"
   ],
   "repo": "https://github.com/themattray/cordova-plugin-wkwebviewxhrfix.git",
-  "author": "Matt Ray",
-  "published": "2022-05-01T08:55:39.287Z",
-  "versions": [
-    "0.1.0"
-  ],
+  "author": {
+    "name": "Matt Ray"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios"
@@ -26,8 +24,14 @@
   "description": "Cordova plugin to fix local file XHR access inside WKWebView",
   "bugs": "https://github.com/themattray/cordova-plugin-wkwebviewxhrfix/issues",
   "quality": 249,
-  "downloads": 2009,
+  "downloads": 1708,
   "stars": 88,
   "image": "https://avatars.githubusercontent.com/u/990262?v=4",
-  "updated": "2023-03-14T15:37:39Z"
+  "updated": "2023-03-14T15:37:39Z",
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-05-01T08:55:39.287Z",
+  "license": "MIT"
 }

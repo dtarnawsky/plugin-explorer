@@ -3,16 +3,9 @@
   "version": "0.0.6",
   "success": [],
   "repo": "https://github.com/joshuamorony/capacitor-get-latest-photo.git",
-  "author": "Joshua Morony",
-  "published": "2022-04-12T05:15:20.601Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "0.0.6"
-  ],
+  "author": {
+    "name": "Joshua Morony"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -34,5 +27,11 @@
   "image": "https://avatars.githubusercontent.com/u/2578009?v=4",
   "quality": 102,
   "updated": "2018-05-22T23:54:44Z",
-  "downloads": 11
+  "downloads": 11,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-04-12T05:15:20.601Z",
+  "license": "MIT"
 }

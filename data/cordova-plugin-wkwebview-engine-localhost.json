@@ -8,11 +8,6 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/speige/cordova-plugin-wkwebview-engine-localhost.git",
-  "published": "2022-04-27T17:51:56.368Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1"
-  ],
   "keywords": [
     "cordova",
     "local",
@@ -32,5 +27,7 @@
   "image": "https://avatars.githubusercontent.com/u/2002030?v=4",
   "quality": 0,
   "updated": "2019-09-15T11:31:28Z",
-  "downloads": 9
+  "downloads": 13,
+  "published": "2022-04-27T17:51:56.368Z",
+  "license": "MIT"
 }

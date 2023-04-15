@@ -29,11 +29,15 @@
   "description": "Adobe Experience Platform - Core plugin for Cordova apps.",
   "quality": 114,
   "updated": "2022-11-06T21:19:48Z",
-  "versions": [
-    "0.0.1",
-    "1.0.0"
+  "author": {
+    "name": "Adobe"
+  },
+  "downloads": 2480,
+  "platforms": [
+    "ios",
+    "android"
   ],
-  "author": "Adobe",
+  "fork": false,
   "published": "2022-04-04T11:34:29.930Z",
-  "downloads": 2252
+  "license": "Apache 2.0"
 }

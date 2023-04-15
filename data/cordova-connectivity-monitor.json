@@ -9,13 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/appfeel/connectivity-monitor-cordova.git",
-  "author": "AppFeel",
-  "published": "2022-06-13T23:31:56.378Z",
-  "versions": [
-    "1.2.0",
-    "1.2.1",
-    "1.2.2"
-  ],
+  "author": {
+    "name": "AppFeel"
+  },
   "keywords": [
     "connectivity",
     "network state",
@@ -41,5 +37,12 @@
   "image": "https://avatars.githubusercontent.com/u/8643279?v=4",
   "quality": 111,
   "updated": "2017-01-23T08:24:36Z",
-  "downloads": 83
+  "downloads": 84,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:31:56.378Z",
+  "license": "MIT"
 }

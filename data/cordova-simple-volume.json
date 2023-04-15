@@ -10,16 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/injitools/cordova-simple-volume.git",
-  "author": "Boudewijn Geiger",
-  "published": "2022-04-27T17:54:20.860Z",
-  "versions": [
-    "0.0.3",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
+  "author": {
+    "name": "Boudewijn Geiger"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -37,5 +30,12 @@
   "image": "https://avatars.githubusercontent.com/u/9765406?v=4",
   "quality": 8,
   "updated": "2020-08-18T18:57:22Z",
-  "downloads": 15
+  "downloads": 14,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": true,
+  "published": "2022-04-27T17:54:20.860Z",
+  "license": "Apache 2.0"
 }

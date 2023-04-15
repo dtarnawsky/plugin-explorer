@@ -6,13 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://github.com/asephermann/capacitor-doze-optimize.git",
-  "author": "Asep Herman Nursalam",
-  "published": "2022-09-13T03:26:15.959Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3"
-  ],
+  "author": {
+    "name": "Asep Herman Nursalam"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -29,8 +25,15 @@
   "description": "White listing an Android application programmatically from battery optimize settings",
   "bugs": "https://github.com/asephermann/capacitor-doze-optimize/issues",
   "quality": 3,
-  "downloads": 89,
+  "downloads": 98,
   "stars": 1,
   "image": "https://avatars.githubusercontent.com/u/35249316?v=4",
-  "updated": "2022-12-23T12:12:23Z"
+  "updated": "2022-12-23T12:12:23Z",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": true,
+  "published": "2022-09-13T03:26:15.959Z",
+  "license": "MIT"
 }

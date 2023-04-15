@@ -7,18 +7,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/Adobe-Marketing-Cloud/mobile-services.git",
-  "author": "Adobe",
-  "published": "2022-06-13T02:27:05.397Z",
-  "versions": [
-    "4.7.0",
-    "4.13.1-cor",
-    "4.16.0-cor",
-    "4.16.1",
-    "4.17.0",
-    "4.19.3",
-    "4.19.4",
-    "4.19.5"
-  ],
+  "author": {
+    "name": "Adobe"
+  },
   "keywords": [
     "ecosystem:cordova",
     "ecosystem:phonegap",
@@ -39,7 +30,13 @@
   "bugs": "https://github.com/Adobe-Marketing-Cloud/mobile-services/issues",
   "stars": 176,
   "image": "https://avatars.githubusercontent.com/u/1440554?v=4",
-  "quality": 464,
+  "quality": 463,
   "updated": "2023-02-17T11:09:35Z",
-  "downloads": 610
+  "downloads": 596,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-06-13T02:27:05.397Z"
 }

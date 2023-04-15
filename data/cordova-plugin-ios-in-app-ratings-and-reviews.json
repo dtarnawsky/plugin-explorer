@@ -10,14 +10,10 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/jay2503/cordova-plugin-ios-in-app-ratings-and-reviews.git",
-  "author": "Jay Mehta <jaym2503@gmail.com>",
-  "published": "2022-06-14T00:22:45.383Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4"
-  ],
+  "author": {
+    "name": "Jay Mehta",
+    "email": "jaym2503@gmail.com"
+  },
   "keywords": [
     "cordova",
     "cordova-ios",
@@ -37,5 +33,11 @@
   "image": "https://avatars.githubusercontent.com/u/3516968?v=4",
   "quality": 112,
   "updated": "2022-12-08T12:11:19Z",
-  "downloads": 158
+  "downloads": 169,
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:22:45.383Z",
+  "license": "MIT"
 }

@@ -10,11 +10,11 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/leecrossley/cordova-plugin-jailbreak-detection.git",
-  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
-  "published": "2022-06-14T00:24:37.138Z",
-  "versions": [
-    "0.1.0"
-  ],
+  "author": {
+    "name": "Lee Crossley",
+    "email": "leee@hotmail.co.uk",
+    "url": "http://ilee.co.uk/"
+  },
   "keywords": [
     "cordova",
     "jailbreak",
@@ -34,8 +34,14 @@
   "description": "Cordova / PhoneGap Plugin for detecting if the device running the app is jailbroken.",
   "bugs": "https://github.com/leecrossley/cordova-plugin-jailbreak-detection/issues",
   "quality": 162,
-  "downloads": 1737,
+  "downloads": 1507,
   "stars": 37,
   "image": "https://avatars.githubusercontent.com/u/807783?v=4",
-  "updated": "2022-09-25T15:46:09Z"
+  "updated": "2022-09-25T15:46:09Z",
+  "platforms": [
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:24:37.138Z",
+  "license": "MIT"
 }

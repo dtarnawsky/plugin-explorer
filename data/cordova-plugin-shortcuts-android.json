@@ -8,13 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/avargaskun/cordova-plugin-shortcuts-android.git",
-  "author": "avargaskun",
-  "published": "2022-04-27T17:45:10.521Z",
-  "versions": [
-    "0.0.1",
-    "0.1.0",
-    "0.1.1"
-  ],
+  "author": {
+    "name": "avargaskun"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -34,5 +30,8 @@
   "image": "https://avatars.githubusercontent.com/u/7409759?v=4",
   "quality": 147,
   "updated": "2023-02-03T20:41:48Z",
-  "downloads": 246
+  "downloads": 228,
+  "fork": false,
+  "published": "2022-04-27T17:45:10.521Z",
+  "license": "MIT"
 }

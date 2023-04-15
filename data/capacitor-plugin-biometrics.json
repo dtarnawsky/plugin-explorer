@@ -2,16 +2,9 @@
   "name": "capacitor-plugin-biometrics",
   "version": "0.0.5",
   "success": [],
-  "repo": "https://github.com/TLongueira/capacitor-plugin-biometrics.git",
-  "author": "Tiago Longueira",
-  "published": "2022-04-12T05:15:59.923Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2",
-    "0.0.3",
-    "0.0.4",
-    "0.0.5"
-  ],
+  "author": {
+    "name": "Tiago Longueira"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +23,11 @@
   "description": "Implement native biometrics",
   "bugs": "https://github.com/TLongueira/capacitor-plugin-biometrics/issues",
   "quality": null,
-  "downloads": 9
+  "downloads": 8,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-04-12T05:15:59.923Z",
+  "license": "MIT"
 }

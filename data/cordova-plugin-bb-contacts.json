@@ -10,11 +10,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/blackberry/cordova-blackberry-plugins.git",
-  "author": "BlackBerry Limited",
-  "published": "2022-06-13T23:52:46.278Z",
-  "versions": [
-    "1.0.0"
-  ],
+  "author": {
+    "name": "BlackBerry Limited"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-blackberry10",
@@ -31,5 +29,11 @@
   "image": "https://avatars.githubusercontent.com/u/410445?v=4",
   "quality": 137,
   "updated": "2023-01-28T17:21:22Z",
-  "downloads": 33
+  "downloads": 13,
+  "platforms": [
+    "blackberry10"
+  ],
+  "fork": false,
+  "published": "2022-06-13T23:52:46.278Z",
+  "license": "Apache 2.0"
 }

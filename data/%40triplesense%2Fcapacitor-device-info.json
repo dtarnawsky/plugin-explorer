@@ -6,20 +6,9 @@
     "capacitor-ios-4"
   ],
   "repo": "https://gitlab.com/triplesense/capacitor-device-info.git",
-  "author": "Daniel Hoisel",
-  "published": "2022-12-26T21:17:46.749Z",
-  "versions": [
-    "0.0.3",
-    "0.0.4",
-    "0.0.5",
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0-0",
-    "1.2.0-1"
-  ],
+  "author": {
+    "name": "Daniel Hoisel"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -35,5 +24,11 @@
   ],
   "description": "_",
   "bugs": "https://gitlab.com/triplesense/capacitor-device-info/issues",
-  "downloads": 628
+  "downloads": 563,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-12-26T21:17:46.749Z",
+  "license": "MIT"
 }

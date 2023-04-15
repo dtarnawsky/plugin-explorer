@@ -8,41 +8,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner.git",
-  "author": "jatahworx",
-  "published": "2022-04-27T17:19:14.752Z",
-  "versions": [
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4",
-    "1.0.5",
-    "1.0.6",
-    "1.0.7",
-    "1.0.8",
-    "1.0.9",
-    "1.1.0",
-    "1.1.1",
-    "1.1.2",
-    "1.1.3",
-    "2.0.0",
-    "2.0.1",
-    "2.0.2",
-    "2.0.3",
-    "3.0.0",
-    "3.1.0",
-    "4.0.0",
-    "4.1.0",
-    "4.2.0",
-    "4.2.1",
-    "4.2.2",
-    "4.2.3",
-    "4.2.4",
-    "4.2.5",
-    "4.2.6",
-    "4.2.7",
-    "5.0.0-beta.0",
-    "5.0.0-beta.1"
-  ],
+  "author": {
+    "name": "jatahworx"
+  },
   "keywords": [
     "cordova",
     "camera",
@@ -68,5 +36,12 @@
   "image": "https://avatars.githubusercontent.com/u/36298190?v=4",
   "quality": 265,
   "updated": "2023-02-10T13:01:00Z",
-  "downloads": 542
+  "downloads": 544,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:19:14.752Z",
+  "license": "ISC"
 }

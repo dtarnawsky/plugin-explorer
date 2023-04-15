@@ -3,18 +3,10 @@
   "version": "1.0.0-beta.7",
   "success": [],
   "repo": "https://github.com/hamstudy/capacitor-mongodb-mobile.git",
-  "author": "Richard Bateman <richard@hamstudy.org>",
-  "published": "2022-04-05T16:46:55.747Z",
-  "versions": [
-    "1.0.0-beta.0",
-    "1.0.0-beta.1",
-    "1.0.0-beta.2",
-    "1.0.0-beta.3",
-    "1.0.0-beta.4",
-    "1.0.0-beta.5",
-    "1.0.0-beta.6",
-    "1.0.0-beta.7"
-  ],
+  "author": {
+    "name": "Richard Bateman",
+    "email": "richard@hamstudy.org"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -36,5 +28,12 @@
   "image": "https://avatars.githubusercontent.com/u/45740364?v=4",
   "quality": 105,
   "updated": "2022-06-24T03:19:13Z",
-  "downloads": 24
+  "downloads": 20,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-05T16:46:55.747Z",
+  "license": "MIT"
 }

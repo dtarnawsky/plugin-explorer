@@ -9,32 +9,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/apache/cordova-plugin-device-motion.git",
-  "author": "Apache Software Foundation",
-  "published": "2022-06-14T00:04:44.070Z",
-  "versions": [
-    "0.2.0",
-    "0.2.2",
-    "0.2.3",
-    "0.2.4",
-    "0.2.5",
-    "0.2.6",
-    "0.2.7",
-    "0.2.8",
-    "0.2.9",
-    "0.2.10",
-    "0.2.11",
-    "1.0.0",
-    "1.1.0",
-    "1.1.1",
-    "1.2.0",
-    "1.2.1",
-    "1.2.2",
-    "1.2.3",
-    "1.2.4",
-    "1.2.5",
-    "2.0.0",
-    "2.0.1"
-  ],
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "keywords": [
     "cordova",
     "device",
@@ -69,8 +46,25 @@
   "description": "[DEPRECATED] Cordova Device Motion Plugin",
   "bugs": "https://issues.apache.org/jira/browse/CB",
   "quality": 311,
-  "downloads": 29639,
+  "downloads": 27278,
   "stars": 70,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4",
-  "updated": "2023-03-02T21:21:30Z"
+  "updated": "2023-03-02T21:21:30Z",
+  "platforms": [
+    "firefoxos",
+    "android",
+    "amazon-fireos",
+    "ubuntu",
+    "ios",
+    "blackberry10",
+    "wp7",
+    "wp8",
+    "windows8",
+    "windows",
+    "tizen",
+    "browser"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:04:44.070Z",
+  "license": "Apache-2.0"
 }

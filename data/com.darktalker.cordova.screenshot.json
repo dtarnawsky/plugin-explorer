@@ -9,15 +9,9 @@
     "cordova-ios-6"
   ],
   "repo": "https://github.com/gitawego/cordova-screenshot.git",
-  "author": "Hongbo LU",
-  "published": "2022-06-13T06:32:55.140Z",
-  "versions": [
-    "0.1.1",
-    "0.1.3",
-    "0.1.4",
-    "0.1.5",
-    "0.1.6"
-  ],
+  "author": {
+    "name": "Hongbo LU"
+  },
   "keywords": [
     "cordova",
     "screenshot",
@@ -37,5 +31,13 @@
   "image": "https://avatars.githubusercontent.com/u/438120?v=4",
   "quality": 532,
   "updated": "2023-02-13T16:12:41Z",
-  "downloads": 6797
+  "downloads": 6948,
+  "platforms": [
+    "android",
+    "ios",
+    "osx"
+  ],
+  "fork": false,
+  "published": "2022-06-13T06:32:55.140Z",
+  "license": "MIT"
 }

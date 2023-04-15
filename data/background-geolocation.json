@@ -4,13 +4,9 @@
   "success": [
     "capacitor-ios-4"
   ],
-  "repo": "https://github.com.git",
-  "author": "Shreesh",
-  "published": "2023-02-28T08:17:23.055Z",
-  "versions": [
-    "0.0.1",
-    "0.0.2"
-  ],
+  "author": {
+    "name": "Shreesh"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,5 +24,11 @@
   "description": "This plugin tracks current location when the app is open or is in background",
   "bugs": "https://github.com/issues",
   "quality": null,
-  "downloads": 20
+  "downloads": 14,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2023-02-28T08:17:23.055Z",
+  "license": "MIT"
 }

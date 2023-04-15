@@ -2,14 +2,9 @@
   "name": "capacitor-vlc-plugin",
   "version": "0.0.7",
   "success": [],
-  "repo": "https://github.com/pstavrianidis/capacitor-vlc-plugin.git.git",
-  "author": "pstavrianidis",
-  "published": "2022-08-25T22:10:44.924Z",
-  "versions": [
-    "0.0.5",
-    "0.0.6",
-    "0.0.7"
-  ],
+  "author": {
+    "name": "pstavrianidis"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -28,5 +23,11 @@
   "description": "A vlc capacitor plugin for Ionic",
   "bugs": "https://github.com/pstavrianidis/capacitor-vlc-plugin.git/issues",
   "quality": null,
-  "downloads": 21
+  "downloads": 14,
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "published": "2022-08-25T22:10:44.924Z",
+  "license": "MIT"
 }

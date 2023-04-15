@@ -10,12 +10,9 @@
     "capacitor-ios-5"
   ],
   "repo": "https://github.com/tripflex/wifiwizard2.git",
-  "author": "Myles McNamara",
-  "published": "2022-04-27T17:51:32.325Z",
-  "versions": [
-    "3.1.0",
-    "3.1.1"
-  ],
+  "author": {
+    "name": "Myles McNamara"
+  },
   "keywords": [
     "ecosystem:cordova",
     "cordova-android",
@@ -36,7 +33,14 @@
   "bugs": "https://github.com/tripflex/wifiwizard2/issues",
   "stars": 118,
   "image": "https://avatars.githubusercontent.com/u/553732?v=4",
-  "quality": 398,
+  "quality": 400,
   "updated": "2023-03-25T07:25:47Z",
-  "downloads": 2861
+  "downloads": 3278,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-04-27T17:51:32.325Z",
+  "license": "Apache 2.0"
 }

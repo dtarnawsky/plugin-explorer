@@ -3,20 +3,9 @@
   "version": "2.3.10",
   "success": [],
   "repo": "https://github.com/rongcloud/cordova-plugin-rongcloud-im.git",
-  "author": "RongCloud",
-  "published": "2022-06-14T00:44:46.079Z",
-  "versions": [
-    "2.3.0",
-    "2.3.1",
-    "2.3.2",
-    "2.3.3",
-    "2.3.4",
-    "2.3.5",
-    "2.3.6",
-    "2.3.7",
-    "2.3.9",
-    "2.3.10"
-  ],
+  "author": {
+    "name": "RongCloud"
+  },
   "keywords": [
     "RongCloud",
     "IM",
@@ -40,5 +29,12 @@
   "image": "https://avatars.githubusercontent.com/u/65995217?v=4",
   "quality": 199,
   "updated": "2023-01-28T17:20:16Z",
-  "downloads": 27
+  "downloads": 26,
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "fork": false,
+  "published": "2022-06-14T00:44:46.079Z",
+  "license": "MIT"
 }

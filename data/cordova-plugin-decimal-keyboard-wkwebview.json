@@ -8,15 +8,6 @@
     "capacitor-android-5",
     "capacitor-ios-5"
   ],
-  "repo": "git://github.com/john-doherty/cordova-plugin-decimal-keyboard-wkwebview.git",
-  "published": "2022-04-27T17:18:19.133Z",
-  "versions": [
-    "1.0.0",
-    "1.0.1",
-    "1.0.2",
-    "1.0.3",
-    "1.0.4"
-  ],
   "fails": [
     "capacitor-ios-3",
     "capacitor-android-3",
@@ -25,5 +16,9 @@
   "description": "Cordova plugin decimal keyboard for wkwebview",
   "bugs": "https://github.com/john-doherty/cordova-plugin-decimal-keyboard-wkwebview/issues",
   "quality": null,
-  "downloads": 92
+  "downloads": 139,
+  "platforms": [
+    "ios"
+  ],
+  "published": "2022-04-27T17:18:19.133Z"
 }

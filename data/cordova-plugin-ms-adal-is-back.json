@@ -3,17 +3,9 @@
   "version": "0.10.10",
   "success": [],
   "repo": "https://github.com/Perroquiet/azure-activedirectory-library-for-cordova.git",
-  "author": "MSOpenTech",
-  "published": "2022-04-27T17:35:41.768Z",
-  "versions": [
-    "0.10.3",
-    "0.10.4",
-    "0.10.5",
-    "0.10.7",
-    "0.10.8",
-    "0.10.9",
-    "0.10.10"
-  ],
+  "author": {
+    "name": "MSOpenTech"
+  },
   "keywords": [
     "microsoft",
     "azure",
@@ -37,8 +29,16 @@
   "description": "Provides Microsoft Azure Active Directory (ADAL) OAuth client.",
   "bugs": "https://github.com/Perroquiet/azure-activedirectory-library-for-cordova/issues",
   "quality": 16,
-  "downloads": 124,
+  "downloads": 106,
   "stars": 3,
   "image": "https://avatars.githubusercontent.com/u/704556?v=4",
-  "updated": "2020-05-15T08:22:17Z"
+  "updated": "2020-05-15T08:22:17Z",
+  "platforms": [
+    "android",
+    "ios",
+    "windows"
+  ],
+  "fork": true,
+  "published": "2022-04-27T17:35:41.768Z",
+  "license": "Apache 2.0"
 }

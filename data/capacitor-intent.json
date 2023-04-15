@@ -5,11 +5,10 @@
     "capacitor-ios-3"
   ],
   "repo": "https://github.com/Fir3st/capacitor-intent.git",
-  "author": "Vladimir Fojtik <vladimir@fojtik.dev>",
-  "published": "2022-04-12T05:15:27.759Z",
-  "versions": [
-    "0.0.1"
-  ],
+  "author": {
+    "name": "Vladimir Fojtik",
+    "email": "vladimir@fojtik.dev"
+  },
   "keywords": [
     "capacitor",
     "plugin",
@@ -30,5 +29,11 @@
   "image": "https://avatars.githubusercontent.com/u/24609278?v=4",
   "quality": 101,
   "updated": "2022-01-19T06:24:40Z",
-  "downloads": 85
+  "downloads": 85,
+  "platforms": [
+    "android"
+  ],
+  "fork": false,
+  "published": "2022-04-12T05:15:27.759Z",
+  "license": "MIT"
 }
