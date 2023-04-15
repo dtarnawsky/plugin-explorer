@@ -8,7 +8,6 @@ import { prepare } from './prepare.js';
 const args = process.argv;
 const dep = args[2];
 
-debugger;
 if (hasArg('all', args)) {
     console.log('Inspecting all plugins...');
     go(readPluginList(), FilterType.all);
@@ -30,6 +29,15 @@ if (hasArg('all', args)) {
 
 async function go(plugins: string[], filterType: FilterType) {
     let count = 0;
+
+    // Where we only do iOS or Android tests
+    let android = hasArg('android', args);
+    let ios = hasArg('ios', args);
+    if (!android && !ios) {
+        android = true;
+        ios = true;
+    }
+
     for (const plugin of plugins) {
         count++;
         console.log(`Inspecting ${count} of ${plugins.length}: ${plugin}`);
@@ -69,6 +77,12 @@ async function go(plugins: string[], filterType: FilterType) {
         }
 
         for (const test of [capacitor5, cordova, capacitor4, capacitor3]) {
+            if (!android) {
+                test.android = Test.noOp;
+            }
+            if (!ios) {
+                test.ios = Test.noOp;
+            }
             const inspection = await inspect(plugin, test, filterType);
             catalog(inspection);
             const removePlugin = inspection.fails.includes(Test.failedInNPM);
